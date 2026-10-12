@@ -34,6 +34,7 @@ export const ui = [
   ["Đóng để đọc ký sự","关闭并阅读纪事","Close to read the chronicle"],
   ["Chưa vội đột phá","暂缓突破","Defer the breakthrough"],
   ["Tĩnh tâm suy xét","静心思量","Reflect in tranquility"],
+  ["Bế quan dưỡng đạo","闭关养道","Cultivation in seclusion"],
   ["Chuyển sang giao diện sáng","切换浅色主题","Switch to light theme"],
   ["Chuyển sang giao diện tối","切换深色主题","Switch to dark theme"],
   ["Người cầu đạo nhìn về sơn môn giữa núi cao và biển mây.","求道者遥望高山云海间的山门。","A seeker gazes toward a mountain sect above a sea of clouds."],

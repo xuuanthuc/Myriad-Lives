@@ -47,6 +47,10 @@ export function translate(value,language='vi') {
   if (language==='vi' || !value) return value;
   const direct=dictionary.get(value)?.[language];
   if (direct) return direct;
+  const retreat=/^Ngươi khép cửa tĩnh thất, chuyên tâm dưỡng đạo suốt (\d+) năm\. Khi xuất quan, cảnh vật đã đổi, còn thời gian lặng lẽ ghi thêm một đoạn trên tiên lộ\.$/u.exec(value);
+  if(retreat)return language==='zh'
+    ?`你闭守静室，专心养道${retreat[1]}年。出关之时，景物已有变化，时光也在仙途上悄然写下新的一段。`
+    :`You close your chamber and cultivate in seclusion for ${retreat[1]} years. Upon emerging, the landscape has changed, and time has quietly added another passage to your immortal journey.`;
   if (value.startsWith('Đột phá ')) return `${translate('Đột phá',language)} ${translate(value.slice(8),language)}`;
   const breakthrough=/^Sau nhiều năm tích lũy, ngươi vượt qua bình cảnh và tiến vào (.+)\. Linh lực đổi khác, thọ nguyên kéo dài, tiên lộ lại mở thêm một đoạn\.$/u.exec(value);
   if (breakthrough) {
