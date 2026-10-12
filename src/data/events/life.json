@@ -207,8 +207,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "conditions": {
       "sectStatus": "member"
@@ -245,8 +244,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "conditions": {
       "partnerStatus": "bonded"
@@ -282,8 +280,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 18
@@ -375,8 +372,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "choices": [
       {
@@ -492,8 +488,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "choices": [
       {

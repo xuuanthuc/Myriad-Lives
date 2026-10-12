@@ -31,8 +31,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 20
@@ -65,8 +64,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 32
@@ -100,8 +98,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 15,
@@ -136,8 +133,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 38,
@@ -172,8 +168,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 24
@@ -207,8 +202,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "resources": 14,
@@ -242,8 +236,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "conditions": {
       "resources": 15
@@ -281,8 +274,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "conditions": {
       "comprehension": 50
@@ -316,8 +308,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 35
@@ -351,8 +342,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 26,
@@ -387,8 +377,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": 22
@@ -432,8 +421,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "choices": [
       {
@@ -548,8 +536,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "choices": [
       {

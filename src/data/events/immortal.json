@@ -1,0 +1,164 @@
+[
+  {
+    "id": "immortal-true_immortal",
+    "category": "opportunity",
+    "title": "Tiên trì tẩy phàm",
+    "text": "Bên tiên trì, ngươi gột sạch tàn dư phàm khí trong kinh mạch. Tiên lực dần ổn định, những thương tổn cũ cũng dịu xuống sau lần tĩnh dưỡng.",
+    "weight": 16,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 2,
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "cultivation": 12,
+      "health": 15
+    },
+    "translations": {
+      "zh": {
+        "title": "仙池洗凡",
+        "text": "仙池旁，你洗去经脉中残留的凡气。仙力逐渐稳定，旧伤也在静养之后缓解。"
+      },
+      "en": {
+        "title": "Immortal pool cleansing",
+        "text": "Beside an immortal pool, you cleanse lingering mortal energy from your meridians. Your immortal power steadies, and old wounds ease after a period of rest."
+      }
+    }
+  },
+  {
+    "id": "immortal-golden_immortal",
+    "category": "opportunity",
+    "title": "Pháp tắc trong tiên văn",
+    "text": "Trong tiên điện cổ, ngươi đọc những tiên văn ghi lại dấu vết pháp tắc. Nhiều năm tham ngộ giúp linh lực thêm tinh thuần, tu vi tiến một đoạn.",
+    "weight": 16,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 2,
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "cultivation": 18
+    },
+    "translations": {
+      "zh": {
+        "title": "仙文法则",
+        "text": "古老仙殿中，你研读记录法则痕迹的仙文。多年参悟使灵力更加精纯，修为有所精进。"
+      },
+      "en": {
+        "title": "Laws within immortal inscriptions",
+        "text": "In an ancient immortal hall, you study inscriptions bearing traces of universal laws. Years of contemplation refine your energy and advance your cultivation."
+      }
+    }
+  },
+  {
+    "id": "immortal-mystic_immortal",
+    "category": "opportunity",
+    "title": "Huyền ý giữa hư không",
+    "text": "Giữa vùng hư không tĩnh lặng, ngươi quan sát những luồng tiên khí giao hội. Một phần huyền ý dần sáng tỏ, giúp tu vi tích lũy thêm trước khi trở về.",
+    "weight": 16,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 2,
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "虚空玄意",
+        "text": "寂静虚空中，你观察仙气交汇。一缕玄意渐渐明晰，归来之前又积下修为。"
+      },
+      "en": {
+        "title": "Mysteries within the void",
+        "text": "Within a silent stretch of void, you observe currents of immortal energy converging. A hidden meaning grows clearer, adding to your cultivation before you return."
+      }
+    }
+  },
+  {
+    "id": "immortal-immortal_king",
+    "category": "opportunity",
+    "title": "Cơ duyên giữa tiên vực",
+    "text": "Ngươi tìm được linh mạch cổ giữa tiên vực hoang vắng. Sau khi dựng trận bảo hộ, một phần tiên thạch được thu lấy để chuẩn bị cho lần đột phá.",
+    "weight": 16,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 2,
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "resources": 35
+    },
+    "translations": {
+      "zh": {
+        "title": "仙域机缘",
+        "text": "荒凉仙域中，你发现古老灵脉。布下护阵后，收取部分仙石，为下一次突破做准备。"
+      },
+      "en": {
+        "title": "Fortune across the immortal domain",
+        "text": "In a deserted immortal domain, you discover an ancient spirit vein. After setting protective formations, you gather immortal stones to prepare for your next breakthrough."
+      }
+    }
+  },
+  {
+    "id": "immortal-immortal_emperor",
+    "category": "opportunity",
+    "title": "Đạo âm từ vạn giới",
+    "text": "Trong lần tĩnh tọa dài lâu, ngươi cảm nhận đạo âm vọng về từ vạn giới. Những điều từng khó hiểu dần sáng tỏ, tu vi tiến gần bình cảnh cuối.",
+    "weight": 16,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 2,
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "万界道音",
+        "text": "漫长静坐中，你感受到万界传来的道音。昔日难解之处渐渐清晰，修为逼近最后的瓶颈。"
+      },
+      "en": {
+        "title": "Echoes of the Dao across worlds",
+        "text": "During lengthy meditation, you hear echoes of the Dao from countless worlds. Once obscure truths become clearer, bringing your cultivation nearer to its final bottleneck."
+      }
+    }
+  },
+  {
+    "id": "immortal-void-storm",
+    "category": "disaster",
+    "title": "Phong bạo giữa tiên vực",
+    "text": "Phong bạo hư không bất ngờ tràn qua nơi ngươi tĩnh tu. Ngươi dùng tiên thạch giữ trận, thoát khỏi vòng xoáy nhưng thân thể vẫn chịu thương tổn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 2000,
+    "maxOccurrencesPerLife": 2,
+    "allowedRealms": [
+      "true_immortal",
+      "golden_immortal",
+      "mystic_immortal",
+      "immortal_king",
+      "immortal_emperor"
+    ],
+    "effects": {
+      "health": -14,
+      "resources": -12
+    },
+    "translations": {
+      "zh": {
+        "title": "仙域虚空风暴",
+        "text": "虚空风暴突然席卷静修之地。你用仙石维持阵法，逃出漩涡，身体却仍留下伤势。"
+      },
+      "en": {
+        "title": "Void storm in the immortal domain",
+        "text": "A void storm suddenly sweeps through your retreat. You spend immortal stones to sustain your formation, escaping the vortex but still suffering injuries."
+      }
+    }
+  }
+]

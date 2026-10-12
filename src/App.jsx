@@ -1,3 +1,9 @@
+import HistoryPage from './components/HistoryPage.jsx';
+import {summarizeLife,archiveLife,historyWithCompletedLife} from './engine/lifeHistory.js';
+import FateCardPreview from './components/FateCardPreview.jsx';
+import {prepareFateCard} from './utils/fateCard.js';
+import {createActionLock} from './utils/actionLock.js';
+import {loadBrowserSave,saveBrowserState} from './engine/browserSave.js';
 import HomePage from './components/HomePage.jsx';
 import AnimatedNumber from './components/AnimatedNumber.jsx';
 import AssetIcon from './components/AssetIcon.jsx';
@@ -15,7 +21,8 @@ import {PLAYBACK_SPEEDS} from './engine/playback.js';
 function Mountains(){return <svg className="mountains" viewBox="0 0 1400 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="mist" x2="0" y2="1"><stop stopColor="#82988a" stopOpacity=".2"/><stop offset="1" stopColor="#e9ede4" stopOpacity=".1"/></linearGradient></defs><circle cx="1040" cy="130" r="68" fill="#c4ac76" opacity=".18"/><path d="M0 530 120 340 210 390 340 160 420 260 510 210 650 440 770 350 900 160 960 220 1050 70 1160 290 1260 230 1400 460V620H0Z" fill="url(#mist)"/><path d="m0 580 200-170 140 80 190-180 150 140 100-80 170 110 170-230 120 140 160-70v300H0Z" fill="#6e897b" opacity=".10"/><path d="m0 610 250-120 170 65 200-80 200 95 240-120 340 110v60H0Z" fill="#466857" opacity=".08"/><path d="m1035 510 8-125 6 125m-4-100-25-22m25 5 20-20" stroke="#526e5d" strokeWidth="3" opacity=".3"/></svg>}
 
 export default function App() {
-  const [language,setLanguage]=useState('vi');
+  const [restored]=useState(loadBrowserSave);
+  const [language,setLanguage]=useState(restored?.language||'vi');
   const [theme,setTheme]=useState(()=>{
     try{const saved=localStorage.getItem('myriad-lives-theme');if(saved==='light'||saved==='dark')return saved;}catch{}
     return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
@@ -24,18 +31,30 @@ export default function App() {
     document.documentElement.dataset.theme=theme;
     try{localStorage.setItem('myriad-lives-theme',theme);}catch{}
   },[theme]);
-  const [page,setPage]=useState(()=>window.location.hash==='#/cultivation'?'game':'home');
+  const [page,setPage]=useState(()=>window.location.hash==='#/cultivation'?'game':window.location.hash==='#/history'?'history':'home');
   const [codexOpen,setCodexOpen]=useState(false);
-  useEffect(()=>{const navigate=()=>{setPage(window.location.hash==='#/cultivation'?'game':'home');setGuide(false);setCodexOpen(false);window.scrollTo({top:0,behavior:'instant'});};window.addEventListener('hashchange',navigate);return ()=>window.removeEventListener('hashchange',navigate);},[]);
-  const [session,setSession]=useState({runCount:0,pityCount:0});
-  const [engineRun,setEngineRun]=useState(null);
-  const [speed,setSpeed]=useState(1);
-  const [paused,setPaused]=useState(false);
-  const {run,playing,progress}=useLifePlayback(engineRun,speed,paused||page!=='game');
+  useEffect(()=>{const navigate=()=>{setPage(window.location.hash==='#/cultivation'?'game':window.location.hash==='#/history'?'history':'home');setCodexOpen(false);window.scrollTo({top:0,behavior:'instant'});};window.addEventListener('hashchange',navigate);return ()=>window.removeEventListener('hashchange',navigate);},[]);
+  const [session,setSession]=useState(()=>restored?.session||{runCount:0,pityCount:0});
+  const [engineRun,setEngineRun]=useState(()=>restored?.engineRun||null);
+  const [history,setHistory]=useState(()=>restored?.history||[]);
+  const [speed,setSpeed]=useState(restored?.speed||1);
+  const [paused,setPaused]=useState(restored?.paused||false);
+  const {run,playing,progress,getPlayback}=useLifePlayback(engineRun,speed,paused||page!=='game',restored?.playback);
+  const finished=run?.phase==='finished';
+  const visibleHistory=historyWithCompletedLife(history,run);
+  const saveState=useRef(null);
+  saveState.current={engineRun,session,language,speed,paused,history:visibleHistory};
+  useEffect(()=>{
+    const save=()=>saveBrowserState({...saveState.current,playback:getPlayback()});
+    save();
+    const interval=setInterval(save,1000);
+    window.addEventListener('pagehide',save);
+    document.addEventListener('visibilitychange',save);
+    return ()=>{clearInterval(interval);window.removeEventListener('pagehide',save);document.removeEventListener('visibilitychange',save);};
+  },[engineRun,session,language,speed,paused,history,finished,getPlayback]);
   const actionLock=useRef(false);
   useEffect(()=>{actionLock.current=false;},[engineRun]);
   const [error,setError]=useState(false);
-  const [guide,setGuide]=useState(false);
   const firstLifeStarted=useRef(false);
   useEffect(()=>{
     if(page!=='game'||engineRun||firstLifeStarted.current)return;
@@ -47,22 +66,32 @@ export default function App() {
       setEngineRun(result.run);
     }catch(e){console.error(e);setError(true);}
   },[page,engineRun,session]);
-  const finished=run?.phase==='finished';
+  const [sharing,setSharing]=useState(false);
+  const [sharePreview,setSharePreview]=useState(null);
+  const shareLock=useRef(createActionLock());
+  const [shareError,setShareError]=useState(false);
+  useEffect(()=>setShareError(false),[run?.number]);
+  async function shareEnding(){
+    if(!finished||!shareLock.current.acquire())return;
+    setSharing(true);setShareError(false);
+    try{const blob=await prepareFateCard(summarizeLife(run),language);setSharePreview({blob,number:run.number});}catch(e){console.error(e);setShareError(true);shareLock.current.release();}finally{setSharing(false);}
+  }
   const t=value=>translate(value,language);
   useEffect(()=>{document.documentElement.lang=language==='zh'?'zh-CN':language;document.title=language==='zh'?'万劫 · Myriad Lives':language==='en'?'Myriad Lives · A cultivation journey':'Vạn Kiếp · Myriad Lives';},[language]);
   function act(fn){try{setError(false);fn();}catch(e){console.error(e);setError(true);}}
-  function reincarnate(){act(()=>{const result=startLife(session);setSession(result.nextSession);setPaused(false);setEngineRun(result.run);});}
+  function reincarnate(){if(shareLock.current.isLocked())return;act(()=>{const result=startLife(session);if(run)setHistory(previous=>archiveLife(previous,summarizeLife(run)));setSession(result.nextSession);setPaused(false);setEngineRun(result.run);});}
   function resolveChoice(optionId,automatic=false){if(playing||actionLock.current||engineRun?.phase!=='awaiting_choice')return;actionLock.current=true;act(()=>{setPaused(false);setEngineRun(automatic?autoUntilBreakthrough(engineRun):chooseOption(engineRun,optionId));});}
   const playbackControls=run&&(<section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
-          <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
+          <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" disabled={sharing||!!sharePreview} onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
           <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span>{Math.floor(progress)}%</span></div>
           <progress className="playback-progress" max="10000" value={progress*100} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
         </section>);
   return <div className={'site lang-'+language}>
+    {sharePreview&&<FateCardPreview card={sharePreview} t={t} onClose={()=>{setSharePreview(null);shareLock.current.release();}}/>}
     <header className="header">
-      <a className="brand" href="#/"><span className="brand-mark">萬</span><span>MYRIAD LIVES<small>{t('VẠN KIẾP')}</small></span></a>
+      <a className="brand" href="#/" aria-label={'Myriad Lives · '+t('Trang chủ')}><img className="brand-logo" src={`${import.meta.env.BASE_URL}assets/images/${theme==='dark'?'myriad-lives-logo-ink-dark.png':'myriad-lives-logo-ink.png'}`} width="2172" height="724" alt="Myriad Lives"/></a>
       <div className="header-right">
-        {page==='game'&&<nav className="page-navigation" aria-label={t('Điều hướng')}><a href="#/">{t('Trang chủ')}</a></nav>}
+        <nav className="page-navigation" aria-label={t('Điều hướng')}>{page!=='home'&&<a href="#/">{t('Trang chủ')}</a>}{page==='history'?<a href="#/cultivation">{t('Tu tiên')}</a>:<a href="#/history">{t('Lịch sử')}</a>}</nav>
         <CultivationGuide t={t} run={run} open={codexOpen} onOpenChange={setCodexOpen} showTrigger={page==='game'}/>
         <span className="session"><i/>{session.runCount===0?t('Tiên lộ chưa mở'):session.runCount+t(' kiếp đã trải')}</span>
         <div className="display-preferences">
@@ -72,12 +101,10 @@ export default function App() {
         </div>
         <button className="theme-toggle" type="button" onClick={()=>setTheme(theme==='dark'?'light':'dark')} aria-pressed={theme==='dark'} aria-label={t(theme==='dark'?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối')} title={t(theme==='dark'?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối')}><AssetIcon file="circle-half-stroke-solid-full.svg"/></button>
         </div>
-        <button className="text-button" onClick={()=>setGuide(!guide)} aria-expanded={guide}>{t('Cách chơi')} <ArrowIcon direction={guide?'up':'down'}/></button>
       </div>
     </header>
-    {guide&&<aside className="guide"><b>{t('Một đời, một số mệnh.')}</b>{t('Bước vào luân hồi để gieo một số mệnh mới. Trên đường cầu đạo, hãy chọn lối đi khi gặp ngã rẽ; đến lúc chạm bình cảnh, đọc lại ký sự rồi thử đột phá. Có thể tạm dừng hoặc đổi tốc độ để thong thả dõi theo một đời. Tải lại trang, mọi dấu tích của phiên này sẽ tan theo mây khói.')}<button onClick={()=>setGuide(false)} aria-label={t('Đóng hướng dẫn')}>×</button></aside>}
     <main>
-      {page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
+      {page==='history'?<HistoryPage history={visibleHistory} current={run?summarizeLife(run,finished?'finished':'active'):null} t={t} language={language}/>:page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
       <div className="cultivation-backdrop" aria-hidden="true"><img src={`${import.meta.env.BASE_URL}assets/images/cultivation-retreat.jpg`} width="1536" height="1024" alt="" decoding="async"/></div>
       <section className={'hero '+(run?'compact':'')}>
         <div className="hero-content">
@@ -88,7 +115,7 @@ export default function App() {
         </div>
         <div className="vertical-poem">{t('NHẤT NIỆM KHỞI · VẠN KIẾP SINH')}</div>
       </section>
-      {error&&<div role="alert" className="error">{t('Tiên cơ tạm gián đoạn.')}<button onClick={reincarnate}>{t('Thử một kiếp mới')}</button></div>}
+      {error&&<div role="alert" className="error">{t('Tiên cơ tạm gián đoạn.')}<button disabled={sharing||!!sharePreview} onClick={reincarnate}>{t('Thử một kiếp mới')}</button></div>}
       {run&&<section className="game">
         <div className="section-heading"><p className="eyebrow">{t('THIÊN MỆNH QUYỂN · KIẾP')} {String(run.number).padStart(3,'0')}</p><span className="world">◈ {t(run.world.descriptor)}</span></div>
 
@@ -110,9 +137,9 @@ export default function App() {
             {run.pendingChoice&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}>
             {run.pendingChoice?.kind==='breakthrough'&&<section className="choice-card breakthrough-card" aria-live="polite">
               <p className="eyebrow">✦ {t('Đang chờ đột phá')} · {run.state.age} {t('tuổi')}</p>
-              <h2>{t(realms[run.state.realm].name)} · {t(stageName(run.state))} <ArrowIcon/> {t(run.pendingChoice.targetRealm===null?'Phi thăng':realms[run.pendingChoice.targetRealm].name)}</h2>
-              <p>{t('Tu vi đã viên mãn, chỉ còn một bước vượt qua bình cảnh. Hãy thong thả nhìn lại đoạn tiên lộ vừa qua; khi tâm ý đã định, thử đột phá để biết thiên mệnh. Chừng nào chưa quyết, thời gian vẫn dừng tại đây.')}</p>
-              <button className="primary" onClick={()=>resolveChoice('attempt')}>{t('Thử đột phá')} <ArrowIcon/></button>
+              <h2>{t(realms[run.state.realm].name)} · {t(stageName(run.state))} <ArrowIcon/> {t(run.pendingChoice.targetRealm===null?'Chứng đạo':realms[run.pendingChoice.targetRealm].name)}</h2>
+              <p>{t(run.pendingChoice.tribulation||run.pendingChoice.targetRealm===null?run.pendingChoice.prompt:'Tu vi đã viên mãn, chỉ còn một bước vượt qua bình cảnh. Hãy thong thả nhìn lại đoạn tiên lộ vừa qua; khi tâm ý đã định, thử đột phá để biết thiên mệnh. Chừng nào chưa quyết, thời gian vẫn dừng tại đây.')}</p>
+              <button className="primary" onClick={()=>resolveChoice('attempt')}>{t(run.pendingChoice.options[0].text)} <ArrowIcon/></button>
             </section>}
             {run.pendingChoice&&run.pendingChoice.kind!=='breakthrough'&&<section className="choice-card" aria-live="polite">
               <p className="eyebrow">✦ {t('NGÃ RẼ SỐ MỆNH')} · {run.state.age} {t('tuổi')}</p>
@@ -122,9 +149,10 @@ export default function App() {
             </section>}
             </ChoiceDialog>}
             {finished&&<section className="ending-card" aria-live="polite">
-              <span className="ending-symbol">{run.result.endingType==='ascension'?'仙':'終'}</span><p className="eyebrow">{t('KẾT CỤC KIẾP NÀY')}</p><h2>{t(run.result.endingReason)}</h2>
+              <span className="ending-symbol">{run.result.endingType==='transcendence'?'仙':'終'}</span><p className="eyebrow">{t('KẾT CỤC KIẾP NÀY')}</p><h2>{t(run.result.endingReason)}</h2>
               <p>{t('Cảnh giới cao nhất')}: <b>{t(realms[run.result.highestRealm].name)}{run.result.highestRealm>0?' · '+t(stageName({realm:run.result.highestRealm,subrealm:run.result.highestSubrealm})):''}</b> · {run.state.age} {t('tuổi')}</p>
-              <p className="ending-quote">{t('“Một kiếp khép lại. Vạn kiếp vẫn còn phía trước.”')}</p><button className="primary" onClick={reincarnate}>⟳ {t('Luân hồi lần nữa')} <ArrowIcon/></button>
+              <p className="ending-quote">{t('“Một kiếp khép lại. Vạn kiếp vẫn còn phía trước.”')}</p><div className="ending-actions"><button className="primary" disabled={sharing||!!sharePreview} onClick={reincarnate}>⟳ {t('Luân hồi lần nữa')} <ArrowIcon/></button><button type="button" className="ending-share" disabled={sharing||!!sharePreview} onClick={shareEnding}>{t(sharing?'Đang tạo ảnh…':'Chia sẻ ảnh')}</button></div>
+              {shareError&&<p role="alert">{t('Chưa xuất được ảnh. Hãy thử lại.')}</p>}
             </section>}
             </LifeActivity>
           </div>

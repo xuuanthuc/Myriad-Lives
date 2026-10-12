@@ -92,7 +92,7 @@ export default function LifeActivity({run,t,children,toolbar}) {
       <div className="heatmap-legend" aria-label={t('Chú giải')}>
         {eventColors.map(([type,label])=><span key={type}><i className={'type-'+type} aria-hidden="true"/>{t(label)}</span>)}
       </div>
-      <div className="life-heatmap">
+      <div className="life-heatmap" style={{gridTemplateColumns:`repeat(${realms.length},minmax(0,1fr))`}}>
         {realms.map((realm,index)=>{
           const realmFacts=run.facts.filter(fact=>fact.realm===index);
           return <div key={realm.id} className={'heatmap-realm'+(page===index?' current':'')} role="group" aria-label={t(realm.name)}>

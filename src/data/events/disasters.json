@@ -71,8 +71,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "health": -22
@@ -130,8 +129,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "health": -28
@@ -189,8 +187,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "health": -15,
@@ -225,8 +222,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "health": -20,
@@ -259,8 +255,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "cultivation": -30
@@ -293,8 +288,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "effects": {
       "resources": -20
@@ -440,8 +434,7 @@
       "spirit_transformation",
       "void_refining",
       "body_integration",
-      "mahayana",
-      "tribulation"
+      "mahayana"
     ],
     "choices": [
       {

@@ -34,5 +34,5 @@ export const legacy = {
 export const endingsLocales={
   birth:['你出生于{origin}，恰逢安静的换季时节。无人知晓，这个孩子会在求道之路上走多远。','You are born into {origin} as the seasons quietly change. No one yet knows how far this child will travel along the path toward the Dao.'],
   age:['寿元耗尽，你静坐望着最后一次夕阳。旅途就此落幕，求道之路上只留下渐淡的足迹。','Your lifespan is exhausted. You sit quietly before your final sunset as the journey closes, leaving only fading footprints on the long road toward the Dao.'],
-  ascend:['渡过最后一场天劫，你迈入仙界之门。云天让开道路，一生修行终于抵达新的彼岸。','Having survived the final heavenly tribulation, you enter the gates of the immortal realm. The clouds part, and a lifetime of cultivation reaches a new shore.'],
+  ascend:['仙帝之巅，你突破最后的瓶颈，证成大道。一生求道就此落幕，名字仍留在万界之间。','At the summit of Immortal Emperor, you overcome the final bottleneck and realize the great Dao. Your lifelong journey ends, leaving your name across countless worlds.'],
 };

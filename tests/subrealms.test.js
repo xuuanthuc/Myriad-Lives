@@ -1,3 +1,4 @@
+import {realms} from '../src/data/realms.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {stageIndex,stageName,stagesForRealm} from '../src/data/subrealms.js';
@@ -13,8 +14,8 @@ test('minor stages cover each cultivation realm and translate',()=>{
   assert.equal(stageIndex(2,100/3),1);
   assert.equal(stageIndex(2,200/3),2);
   assert.equal(stageIndex(2,100),2);
-  for(let realm=2;realm<=9;realm++)assert.equal(stagesForRealm(realm).length,3);
-  for(let realm=1;realm<=9;realm++)for(const name of stagesForRealm(realm)){
+  for(let realm=2;realm<realms.length;realm++)assert.equal(stagesForRealm(realm).length,3);
+  for(let realm=1;realm<realms.length;realm++)for(const name of stagesForRealm(realm)){
     for(const language of ['zh','en'])assert.notEqual(translate(name,language),name);
   }
 });

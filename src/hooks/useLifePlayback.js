@@ -1,16 +1,20 @@
-import {useEffect,useRef,useState} from 'react';
+import {useCallback,useEffect,useRef,useState} from 'react';
 import {advancePlayback,visibleRun,EVENT_DURATION_MS} from '../engine/playback.js';
 
-export default function useLifePlayback(target,speed,paused) {
-  const [playback,setPlayback]=useState({number:0,count:1,from:1,elapsed:0});
+export default function useLifePlayback(target,speed,paused,restoredPlayback) {
+  const [playback,setPlayback]=useState(()=>restoredPlayback||{number:0,count:1,from:1,elapsed:0});
   const current=useRef(playback);
+  const lastTarget=useRef(null);
+  const getPlayback=useCallback(()=>({...current.current}),[]);
   const controls=useRef({speed,paused});
   controls.current={speed,paused};
   useEffect(()=>{
     if(!target)return;
     const previous=current.current;
     const count=previous.number===target.number?Math.min(previous.count,target.facts.length):1;
-    current.current={number:target.number,count,from:count,elapsed:0};
+    const continuing=previous.number===target.number&&(lastTarget.current===null||lastTarget.current===target);
+    lastTarget.current=target;
+    current.current=continuing?previous:{number:target.number,count,from:count,elapsed:0};
     setPlayback(current.current);
     if(count>=target.facts.length)return;
     let last=performance.now();
@@ -37,5 +41,5 @@ export default function useLifePlayback(target,speed,paused) {
   const playing=!!target&&count<target.facts.length;
   const remaining=target?target.facts.length-playback.from:0;
   const progress=!playing?100:target.number!==playback.number?0:Math.min(100,100*(count-playback.from+playback.elapsed/EVENT_DURATION_MS)/Math.max(1,remaining));
-  return {run:visibleRun(target,count),playing,progress};
+  return {run:visibleRun(target,count),playing,progress,getPlayback};
 }

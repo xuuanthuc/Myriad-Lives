@@ -10,16 +10,18 @@ Tốc độ kể chuyện **x1 / x2 / x4**, mặc định x1: mỗi mốc mới 
 
 Kiểm tra: npm test (10.000 kiếp) và npm run build.
 
-**Dừng trước đột phá:** đủ tu vi thì engine trả về mốc chờ, chưa roll kết quả hay tiến tuổi thêm. Sau khi nhật ký chặng đã hiện hết, chỉ có nút **Thử đột phá**. Người chơi có thể đọc lại tự do; bấm mới roll thành/bại, chạy và kể chặng tiếp theo. Thất bại thì tích lũy lại, lần thử sau tiếp tục chờ xác nhận. Lần Độ Kiếp để Phi thăng cũng phải xác nhận. Nút tự động trong UI xử lý lựa chọn sự kiện thường nhưng dừng ở mốc đột phá kế tiếp; `autoComplete()` vẫn được giữ cho kiểm thử engine hàng loạt.
+**Dừng trước đột phá:** đủ tu vi thì engine trả về mốc chờ, chưa roll kết quả hay tiến tuổi thêm. Sau khi nhật ký chặng đã hiện hết, chỉ có nút **Thử đột phá**. Người chơi có thể đọc lại tự do; bấm mới roll thành/bại, chạy và kể chặng tiếp theo. Thất bại thì tích lũy lại, lần thử sau tiếp tục chờ xác nhận. Đại Thừa vượt thiên kiếp sau khi xác nhận để phi thăng thành Chân Tiên, tiếp tục Kim Tiên → Huyền Tiên → Tiên Vương → Tiên Đế. Tiên Đế Hậu kỳ chứng đạo mới kết thúc thành công. Nút tự động trong UI xử lý lựa chọn sự kiện thường nhưng dừng ở mốc đột phá kế tiếp; `autoComplete()` vẫn được giữ cho kiểm thử engine hàng loạt.
 
-Luân hồi sinh nhân vật và thế giới mới, mô phỏng đến ngã rẽ hoặc kết cục. Có lựa chọn và Tự động hoàn tất. Pity chỉ đổi khi sinh hồ sơ. Tải lại trang reset toàn bộ phiên.
+Luân hồi sinh nhân vật và thế giới mới, mô phỏng đến ngã rẽ hoặc kết cục. Có lựa chọn và Tự động hoàn tất. Pity chỉ đổi khi sinh hồ sơ. Kiếp hiện tại, số lần luân hồi, pity và trạng thái RNG được tự lưu trong localStorage (`myriad-lives-save`, schema v1). Lưu khi đổi trạng thái, mỗi giây và khi rời trang. Refresh tiếp tục đúng vị trí đọc và phần tiến độ đang chạy, kể cả khi chờ lựa chọn hoặc đột phá. Kết cục cũng được giữ để luân hồi tiếp; không tự sinh kiếp khác khi tải lại.
 
 **20 xuất thân** với phân phối trọng số và tài nguyên khởi đầu khác nhau. Bốn xuất thân sinh trong tông môn: con tạp dịch, con đệ tử, hậu duệ trưởng lão, trẻ được thu dưỡng. Ban đầu là cư dân tông môn; có linh căn mới thành đệ tử khi nhập đạo. Trẻ không linh căn được trắc linh lúc 6 tuổi, có thể ở lại, xuống núi hoặc chết ở tuổi 7–14 do bị ép dẫn khí. Nguy cơ phụ thuộc khí vận và hiểm họa thế giới, không phải kết cục bắt buộc. Bảng cẩm nang liệt kê toàn bộ xuất thân và tài nguyên ban đầu.
 
-Chọn **Việt / 中文 / English** tại đầu trang. Đổi ngôn ngữ giữa kiếp dịch lại giao diện, hồ sơ, tên nhân vật, nhật ký, lựa chọn và kết cục ngay lập tức, giữ nguyên số mệnh và pity. Ngôn ngữ cũng nằm trong RAM; tải lại trở về tiếng Việt.
+Chọn **Việt / 中文 / English** tại đầu trang. Đổi ngôn ngữ giữa kiếp dịch lại giao diện, hồ sơ, tên nhân vật, nhật ký, lựa chọn và kết cục ngay lập tức, giữ nguyên số mệnh và pity. Ngôn ngữ, tốc độ và trạng thái tạm dừng được lưu cùng kiếp; theme được lưu riêng. Dữ liệu thuộc trình duyệt và địa chỉ web hiện tại, không đồng bộ tài khoản.
 
 Kho nội dung gồm **60 sự kiện**, trong đó **14 sự kiện có lựa chọn** và **102 đoạn kể** (mô tả sự kiện cùng kết quả lựa chọn). Mỗi đoạn có bản Việt, Trung giản thể và Anh. Các sự kiện lọc theo tuổi, cảnh giới, tài nguyên, tông môn hoặc đạo lữ; mỗi sự kiện chỉ xuất hiện một lần trong một kiếp.
 
 Kho dữ liệu nằm trong `src/data/events/*.json`. Bản dịch sự kiện mới nằm trong trường `translations`; bản dịch 10 sự kiện gốc nằm tại `src/i18n/legacy.js`. Giao diện, cảnh giới và hồ sơ nằm trong `src/i18n/ui.js`. Bộ kiểm tra build xác nhận bản dịch đầy đủ, 15–35 từ cho Việt/Anh và 15–160 ký tự cho Trung (không đếm từ theo khoảng trắng). Nội dung vẫn cần cân bằng và mở rộng thêm để đạt mục tiêu MVP 100–150 sự kiện trong GDD.
 
 Đã có firebase.json cho dist. Liên kết Firebase project rồi chạy npm run build và firebase deploy --only hosting. Chưa triển khai hosting.
+
+Tab **Lịch sử** (`#/history`) lưu hồ sơ cơ bản, tuổi, cảnh giới và kết cục từng kiếp, gồm kiếp luân hồi sớm. Không lưu timeline cho kiếp cũ. Kiếp hiện tại chỉ hiển thị tới mốc đã kể. Card có Tải ảnh PNG và Chia sẻ ảnh qua Web Share khi thiết bị hỗ trợ; nếu không hỗ trợ thì tải ảnh xuống. Lịch sử lưu cùng bản lưu trình duyệt, bản lưu cũ chưa có lịch sử vẫn đọc được.

@@ -66,7 +66,7 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
         </section>
         <section>
           <h3>{t('Cảnh giới')}</h3><p className="codex-description">{t('Luyện Khí có chín tầng; từ Trúc Cơ trở lên chia Sơ kỳ, Trung kỳ và Hậu kỳ. Tiểu cảnh giới tiến theo tu vi; đủ tích lũy mới có thể thử đột phá đại cảnh giới.')}</p>
-          <p className="codex-description">{t('Từ phàm tục đến Độ Kiếp, mỗi cảnh giới là một bậc trên đường cầu đạo. Tích đủ tu vi rồi thử phá bình cảnh; chỉ khi đột phá thành công mới bước lên bậc tiếp theo.')}</p>
+          <p className="codex-description">{t('Từ phàm tục đến Tiên Đế, mỗi cảnh giới là một bậc trên đường cầu đạo. Tích đủ tu vi rồi thử phá bình cảnh; chỉ khi đột phá thành công mới bước lên bậc tiếp theo.')}</p>
           <ol className="codex-realm-list" aria-label={t('Thứ tự cảnh giới và thọ nguyên cơ sở')}>
             {realms.map((realm,index)=>{
               const current=run?.state.realm===index;
@@ -77,6 +77,7 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
                   <strong>{t(realm.name)}{current&&<small className="codex-badge">{t('Kiếp này')}</small>}</strong>
                   <span className="codex-realm-lifespan"><small>{t('Thọ nguyên cơ sở')}</small>{index===0?'70–95':realm.lifespan.toLocaleString('en-US')} {t('tuổi')}</span>
                 </div>
+                {index===9&&<p className="codex-note">{t('Đại Thừa vượt thiên kiếp, phi thăng thành Chân Tiên.')}</p>}
                 {stages.length>0&&<ol className="codex-subrealm-list" aria-label={t('Tiểu cảnh giới')}>
                   {stages.map((name,stage)=>{
                     if(index===1&&stage>=3&&stage<=6)return stage===3?<li key="ellipsis" aria-hidden="true"><ArrowIcon/><span>…</span></li>:null;
@@ -88,9 +89,9 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
                 </ol>}
               </li>;
             })}
-            <li className="codex-realm-item codex-ascension"><div className="codex-realm-summary"><span className="codex-rank">✦</span><strong>{t('Phi thăng')}</strong><span className="codex-realm-lifespan">{t('Kết cục thành công')}</span></div></li>
+            <li className="codex-realm-item codex-ascension"><div className="codex-realm-summary"><span className="codex-rank">✦</span><strong>{t('Chứng đạo Tiên Đế')}</strong><span className="codex-realm-lifespan">{t('Kết cục thành công')}</span></div></li>
           </ol>
-          <p className="codex-note">{t('Thọ nguyên trong bảng là nền tảng của từng cảnh giới; cơ duyên và biến cố có thể khiến nó đổi thay. Vượt qua cửa ải Độ Kiếp, ngươi mới có thể phi thăng tiên giới.')}</p>
+          <p className="codex-note">{t('Thọ nguyên trong bảng là nền tảng của từng cảnh giới; cơ duyên và biến cố có thể khiến nó đổi thay. Đại Thừa vượt thiên kiếp sẽ phi thăng thành Chân Tiên; tiên lộ còn tiếp diễn đến Tiên Đế.')}</p>
         </section>
       </div>
       <section className="codex-origins">

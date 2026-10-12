@@ -33,7 +33,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Thuần Dương Thể"
@@ -87,7 +91,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Thái Âm Thể"
@@ -142,7 +150,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Ngũ Hành Linh Thể"
@@ -196,7 +208,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Kiếm Tâm Thể"
@@ -250,7 +266,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Bách Độc Bất Xâm Thể"
@@ -304,7 +324,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Huyền Băng Thể"
@@ -359,7 +383,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Hoang Cổ Thánh Thể",
@@ -416,7 +444,11 @@ export const extraPhysiques = [
         "void_refining",
         "body_integration",
         "mahayana",
-        "tribulation"
+        "true_immortal",
+        "golden_immortal",
+        "mystic_immortal",
+        "immortal_king",
+        "immortal_emperor"
       ],
       "conditions": {
         "physique": "Thiên Sinh Đạo Cốt"
