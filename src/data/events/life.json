@@ -1,0 +1,687 @@
+[
+  {
+    "id": "sect",
+    "category": "life",
+    "title": "Lời mời nhập tông",
+    "text": "Một tông môn đang tuyển đệ tử tại chân núi. Ngươi đứng trước sơn môn, cân nhắc giữa sự che chở và con đường tu hành tự do.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "join",
+        "text": "Bái nhập tông môn",
+        "hint": "Tài nguyên · Ràng buộc",
+        "outcomes": [
+          {
+            "id": "accepted",
+            "text": "Ngươi vượt qua khảo nghiệm và trở thành đệ tử. Tông môn cấp pháp quyết cùng linh thạch, giúp những năm đầu tu hành bớt gian nan.",
+            "effects": {
+              "sectStatus": "member",
+              "resources": 35
+            },
+            "weight": 3
+          },
+          {
+            "id": "rejected",
+            "text": "Khảo nghiệm kết thúc, tên ngươi không có trong danh sách. Ngươi rời sơn môn với hai bàn tay trắng, tiếp tục tự tìm đường tu luyện.",
+            "effects": {},
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "wander",
+        "text": "Giữ thân phận tán tu",
+        "hint": "Tự do · Tự lực",
+        "outcomes": [
+          {
+            "id": "free",
+            "text": "Ngươi từ chối lời mời, mang hành trang đi về phương xa. Không có tông môn che chở, mỗi linh thạch đều phải tự mình kiếm lấy.",
+            "effects": {
+              "resources": 10
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "maxAge": 65,
+    "conditions": {
+      "sectStatus": "none"
+    }
+  },
+  {
+    "id": "illness",
+    "category": "life",
+    "title": "Một mùa bệnh nặng",
+    "text": "Một cơn bệnh kéo dài khiến ngươi phải dừng việc tu luyện. Sau nhiều tháng dưỡng sức, cơ thể hồi phục nhưng thọ nguyên đã chịu tổn hao.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "health": -15,
+      "lifespan": -8
+    },
+    "maxAge": 85
+  },
+  {
+    "id": "partner",
+    "category": "life",
+    "title": "Đồng hành trên tiên lộ",
+    "text": "Trên đường lịch luyện, ngươi gặp một người cùng chí hướng. Hai bên trao đổi pháp quyết, rồi cân nhắc việc cùng nhau đi qua những năm tu hành.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Kết thành đạo lữ",
+        "hint": "Đồng hành · Chia sẻ",
+        "outcomes": [
+          {
+            "id": "together",
+            "text": "Ngươi chọn kết thành đạo lữ, cùng nhau chia sẻ tài nguyên. Những ngày tu luyện có thêm người đồng hành, nhưng tiên lộ vẫn chứa nhiều bất trắc.",
+            "effects": {
+              "partnerStatus": "bonded",
+              "health": 15,
+              "resources": 15
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "alone",
+        "text": "Tiếp tục độc hành",
+        "hint": "Chuyên tâm cầu đạo",
+        "outcomes": [
+          {
+            "id": "alone",
+            "text": "Ngươi trân trọng cuộc gặp rồi tiếp tục lên đường một mình. Mọi tâm sức được dành cho tu luyện, giữa những mùa trăng lặng lẽ trôi qua.",
+            "effects": {
+              "cultivation": 20
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "conditions": {
+      "partnerStatus": "none"
+    }
+  },
+  {
+    "id": "v2_village",
+    "category": "life",
+    "title": "Trở về quê cũ",
+    "text": "Ngươi trở về nơi mình sinh ra sau nhiều năm xa cách. Cảnh vật thay đổi khiến lòng lắng lại, giúp ngươi nghỉ ngơi trước hành trình tiếp theo.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "health": 12
+    },
+    "translations": {
+      "zh": {
+        "title": "重返故乡",
+        "text": "多年离乡之后，你重返出生之地。物是人非让心绪沉静，也给了你继续远行前的休息。"
+      },
+      "en": {
+        "title": "Returning to your birthplace",
+        "text": "After years away, you return to the place of your birth. Its changed surroundings quiet your thoughts, offering rest before the next stage of your journey."
+      }
+    }
+  },
+  {
+    "id": "v2_craft",
+    "category": "life",
+    "title": "Một nghề mưu sinh",
+    "text": "Ngươi học cách sửa chữa công cụ cho dân trong vùng. Công việc nhỏ đem lại thu nhập ổn định, giúp trang trải những nhu cầu thường ngày.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12
+    },
+    "translations": {
+      "zh": {
+        "title": "谋生手艺",
+        "text": "你学会为乡民修理工具。这门小手艺带来稳定收入，足以应付日常生活的需要。"
+      },
+      "en": {
+        "title": "A useful trade",
+        "text": "You learn to repair tools for the local villagers. This modest trade brings a steady income, helping you cover the needs of everyday life."
+      }
+    }
+  },
+  {
+    "id": "v2_festival",
+    "category": "life",
+    "title": "Đêm hội hoa đăng",
+    "text": "Ngươi dừng chân tại một thành nhỏ trong đêm hội hoa đăng. Giữa tiếng cười và ánh đèn, tâm trí được nghỉ ngơi sau chặng đường dài.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "health": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灯会之夜",
+        "text": "灯会之夜，你在一座小城停留。笑声与灯火之间，疲惫心神终于得到片刻休息。"
+      },
+      "en": {
+        "title": "The lantern festival",
+        "text": "You stop in a small town during its lantern festival. Amid laughter and warm lights, your weary mind finds a moment of rest after a long journey."
+      }
+    }
+  },
+  {
+    "id": "v2_sectduty",
+    "category": "life",
+    "title": "Trực phiên sơn môn",
+    "text": "Đến lượt trực phiên, ngươi canh giữ sơn môn suốt nhiều ngày. Hoàn thành nhiệm vụ đúng hạn, ngươi nhận phần linh thạch theo quy định của tông môn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "conditions": {
+      "sectStatus": "member"
+    },
+    "effects": {
+      "resources": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "山门值守",
+        "text": "轮到你值守山门，连续数日未曾懈怠。按时完成任务后，宗门依规发放了灵石报酬。"
+      },
+      "en": {
+        "title": "Guarding the sect gate",
+        "text": "You spend several days guarding the sect gate during your assigned watch. Completing the duty on time earns you the spirit stones promised by the sect."
+      }
+    }
+  },
+  {
+    "id": "v2_companionrest",
+    "category": "life",
+    "title": "Một mùa an tĩnh",
+    "text": "Ngươi cùng đạo lữ tạm dừng lịch luyện để dưỡng sức. Những ngày bình yên giúp cơ thể hồi phục trước khi cả hai tiếp tục con đường tu hành.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 18
+    },
+    "translations": {
+      "zh": {
+        "title": "共度静季",
+        "text": "你与道侣暂歇历练，静心休养。平静日子让身体恢复，随后两人继续各自的修行。"
+      },
+      "en": {
+        "title": "A quiet season together",
+        "text": "You and your companion pause your travels to recover. A peaceful season restores your strength before you both continue along the demanding road of cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_teaching",
+    "category": "life",
+    "title": "Truyền lại phép nhập môn",
+    "text": "Ngươi chỉ dẫn phép nhập môn cho những người mới tu luyện. Giải thích từng bước khiến ngươi tự nhận ra vài điểm chưa hiểu trong pháp quyết.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 18
+    },
+    "translations": {
+      "zh": {
+        "title": "传授入门法",
+        "text": "你为初学者讲解入门之法。逐步说明的过程中，你也发现了自己尚未理解的细节。"
+      },
+      "en": {
+        "title": "Teaching the first steps",
+        "text": "You explain basic cultivation to a group of beginners. Describing each step makes you recognize details in the technique that you had not fully understood."
+      }
+    }
+  },
+  {
+    "id": "v2_rain",
+    "category": "life",
+    "title": "Một đêm trú mưa",
+    "text": "Ngươi trú mưa trong ngôi miếu bỏ hoang, chia lương thực với người qua đường. Một đêm nghỉ ngơi giúp ngươi lấy lại sức cho chặng đường phía trước.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "health": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "避雨一夜",
+        "text": "你在荒庙避雨，与过路人分享干粮。一夜休息之后，你恢复了继续赶路的体力。"
+      },
+      "en": {
+        "title": "Shelter from the rain",
+        "text": "You shelter from rain in an abandoned shrine and share food with other travelers. A night of rest restores your strength for the road ahead."
+      }
+    }
+  },
+  {
+    "id": "v2_garden",
+    "category": "life",
+    "title": "Chăm vườn dược thảo",
+    "text": "Ngươi dành thời gian chăm sóc vườn dược thảo nhỏ bên nơi ở. Khi thu hoạch, số dược liệu có được giúp giảm chi phí dưỡng thương và tu luyện.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 14
+    },
+    "translations": {
+      "zh": {
+        "title": "照料药圃",
+        "text": "你抽空照料住处旁的小药圃。收获的药材减轻了疗伤与修炼所需的开销。"
+      },
+      "en": {
+        "title": "Tending the herb garden",
+        "text": "You spend time tending a small herb garden beside your dwelling. Its harvest reduces the cost of medicine and provides a modest reserve for your cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_escort",
+    "category": "life",
+    "title": "Chuyến hộ tống nguy hiểm",
+    "text": "Một thương đoàn đề nghị trả nhiều linh thạch để hộ tống qua vùng yêu thú. Thù lao hấp dẫn, nhưng chuyến đi có thể gây thương tích khó lường.",
+    "translations": {
+      "zh": {
+        "title": "危险的护送",
+        "text": "商队愿付重金，请你护送穿过妖兽之地。酬劳诱人，但旅途可能带来难料的伤害。"
+      },
+      "en": {
+        "title": "A dangerous escort offer",
+        "text": "A caravan offers generous payment for an escort through beast territory. The reward is tempting, but the journey may bring injuries you cannot foresee."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Nhận việc hộ tống",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "接受委托",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Accept the escort job",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi dẫn thương đoàn vượt qua vùng nguy hiểm bình an. Nhận thù lao đầy đủ, ngươi có thêm linh thạch để chuẩn bị cho lần tu luyện kế tiếp.",
+            "weight": 55,
+            "effects": {
+              "resources": 45
+            },
+            "translations": {
+              "zh": {
+                "text": "你带领商队平安穿过险地。足额酬劳为你下一次修炼提供了更多灵石。"
+              },
+              "en": {
+                "text": "You guide the caravan safely through the dangerous region. Receiving the full reward gives you additional spirit stones to prepare for your next period of cultivation."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Yêu thú bất ngờ tập kích giữa chuyến đi, khiến ngươi bị thương. Thương đoàn thoát được, nhưng phần thù lao nhận về phải dùng để bù tổn thất.",
+            "weight": 45,
+            "effects": {
+              "health": -30,
+              "resources": 5
+            },
+            "translations": {
+              "zh": {
+                "text": "妖兽途中突然袭击，令你负伤。商队虽然脱险，酬劳却大多用来弥补损失。"
+              },
+              "en": {
+                "text": "A spirit beast ambushes the caravan and injures you. The merchants escape, but most of your payment must be spent making up for your losses."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Từ chối chuyến đi",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "拒绝委托",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Decline the journey",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi từ chối lời mời và tiếp tục tu luyện tại nơi ở. Cơ hội kiếm thêm linh thạch trôi qua, nhưng ngươi không phải đối diện vùng yêu thú.",
+            "weight": 1,
+            "effects": {
+              "cultivation": 10
+            },
+            "translations": {
+              "zh": {
+                "text": "你拒绝邀请，继续在住处修炼。赚取灵石的机会过去了，但你也避开了妖兽之地。"
+              },
+              "en": {
+                "text": "You decline the offer and continue cultivating at home. The opportunity to earn spirit stones passes, but you avoid the dangers of beast territory."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "v2_duel",
+    "category": "life",
+    "title": "Lời thách đấu",
+    "text": "Tại sân luyện võ, một tu sĩ đề nghị so tài để trao đổi kinh nghiệm. Trận đấu có thể giúp ngươi tiến bộ, nhưng thương tích vẫn là điều khó tránh.",
+    "translations": {
+      "zh": {
+        "title": "比试之邀",
+        "text": "演武场上，一名修士邀你切磋交流。比试可能带来进步，但受伤的风险仍不可忽视。"
+      },
+      "en": {
+        "title": "A challenge to duel",
+        "text": "At a training ground, a cultivator proposes a friendly duel to exchange experience. The match may improve your skills, though injuries remain a real possibility."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Nhận lời so tài",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "应邀切磋",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Accept the duel",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Qua trận so tài, ngươi nhận ra cách vận khí còn thiếu linh hoạt. Những bài học thu được giúp ngươi cải thiện tu luyện mà không chịu thương tích đáng kể.",
+            "weight": 55,
+            "effects": {
+              "cultivation": 35
+            },
+            "translations": {
+              "zh": {
+                "text": "切磋让你发现运气不够灵活。所得经验改善了修炼，也没有留下明显伤势。"
+              },
+              "en": {
+                "text": "The duel reveals weaknesses in how you circulate energy. What you learn improves your cultivation without leaving you with any significant injuries from the match."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Một đòn đánh vượt quá dự tính khiến ngươi bị thương. Trận so tài dừng lại ngay, và ngươi phải dành nhiều ngày dưỡng sức trước khi luyện tập tiếp.",
+            "weight": 45,
+            "effects": {
+              "health": -22
+            },
+            "translations": {
+              "zh": {
+                "text": "一招出乎预料的攻击让你负伤。比试立即停止，你需要休养多日才能继续练习。"
+              },
+              "en": {
+                "text": "An unexpectedly powerful strike injures you. The duel stops immediately, and you must spend several days recovering before you can resume your usual training."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Đứng ngoài quan sát",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "旁观学习",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Watch from the sidelines",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi đứng ngoài quan sát những người khác so tài. Không trực tiếp giao đấu, ngươi vẫn học được vài cách xử lý linh lực hữu ích cho tu luyện.",
+            "weight": 1,
+            "effects": {
+              "cultivation": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你在场边观看他人切磋。虽未亲自交手，仍学到一些有助修炼的灵力运用方法。"
+              },
+              "en": {
+                "text": "You watch other cultivators spar from the sidelines. Without fighting yourself, you still learn several useful ways to handle spiritual energy during your own training."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "v2_healer",
+    "category": "life",
+    "title": "Người cần cứu chữa",
+    "text": "Trên đường, ngươi gặp một người bị thương đang cần linh dược. Giúp họ sẽ tiêu hao tài nguyên, nhưng bỏ đi khiến ngươi phải cân nhắc đạo tâm.",
+    "translations": {
+      "zh": {
+        "title": "待救之人",
+        "text": "路上，一名伤者急需灵药。施救会消耗资源，离去却也让你不得不审视自己的道心。"
+      },
+      "en": {
+        "title": "A traveler in need",
+        "text": "Along the road, you meet a wounded traveler in need of spirit medicine. Helping will consume your resources; walking away asks something different of your conscience."
+      }
+    },
+    "weight": 12,
+    "minAge": 16,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Dùng linh dược cứu người",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "以灵药救人",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Offer your medicine",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi dùng linh dược cứu người bị thương và nhận chút thù lao. Sau khi rời đi, tâm thần nhẹ nhõm giúp ngươi chuyên tâm hơn trong buổi tu luyện tới.",
+            "weight": 55,
+            "effects": {
+              "resources": -8,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你用灵药救下伤者，获得少许酬谢。离开后心绪安定，下一次修炼也更加专注。"
+              },
+              "en": {
+                "text": "You use medicine to treat the traveler and receive a small reward. Leaving with a lighter mind helps you concentrate during your next cultivation session."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Vết thương nặng hơn ngươi dự tính, cần nhiều linh dược mới ổn định. Người bị thương qua cơn nguy hiểm, nhưng tài nguyên của ngươi hao hụt rõ rệt.",
+            "weight": 45,
+            "effects": {
+              "resources": -22
+            },
+            "translations": {
+              "zh": {
+                "text": "伤势比预料更重，需要更多灵药才能稳定。伤者脱险了，你的资源却明显减少。"
+              },
+              "en": {
+                "text": "The injuries are worse than expected and require more medicine to stabilize. The traveler survives the crisis, but your own supplies are substantially reduced."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Chỉ dẫn nơi cầu cứu",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "指明求救之处",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Point toward nearby help",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi chỉ đường tới nơi có thể tìm thầy thuốc rồi tiếp tục đi. Tài nguyên được giữ lại, còn việc cứu chữa phải nhờ người có khả năng hơn.",
+            "weight": 1,
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你指明可寻医的地方后继续赶路。资源得以保留，救治则交给更有能力的人。"
+              },
+              "en": {
+                "text": "You explain where the traveler can find a healer, then continue on your way. Your supplies remain intact, while treatment is left to someone better equipped."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

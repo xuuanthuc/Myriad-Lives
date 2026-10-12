@@ -1,0 +1,890 @@
+[
+  {
+    "id": "cave",
+    "category": "opportunity",
+    "title": "Động phủ vô danh",
+    "text": "Giữa sơn cốc phủ đầy sương, ngươi phát hiện một động phủ cổ xưa. Linh khí cuồn cuộn sau cửa đá, nhưng cấm chế vẫn chưa tan.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "enter",
+        "text": "Phá phong ấn",
+        "hint": "Cơ duyên lớn · Rủi ro cao",
+        "outcomes": [
+          {
+            "id": "treasure",
+            "text": "Vượt qua tầng cấm chế, ngươi tìm thấy cổ thư còn nguyên vẹn. Pháp môn bên trong giúp tu vi tiến triển, mở ra hy vọng đột phá.",
+            "effects": {
+              "cultivation": 70,
+              "resources": 35
+            },
+            "weight": 4
+          },
+          {
+            "id": "injury",
+            "text": "Trận pháp bất ngờ thức tỉnh, đánh ngươi trọng thương. Ngươi gắng thoát khỏi động phủ, mang theo vết thương khiến việc tu hành chậm lại.",
+            "effects": {
+              "health": -45
+            },
+            "weight": 4
+          },
+          {
+            "id": "death",
+            "text": "Cấm chế bộc phát trước khi ngươi kịp rút lui. Thân thể tan biến giữa ánh sáng lạnh, tiên lộ khép lại trong động phủ không tên.",
+            "effects": {
+              "death": true
+            },
+            "weight": 1,
+            "endingReason": "Bỏ mạng trong cấm chế"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Lặng lẽ rời đi",
+        "hint": "Bảo toàn tính mạng",
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi nhìn cửa đá lần cuối rồi quay về. Một cơ duyên bị bỏ lại, nhưng tính mạng được bảo toàn giữa núi rừng đầy hiểm họa.",
+            "effects": {},
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core"
+    ]
+  },
+  {
+    "id": "market",
+    "category": "opportunity",
+    "title": "Tàn quyển ở chợ đêm",
+    "text": "Tại một phiên chợ đêm, ngươi thấy tàn quyển được rao bán. Nét chữ cổ gợi ra một pháp môn, nhưng thật giả vẫn khó phân biệt.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "buy",
+        "text": "Mua tàn quyển",
+        "hint": "Tốn 20 tài nguyên",
+        "outcomes": [
+          {
+            "id": "real",
+            "text": "Tàn quyển ghi lại một phép vận khí hữu ích. Ngươi mất nhiều ngày nghiên cứu, cuối cùng hiểu được cách tích lũy tu vi hiệu quả hơn.",
+            "effects": {
+              "resources": -20,
+              "cultivation": 55
+            },
+            "weight": 3
+          },
+          {
+            "id": "fake",
+            "text": "Những trang giấy chỉ chứa lời huyễn hoặc. Ngươi mất linh thạch mà không thu được pháp môn, đành xem đây là bài học trên tiên lộ.",
+            "effects": {
+              "resources": -20
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "pass",
+        "text": "Bỏ qua lời mời",
+        "hint": "Giữ tài nguyên",
+        "outcomes": [
+          {
+            "id": "pass",
+            "text": "Ngươi trả lại tàn quyển rồi rời phiên chợ. Số linh thạch còn lại được giữ để tu luyện, thay vì đặt cược vào điều chưa rõ.",
+            "effects": {},
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "conditions": {
+      "resources": 20
+    }
+  },
+  {
+    "id": "herb",
+    "category": "opportunity",
+    "title": "Linh thảo trong sương",
+    "text": "Trong chuyến lịch luyện nơi rừng sâu, ngươi tìm thấy linh thảo lâu năm. Sau khi luyện hóa, linh khí trong cơ thể trở nên dồi dào hơn.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 35,
+      "resources": 18
+    }
+  },
+  {
+    "id": "spring",
+    "category": "opportunity",
+    "title": "Một mạch linh tuyền",
+    "text": "Dưới vách đá hoang vắng, ngươi phát hiện linh tuyền chưa ai khai thác. Nhiều ngày tu luyện bên dòng nước giúp kinh mạch dần thông suốt.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 40,
+      "health": 12
+    }
+  },
+  {
+    "id": "v2_jade",
+    "category": "opportunity",
+    "title": "Ngọc giản dưới hồ",
+    "text": "Ngươi tìm thấy ngọc giản dưới đáy hồ cạn. Pháp quyết khắc trên đó còn rõ nét, giúp ngươi điều chỉnh cách vận chuyển linh lực.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 30
+    },
+    "translations": {
+      "zh": {
+        "title": "湖底玉简",
+        "text": "你在干涸的湖底找到一枚玉简。其上法诀依然清晰，帮助你改进灵力运行的方法。"
+      },
+      "en": {
+        "title": "The lakebed jade slip",
+        "text": "You find a jade slip beneath a dried lake. Its inscriptions remain legible and help you refine the way spiritual energy flows through your meridians."
+      }
+    }
+  },
+  {
+    "id": "v2_auction",
+    "category": "opportunity",
+    "title": "Linh đan bị bỏ quên",
+    "text": "Sau phiên đấu giá, ngươi nhặt được bình linh đan còn nguyên. Dược lực ôn hòa giúp cơ thể hồi phục sau những tháng ngày tu luyện.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "health": 20,
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "遗落的灵丹",
+        "text": "拍卖结束后，你拾到一瓶完整的灵丹。温和药力滋养身体，缓解长期修炼留下的疲惫。"
+      },
+      "en": {
+        "title": "A forgotten spirit pill",
+        "text": "After an auction, you discover an intact bottle of spirit pills. Their gentle medicinal power restores your body after months of demanding cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_meteor",
+    "category": "opportunity",
+    "title": "Mảnh thiên thạch",
+    "text": "Một mảnh thiên thạch rơi gần nơi ngươi nghỉ chân. Ngươi đổi phần khoáng vật hiếm lấy linh thạch, đủ trang trải một thời gian tu luyện.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "resources": 30
+    },
+    "translations": {
+      "zh": {
+        "title": "天外陨铁",
+        "text": "一块陨石落在你歇脚之处附近。你将其中稀有矿物换成灵石，暂时解决修炼所需。"
+      },
+      "en": {
+        "title": "A fallen star fragment",
+        "text": "A meteor fragment lands near your resting place. You trade its rare minerals for spirit stones, securing enough supplies for a period of uninterrupted cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_orchard",
+    "category": "opportunity",
+    "title": "Vườn quả trong khe núi",
+    "text": "Ngươi phát hiện vườn linh quả sau khe núi hẹp. Chỉ hái những quả đã chín, ngươi thu được dược lực giúp tăng thêm thọ nguyên.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "lifespan": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "山隙灵果园",
+        "text": "你在狭窄山隙后发现一片灵果园。只采成熟果实，果中药力为你增添了一些寿元。"
+      },
+      "en": {
+        "title": "An orchard in the ravine",
+        "text": "Beyond a narrow ravine, you discover an orchard of spirit fruit. You harvest only ripe fruit, whose medicinal essence adds a few years to your lifespan."
+      }
+    }
+  },
+  {
+    "id": "v2_caravan",
+    "category": "opportunity",
+    "title": "Thù lao hộ tống",
+    "text": "Ngươi hộ tống đoàn thương nhân qua đoạn đường hiểm trở. Chuyến đi kết thúc bình an, số linh thạch nhận được bổ sung tài nguyên đang thiếu.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 22
+    },
+    "translations": {
+      "zh": {
+        "title": "护送酬劳",
+        "text": "你护送商队穿过险路。旅途平安结束，获得的灵石补上了你紧缺的修炼资源。"
+      },
+      "en": {
+        "title": "A caravan’s reward",
+        "text": "You escort a merchant caravan through a dangerous pass. The journey ends safely, and your payment replenishes the cultivation supplies you had been running short of."
+      }
+    }
+  },
+  {
+    "id": "v2_library",
+    "category": "opportunity",
+    "title": "Thư khố mở cửa",
+    "text": "Trong ngày thư khố mở cửa, ngươi tìm đọc một bộ chú giải cổ. Những ghi chép thực tế giúp tháo gỡ vướng mắc trong pháp môn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "藏书阁开放",
+        "text": "藏书阁开放之日，你读到一部古老注解。其中务实的记录解开了功法中的几个疑难。"
+      },
+      "en": {
+        "title": "The open library",
+        "text": "When the library opens its doors, you study an ancient commentary. Its practical observations resolve several questions that had been troubling your cultivation technique."
+      }
+    }
+  },
+  {
+    "id": "v2_island",
+    "category": "opportunity",
+    "title": "Linh mạch trên đảo",
+    "text": "Ngươi lên một hòn đảo vắng và tìm được linh mạch nhỏ. Tu luyện tại đó nhiều ngày giúp linh lực tích lũy nhanh hơn trước.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 45
+    },
+    "translations": {
+      "zh": {
+        "title": "孤岛灵脉",
+        "text": "你登上一座荒岛，寻得一条细小灵脉。在此修炼数日，灵力积累比从前更加顺畅。"
+      },
+      "en": {
+        "title": "The island spirit vein",
+        "text": "On a deserted island, you discover a small spirit vein. Several days of cultivation there allow your spiritual energy to accumulate faster than before."
+      }
+    }
+  },
+  {
+    "id": "v2_talisman",
+    "category": "opportunity",
+    "title": "Phù lục trong tro tàn",
+    "text": "Giữa tàn tích cháy đen, ngươi tìm được phù lục chưa hỏng. Bán nó tại chợ tu sĩ, ngươi có thêm tài nguyên để dưỡng thương.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "resources": 18,
+      "health": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "灰烬中的符箓",
+        "text": "在焦黑废墟中，你找到一张完好的符箓。将其卖给修士后，获得了疗伤所需的资源。"
+      },
+      "en": {
+        "title": "A talisman among ashes",
+        "text": "Among charred ruins, you find an undamaged talisman. Selling it at a cultivator market provides additional resources that you can put toward treating your injuries."
+      }
+    }
+  },
+  {
+    "id": "v2_snowlotus",
+    "category": "opportunity",
+    "title": "Tuyết liên nở muộn",
+    "text": "Trên đỉnh núi phủ tuyết, ngươi bắt gặp tuyết liên vừa nở. Cẩn thận luyện hóa cánh hoa, ngươi cảm thấy tổn thương cũ dần dịu lại.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "health": 25
+    },
+    "translations": {
+      "zh": {
+        "title": "迟开的雪莲",
+        "text": "在雪山之巅，你遇见一株刚开的雪莲。小心炼化花瓣后，陈年伤痛渐渐缓解。"
+      },
+      "en": {
+        "title": "The late-blooming snow lotus",
+        "text": "On a snowy summit, you find a newly blooming snow lotus. After carefully refining its petals, you feel the pain of old injuries gradually ease."
+      }
+    }
+  },
+  {
+    "id": "v2_trade",
+    "category": "opportunity",
+    "title": "Một vụ trao đổi tốt",
+    "text": "Ngươi đổi số khoáng thạch dư lấy dược liệu cần thiết. Cả hai bên đều hài lòng, và nguồn tài nguyên tu luyện được sử dụng hiệu quả hơn.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 15
+    },
+    "translations": {
+      "zh": {
+        "title": "公平的交易",
+        "text": "你将多余矿石换成所需药材。双方各得其所，有限的修炼资源也得到了更好的利用。"
+      },
+      "en": {
+        "title": "A fair exchange",
+        "text": "You exchange surplus ore for the medicinal herbs you need. Both parties leave satisfied, and your limited cultivation resources are put to more effective use."
+      }
+    }
+  },
+  {
+    "id": "v2_relic",
+    "category": "opportunity",
+    "title": "Di vật ở chiến trường cũ",
+    "text": "Giữa chiến trường đã hoang phế, ngươi tìm được pháp khí còn sử dụng được. Đổi nó lấy linh thạch, ngươi có đủ tài nguyên để tiếp tục bế quan.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "resources": 40
+    },
+    "translations": {
+      "zh": {
+        "title": "古战场遗物",
+        "text": "你在废弃古战场找到一件尚能使用的法器。换成灵石之后，你获得了继续闭关所需的资源。"
+      },
+      "en": {
+        "title": "Relics of an old battlefield",
+        "text": "On an abandoned battlefield, you find an artifact that still works. Trading it for spirit stones secures the resources you need to continue your secluded cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_ruinmap",
+    "category": "opportunity",
+    "title": "Bản đồ di tích",
+    "text": "Ngươi đổi một món đồ dư lấy bản đồ địa hình cũ. Những tuyến đường an toàn được ghi trên đó giúp tiết kiệm tài nguyên trong chuyến lịch luyện.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "resources": 16
+    },
+    "translations": {
+      "zh": {
+        "title": "遗迹地图",
+        "text": "你用闲置物品换得一张旧地图。其上标明的安全路线，让你在历练中节省了一些资源。"
+      },
+      "en": {
+        "title": "A map of forgotten ruins",
+        "text": "You trade an unused possession for an old map. Its marked safe routes help you conserve resources while traveling through unfamiliar lands on your cultivation journey."
+      }
+    }
+  },
+  {
+    "id": "v2_pool",
+    "category": "opportunity",
+    "title": "Linh trì không tên",
+    "text": "Sau màn sương, ngươi thấy một linh trì tỏa khí lạnh. Nước có thể giúp tu luyện, nhưng ngươi chưa rõ cơ thể có chịu được hàn khí hay không.",
+    "translations": {
+      "zh": {
+        "title": "无名灵池",
+        "text": "雾后有一座散发寒气的灵池。池水可能有助修行，但你的身体未必承受得住。"
+      },
+      "en": {
+        "title": "The nameless spirit pool",
+        "text": "Beyond the mist lies a spirit pool radiating cold energy. Its waters may aid cultivation, but you do not know whether your body can endure them."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Xuống linh trì",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "进入灵池",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Enter the pool",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi thích nghi được với hàn khí trong linh trì. Sau nhiều giờ vận khí, linh lực trở nên tinh thuần hơn và tu vi được tích lũy thêm.",
+            "weight": 55,
+            "effects": {
+              "cultivation": 60
+            },
+            "translations": {
+              "zh": {
+                "text": "你逐渐适应池中寒气。数个时辰运气之后，灵力更加精纯，修为也有所增长。"
+              },
+              "en": {
+                "text": "Your body adapts to the pool’s cold energy. After hours of circulation, your spiritual energy becomes purer and your cultivation gains a substantial boost."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Hàn khí tràn vào kinh mạch nhanh hơn ngươi dự tính. Ngươi phải rời linh trì trong đau đớn, mang theo thương tổn cần thời gian dài để hồi phục.",
+            "weight": 45,
+            "effects": {
+              "health": -35
+            },
+            "translations": {
+              "zh": {
+                "text": "寒气涌入经脉的速度超出预料。你痛苦地离开灵池，留下需要长期调养的伤势。"
+              },
+              "en": {
+                "text": "Cold energy floods your meridians faster than expected. You leave the pool in pain, carrying injuries that will require a long period of recovery."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Chỉ lấy ít nước",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "只取少量池水",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Collect a little water",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi lấy một bình nước rồi rời linh trì. Luyện hóa từng giọt một cách thận trọng đem lại lợi ích nhỏ mà không khiến kinh mạch chịu quá nhiều áp lực.",
+            "weight": 1,
+            "effects": {
+              "cultivation": 15
+            },
+            "translations": {
+              "zh": {
+                "text": "你装了一瓶池水后离开。谨慎地逐滴炼化，收获不多，却避免了经脉承受过大压力。"
+              },
+              "en": {
+                "text": "You collect a bottle of water and leave. Carefully refining it drop by drop brings a small benefit without putting excessive strain on your meridians."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "v2_seal",
+    "category": "opportunity",
+    "title": "Phong ấn dưới gốc cây",
+    "text": "Dưới gốc cổ thụ, ngươi phát hiện phong ấn đang yếu dần. Một món pháp khí nằm bên trong, nhưng phá phong ấn có thể kích hoạt cơ quan bảo vệ.",
+    "translations": {
+      "zh": {
+        "title": "树下封印",
+        "text": "古树根下有一道渐弱的封印。内藏法器，但破印可能触发守护机关。"
+      },
+      "en": {
+        "title": "A seal beneath the roots",
+        "text": "Beneath an ancient tree, you discover a weakening seal. An artifact lies inside, but breaking the seal may activate the mechanisms placed there to protect it."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Phá phong ấn lấy vật",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "破印取物",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Break the seal",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi phá được phong ấn mà không kích hoạt cơ quan. Món pháp khí vẫn còn nguyên vẹn, đổi được nhiều linh thạch tại phiên chợ tu sĩ gần nhất.",
+            "weight": 55,
+            "effects": {
+              "resources": 55
+            },
+            "translations": {
+              "zh": {
+                "text": "你破开封印，未触发机关。完好的法器在附近修士市集换来了不少灵石。"
+              },
+              "en": {
+                "text": "You break the seal without triggering its defenses. The artifact remains intact and fetches a generous amount of spirit stones at the nearest cultivator market."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Cơ quan bảo vệ bắn ra những mũi kim linh lực khi phong ấn vỡ. Ngươi vội lùi lại nhưng vẫn bị thương, không thể mang pháp khí đi.",
+            "weight": 45,
+            "effects": {
+              "health": -32
+            },
+            "translations": {
+              "zh": {
+                "text": "封印碎裂时，机关射出灵力细针。你急忙后退，却仍受伤，未能带走法器。"
+              },
+              "en": {
+                "text": "When the seal breaks, its defenses release needles of spiritual energy. You retreat quickly but are still wounded, and cannot carry the artifact away."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Để nguyên phong ấn",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "保留封印",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Leave it undisturbed",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi để nguyên phong ấn và đánh dấu khu vực nguy hiểm. Rời khỏi cổ thụ bình an, ngươi tiếp tục hành trình với số tài nguyên sẵn có.",
+            "weight": 1,
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你保留封印，标记这片危险区域。平安离开古树后，继续用现有资源踏上旅途。"
+              },
+              "en": {
+                "text": "You leave the seal intact and mark the area as dangerous. Departing safely, you continue your journey with the resources you already have in hand."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "v2_mine",
+    "category": "opportunity",
+    "title": "Mạch khoáng sâu",
+    "text": "Ngươi phát hiện mạch khoáng quý dưới lòng đất, nơi vách đá đã có nhiều vết nứt. Khai thác sâu có thể đem lại lợi ích hoặc khiến hầm sụp xuống.",
+    "translations": {
+      "zh": {
+        "title": "深层矿脉",
+        "text": "地下有一条珍贵矿脉，但岩壁遍布裂缝。深入开采可能收益丰厚，也可能引发塌方。"
+      },
+      "en": {
+        "title": "The deep ore vein",
+        "text": "You discover a valuable ore vein underground, where cracks cover the surrounding walls. Digging deeper could bring a rich reward or cause the tunnel to collapse."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Đào sâu thêm",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "继续深挖",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Dig deeper",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi khai thác được phần khoáng quý trước khi hầm trở nên nguy hiểm. Mang số quặng ra ngoài, ngươi đổi lấy tài nguyên đủ cho nhiều ngày tu luyện.",
+            "weight": 55,
+            "effects": {
+              "resources": 50
+            },
+            "translations": {
+              "zh": {
+                "text": "你在矿洞变得危险前采到贵矿。将矿石运出后，换来足够修炼多日的资源。"
+              },
+              "en": {
+                "text": "You extract the valuable ore before the tunnel becomes unsafe. Bringing it outside lets you trade for enough supplies to support many days of cultivation."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Một vách đá sụp xuống trong lúc khai thác, chặn lối ra gần nhất. Ngươi tìm được đường thoát khác nhưng mất quặng và chịu thương tích do đá rơi.",
+            "weight": 45,
+            "effects": {
+              "health": -30,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "开采时岩壁崩塌，堵住最近出口。你找到另一条生路，却丢了矿石，还被落石砸伤。"
+              },
+              "en": {
+                "text": "A wall collapses while you mine, blocking the nearest exit. You find another way out, but lose the ore and suffer injuries from falling rocks."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Chỉ lấy phần lộ thiên",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "只采表层",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Take the exposed ore",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi chỉ thu phần quặng lộ ra ngoài rồi rời hầm. Lợi ích không lớn, nhưng chuyến khai thác kết thúc bình an trước khi vách đá sụp xuống.",
+            "weight": 1,
+            "effects": {
+              "resources": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你只采下表层矿石便离开矿洞。收益虽少，仍赶在岩壁坍塌前平安结束了开采。"
+              },
+              "en": {
+                "text": "You collect only the exposed ore and leave the tunnel. The reward is modest, but your expedition ends safely before the unstable walls can collapse."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

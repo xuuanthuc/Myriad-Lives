@@ -1,0 +1,529 @@
+[
+  {
+    "id": "storm",
+    "category": "disaster",
+    "title": "Kiếp nạn trên đường",
+    "text": "Một trận linh bạo quét qua nơi ngươi dừng chân. Ngươi thoát khỏi vùng nguy hiểm, nhưng vết thương và hành trang thất lạc khiến tu hành đình trệ.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "health": -25,
+      "resources": -15
+    }
+  },
+  {
+    "id": "war",
+    "category": "disaster",
+    "title": "Khói lửa nhân gian",
+    "text": "Chiến loạn lan đến vùng ngươi cư trú. Ngươi buộc phải rời nơi tu luyện, tiêu hao linh thạch tìm một chốn yên ổn giữa dòng người lưu lạc.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": -20,
+      "cultivation": -15
+    }
+  },
+  {
+    "id": "v2_flood",
+    "category": "disaster",
+    "title": "Lũ cuốn qua sơn cốc",
+    "text": "Mưa lớn kéo dài khiến sơn cốc ngập nước. Ngươi kịp thoát lên cao, nhưng phần lớn hành trang bị dòng lũ cuốn đi trong đêm.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": -18
+    },
+    "translations": {
+      "zh": {
+        "title": "山谷洪灾",
+        "text": "连日暴雨淹没山谷。你及时逃上高地，但大部分行囊已被夜里的洪水卷走。"
+      },
+      "en": {
+        "title": "Flood in the valley",
+        "text": "Prolonged rain floods the valley. You reach higher ground in time, but the rising waters sweep away most of your belongings during the night."
+      }
+    }
+  },
+  {
+    "id": "v2_poison",
+    "category": "disaster",
+    "title": "Khói độc trong đầm",
+    "text": "Một lớp khói độc bất ngờ tràn qua đầm lầy. Dù rời khỏi khu vực kịp thời, ngươi vẫn phải dưỡng thương để loại bỏ độc khí.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "health": -22
+    },
+    "translations": {
+      "zh": {
+        "title": "沼泽毒雾",
+        "text": "毒雾突然漫过沼泽。虽然及时离开，你仍须静养，将侵入体内的毒气排出。"
+      },
+      "en": {
+        "title": "Poison mist in the marsh",
+        "text": "A poisonous mist suddenly spreads across the marsh. Although you leave the area quickly, you must spend time recovering and clearing the poison from your body."
+      }
+    }
+  },
+  {
+    "id": "v2_robbery",
+    "category": "disaster",
+    "title": "Cướp giữa đường núi",
+    "text": "Trên đường núi vắng, một nhóm kẻ cướp chặn lối. Ngươi bỏ lại túi linh thạch để thoát thân, giữ được tính mạng nhưng mất tài nguyên.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": -25
+    },
+    "translations": {
+      "zh": {
+        "title": "山路遇劫",
+        "text": "荒僻山路上，一伙劫匪拦住去路。你丢下灵石袋脱身，保住性命，却损失了资源。"
+      },
+      "en": {
+        "title": "Robbery on the mountain road",
+        "text": "Bandits block a lonely mountain road. You abandon your pouch of spirit stones to escape, preserving your life at the cost of valuable cultivation resources."
+      }
+    }
+  },
+  {
+    "id": "v2_beast",
+    "category": "disaster",
+    "title": "Yêu thú đêm trăng",
+    "text": "Một con yêu thú tấn công khi ngươi đang nghỉ chân. Sau cuộc giao tranh ngắn, ngươi rút lui thành công nhưng bị thương ở cánh tay.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "health": -28
+    },
+    "translations": {
+      "zh": {
+        "title": "月夜妖兽",
+        "text": "你歇脚时遭到妖兽袭击。短暂交手后，你成功撤退，但手臂留下了一道伤口。"
+      },
+      "en": {
+        "title": "A beast beneath the moon",
+        "text": "A spirit beast attacks while you rest. After a brief struggle, you withdraw successfully, though a wound on your arm will slow your training."
+      }
+    }
+  },
+  {
+    "id": "v2_collapse",
+    "category": "disaster",
+    "title": "Hang động sụp đổ",
+    "text": "Hang động ngươi trú tạm bất ngờ sụp xuống. Ngươi thoát khỏi đống đá vụn, nhưng phải dùng phần dược liệu dự trữ để chữa thương.",
+    "weight": 8,
+    "minAge": 8,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "health": -18,
+      "resources": -12
+    },
+    "translations": {
+      "zh": {
+        "title": "洞窟坍塌",
+        "text": "临时栖身的洞窟突然坍塌。你逃出碎石，却不得不用储备药材来治疗伤势。"
+      },
+      "en": {
+        "title": "The collapsing cavern",
+        "text": "The cavern where you shelter suddenly collapses. You escape the falling rocks, but must use some of your stored medicinal herbs to treat your injuries."
+      }
+    }
+  },
+  {
+    "id": "v2_frost",
+    "category": "disaster",
+    "title": "Hàn khí nhập thể",
+    "text": "Hàn khí từ một pháp khí hỏng thấm vào kinh mạch. Ngươi phải ngừng tu luyện, chậm rãi hóa giải để tránh tổn thương nghiêm trọng hơn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "health": -15,
+      "cultivation": -20
+    },
+    "translations": {
+      "zh": {
+        "title": "寒气入体",
+        "text": "一件损坏法器散出的寒气侵入经脉。你暂停修炼，慢慢化解，以免伤势进一步恶化。"
+      },
+      "en": {
+        "title": "Cold invading the body",
+        "text": "Cold energy from a damaged artifact seeps into your meridians. You pause cultivation and patiently dispel it before the damage can become more serious."
+      }
+    }
+  },
+  {
+    "id": "v2_falsepill",
+    "category": "disaster",
+    "title": "Linh đan giả",
+    "text": "Viên linh đan mua ở chợ chứa tạp chất chưa lọc. Dược lực hỗn loạn khiến ngươi bị thương, buộc phải bỏ số đan còn lại.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "health": -20,
+      "resources": -10
+    },
+    "translations": {
+      "zh": {
+        "title": "伪劣灵丹",
+        "text": "市集买来的灵丹含有未净杂质。紊乱药力伤了身体，你只得丢弃余下的丹药。"
+      },
+      "en": {
+        "title": "A counterfeit pill",
+        "text": "A pill bought at the market contains unfiltered impurities. Its chaotic medicinal energy injures you, forcing you to discard the rest of the batch."
+      }
+    }
+  },
+  {
+    "id": "v2_mind",
+    "category": "disaster",
+    "title": "Tạp niệm lúc bế quan",
+    "text": "Trong lúc bế quan, tạp niệm liên tục quấy nhiễu tâm thần. Ngươi dừng vận khí để tránh tẩu hỏa, chấp nhận mất phần tu vi vừa tích lũy.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": -30
+    },
+    "translations": {
+      "zh": {
+        "title": "闭关杂念",
+        "text": "闭关时杂念不断扰乱心神。你停止运气以免走火入魔，代价是失去了新近积累的部分修为。"
+      },
+      "en": {
+        "title": "Intrusive thoughts in seclusion",
+        "text": "Intrusive thoughts disrupt your concentration during seclusion. You stop circulating energy to avoid a deviation, accepting the loss of some cultivation you had recently accumulated."
+      }
+    }
+  },
+  {
+    "id": "v2_drought",
+    "category": "disaster",
+    "title": "Linh tuyền khô cạn",
+    "text": "Linh tuyền gần nơi tu luyện đột ngột khô cạn. Ngươi phải dùng linh thạch thay thế nguồn linh khí, khiến tài nguyên dự trữ hao hụt rõ rệt.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "resources": -20
+    },
+    "translations": {
+      "zh": {
+        "title": "灵泉枯竭",
+        "text": "修炼之地附近的灵泉突然干涸。你只得用灵石补充灵气，储备资源因此明显减少。"
+      },
+      "en": {
+        "title": "The spirit spring runs dry",
+        "text": "The spirit spring near your retreat abruptly dries up. You must use spirit stones to replace its energy, noticeably depleting the resources you had stored."
+      }
+    }
+  },
+  {
+    "id": "v2_bridge",
+    "category": "disaster",
+    "title": "Cầu đá rạn nứt",
+    "text": "Trước mặt ngươi là cây cầu đá đang rạn nứt trên vực sâu. Đi vòng sẽ tốn tài nguyên, nhưng băng qua có thể dẫn tới tai nạn.",
+    "translations": {
+      "zh": {
+        "title": "碎裂石桥",
+        "text": "深渊上的石桥已经开裂。绕路要消耗资源，直接过桥却可能遭遇意外。"
+      },
+      "en": {
+        "title": "The cracked stone bridge",
+        "text": "A cracked stone bridge spans the abyss ahead. A detour will cost supplies, but crossing directly could end in a dangerous accident."
+      }
+    },
+    "weight": 12,
+    "minAge": 16,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Băng qua cầu",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "过桥",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Cross the bridge",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi vượt qua cầu ngay trước khi đá sụp xuống. Quãng đường được rút ngắn, giúp giữ lại phần lương thực và linh thạch mang theo.",
+            "weight": 55,
+            "effects": {
+              "resources": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你在石桥坍塌前顺利抵达对岸。路程缩短，随身的干粮和灵石也得以保留。"
+              },
+              "en": {
+                "text": "You cross just before the bridge collapses. The shorter route lets you preserve the food and spirit stones you brought for the journey."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Một phiến đá gãy dưới chân khiến ngươi rơi xuống sườn vực. Bám được rễ cây, ngươi thoát chết nhưng phải chịu thương tích nặng nề.",
+            "weight": 45,
+            "effects": {
+              "health": -38
+            },
+            "translations": {
+              "zh": {
+                "text": "脚下石板断裂，你跌向崖壁。抓住树根才保住性命，却也受了重伤。"
+              },
+              "en": {
+                "text": "A stone slab breaks beneath you and sends you tumbling down the cliff. Catching a root saves your life, but leaves you badly injured."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Tìm đường vòng",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "绕路",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Take a detour",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi chọn đường vòng qua sườn núi, tiêu hao thêm hành trang. Khi tới bờ bên kia, ngươi vẫn bình an và có thể tiếp tục hành trình.",
+            "weight": 1,
+            "effects": {
+              "resources": -12
+            },
+            "translations": {
+              "zh": {
+                "text": "你沿山腰绕行，额外消耗了一些物资。抵达对岸时依然平安，可以继续前行。"
+              },
+              "en": {
+                "text": "You follow a longer route along the mountainside, spending extra supplies. You reach the other bank safely and can continue your journey without injury."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "v2_stormtrial",
+    "category": "disaster",
+    "title": "Lôi vân trên đỉnh núi",
+    "text": "Lôi vân kéo đến khi ngươi đang tu luyện trên đỉnh núi. Linh khí dưới mây rất mạnh, nhưng ở lại có thể khiến ngươi bị sét đánh trực tiếp.",
+    "translations": {
+      "zh": {
+        "title": "山巅雷云",
+        "text": "你在山巅修炼时雷云聚集。云下灵气浓郁，留下却有被雷霆直接击中的危险。"
+      },
+      "en": {
+        "title": "Thunderclouds on the summit",
+        "text": "Thunderclouds gather while you cultivate on a summit. The energy beneath them is powerful, but remaining there could expose you to a direct lightning strike."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Mượn lôi khí tu luyện",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "借雷气修炼",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Cultivate with thunder energy",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi dẫn một phần lôi khí vào cơ thể rồi rút lui kịp lúc. Linh lực được tôi luyện mạnh hơn, giúp tích lũy cho lần đột phá sau.",
+            "weight": 55,
+            "effects": {
+              "cultivation": 65
+            },
+            "translations": {
+              "zh": {
+                "text": "你引入少量雷气，随后及时退走。灵力得到淬炼，为下一次突破积累了力量。"
+              },
+              "en": {
+                "text": "You draw a small portion of thunder energy into your body and withdraw in time. Your spiritual power is tempered, preparing you for a future breakthrough."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Một luồng sét mạnh đánh trúng nơi ngươi ngồi trước khi kịp rời đi. Kinh mạch chịu tổn thương nặng, buộc ngươi dừng tu luyện để dưỡng thương.",
+            "weight": 45,
+            "effects": {
+              "health": -45
+            },
+            "translations": {
+              "zh": {
+                "text": "你尚未来得及离开，雷霆已击中静坐之处。经脉重创，只能暂停修炼养伤。"
+              },
+              "en": {
+                "text": "A powerful bolt strikes your seat before you can leave. Your meridians suffer severe damage, forcing you to suspend cultivation and focus entirely on recovering."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Xuống núi tránh sét",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "下山避雷",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Descend to safety",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi lập tức xuống núi và tìm chỗ trú an toàn. Cơ hội hấp thu lôi khí trôi qua, nhưng thân thể được bảo toàn giữa cơn giông dữ dội.",
+            "weight": 1,
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你立即下山寻找安全之处。吸收雷气的机会过去了，身体却在暴风雨中得以保全。"
+              },
+              "en": {
+                "text": "You immediately descend and find safe shelter. The chance to absorb thunder energy passes, but you preserve your body through the violent storm without harm."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

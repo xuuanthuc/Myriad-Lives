@@ -1,0 +1,641 @@
+[
+  {
+    "id": "meditate",
+    "category": "cultivation",
+    "title": "Tĩnh tọa dưới trăng",
+    "text": "Trong một đêm trăng sáng, ngươi tĩnh tọa và nhìn lại pháp quyết đã học. Một điểm khúc mắc được tháo gỡ, giúp tu vi tiến thêm một bước.",
+    "weight": 10,
+    "minAge": 16,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 25
+    }
+  },
+  {
+    "id": "v2_waterfall",
+    "category": "cultivation",
+    "title": "Luyện khí bên thác",
+    "text": "Ngươi luyện dẫn khí dưới tiếng thác đổ liên miên. Nhịp thở dần ổn định, giúp linh lực lưu chuyển đều hơn qua những kinh mạch yếu.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "瀑下练气",
+        "text": "你在瀑声中练习引气。呼吸渐渐稳定，灵力也能更均匀地流经薄弱经脉。"
+      },
+      "en": {
+        "title": "Training beside the waterfall",
+        "text": "You practice drawing energy while a waterfall roars nearby. Your breathing settles into a steady rhythm, improving the flow of energy through weaker meridians."
+      }
+    }
+  },
+  {
+    "id": "v2_sword",
+    "category": "cultivation",
+    "title": "Kiếm ý trên vách đá",
+    "text": "Những vết kiếm trên vách đá khiến ngươi suy ngẫm nhiều ngày. Khi hiểu được cách gom linh lực, ngươi tiến thêm một bước trong tu luyện.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 32
+    },
+    "translations": {
+      "zh": {
+        "title": "石壁剑意",
+        "text": "石壁上的剑痕让你沉思数日。领会凝聚灵力之法后，你的修炼又前进了一步。"
+      },
+      "en": {
+        "title": "Sword intent on the cliff",
+        "text": "Sword marks on a cliff occupy your thoughts for days. Once you understand how their maker gathered spiritual energy, your own cultivation takes another step forward."
+      }
+    }
+  },
+  {
+    "id": "v2_breath",
+    "category": "cultivation",
+    "title": "Một nhịp thở đúng",
+    "text": "Ngươi nhận ra mình vận khí quá gấp trong những ngày qua. Điều chỉnh nhịp thở giúp kinh mạch bớt đau và tu vi tiếp tục tích lũy.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 15,
+      "health": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "调息有成",
+        "text": "你察觉近日运气太急。调整呼吸之后，经脉疼痛减轻，修为也得以继续积累。"
+      },
+      "en": {
+        "title": "A breath in harmony",
+        "text": "You realize you have been circulating energy too hastily. Adjusting your breathing eases the strain on your meridians and allows your cultivation to build again."
+      }
+    }
+  },
+  {
+    "id": "v2_retreat",
+    "category": "cultivation",
+    "title": "Bế quan giữa mùa mưa",
+    "text": "Suốt mùa mưa, ngươi bế quan trong căn phòng nhỏ. Không còn việc bên ngoài quấy nhiễu, ngươi tập trung tích lũy linh lực cho lần đột phá tới.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 38,
+      "resources": -8
+    },
+    "translations": {
+      "zh": {
+        "title": "雨季闭关",
+        "text": "雨季之中，你在小屋闭关。没有外事打扰，你专心积蓄灵力，为下一次突破做准备。"
+      },
+      "en": {
+        "title": "A rainy-season retreat",
+        "text": "Throughout the rainy season, you retreat into a small room. Free from outside distractions, you concentrate on gathering spiritual energy for your next breakthrough attempt."
+      }
+    }
+  },
+  {
+    "id": "v2_debate",
+    "category": "cultivation",
+    "title": "Luận đạo bên đình",
+    "text": "Tại đình nghỉ ven đường, ngươi trao đổi cách tu luyện với vài tu sĩ. Những quan điểm khác biệt giúp ngươi nhìn rõ thiếu sót của mình.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "亭中论道",
+        "text": "在路旁凉亭，你与几名修士交流修炼心得。不同见解让你看清了自身功法的不足。"
+      },
+      "en": {
+        "title": "A discussion of the Dao",
+        "text": "At a roadside pavilion, you discuss cultivation with several travelers. Their different perspectives help you recognize shortcomings in the techniques you have been practicing."
+      }
+    }
+  },
+  {
+    "id": "v2_alchemy",
+    "category": "cultivation",
+    "title": "Mẻ đan đầu tiên",
+    "text": "Sau nhiều lần điều chỉnh nhiệt độ, ngươi luyện được một mẻ đan cơ bản. Dùng số đan đó, ngươi tiết kiệm được tài nguyên dưỡng thương.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "resources": 14,
+      "health": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "初次成丹",
+        "text": "多次调整火候后，你炼成一炉基础丹药。服用这些丹药，为你省下了一些疗伤资源。"
+      },
+      "en": {
+        "title": "Your first successful pills",
+        "text": "After repeatedly adjusting the flame, you produce a batch of basic pills. Using them saves some of the resources you would otherwise spend on recovery."
+      }
+    }
+  },
+  {
+    "id": "v2_formation",
+    "category": "cultivation",
+    "title": "Thử lập tụ linh trận",
+    "text": "Ngươi thử bố trí tụ linh trận bằng số linh thạch còn lại. Trận pháp hoạt động ổn định, đổi tài nguyên lấy một thời gian tu luyện hiệu quả.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "conditions": {
+      "resources": 15
+    },
+    "effects": {
+      "cultivation": 40,
+      "resources": -15
+    },
+    "translations": {
+      "zh": {
+        "title": "初试聚灵阵",
+        "text": "你用剩余灵石尝试布置聚灵阵。阵法运转平稳，以资源换来了一段高效的修炼时光。"
+      },
+      "en": {
+        "title": "Your first gathering array",
+        "text": "You arrange a spirit-gathering array using your remaining stones. The formation runs steadily, exchanging some of your resources for a period of more efficient cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_dawn",
+    "category": "cultivation",
+    "title": "Ngộ đạo lúc bình minh",
+    "text": "Khi bình minh chiếu qua cửa sổ, ngươi chợt hiểu một đoạn pháp quyết. Điều từng đọc nhiều lần nay trở nên rõ ràng và dễ thực hành.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "conditions": {
+      "comprehension": 50
+    },
+    "effects": {
+      "cultivation": 30
+    },
+    "translations": {
+      "zh": {
+        "title": "破晓悟道",
+        "text": "晨光穿窗之时，你忽然理解了一段法诀。反复读过的文字，如今变得清晰而可行。"
+      },
+      "en": {
+        "title": "Insight at dawn",
+        "text": "As dawn shines through your window, a passage of your cultivation manual finally makes sense. Familiar words become clear instructions you can put into practice."
+      }
+    }
+  },
+  {
+    "id": "v2_stars",
+    "category": "cultivation",
+    "title": "Quan tinh ở đỉnh cao",
+    "text": "Trên đỉnh núi, ngươi quan sát dòng linh khí dưới trời sao. Những biến chuyển chậm rãi giúp ngươi tìm được cách ổn định tu vi hiện tại.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 35
+    },
+    "translations": {
+      "zh": {
+        "title": "高峰观星",
+        "text": "你在山巅观察星空下的灵气流动。细微而缓慢的变化，让你找到稳固当前修为的方法。"
+      },
+      "en": {
+        "title": "Stargazing on the summit",
+        "text": "From a mountain summit, you observe spiritual currents beneath the stars. Their gradual movements suggest a method for stabilizing the cultivation you have already attained."
+      }
+    }
+  },
+  {
+    "id": "v2_meridian",
+    "category": "cultivation",
+    "title": "Kinh mạch được khai thông",
+    "text": "Sau nhiều ngày vận khí thận trọng, ngươi khai thông được đoạn kinh mạch tắc nghẽn. Linh lực lưu chuyển thuận lợi hơn, giúp việc tu luyện bớt khó khăn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 26,
+      "health": 5
+    },
+    "translations": {
+      "zh": {
+        "title": "经脉疏通",
+        "text": "多日谨慎运气之后，你终于疏通一段阻塞的经脉。灵力运行更加顺畅，修炼也轻松了一些。"
+      },
+      "en": {
+        "title": "Clearing the meridians",
+        "text": "After days of careful practice, you clear a blocked section of your meridians. Spiritual energy flows more smoothly, easing the difficulties of your ongoing cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_echo",
+    "category": "cultivation",
+    "title": "Tiếng chuông cổ tự",
+    "text": "Tiếng chuông từ cổ tự vang qua sườn núi khi ngươi tĩnh tọa. Nhịp âm thanh giúp tâm thần ổn định, tháo gỡ trở ngại nhỏ trong tu luyện.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 120,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "effects": {
+      "cultivation": 22
+    },
+    "translations": {
+      "zh": {
+        "title": "古寺钟声",
+        "text": "静坐之时，古寺钟声传过山坡。悠长节奏安定心神，帮你化解了修炼中的一个小障碍。"
+      },
+      "en": {
+        "title": "The ancient temple bell",
+        "text": "An ancient temple bell echoes across the hillside as you meditate. Its measured rhythm steadies your mind and helps resolve a minor obstacle in your cultivation."
+      }
+    }
+  },
+  {
+    "id": "v2_furnace",
+    "category": "cultivation",
+    "title": "Lò đan mất kiểm soát",
+    "text": "Lò đan trước mặt bắt đầu rung mạnh, dược lực bên trong chưa ổn định. Ngươi phải quyết định tiếp tục luyện chế hay dập lửa để giữ an toàn.",
+    "translations": {
+      "zh": {
+        "title": "丹炉失控",
+        "text": "丹炉剧烈震动，炉内药力尚未稳定。你必须决定继续炼制，还是熄火保全自己。"
+      },
+      "en": {
+        "title": "An unstable alchemy furnace",
+        "text": "The furnace before you begins to shake as its medicinal energy destabilizes. You must decide whether to continue refining or extinguish the flame for safety."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giữ lửa luyện tiếp",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "维持炉火",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Keep the flame burning",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi giữ vững nhiệt độ và hoàn thành mẻ đan đúng lúc. Những viên đan còn nguyên dược lực giúp tu vi tích lũy nhanh hơn trong lần bế quan tới.",
+            "weight": 55,
+            "effects": {
+              "cultivation": 50,
+              "resources": 15
+            },
+            "translations": {
+              "zh": {
+                "text": "你稳住火候，及时完成这一炉丹药。充足药力帮助你在下一次闭关中加快修为积累。"
+              },
+              "en": {
+                "text": "You steady the temperature and finish the batch in time. The pills retain their full potency and accelerate your cultivation during your next retreat."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Dược lực trong lò va chạm khiến nắp lò bật tung. Ngươi bị bỏng và mất toàn bộ dược liệu, buộc phải dưỡng thương trước khi luyện đan tiếp.",
+            "weight": 45,
+            "effects": {
+              "health": -25,
+              "resources": -20
+            },
+            "translations": {
+              "zh": {
+                "text": "炉内药力冲撞，掀飞炉盖。你被灼伤，药材也全部损毁，只能先养伤再继续炼丹。"
+              },
+              "en": {
+                "text": "Colliding medicinal energies blast the furnace lid away. You suffer burns and lose the entire batch of herbs, forcing you to recover before refining again."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Dập lửa ngay",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "立即熄火",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Extinguish the flame",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi dập lửa và đứng lùi khỏi lò đan. Mẻ dược liệu không thể dùng lại, nhưng cơ thể không bị tổn thương bởi dược lực hỗn loạn.",
+            "weight": 1,
+            "effects": {
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "你熄灭炉火，退离丹炉。药材虽然无法再用，身体却免遭紊乱药力的伤害。"
+              },
+              "en": {
+                "text": "You extinguish the flame and step back from the furnace. The herbs cannot be reused, but you avoid injury from the unstable medicinal energy."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "v2_tablet",
+    "category": "cultivation",
+    "title": "Bia đá cấm thuật",
+    "text": "Trên bia đá phủ rêu có khắc một cấm thuật tăng tốc vận khí. Lời cảnh báo bên dưới nói rõ pháp môn này có thể làm hao tổn thọ nguyên.",
+    "translations": {
+      "zh": {
+        "title": "禁术石碑",
+        "text": "长满青苔的石碑刻着加速运气的禁术。下方警告写明，此法可能损耗寿元。"
+      },
+      "en": {
+        "title": "A forbidden inscription",
+        "text": "A moss-covered tablet records a forbidden technique for accelerating energy circulation. The warning below clearly states that practicing it may consume years of your lifespan."
+      }
+    },
+    "weight": 12,
+    "minAge": 20,
+    "cooldownYears": 150,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "tribulation"
+    ],
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Thử cấm thuật",
+        "hint": "Lợi ích lớn · Có rủi ro",
+        "translations": {
+          "zh": {
+            "text": "尝试禁术",
+            "hint": "收益高 · 有风险"
+          },
+          "en": {
+            "text": "Practice the forbidden art",
+            "hint": "Greater reward · Risky"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "text": "Ngươi vận dụng cấm thuật và tu vi tăng mạnh trong thời gian ngắn. Khi dừng lại, ngươi cảm nhận rõ phần thọ nguyên đã mất theo pháp môn.",
+            "weight": 55,
+            "effects": {
+              "cultivation": 80,
+              "lifespan": -35
+            },
+            "translations": {
+              "zh": {
+                "text": "你施展禁术，短时间内修为大增。停下之后，能清楚感觉到随功法消耗的寿元。"
+              },
+              "en": {
+                "text": "The forbidden art rapidly strengthens your cultivation. When you stop, you can clearly feel that some of your remaining lifespan has been consumed by the technique."
+              }
+            }
+          },
+          {
+            "id": "failure",
+            "text": "Cấm thuật khiến linh lực phản phệ trước khi ngươi kịp dừng lại. Kinh mạch bị thương và thọ nguyên tổn hao, buộc ngươi phải từ bỏ phương pháp này.",
+            "weight": 45,
+            "effects": {
+              "health": -30,
+              "lifespan": -20
+            },
+            "translations": {
+              "zh": {
+                "text": "禁术在你停手前引发灵力反噬。经脉受创，寿元受损，你不得不放弃此法。"
+              },
+              "en": {
+                "text": "The technique triggers a backlash before you can stop. Your meridians are injured and your lifespan diminished, forcing you to abandon this dangerous method."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "safe",
+        "text": "Ghi nhớ lời cảnh báo",
+        "hint": "Thận trọng · Lợi ích nhỏ",
+        "translations": {
+          "zh": {
+            "text": "谨记警告",
+            "hint": "谨慎 · 收益少"
+          },
+          "en": {
+            "text": "Heed the warning",
+            "hint": "Cautious · Modest reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "text": "Ngươi đọc kỹ lời cảnh báo rồi rời bia đá. Thay vì đổi thọ nguyên lấy tiến độ, ngươi quay về tích lũy bằng pháp môn quen thuộc.",
+            "weight": 1,
+            "effects": {
+              "cultivation": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你仔细读完警告后离开石碑。没有用寿元换取速度，而是回去用熟悉功法继续积累。"
+              },
+              "en": {
+                "text": "You study the warning and leave the tablet behind. Rather than trading lifespan for speed, you return to building your cultivation with familiar methods."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
