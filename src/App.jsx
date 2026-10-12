@@ -1,3 +1,6 @@
+import HomePage from './components/HomePage.jsx';
+import AnimatedNumber from './components/AnimatedNumber.jsx';
+import AssetIcon from './components/AssetIcon.jsx';
 import {stageName} from './data/subrealms.js';
 import {useEffect, useRef, useState} from 'react';
 import {startLife, chooseOption, autoUntilBreakthrough} from './engine/lifeRunner.js';
@@ -12,15 +15,37 @@ function Mountains(){return <svg className="mountains" viewBox="0 0 1400 620" pr
 
 export default function App() {
   const [language,setLanguage]=useState('vi');
+  const [theme,setTheme]=useState(()=>{
+    try{const saved=localStorage.getItem('myriad-lives-theme');if(saved==='light'||saved==='dark')return saved;}catch{}
+    return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+  });
+  useEffect(()=>{
+    document.documentElement.dataset.theme=theme;
+    try{localStorage.setItem('myriad-lives-theme',theme);}catch{}
+  },[theme]);
+  const [page,setPage]=useState(()=>window.location.hash==='#/cultivation'?'game':'home');
+  const [codexOpen,setCodexOpen]=useState(false);
+  useEffect(()=>{const navigate=()=>{setPage(window.location.hash==='#/cultivation'?'game':'home');setGuide(false);setCodexOpen(false);window.scrollTo({top:0,behavior:'instant'});};window.addEventListener('hashchange',navigate);return ()=>window.removeEventListener('hashchange',navigate);},[]);
   const [session,setSession]=useState({runCount:0,pityCount:0});
   const [engineRun,setEngineRun]=useState(null);
   const [speed,setSpeed]=useState(1);
   const [paused,setPaused]=useState(false);
-  const {run,playing,progress}=useLifePlayback(engineRun,speed,paused);
+  const {run,playing,progress}=useLifePlayback(engineRun,speed,paused||page!=='game');
   const actionLock=useRef(false);
   useEffect(()=>{actionLock.current=false;},[engineRun]);
   const [error,setError]=useState(false);
   const [guide,setGuide]=useState(false);
+  const firstLifeStarted=useRef(false);
+  useEffect(()=>{
+    if(page!=='game'||engineRun||firstLifeStarted.current)return;
+    firstLifeStarted.current=true;
+    try{
+      const result=startLife(session);
+      setSession(result.nextSession);
+      setPaused(false);
+      setEngineRun(result.run);
+    }catch(e){console.error(e);setError(true);}
+  },[page,engineRun,session]);
   const finished=run?.phase==='finished';
   const t=value=>translate(value,language);
   useEffect(()=>{document.documentElement.lang=language==='zh'?'zh-CN':language;document.title=language==='zh'?'万劫 · Myriad Lives':language==='en'?'Myriad Lives · A cultivation journey':'Vạn Kiếp · Myriad Lives';},[language]);
@@ -29,37 +54,36 @@ export default function App() {
   function resolveChoice(optionId,automatic=false){if(playing||actionLock.current||engineRun?.phase!=='awaiting_choice')return;actionLock.current=true;act(()=>{setPaused(false);setEngineRun(automatic?autoUntilBreakthrough(engineRun):chooseOption(engineRun,optionId));});}
   return <div className={'site lang-'+language}>
     <header className="header">
-      <a className="brand" href="#"><span className="brand-mark">萬</span><span>MYRIAD LIVES<small>{t('VẠN KIẾP')}</small></span></a>
+      <a className="brand" href="#/"><span className="brand-mark">萬</span><span>MYRIAD LIVES<small>{t('VẠN KIẾP')}</small></span></a>
       <div className="header-right">
+        {page==='game'&&<nav className="page-navigation" aria-label={t('Điều hướng')}><a href="#/">{t('Trang chủ')}</a></nav>}
+        <CultivationGuide t={t} run={run} open={codexOpen} onOpenChange={setCodexOpen} showTrigger={page==='game'}/>
         <span className="session"><i/>{session.runCount===0?t('Tiên lộ chưa mở'):session.runCount+t(' kiếp đã trải')}</span>
+        <div className="display-preferences">
         <div className="language-picker" role="group" aria-label={t('Ngôn ngữ')}>
+          <AssetIcon file="globe-solid-full.svg"/>
           {languages.map(item=><button key={item.id} lang={item.id} aria-pressed={language===item.id} onClick={()=>setLanguage(item.id)}>{item.label}</button>)}
+        </div>
+        <button className="theme-toggle" type="button" onClick={()=>setTheme(theme==='dark'?'light':'dark')} aria-pressed={theme==='dark'} aria-label={t(theme==='dark'?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối')} title={t(theme==='dark'?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối')}><AssetIcon file="circle-half-stroke-solid-full.svg"/></button>
         </div>
         <button className="text-button" onClick={()=>setGuide(!guide)} aria-expanded={guide}>{t('Cách chơi')} <ArrowIcon direction={guide?'up':'down'}/></button>
       </div>
     </header>
-    <CultivationGuide t={t} run={run}/>
     {guide&&<aside className="guide"><b>{t('Một đời, một số mệnh.')}</b>{t('Bước vào luân hồi để gieo một số mệnh mới. Trên đường cầu đạo, hãy chọn lối đi khi gặp ngã rẽ; đến lúc chạm bình cảnh, đọc lại ký sự rồi thử đột phá. Có thể tạm dừng hoặc đổi tốc độ để thong thả dõi theo một đời. Tải lại trang, mọi dấu tích của phiên này sẽ tan theo mây khói.')}<button onClick={()=>setGuide(false)} aria-label={t('Đóng hướng dẫn')}>×</button></aside>}
     <main>
+      {page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<>
       <section className={'hero '+(run?'compact':'')}>
         <Mountains/>
         <div className="hero-content">
           <p className="eyebrow"><span/>{t('MỘT LẦN LUÂN HỒI, MỘT ĐỜI TIÊN LỘ')}<span/></p>
           <h1>{t('Vạn')} <em>{t('Kiếp')}</em><span className="seal">輪<br/>迴</span></h1>
           <p className="hero-copy">{t('Giữa vạn giới mênh mang, một sinh mệnh thức giấc.')}<br/>{t('Phàm nhân hay tiên nhân — số mệnh nào đang đợi ngươi?')}</p>
-          {!run&&<button className="primary" onClick={reincarnate}><span>⟳</span>{t('Luân hồi')}<ArrowIcon/></button>}
           <p className="hero-note">{t(run?'Mỗi lựa chọn, một nét mực trên cuốn đời.':'Không có hai cuộc đời giống nhau.')}</p>
         </div>
         <div className="vertical-poem">{t('NHẤT NIỆM KHỞI · VẠN KIẾP SINH')}</div>
       </section>
       {error&&<div role="alert" className="error">{t('Tiên cơ tạm gián đoạn.')}<button onClick={reincarnate}>{t('Thử một kiếp mới')}</button></div>}
-      {!run?<section className="intro-grid">
-        {[
-          ['壹','Gieo một số mệnh','Luân hồi định linh căn, thể chất và nơi xuất thế.','Một tiếng khóc chào đời, một cuốn thiên mệnh mở ra.'],
-          ['貳','Đi qua tiên lộ','Cơ duyên và kiếp nạn cùng chờ trên đường cầu đạo.','Đến ngã rẽ, tự chọn; chạm bình cảnh, thử đột phá.'],
-          ['叁','Đọc một cuộc đời','Từ tiếng khóc đầu đến phút cuối.','Một đời ngắn ngủi, một chuyện dài.'],
-        ].map(([mark,title,line1,line2])=><article key={mark}><span>{mark}</span><div><h2>{t(title)}</h2><p>{t(line1)}<br/>{t(line2)}</p></div></article>)}
-      </section>:<section className="game">
+      {run&&<section className="game">
         <div className="section-heading"><p className="eyebrow">{t('THIÊN MỆNH QUYỂN · KIẾP')} {String(run.number).padStart(3,'0')}</p><span className="world">◈ {t(run.world.descriptor)}</span></div>
         <section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
           <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
@@ -75,7 +99,7 @@ export default function App() {
               ['Đạo lữ',run.state.partnerStatus==='bonded'?'Đã kết duyên':'Độc hành'],
             ].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
             <div className="stats">{[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',run.profile.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}</div>
-            <div className="age"><span>{t(finished?'Hưởng thọ':'Tuổi hiện tại')}</span><strong>{run.state.age}<small> {t('tuổi')}</small></strong></div>
+            <div className="age"><span>{t(finished?'Hưởng thọ':'Tuổi hiện tại')}</span><strong><AnimatedNumber key={run.number} value={run.state.age} speed={speed}/><small> {t('tuổi')}</small></strong></div>
             <p className="profile-foot">{t(finished?'Một số mệnh đã thành chuyện cũ.':'Tiên lộ còn chưa ngã ngũ.')}</p>
           </aside>
           <div className="story">
@@ -102,6 +126,7 @@ export default function App() {
           </div>
         </div>
       </section>}
+      </>}
     </main>
     <footer><span>MYRIAD LIVES <i> / </i>{t('VẠN KIẾP')}</span><p>{t('Vạn giới rộng lớn. Tiên lộ vô cùng.')}</p><span>{t('Một phiên, vạn số mệnh.')}</span></footer>
   </div>;

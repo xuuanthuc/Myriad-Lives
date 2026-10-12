@@ -1,5 +1,5 @@
 import {stagesForRealm} from '../data/subrealms.js';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import ArrowIcon from './ArrowIcon.jsx';
 import { realms, roots, physiques } from '../data/realms.js';
 
@@ -20,8 +20,7 @@ const physiqueInfo = {
   'Tiên Thiên Đạo Thể': ['Cực hiếm','Đạo thể trời sinh, đứng đầu các thể chất hiện có. Tiên tư tuy cao, vẫn cần linh căn để tu hành và vẫn chịu những hiểm họa của một đời cầu đạo.'],
 };
 
-export default function CultivationGuide({ t, run }) {
-  const [open,setOpen]=useState(false);
+export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, showTrigger=true }) {
   const dialog=useRef(null);
   useEffect(()=>{
     if(!open)return;
@@ -40,7 +39,7 @@ export default function CultivationGuide({ t, run }) {
     if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)setOpen(false);
   }
   return <div className="cultivation-guide">
-    <button type="button" className="codex-trigger" onClick={()=>setOpen(true)} aria-haspopup="dialog" aria-expanded={open} aria-controls="cultivation-dialog"><span aria-hidden="true">☷</span> {t('Cẩm nang tu tiên')}<ArrowIcon direction={open?'up':'down'}/></button>
+    {showTrigger&&<button type="button" className="codex-trigger" onClick={()=>setOpen(true)} aria-haspopup="dialog" aria-expanded={open} aria-controls="cultivation-dialog"><span aria-hidden="true">☷</span> {t('Cẩm nang tu tiên')}<ArrowIcon direction={open?'up':'down'}/></button>}
     <dialog ref={dialog} id="cultivation-dialog" className="codex-dialog" aria-labelledby="codex-heading" onClose={()=>setOpen(false)} onClick={closeBackdrop}>
     <div className="codex-dialog-toolbar"><span>{t('CẨM NANG TIÊN LỘ')}</span><button type="button" autoFocus onClick={()=>setOpen(false)} aria-label={t('Đóng cẩm nang')}>×</button></div>
     <section className="codex-panel" aria-labelledby="codex-heading">
