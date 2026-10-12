@@ -12,6 +12,7 @@ import {stageName} from './data/subrealms.js';
 import {useEffect, useRef, useState} from 'react';
 import {startLife, chooseOption, autoUntilBreakthrough} from './engine/lifeRunner.js';
 import {realms} from './data/realms.js';
+import {sectNameForRun} from './data/sects.js';
 import {languages, translate, translateName} from './i18n/index.js';
 import CultivationGuide from './components/CultivationGuide.jsx';
 import LifeActivity from './components/LifeActivity.jsx';
@@ -124,7 +125,7 @@ export default function App() {
             <div className="profile-top"><span className="profile-icon">命</span><p>{t('SỐ MỆNH KIẾP NÀY')}</p><h2>{translateName(run.profile.name,language)}</h2><span className="realm-tag">{t(realms[run.state.realm].name)}{stageName(run.state)?' · '+t(stageName(run.state)):''}</span>{run.profile.isGoodProfile&&<span className="gifted">✦ {t('Tiên tư xuất chúng')}</span>}</div>
             <dl>{[
               ['Xuất thân',run.profile.origin.name],['Linh căn',run.profile.root.name],['Thể chất',run.profile.physique.name],
-              ['Tông môn',run.state.sectStatus==='member'?'Đệ tử tông môn':run.state.sectStatus==='resident'?'Sinh sống trong tông môn':'Chưa gia nhập'],
+              ['Tông môn',sectNameForRun(run)||'Chưa gia nhập'],
               ['Đạo lữ',run.state.partnerStatus==='bonded'?'Đã kết duyên':'Độc hành'],
             ].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
             <div className="stats">{[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',run.profile.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}</div>
@@ -134,12 +135,12 @@ export default function App() {
           <div className="story">
             <div className="story-heading"><h2>{t('Nhân sinh ký sự')}</h2><span>{run.facts.length} {t('mốc cuộc đời')}</span></div>
             <LifeActivity key={run.number} run={run} t={t} toolbar={playbackControls}>
-            {run.pendingChoice&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}>
+            {run.pendingChoice&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}
+              confirmAction={run.pendingChoice.kind==='breakthrough'?<button type="button" className="primary" onClick={()=>resolveChoice('attempt')}>{t(run.pendingChoice.options[0].text)} <ArrowIcon/></button>:null}>
             {run.pendingChoice?.kind==='breakthrough'&&<section className="choice-card breakthrough-card" aria-live="polite">
               <p className="eyebrow">✦ {t('Đang chờ đột phá')} · {run.state.age} {t('tuổi')}</p>
               <h2>{t(realms[run.state.realm].name)} · {t(stageName(run.state))} <ArrowIcon/> {t(run.pendingChoice.targetRealm===null?'Chứng đạo':realms[run.pendingChoice.targetRealm].name)}</h2>
               <p>{t(run.pendingChoice.tribulation||run.pendingChoice.targetRealm===null?run.pendingChoice.prompt:'Tu vi đã viên mãn, chỉ còn một bước vượt qua bình cảnh. Hãy thong thả nhìn lại đoạn tiên lộ vừa qua; khi tâm ý đã định, thử đột phá để biết thiên mệnh. Chừng nào chưa quyết, thời gian vẫn dừng tại đây.')}</p>
-              <button className="primary" onClick={()=>resolveChoice('attempt')}>{t(run.pendingChoice.options[0].text)} <ArrowIcon/></button>
             </section>}
             {run.pendingChoice&&run.pendingChoice.kind!=='breakthrough'&&<section className="choice-card" aria-live="polite">
               <p className="eyebrow">✦ {t('NGÃ RẼ SỐ MỆNH')} · {run.state.age} {t('tuổi')}</p>

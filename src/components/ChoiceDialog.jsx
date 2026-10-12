@@ -1,6 +1,6 @@
 import {useEffect,useRef,useState} from 'react';
 
-export default function ChoiceDialog({t,breakthrough,children}) {
+export default function ChoiceDialog({t,breakthrough,confirmAction,children}) {
   const [open,setOpen]=useState(true);
   const dialog=useRef(null);
   const trigger=useRef(null);
@@ -24,6 +24,10 @@ export default function ChoiceDialog({t,breakthrough,children}) {
     <dialog ref={dialog} className="choice-dialog" aria-label={label} onCancel={event=>{event.preventDefault();close();}} onClose={()=>{if(!dialog.current?.open)setOpen(false);}} onClick={closeBackdrop}>
       <div className="choice-dialog-toolbar"><span>{label}</span><button type="button" onClick={close} aria-label={t('Đóng để đọc ký sự')}>×</button></div>
       {children}
+      <div className={`choice-dialog-footer${breakthrough?' breakthrough-actions':''}`}>
+        {confirmAction}
+        <button type="button" onClick={close}>{t(breakthrough?'Chưa vội đột phá':'Tĩnh tâm suy xét')}</button>
+      </div>
     </dialog>
   </>;
 }

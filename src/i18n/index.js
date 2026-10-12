@@ -4,6 +4,7 @@ import { legacy, endingsLocales } from './legacy.js';
 import { events, birth, endings, wordCount } from '../engine/content.js';
 import { realms, roots, physiques, origins } from '../data/realms.js';
 import { sectChildhood } from '../data/origins.js';
+import {sects} from '../data/sects.js';
 
 export const languages = [{id:'vi',label:'Việt'},{id:'zh',label:'中文'},{id:'en',label:'English'}];
 const dictionary = new Map(ui.map(([vi,zh,en]) => [vi,{vi,zh,en}]));
@@ -21,6 +22,7 @@ for (const event of events) {
 }
 for (const record of [...birth,...endings]) add(record.text,endingsLocales[record.id]);
 for (const origin of origins) add(origin.birthText,[origin.translations.zh.birthText,origin.translations.en.birthText]);
+for(const sect of sects)add(sect.name,[sect.translations.zh,sect.translations.en]);
 for(const physique of extraPhysiques){add(physique.name,[physique.translations.zh.name,physique.translations.en.name]);add(physique.description,[physique.translations.zh.description,physique.translations.en.description]);}
 add('Bỏ mạng trong cấm chế',['死于洞府禁制','Killed by the cave’s restrictions']);
 
@@ -63,6 +65,7 @@ export function translate(value,language='vi') {
 
 export function validateTranslations() {
   const fields=[];
+  fields.push(...sects.map(sect=>sect.name));
   for(const e of events){fields.push(e.title,e.text);for(const o of e.choices||[]){fields.push(o.text,o.hint);for(const outcome of o.outcomes){fields.push(outcome.text);if(outcome.endingReason)fields.push(outcome.endingReason);}}}
   fields.push(...[...birth,...endings].map(x=>x.text),...[...realms,...roots,...physiques,...origins].map(x=>x.name));
   fields.push(...origins.map(x=>x.birthText),...Object.values(sectChildhood).flatMap(x=>[x.title,x.text,...x.reason?[x.reason]:[]]));

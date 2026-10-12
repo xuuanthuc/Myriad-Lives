@@ -10,6 +10,8 @@ Tốc độ kể chuyện **x1 / x2 / x4**, mặc định x1: mỗi mốc mới 
 
 Kiểm tra: npm test (10.000 kiếp) và npm run build.
 
+Thống kê data local: `npm run data:stats`. Lệnh chỉ log terminal, tự đọc toàn bộ kho nội dung đang dùng và đếm theo cảnh giới: loại sự kiện, lựa chọn, đoạn kể, nội dung riêng/dùng chung và điều kiện thể chất/tông môn/đạo lữ. Cuối báo cáo liệt kê nhóm 5 cảnh giới có ít data phù hợp nhất, gồm cả đồng hạng. Xem từng sự kiện bằng `npm run data:stats -- --realm foundation`; xem ID cảnh giới bằng `npm run data:stats -- --help`. Trên PowerShell nếu `npm.ps1` bị chặn, dùng `npm.cmd` thay `npm`.
+
 **Dừng trước đột phá:** đủ tu vi thì engine trả về mốc chờ, chưa roll kết quả hay tiến tuổi thêm. Sau khi nhật ký chặng đã hiện hết, chỉ có nút **Thử đột phá**. Người chơi có thể đọc lại tự do; bấm mới roll thành/bại, chạy và kể chặng tiếp theo. Thất bại thì tích lũy lại, lần thử sau tiếp tục chờ xác nhận. Đại Thừa vượt thiên kiếp sau khi xác nhận để phi thăng thành Chân Tiên, tiếp tục Kim Tiên → Huyền Tiên → Tiên Vương → Tiên Đế. Tiên Đế Hậu kỳ chứng đạo mới kết thúc thành công. Nút tự động trong UI xử lý lựa chọn sự kiện thường nhưng dừng ở mốc đột phá kế tiếp; `autoComplete()` vẫn được giữ cho kiểm thử engine hàng loạt.
 
 Luân hồi sinh nhân vật và thế giới mới, mô phỏng đến ngã rẽ hoặc kết cục. Có lựa chọn và Tự động hoàn tất. Pity chỉ đổi khi sinh hồ sơ. Kiếp hiện tại, số lần luân hồi, pity và trạng thái RNG được tự lưu trong localStorage (`myriad-lives-save`, schema v1). Lưu khi đổi trạng thái, mỗi giây và khi rời trang. Refresh tiếp tục đúng vị trí đọc và phần tiến độ đang chạy, kể cả khi chờ lựa chọn hoặc đột phá. Kết cục cũng được giữ để luân hồi tiếp; không tự sinh kiếp khác khi tải lại.
@@ -18,9 +20,9 @@ Luân hồi sinh nhân vật và thế giới mới, mô phỏng đến ngã r�
 
 Chọn **Việt / 中文 / English** tại đầu trang. Đổi ngôn ngữ giữa kiếp dịch lại giao diện, hồ sơ, tên nhân vật, nhật ký, lựa chọn và kết cục ngay lập tức, giữ nguyên số mệnh và pity. Ngôn ngữ, tốc độ và trạng thái tạm dừng được lưu cùng kiếp; theme được lưu riêng. Dữ liệu thuộc trình duyệt và địa chỉ web hiện tại, không đồng bộ tài khoản.
 
-Kho nội dung gồm **60 sự kiện**, trong đó **14 sự kiện có lựa chọn** và **102 đoạn kể** (mô tả sự kiện cùng kết quả lựa chọn). Mỗi đoạn có bản Việt, Trung giản thể và Anh. Các sự kiện lọc theo tuổi, cảnh giới, tài nguyên, tông môn hoặc đạo lữ; mỗi sự kiện chỉ xuất hiện một lần trong một kiếp.
+Số lượng sự kiện, lựa chọn và đoạn kể hiện tại xem bằng `npm run data:stats`; báo cáo tự cập nhật theo kho data. Mỗi đoạn có bản Việt, Trung giản thể và Anh. Các sự kiện lọc theo tuổi, cảnh giới, tài nguyên, tông môn hoặc đạo lữ; số lần xuất hiện mỗi kiếp được quy định bởi `maxOccurrencesPerLife`.
 
-Kho dữ liệu nằm trong `src/data/events/*.json`. Bản dịch sự kiện mới nằm trong trường `translations`; bản dịch 10 sự kiện gốc nằm tại `src/i18n/legacy.js`. Giao diện, cảnh giới và hồ sơ nằm trong `src/i18n/ui.js`. Bộ kiểm tra build xác nhận bản dịch đầy đủ, 15–35 từ cho Việt/Anh và 15–160 ký tự cho Trung (không đếm từ theo khoảng trắng). Nội dung vẫn cần cân bằng và mở rộng thêm để đạt mục tiêu MVP 100–150 sự kiện trong GDD.
+Kho sự kiện được tổng hợp tại `src/engine/content.js`, từ `src/data/events/*.json`, `extraPhysiques.js` và các bộ `realm*.js`. Bản dịch sự kiện mới nằm trong trường `translations`; bản dịch 10 sự kiện gốc nằm tại `src/i18n/legacy.js`. Giao diện, cảnh giới và hồ sơ nằm trong `src/i18n/ui.js`. Bộ kiểm tra build xác nhận bản dịch đầy đủ, 15–35 từ cho Việt/Anh và 15–160 ký tự cho Trung (không đếm từ theo khoảng trắng).
 
 Đã có firebase.json cho dist. Liên kết Firebase project rồi chạy npm run build và firebase deploy --only hosting. Chưa triển khai hosting.
 
