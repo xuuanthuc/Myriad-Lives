@@ -2141,5 +2141,334 @@
     "maxOccurrencesPerLife": 1,
     "importance": "normal",
     "effects": {}
+  },
+  {
+    "id": "deception_mortal_borrowed_coat",
+    "category": "life",
+    "title": "Áo mượn không trở lại",
+    "text": "Người quen mượn áo đi hỏi việc rồi tránh ngươi mỗi lần gặp. Ngươi thôi đứng đợi lời giải thích, tự khâu áo khác và nhớ không phải ai cũng giữ lời nhỏ.",
+    "translations": {
+      "zh": {
+        "title": "借衣未还",
+        "text": "熟人借衣求职后，每次见面都躲开你。你不再等他解释，自己缝一件新衣，也记住并非人人守住小小承诺。"
+      },
+      "en": {
+        "title": "A borrowed coat that never returns",
+        "text": "An acquaintance borrows your coat for seeking work, then avoids every meeting. You stop waiting for an explanation, sew another coat, and remember that small promises can also fail."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "deception_mortal_revealed_letter",
+    "category": "life",
+    "title": "Lời riêng thành chuyện quán nước",
+    "text": "Điều ngươi kể riêng với bạn bỗng thành chuyện bàn ở quán nước. Người ấy cười bảo chỉ đùa, còn ngươi thu lại những lời định nói và ngồi xa hơn hôm trước.",
+    "translations": {
+      "zh": {
+        "title": "私话成茶摊闲谈",
+        "text": "你私下告诉朋友的话，忽然成了茶摊闲谈。他笑说只是玩笑，你却收住本想说的话，坐得比昨日更远。"
+      },
+      "en": {
+        "title": "Private words become teahouse gossip",
+        "text": "Something told privately to a friend becomes teahouse gossip. They laugh it off as a joke, while you withhold what you meant to say and sit farther away."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "deception_qi_refining_credit_taken",
+    "category": "life",
+    "title": "Tên người khác trên bài giải",
+    "text": "Bài giải pháp quyết ngươi cho bạn xem được nộp dưới tên người ấy. Ngươi giữ bản nháp có chỗ sửa, chưa tranh cãi giữa buổi học, nhưng không đưa phần tiếp theo nữa.",
+    "translations": {
+      "zh": {
+        "title": "解题署了别人名",
+        "text": "你给朋友看的法诀解答被他署名提交。你留着修改过的草稿，没有当堂争吵，却不再交出后续部分。"
+      },
+      "en": {
+        "title": "Another name upon your solution",
+        "text": "A friend submits your explanation of a technique under their own name. You keep the corrected draft and avoid arguing during class, but share no further pages."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "deception_true_immortal_false_invitation",
+    "category": "life",
+    "title": "Lời mời chỉ để đủ số",
+    "text": "Một người quen mời ngươi dự tiệc, nói chủ nhà muốn gặp người mới phi thăng. Đến nơi, ngươi chỉ được xếp ngồi cho đủ số khách và tự trả phần ăn của mình.",
+    "translations": {
+      "zh": {
+        "title": "只为凑数的邀请",
+        "text": "熟人邀你赴宴，说主人想见新飞升者。到场后你才发现，只是凑客人数，还须自己付饭钱。"
+      },
+      "en": {
+        "title": "An invitation merely to fill seats",
+        "text": "An acquaintance claims a host wishes to meet new arrivals and invites you to dinner. There you merely fill an empty seat and must pay for your own meal."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -3
+    }
+  },
+  {
+    "id": "deception_golden_immortal_shared_secret",
+    "category": "life",
+    "title": "Chỗ yếu bị kể trong buổi luận",
+    "text": "Người từng cùng ngươi nghiên cứu đem chỗ yếu pháp tắc ra kể trước đám đông. Ngươi nghe hết rồi cất bản trao đổi, nhận ra họ coi lòng tin như một cách lấy tiếng.",
+    "translations": {
+      "zh": {
+        "title": "弱点被说上论席",
+        "text": "曾与你共研的人当众讲出法则弱点。你听完便收起交流笔记，明白他把信任当成了成名手段。"
+      },
+      "en": {
+        "title": "Your weakness becomes a debate topic",
+        "text": "A former research companion discusses your law’s weakness before a crowd. Hearing them out, you put away the exchange notes and recognize trust was being used to gain attention."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "deception_mystic_immortal_false_recognition",
+    "category": "life",
+    "title": "Người lạ nhận là bạn kiếp trước",
+    "text": "Người lạ kể vài điều công khai rồi nhận từng là bạn ngươi ở kiếp trước. Ngươi nghe họ xin tiền đường, để một chén trà giữa hai người thay cho lời tin vội.",
+    "translations": {
+      "zh": {
+        "title": "陌人自称前世友",
+        "text": "陌人说了几件公开的事，便自称你的前世好友。听到他索要路费，你只把茶放在两人之间，没有急着相信。"
+      },
+      "en": {
+        "title": "A stranger claiming friendship from a past life",
+        "text": "A stranger cites public details and claims friendship from a past life. When they ask for travel money, you offer tea between you instead of hurried belief."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "deception_immortal_king_bought_praise",
+    "category": "life",
+    "title": "Lời ca ngợi có người trả trước",
+    "text": "Ngươi nghe lời ca ngợi giống hệt nhau từ nhiều người tới điện. Biết họ được trả tiền xin ưu tiên, ngươi yêu cầu mỗi người nói việc thật thay vì đọc lời soạn.",
+    "translations": {
+      "zh": {
+        "title": "预付钱的赞辞",
+        "text": "来殿者说出一模一样的赞辞。得知他们受雇争取优先，你请各人讲清真实请求，不再照稿颂扬。"
+      },
+      "en": {
+        "title": "Praise someone paid for beforehand",
+        "text": "Visitors deliver identical praises in your hall. Learning they were paid to seek priority, you ask each to explain their actual request rather than repeat the prepared compliments."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "deception_immortal_emperor_false_last_wish",
+    "category": "life",
+    "title": "Lời trăn trối mượn tên người cũ",
+    "text": "Lá thư nhận là di nguyện người cũ, xin ngươi giao bảo vật cho kẻ mang tin. Cách gọi tên sai khiến ngươi giữ thư, để nỗi nhớ không thành chỗ người khác lợi dụng.",
+    "translations": {
+      "zh": {
+        "title": "借故人名的遗愿",
+        "text": "信中自称故人遗愿，要求把宝物交给信使。称呼的错误让你留下信，不让怀念成为被利用的缺口。"
+      },
+      "en": {
+        "title": "A last wish borrowing an old friend’s name",
+        "text": "A letter claims an old friend wished you to give a treasure to its bearer. A wrong form of address makes you retain it, protecting remembrance from exploitation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "peril_true_immortal_memorial_lamp",
+    "category": "life",
+    "title": "Đèn nhớ người không tới tiên giới",
+    "text": "Ngươi thắp đèn nhớ người quen mất trước ngày mình phi thăng. Trong căn phòng mới, ánh lửa nhắc rằng tiên giới rộng đến đâu cũng không thay được một người đã vắng.",
+    "translations": {
+      "zh": {
+        "title": "忆未到仙界之灯",
+        "text": "你为飞升前逝去的故人点灯。新屋里的火光提醒你，仙界再广，也不能替代已经不在的人。"
+      },
+      "en": {
+        "title": "A lamp for someone who never reached immortality",
+        "text": "You light a lamp for a friend lost before your ascension. In your new room, its flame recalls that even a vast immortal realm cannot replace an absent person."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "peril_golden_immortal_returned_bracelet",
+    "category": "life",
+    "title": "Vòng tay được gửi về",
+    "text": "Một người đưa tin trả lại vòng tay của bạn cũ đã mất trong chuyến đi. Ngươi đặt nó cạnh thư chưa gửi, để những lời định nói tìm chỗ ở trong im lặng.",
+    "translations": {
+      "zh": {
+        "title": "送回的手环",
+        "text": "信使送回旧友旅途中亡故留下的手环。你把它放在未寄出的信旁，让未说的话在沉默中有了归处。"
+      },
+      "en": {
+        "title": "A bracelet sent home",
+        "text": "A messenger returns the bracelet of a friend lost on a journey. You place it beside an unsent letter, giving the words you meant to say a quiet home."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "peril_mystic_immortal_unfinished_chart",
+    "category": "life",
+    "title": "Tinh đồ dừng ở nét cuối",
+    "text": "Tinh đồ bạn cũ gửi không có nét cuối vì người ấy mất trước khi hoàn thành. Ngươi giữ chỗ trống thay vì vẽ thay, nhớ những chuyến đi đã từng cùng bàn.",
+    "translations": {
+      "zh": {
+        "title": "停在末笔的星图",
+        "text": "旧友的星图缺着末笔，因为他完成前已逝。你保留空处，不替他画下，记住曾共同商量的旅程。"
+      },
+      "en": {
+        "title": "A star chart left at its final stroke",
+        "text": "A friend’s star chart lacks its final stroke because they died before finishing. You preserve the gap instead of filling it, remembering the journeys you once planned together."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "peril_immortal_king_unclaimed_seat",
+    "category": "life",
+    "title": "Chỗ ngồi không người nhận",
+    "text": "Trong buổi họp sau tai nạn, một chỗ ngồi vẫn để trống cho người đã mất. Ngươi nghe tên họ được đọc rõ, rồi dành phần vật liệu còn lại giúp những người cùng nhà.",
+    "translations": {
+      "zh": {
+        "title": "无人就坐的席位",
+        "text": "事故后的议会为逝者留着空席。你听见其名被清楚读出，再拨出余料帮助同住的家人。"
+      },
+      "en": {
+        "title": "A seat left unclaimed",
+        "text": "A meeting after an accident leaves one seat empty for the dead. You hear their name spoken clearly and assign remaining materials to help the household they left behind."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -5
+    }
+  },
+  {
+    "id": "peril_immortal_emperor_name_after_world",
+    "category": "life",
+    "title": "Tên còn lại khi giới đã mất",
+    "text": "Ngươi nhận mảnh bia từ một giới đã tan, chỉ còn tên người thợ khắc. Đặt nó trong đạo tràng, ngươi để một đời lao động được nhớ bằng tên thay vì thành tích lớn.",
+    "translations": {
+      "zh": {
+        "title": "界灭后留下的名字",
+        "text": "你收到已灭之界的碑片，只余刻工姓名。将它放入道场，让一生劳作被名字记住，而不必靠宏大功绩。"
+      },
+      "en": {
+        "title": "A name remaining after a world is lost",
+        "text": "A stone fragment from a lost world retains only its mason’s name. You place it in your sanctuary, remembering a working life through a name rather than grand accomplishments."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
   }
 ]

@@ -1,3 +1,4 @@
+import {birth} from '../src/engine/content.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { origins } from '../src/data/origins.js';
@@ -17,7 +18,7 @@ test('sect children can awaken, be sheltered, leave, or die young without roots'
   for(let seed=1;seed<=5000;seed++) {
     const {run,nextSession}=startLife({runCount:0,pityCount:0},createRng(seed));
     births.add(run.profile.origin.id);
-    assert.equal(run.facts[0].text,run.profile.origin.birthText);
+    assert.ok([run.profile.origin.birthText,...birth.filter(record=>record.originId===run.profile.origin.id).map(record=>record.text)].includes(run.facts[0].text));
     if(!run.profile.origin.bornInSect)continue;
     const completed=autoComplete(run);
     if(run.profile.root.score>0) {

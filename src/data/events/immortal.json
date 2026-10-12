@@ -160,5 +160,842 @@
         "text": "A void storm suddenly sweeps through your retreat. You spend immortal stones to sustain your formation, escaping the vortex but still suffering injuries."
       }
     }
+  },
+  {
+    "id": "immortal_story_true_immortal_noodles",
+    "category": "life",
+    "title": "Bát mì ở tiên thành",
+    "text": "Ngươi ngồi ăn mì cạnh một người vừa phi thăng, nghe hắn kể chuyện quê nhà. Giữa tiên thành xa lạ, cuộc trò chuyện khiến lòng ngươi nhẹ đi đôi chút.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "health": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "仙城的一碗面",
+        "text": "你与一位刚飞升的人同桌吃面，听他讲述故乡。在陌生的仙城里，这场交谈让你的心情轻松了些。"
+      },
+      "en": {
+        "title": "Noodles in the Immortal City",
+        "text": "You share noodles with someone newly ascended and listen to stories of home. In an unfamiliar immortal city, the simple conversation makes your heart feel a little lighter."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_true_immortal_breath",
+    "category": "cultivation",
+    "title": "Hơi thở dưới thác tiên",
+    "text": "Dưới thác tiên, ngươi học cách để tiên khí đi cùng từng nhịp thở. Những cơn đau trong kinh mạch giảm dần, tiên lực không còn tản mát khi vận công.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "cultivation": 14,
+      "health": 5
+    },
+    "translations": {
+      "zh": {
+        "title": "仙瀑下的呼吸",
+        "text": "仙瀑之下，你练习让仙气随着呼吸流转。经脉中的疼痛渐渐缓解，运功时仙力也不再四散。"
+      },
+      "en": {
+        "title": "Breathing Beneath the Immortal Falls",
+        "text": "Beneath immortal falls, you learn to guide energy with every breath. Pain in your meridians gradually fades, and your power no longer scatters when you practice cultivation."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_true_immortal_lamp",
+    "category": "cultivation",
+    "title": "Ngọn đèn canh tiên lực",
+    "text": "Ngươi dùng ngọn đèn nhỏ đo độ ổn định của tiên lực mỗi đêm. Sau nhiều lần sửa cách vận công, ngọn lửa cuối cùng đứng thẳng giữa gió lạnh.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "cultivation": 16
+    },
+    "translations": {
+      "zh": {
+        "title": "守护仙力的灯",
+        "text": "你每夜用一盏小灯检验仙力是否稳定。反复调整运功方式后，火焰终于能在寒风中保持笔直。"
+      },
+      "en": {
+        "title": "The Lamp Beside Your Practice",
+        "text": "Each night, a small lamp measures the steadiness of your immortal power. After repeated adjustments to your practice, its flame finally stands straight against the cold wind."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_true_immortal_parcel",
+    "category": "opportunity",
+    "title": "Kiện hàng lạc người nhận",
+    "text": "Ngươi mang kiện hàng thất lạc tới địa chỉ ghi trên thẻ gỗ. Chủ nhân đã đi xa, để lại lời nhắn tặng tiên thạch cho người chịu đưa hàng về.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "resources": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "无人领取的包裹",
+        "text": "你将遗失的包裹送到木牌上的地址。主人早已远行，留下口信，将仙石赠给愿意送回包裹的人。"
+      },
+      "en": {
+        "title": "The Unclaimed Parcel",
+        "text": "You deliver a lost parcel to the address on its wooden tag. Its departed owner left immortal stones as a gift for whoever took the trouble to return it."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_true_immortal_heron",
+    "category": "opportunity",
+    "title": "Bạch hạc mắc cánh",
+    "text": "Ngươi gỡ cánh bạch hạc khỏi dây leo trên vách núi. Nó dẫn ngươi tới ổ cũ, nơi vài viên tiên ngọc nằm lẫn giữa những chiếc lông rụng.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "resources": 22,
+      "cultivation": 6
+    },
+    "translations": {
+      "zh": {
+        "title": "折翼白鹤",
+        "text": "你将白鹤的翅膀从山崖藤蔓中解开。它带你来到旧巢，几块仙玉藏在散落的羽毛之间。"
+      },
+      "en": {
+        "title": "The Trapped White Crane",
+        "text": "You free a white crane’s wing from vines along a cliff. It leads you to an old nest where pieces of immortal jade lie among discarded feathers."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_true_immortal_ferry",
+    "category": "disaster",
+    "title": "Đò tiên đứt dây",
+    "text": "Dây neo đò tiên đứt giữa dòng khí lưu, cuốn ngươi khỏi bến. Ngươi dùng tiên thạch dựng lớp chắn, trở về được nhưng mất nhiều sức trong gió xoáy.",
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "effects": {
+      "health": -12,
+      "resources": -10
+    },
+    "translations": {
+      "zh": {
+        "title": "断缆仙舟",
+        "text": "仙舟缆绳在气流中断裂，将你卷离渡口。你用仙石撑起屏障，虽成功返回，却在旋风中耗尽力气。",
+        "endingReason": "仙舟断缆后在气流中力竭而亡"
+      },
+      "en": {
+        "title": "The Ferry’s Broken Cable",
+        "text": "An immortal ferry’s cable snaps amid rushing currents, sweeping you from the dock. A barrier fueled by immortal stones gets you back, though the whirlwind leaves you exhausted.",
+        "endingReason": "Died of exhaustion after the immortal ferry cable snapped"
+      }
+    },
+    "endingReason": "Kiệt sức trong dòng khí lưu khi đò tiên đứt dây"
+  },
+  {
+    "id": "immortal_story_golden_immortal_potter",
+    "category": "life",
+    "title": "Bình gốm của người hàng xóm",
+    "text": "Người hàng xóm nhờ ngươi nung chiếc bình bằng tiên hỏa, chỉ để cắm hoa. Ngươi nhận lời, rồi thấy vui khi bảo vật nhỏ chẳng cần dùng để tranh đấu.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "health": 7
+    },
+    "translations": {
+      "zh": {
+        "title": "邻人的陶瓶",
+        "text": "邻人请你用仙火烧制一只插花陶瓶。你欣然答应，也因这件小物不必用于争斗而感到愉快。"
+      },
+      "en": {
+        "title": "The Neighbor’s Clay Vase",
+        "text": "A neighbor asks you to fire a clay vase with immortal flame, simply to hold flowers. You agree, enjoying the creation of something meant for ordinary beauty."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_golden_immortal_wounds",
+    "category": "cultivation",
+    "title": "Đường sáng trên tiên thể",
+    "text": "Những vết thương cũ phát sáng khi ngươi vận tiên lực vào lúc bình minh. Ngươi lần theo đường sáng, chỉnh lại các điểm tắc nghẽn trong tiên thể.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "cultivation": 18,
+      "health": 6
+    },
+    "translations": {
+      "zh": {
+        "title": "仙体上的光纹",
+        "text": "黎明运转仙力时，旧伤泛起微光。你顺着光纹探查，逐一疏通仙体内残留的阻塞。"
+      },
+      "en": {
+        "title": "Light Across the Immortal Body",
+        "text": "Old wounds glow as you circulate immortal power at dawn. Following their lines of light reveals lingering blockages, which you carefully clear from your immortal body."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_golden_immortal_gong",
+    "category": "cultivation",
+    "title": "Một nhịp chiêng giữa tĩnh thất",
+    "text": "Ngươi đặt chiếc chiêng ngoài tĩnh thất, mỗi ngày chỉ gõ một lần. Dư âm giúp ngươi nhận ra chỗ tiên lực lệch nhịp, rồi kiên nhẫn sửa từng vòng vận chuyển.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "静室中的一声锣",
+        "text": "你在静室外放一面锣，每日只敲一次。余音让你察觉仙力失衡之处，再耐心修正每一轮流转。"
+      },
+      "en": {
+        "title": "A Gong in the Quiet Chamber",
+        "text": "You place a gong outside your chamber and strike it once each day. Its echo reveals uneven currents of immortal power, helping you patiently correct each circulation."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_golden_immortal_chain",
+    "category": "opportunity",
+    "title": "Dây xích kéo từ vực",
+    "text": "Ngươi kéo sợi xích đứt khỏi vực khi sửa lại cây cầu cổ. Một đoạn xích chứa tiên kim tinh luyện, đủ để đổi lấy linh tài cho lần bế quan.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "resources": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "深渊中的锁链",
+        "text": "修补古桥时，你从深渊拉起一条断链。其中一段含有精炼仙金，足以换取下次闭关所需的灵材。"
+      },
+      "en": {
+        "title": "The Chain from the Abyss",
+        "text": "Repairing an ancient bridge, you pull a broken chain from the abyss. One section contains refined immortal metal, enough to trade for materials supporting your next retreat."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_golden_immortal_lotus",
+    "category": "opportunity",
+    "title": "Sen mọc trong áo giáp",
+    "text": "Bộ giáp bỏ quên trong hồ mọc lên một đóa sen vàng. Ngươi thu hạt sen đã chín, để lại hoa và giáp cho linh khí nơi này tiếp tục nuôi dưỡng.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "resources": 20,
+      "cultivation": 12
+    },
+    "translations": {
+      "zh": {
+        "title": "铠甲中的莲花",
+        "text": "遗落湖中的铠甲长出一朵金莲。你收下成熟莲子，留下花朵与铠甲，让此地灵气继续滋养它们。"
+      },
+      "en": {
+        "title": "A Lotus Inside the Armor",
+        "text": "A golden lotus grows from armor abandoned in a lake. You gather its ripe seeds, leaving the flower and armor for the local spiritual energy to nourish."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_golden_immortal_arrow",
+    "category": "disaster",
+    "title": "Tên lạc từ cuộc tranh bảo",
+    "text": "Ngươi đi ngang nơi hai nhóm tu sĩ tranh đoạt bảo vật thì trúng tên lạc. Phá được mũi tên khỏi tiên thể, ngươi phải bỏ hành trình để dưỡng thương.",
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "effects": {
+      "health": -16,
+      "resources": -8
+    },
+    "translations": {
+      "zh": {
+        "title": "夺宝争斗中的流矢",
+        "text": "途经两队修士争夺宝物之处，你被流矢击中。拔除嵌入仙体的箭头后，只能中断行程调养伤势。",
+        "endingReason": "死于夺宝争斗中流矢造成的伤势"
+      },
+      "en": {
+        "title": "A Stray Arrow from a Treasure Battle",
+        "text": "Passing two groups fighting over a treasure, you are struck by a stray arrow. Removing it from your immortal body forces you to interrupt your journey and recover.",
+        "endingReason": "Succumbed to a stray arrow wound from a treasure battle"
+      }
+    },
+    "endingReason": "Không qua khỏi vết thương do tên lạc tại cuộc tranh bảo"
+  },
+  {
+    "id": "immortal_story_mystic_immortal_guest",
+    "category": "life",
+    "title": "Khách đến trong giấc mộng",
+    "text": "Một người bạn cũ hiện trong giấc mộng, cùng ngươi uống trà như thuở trước. Tỉnh dậy, ngươi không rõ đó là huyền cảnh hay lời chào vượt qua khoảng cách.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "health": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "梦中来客",
+        "text": "旧友在梦中出现，与你像从前一样饮茶。醒来后，你不知那是玄境，还是跨越远方的一声问候。"
+      },
+      "en": {
+        "title": "A Guest Within a Dream",
+        "text": "An old friend visits your dream and shares tea as in earlier days. Upon waking, you cannot tell whether it was a vision or a greeting across the distance."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_mystic_immortal_windows",
+    "category": "cultivation",
+    "title": "Hai cửa sổ cùng nhìn một núi",
+    "text": "Ngươi ngồi giữa hai cửa sổ phản chiếu cùng một ngọn núi khác màu. Kiên nhẫn quan sát, ngươi hiểu huyền ý biến đổi theo cách tiên lực chạm vào cảnh vật.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "cultivation": 22
+    },
+    "translations": {
+      "zh": {
+        "title": "两窗望同山",
+        "text": "两扇窗映出同一座山，却呈现不同颜色。你耐心观察，领悟玄意如何随仙力接触景物的方式改变。"
+      },
+      "en": {
+        "title": "Two Windows Facing One Mountain",
+        "text": "Two windows reflect the same mountain in different colors. Patient observation reveals how mysterious meanings shift according to the way immortal power touches the surrounding landscape."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_mystic_immortal_silence",
+    "category": "cultivation",
+    "title": "Khoảng lặng sau đạo âm",
+    "text": "Ngươi từng cố ghi nhớ từng tiếng đạo âm, nay thử lắng nghe khoảng lặng. Huyền ý hiện lên giữa những lần ngắt nhịp, giúp pháp môn đang luyện trở nên thông suốt.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "道音后的寂静",
+        "text": "你曾努力记住每一道音，如今转而倾听寂静。玄意在停顿之间浮现，使正在修习的法门逐渐贯通。"
+      },
+      "en": {
+        "title": "Silence After the Dao’s Echo",
+        "text": "After trying to remember every echo of the Dao, you begin listening to silence. Meaning emerges between pauses, bringing clarity to the technique you have been practicing."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_mystic_immortal_ribbon",
+    "category": "opportunity",
+    "title": "Dải lụa buộc hai mùa",
+    "text": "Dải lụa trên cây cổ chia khu vườn thành mùa xuân và mùa thu. Ngươi giúp tháo nút huyền trận, được chủ vườn tặng tiên quả chín ở cả hai phía.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "resources": 26,
+      "health": 5
+    },
+    "translations": {
+      "zh": {
+        "title": "系住两季的丝带",
+        "text": "古树上的丝带将花园分成春秋两季。你帮助解开玄阵之结，园主赠你两侧成熟的仙果。"
+      },
+      "en": {
+        "title": "The Ribbon Between Seasons",
+        "text": "A ribbon on an ancient tree divides a garden into spring and autumn. Untangling its mysterious formation earns you immortal fruit ripened on both sides of the boundary."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_mystic_immortal_flute",
+    "category": "opportunity",
+    "title": "Ống sáo thiếu một lỗ",
+    "text": "Một nhạc công nhờ ngươi tìm lỗ sáo bị huyền thuật che kín. Khi tiếng nhạc trọn vẹn vang lên, hộp chứa tiên ngọc dưới sân tự mở để đáp lễ.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "resources": 30
+    },
+    "translations": {
+      "zh": {
+        "title": "少一孔的笛子",
+        "text": "乐师请你找出被玄术遮住的笛孔。完整乐声响起时，院地下装着仙玉的匣子自行打开，作为谢礼。"
+      },
+      "en": {
+        "title": "The Flute with a Missing Hole",
+        "text": "A musician asks you to uncover a flute hole concealed by mysterious arts. Once its melody becomes complete, a jade chest beneath the courtyard opens as your reward."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_mystic_immortal_scent",
+    "category": "disaster",
+    "title": "Hương dẫn kẻ truy sát",
+    "text": "Mùi hương từ linh tài vừa mua khiến một nhóm truy sát bám theo ngươi. Ngươi đốt sạch hành trang nhiễm hương để cắt dấu, thoát được nhưng tổn thất không nhỏ.",
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "effects": {
+      "resources": -20,
+      "health": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "引来追杀者的香气",
+        "text": "新购灵材散发的香气引来一队追杀者。你焚毁沾染气味的行囊以切断踪迹，虽逃脱却损失不小。",
+        "endingReason": "躲避循香追杀者时力竭而亡"
+      },
+      "en": {
+        "title": "The Scent That Draws Pursuers",
+        "text": "The scent of newly purchased materials draws a band of pursuers. Burning your scented belongings breaks their trail and lets you escape, though the loss is considerable.",
+        "endingReason": "Died of exhaustion escaping pursuers tracking scented materials"
+      }
+    },
+    "endingReason": "Kiệt sức khi chạy trốn những kẻ lần theo hương linh tài"
+  },
+  {
+    "id": "immortal_story_immortal_king_festival",
+    "category": "life",
+    "title": "Đêm hội không nghi lễ",
+    "text": "Ngươi ghé hội đêm ở thị trấn nhỏ, không ai biết danh phận của ngươi. Cùng dân làng thả đèn, ngươi có một đêm thảnh thơi sau nhiều năm lo việc lớn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "health": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "没有典礼的夜会",
+        "text": "你来到小镇夜会，无人知晓你的身份。与村民一同放灯，让你在多年操劳大事后度过难得轻松的一夜。"
+      },
+      "en": {
+        "title": "A Festival Without Ceremony",
+        "text": "You visit a small town’s night festival where nobody knows your rank. Releasing lanterns with its residents gives you a peaceful evening after years of weighty responsibilities."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_king_boundary",
+    "category": "cultivation",
+    "title": "Ranh giới không dựng tường",
+    "text": "Ngươi quan sát hai luồng tiên khí giao nhau mà không bên nào lấn át. Từ thế cân bằng ấy, ngươi luyện cách giữ lĩnh vực ổn định mà không phí sức.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "无墙的边界",
+        "text": "你观察两股仙气交汇，却互不压制。从这种平衡中，你学会以更少消耗维持自身领域稳定。"
+      },
+      "en": {
+        "title": "A Boundary Without Walls",
+        "text": "You study two currents of immortal energy meeting without overwhelming each other. Their balance teaches you to maintain a stable domain while expending less of your own strength."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_king_roots",
+    "category": "cultivation",
+    "title": "Rễ cây xuyên tiên vực",
+    "text": "Bộ rễ cổ thụ trải khắp tiên vực nhưng vẫn nuôi từng chiếc lá. Ngươi tham ngộ cách phân phối tiên lực, sửa những điểm suy yếu trong lĩnh vực của mình.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "cultivation": 26
+    },
+    "translations": {
+      "zh": {
+        "title": "贯穿仙域的树根",
+        "text": "古树根系遍布仙域，却仍滋养每片树叶。你参悟仙力分配之法，修补自身领域中的薄弱之处。"
+      },
+      "en": {
+        "title": "Roots Across the Immortal Domain",
+        "text": "An ancient tree’s roots span an immortal domain while nourishing every leaf. Studying their distribution teaches you to direct power and repair weak points within your own domain."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_king_harbor",
+    "category": "opportunity",
+    "title": "Kho dưới bến tiên bỏ hoang",
+    "text": "Ngươi giúp dời xác thuyền khỏi bến tiên đã bỏ hoang lâu năm. Dưới đáy bến lộ cửa kho, chứa linh tài mà đoàn vận tải không kịp mang theo.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "resources": 34
+    },
+    "translations": {
+      "zh": {
+        "title": "废弃仙港下的仓库",
+        "text": "你协助移走废弃仙港的船骸。港底露出仓库入口，里面存着运输队当年未及带走的灵材。"
+      },
+      "en": {
+        "title": "The Storehouse Beneath the Harbor",
+        "text": "You help remove wreckage from a long abandoned immortal harbor. Beneath the dock lies a storehouse holding materials that a departing transport fleet never managed to carry away."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_king_drum",
+    "category": "opportunity",
+    "title": "Trống trận thôi gọi chiến tranh",
+    "text": "Ngươi tìm được trống trận vẫn vang giữa vùng đất đã hòa bình. Giải lời thề khắc trên tang trống, ngươi nhận tinh hoa tiên khí từ những hồi âm cuối.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "cultivation": 18,
+      "resources": 18
+    },
+    "translations": {
+      "zh": {
+        "title": "不再召战的鼓",
+        "text": "你发现一面战鼓仍在和平之地鸣响。解开鼓身刻下的誓言后，最后的回声释放出仙气精华。"
+      },
+      "en": {
+        "title": "The War Drum Falls Quiet",
+        "text": "A war drum still sounds across land now at peace. Releasing the oath carved into its frame allows its final echoes to yield a concentration of immortal essence."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_king_tribute",
+    "category": "disaster",
+    "title": "Đoàn cống vật bị tráo",
+    "text": "Đoàn vận chuyển nhờ ngươi giữ cống vật qua vùng tranh chấp. Khi mở hộp kiểm tra, ngươi phát hiện trận hút tiên lực, phải phá cả lô hàng để tự cứu.",
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "effects": {
+      "health": -15,
+      "resources": -16
+    },
+    "translations": {
+      "zh": {
+        "title": "被调换的贡品",
+        "text": "运输队请你护送贡品穿过争议地带。开箱检查时，你发现吸取仙力的阵法，只能毁掉整批货物自救。",
+        "endingReason": "被贡品中的暗阵抽尽仙力而亡"
+      },
+      "en": {
+        "title": "The Switched Tribute Caravan",
+        "text": "A caravan asks you to protect tribute through disputed territory. Inspecting its crates reveals a formation that drains immortal power, forcing you to destroy the cargo to survive.",
+        "endingReason": "Died after tribute concealed a formation that drained immortal power"
+      }
+    },
+    "endingReason": "Tiên lực cạn kiệt bởi trận pháp giấu trong cống vật"
+  },
+  {
+    "id": "immortal_story_immortal_emperor_apricot",
+    "category": "life",
+    "title": "Mùa quả của người trồng cây",
+    "text": "Người trồng cây mời ngươi nếm quả đầu mùa, chẳng hỏi chuyện đại đạo. Ngươi ngồi nghe ông lo mưa nắng, thấy những điều giản dị vẫn đáng quan tâm.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "health": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "种树人的果季",
+        "text": "种树人请你品尝初熟的果实，并不询问大道。你听他谈论风雨，发现平凡小事依然值得放在心上。"
+      },
+      "en": {
+        "title": "The Gardener’s Harvest",
+        "text": "A gardener offers you the first fruit of the season without asking about the great path. Listening to his worries about weather reminds you that simple concerns still matter."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_emperor_drop",
+    "category": "cultivation",
+    "title": "Một giọt nước chứa trời",
+    "text": "Ngươi thu tiên lực để nhìn bầu trời phản chiếu trong giọt nước nhỏ. Không ép cảnh vật thay đổi, ngươi nhận ra chỗ đại đạo vận hành tự nhiên nhất.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "cultivation": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "一滴水中的天空",
+        "text": "你收敛仙力，观察小小水滴中映出的天空。不强迫景物改变，反而看清大道最自然的运行方式。"
+      },
+      "en": {
+        "title": "The Sky Within a Drop",
+        "text": "You restrain your power to study the sky reflected in a tiny drop. Allowing the scene to remain undisturbed reveals where the great path moves most naturally."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_emperor_ashes",
+    "category": "cultivation",
+    "title": "Tro lạnh của đế pháp",
+    "text": "Sau khi thử một đế pháp, ngươi giữ lại đống tro tưởng vô dụng. Đọc dấu tiên lực trong từng hạt, ngươi tìm được sai lệch khiến pháp môn chưa trọn vẹn.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "cultivation": 30
+    },
+    "translations": {
+      "zh": {
+        "title": "帝法留下的冷灰",
+        "text": "试演帝法后，你留下看似无用的灰烬。辨读每粒灰中的仙力痕迹，终于找到法门尚未完善的偏差。"
+      },
+      "en": {
+        "title": "Cold Ashes of an Imperial Art",
+        "text": "After testing an imperial art, you preserve its seemingly useless ashes. Reading traces of power in each grain reveals the flaw that has kept the technique incomplete."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_emperor_pearl",
+    "category": "opportunity",
+    "title": "Ngọc trai trong biển đã cạn",
+    "text": "Biển sao đã cạn để lại vỏ trai lớn nằm giữa khoảng không. Ngươi mở lớp vỏ hóa đá, thu viên ngọc còn giữ tiên khí của những con sóng cuối.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "resources": 38,
+      "cultivation": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "枯海中的珍珠",
+        "text": "干涸的星海留下巨蚌，静悬虚空。你打开石化外壳，取出仍保存最后浪潮仙气的珍珠。"
+      },
+      "en": {
+        "title": "A Pearl in the Vanished Sea",
+        "text": "A vanished sea of stars leaves a giant shell suspended in emptiness. Opening its petrified casing reveals a pearl retaining immortal energy from the sea’s final waves."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_emperor_loom",
+    "category": "opportunity",
+    "title": "Khung cửi dệt ánh sao",
+    "text": "Khung cửi bỏ quên trên đỉnh tiên sơn vẫn gom ánh sao mỗi đêm. Ngươi sửa thanh ngang gãy, lấy đoạn gấm đã dệt xong để luyện bảo vật hộ thân.",
+    "weight": 8,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "resources": 36
+    },
+    "translations": {
+      "zh": {
+        "title": "编织星光的织机",
+        "text": "遗落仙山顶的织机每夜仍收拢星光。你修好断裂横梁，取下织成的锦缎，用于炼制护身宝物。"
+      },
+      "en": {
+        "title": "The Loom That Weaves Starlight",
+        "text": "A forgotten loom atop an immortal mountain still gathers starlight each night. Repairing its broken crossbeam lets you collect finished cloth to craft a protective treasure."
+      }
+    }
+  },
+  {
+    "id": "immortal_story_immortal_emperor_false",
+    "category": "disaster",
+    "title": "Bảo quang che vết giới nứt",
+    "text": "Ngươi lần theo bảo quang đến mép một thế giới đang rạn nứt. Ánh sáng chỉ là tiên khí thoát ra, buộc ngươi tiêu hao linh tài để rút khỏi vùng sụp đổ.",
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 1200,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "effects": {
+      "health": -14,
+      "resources": -18
+    },
+    "translations": {
+      "zh": {
+        "title": "遮住界隙的宝光",
+        "text": "你循宝光来到一方正在开裂的世界边缘。光芒只是外泄仙气，迫使你耗费灵材撤离崩塌区域。",
+        "endingReason": "未能逃出崩塌的世界区域"
+      },
+      "en": {
+        "title": "Treasure Light Above a World Fissure",
+        "text": "Following treasure light brings you to the edge of a fracturing world. It is merely escaping immortal energy, forcing you to spend precious materials to escape the collapse.",
+        "endingReason": "Failed to escape a collapsing region of the world"
+      }
+    },
+    "endingReason": "Không thoát khỏi vùng thế giới sụp đổ"
   }
 ]

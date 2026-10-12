@@ -22,6 +22,7 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 - Nam/Nữ cố định theo profile, fallback ổn định cho save cũ. Giới tính ảnh hưởng tập sự kiện, không tự đặt ưu thế tư chất cho một giới. 600 tên đạo lữ, 300 mỗi giới; hiện ghép khác giới. Chỉ hiện tên sau bonded; tên ổn định, không tiêu thụ RNG.
 - Giao chiến cần thắng/trọng thương/tử trận và nguyên nhân chết cụ thể; không biến mọi hiểm cảnh thành tẩu hỏa. `outcomes` tự roll; `choices` chờ người chơi. Death outcome cần `endingReason`, đầy đủ dịch. Nguy hiểm thế giới và luck ảnh hưởng trọng số; số lần/cảnh giới/điều kiện vẫn được lọc.
 - Sự kiện JSON mới được ghép vào file sẵn có theo `category`: `life.json`, `cultivation.json`, `opportunities.json`, `disasters.json`; không tạo file riêng theo đợt thêm hoặc cảnh giới. Đạo lữ thuộc `life` và có điều kiện `partnerStatus: bonded`; lựa chọn/giao chiến theo category của sự kiện. Giữ nguyên ID khi chuyển file.
+- Mở đầu dùng lời kể gốc của xuất thân hoặc bản trong birth.json khớp originId. Kết thúc trong endings.json có kind: age/ascend/injury; ID cũ age/ascend vẫn hợp lệ. narrative.js chọn đoạn bằng hash từ trạng thái đã biết, không tiêu thụ RNG. Fact lưu nguyên văn nên refresh/ngôn ngữ không chọn lại; tử vong có đoạn kể riêng từ outcome vẫn giữ nguyên nguyên nhân và lời kể. Bản dịch mới đặt inline trong JSON.
 - Pity thay đổi khi sinh hồ sơ; không dùng animation hay ngôn ngữ để tiêu thụ RNG mô phỏng.
 
 ## Lưu và deploy

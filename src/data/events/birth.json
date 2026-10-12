@@ -2,5 +2,265 @@
   {
     "id": "birth",
     "text": "Ngươi sinh ra trong một {origin}, giữa buổi giao mùa yên ả. Chưa ai biết đứa trẻ này sẽ đi được bao xa trên con đường cầu đạo."
+  },
+  {
+    "id": "birth_mortal_vignette",
+    "originId": "mortal",
+    "text": "Tiếng khóc của ngươi cất lên trong căn nhà nhỏ khi bếp lửa còn đỏ. Gia đình đón thêm một miệng ăn, cùng một niềm hy vọng chưa biết đặt tên.",
+    "translations": {
+      "zh": {
+        "text": "灶火尚红，你的哭声在小屋里响起。家中多了一张需要喂养的嘴，也多了一份尚不知如何命名的希望。"
+      },
+      "en": {
+        "text": "Your first cry rises inside a small home while the hearth still glows. Your family welcomes another mouth to feed and a hope they cannot yet name."
+      }
+    }
+  },
+  {
+    "id": "birth_orphan_vignette",
+    "originId": "orphan",
+    "text": "Người qua đường nghe tiếng khóc trong chiếc giỏ đặt bên mái hiên. Không có lời nhắn về cha mẹ, chỉ một mảnh vải cũ quấn quanh thân ngươi.",
+    "translations": {
+      "zh": {
+        "text": "路人在屋檐下的篮子里听见哭声。没有关于父母的留言，只有一块旧布裹着你幼小的身体。"
+      },
+      "en": {
+        "text": "A passerby hears crying from a basket beneath an eave. There is no message about your parents, only an old piece of cloth wrapped around your tiny body."
+      }
+    }
+  },
+  {
+    "id": "birth_wanderer_vignette",
+    "originId": "wanderer",
+    "text": "Ngươi chào đời giữa lúc cha mẹ tán tu dừng chân bên đường. Hành trang được kê thành chỗ nằm, còn những pháp quyết cũ nằm cạnh tấm chăn sơ sinh.",
+    "translations": {
+      "zh": {
+        "text": "散修父母在路边暂歇时，你来到世间。行囊被垫成床铺，旧法诀就放在襁褓旁边。"
+      },
+      "en": {
+        "text": "You are born while your wandering cultivator parents rest beside the road. Their luggage becomes a makeshift bed, with old manuals lying beside your first blanket."
+      }
+    }
+  },
+  {
+    "id": "birth_clan_vignette",
+    "originId": "clan",
+    "text": "Trong phủ của thế gia tu tiên, tiếng khóc của ngươi làm người giữ thư khố mỉm cười. Một tên mới được ghi vào gia phả, tư chất vẫn chưa ai biết.",
+    "translations": {
+      "zh": {
+        "text": "修仙世家的府邸里，你的哭声让守书人露出微笑。族谱添了一个名字，而你的资质仍无人知晓。"
+      },
+      "en": {
+        "text": "In a cultivation clan’s residence, your first cry makes the librarian smile. Another name enters the family register, though nobody yet knows what aptitude you possess."
+      }
+    }
+  },
+  {
+    "id": "birth_royal_vignette",
+    "originId": "royal",
+    "text": "Tin ngươi chào đời được truyền qua những hành lang cung điện trong đêm. Người hầu chuẩn bị lễ mừng, còn bên ngoài rèm ngọc vẫn vang lời bàn việc triều chính.",
+    "translations": {
+      "zh": {
+        "text": "你降生的消息在夜里传遍宫廷长廊。侍从准备贺礼，玉帘之外却仍响着议论朝政的声音。"
+      },
+      "en": {
+        "text": "News of your birth travels through palace corridors at night. Servants prepare celebrations, while beyond the jeweled curtains, voices continue discussing the affairs of the court."
+      }
+    }
+  },
+  {
+    "id": "birth_farmer_vignette",
+    "originId": "farmer",
+    "text": "Ngươi chào đời khi người nhà vừa cất nông cụ sau một ngày ngoài ruộng. Đôi tay còn vương bùn nâng niu tấm chăn, mong đứa trẻ lớn lên được no đủ.",
+    "translations": {
+      "zh": {
+        "text": "家人结束田间劳作、刚收好农具时，你降生了。沾着泥土的手轻托襁褓，只盼孩子长大后衣食无忧。"
+      },
+      "en": {
+        "text": "You are born as your family puts away tools after a day in the fields. Muddy hands cradle your blanket, hoping this child will grow without hunger."
+      }
+    }
+  },
+  {
+    "id": "birth_fisher_vignette",
+    "originId": "fisher",
+    "text": "Tiếng khóc đầu đời của ngươi hòa cùng tiếng thuyền va nhẹ vào bến. Trong căn nhà làng chài, người lớn vá thêm tấm chăn bên những mảnh lưới còn ướt.",
+    "translations": {
+      "zh": {
+        "text": "你的第一声啼哭与渔船轻碰码头的声音相伴。渔村屋里，大人在湿渔网旁缝补一床婴儿毯。"
+      },
+      "en": {
+        "text": "Your first cry mingles with boats gently tapping the dock. Inside a fishing village home, adults stitch another blanket beside nets still damp from the river."
+      }
+    }
+  },
+  {
+    "id": "birth_hunter_vignette",
+    "originId": "hunter",
+    "text": "Ngươi chào đời khi gia đình thợ săn đang chờ người thân trở về từ rừng. Bên chiếc nôi nhỏ, một bó tên được dời đi để nhường chỗ cho tã mới.",
+    "translations": {
+      "zh": {
+        "text": "猎户一家等待亲人从林中归来时，你来到世间。小摇篮旁的箭束被移开，为新尿布腾出地方。"
+      },
+      "en": {
+        "text": "You are born while your hunting family waits for a relative to return from the forest. Beside your cradle, a bundle of arrows makes room for fresh cloth."
+      }
+    }
+  },
+  {
+    "id": "birth_merchant_vignette",
+    "originId": "merchant",
+    "text": "Gia đình thương nhân tạm gác sổ nợ khi nghe tiếng khóc của ngươi. Giữa những kiện hàng chưa mở, họ tìm tấm lụa mềm nhất để quấn đứa trẻ mới sinh.",
+    "translations": {
+      "zh": {
+        "text": "听见你的哭声，商人家暂时合上账簿。在尚未拆开的货箱之间，他们找出最柔软的绸布包裹新生儿。"
+      },
+      "en": {
+        "text": "Your merchant family closes its ledgers upon hearing your cry. Among unopened shipments, they choose the softest silk they can find to wrap their newborn child."
+      }
+    }
+  },
+  {
+    "id": "birth_smith_vignette",
+    "originId": "smith",
+    "text": "Lò rèn tắt lửa sớm trong ngày ngươi chào đời, tiếng búa nhường chỗ cho tiếng ru. Người nhà đặt chiếc khóa nhỏ bên nôi như lời chúc bình an.",
+    "translations": {
+      "zh": {
+        "text": "你降生那天，铁炉早早熄火，锤声让位于摇篮曲。家人在摇篮旁放一枚小锁，祈愿你平安长大。"
+      },
+      "en": {
+        "text": "The forge closes early on the day you are born, its hammering replaced by lullabies. Your family places a small lock beside the cradle as a wish for safety."
+      }
+    }
+  },
+  {
+    "id": "birth_healer_vignette",
+    "originId": "healer",
+    "text": "Ngươi chào đời giữa mùi thuốc sắc và tiếng người chờ khám ngoài hiên. Gia đình y sư dành một góc ấm cho chiếc nôi, rồi lại trở về chăm bệnh nhân.",
+    "translations": {
+      "zh": {
+        "text": "药汤气味与廊下候诊的声音中，你来到世间。医者家人为摇篮留出温暖角落，随后又去照料病人。"
+      },
+      "en": {
+        "text": "You are born amid simmering medicine and patients waiting outside. Your healer family makes a warm corner for your cradle before returning to care for those who need them."
+      }
+    }
+  },
+  {
+    "id": "birth_village_vignette",
+    "originId": "village",
+    "text": "Sơn thôn đón ngươi bằng bát cháo hàng xóm mang qua và vài lời chúc mộc mạc. Ngoài cửa, núi vẫn phủ sương, con đường xuống thành còn xa.",
+    "translations": {
+      "zh": {
+        "text": "山村邻人送来一碗粥，用朴素祝福迎接你。门外群山仍笼着雾，通往城镇的路还很遥远。"
+      },
+      "en": {
+        "text": "Mountain villagers welcome you with a neighbor’s bowl of porridge and simple blessings. Outside, mist still covers the peaks, and the road to town remains far away."
+      }
+    }
+  },
+  {
+    "id": "birth_refugee_vignette",
+    "originId": "refugee",
+    "text": "Ngươi cất tiếng khóc trong chỗ trú tạm giữa đoàn người chạy loạn. Một người nhường phần nước còn lại, người khác vá tấm chăn để giữ hơi ấm cho ngươi.",
+    "translations": {
+      "zh": {
+        "text": "逃难人群的临时住处里，你发出第一声啼哭。有人让出剩水，有人补好毯子，只为留住你的体温。"
+      },
+      "en": {
+        "text": "You first cry in a temporary shelter among refugees. One person shares their remaining water, while another patches a blanket to keep your tiny body warm."
+      }
+    }
+  },
+  {
+    "id": "birth_guard_vignette",
+    "originId": "guard",
+    "text": "Trong sân nhà võ sư, những người đang luyện quyền dừng lại khi ngươi chào đời. Tiếng chúc mừng vang qua cửa, còn chiếc nôi được đặt xa giá binh khí.",
+    "translations": {
+      "zh": {
+        "text": "武师院里，练拳的人在你出生时停下动作。祝贺声传过门口，摇篮则被安置在远离兵器架的地方。"
+      },
+      "en": {
+        "text": "In a martial instructor’s courtyard, students pause their training when you are born. Congratulations drift through the doorway, while your cradle is placed well away from the weapons."
+      }
+    }
+  },
+  {
+    "id": "birth_scribe_vignette",
+    "originId": "scribe",
+    "text": "Ngươi chào đời trong căn nhà học giả, nơi mực trên trang sách còn chưa khô. Người nhà tìm chữ đẹp để đặt tên, nhưng chỉ mong ngươi sống khỏe trước tiên.",
+    "translations": {
+      "zh": {
+        "text": "学者家中的书页墨迹未干，你便来到世间。家人翻找好字为你取名，却首先盼你健康平安。"
+      },
+      "en": {
+        "text": "You are born in a scholar’s home while ink still dries upon a page. Your family searches for a beautiful name, wishing first that you grow up healthy."
+      }
+    }
+  },
+  {
+    "id": "birth_islander_vignette",
+    "originId": "islander",
+    "text": "Ngươi chào đời trên đảo nhỏ giữa đêm nghe rõ tiếng sóng xa. Người nhà treo tấm vải chắn gió bên nôi, đợi thuyền buôn tới để mua thêm đồ dùng.",
+    "translations": {
+      "zh": {
+        "text": "海浪声清晰的夜里，你在小岛上降生。家人在摇篮旁挂布挡风，等待商船带来更多日用物品。"
+      },
+      "en": {
+        "text": "You are born on a small island during a night filled with distant waves. Your family shields the cradle from wind and waits for a merchant ship to bring supplies."
+      }
+    }
+  },
+  {
+    "id": "birth_sect_servant_vignette",
+    "originId": "sect_servant",
+    "text": "Trong khu tạp dịch tông môn, ngươi chào đời khi tiếng chuông gọi việc vừa dứt. Người nhà đổi ca để chăm ngươi, mong sơn môn cho đứa trẻ một chỗ yên ổn.",
+    "translations": {
+      "zh": {
+        "text": "宗门杂役区里，催工钟声刚停，你便出生。家人换班照顾你，只盼山门能给孩子一处安稳居所。"
+      },
+      "en": {
+        "text": "You are born in the servants’ quarters just after the work bell falls silent. Your family trades shifts to care for you, hoping the sect will offer a safe home."
+      }
+    }
+  },
+  {
+    "id": "birth_sect_disciple_vignette",
+    "originId": "sect_disciple",
+    "text": "Ngươi chào đời trong phòng ở của đệ tử tông môn, cạnh giá pháp quyết. Cha mẹ cất linh thạch dành dụm vào hộp, chuẩn bị cho những năm nuôi dưỡng phía trước.",
+    "translations": {
+      "zh": {
+        "text": "宗门弟子居室里，你在法诀书架旁降生。父母将积攒的灵石收进匣子，为今后的养育岁月做准备。"
+      },
+      "en": {
+        "text": "You are born beside a shelf of techniques in a sect disciple’s room. Your parents put their saved spirit stones into a box, preparing for the years of care ahead."
+      }
+    }
+  },
+  {
+    "id": "birth_sect_elder_vignette",
+    "originId": "sect_elder",
+    "text": "Tin ngươi chào đời đến từng viện trong tông môn, kéo theo nhiều lời chúc. Gia đình trưởng lão đón khách bên ngoài, còn trong phòng chỉ có tiếng ru nhẹ.",
+    "translations": {
+      "zh": {
+        "text": "你的出生消息传遍宗门各院，带来许多祝福。长老家人在外迎客，房中却只有轻柔的摇篮曲。"
+      },
+      "en": {
+        "text": "News of your birth spreads through the sect’s courtyards, bringing many blessings. Your elder family receives visitors outside, while only a quiet lullaby reaches the room within."
+      }
+    }
+  },
+  {
+    "id": "birth_sect_foundling_vignette",
+    "originId": "sect_foundling",
+    "text": "Người của tông môn đưa ngươi qua sơn môn trong tấm áo dùng làm chăn. Không tìm được thân nhân, họ chuẩn bị chiếc nôi nhỏ và ghi tên ngươi vào sổ nuôi dưỡng.",
+    "translations": {
+      "zh": {
+        "text": "宗门之人用外衣包着你穿过山门。寻不到亲人，他们准备小摇篮，将你的名字记入收养名册。"
+      },
+      "en": {
+        "text": "Sect members carry you through their gate wrapped in a coat. Unable to find your relatives, they prepare a small cradle and enter your name in their care register."
+      }
+    }
   }
 ]

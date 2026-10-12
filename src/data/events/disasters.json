@@ -2010,5 +2010,4648 @@
         "endingReason": "Thần thức bị ý chí trong hư triều chiếm đạo cơ nghiền tan"
       }
     ]
+  },
+  {
+    "id": "deception_mortal_missing_wages",
+    "category": "disaster",
+    "title": "Người nhận công thay",
+    "text": "Ngươi nhờ bạn cùng làm nhận tiền công khi mình ốm. Người ấy bỏ đi sau buổi trả tiền, để chủ xưởng đưa tờ ký nhận thay cho số bạc ngươi đợi.",
+    "translations": {
+      "zh": {
+        "title": "代领工钱的人",
+        "text": "你生病时请工友代领工钱。发薪后他离去，坊主只拿出代领签单，没有你等着的银钱。"
+      },
+      "en": {
+        "title": "Someone collecting your wages",
+        "text": "Falling ill, you ask a coworker to collect your wages. They disappear after payday, leaving the owner to show a signed receipt instead of the silver you expected."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -8
+    }
+  },
+  {
+    "id": "deception_mortal_weighted_rice",
+    "category": "disaster",
+    "title": "Gạo nặng vì cát trộn",
+    "text": "Bao gạo mua giá rẻ nặng hơn thường lệ vì người bán trộn cát dưới đáy. Ngươi sàng được phần ăn, nhưng khoản tưởng tiết kiệm lại đủ mua thêm vài bữa tốt.",
+    "translations": {
+      "zh": {
+        "title": "掺沙的重米",
+        "text": "便宜米袋异常沉重，原来商贩在底部掺沙。你筛出可吃的米，所谓省下的钱却已够买几顿好饭。"
+      },
+      "en": {
+        "title": "Rice made heavier with sand",
+        "text": "A cheap rice sack weighs unusually much because its seller hid sand underneath. You sift out edible grains, but the supposed savings could have bought several better meals."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -5
+    }
+  },
+  {
+    "id": "deception_qi_refining_empty_pill",
+    "category": "disaster",
+    "title": "Đan hoàn chỉ có mùi thuốc",
+    "text": "Viên đan mua từ người quen thơm như hàng thật nhưng bên trong chỉ có bột thường. Ngươi luyện mãi không thấy linh khí đổi, tới lúc bẻ đôi mới biết mình bị lừa.",
+    "translations": {
+      "zh": {
+        "title": "只有药香的丹丸",
+        "text": "熟人卖的丹丸闻着像真货，内里却只有普通粉末。修炼许久灵气不变，掰开后才发现受骗。"
+      },
+      "en": {
+        "title": "A pill with only a medicinal scent",
+        "text": "A pill bought from an acquaintance smells genuine but contains ordinary powder. Practice brings no change in your energy, and splitting it finally reveals the deception."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -8
+    }
+  },
+  {
+    "id": "deception_qi_refining_stolen_location",
+    "category": "disaster",
+    "title": "Tọa độ bán cho người khác",
+    "text": "Ngươi chỉ chỗ linh khí tốt cho bạn đồng hành, hẹn cùng quay lại luyện. Người ấy bán tọa độ trước buổi hẹn, để ngươi thấy cọc thuê của người khác trên đất cũ.",
+    "translations": {
+      "zh": {
+        "title": "卖给别人的坐标",
+        "text": "你把灵气充足之地告诉同行者，约好回来共修。他却提前卖掉坐标，让你只看见别人立下的租地桩。"
+      },
+      "en": {
+        "title": "Coordinates sold to someone else",
+        "text": "You share a good practice site with a companion and arrange to return together. They sell its coordinates beforehand, leaving another renter’s stakes where you expected to train."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -7
+    }
+  },
+  {
+    "id": "deception_true_immortal_false_residence",
+    "category": "disaster",
+    "title": "Thẻ ở động phủ đã hết hạn",
+    "text": "Người môi giới giao thẻ thuê động phủ đã hết hạn rồi rời tiên thành. Ngươi đến cửa mới thấy trận không nhận thẻ, phải mất thêm tiên thạch tìm chỗ nghỉ khác.",
+    "translations": {
+      "zh": {
+        "title": "过期洞府居牌",
+        "text": "中人交给你过期的洞府租牌后离开仙城。到门前才发现阵法不认牌，只得再花仙石另找住处。"
+      },
+      "en": {
+        "title": "An expired retreat residence token",
+        "text": "A broker leaves the city after giving you an expired retreat token. Only at its door do you find the formation rejects it, requiring more stones for another lodging."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -14
+    }
+  },
+  {
+    "id": "deception_true_immortal_vanished_guide",
+    "category": "disaster",
+    "title": "Người dẫn đường lấy mất dấu neo",
+    "text": "Người dẫn đường mượn dấu neo của ngươi để chỉnh tuyến rồi biến mất cùng nó. Ngươi trở về nhờ trạm gần nhất, bỏ thêm phí và không còn tin lời hứa đi tắt.",
+    "translations": {
+      "zh": {
+        "title": "向导偷走锚印",
+        "text": "向导借你的锚印调整路线，却带着它消失。你靠最近驿站返回，多付了费用，也不再相信所谓捷径。"
+      },
+      "en": {
+        "title": "A guide steals your anchor mark",
+        "text": "A guide borrows your anchor mark to adjust a route and vanishes with it. Returning through the nearest relay costs extra and ends your trust in promised shortcuts."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -13
+    }
+  },
+  {
+    "id": "deception_golden_immortal_swapped_law_ink",
+    "category": "disaster",
+    "title": "Mực đạo văn bị tráo",
+    "text": "Người được nhờ giữ hộ mực đạo văn tráo phần tốt bằng mực đã loãng. Nét pháp tắc vỡ giữa buổi thử, khiến ngươi mất cả vật liệu lẫn thời gian sửa trận.",
+    "translations": {
+      "zh": {
+        "title": "道纹墨遭掉包",
+        "text": "受托保管道纹墨的人，用稀墨换走好墨。试验时法则笔画崩散，让你损失材料，还须花时间修阵。"
+      },
+      "en": {
+        "title": "Law pattern ink switched in secret",
+        "text": "Someone entrusted with your pattern ink replaces it with diluted stock. A law stroke breaks during testing, costing materials and time spent repairing the damaged formation afterward."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -16,
+      "cultivation": -4
+    }
+  },
+  {
+    "id": "deception_golden_immortal_fake_collateral",
+    "category": "disaster",
+    "title": "Vật thế chấp rỗng đạo lực",
+    "text": "Ngươi cho người quen vay tiên thạch, nhận vật thế chấp tưởng còn nguyên đạo lực. Khi họ không trở lại, mở kiểm mới biết lõi đã bị rút sạch từ trước.",
+    "translations": {
+      "zh": {
+        "title": "抵押物无道力",
+        "text": "你借仙石给熟人，收下看似道力完整的抵押物。他不再回来，打开检查才知核心早已被抽空。"
+      },
+      "en": {
+        "title": "Collateral emptied of law force",
+        "text": "You lend stones to an acquaintance against seemingly sound collateral. When they fail to return, opening its core reveals that the law force was drained long before your agreement."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -15
+    }
+  },
+  {
+    "id": "deception_mystic_immortal_forged_star_route",
+    "category": "disaster",
+    "title": "Tinh lộ vẽ để thu phí",
+    "text": "Người vẽ tinh đồ chèn một trạm nghỉ không tồn tại để thu tiền đặt chỗ. Ngươi tới vùng trống mới hiểu, phải tìm trạm khác trước khi pháp khí đường dài cạn lực.",
+    "translations": {
+      "zh": {
+        "title": "为收费虚画的星路",
+        "text": "绘图人添了一座不存在的驿站收取订位费。到达空域你才明白，只得在远行法器耗尽前另找休息处。"
+      },
+      "en": {
+        "title": "A stellar route drawn to collect fees",
+        "text": "A chart maker invents a rest station to collect reservation fees. Reaching empty space reveals the fraud, forcing you to find another stop before your traveling artifact runs out."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -17
+    }
+  },
+  {
+    "id": "deception_mystic_immortal_sold_dream",
+    "category": "disaster",
+    "title": "Giấc mộng riêng bị bán",
+    "text": "Ngươi cho người quen xem một phần mộng cảnh để cùng tìm huyền ý. Họ chép rồi bán cảnh ấy như của mình, khiến ngươi phải đổi dấu bảo vệ trước lần nhập mộng sau.",
+    "translations": {
+      "zh": {
+        "title": "私梦遭出售",
+        "text": "你给熟人看部分梦境以共寻玄意。他复制后冒作己梦出售，迫使你在下次入梦前更换保护印。"
+      },
+      "en": {
+        "title": "A private dream sold away",
+        "text": "You share part of a dream with an acquaintance to explore its meaning. They copy and sell it as their own, forcing changes to your safeguards before dreaming again."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -16,
+      "cultivation": -3
+    }
+  },
+  {
+    "id": "deception_immortal_king_false_relief",
+    "category": "disaster",
+    "title": "Cứu tế bị giữ giữa đường",
+    "text": "Người nhận chuyển vật liệu cứu tế giữ lại phần tốt rồi báo dân đã nhận đủ. Đối chiếu lời các làng, ngươi phát hiện khoản thiếu, phải bỏ thêm của riêng để kịp mùa.",
+    "translations": {
+      "zh": {
+        "title": "赈济半途截留",
+        "text": "受托运送赈济材料的人扣下好货，却报村民已收齐。核对各村说法后，你发现短缺，只得自补以赶上季节。"
+      },
+      "en": {
+        "title": "Relief withheld along the road",
+        "text": "A relief carrier keeps the best supplies while reporting complete deliveries. Comparing village accounts reveals the shortage, requiring your own resources to replace what is needed before the season."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -20
+    }
+  },
+  {
+    "id": "deception_immortal_king_leaked_route",
+    "category": "disaster",
+    "title": "Lộ trình bị bán cho kẻ trộm",
+    "text": "Người thân cận bán lịch chuyển kho ngươi giao giữ, để kẻ trộm lấy hàng lúc hộ tống đổi ca. Ngươi giữ được phần còn lại, nhưng vật liệu mất không tìm về.",
+    "translations": {
+      "zh": {
+        "title": "行程卖给窃贼",
+        "text": "亲近之人卖掉你托管的转库时刻，窃贼趁护送换班取走货物。余货保住，失去的材料却再也找不回。"
+      },
+      "en": {
+        "title": "An itinerary sold to thieves",
+        "text": "A trusted aide sells your storage transfer schedule, letting thieves act during an escort change. You protect the remaining cargo, but the missing materials cannot be recovered afterward."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -19
+    }
+  },
+  {
+    "id": "deception_immortal_emperor_false_world_core",
+    "category": "disaster",
+    "title": "Lõi giới đã bị rút đạo nguyên",
+    "text": "Người đổi lõi giới dùng lớp đạo quang giả che phần ruột đã cạn. Ngươi nhận hàng rồi mới thấy nguồn nuôi tắt, mất bảo vật trao đổi mà không còn dấu người bán.",
+    "translations": {
+      "zh": {
+        "title": "已抽空的界核",
+        "text": "换界核的人用假道光遮住枯竭内里。收货后你才见供源熄灭，交换宝物已失，卖家也无踪可寻。"
+      },
+      "en": {
+        "title": "A world core stripped of Dao essence",
+        "text": "A trader hides an exhausted world core beneath false Dao light. Its support dies after delivery, leaving your exchanged treasure gone and the seller without a trace."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -23
+    }
+  },
+  {
+    "id": "deception_immortal_emperor_betrayed_shelter",
+    "category": "disaster",
+    "title": "Nơi che chở thành đường dò",
+    "text": "Người ngươi cho trú trong đạo tràng để dấu dò cho bên đang tìm bí mật nền đạo. Phát hiện rồi, ngươi xóa từng dấu, hao đạo nguyên đóng những lối đã bị biết.",
+    "translations": {
+      "zh": {
+        "title": "庇护处成探路",
+        "text": "你收留在道场的人，为窥探道基者留下探印。发现后逐一抹除，耗费道源封闭已被知晓的通路。"
+      },
+      "en": {
+        "title": "A refuge becomes a route for spying",
+        "text": "Someone sheltered in your sanctuary leaves probes for those seeking its foundation’s secrets. Discovering them, you remove every mark and spend essence closing paths whose positions were exposed."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -22,
+      "cultivation": -4
+    }
+  },
+  {
+    "id": "deception_mortal_partner_debt",
+    "category": "disaster",
+    "title": "Người góp vốn giấu sổ",
+    "text": "Người cùng góp vốn giấu sổ rồi báo chuyến hàng lỗ hết, trong khi chủ bến nói vẫn bán tốt. Ngươi có thể đòi đối chiếu trước mặt người mua hoặc rút khỏi việc chung.",
+    "translations": {
+      "zh": {
+        "title": "合伙人藏账",
+        "text": "合伙人藏起账簿，说货物全亏了，码头主却说卖得很好。你可以要求买家在场核账，也可退出合伙。"
+      },
+      "en": {
+        "title": "A partner hides the accounts",
+        "text": "Your business partner hides the accounts and claims the cargo lost money, while the harbor reports good sales. You can demand comparison before buyers or leave the partnership."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Đòi đối chiếu sổ",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "要求核账",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Demand the accounts",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Ngươi đưa người mua tới đối chiếu, buộc người góp vốn trả phần giấu. Quan hệ làm ăn chấm dứt sau buổi ấy, còn tiền thu về đủ bắt đầu một việc nhỏ khác.",
+            "translations": {
+              "zh": {
+                "text": "你带买家核账，迫使合伙人交还隐瞒款项。合作就此结束，收回的钱也足够另起一份小生计。"
+              },
+              "en": {
+                "text": "Bringing buyers to compare accounts forces your partner to return the concealed share. The partnership ends, but recovered money is enough to start another small livelihood."
+              }
+            },
+            "effects": {
+              "resources": 6
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Rút khỏi việc chung",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "退出合伙",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "Leave the partnership",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi rút khỏi việc chung, nhận lại phần hàng còn trong kho thay vì theo đòi tiền đã giấu. Mất một khoản bạc, ngươi đổi lấy những ngày không còn phải nghe lời quanh co.",
+            "translations": {
+              "zh": {
+                "text": "你退出合伙，拿回仓中余货，不再追讨藏款。虽损失银钱，却换来了不用再听搪塞的日子。"
+              },
+              "en": {
+                "text": "You leave with the remaining goods rather than pursue the hidden money. Losing some silver brings an end to days spent listening to excuses from your former partner."
+              }
+            },
+            "effects": {
+              "resources": -4
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_qi_refining_training_credit",
+    "category": "disaster",
+    "title": "Bạn học nhận lỗi thay người",
+    "text": "Bạn học làm hỏng trận tập nhưng báo ngươi đã đổi phù lúc họ quay lưng. Ngươi giữ bản ghi buổi luyện, có thể đưa ra ngay hoặc tự rời nhóm trước buổi sau.",
+    "translations": {
+      "zh": {
+        "title": "同学让你代担过错",
+        "text": "同学弄坏练习阵，却说你趁他转身换了符。你留有练习记录，可以立即出示，也可下次前离开小组。"
+      },
+      "en": {
+        "title": "A fellow student shifts the blame",
+        "text": "A fellow student breaks a practice formation but claims you switched talismans behind their back. You hold a session record and can present it now or leave the group."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Đưa bản ghi ra",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "出示记录",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Present the record",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Bản ghi cho thấy ngươi chưa chạm phù lúc trận vỡ, khiến lời đổ lỗi không đứng được. Bạn học phải chịu phần sửa, còn ngươi giữ giờ luyện đã hẹn với người khác.",
+            "translations": {
+              "zh": {
+                "text": "记录显示阵破时你未碰符，推责无法成立。同学承担修理，你则保住时间，转与他人按约练习。"
+              },
+              "en": {
+                "text": "The record shows you never touched the talismans before the break. Your classmate bears repair costs, and you keep your practice time by joining someone else."
+              }
+            },
+            "effects": {
+              "resources": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Rời nhóm luyện",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "离开练习小组",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "Leave the practice group",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi rời nhóm, tự mua vật liệu lập trận tập nhỏ để không bị giữ lịch chung. Lời đổ lỗi chưa được giải hết, nhưng những buổi luyện sau không còn phụ thuộc người ấy.",
+            "translations": {
+              "zh": {
+                "text": "你离开小组，自购材料搭小练习阵，不再受共同时间约束。责难尚未说清，之后修炼却不必依赖他。"
+              },
+              "en": {
+                "text": "You leave and buy materials for a small practice formation of your own. The blame remains unresolved, but future sessions no longer depend upon that classmate."
+              }
+            },
+            "effects": {
+              "resources": -9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_true_immortal_room_sublet",
+    "category": "disaster",
+    "title": "Chỗ ở bị cho thuê lần nữa",
+    "text": "Người trông động phủ nhận tiền giữ chỗ rồi cho khách khác thuê lúc ngươi bế quan. Ngươi có thể đòi trả phí đúng khế, hoặc chuyển ngay để tránh đôi co.",
+    "translations": {
+      "zh": {
+        "title": "住处被再出租",
+        "text": "看府人收了留房费，却在你闭关时再租给别人。你可按契约索赔，也可立即搬走，免去争执。"
+      },
+      "en": {
+        "title": "Your lodging rented out again",
+        "text": "A caretaker takes payment to reserve your retreat, then rents it again during seclusion. You can demand compensation under the contract or move away to avoid the dispute."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Đòi theo khế ước",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "按契约追偿",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Claim under the contract",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Ngươi đưa khế ước tới người quản khu, lấy lại phí giữ chỗ và khoản bồi thường. Động phủ được giao đúng hẹn, nhưng ngươi đổi người giữ khóa trước lần bế quan sau.",
+            "translations": {
+              "zh": {
+                "text": "你把契约交给区管，取回留房费和赔偿。洞府如期交还，你也在下次闭关前换了保管钥匙的人。"
+              },
+              "en": {
+                "text": "Showing the contract to the district keeper restores your reservation payment with compensation. The retreat is returned, and you change key keepers before another period of seclusion."
+              }
+            },
+            "effects": {
+              "resources": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Tìm chỗ ở khác",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "另寻住处",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "Find another lodging",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi thuê chỗ khác trong đêm, để khoản tiền cũ thành việc xử sau. Phí chuyển làm túi tiên thạch nhẹ đi, nhưng buổi tu luyện tiếp theo không phải đợi người thất hứa.",
+            "translations": {
+              "zh": {
+                "text": "你当夜另租住处，把旧款留待日后处理。搬迁花了仙石，但下次修炼不必等失信之人。"
+              },
+              "en": {
+                "text": "You rent another room that night and leave the old payment unresolved. Moving costs stones, but your next practice session no longer waits upon someone who broke their promise."
+              }
+            },
+            "effects": {
+              "resources": -9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_golden_immortal_joint_law_sale",
+    "category": "disaster",
+    "title": "Bản pháp chung bị bán riêng",
+    "text": "Người cùng nghiên cứu bán pháp tắc chung dưới tên riêng, vẫn xin ngươi góp phần hoàn thiện. Ngươi có thể công bố bản gốc đối chiếu hoặc lấy ghi chép rồi ngừng hợp tác.",
+    "translations": {
+      "zh": {
+        "title": "共研法本被私卖",
+        "text": "共研者以自己的名义卖掉共同法本，还请你继续完善。你可公布原本核对，也可收回笔记停止合作。"
+      },
+      "en": {
+        "title": "Shared research sold privately",
+        "text": "A collaborator sells your shared law research under their name while asking for further help. You can publish the original for comparison or retrieve your notes and end cooperation."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Đưa bản gốc đối chiếu",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "公开原本核对",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Show the original for comparison",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Bản gốc có dấu thời gian cả hai khiến người bán phải chia lại khoản thu. Ngươi nhận phần mình, ghi rõ quyền dùng trang mới trước khi nghĩ tới lần trao đổi khác.",
+            "translations": {
+              "zh": {
+                "text": "原本带着双方时间印，卖家只得重新分账。你收回自己的份额，并先写清新页使用权，再考虑下一次交流。"
+              },
+              "en": {
+                "text": "Time marks belonging to both authors force a division of the sale proceeds. You receive your share and define rights over new pages before considering any further exchange."
+              }
+            },
+            "effects": {
+              "resources": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Ngừng hợp tác",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "停止合作",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "End the collaboration",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi lấy lại phần ghi chép chưa công bố và đóng đường chia sẻ giữa hai người. Tiến độ chậm vì phải tự kiểm, nhưng những ý mới không còn bị mang đi bán trước.",
+            "translations": {
+              "zh": {
+                "text": "你收回尚未公开的笔记，关闭分享通路。独自验证让进度变慢，新想法却不再被抢先卖掉。"
+              },
+              "en": {
+                "text": "You retrieve unpublished notes and close the shared channel. Checking everything alone slows progress, but new ideas can no longer be sold away before you decide their use."
+              }
+            },
+            "effects": {
+              "cultivation": -3,
+              "resources": -5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_mystic_immortal_dream_permission",
+    "category": "disaster",
+    "title": "Lời hứa giữ kín mộng cảnh",
+    "text": "Người được phép xem mộng cảnh đem hình ảnh riêng của ngươi kể tại buổi luận. Họ xin giữ đường nhập cũ, để ngươi chọn đòi cải chính hoặc cắt liên hệ ngay.",
+    "translations": {
+      "zh": {
+        "title": "保密梦境的承诺",
+        "text": "获准看梦者在论会上讲出你的私密景象。他请求保留入梦通路，你可要求澄清，也可立即切断联系。"
+      },
+      "en": {
+        "title": "A promise to keep a dream private",
+        "text": "Someone allowed into your dream shares private scenes at a debate. Asking to retain their entry path, they leave you to demand a correction or cut contact immediately."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Đòi cải chính công khai",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "要求公开澄清",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Demand a public correction",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Ngươi yêu cầu họ nói rõ điều chưa được phép kể, rồi thu quyền nhập mộng. Lời cải chính không xóa hết buồn lòng, nhưng giữ những cảnh còn lại khỏi bị đem ra.",
+            "translations": {
+              "zh": {
+                "text": "你要求他说明哪些内容未经许可，再收回入梦权。澄清无法抹去伤心，却保护了其余梦境不再被公开。"
+              },
+              "en": {
+                "text": "You require them to identify what was shared without permission and withdraw access. The correction cannot remove every hurt, but it protects the remaining dream scenes from exposure."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Cắt đường nhập mộng",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "切断入梦通路",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "Close the dream entry path",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi cắt đường nhập cũ rồi dựng lớp ngăn mới quanh phần mộng riêng. Việc sửa hao tiên thạch, đổi lại thần thức không còn phải chờ người đã bội lời tự giữ giới hạn.",
+            "translations": {
+              "zh": {
+                "text": "你切断旧通路，在私梦周围重设屏障。虽耗仙石，神识却不必再等背约者自行守界。"
+              },
+              "en": {
+                "text": "You close the old entry and build a new barrier around private dreams. Repairs cost stones, but your consciousness no longer relies on a broken promise for protection."
+              }
+            },
+            "effects": {
+              "cultivation": -3,
+              "resources": -5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_immortal_king_aide_signature",
+    "category": "disaster",
+    "title": "Chữ ký bị người thân cận mượn",
+    "text": "Người thân cận dùng dấu ký của ngươi xin vật liệu cho kho riêng, nói đó là việc được ngầm cho phép. Ngươi có thể truy khoản hoặc thu dấu và dừng việc ấy.",
+    "translations": {
+      "zh": {
+        "title": "亲信借用的签名",
+        "text": "亲信用你的签印为私库领材料，辩称得到默许。你可查账追回款项，也可收印并终止此事。"
+      },
+      "en": {
+        "title": "Your signature borrowed by an aide",
+        "text": "An aide uses your signature to obtain materials for a private store and claims tacit permission. You can audit the withdrawals or reclaim the seal and stop further use."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Mở sổ truy khoản",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "查账追款",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Audit the withdrawals",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Ngươi đối chiếu sổ nhận, buộc trả phần vật liệu còn nguyên về kho chung. Người giữ dấu bị thay, còn các khoản sau phải có bản xác nhận trước khi hàng rời cửa.",
+            "translations": {
+              "zh": {
+                "text": "你核对领料簿，追回完好材料入公库。保印者被更换，之后每笔出库都须先有确认文书。"
+              },
+              "en": {
+                "text": "Comparing withdrawal records returns intact materials to the common store. You replace the seal keeper and require written confirmation before any further supplies can leave the warehouse."
+              }
+            },
+            "effects": {
+              "resources": 12
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Thu lại dấu ký",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "收回签印",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "Reclaim the signature seal",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi thu dấu ký, đóng quyền nhận hàng thay mình nhưng chưa truy hết khoản cũ. Kho riêng không lấy thêm vật liệu, còn ngươi bỏ một khoản để bù việc chung đang chờ.",
+            "translations": {
+              "zh": {
+                "text": "你收回签印，取消代领权，暂未追清旧账。私库不再取料，你则先垫一笔补上等待中的公事。"
+              },
+              "en": {
+                "text": "You reclaim the seal and end delegated collections without resolving every earlier withdrawal. The private store receives no more supplies, while you fund unfinished common work yourself."
+              }
+            },
+            "effects": {
+              "resources": -9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_immortal_emperor_borrowed_authority",
+    "category": "disaster",
+    "title": "Danh nghĩa che chở bị lợi dụng",
+    "text": "Người được che chở nhân danh đạo tràng ép một giới nộp bảo vật, giấu chuyện với ngươi. Khi giới ấy hỏi, ngươi có thể công khai bác bỏ hoặc âm thầm thu quyền.",
+    "translations": {
+      "zh": {
+        "title": "庇护名义被利用",
+        "text": "受庇护者借道场之名逼一界交宝物，还瞒着你。该界来问时，你可公开否认，也可悄悄收回权利。"
+      },
+      "en": {
+        "title": "Your protection used as a pretext",
+        "text": "Someone under your protection invokes your sanctuary to demand a world’s treasures without telling you. When that world asks, you can publicly reject the demand or quietly withdraw authority."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "confront",
+        "text": "Công khai bác bỏ",
+        "hint": "Đòi lại phần thuộc về mình",
+        "translations": {
+          "zh": {
+            "text": "公开否认",
+            "hint": "追回应得之物"
+          },
+          "en": {
+            "text": "Reject the demand publicly",
+            "hint": "Reclaim what belongs to you"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "confront",
+            "weight": 1,
+            "text": "Ngươi gửi lời bác bỏ tới giới bị ép, thu quyền đại diện của người ấy. Bảo vật còn nguyên được trả, còn đạo tràng phải nói rõ ai có thể thay ngươi nhận việc.",
+            "translations": {
+              "zh": {
+                "text": "你向受逼之界否认要求，收回代表权。完好宝物被送还，道场也明确谁能代你办事。"
+              },
+              "en": {
+                "text": "You reject the demand to the affected world and withdraw representation rights. Intact treasures return, and the sanctuary clearly names who may conduct business on your behalf."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Thu quyền trong im lặng",
+        "hint": "Chấm dứt phụ thuộc, chịu một khoản hao tổn",
+        "translations": {
+          "zh": {
+            "text": "悄悄收权",
+            "hint": "结束依赖，承担一些损失"
+          },
+          "en": {
+            "text": "Withdraw authority quietly",
+            "hint": "End reliance at some cost"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi thu quyền đại diện trước khi người ấy đi giới khác, rồi bù phần chưa tìm lại. Chuyện dừng trong im lặng, nhưng khoản hao khiến ngươi nhớ phải kiểm lời nhân danh.",
+            "translations": {
+              "zh": {
+                "text": "你在他再访别界前收回代表权，自掏宝物补上未追回部分。事情无声结束，损失提醒你核查借名行事。"
+              },
+              "en": {
+                "text": "You withdraw authority before another world is approached and replace unrecovered losses yourself. The matter ends quietly, but its cost reminds you to check claims made in your name."
+              }
+            },
+            "effects": {
+              "resources": -9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_mortal_kiln_smoke",
+    "category": "disaster",
+    "title": "Khói độc trong lò vôi",
+    "text": "Ngươi vào lò vôi vừa tắt để kéo giỏ dụng cụ, không biết khói nặng còn đọng phía dưới. Đến lúc mắt cay và chân chậm lại, cửa lò đã xa hơn tưởng tượng.",
+    "translations": {
+      "zh": {
+        "title": "石灰窑毒烟",
+        "text": "你进刚熄的石灰窑取工具，不知重烟仍沉在底部。眼刺腿软时，窑门已比想象更远。"
+      },
+      "en": {
+        "title": "Poisonous smoke inside the lime kiln",
+        "text": "You enter a recently extinguished lime kiln for tools, unaware heavy fumes remain below. Stinging eyes and faltering legs make its doorway seem farther away than you expected."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi bỏ giỏ dụng cụ rồi bò sát lối cửa, được người ngoài kéo ra kịp. Mất tiền thay đồ cháy, ngươi nghỉ đến khi tiếng ho thôi vang mỗi đêm.",
+        "translations": {
+          "zh": {
+            "text": "你扔下工具篮爬向窑口，被外面的人及时拖出。赔了烧坏工具的钱，休息到夜间咳嗽终于停止。"
+          },
+          "en": {
+            "text": "Abandoning the tool basket, you crawl toward the opening and are pulled outside in time. Replacing scorched tools costs wages, followed by rest until your nightly coughing ends."
+          }
+        },
+        "effects": {
+          "resources": -6
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Khói độc làm ngươi lịm đi trước khi tới cửa, khiến tiếng gọi ngoài lò không còn được đáp. Người tìm thấy giỏ dụng cụ sau đó cũng tìm thấy một thân người đã lạnh.",
+        "translations": {
+          "zh": {
+            "text": "毒烟让你未到门口便昏倒，窑外呼唤再无回应。后来寻到工具篮的人，也发现了已经冰冷的身体。",
+            "endingReason": "石灰窑内毒烟窒息身亡"
+          },
+          "en": {
+            "text": "Poisonous fumes leave you unconscious before the door, silencing replies to those calling outside. Whoever later finds the basket also finds a body already cold upon the floor.",
+            "endingReason": "Suffocated by poisonous fumes in a lime kiln"
+          }
+        },
+        "endingReason": "Ngạt khói độc trong lò vôi",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mortal_ice_pond",
+    "category": "disaster",
+    "title": "Mặt băng dưới chân rạn",
+    "text": "Ngươi qua ao đóng băng để rút ngắn đường về, thấy lớp trắng trên mặt che những vết rạn. Giữa ao, tiếng nứt chạy dưới chân trước khi bờ kịp gần lại.",
+    "translations": {
+      "zh": {
+        "title": "脚下池冰裂开",
+        "text": "你走过结冰池塘抄近路，白层掩住裂痕。到了池中，裂声已在脚下蔓延，岸边却仍遥远。"
+      },
+      "en": {
+        "title": "Pond ice cracking beneath your feet",
+        "text": "Crossing a frozen pond shortens your return route, but its white surface hides fractures. In the middle, cracks spread beneath your feet before the bank comes any closer."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi nằm phẳng rồi trườn theo phần băng chưa vỡ, được người ven ao đưa sào kéo lên. Túi hàng thấm nước phải bỏ bớt, nhưng bếp nhà còn chờ ngươi hong áo.",
+        "translations": {
+          "zh": {
+            "text": "你趴平爬向未裂冰面，岸边人用杆拉你上去。湿货丢掉一些，家中炉火仍等你烘衣。"
+          },
+          "en": {
+            "text": "Lying flat, you crawl across unbroken ice until a pole pulls you ashore. Part of your soaked cargo is discarded, while the fire at home awaits your wet clothes."
+          }
+        },
+        "effects": {
+          "resources": -6
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Băng vỡ đưa ngươi xuống nước, rồi khép những mảnh trắng lên lối vừa rơi. Bàn tay không tìm được mép chắc, để hơi thở cuối tan dưới mặt ao lạnh.",
+        "translations": {
+          "zh": {
+            "text": "冰裂使你沉入水中，白色碎片又覆盖落水处。手找不到牢靠边缘，最后一口气散在冰冷池面之下。",
+            "endingReason": "池冰下溺亡"
+          },
+          "en": {
+            "text": "Breaking ice drops you into water, and white fragments close over the opening. Your hands find no firm edge, leaving your last breath beneath the cold pond surface.",
+            "endingReason": "Drowned beneath pond ice"
+          }
+        },
+        "endingReason": "Chết đuối dưới băng ao",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mortal_wasp_hollow",
+    "category": "disaster",
+    "title": "Ong dữ trong hốc cây",
+    "text": "Khi chặt cành khô, ngươi làm rung tổ ong giấu trong hốc cây gần mặt. Đàn ong tràn ra khiến người cùng làm chạy tản, còn ngươi bị vây giữa bụi rậm.",
+    "translations": {
+      "zh": {
+        "title": "树洞中的凶蜂",
+        "text": "砍枯枝时，你震动了近脸树洞里的蜂巢。群蜂涌出，同伴四散，你却被困在密丛之间。"
+      },
+      "en": {
+        "title": "Fierce wasps inside a tree hollow",
+        "text": "Cutting a dry branch shakes a wasp nest hidden near your face. The swarm scatters your companions, leaving you surrounded among dense bushes with little space to move."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi phủ áo lên đầu rồi lần ra chỗ có khói bếp của người đốt cỏ. Đàn ong thưa dần, nhưng tiền thuốc và áo rách khiến công buổi ấy chẳng còn bao nhiêu.",
+        "translations": {
+          "zh": {
+            "text": "你蒙衣护头，摸向烧草者的烟火。蜂群逐渐散去，药钱和破衣却让当天工钱所剩无几。"
+          },
+          "en": {
+            "text": "Covering your head with your coat, you reach smoke from burning grass. The swarm thins, but medicine and torn clothing consume most of the wages earned that day."
+          }
+        },
+        "effects": {
+          "resources": -6
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Những vết ong đốt khiến cổ ngươi sưng nhanh, chặn hơi thở giữa lúc mọi người tìm đường quay lại. Khi tiếng gọi tới gần, ngươi đã không còn đủ sức đáp lời.",
+        "translations": {
+          "zh": {
+            "text": "蜂蜇使喉颈迅速肿胀，在同伴寻找归路时阻住呼吸。呼声渐近，你却已无力回答。",
+            "endingReason": "蜂蜇肿喉窒息身亡"
+          },
+          "en": {
+            "text": "Wasp stings swell your throat and stop your breathing while companions search for a way back. Their calls draw nearer after you have lost the strength to answer.",
+            "endingReason": "Died from breathing obstruction after wasp stings"
+          }
+        },
+        "endingReason": "Tử nạn do ong đốt gây nghẹt thở",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mortal_night_robbery",
+    "category": "disaster",
+    "title": "Dao giấu dưới lời xin lửa",
+    "text": "Người lạ xin mồi lửa bên đường tối rồi rút dao khi ngươi cúi xuống. Một người khác chặn phía sau, khiến túi tiền nhỏ bỗng thành lý do phải giành đường sống.",
+    "translations": {
+      "zh": {
+        "title": "借火话下藏刀",
+        "text": "夜路陌人借火，趁你低头抽刀。同伙堵住后方，一只小钱袋忽然成了争命的缘由。"
+      },
+      "en": {
+        "title": "A knife behind a request for fire",
+        "text": "A stranger requests fire on a dark road, drawing a knife as you bend down. Another blocks your rear, turning a small purse into a struggle for survival."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi ném túi tiền sang bụi cỏ rồi chạy qua khoảng người cầm dao vừa quay đi. Tiếng chân đuổi dừng ở ngã rẽ, để ngươi về nhà tay không nhưng còn sống.",
+        "translations": {
+          "zh": {
+            "text": "你把钱袋抛进草丛，趁持刀者回头跑过空处。追赶声止于岔路，你空手回家，却保住性命。"
+          },
+          "en": {
+            "text": "You throw your purse into grass and pass the knife holder as they turn. Pursuit stops at a fork, leaving you to reach home empty handed but alive."
+          }
+        },
+        "effects": {
+          "resources": -6
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Lưỡi dao đâm vào sườn khi ngươi tìm khoảng chạy, làm chân khuỵu xuống nền đường. Kẻ cướp lấy túi rồi bỏ đi, để đêm lạnh giữ những lời cầu cứu nhỏ dần.",
+        "translations": {
+          "zh": {
+            "text": "你寻找逃路时刀刺肋侧，双腿倒在路上。匪徒取走钱袋离去，寒夜留下越来越轻的求救声。",
+            "endingReason": "夜路遭匪刺杀"
+          },
+          "en": {
+            "text": "A knife enters your side as you seek an opening, dropping you upon the road. The thieves take your purse and leave your fading cries within the cold night.",
+            "endingReason": "Stabbed to death by robbers on a night road"
+          }
+        },
+        "endingReason": "Bị cướp đâm chết trên đường đêm",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_qi_refining_powder_fire",
+    "category": "disaster",
+    "title": "Bột hỏa linh bén tia",
+    "text": "Ngươi chia bột hỏa linh vào túi khi một tia lửa từ bếp cạnh đó bay tới. Những hạt sáng nối nhau qua bàn, đe dọa cả bình thuốc đang đặt trong góc.",
+    "translations": {
+      "zh": {
+        "title": "火灵粉遇火星",
+        "text": "你分装火灵粉时，旁炉火星飞来。亮粒沿桌相连，威胁到角落里的药瓶。"
+      },
+      "en": {
+        "title": "Fire spirit powder catches a spark",
+        "text": "While you portion fire spirit powder, a spark arrives from a nearby stove. Bright grains connect across the table, threatening medicine bottles stored in the workshop corner."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi hất khay xuống nền đá rồi dập phần lửa chưa lan tới bình thuốc. Vật liệu mất gần hết, nhưng cửa xưởng vẫn mở để ngươi bước ra khỏi khói nóng.",
+        "translations": {
+          "zh": {
+            "text": "你把盘扫落石地，扑灭尚未蔓延到药瓶的火。材料几乎尽失，工坊门仍开着，让你走出热烟。"
+          },
+          "en": {
+            "text": "You sweep the tray onto stone and stop the fire before it reaches medicine. Most materials are lost, but the workshop door remains open beyond the heated smoke."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Bột hỏa linh bén vào bình thuốc, nổ tung lớp hộ thân mới dựng của ngươi. Sức lửa xuyên kinh mạch, khiến buổi chia vật liệu khép lại trước tiếng người ngoài chạy tới.",
+        "translations": {
+          "zh": {
+            "text": "火灵粉引燃药瓶，炸开刚设的护体层。烈火穿透经脉，分料的一刻终结在外人赶来之前。",
+            "endingReason": "火灵粉爆炸致死"
+          },
+          "en": {
+            "text": "The powder ignites medicine bottles and blasts through your new protection. Fire tears through your meridians, ending the work before anyone outside can reach the workshop door.",
+            "endingReason": "Killed by exploding fire spirit powder"
+          }
+        },
+        "endingReason": "Tử nạn do bột hỏa linh phát nổ",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_qi_refining_poison_well",
+    "category": "disaster",
+    "title": "Giếng dẫn khí lẫn độc",
+    "text": "Giếng dẫn khí trong chỗ ngươi thuê hút cả hơi độc từ tầng đất mới nứt. Ngươi đang vận công thì nhận ra mùi lạ, nhưng linh khí đã đi sâu hơn cổ họng.",
+    "translations": {
+      "zh": {
+        "title": "引气井混毒",
+        "text": "租处引气井吸入新裂土层的毒气。行功中你察觉异味，灵气却已越过喉头深入体内。"
+      },
+      "en": {
+        "title": "Poison within an energy gathering well",
+        "text": "Your rented gathering well draws poison from a newly cracked soil layer. During circulation you notice an unfamiliar smell, but the energy has already traveled deep within your body."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi ngắt vòng vận công và ra khỏi phòng, nhờ y sư tìm đúng nguồn độc. Tiền thuê cùng thuốc sạch hao mất, nhưng phần khí còn lại được tống khỏi kinh mạch.",
+        "translations": {
+          "zh": {
+            "text": "你停止行功离室，请医师查明毒源。租钱和清毒药耗去，残气却得以排出经脉。"
+          },
+          "en": {
+            "text": "You stop circulation and leave, asking a healer to identify the poison. Rent and cleansing medicine cost your stones, but the remaining fumes are expelled from your meridians."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Khí độc hòa linh lực rồi khóa những đoạn kinh mạch ngươi dùng để tự thanh lọc. Hơi thở ngắn dần trong phòng vắng, để dấu giếng còn sáng khi người vận công đã chết.",
+        "translations": {
+          "zh": {
+            "text": "毒气混入灵力，封住你用于净化的经脉。空室中呼吸渐短，井印仍亮着，行功者却已身亡。",
+            "endingReason": "引气井毒气入脉致死"
+          },
+          "en": {
+            "text": "Poison joins your energy and seals the channels needed for cleansing. Breathing fades within the empty room, leaving the well’s mark glowing after its practitioner has died.",
+            "endingReason": "Killed by poison from an energy gathering well"
+          }
+        },
+        "endingReason": "Trúng độc từ giếng dẫn khí",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_qi_refining_runaway_sword",
+    "category": "disaster",
+    "title": "Phi kiếm không nhận chủ",
+    "text": "Phi kiếm cũ vừa mua mang dấu chủ chưa xóa, bật khỏi tay khi ngươi thử dẫn lực. Nó vòng lại theo lệnh lưu trong lõi, lao vào người đang đứng trước bàn thử.",
+    "translations": {
+      "zh": {
+        "title": "不认主的飞剑",
+        "text": "刚买的旧飞剑仍留旧主印，试注灵力时脱手。核心残令令它折返，扑向站在试桌前的人。"
+      },
+      "en": {
+        "title": "A flying sword that rejects its holder",
+        "text": "An old sword retains its former owner’s mark and escapes during testing. A command preserved in its core sends it circling back toward you beside the practice table."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi kéo tấm chắn gỗ vào đường kiếm, để lưỡi mắc lại trước khi khóa dấu lực. Phi kiếm gãy mất mũi, buộc ngươi bỏ tiền mua dụng cụ khác cho lần luyện sau.",
+        "translations": {
+          "zh": {
+            "text": "你把木盾拖入剑路，卡住剑刃后封住力印。剑尖折断，只得再花钱购置下次练习的器具。"
+          },
+          "en": {
+            "text": "Pulling a wooden shield into its path traps the blade long enough to seal its mark. The broken sword tip forces another purchase before your next practice session."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Phi kiếm luồn qua lớp linh lực mỏng rồi xuyên ngực theo lệnh cũ không ai còn giữ. Bàn thử đổ sau lưng, còn dấu nhận chủ mới chưa kịp thành trên tay ngươi.",
+        "translations": {
+          "zh": {
+            "text": "飞剑穿过薄灵力层，按无人掌控的旧令刺入胸口。试桌倒在身后，新认主印尚未成形。",
+            "endingReason": "遭旧飞剑穿胸致死"
+          },
+          "en": {
+            "text": "The sword slips through thin protection and pierces your chest under an abandoned command. The table falls behind you before a new ownership mark can form in your hand.",
+            "endingReason": "Killed by an old flying sword piercing the chest"
+          }
+        },
+        "endingReason": "Bị phi kiếm cũ xuyên ngực",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_foundation_anchor_collapse",
+    "category": "disaster",
+    "title": "Dấu neo sụp giữa vách",
+    "text": "Ngươi dùng dấu neo qua vách đá để thu linh thảo, không thấy nền trận đã rỗng bên trong. Khi trọng lượng dồn xuống, những nét sáng tách khỏi đá cùng đường đứng cuối.",
+    "translations": {
+      "zh": {
+        "title": "崖间锚印崩塌",
+        "text": "你借锚印越崖采灵草，不知阵基内部已空。重量压下时，亮纹与最后立足处一同剥离岩石。"
+      },
+      "en": {
+        "title": "An anchor mark collapsing upon a cliff",
+        "text": "An anchor mark carries you along a herb covered cliff, its formation hollow inside. Under your weight, glowing lines separate from the rock together with your final foothold."
+      }
+    },
+    "allowedRealms": [
+      "foundation"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi bỏ giỏ thảo để bám mỏm đá chưa vỡ, chờ người qua núi kéo lên. Vật liệu cùng dấu neo mất dưới vực, khiến chuyến hái đổi thành khoản nợ dụng cụ.",
+        "translations": {
+          "zh": {
+            "text": "你扔药篮抓住未碎石沿，等过山者拉上。材料和锚印沉入谷底，采药一行变成器具欠款。"
+          },
+          "en": {
+            "text": "Dropping your basket lets you hold an unbroken ledge until passing travelers pull you up. Herbs and anchors vanish below, turning the gathering trip into a debt for equipment."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Dấu neo đứt trước khi ngươi bám được mép chắc, kéo thân rơi qua tầng đá nhọn. Linh lực hộ thân vỡ sau vài lần va chạm, để đường hái thảo dừng dưới vực.",
+        "translations": {
+          "zh": {
+            "text": "你抓稳前锚印已断，身体坠过尖石层。数次撞击后护体灵力破碎，采药之路终止在谷底。",
+            "endingReason": "崖壁锚印崩塌坠亡"
+          },
+          "en": {
+            "text": "The anchor breaks before your hands find firm stone, dropping you through sharp ledges. Repeated impacts shatter your protection and end the herb gathering journey beneath the cliff.",
+            "endingReason": "Killed by a collapsing cliff anchor"
+          }
+        },
+        "endingReason": "Tử nạn do dấu neo vách đá sụp",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_foundation_sealed_tomb",
+    "category": "disaster",
+    "title": "Cửa mộ khép theo hơi người",
+    "text": "Trong cổ mộ, ngươi nhận ra cửa sau lưng khép dần mỗi lần có hơi người đi qua. Trận thông khí cũng tắt theo cửa, để đường ra phụ thuộc những nét khắc đã mòn.",
+    "translations": {
+      "zh": {
+        "title": "随人息闭合的墓门",
+        "text": "古墓门在每次人息经过后渐渐闭合。通气阵随门熄灭，出路只剩磨损刻纹可寻。"
+      },
+      "en": {
+        "title": "A tomb door closing with human breath",
+        "text": "Inside an old tomb, each passing breath closes the door further. Its ventilation dies alongside the gate, leaving escape dependent upon inscriptions worn almost beyond recognition."
+      }
+    },
+    "allowedRealms": [
+      "foundation"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi nín vận khí rồi phá một nét khóa còn rõ, mở được khe cửa đủ chui qua. Pháp khí dùng làm đòn bẩy hỏng lõi, nhưng gió ngoài mộ vẫn tìm tới ngực mình.",
+        "translations": {
+          "zh": {
+            "text": "你止住运气，破开尚清的一道锁纹，挤出门缝。作撬杆的法器损了核心，墓外空气却仍进入胸中。"
+          },
+          "en": {
+            "text": "Stopping circulation, you break one clear locking stroke and squeeze through the gap. Your improvised artifact lever loses its core, but air outside still reaches your lungs."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Cửa mộ khép trước khi ngươi đọc hết nét khóa, khiến không khí cuối bị trận hút cạn. Những nhát phá yếu dần trên đá, để người sau chỉ thấy một dấu tay bên cửa.",
+        "translations": {
+          "zh": {
+            "text": "未读完锁纹墓门已合，阵法抽尽最后空气。击石声渐弱，后来者只见门旁留下的手印。",
+            "endingReason": "古墓封闭窒息身亡"
+          },
+          "en": {
+            "text": "The gate closes before you decipher its lock, and the formation drains the last air. Strikes upon stone weaken until later visitors find only a handprint beside the door.",
+            "endingReason": "Suffocated inside a sealed ancient tomb"
+          }
+        },
+        "endingReason": "Ngạt thở trong cổ mộ bị phong kín",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_foundation_root_eating_mold",
+    "category": "disaster",
+    "title": "Nấm tà bám nền đạo",
+    "text": "Ngươi đem linh mộc ẩm về dựng tĩnh thất, không biết nấm tà còn sống trong lõi gỗ. Qua nhiều đêm vận khí, những sợi nhỏ bắt đầu bám nơi đạo cơ vừa ổn.",
+    "translations": {
+      "zh": {
+        "title": "邪菌附着道基",
+        "text": "你用湿灵木搭静室，不知木芯邪菌未死。多夜行功后，细丝开始附上刚稳的道基。"
+      },
+      "en": {
+        "title": "Corrupt mold clinging to the foundation",
+        "text": "Damp spirit timber enters your practice room with living corrupt mold inside. After several nights of circulation, fine strands begin clinging to the foundation you have only recently stabilized."
+      }
+    },
+    "allowedRealms": [
+      "foundation"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi đốt linh mộc và dùng thuốc tách nấm khỏi dòng lực trước khi chúng ăn sâu. Tĩnh thất phải sửa lại, còn linh thạch dành mua pháp quyết chuyển sang chữa nền đạo.",
+        "translations": {
+          "zh": {
+            "text": "你焚掉灵木，药除菌丝，赶在深入前分离。静室须重修，原买法诀的灵石转用修复道基。"
+          },
+          "en": {
+            "text": "Burning the timber and applying medicine separates strands before they penetrate deeply. The room needs rebuilding, and stones reserved for a manual instead fund treatment of your foundation."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Nấm tà theo dòng lực vào đạo cơ, hút dần phần chống đỡ kinh mạch rồi nở kín bên trong. Ngươi hết đủ sức tự thanh lọc, để tĩnh thất mới trở thành chỗ chết.",
+        "translations": {
+          "zh": {
+            "text": "邪菌循力入道基，吸去撑脉之力并在内部繁满。你无力自行净化，新静室成了殒命之处。",
+            "endingReason": "灵木邪菌侵毁道基而亡"
+          },
+          "en": {
+            "text": "Mold follows your energy into the foundation, drains its support, and grows throughout it. Without strength left for cleansing, your newly built room becomes the place where you die.",
+            "endingReason": "Foundation destroyed by corrupt mold in spirit timber"
+          }
+        },
+        "endingReason": "Đạo cơ bị nấm tà trong linh mộc phá hủy",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_true_immortal_cloud_pressure",
+    "category": "disaster",
+    "title": "Mây nặng ép động phủ",
+    "text": "Một tầng mây nặng dừng trên động phủ, ép trận dẫn khí đổi chiều trong lúc ngươi nghỉ. Đá trần bắt đầu lún xuống, còn cửa bị tiên lực khóa từ phía ngoài.",
+    "translations": {
+      "zh": {
+        "title": "重云压洞府",
+        "text": "重云停在洞府上，压得引气阵逆转。你休息时石顶下沉，入口被外来仙力锁住。"
+      },
+      "en": {
+        "title": "Heavy clouds pressing upon a retreat",
+        "text": "Heavy clouds halt above your retreat and reverse its gathering formation while you rest. The stone ceiling sinks, and outside energy locks the entrance before you can leave."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi phá cửa phụ bằng pháp khí đủ lực, thoát trước khi đá trần chạm nền. Động phủ cùng đồ để lại bị nghiền, buộc ngươi thuê phòng khác từ số tiên thạch còn giữ.",
+        "translations": {
+          "zh": {
+            "text": "你用尚有力量的法器破开侧门，赶在石顶落地前逃出。洞府与留物被压毁，只得另租住处。"
+          },
+          "en": {
+            "text": "A charged artifact breaks a side exit before the ceiling reaches the floor. Your retreat and abandoned possessions are crushed, requiring another room paid from your remaining stones."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Trận dẫn khí hút ngược tiên lực hộ thân khi đá trần ép xuống, khiến ngươi không còn sức phá lối. Động phủ kín lại quanh tiên thể, chôn buổi nghỉ dưới tầng mây nặng.",
+        "translations": {
+          "zh": {
+            "text": "引气阵倒抽护体仙力，石顶压下时你已无力破路。洞府合拢吞没仙体，把休息埋进重云之下。",
+            "endingReason": "重云压塌洞府埋亡"
+          },
+          "en": {
+            "text": "The reversed formation drains your protection as the ceiling descends. With no strength to break out, your immortal body is buried when the retreat closes beneath the heavy cloud.",
+            "endingReason": "Buried beneath a retreat crushed by heavy clouds"
+          }
+        },
+        "endingReason": "Bị mây nặng ép sập động phủ chôn chết",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_true_immortal_boiling_mist",
+    "category": "disaster",
+    "title": "Sương tiên vượt nhiệt",
+    "text": "Đường qua thung sương tiên đột ngột nóng lên khi địa mạch đổi nhịp. Hơi nước mang tiên lực bám vào da, khiến lớp hộ thân càng giữ lâu càng nóng.",
+    "translations": {
+      "zh": {
+        "title": "仙雾骤然过热",
+        "text": "仙雾谷地脉换节奏，通路骤热。携仙力的水汽附上皮肤，护体层维持越久便越灼烫。"
+      },
+      "en": {
+        "title": "Immortal mist turning unbearably hot",
+        "text": "A changing earth vein heats the passage through immortal mist. Energy laden vapor clings to your skin, making the protection you maintain grow hotter with every passing moment."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi bỏ áo pháp bị ngấm sương rồi lao tới khe gió lạnh giữa vách đá. Tiên lực được làm dịu, nhưng áo và vật liệu thuốc đều hao để phục hồi sau chuyến đi.",
+        "translations": {
+          "zh": {
+            "text": "你丢掉浸雾法衣，奔向崖间冷风缝。仙力渐缓，衣物和药材却耗去不少来恢复旅途伤损。"
+          },
+          "en": {
+            "text": "Discarding your soaked robe lets you reach cold wind between the rocks. Your energy cools, but replacing clothing and buying remedies consumes resources after the journey ends."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Sương nóng đi qua lớp hộ thân vào tiên mạch, đốt chúng từ trong trước khi thấy cửa thung. Tiên thể mất sinh cơ giữa màn trắng vẫn cuộn như chưa có ai đi qua.",
+        "translations": {
+          "zh": {
+            "text": "热雾穿过防护进入仙脉，在你见到谷口前烧毁内部。仙体死于白幕，雾仍翻滚如无人曾来。",
+            "endingReason": "仙脉遭灼热仙雾焚毁"
+          },
+          "en": {
+            "text": "Hot mist enters your meridians and burns them within before the valley exit appears. Your body loses life among white vapor still moving as though nobody passed through.",
+            "endingReason": "Immortal meridians burned away by scalding mist"
+          }
+        },
+        "endingReason": "Tiên mạch bị sương nóng thiêu hủy",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_true_immortal_mercury_pill",
+    "category": "disaster",
+    "title": "Tiên đan lẫn thủy ngân",
+    "text": "Viên tiên đan mua từ chuyến hàng gấp có lớp bạc sáng phủ trong lõi. Ngươi dùng theo nhãn cũ, tới khi tiên lực nặng dần mới thấy thuốc không giống lần trước.",
+    "translations": {
+      "zh": {
+        "title": "仙丹混入汞毒",
+        "text": "急运来的仙丹核心覆着银亮层。你按旧签服用，仙力渐沉时才发现药性不同以往。"
+      },
+      "en": {
+        "title": "Mercury hidden within an immortal pill",
+        "text": "A hurried shipment’s pill hides a silver layer within its core. Following its old label, you take it and notice the change only as your immortal energy grows heavy."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi dừng vận lực rồi đưa vỏ thuốc cho y sư, kịp tách độc khỏi phần khí chưa tuần hoàn. Tiền chữa dùng hết khoản dành tu luyện, nhưng tiên mạch còn giữ được nhịp.",
+        "translations": {
+          "zh": {
+            "text": "你停运仙力，把药壳交医师，及时从未循环气流中除毒。治疗花尽修炼钱，仙脉却保住节奏。"
+          },
+          "en": {
+            "text": "Stopping circulation and showing the shell to a healer separates poison before it completes a cycle. Treatment spends your practice funds, but your meridians keep their rhythm."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Độc thủy ngân theo tiên lực phủ vào đạo cơ, khóa mọi đường tống thuốc ra ngoài. Viên đan tan hết trong bụng, để lời hứa dưỡng thể khép lại bằng một tiên thể lạnh.",
+        "translations": {
+          "zh": {
+            "text": "汞毒随仙力覆盖道基，封住排药通路。丹丸在腹中尽化，养体的承诺终成冰冷仙体。",
+            "endingReason": "仙丹汞毒入体身亡"
+          },
+          "en": {
+            "text": "Mercury poison follows energy over your foundation and blocks every cleansing route. The pill fully dissolves, ending its promise of restoration with an immortal body fallen cold.",
+            "endingReason": "Killed by mercury poison inside an immortal pill"
+          }
+        },
+        "endingReason": "Trúng độc thủy ngân trong tiên đan",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_true_immortal_cloud_step",
+    "category": "disaster",
+    "title": "Bậc mây tan giữa trời",
+    "text": "Ngươi đi theo bậc mây công cộng qua khe núi, đúng lúc lõi giữ đường hết tiên lực. Những bậc sau tan trước bậc ngươi đứng, để độ cao lộ ra dưới chân.",
+    "translations": {
+      "zh": {
+        "title": "云阶中途消散",
+        "text": "你沿公用云阶过山隙，维路核心恰好耗尽仙力。后阶先散，脚下高度骤然显露。"
+      },
+      "en": {
+        "title": "Cloud steps dissolving in the sky",
+        "text": "You cross a mountain gap by public cloud steps just as their core runs dry. Steps behind disappear first, exposing the distance below the one supporting your feet."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi ném pháp khí neo vào vách rồi bám dây trước lúc bậc cuối tan. Pháp khí hỏng vì chịu lực rơi, nhưng đường đá bên dưới còn đón được ngươi đi tiếp.",
+        "translations": {
+          "zh": {
+            "text": "你抛锚器入崖，在末阶消散前抓紧绳索。法器因承坠力损坏，下方石路却仍接住你继续行走。"
+          },
+          "en": {
+            "text": "Throwing an anchor artifact into the cliff catches you before the final step dissolves. It breaks under the fall’s force, but the stone path below receives you safely."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Bậc mây cuối tan khi ngươi chưa dựng được dấu neo, kéo tiên thể rơi vào đáy khe có dòng lực xoáy. Lớp hộ thân bị xé, để hành trình dừng giữa núi vắng.",
+        "translations": {
+          "zh": {
+            "text": "末阶散去时你尚未设锚，仙体坠入旋力山隙。护体层被撕裂，旅程终结于寂山之间。",
+            "endingReason": "云阶散落坠入山隙身亡"
+          },
+          "en": {
+            "text": "The final step dissolves before you place an anchor, dropping your body into twisting currents below. Your protection tears away, ending the journey within the empty mountain gap.",
+            "endingReason": "Killed after cloud steps dissolve over a mountain gap"
+          }
+        },
+        "endingReason": "Tử nạn do bậc mây tan và rơi vào khe núi",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_golden_immortal_petrifying_field",
+    "category": "disaster",
+    "title": "Bãi đá khóa mọi chuyển động",
+    "text": "Ngươi khảo sát bãi đá có pháp tắc tĩnh còn hoạt động dưới lớp bụi. Mỗi bước khiến dòng lực chậm thêm, tới lúc muốn quay về thì chân đã khó nhấc.",
+    "translations": {
+      "zh": {
+        "title": "石场锁住一切动作",
+        "text": "你勘察尘下仍有静止法则的石场。每步都让力量更慢，想返回时双腿已难抬起。"
+      },
+      "en": {
+        "title": "A stone field locking every movement",
+        "text": "Surveying a stone field awakens a stillness law beneath its dust. Each step slows your energy further until turning back becomes difficult and your feet barely lift."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi phá vật dẫn lực dưới chân rồi kéo thân khỏi vùng pháp tắc đang khép. Đồ khảo sát mất trong đá, để ngươi trở về với ghi chép dở và phí thay dụng cụ.",
+        "translations": {
+          "zh": {
+            "text": "你破开脚下导力物，把身体拖出收紧法域。勘测器具留在石中，归来只有残记录和重购费用。"
+          },
+          "en": {
+            "text": "Breaking the guide beneath your feet lets you drag yourself beyond the closing field. Survey tools remain in stone, leaving unfinished notes and the cost of replacement equipment."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Pháp tắc tĩnh khóa cả nhịp tiên mạch trước khi ngươi rời bãi, biến tiên thể thành đá từ trong. Người qua sau thấy thêm một dáng đứng giữa khối không ai còn gọi tên.",
+        "translations": {
+          "zh": {
+            "text": "静止法则封住仙脉节奏，由内把仙体石化。后来者只见石场多了一道站影，无人知其姓名。",
+            "endingReason": "静止法则封脉石化身亡"
+          },
+          "en": {
+            "text": "Stillness seals your meridian rhythm before you leave, turning your body to stone from within. Later travelers find another standing shape among blocks whose names are no longer known.",
+            "endingReason": "Petrified by a stillness law sealing immortal meridians"
+          }
+        },
+        "endingReason": "Tiên thể hóa đá do pháp tắc tĩnh khóa tiên mạch",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_golden_immortal_age_clock",
+    "category": "disaster",
+    "title": "Đồng hồ lấy tuổi để chạy",
+    "text": "Chiếc đồng hồ cổ ngươi thử không cần tiên thạch, lấy thọ nguyên người chạm làm lực chạy. Kim vừa quay, tóc ở thái dương đổi sắc mà ngươi chưa thấy mỏi.",
+    "translations": {
+      "zh": {
+        "title": "吞年运转的钟",
+        "text": "你试的古钟不用仙石，而取触者寿元运转。指针才动，鬓发已变色，你却尚未感到疲倦。"
+      },
+      "en": {
+        "title": "A clock powered by years of life",
+        "text": "An old clock requires no stones, drawing years from whoever touches it instead. Its hand begins moving and your temples change color before you feel any sign of exhaustion."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi chặt đường nối tay với lõi đồng hồ, bỏ bảo vật đang giữ nó để thoát. Mất vật đổi lấy thời gian còn lại, ngươi niêm chỗ thử trước khi người khác chạm vào.",
+        "translations": {
+          "zh": {
+            "text": "你斩断手与钟核的连接，弃掉固定它的宝物脱身。牺牲宝物换回余时，再封好试处防止他人接触。"
+          },
+          "en": {
+            "text": "Severing the connection requires abandoning the treasure holding the clock. Its loss preserves your remaining time, and you seal the testing place before anyone else can touch it."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đồng hồ kéo từng năm qua tiên mạch nhanh hơn ngươi kịp cắt dấu nối. Kim dừng khi thọ nguyên cạn, để người thử ngồi bất động cạnh tiếng tích tắc vừa tắt.",
+        "translations": {
+          "zh": {
+            "text": "古钟沿仙脉抽年，速度超过你断印的手。寿元尽时指针停下，试钟者静坐在刚消失的滴答声旁。",
+            "endingReason": "古钟抽尽寿元而亡"
+          },
+          "en": {
+            "text": "The clock pulls years through your meridians faster than you can sever contact. Its hand stops when your lifespan ends, leaving its tester motionless beside the newly silent ticking.",
+            "endingReason": "Lifespan drained completely by an ancient clock"
+          }
+        },
+        "endingReason": "Thọ nguyên bị đồng hồ cổ hút cạn",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_golden_immortal_metal_core_crush",
+    "category": "disaster",
+    "title": "Tiên kim co kín lõi trận",
+    "text": "Mẻ tiên kim ngươi kiểm bắt đầu co khi pháp tắc giữ hình bị đảo, kéo cả lõi trận vào trong. Đường lực nối tới tay khiến ngươi khó buông khối kim loại đang nóng.",
+    "translations": {
+      "zh": {
+        "title": "仙金缩紧阵核",
+        "text": "定形法则逆转，待检仙金开始收缩，把阵核卷入。通向手臂的力线让你难以放开热金属。"
+      },
+      "en": {
+        "title": "Immortal metal contracting around a formation core",
+        "text": "A shaping law reverses during inspection, contracting immortal metal around its formation core. A current linked to your hand prevents release as the block grows hotter against your palm."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi dùng vật cắt ngoài trận chém đường lực, để tiên kim co mà không kéo thêm tiên thể. Lõi và dụng cụ bị nuốt kín, khiến buổi kiểm tốn nhiều vật liệu thay mới.",
+        "translations": {
+          "zh": {
+            "text": "你用阵外切器断开力线，让仙金不再卷入身体。核心和工具被缩封，检查耗掉许多更换材料。"
+          },
+          "en": {
+            "text": "An external cutter severs the current before the metal draws in your body. Core and tools are sealed inside, making the inspection costly through materials required for replacements."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Tiên kim kéo đạo cơ theo đường lực rồi ép nền đạo vào lõi đang thu nhỏ. Tiên thể vỡ khi không còn chỗ dẫn khí, để khối kim loại kín lại trên bàn kiểm.",
+        "translations": {
+          "zh": {
+            "text": "仙金沿力线拉入道基，压进不断缩小的核心。仙体因无处导气破碎，金块在检台上彻底闭合。",
+            "endingReason": "道基被收缩仙金挤入阵核致死"
+          },
+          "en": {
+            "text": "The metal draws your foundation along its current and compresses it into the shrinking core. Your body breaks without room for energy, leaving the closed block upon the inspection table.",
+            "endingReason": "Foundation crushed into a core by contracting immortal metal"
+          }
+        },
+        "endingReason": "Đạo cơ bị tiên kim co ép vào lõi trận",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_golden_immortal_echo_backlash",
+    "category": "disaster",
+    "title": "Pháp tắc vọng lại đòn thử",
+    "text": "Ngươi thử pháp khí trong phòng giữ tiếng vọng pháp tắc, không biết mỗi đòn sẽ trở lại mạnh hơn. Đến lượt thứ ba, dòng phản lực đã vượt mức trận hộ thân chịu được.",
+    "translations": {
+      "zh": {
+        "title": "法则回响试击",
+        "text": "你在保留法则回响的室内试法器，不知每击返来更强。第三轮时反力已超过护阵承受范围。"
+      },
+      "en": {
+        "title": "A law echoing your test strike",
+        "text": "An artifact test takes place in a room retaining law echoes, each strike returning stronger. By the third attempt, the rebound exceeds what your protective formation can withstand."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi phá vách giữ vọng rồi bỏ pháp khí để dòng lực tản ra ngoài. Trận thử và vật liệu hỏng nặng, nhưng phản lực thôi tìm về tiên mạch khi ngươi rời phòng.",
+        "translations": {
+          "zh": {
+            "text": "你破开回响壁并弃器，让力量散向外面。试阵材料重损，反力却不再追入已出室者的仙脉。"
+          },
+          "en": {
+            "text": "Breaking the echo wall and abandoning the artifact disperses the current outside. Testing materials are ruined, but the rebound stops returning through your meridians once you leave the room."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Dòng lực phản lại đúng dấu vận pháp , xuyên hộ thân và đánh vỡ đạo cơ. Những tiếng vọng còn chạy quanh phòng, khi người tạo đòn đầu đã không thể nghe thêm nữa.",
+        "translations": {
+          "zh": {
+            "text": "反力按你的施法印折返，穿过护体并震碎道基。回响仍绕室奔行，最初出击的人却再听不见。",
+            "endingReason": "试击法则回响震碎道基"
+          },
+          "en": {
+            "text": "The rebound follows your casting mark through protection and shatters your foundation. Echoes continue traveling around the chamber after the person who made the first strike can hear no more.",
+            "endingReason": "Foundation shattered by a testing strike’s law echo"
+          }
+        },
+        "endingReason": "Đạo cơ vỡ do pháp tắc phản vọng đòn thử",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mystic_immortal_dream_erasure",
+    "category": "disaster",
+    "title": "Mộng cảnh xóa người nhập",
+    "text": "Ngươi nhập mộng cảnh lưu trong cổ ngọc, thấy những dấu mình vừa đặt biến mất sau một nhịp. Cảnh không chỉ đổi hình mà đang xóa dần điều chứng minh ngươi từng bước vào.",
+    "translations": {
+      "zh": {
+        "title": "抹去入梦者的梦境",
+        "text": "你入古玉梦境，刚设的印转瞬消失。此境不只变形，还在抹去证明你进入过的痕迹。"
+      },
+      "en": {
+        "title": "A dream erasing whoever enters",
+        "text": "Entering a dream within old jade makes your freshly placed marks disappear. Its changing scenes also erase the traces proving that you were ever present inside them."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi phá cổ ngọc từ dấu ngoài còn giữ, rời mộng trước khi tên mình bị quên. Viên ngọc cùng vật nối hỏng hết, nhưng ký ức về bản thân trở lại theo lúc tỉnh.",
+        "translations": {
+          "zh": {
+            "text": "你凭外印破玉，在名字被遗忘前退出。玉和连接器尽毁，自我记忆却随着清醒归来。"
+          },
+          "en": {
+            "text": "An outside mark lets you break the jade before your name is forgotten. The jade and connector are destroyed, but memory of yourself returns as you wake."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Mộng cảnh xóa dấu cuối rồi lấp khoảng trống bằng một người chưa từng tồn tại. Tiên thể ở ngoài ngừng thở, để cổ ngọc kể tiếp chuyện không còn chỗ cho chủ nhân.",
+        "translations": {
+          "zh": {
+            "text": "梦境抹去末印，以不存在的人填空。外面的仙体停止呼吸，古玉继续讲述已容不下你的故事。",
+            "endingReason": "古玉梦境抹灭神识"
+          },
+          "en": {
+            "text": "The dream erases your final mark and fills the gap with someone nonexistent. Outside, your body stops breathing while the jade continues a story with no place left for you.",
+            "endingReason": "Consciousness erased by an ancient jade dream"
+          }
+        },
+        "endingReason": "Thần thức bị mộng cảnh cổ ngọc xóa mất",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mystic_immortal_dead_starlight",
+    "category": "disaster",
+    "title": "Ánh sao đã chết vẫn gọi",
+    "text": "Ngươi quan sát ánh sao tới từ ngọn đã chết, nhận ra trong đó có lời gọi thần thức. Càng tìm nguồn tiếng, những dấu về càng quay sang một vùng không còn tồn tại.",
+    "translations": {
+      "zh": {
+        "title": "死星光仍在呼唤",
+        "text": "你观测死星传来的光，发现其中呼唤神识。越追声音，归印越指向已不存在的空域。"
+      },
+      "en": {
+        "title": "Dead starlight still calling",
+        "text": "Light from a dead star carries a call to your consciousness. Following its source turns each return mark toward a region that ceased to exist long before you arrived."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi che tinh kính rồi cắt đường nghe, trở về theo mốc không dùng ánh sao. Tinh kính mất lớp cảm nhận, buộc ngươi thay nó trước khi có thể quan trắc như trước.",
+        "translations": {
+          "zh": {
+            "text": "你遮住星镜切断听路，按不靠星光的标记返回。星镜感知层失效，须更换才能再次观测。"
+          },
+          "en": {
+            "text": "Covering the telescope and severing the call lets you return by a mark independent of starlight. Its sensing layer fails, requiring replacement before observations can resume normally."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Thần thức ngươi đi theo ánh sao vào khoảng đã tan, không còn nền để giữ hình. Tiên thể lặng đi cạnh tinh kính, khi lời gọi của ngọn chết vẫn sáng trên mặt gương.",
+        "translations": {
+          "zh": {
+            "text": "神识随死星光进入已灭空域，失去维持形态的根基。仙体静在星镜旁，死星呼唤仍亮于镜面。",
+            "endingReason": "追随死星光入灭域而神识消散"
+          },
+          "en": {
+            "text": "Your consciousness follows dead light into vanished space with no foundation to sustain it. Your body stills beside the telescope while the dead star’s call remains bright upon its glass.",
+            "endingReason": "Consciousness lost following dead starlight into vanished space"
+          }
+        },
+        "endingReason": "Thần thức tan khi theo ánh sao chết vào vùng đã mất",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mystic_immortal_folded_return",
+    "category": "disaster",
+    "title": "Đường về gấp vào chính nó",
+    "text": "Dấu trở về ngươi dùng lặp lại cùng góc tinh đảo sau mỗi bước. Những lớp không gian đã gấp kín, khiến đoạn tưởng ra ngoài chỉ dẫn sâu hơn vào chỗ không có tâm.",
+    "translations": {
+      "zh": {
+        "title": "归路折入自身",
+        "text": "归印每步都带你回到星岛同一角。空间层已闭折，看似出口的路只通向更深的无心区域。"
+      },
+      "en": {
+        "title": "A return path folding into itself",
+        "text": "Each step along your return mark repeats the same island corner. Closed spatial folds turn the apparent exit inward, drawing you deeper into a place without a center."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi bỏ dấu về cũ và phá vật nối để một khe ngoài hiện ra giữa hai lần lặp. Thoát được vòng gấp, ngươi mất phần pháp khí đã dùng giữ mốc chuyến đi.",
+        "translations": {
+          "zh": {
+            "text": "你弃旧归印破连接器，在两次重复间露出外缝。逃出折环后，维持旅途标记的法器也损失了。"
+          },
+          "en": {
+            "text": "Abandoning the mark and breaking its connector reveals a gap between repetitions. Escaping the folded loop costs the artifact you used to maintain the journey’s original bearings."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Mỗi vòng gấp cắt bớt một phần thần thức cho đến khi ngươi không còn nhận ra lần lặp. Tiên thể trôi giữa góc đảo giống nhau, rồi tan khi dấu bản thể đứt hẳn.",
+        "translations": {
+          "zh": {
+            "text": "每轮折叠削去部分神识，直到你无法辨出重复。仙体漂在相同岛角间，本体印断尽后随之消散。",
+            "endingReason": "封闭折返路削灭神识"
+          },
+          "en": {
+            "text": "Every fold removes part of your consciousness until repetitions lose their meaning. Your body drifts among identical corners and dissolves when the final mark of its identity breaks.",
+            "endingReason": "Consciousness severed by a closed folding return path"
+          }
+        },
+        "endingReason": "Thần thức bị đường về gấp kín cắt tan",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_mystic_immortal_name_curse",
+    "category": "disaster",
+    "title": "Tiếng gọi tên từ giếng sao",
+    "text": "Giếng sao bỏ hoang gọi đúng tên ngươi dù chưa có ai tới gần. Khi ngươi đáp theo thói quen, một nét huyền chú hiện quanh miệng giếng và nối thẳng vào thần thức.",
+    "translations": {
+      "zh": {
+        "title": "星井中的呼名声",
+        "text": "废星井无人靠近却叫出你的名字。你习惯性回答后，井口玄咒亮起，直连神识。"
+      },
+      "en": {
+        "title": "Your name called from a stellar well",
+        "text": "An abandoned stellar well calls your name before anyone approaches. Answering by habit lights a subtle curse around its rim and connects it directly to your consciousness."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi dùng dấu tên giả kéo huyền chú khỏi bản thể rồi khóa miệng giếng bằng vật niêm. Vật niêm bị ăn hết lực, nhưng lời gọi không còn tìm được chỗ để bám.",
+        "translations": {
+          "zh": {
+            "text": "你以假名印引咒离开本体，再用封物锁井口。封物耗尽力量，呼唤却失去了依附之处。"
+          },
+          "en": {
+            "text": "A false name mark draws the curse away from your identity, allowing the well to be sealed. The seal loses its power, but the call no longer finds you."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Huyền chú rút thần thức qua tiếng đáp, để giếng sao có thêm một giọng gọi từ dưới sâu. Tiên thể gục bên miệng đá, còn tên ngươi tiếp tục vang cho người qua sau.",
+        "translations": {
+          "zh": {
+            "text": "玄咒沿回答抽走神识，井底又多一声呼唤。仙体倒在石口旁，你的名字继续对后来者响起。",
+            "endingReason": "星井玄咒抽走神识致死"
+          },
+          "en": {
+            "text": "The curse draws consciousness through your reply, giving the well another voice beneath its depths. Your body falls beside the rim while your name keeps calling to later travelers.",
+            "endingReason": "Consciousness drained by a stellar well’s name curse"
+          }
+        },
+        "endingReason": "Thần thức bị huyền chú giếng sao rút mất",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_king_pillar_chain",
+    "category": "disaster",
+    "title": "Cột đạo đổ nối nhau",
+    "text": "Ngươi kiểm cột đạo ngoài tiên vực thì một chân trụ gãy, kéo lực sang những cột kề. Cả dãy chuyển nghiêng về khu dân cư, buộc ngươi giữ dòng sụp ngay chỗ đang đứng.",
+    "translations": {
+      "zh": {
+        "title": "道柱连环倒塌",
+        "text": "你检查域外道柱时，一根基脚折断，把力量压给邻柱。整列倾向居民区，迫使你当场拦住崩势。"
+      },
+      "en": {
+        "title": "Law pillars falling in a chain",
+        "text": "Inspecting outer law pillars reveals a broken base shifting force into neighboring supports. The entire row leans toward homes, forcing you to hold the collapse where you stand."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi cắt liên kết giữa hai cột để lực sụp rơi vào vùng đất trống, rồi rời chân trụ. Nhiều vật niêm bị nghiền theo đá, khiến kho phải thay phần dùng ngăn tai nạn.",
+        "translations": {
+          "zh": {
+            "text": "你切断两柱联系，使崩力落入空地，再离柱脚。多件封物随石碎裂，仓库须补上止灾的耗材。"
+          },
+          "en": {
+            "text": "Severing two pillars directs the collapse into empty ground before you withdraw. Sealing materials are crushed among the stones, leaving the warehouse to replace what stopped the disaster."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Dãy cột kéo lực sụp qua đạo vực rồi ép toàn bộ vào nền đạo . Đạo cơ vỡ trước lúc liên kết đứt, để người giữ trụ mất mạng giữa những cột còn nghiêng.",
+        "translations": {
+          "zh": {
+            "text": "柱列把崩力拖过道域，全压向你的道基。连接未断根基先碎，守柱者陨于仍在倾倒的石柱间。",
+            "endingReason": "连环倒塌道柱压碎道基"
+          },
+          "en": {
+            "text": "The pillars drag collapsing force across your domain into its foundation. Your Dao breaks before their connection does, ending your life among supports still leaning toward the ground.",
+            "endingReason": "Foundation crushed by a chain collapse of law pillars"
+          }
+        },
+        "endingReason": "Đạo cơ bị dãy cột đạo sụp liên hoàn ép vỡ",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_king_ancestral_curse",
+    "category": "disaster",
+    "title": "Ấn tổ giữ món nợ cũ",
+    "text": "Ấn tổ gửi về kho tiên vực mang lời nguyền đòi mạng người nhận thay khoản nợ xưa. Khi ngươi kiểm dấu, huyết văn chạy lên tay dù không ai còn nhớ chủ nợ.",
+    "translations": {
+      "zh": {
+        "title": "祖印留旧债",
+        "text": "送入仙域库的祖印带着替旧债索命的咒。你验印时血纹爬上手，债主却已无人记得。"
+      },
+      "en": {
+        "title": "An ancestral seal preserving an old debt",
+        "text": "An ancestral seal sent to your store carries a curse claiming its receiver for an old debt. Blood patterns climb your hand although nobody remembers who originally demanded repayment."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi tách dấu nhận khỏi ấn tổ rồi phong nó trong vật chứa không nối đạo vực. Vật chứa tiêu hao nhiều bảo liệu, đổi lại lời nguyền hết lấy ngươi làm người trả nợ.",
+        "translations": {
+          "zh": {
+            "text": "你剥离收印痕，将祖印封进不接道域的容器。容器耗去宝料，旧咒却不再把你当偿债者。"
+          },
+          "en": {
+            "text": "Separating the receipt mark lets you seal it within a container unconnected to your domain. Precious materials are spent, but the curse no longer names you as its debtor."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Huyết văn chạm đạo cơ rồi nhận tiên thể là phần trả cho lời thề cũ. Sinh cơ bị hút khỏi từng đoạn, để ấn tổ khép lại khi khoản nợ đã lấy đủ mạng.",
+        "translations": {
+          "zh": {
+            "text": "血纹触及道基，把仙体认作旧誓的偿物。生机被逐段抽去，祖印在索足性命后闭合。",
+            "endingReason": "祖印旧咒抽尽生机"
+          },
+          "en": {
+            "text": "Blood patterns reach your foundation and claim your body as payment for an ancient oath. Life drains away in sections until the seal closes upon a debt paid with death.",
+            "endingReason": "Life drained by an ancestral seal’s old debt curse"
+          }
+        },
+        "endingReason": "Bị lời nguyền ấn tổ hút cạn sinh cơ",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_king_gravity_gate",
+    "category": "disaster",
+    "title": "Cửa đạo vực tăng sức hút",
+    "text": "Cửa đạo vực tăng sức hút khi hai nhánh pháp tắc giao sai trong lúc ngươi đi qua. Đất và đá quanh chân bị kéo thành vòng, còn lối bước tiếp co nhỏ nhanh.",
+    "translations": {
+      "zh": {
+        "title": "道域门重力骤增",
+        "text": "你过道域门时，两支法则错交导致吸力骤增。脚边土石旋起，前路迅速缩小。"
+      },
+      "en": {
+        "title": "A domain gate increasing its pull",
+        "text": "A crossing of mismatched laws strengthens the pull of your domain gate. Earth and stone turn around your feet while the remaining space for another step shrinks quickly."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi bỏ vật giữ cửa để cắt nhánh pháp tắc, nhảy khỏi vòng hút trước khi nó kín. Cửa phải xây lại với vật liệu mới, nhưng tuyến ngoài vẫn còn cho người trở về.",
+        "translations": {
+          "zh": {
+            "text": "你弃掉门锚切断一支法则，在吸环合闭前跃出。门需新料重建，外路仍留给归者通行。"
+          },
+          "en": {
+            "text": "Abandoning its anchor cuts one law branch and lets you leap free before closure. Rebuilding costs new materials, but the outer route remains available for travelers returning home."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Sức hút gom tiên thể cùng lớp hộ thân vào điểm nhỏ giữa cửa, ép đạo cơ hết đường trải. Một tiếng vỡ vang rồi tắt, để cửa đạo vực giữ lại khoảng sáng trống.",
+        "translations": {
+          "zh": {
+            "text": "吸力把仙体和护体层聚入门中小点，压得道基无处展开。碎声一响便灭，域门只剩空光。",
+            "endingReason": "道域门缩吸碾碎仙体"
+          },
+          "en": {
+            "text": "The pull gathers your body and protection into a tiny point with no space for its foundation. A breaking sound dies away, leaving an empty glow inside the gate.",
+            "endingReason": "Body crushed by a contracting domain gate"
+          }
+        },
+        "endingReason": "Tiên thể bị cửa đạo vực co hút nghiền nát",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_king_funeral_array",
+    "category": "disaster",
+    "title": "Trận dẫn hồn nhận nhầm người",
+    "text": "Ngươi kiểm trận dẫn hồn cũ sau khi người giữ mất, thấy dấu gọi nối sang thần thức mình. Bảng nhận mòn tên, khiến trận xem người sửa là hồn cần đưa đi.",
+    "translations": {
+      "zh": {
+        "title": "引魂阵误认活人",
+        "text": "旧引魂阵守者亡后，你检查时召印接入神识。认名牌磨损，阵法把修者当作待送之魂。"
+      },
+      "en": {
+        "title": "A soul guiding formation mistakes the living",
+        "text": "Inspecting an old soul guiding formation connects its summons to you. Worn names upon its register make the formation treat a living repairer as a soul waiting to depart."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi phá bảng nhận trước khi dòng dẫn khép, kéo thần thức về tiên thể theo dấu ngoài. Trận cũ và vật niêm phải bỏ, để kho hao vật liệu nhưng ngươi còn trở ra.",
+        "translations": {
+          "zh": {
+            "text": "你在引流合闭前破认名牌，凭外印收回神识。旧阵封物须弃，仓库损料，修者却能走出。"
+          },
+          "en": {
+            "text": "Breaking the register before its current closes lets an outside mark return your consciousness. The old formation and seals are discarded, costing materials while its repairer walks out alive."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Trận dẫn hồn đóng dấu đưa đi lên thần thức còn sống, cắt nó khỏi tiên thể đang đứng. Tiếng chuông tang tự vang trong phòng, khi người sửa đã trở thành kẻ được tiễn.",
+        "translations": {
+          "zh": {
+            "text": "引魂阵给活神识盖上送离印，将其从站立仙体中割断。室内丧钟自响，修者已成被送者。",
+            "endingReason": "引魂阵误认抽离神识致死"
+          },
+          "en": {
+            "text": "The formation stamps departure upon your living consciousness and severs it from your standing body. A funeral bell sounds by itself as the repairer becomes the one being sent away.",
+            "endingReason": "Consciousness fatally separated by a mistaken soul guiding formation"
+          }
+        },
+        "endingReason": "Thần thức bị trận dẫn hồn nhận nhầm kéo khỏi tiên thể",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_emperor_world_rebound",
+    "category": "disaster",
+    "title": "Nền giới vỡ dội về đạo tràng",
+    "text": "Một nền giới đang được ngươi kiểm vỡ đúng chỗ nối đạo tràng, đưa lực sụp ngược về. Những đường dẫn vốn nuôi giới trở thành lối đẩy đạo nguyên vào thân người giữ chúng.",
+    "translations": {
+      "zh": {
+        "title": "界基崩裂反冲道场",
+        "text": "受检界基在道场连接处破裂，崩力倒冲。原本养界的通路变成向守者体内推送道源的路线。"
+      },
+      "en": {
+        "title": "A shattered world foundation rebounds upon the sanctuary",
+        "text": "A foundation breaks where it joins your sanctuary and sends collapsing force backward. Currents that nourished the world become paths driving Dao essence into the person maintaining them."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi cắt phần nối đạo tràng rồi bỏ các bảo vật giữ nhịp để lực sụp tan ngoài nền mình. Giới được tách khỏi nguồn cũ, còn ngươi mất phần lớn vật liệu chuẩn bị.",
+        "translations": {
+          "zh": {
+            "text": "你断开道场连接，弃掉稳节宝物，让崩力散在根基之外。世界脱离旧源，你也失去大部分备料。"
+          },
+          "en": {
+            "text": "Severing the sanctuary link and abandoning rhythm treasures lets the collapse disperse beyond your foundation. The world leaves its old source, costing most materials you prepared for its support."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Lực sụp theo đường nuôi giới tới trước khi ngươi đóng điểm nối, đánh vỡ đạo cơ từ trong. Đạo tràng tối theo tiên thể tan, để giới bên ngoài mất nguồn giữ cuối.",
+        "translations": {
+          "zh": {
+            "text": "崩力在连接关闭前穿过养界通路，从内震碎道基。仙体消散，道场随之熄灭，外界也失去最后维持源。",
+            "endingReason": "界基崩裂反冲毁道基"
+          },
+          "en": {
+            "text": "The collapse travels every nourishing channel before its link closes and shatters your foundation within. Body and sanctuary fade together, leaving the outer world without its final sustaining source.",
+            "endingReason": "Foundation destroyed by the rebound of a shattered world"
+          }
+        },
+        "endingReason": "Đạo cơ bị nền giới vỡ phản chấn phá hủy",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_emperor_unmaking_silence",
+    "category": "disaster",
+    "title": "Khoảng lặng xóa đại đạo",
+    "text": "Ngươi khảo sát vùng thiên ngoại không có đạo âm, thấy những nét đại đạo mất hình khi chạm khoảng lặng. Dấu về vẫn hiện, nhưng ý nghĩa dẫn đường của chúng đang bị xóa.",
+    "translations": {
+      "zh": {
+        "title": "抹去大道的寂静",
+        "text": "你勘察无道音天外，大道笔画触及寂静便失形。归印仍亮，指路意义却正被抹去。"
+      },
+      "en": {
+        "title": "A silence erasing the Dao",
+        "text": "In a region without Dao sounds, your patterns lose shape upon touching silence. Return marks still glow, but the meaning by which they guide you is being erased."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi rút nét đạo khỏi vùng lặng, lấy bảo vật chưa nối lực làm mốc ngoài. Vật ấy mất tính linh khi ngươi thoát, để chuyến khảo sát trả giá bằng bảo vật vô dụng.",
+        "translations": {
+          "zh": {
+            "text": "你撤出道纹，以未接力宝物作外标。脱身时它失去灵性，这次勘察换来一件再无用处的宝物。"
+          },
+          "en": {
+            "text": "Withdrawing your patterns, you use an unconnected treasure as an outside reference. It loses its spirit as you escape, making the survey cost a possession that can no longer function."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Khoảng lặng xóa ý nghĩa nối đạo cơ với tiên thể, khiến đại đạo tan dù hình dấu sáng. Ngươi mất bản thể giữa vùng không âm, nơi hết lời nào giữ được tên mình.",
+        "translations": {
+          "zh": {
+            "text": "寂静抹去道基与仙体的连接意义，印形尚亮大道已散。你在无音空域失去本体，名字再无词可留。",
+            "endingReason": "天外寂静抹灭大道致死"
+          },
+          "en": {
+            "text": "Silence erases the meaning linking foundation and body while the patterns still glow. Your identity dissolves within the soundless region where no remaining word can preserve your name.",
+            "endingReason": "Dao erased by silence beyond the heavens"
+          }
+        },
+        "endingReason": "Đại đạo bị khoảng lặng thiên ngoại xóa mất",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_emperor_karma_name",
+    "category": "disaster",
+    "title": "Tên bị kéo khỏi nhân quả",
+    "text": "Khi kiểm một khế nhân quả cổ, ngươi thấy tên mình bị ghép vào chỗ người lập khế đã mất. Mỗi nét chữ sáng lên lại kéo một mối liên hệ khỏi giới ngươi biết.",
+    "translations": {
+      "zh": {
+        "title": "名字被抽离因果",
+        "text": "你验古因果契时，名字被接上已亡立契者的位置。每笔亮起，都从熟知诸界中抽走一条联系。"
+      },
+      "en": {
+        "title": "A name drawn out of cause and consequence",
+        "text": "An ancient covenant places your name where its deceased maker once stood. Each glowing stroke removes another connection between you and the worlds whose existence you know."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi đốt phần khế mang tên mình bằng đạo nguyên tách riêng, ngừng đường kéo trước khi bản thể mất mốc. Nguyên lực ấy không thu lại, nhưng các liên hệ còn giữ được ngươi.",
+        "translations": {
+          "zh": {
+            "text": "你以独立道源烧掉具名契段，在本体失标前停住抽离。道源无法收回，余下联系却仍维系着你。"
+          },
+          "en": {
+            "text": "Burning the named section with isolated essence stops the withdrawal before your identity loses its bearings. That power cannot be recovered, but remaining connections continue holding you within existence."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Khế nhân quả kéo hết liên hệ của tên ngươi rồi trao vị trí cho người đã chết. Tiên thể tan khi vạn giới không nhận bản thể ấy, để khế cổ sạch thêm dòng.",
+        "translations": {
+          "zh": {
+            "text": "古契抽尽你名字的联系，把位置封给亡人。诸界不再承认本体，仙体随之消散，契上又净去一行。",
+            "endingReason": "古契抹名断因果而本体消散"
+          },
+          "en": {
+            "text": "The covenant removes every connection to your name and grants its place to someone dead. Your body dissolves as worlds cease to recognize it, leaving another cleared line upon the contract.",
+            "endingReason": "Identity dissolved after an ancient covenant erases its causal name"
+          }
+        },
+        "endingReason": "Bản thể tan do khế cổ xóa tên khỏi nhân quả",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_emperor_first_star_collapse",
+    "category": "disaster",
+    "title": "Ngọn sao đầu sụp trong tay",
+    "text": "Ngươi giữ nhịp cho ngọn sao đầu của một giới mới, thấy lõi đổi trạng thái quá nhanh. Ánh sáng co vào điểm tối, kéo đạo lực đang nối tới tay theo cùng hướng.",
+    "translations": {
+      "zh": {
+        "title": "初星在掌中崩塌",
+        "text": "你为新界初星维持节奏，核心却变得过快。光收成暗点，把接在手上的道力也拖向其中。"
+      },
+      "en": {
+        "title": "A first star collapsing within your grasp",
+        "text": "You steady the first star of a new world as its core changes too quickly. Light contracts into darkness and draws the force linked to your hand inward alongside it."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "survive",
+        "weight": 9,
+        "text": "Ngươi cắt đường nuôi sao, bỏ bảo vật làm cầu để điểm tối khép ngoài đạo tràng. Giới phải chờ nguồn sáng khác, còn số đạo nguyên dùng giữ nhịp đã mất trong lần sụp.",
+        "translations": {
+          "zh": {
+            "text": "你断开养星通路，弃掉桥接宝物，让暗点在道场外闭合。新界须等别的光源，稳节道源也已损失。"
+          },
+          "en": {
+            "text": "Cutting the star’s supply and abandoning its bridge treasure closes darkness outside your sanctuary. The world waits for another light source, while essence invested in its rhythm is lost."
+          }
+        },
+        "effects": {
+          "resources": -12
+        }
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Điểm tối kéo đạo cơ qua cầu lực rồi nghiền tiên thể theo ngọn sao vừa sụp. Ánh sáng đầu của giới tắt cùng ngươi, để khoảng trời mới mở không còn người giữ nhịp.",
+        "translations": {
+          "zh": {
+            "text": "暗点沿力桥拉入道基，随初星崩塌碾碎仙体。新界第一道光与你同灭，初开天空再无稳节者。",
+            "endingReason": "初星崩塌将道基拖入暗点致死"
+          },
+          "en": {
+            "text": "Darkness draws your foundation across its force bridge and crushes your body with the collapsing star. The world’s first light dies alongside you, leaving its new sky without a keeper.",
+            "endingReason": "Foundation drawn into darkness by a newborn star’s collapse"
+          }
+        },
+        "endingReason": "Đạo cơ bị ngọn sao mới sụp kéo vào điểm tối",
+        "effects": {
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "peril_true_immortal_river_rescue",
+    "category": "disaster",
+    "title": "Tiên đò lật giữa dòng",
+    "text": "Một tiên đò lật giữa dòng khiến người trên thuyền bám vào mảnh gỗ đang tan. Ngươi có thể vào nước kéo họ tới bờ, hoặc giữ dây cứu từ chỗ đất chắc.",
+    "translations": {
+      "zh": {
+        "title": "仙舟翻于河心",
+        "text": "仙舟翻在河心，乘客抓着正在消散的木片。你可入水拉他们上岸，也可站稳岸地维持救绳。"
+      },
+      "en": {
+        "title": "An immortal ferry capsizes midstream",
+        "text": "A ferry capsizes and its passengers cling to dissolving wood. You can enter the current to bring them ashore or keep a rescue rope secured from solid ground."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi kéo được người cuối tới dây cứu trước khi dòng xoáy đổi hướng. Người lái trả công từ phần hàng còn giữ, còn tiên lực của ngươi thôi phải chống sức hút dưới nước.",
+            "translations": {
+              "zh": {
+                "text": "你在旋流改向前把最后一人拉到救绳。船夫从余货付酬，你的仙力也不必再抵抗水下吸力。"
+              },
+              "en": {
+                "text": "You bring the final passenger to the rope before the whirlpool turns. The ferryman pays from surviving cargo, and your energy no longer has to resist the pull below."
+              }
+            },
+            "effects": {
+              "resources": 18
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Dòng xoáy hút ngươi xuống dưới lớp tiên lực đang ép nước, cắt dấu về khỏi bờ. Tiên mạch vỡ khi ngươi cố giữ người bên cạnh, để lời gọi cứu chìm cùng thuyền gãy.",
+            "translations": {
+              "zh": {
+                "text": "旋流把你拉入压水仙力之下，切断岸上归印。护人时仙脉破裂，呼救声与断舟一同沉没。",
+                "endingReason": "救翻覆仙舟时陷旋流身亡"
+              },
+              "en": {
+                "text": "The whirlpool drags you beneath compressed water and severs your shore mark. Your meridians break while you hold another passenger, taking calls for rescue down with the broken ferry.",
+                "endingReason": "Killed in a whirlpool while rescuing a capsized immortal ferry"
+              }
+            },
+            "endingReason": "Tử nạn trong xoáy nước khi cứu tiên đò lật",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi giữ dây cứu trên bờ, đưa đầu dây tới người bám gỗ thay vì xuống nước. Vài người được kéo gần đất, còn giữa dòng ngươi để đội cứu có thuyền tiếp cận.",
+            "translations": {
+              "zh": {
+                "text": "你留在岸边把救绳送向抓木者，不下水。几人被拉近陆地，河心留给有船的救援队。"
+              },
+              "en": {
+                "text": "You extend the rope from shore rather than entering the water. Some passengers reach firmer ground while the middle of the river remains for rescuers equipped with boats."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_golden_immortal_tangled_artisan",
+    "category": "disaster",
+    "title": "Thợ luyện khí mắc trong đạo văn",
+    "text": "Đạo văn quanh lò luyện khép vào người thợ, hút tiên lực mỗi lần họ vùng ra. Ngươi có thể dùng pháp tắc mình tách khóa, hoặc dựng chắn rồi gọi người biết lõi lò.",
+    "translations": {
+      "zh": {
+        "title": "炼器师困于道纹",
+        "text": "炉边道纹闭向工匠，每次挣扎都抽仙力。你可亲自拆锁纹，也可先设屏障，再找懂炉核的人。"
+      },
+      "en": {
+        "title": "A smith trapped within law patterns",
+        "text": "Patterns close around a smith and drain energy whenever they struggle. You can separate their locking strokes yourself or raise a barrier and seek someone familiar with the furnace core."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi tách khóa khỏi nhịp lò, mở được khoảng cho người thợ bước ra. Họ chia phần vật liệu đã luyện xong, còn ngươi hiểu thêm cách pháp tắc giữ vật mà không ép người.",
+            "translations": {
+              "zh": {
+                "text": "你拆开锁纹与炉节奏，让工匠走出。他分给你已炼材料，你也更懂如何定物而不压人。"
+              },
+              "en": {
+                "text": "Separating the lock from the furnace rhythm opens space for the smith. They share finished material, and you learn how a holding law can preserve objects without trapping people."
+              }
+            },
+            "effects": {
+              "resources": 18
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Nét khóa chuyển từ người thợ sang đạo cơ ngươi khi hai dòng pháp tắc chạm nhau. Lò hút hết phần giữ tiên thể, khiến người muốn cứu tan trước khi vòng đạo văn mở.",
+            "translations": {
+              "zh": {
+                "text": "两股法则相触时，锁纹从工匠转到你的道基。炉抽尽维系仙体之力，救人者在纹环打开前消散。",
+                "endingReason": "道基遭炼炉锁纹抽尽仙力"
+              },
+              "en": {
+                "text": "Touching laws transfer the lock from the smith to your foundation. The furnace drains the force holding your body together, ending the rescue attempt before its pattern ring opens.",
+                "endingReason": "Foundation drained by a furnace’s locking law patterns"
+              }
+            },
+            "endingReason": "Đạo cơ bị lò luyện khóa hút cạn tiên lực",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi dựng chắn ngoài lò rồi gọi người hiểu lõi tới, giữ người khác không bước vào khóa. Công việc cứu chậm lại, nhưng thêm cách đọc trận trước khi chạm pháp tắc đang khép.",
+            "translations": {
+              "zh": {
+                "text": "你先设炉外屏障，叫懂核心者来，拦住旁人误入。救援虽慢，却能先读阵，再碰正在闭合的法则。"
+              },
+              "en": {
+                "text": "You raise a barrier and summon someone who knows the core, keeping others outside. Rescue takes longer while the closing formation is examined before anyone touches its laws."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_mystic_immortal_last_message",
+    "category": "disaster",
+    "title": "Lời nhắn mắc trong hồn tàn",
+    "text": "Một hồn tàn giữ lời nhắn cuối nhưng không còn đủ lực nói ra ngoài. Ngươi có thể nối thần thức nghe trực tiếp, hoặc giữ hồn trong ngọc để người quen tìm tới.",
+    "translations": {
+      "zh": {
+        "title": "残魂中的未竟留言",
+        "text": "残魂留着末语，却无力向外说出。你可连接神识直接听，也可用玉保留，等待其熟人到来。"
+      },
+      "en": {
+        "title": "A final message within a fading soul",
+        "text": "A fading soul holds a final message without strength to speak it. You can connect your consciousness to hear directly or preserve it in jade until someone familiar arrives."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi giữ mốc bản thể, nghe lời nhắn ngắn rồi tách khỏi hồn trước lúc ký ức tan. Người nhận lời gửi vật cảm ơn, để sự giúp đỡ còn dấu thật trong đời.",
+            "translations": {
+              "zh": {
+                "text": "你守本体印听到短讯，在末忆散去前退出。收信者送来谢物，让这份帮助留下真实痕迹。"
+              },
+              "en": {
+                "text": "Keeping your identity mark lets you hear the short message and withdraw before the final memory fades. Its recipient sends a gift, leaving a tangible sign of the help given."
+              }
+            },
+            "effects": {
+              "resources": 18
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ký ức chết của hồn tàn kéo thần thức ngươi vào khoảnh khắc không có lối tỉnh. Hai dấu bản thể lẫn rồi tan, để lời nhắn cuối không còn người đưa tới.",
+            "translations": {
+              "zh": {
+                "text": "残魂死忆把你拖进无法醒来的瞬间。两道本体印混合消散，末语再无人送给等待者。",
+                "endingReason": "残魂死忆吞灭神识"
+              },
+              "en": {
+                "text": "The soul’s death memory draws you into a moment with no awakening. Both identity marks mingle and dissolve, leaving its final words without anyone to carry them onward.",
+                "endingReason": "Consciousness lost within a fading soul’s death memory"
+              }
+            },
+            "endingReason": "Thần thức tan trong ký ức chết của hồn tàn",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi niêm hồn trong ngọc rồi gửi dấu nhận tới nơi người quen của họ đang ở. Chưa nghe lời cuối, ngươi vẫn giữ được thời gian để họ tìm một cách trao tin khác.",
+            "translations": {
+              "zh": {
+                "text": "你封魂入玉，向熟人所在地送去认印。虽未听末语，却留出时间让他们寻找其他传信方法。"
+              },
+              "en": {
+                "text": "You seal the soul in jade and send an identifying mark to its acquaintances. The message remains unheard, but they gain time to find another way to receive it."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_king_plague_current",
+    "category": "disaster",
+    "title": "Đạo dịch lan theo dòng chung",
+    "text": "Nhánh đạo vực mang bệnh pháp tắc, biến dòng nuôi đất thành đường truyền mục nát. Ngươi có thể dẫn bệnh qua đạo cơ để lọc, hoặc cắt nhánh rồi gọi người chữa trận.",
+    "translations": {
+      "zh": {
+        "title": "道疫沿共流扩散",
+        "text": "道域支脉染上法则病，养地流变成腐坏通路。你可经道基过滤，也可断支并请治阵者来。"
+      },
+      "en": {
+        "title": "A law plague spreading through a shared current",
+        "text": "A diseased law branch turns a nourishing current into a route for decay. You can filter it through your foundation or disconnect the branch and call a formation healer."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi lọc phần bệnh qua lớp đạo lực tách riêng, giữ dòng sạch trở lại vùng đất. Người giữ kho cấp vật liệu bù phần dùng, còn nhánh bệnh không lan sang làng còn lại.",
+            "translations": {
+              "zh": {
+                "text": "你用独立道力层过滤病流，使净流回到土地。仓管补上耗材，病支也未扩散到其他村落。"
+              },
+              "en": {
+                "text": "An isolated layer filters the diseased current and restores clean flow to the land. Warehouse materials replace what you spent, while neighboring villages remain beyond the plague’s reach."
+              }
+            },
+            "effects": {
+              "resources": 18
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Đạo dịch vượt lớp lọc, ăn vào nền đạo nơi ngươi nối dòng bệnh và làm đạo cơ mục. Tiên thể tan trước khi nhánh đứt, để người giữ dòng mất mạng trong lần chữa.",
+            "translations": {
+              "zh": {
+                "text": "道疫穿过滤层，腐蚀接病流处的整座道基。支脉未断仙体已散，守流者死于这次治疗。",
+                "endingReason": "过滤道疫失败致道基腐毁"
+              },
+              "en": {
+                "text": "The plague crosses the filter and rots your foundation where the current enters. Your body dissolves before the branch is severed, ending the keeper’s life during an attempted cure.",
+                "endingReason": "Foundation rotted after a failed attempt to filter a law plague"
+              }
+            },
+            "endingReason": "Đạo cơ mục nát do lọc đạo dịch thất bại",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi cắt nhánh bệnh, dựng chắn giữ vùng bị ảnh hưởng rồi gọi người chữa trận tới. Một phần đất thiếu dòng nuôi tạm thời, nhưng các làng khác không nhận thêm pháp tắc mục.",
+            "translations": {
+              "zh": {
+                "text": "你断病支，设屏障围住受染地，再召治阵者。部分土地暂缺养流，其他村落却未再接收腐坏法则。"
+              },
+              "en": {
+                "text": "You disconnect the diseased branch, contain the affected land, and summon a healer. Some ground temporarily loses nourishment, but other villages receive no further currents carrying rotten laws."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_emperor_world_underlay",
+    "category": "disaster",
+    "title": "Một giới mất lớp nền cuối",
+    "text": "Lớp nền cuối của giới tan dần, khiến sinh linh bên trong mất chỗ giữ hình. Ngươi có thể đặt đạo cơ mình làm nền tạm, hoặc mở đường chuyển họ sang khoảng trú ngoài.",
+    "translations": {
+      "zh": {
+        "title": "一界失去末层根基",
+        "text": "一界末层根基开始消散，生灵失去定形之处。你可用自身道基暂托，也可开路移入界外避处。"
+      },
+      "en": {
+        "title": "A world losing its last foundation layer",
+        "text": "A world’s last foundation fades, leaving its inhabitants without support for their forms. You can offer your foundation temporarily or open a route into an outside refuge."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi đặt phần đạo cơ tách riêng dưới giới, giữ thời gian cho lớp nền mới kết lại. Người trong giới gửi đạo liệu cảm tạ, còn nhánh cho được rút về khi đất ổn.",
+            "translations": {
+              "zh": {
+                "text": "你以独立道基支撑，留出新根基凝结的时间。界中人送道料谢恩，土地稳定后支脉得以收回。"
+              },
+              "en": {
+                "text": "An isolated part of your foundation holds the world until a new layer forms. Its inhabitants send materials in thanks, and you withdraw the supporting branch once the ground steadies."
+              }
+            },
+            "effects": {
+              "resources": 18
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Giới đang tan kéo cả đạo cơ qua phần nối tạm, nhận nền đạo vào chỗ vỡ không đáy. Tiên thể mất lực giữ, tan cùng lớp đất cuối trước khi nền mới thành.",
+            "translations": {
+              "zh": {
+                "text": "崩界沿临时连接拖入整座道基，将其吞进无底裂处。仙体失去维持，与最后土地同散，新根基尚未来得及成形。",
+                "endingReason": "失基之界将道基拖入裂处致死"
+              },
+              "en": {
+                "text": "The failing world drags your entire foundation through the temporary link into a bottomless fracture. Your body loses its support and dissolves with the last ground before replacement layers form.",
+                "endingReason": "Foundation dragged into a fracture by a world losing its support"
+              }
+            },
+            "endingReason": "Đạo cơ bị giới mất nền kéo vào vết vỡ",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi mở đường chuyển sinh linh sang khoảng trú ngoài, giữ họ đi từng lượt trước khi nền tan hẳn. Giới cũ chưa cứu được, nhưng người rời đi còn chỗ để bắt đầu lại.",
+            "translations": {
+              "zh": {
+                "text": "你开路分批转移生灵到界外避处，赶在根基尽散前撤离。旧界未能保存，离去者却有重新开始之地。"
+              },
+              "en": {
+                "text": "You move inhabitants into an outside refuge in groups before the foundation fully fades. The old world remains beyond saving, but those who leave have somewhere to begin again."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_nascent_soul_mirror",
+    "category": "disaster",
+    "title": "Gương hồn giữa chợ đêm",
+    "text": "Ngươi vừa nhận chiếc gương hồn từ quầy hàng thì ba kẻ bịt mặt chặn đường. Chúng đòi bảo vật, đồng thời tung lưới khóa đường Nguyên Anh.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "夜市中的魂镜",
+        "text": "你刚从摊主手中接过魂镜，三名蒙面修士便拦住去路。他们索要宝物，同时抛出封锁元婴的灵网。"
+      },
+      "en": {
+        "title": "The Night Market Soul Mirror",
+        "text": "You have barely received a soul mirror at the night market when three masked cultivators block your path, demanding the treasure and casting nets to imprison your soul."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại gương hồn, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起魂镜后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the soul mirror, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ gương hồn để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃魂镜换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺魂镜时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the soul mirror to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the soul mirror"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt gương hồn"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Gương hồn đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。魂镜落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺魂镜时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The soul mirror changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the soul mirror"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt gương hồn"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_nascent_soul_reed",
+    "category": "disaster",
+    "title": "Tiếng sáo truy hồn",
+    "text": "Tiếng sáo vang sau lưng mỗi khi ngươi đổi hướng giữa đầm lau. Kẻ truy sát dùng âm thanh dò Nguyên Anh, ép ngươi giao viên ngọc vừa tìm được.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "追魂笛声",
+        "text": "每当你在芦苇荡中转向，身后便响起笛声。追杀者以音律探查元婴，逼你交出刚找到的灵珠。"
+      },
+      "en": {
+        "title": "The Soul Hunting Flute",
+        "text": "A flute sounds behind you whenever you turn through the reeds. Your pursuer tracks your nascent soul through its music, demanding the pearl you recently discovered."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại linh châu, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起灵珠后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the spiritual pearl, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ linh châu để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃灵珠换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺灵珠时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the spiritual pearl to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the spiritual pearl"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt linh châu"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Linh châu đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。灵珠落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺灵珠时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The spiritual pearl changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the spiritual pearl"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt linh châu"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_nascent_soul_bridge",
+    "category": "disaster",
+    "title": "Đoạt ấn trên cầu đá",
+    "text": "Chiếc cổ ấn nằm giữa cầu đá, hai nhóm tu sĩ đang giằng co. Một kẻ nhận nhầm ngươi là viện binh đối thủ, lập tức vung kiếm đánh tới.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "石桥夺印",
+        "text": "古印落在石桥中央，两队修士争执不下。一人误以为你是敌方援手，立刻挥剑向你袭来。"
+      },
+      "en": {
+        "title": "The Seal on the Stone Bridge",
+        "text": "An ancient seal rests between two rival groups on a stone bridge. Mistaking you for enemy reinforcements, one cultivator immediately turns his sword against you."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại cổ ấn, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起古印后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the ancient seal, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ cổ ấn để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃古印换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺古印时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the ancient seal to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the ancient seal"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt cổ ấn"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Cổ ấn đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。古印落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺古印时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The ancient seal changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the ancient seal"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt cổ ấn"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_spirit_transformation_banner",
+    "category": "disaster",
+    "title": "Cờ đổi chủ giữa tầng mây",
+    "text": "Một lá cờ pháp bảo bị gió cuốn tới bên ngươi giữa tầng mây. Chủ cũ đuổi đến, bỏ qua lời giải thích và triệu lôi đánh thẳng vào thần thức.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "云间易主的旗幡",
+        "text": "一面法宝旗幡被风卷到你身旁。原主追至云间，不听解释，直接召来雷霆轰击你的神识。"
+      },
+      "en": {
+        "title": "The Banner Above the Clouds",
+        "text": "A magical banner blows toward you among the clouds. Its owner arrives in pursuit, ignores your explanation, and summons lightning aimed directly at your divine awareness."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại pháp kỳ, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起法旗后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the magical banner, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ pháp kỳ để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃法旗换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺法旗时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the magical banner to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the magical banner"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt pháp kỳ"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Pháp kỳ đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。法旗落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺法旗时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The magical banner changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the magical banner"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt pháp kỳ"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_spirit_transformation_mask",
+    "category": "disaster",
+    "title": "Dấu mặt trên lệnh truy sát",
+    "text": "Ngươi phát hiện chân dung mình trên lệnh truy sát một kẻ trộm bảo vật. Chưa kịp tìm người đính chính, nhóm săn thưởng đã phong tỏa cả triền núi.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "追杀令上的面容",
+        "text": "你发现盗宝者的追杀令竟画着自己的面容。尚未找到人澄清，一队赏金修士便封锁了整片山坡。"
+      },
+      "en": {
+        "title": "Your Face on the Hunting Warrant",
+        "text": "You find your own face on a warrant for a treasure thief. Before you can correct the mistake, bounty hunters seal every route across the mountainside."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại túi bảo vật của nhóm săn thưởng, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起赏金修士的宝囊后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the the bounty hunters’ treasure pouch, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ túi bảo vật của nhóm săn thưởng để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃赏金修士的宝囊换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺赏金修士的宝囊时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the the bounty hunters’ treasure pouch to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the the bounty hunters’ treasure pouch"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt túi bảo vật của nhóm săn thưởng"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Túi bảo vật của nhóm săn thưởng đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。赏金修士的宝囊落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺赏金修士的宝囊时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The the bounty hunters’ treasure pouch changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the the bounty hunters’ treasure pouch"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt túi bảo vật của nhóm săn thưởng"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_spirit_transformation_furnace",
+    "category": "disaster",
+    "title": "Lò đan giữa bão cát",
+    "text": "Bão cát làm lộ chiếc lò đan phát sáng trong phế thành. Khi ngươi đến gần, kẻ ẩn dưới cát tung dây trói thần thức, quyết giữ bảo vật độc chiếm.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "沙暴中的丹炉",
+        "text": "沙暴揭开废城中发光的丹炉。你刚靠近，藏在沙下的修士便抛出束缚神识的绳索，企图独占宝物。"
+      },
+      "en": {
+        "title": "The Furnace in the Sandstorm",
+        "text": "A sandstorm exposes a glowing furnace in a ruined city. As you approach, a hidden cultivator throws cords that bind divine awareness, determined to monopolize the treasure."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại lò đan cổ, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起古丹炉后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the ancient furnace, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ lò đan cổ để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃古丹炉换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺古丹炉时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the ancient furnace to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the ancient furnace"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt lò đan cổ"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Lò đan cổ đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。古丹炉落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺古丹炉时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The ancient furnace changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the ancient furnace"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt lò đan cổ"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_void_refining_shuttle",
+    "category": "disaster",
+    "title": "Thoi xuyên không bị đánh dấu",
+    "text": "Chiếc thoi xuyên không ngươi đổi được mang dấu truy tung ẩn kín. Khi vượt khe hư không, chủ dấu mở đường tắt chặn đầu, ép ngươi giao cả hành trang.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "被标记的穿空梭",
+        "text": "你换来的穿空梭藏着追踪标记。穿越虚空裂隙时，标记主人抄近路拦截，逼你交出全部行囊。"
+      },
+      "en": {
+        "title": "The Marked Void Shuttle",
+        "text": "The void shuttle you acquired carries a concealed tracking mark. While you cross a fissure, its owner takes a shortcut ahead and demands all your possessions."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại thoi xuyên không, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起穿空梭后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the void shuttle, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ thoi xuyên không để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃穿空梭换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺穿空梭时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the void shuttle to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the void shuttle"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt thoi xuyên không"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Thoi xuyên không đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。穿空梭落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺穿空梭时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The void shuttle changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the void shuttle"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt thoi xuyên không"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_void_refining_anchor",
+    "category": "disaster",
+    "title": "Mỏ neo giữ bí cảnh",
+    "text": "Bí cảnh sắp trôi khỏi thế giới, chỉ còn một mỏ neo không gian giữ lại. Kẻ tranh đoạt đánh ngươi từ phía sau, quyết tháo neo mang về luyện khí.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "固定秘境的锚",
+        "text": "秘境即将漂离此界，只靠一枚空间锚固定。争宝者从背后袭击你，决意拆走此锚用于炼器。"
+      },
+      "en": {
+        "title": "The Anchor of the Secret Realm",
+        "text": "A secret realm drifts away, held only by a spatial anchor. A rival attacks from behind, determined to remove the anchor and claim it for artifact crafting."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại mỏ neo không gian, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起空间锚后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the spatial anchor, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ mỏ neo không gian để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃空间锚换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺空间锚时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the spatial anchor to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the spatial anchor"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt mỏ neo không gian"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. Mỏ neo không gian đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。空间锚落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺空间锚时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The spatial anchor changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the spatial anchor"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt mỏ neo không gian"
+      }
+    ]
+  },
+  {
+    "id": "treasure30_void_refining_trail",
+    "category": "disaster",
+    "title": "Vết chân trong khoảng trống",
+    "text": "Ngươi xóa dấu vết sau mỗi lần dịch chuyển, nhưng đối thủ vẫn đuổi sát. Hắn đọc dư âm không gian, rồi chém ngang lối thoát khi ngươi dừng nghỉ.",
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "虚空中的足迹",
+        "text": "每次挪移后你都抹去痕迹，对手却仍紧追不舍。他读取空间余波，在你停歇时斩断退路。"
+      },
+      "en": {
+        "title": "Footprints in Empty Space",
+        "text": "You erase every trace after each spatial shift, yet your pursuer keeps following. Reading residual ripples, he cuts across your escape route the moment you rest."
+      }
+    },
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi phá thế vây, buộc đối thủ bỏ chạy trước đòn phản kích. Thu lại la bàn truy tung, ngươi rời chiến trường trước khi có thêm người kéo đến.",
+        "effects": {
+          "resources": 24,
+          "cultivation": 12
+        },
+        "translations": {
+          "zh": {
+            "text": "你击破包围，迫使对手在反击下逃走。收起追踪罗盘后，你赶在更多修士到来前离开战场。"
+          },
+          "en": {
+            "text": "You break the encirclement and drive your opponent away with a fierce counterattack. Recovering the tracking compass, you leave before other cultivators reach the battlefield."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi bỏ la bàn truy tung để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "effects": {
+          "health": -20,
+          "resources": -10
+        },
+        "translations": {
+          "zh": {
+            "text": "你舍弃追踪罗盘换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "endingReason": "争夺追踪罗盘时重伤而亡"
+          },
+          "en": {
+            "text": "You abandon the tracking compass to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "endingReason": "Fatal wounds while contesting the tracking compass"
+          }
+        },
+        "endingReason": "Trọng thương khi tranh đoạt la bàn truy tung"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ngươi không kịp thoát khỏi đòn đánh chặn đường, pháp lực tán loạn trong khoảnh khắc. La bàn truy tung đổi chủ, còn hành trình của ngươi kết thúc tại chiến trường.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "你未能躲过封住退路的一击，法力瞬间崩散。追踪罗盘落入他人手中，你的旅途也就此终结。",
+            "endingReason": "争夺追踪罗盘时遭杀害"
+          },
+          "en": {
+            "text": "You fail to evade the strike blocking your retreat, and your spiritual power collapses. The tracking compass changes hands as your journey ends on the battlefield.",
+            "endingReason": "Killed in the struggle for the tracking compass"
+          }
+        },
+        "endingReason": "Bị sát hại trong cuộc tranh đoạt la bàn truy tung"
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_mahayana_jade",
+    "category": "disaster",
+    "title": "Ngọc dẫn kiếp bị đoạt",
+    "text": "Ngươi vừa lấy viên ngọc dẫn kiếp khỏi miệng núi lửa thì một lão tu xuất hiện. Hắn khóa lối xuống núi, tuyên bố bảo vật phải đổi bằng mạng.",
+    "translations": {
+      "zh": {
+        "title": "引劫玉之争",
+        "text": "你刚从火山口取出引劫玉，一名老修士便现身。他封住下山之路，声称必须以性命交换宝物。"
+      },
+      "en": {
+        "title": "The Tribulation Guiding Jade",
+        "text": "You lift a tribulation guiding jade from a volcanic crater. An old cultivator blocks the descent, declaring that anyone claiming this treasure must pay with their life."
+      }
+    },
+    "allowedRealms": [
+      "mahayana"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi nhử đối thủ lộ sơ hở rồi đánh tan thế trận của hắn. Giữ được ngọc dẫn kiếp, ngươi rời nơi giao chiến bằng lối ít người qua lại.",
+        "effects": {
+          "resources": 26,
+          "cultivation": 14
+        },
+        "translations": {
+          "zh": {
+            "text": "你诱使对手露出破绽，随即击溃他的阵势。保住引劫玉后，你沿着少有人行的路线离开战场。"
+          },
+          "en": {
+            "text": "You lure your opponent into exposing a weakness and shatter his formation. Keeping the tribulation guiding jade, you leave the battlefield along a rarely traveled route."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi dùng pháp lực che thân nhưng vẫn trúng đòn xuyên qua phòng ngự. ngọc dẫn kiếp bị bỏ lại, còn ngươi phải tiêu hao linh tài để kéo dài hơi thở.",
+        "effects": {
+          "health": -22,
+          "resources": -12
+        },
+        "translations": {
+          "zh": {
+            "text": "你以法力护身，仍被穿透防御的一击击中。引劫玉被迫留下，你耗费灵材才勉强维持呼吸。",
+            "endingReason": "争夺引劫玉时伤重不治"
+          },
+          "en": {
+            "text": "Your protective power fails to stop a piercing blow. Leaving the tribulation guiding jade behind, you consume precious spiritual materials to keep breathing while escaping the battle.",
+            "endingReason": "Succumbed to wounds while contesting the tribulation guiding jade"
+          }
+        },
+        "endingReason": "Không qua khỏi thương thế khi tranh đoạt ngọc dẫn kiếp"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đối thủ nhận ra điểm yếu trong phòng ngự và dồn toàn lực đánh tới. Ngươi ngã xuống trước ngọc dẫn kiếp, không còn đủ pháp lực mở đường thoát thân.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "对手看破防御中的弱点，倾尽全力攻来。你倒在引劫玉前，再无足够法力开出逃生之路。",
+            "endingReason": "争夺引劫玉时战死"
+          },
+          "en": {
+            "text": "Your opponent discovers a weakness in your defenses and strikes with full force. You fall before the tribulation guiding jade, unable to open another path of escape.",
+            "endingReason": "Fell in battle while contesting the tribulation guiding jade"
+          }
+        },
+        "endingReason": "Tử trận trong cuộc tranh đoạt ngọc dẫn kiếp"
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_true_immortal_salt",
+    "category": "disaster",
+    "title": "Truy sát qua đồng muối",
+    "text": "Ngươi mang tinh sa khỏi mỏ tiên bỏ hoang, nhưng dấu giày phát sáng trên đồng muối. Đám cướp lần theo vệt sáng, dựng trận chặn ngươi trước cửa thành.",
+    "translations": {
+      "zh": {
+        "title": "盐原追杀",
+        "text": "你带着晶砂离开废弃仙矿，鞋印却在盐原发光。劫匪循光追来，在城门前布阵截住你。"
+      },
+      "en": {
+        "title": "Pursuit Across the Salt Plain",
+        "text": "Carrying crystal sand from an abandoned immortal mine, you leave glowing footprints across a salt plain. Bandits follow the trail and intercept you outside the city gates."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi nhử đối thủ lộ sơ hở rồi đánh tan thế trận của hắn. Giữ được tinh sa tiên khoáng, ngươi rời nơi giao chiến bằng lối ít người qua lại.",
+        "effects": {
+          "resources": 26,
+          "cultivation": 14
+        },
+        "translations": {
+          "zh": {
+            "text": "你诱使对手露出破绽，随即击溃他的阵势。保住仙矿晶砂后，你沿着少有人行的路线离开战场。"
+          },
+          "en": {
+            "text": "You lure your opponent into exposing a weakness and shatter his formation. Keeping the immortal crystal sand, you leave the battlefield along a rarely traveled route."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi dùng pháp lực che thân nhưng vẫn trúng đòn xuyên qua phòng ngự. tinh sa tiên khoáng bị bỏ lại, còn ngươi phải tiêu hao linh tài để kéo dài hơi thở.",
+        "effects": {
+          "health": -22,
+          "resources": -12
+        },
+        "translations": {
+          "zh": {
+            "text": "你以法力护身，仍被穿透防御的一击击中。仙矿晶砂被迫留下，你耗费灵材才勉强维持呼吸。",
+            "endingReason": "争夺仙矿晶砂时伤重不治"
+          },
+          "en": {
+            "text": "Your protective power fails to stop a piercing blow. Leaving the immortal crystal sand behind, you consume precious spiritual materials to keep breathing while escaping the battle.",
+            "endingReason": "Succumbed to wounds while contesting the immortal crystal sand"
+          }
+        },
+        "endingReason": "Không qua khỏi thương thế khi tranh đoạt tinh sa tiên khoáng"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đối thủ nhận ra điểm yếu trong phòng ngự và dồn toàn lực đánh tới. Ngươi ngã xuống trước tinh sa tiên khoáng, không còn đủ pháp lực mở đường thoát thân.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "对手看破防御中的弱点，倾尽全力攻来。你倒在仙矿晶砂前，再无足够法力开出逃生之路。",
+            "endingReason": "争夺仙矿晶砂时战死"
+          },
+          "en": {
+            "text": "Your opponent discovers a weakness in your defenses and strikes with full force. You fall before the immortal crystal sand, unable to open another path of escape.",
+            "endingReason": "Fell in battle while contesting the immortal crystal sand"
+          }
+        },
+        "endingReason": "Tử trận trong cuộc tranh đoạt tinh sa tiên khoáng"
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_golden_immortal_wheel",
+    "category": "disaster",
+    "title": "Luân vàng đổi chủ",
+    "text": "Một chiếc luân vàng lăn khỏi chiến trường cũ, dừng dưới chân ngươi. Hai đối thủ đang truy tìm cùng lao tới, dùng tiên quang phong kín đường rút lui.",
+    "translations": {
+      "zh": {
+        "title": "金轮易主",
+        "text": "金轮从旧战场滚出，停在你脚边。两名追寻它的修士同时赶到，以仙光封住你的退路。"
+      },
+      "en": {
+        "title": "The Golden Wheel Changes Hands",
+        "text": "A golden wheel rolls from an old battlefield and stops at your feet. Two cultivators pursuing it arrive together, sealing your escape routes with brilliant immortal light."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi nhử đối thủ lộ sơ hở rồi đánh tan thế trận của hắn. Giữ được luân vàng, ngươi rời nơi giao chiến bằng lối ít người qua lại.",
+        "effects": {
+          "resources": 26,
+          "cultivation": 14
+        },
+        "translations": {
+          "zh": {
+            "text": "你诱使对手露出破绽，随即击溃他的阵势。保住金轮后，你沿着少有人行的路线离开战场。"
+          },
+          "en": {
+            "text": "You lure your opponent into exposing a weakness and shatter his formation. Keeping the golden wheel, you leave the battlefield along a rarely traveled route."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi dùng pháp lực che thân nhưng vẫn trúng đòn xuyên qua phòng ngự. luân vàng bị bỏ lại, còn ngươi phải tiêu hao linh tài để kéo dài hơi thở.",
+        "effects": {
+          "health": -22,
+          "resources": -12
+        },
+        "translations": {
+          "zh": {
+            "text": "你以法力护身，仍被穿透防御的一击击中。金轮被迫留下，你耗费灵材才勉强维持呼吸。",
+            "endingReason": "争夺金轮时伤重不治"
+          },
+          "en": {
+            "text": "Your protective power fails to stop a piercing blow. Leaving the golden wheel behind, you consume precious spiritual materials to keep breathing while escaping the battle.",
+            "endingReason": "Succumbed to wounds while contesting the golden wheel"
+          }
+        },
+        "endingReason": "Không qua khỏi thương thế khi tranh đoạt luân vàng"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đối thủ nhận ra điểm yếu trong phòng ngự và dồn toàn lực đánh tới. Ngươi ngã xuống trước luân vàng, không còn đủ pháp lực mở đường thoát thân.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "对手看破防御中的弱点，倾尽全力攻来。你倒在金轮前，再无足够法力开出逃生之路。",
+            "endingReason": "争夺金轮时战死"
+          },
+          "en": {
+            "text": "Your opponent discovers a weakness in your defenses and strikes with full force. You fall before the golden wheel, unable to open another path of escape.",
+            "endingReason": "Fell in battle while contesting the golden wheel"
+          }
+        },
+        "endingReason": "Tử trận trong cuộc tranh đoạt luân vàng"
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_mystic_immortal_reflection",
+    "category": "disaster",
+    "title": "Kẻ truy sát không có bóng",
+    "text": "Sau khi ngươi lấy huyền kính khỏi hang đá, một kẻ không có bóng bám theo. Hắn bước ra từ mặt kính, đánh vào nơi tiên lực của ngươi yếu nhất.",
+    "translations": {
+      "zh": {
+        "title": "无影追杀者",
+        "text": "你从石洞取走玄镜后，一个无影之人紧随而来。他从镜面迈出，攻击你仙力最薄弱的位置。"
+      },
+      "en": {
+        "title": "The Shadowless Pursuer",
+        "text": "After you take a mysterious mirror from a cavern, a shadowless pursuer follows. Stepping through its surface, he strikes where your immortal power offers the least protection."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi nhử đối thủ lộ sơ hở rồi đánh tan thế trận của hắn. Giữ được huyền kính, ngươi rời nơi giao chiến bằng lối ít người qua lại.",
+        "effects": {
+          "resources": 26,
+          "cultivation": 14
+        },
+        "translations": {
+          "zh": {
+            "text": "你诱使对手露出破绽，随即击溃他的阵势。保住玄镜后，你沿着少有人行的路线离开战场。"
+          },
+          "en": {
+            "text": "You lure your opponent into exposing a weakness and shatter his formation. Keeping the mysterious mirror, you leave the battlefield along a rarely traveled route."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi dùng pháp lực che thân nhưng vẫn trúng đòn xuyên qua phòng ngự. huyền kính bị bỏ lại, còn ngươi phải tiêu hao linh tài để kéo dài hơi thở.",
+        "effects": {
+          "health": -22,
+          "resources": -12
+        },
+        "translations": {
+          "zh": {
+            "text": "你以法力护身，仍被穿透防御的一击击中。玄镜被迫留下，你耗费灵材才勉强维持呼吸。",
+            "endingReason": "争夺玄镜时伤重不治"
+          },
+          "en": {
+            "text": "Your protective power fails to stop a piercing blow. Leaving the mysterious mirror behind, you consume precious spiritual materials to keep breathing while escaping the battle.",
+            "endingReason": "Succumbed to wounds while contesting the mysterious mirror"
+          }
+        },
+        "endingReason": "Không qua khỏi thương thế khi tranh đoạt huyền kính"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đối thủ nhận ra điểm yếu trong phòng ngự và dồn toàn lực đánh tới. Ngươi ngã xuống trước huyền kính, không còn đủ pháp lực mở đường thoát thân.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "对手看破防御中的弱点，倾尽全力攻来。你倒在玄镜前，再无足够法力开出逃生之路。",
+            "endingReason": "争夺玄镜时战死"
+          },
+          "en": {
+            "text": "Your opponent discovers a weakness in your defenses and strikes with full force. You fall before the mysterious mirror, unable to open another path of escape.",
+            "endingReason": "Fell in battle while contesting the mysterious mirror"
+          }
+        },
+        "endingReason": "Tử trận trong cuộc tranh đoạt huyền kính"
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_immortal_king_crown",
+    "category": "disaster",
+    "title": "Vương miện giữa hai biên giới",
+    "text": "Vương miện cổ xuất hiện tại ranh giới hai lãnh địa, kéo theo cuộc tranh đoạt. Ngươi bị đánh úp khi đang xem phù văn, buộc phải chống cả đội hộ vệ.",
+    "translations": {
+      "zh": {
+        "title": "两界边境的王冠",
+        "text": "古王冠出现在两片领地交界处，引来争夺。你查看符文时遭到偷袭，被迫迎战整队护卫。"
+      },
+      "en": {
+        "title": "The Crown Between Two Borders",
+        "text": "An ancient crown appears between two domains, drawing rival claimants. While examining its inscriptions, you are ambushed and forced to fight an entire company of guards."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi nhử đối thủ lộ sơ hở rồi đánh tan thế trận của hắn. Giữ được vương miện cổ, ngươi rời nơi giao chiến bằng lối ít người qua lại.",
+        "effects": {
+          "resources": 26,
+          "cultivation": 14
+        },
+        "translations": {
+          "zh": {
+            "text": "你诱使对手露出破绽，随即击溃他的阵势。保住古王冠后，你沿着少有人行的路线离开战场。"
+          },
+          "en": {
+            "text": "You lure your opponent into exposing a weakness and shatter his formation. Keeping the ancient crown, you leave the battlefield along a rarely traveled route."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi dùng pháp lực che thân nhưng vẫn trúng đòn xuyên qua phòng ngự. vương miện cổ bị bỏ lại, còn ngươi phải tiêu hao linh tài để kéo dài hơi thở.",
+        "effects": {
+          "health": -22,
+          "resources": -12
+        },
+        "translations": {
+          "zh": {
+            "text": "你以法力护身，仍被穿透防御的一击击中。古王冠被迫留下，你耗费灵材才勉强维持呼吸。",
+            "endingReason": "争夺古王冠时伤重不治"
+          },
+          "en": {
+            "text": "Your protective power fails to stop a piercing blow. Leaving the ancient crown behind, you consume precious spiritual materials to keep breathing while escaping the battle.",
+            "endingReason": "Succumbed to wounds while contesting the ancient crown"
+          }
+        },
+        "endingReason": "Không qua khỏi thương thế khi tranh đoạt vương miện cổ"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đối thủ nhận ra điểm yếu trong phòng ngự và dồn toàn lực đánh tới. Ngươi ngã xuống trước vương miện cổ, không còn đủ pháp lực mở đường thoát thân.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "对手看破防御中的弱点，倾尽全力攻来。你倒在古王冠前，再无足够法力开出逃生之路。",
+            "endingReason": "争夺古王冠时战死"
+          },
+          "en": {
+            "text": "Your opponent discovers a weakness in your defenses and strikes with full force. You fall before the ancient crown, unable to open another path of escape.",
+            "endingReason": "Fell in battle while contesting the ancient crown"
+          }
+        },
+        "endingReason": "Tử trận trong cuộc tranh đoạt vương miện cổ"
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_immortal_emperor_sword",
+    "category": "disaster",
+    "title": "Đế kiếm gọi người tranh đoạt",
+    "text": "Đế kiếm vô chủ thức tỉnh giữa biển sao, gọi những người đủ sức cầm nó. Một đối thủ chặn ngươi ngoài kiếm vực, quyết loại bỏ người tranh đoạt trước tiên.",
+    "translations": {
+      "zh": {
+        "title": "帝剑引争",
+        "text": "无主帝剑在星海中苏醒，呼唤足以执掌它的人。一名对手在剑域外拦住你，决意先除掉争夺者。"
+      },
+      "en": {
+        "title": "The Imperial Sword’s Challenge",
+        "text": "An unclaimed imperial sword awakens among the stars, calling worthy wielders. A rival intercepts you outside its domain, determined to eliminate another claimant before approaching the blade."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 6,
+        "text": "Ngươi nhử đối thủ lộ sơ hở rồi đánh tan thế trận của hắn. Giữ được đế kiếm, ngươi rời nơi giao chiến bằng lối ít người qua lại.",
+        "effects": {
+          "resources": 26,
+          "cultivation": 14
+        },
+        "translations": {
+          "zh": {
+            "text": "你诱使对手露出破绽，随即击溃他的阵势。保住帝剑后，你沿着少有人行的路线离开战场。"
+          },
+          "en": {
+            "text": "You lure your opponent into exposing a weakness and shatter his formation. Keeping the imperial sword, you leave the battlefield along a rarely traveled route."
+          }
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 3,
+        "text": "Ngươi dùng pháp lực che thân nhưng vẫn trúng đòn xuyên qua phòng ngự. đế kiếm bị bỏ lại, còn ngươi phải tiêu hao linh tài để kéo dài hơi thở.",
+        "effects": {
+          "health": -22,
+          "resources": -12
+        },
+        "translations": {
+          "zh": {
+            "text": "你以法力护身，仍被穿透防御的一击击中。帝剑被迫留下，你耗费灵材才勉强维持呼吸。",
+            "endingReason": "争夺帝剑时伤重不治"
+          },
+          "en": {
+            "text": "Your protective power fails to stop a piercing blow. Leaving the imperial sword behind, you consume precious spiritual materials to keep breathing while escaping the battle.",
+            "endingReason": "Succumbed to wounds while contesting the imperial sword"
+          }
+        },
+        "endingReason": "Không qua khỏi thương thế khi tranh đoạt đế kiếm"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đối thủ nhận ra điểm yếu trong phòng ngự và dồn toàn lực đánh tới. Ngươi ngã xuống trước đế kiếm, không còn đủ pháp lực mở đường thoát thân.",
+        "effects": {
+          "death": true
+        },
+        "translations": {
+          "zh": {
+            "text": "对手看破防御中的弱点，倾尽全力攻来。你倒在帝剑前，再无足够法力开出逃生之路。",
+            "endingReason": "争夺帝剑时战死"
+          },
+          "en": {
+            "text": "Your opponent discovers a weakness in your defenses and strikes with full force. You fall before the imperial sword, unable to open another path of escape.",
+            "endingReason": "Fell in battle while contesting the imperial sword"
+          }
+        },
+        "endingReason": "Tử trận trong cuộc tranh đoạt đế kiếm"
+      }
+    ]
   }
 ]

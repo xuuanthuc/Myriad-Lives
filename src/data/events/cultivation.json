@@ -1656,5 +1656,329 @@
     "effects": {
       "cultivation": 7
     }
+  },
+  {
+    "id": "deception_mortal_false_breath_manual",
+    "category": "cultivation",
+    "title": "Phép thở bị chép sai",
+    "text": "Ngươi nhận bản dưỡng sinh do người bán tự nhận có thầy giỏi. Thấy nhịp thở trái với điều đã học, ngươi bỏ phần sai, tập lại chậm để thân thôi mệt.",
+    "translations": {
+      "zh": {
+        "title": "误抄呼吸法",
+        "text": "你买到一份卖家声称出自名师的养生法。发现呼吸节奏与所学相反，便舍去错误部分，慢慢重练，让身体不再疲劳。"
+      },
+      "en": {
+        "title": "A breathing lesson copied incorrectly",
+        "text": "A seller claims your breathing manual came from a respected teacher. Finding its rhythm conflicts with earlier lessons, you discard the errors and practice slowly until fatigue eases."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 2
+    }
+  },
+  {
+    "id": "deception_qi_refining_borrowed_circulation",
+    "category": "cultivation",
+    "title": "Lời chỉ điểm giấu một đoạn",
+    "text": "Người chỉ điểm cố giấu đoạn thu khí để ngươi phải trả tiền nhiều lần. Tự đối chiếu bản cũ, ngươi nối được chỗ thiếu và luyện vòng nhỏ không còn phụ thuộc họ.",
+    "translations": {
+      "zh": {
+        "title": "指点隐去一段",
+        "text": "指点者故意隐去收气部分，让你反复付钱。你对照旧本补齐缺段，练通小周天，不再依赖他。"
+      },
+      "en": {
+        "title": "Guidance with a passage withheld",
+        "text": "A tutor withholds the closing passage to make you pay repeatedly. Comparing an older manual fills the gap and completes a small circulation without relying on their guidance."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 7
+    }
+  },
+  {
+    "id": "deception_true_immortal_false_ascension_lessons",
+    "category": "cultivation",
+    "title": "Bài giảng phi thăng phóng đại",
+    "text": "Người giảng tự nhận từng dẫn trăm người phi thăng nhưng giải sai cách tiên thể nhận khí. Ngươi bỏ lời khoe, tự kiểm từng bước trong bản chuẩn rồi hiểu thêm nhịp hấp thu.",
+    "translations": {
+      "zh": {
+        "title": "夸大的飞升课",
+        "text": "讲师自称引导百人飞升，却讲错仙体纳气。你舍去夸言，按正本逐步验证，进一步理解吸收节奏。"
+      },
+      "en": {
+        "title": "Exaggerated lessons about ascension",
+        "text": "A lecturer boasts of guiding a hundred ascensions but misstates energy intake. Discarding the claims, you verify each step against a reliable manual and understand absorption more clearly."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 14
+    }
+  },
+  {
+    "id": "deception_golden_immortal_misleading_law_note",
+    "category": "cultivation",
+    "title": "Lời chú cố dẫn sai",
+    "text": "Bản trao đổi pháp tắc có lời chú dẫn sang cách vận lực gây hao tổn. Ngươi kiểm ngược từ kết quả, tìm được phần bị sửa và giữ lại nguyên lý đúng để luyện.",
+    "translations": {
+      "zh": {
+        "title": "故意误导的注释",
+        "text": "交换来的法则笔记故意引向耗力方法。你从结果反推，找出被改部分，留下正确原理继续修炼。"
+      },
+      "en": {
+        "title": "Commentary meant to mislead",
+        "text": "An exchanged law note directs you toward wasteful circulation. Working backward from the result reveals the altered passage, allowing you to retain the sound principle for practice."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 16
+    }
+  },
+  {
+    "id": "deception_mystic_immortal_dream_flattery",
+    "category": "cultivation",
+    "title": "Huyền ý giấu trong lời tâng bốc",
+    "text": "Người bình mộng khen mọi chỗ trong cảnh của ngươi để kéo dài buổi trả phí. Tự bỏ lời tâng bốc, ngươi xét điểm chưa thông và hiểu rõ giới hạn của thần thức.",
+    "translations": {
+      "zh": {
+        "title": "奉承掩盖的玄意",
+        "text": "评梦者夸赞你梦境的每一处，只为延长收费时间。去掉奉承后，你自行检查疑点，更清楚神识的限度。"
+      },
+      "en": {
+        "title": "Subtle meaning concealed by flattery",
+        "text": "A dream interpreter praises everything to prolong a paid session. Setting the flattery aside, you examine unresolved points yourself and gain a clearer understanding of your consciousness’s limits."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 17
+    }
+  },
+  {
+    "id": "deception_immortal_king_obedient_reports",
+    "category": "cultivation",
+    "title": "Báo cáo chỉ nói điều dễ nghe",
+    "text": "Những báo cáo đạo vực đều nói dòng lực ổn dù vài vùng đang nghẽn. Ngươi tự đi kiểm, sửa cách nghe pháp tắc và bỏ thói chỉ tin lời người muốn được thưởng.",
+    "translations": {
+      "zh": {
+        "title": "只报顺耳之言",
+        "text": "道域报告全说力量平稳，几处却已有堵塞。你亲自检查，改进听察法则的方法，不再只信求赏者的话。"
+      },
+      "en": {
+        "title": "Reports telling only pleasant things",
+        "text": "Domain reports claim steady currents despite blocked regions. Inspecting them personally improves how you listen to laws and ends reliance upon reports written merely to win rewards."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "deception_immortal_emperor_false_universal_law",
+    "category": "cultivation",
+    "title": "Đại đạo bị rao là toàn tri",
+    "text": "Người giảng rao một hệ đại đạo giải được mọi điều nhưng né câu hỏi trái lời mình. Ngươi xét những ngoại lệ bị giấu, nhận ra giới hạn và sửa phần hiểu quá chắc.",
+    "translations": {
+      "zh": {
+        "title": "被吹作全知的大道",
+        "text": "讲道者称其体系无所不解，却回避反例。你检查被隐藏的例外，看清限度，修正了过于确信的理解。"
+      },
+      "en": {
+        "title": "A Dao falsely advertised as all knowing",
+        "text": "A lecturer advertises a Dao explaining everything but avoids contrary questions. Examining the exceptions they hide reveals its limits and corrects parts of your own understanding held too confidently."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 20
+    }
+  },
+  {
+    "id": "peril_true_immortal_escape_breath",
+    "category": "cultivation",
+    "title": "Nhịp thở sau lần thoát hiểm",
+    "text": "Sau một lần thoát hiểm, ngươi tập giữ tiên lực đều khi nhớ lại lúc hoảng sợ. Từng nhịp thở chậm giúp tiên thể không phản ứng mạnh chỉ vì ký ức cũ.",
+    "translations": {
+      "zh": {
+        "title": "脱险后的呼吸",
+        "text": "脱险后，你回想惊恐时练习稳住仙力。缓慢呼吸让仙体不再仅因旧记忆而剧烈反应。"
+      },
+      "en": {
+        "title": "Breathing after a narrow escape",
+        "text": "After a narrow escape, you practice steady energy while recalling the frightening moment. Slow breaths keep your immortal body from reacting strongly to an old memory alone."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 14
+    }
+  },
+  {
+    "id": "peril_golden_immortal_broken_defense",
+    "category": "cultivation",
+    "title": "Học từ lớp hộ thân đã vỡ",
+    "text": "Ngươi tháo lớp hộ thân từng vỡ, tìm chỗ pháp tắc truyền lực quá chậm. Sửa điểm nối trước khi luyện lại giúp trận nhỏ đỡ phản chấn mà không cần thêm nhiều vật liệu.",
+    "translations": {
+      "zh": {
+        "title": "从破防护中学习",
+        "text": "你拆开曾破的防护层，寻找法则传力过慢之处。重练前修正连接，小阵便少了反震，也不必增加许多材料。"
+      },
+      "en": {
+        "title": "Learning from a shattered defense",
+        "text": "You dismantle a shattered defense to find where its law transmitted force too slowly. Correcting that connection reduces backlash during practice without requiring many additional materials."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 17
+    }
+  },
+  {
+    "id": "peril_mystic_immortal_fear_marker",
+    "category": "cultivation",
+    "title": "Dấu tỉnh giữa nỗi sợ",
+    "text": "Ngươi dựng dấu tỉnh khi luyện huyền cảnh gợi lại lần suýt mất mạng. Nhận ra ký ức không phải hiện tại giúp thần thức trở về đúng lúc thay vì chìm theo nỗi sợ.",
+    "translations": {
+      "zh": {
+        "title": "恐惧中的清醒印",
+        "text": "你在唤起险死记忆的玄境中设清醒印。分清往事与当下，神识便能及时返回，而不随恐惧沉陷。"
+      },
+      "en": {
+        "title": "A waking mark within fear",
+        "text": "You place a waking mark in a realm recalling a close brush with death. Distinguishing memory from the present lets your consciousness return instead of sinking into fear."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "peril_immortal_king_evacuation_lines",
+    "category": "cultivation",
+    "title": "Đạo tuyến giữ đường thoát",
+    "text": "Ngươi tập dựng đạo tuyến có nhánh thoát riêng, không buộc mọi dòng lực qua một điểm. Khi thử cắt một nhánh, phần còn lại vẫn giữ lối về cho người trong trận.",
+    "translations": {
+      "zh": {
+        "title": "保留退路的道线",
+        "text": "你练习给道线另留退路，不让力量全过一点。试断一支后，其余部分仍为阵中人保住归途。"
+      },
+      "en": {
+        "title": "Law lines preserving an escape route",
+        "text": "You build law lines with a separate escape branch instead of one common junction. Cutting a branch during testing leaves the remaining paths able to guide occupants safely back."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 19
+    }
+  },
+  {
+    "id": "peril_immortal_emperor_dao_refuge",
+    "category": "cultivation",
+    "title": "Khoảng trú ngoài dòng đạo",
+    "text": "Ngươi dựng khoảng trú không nối trực tiếp vào dòng đại đạo đang thử. Kiểm khi dòng đổi hướng giúp hiểu cách giữ một phần yên ổn giữa biến động của nền giới.",
+    "translations": {
+      "zh": {
+        "title": "道流之外的避处",
+        "text": "你设一处不直接接入试验大道的避处。道流改向时检查，便更懂如何在界基变动中保住一片安稳。"
+      },
+      "en": {
+        "title": "A refuge outside the Dao current",
+        "text": "You build a refuge unconnected to the Dao current under examination. Checking it as the current shifts clarifies how a stable space can endure changes within a world’s foundation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 21
+    }
   }
 ]

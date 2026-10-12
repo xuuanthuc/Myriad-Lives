@@ -23,7 +23,7 @@ for (const event of events) {
     for (const outcome of option.outcomes) add(outcome.text,translated?.outcomes?.[outcome.id] || (outcome.translations && [outcome.translations.zh.text,outcome.translations.en.text]));
   }
 }
-for (const record of [...birth,...endings]) add(record.text,endingsLocales[record.id]);
+for (const record of [...birth,...endings]) add(record.text,endingsLocales[record.id] || (record.translations && [record.translations.zh.text,record.translations.en.text]));
 for (const origin of origins) add(origin.birthText,[origin.translations.zh.birthText,origin.translations.en.birthText]);
 for(const sect of sects)add(sect.name,[sect.translations.zh,sect.translations.en]);
 for(const partner of partners)add(partner.name,[partner.translations.zh,partner.translations.en]);

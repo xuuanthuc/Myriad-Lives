@@ -3474,5 +3474,3971 @@
         ]
       }
     ]
+  },
+  {
+    "id": "deception_mortal_false_tax",
+    "category": "opportunity",
+    "title": "Tờ thuế thiếu dấu xã",
+    "text": "Người lạ tới thu phí đường nhưng tờ giấy thiếu dấu xã quen thuộc. Ngươi gọi người quản xóm đối chiếu, khiến kẻ giả danh bỏ chạy trước khi lấy tiền của ai.",
+    "translations": {
+      "zh": {
+        "title": "缺村印的税单",
+        "text": "陌生人来收路费，税单却缺少熟悉的村印。你请村管核对，冒名者便在骗到钱之前逃走。"
+      },
+      "en": {
+        "title": "A tax notice missing the village seal",
+        "text": "A stranger collects road fees with a notice missing the familiar village seal. Calling the local keeper for comparison sends the impostor fleeing before anyone pays."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 4
+    }
+  },
+  {
+    "id": "deception_qi_refining_false_talisman_stamp",
+    "category": "opportunity",
+    "title": "Dấu phù in bằng mực thường",
+    "text": "Ngươi thấy những lá phù ở sạp đều có nét khuyết giống hệt, không mang linh lực. Báo người giữ chợ giúp ngăn vụ bán giả, họ trả công bằng ít giấy phù sạch.",
+    "translations": {
+      "zh": {
+        "title": "普通墨印的符纹",
+        "text": "摊上符纸都有同样缺笔，也没有灵力。你通知坊市管事阻止假货交易，他用干净符纸作为报酬。"
+      },
+      "en": {
+        "title": "A talisman stamped with ordinary ink",
+        "text": "Every talisman at a stall shares the same broken stroke and holds no energy. Reporting the counterfeit sale earns clean talisman paper from the market keeper."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 8
+    }
+  },
+  {
+    "id": "deception_true_immortal_painted_cloud_jade",
+    "category": "opportunity",
+    "title": "Tiên ngọc phủ lớp sơn mây",
+    "text": "Ngươi thử tiên ngọc rao bán bằng hơi ấm trong tay, thấy lớp sơn mây tróc ra. Người giữ quầy trả lại tiền trước khi khách khác tới, còn ngươi nhận đúng vật thật.",
+    "translations": {
+      "zh": {
+        "title": "云漆覆仙玉",
+        "text": "你用掌心温热试玉，云漆便剥落。摊主在别的客人到来前退钱，你也换得了真正的仙玉。"
+      },
+      "en": {
+        "title": "Immortal jade coated in cloud paint",
+        "text": "Warming advertised jade in your palm peels away its cloud paint. The seller refunds you before other customers arrive, and you exchange it for a genuine piece."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 6
+    }
+  },
+  {
+    "id": "deception_golden_immortal_false_repair_fee",
+    "category": "opportunity",
+    "title": "Phí sửa cho lỗi chưa từng có",
+    "text": "Thợ sửa nói pháp khí có lỗi lõi, nhưng bản đo vẫn giữ nhịp ổn. Ngươi yêu cầu kiểm trước mặt, khiến họ bỏ khoản phí và chỉ thay bộ phận thực sự mòn.",
+    "translations": {
+      "zh": {
+        "title": "不存在的故障维修费",
+        "text": "修器师声称法器核心有故障，测量记录却稳定。你要求当面检查，他只得撤去收费，改换真正磨损的部件。"
+      },
+      "en": {
+        "title": "A repair fee for a nonexistent fault",
+        "text": "A repairer claims your artifact core is faulty despite steady measurements. Requesting inspection in your presence removes the invented fee, leaving only a genuinely worn part to replace."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 9
+    }
+  },
+  {
+    "id": "deception_mystic_immortal_copied_memory_token",
+    "category": "opportunity",
+    "title": "Thẻ ký ức có dấu sao chép",
+    "text": "Thẻ ký ức rao là bản duy nhất còn dấu sao chép ở tầng ngoài. Ngươi chỉ cho người giữ chợ thấy các nhịp trùng, nhận tiền công giúp chặn vụ bán độc bản giả.",
+    "translations": {
+      "zh": {
+        "title": "带复制痕的忆牌",
+        "text": "号称唯一的忆牌，外层却留着复制痕。你向坊市管事指出重复节奏，获酬阻止假独本交易。"
+      },
+      "en": {
+        "title": "A memory token bearing copy marks",
+        "text": "A memory token sold as unique retains copy marks outside. Showing its repeating rhythms to the market keeper earns payment for preventing the sale of a false original."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 10
+    }
+  },
+  {
+    "id": "deception_immortal_king_false_tribute_seal",
+    "category": "opportunity",
+    "title": "Dấu cống vật bị đóng chồng",
+    "text": "Thùng cống vật mang hai lớp dấu che nơi hàng bị tráo. Ngươi yêu cầu kiểm kho trước khi nhận, giúp giữ lại vật liệu thật và được hoàn phần phí vận chuyển.",
+    "translations": {
+      "zh": {
+        "title": "贡印重复盖印",
+        "text": "贡箱上两层印记掩盖掉包地点。你要求验仓后再收，保住真材料，也获退还部分运费。"
+      },
+      "en": {
+        "title": "Tribute seals stamped over one another",
+        "text": "Two seals on a tribute crate conceal where its contents were exchanged. Requiring warehouse inspection preserves the real materials and brings a refund of part of the shipping fee."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 11
+    }
+  },
+  {
+    "id": "deception_immortal_emperor_forged_dao_relic",
+    "category": "opportunity",
+    "title": "Đạo tích mới giả làm di vật",
+    "text": "Di vật rao từ thuở khai giới có đạo tích mới hơn lớp đá bên ngoài. Ngươi chỉ rõ chỗ lệch tuổi, khiến người bán trả phí xem và thu món giả khỏi cuộc đổi.",
+    "translations": {
+      "zh": {
+        "title": "新道痕假作遗物",
+        "text": "号称开界遗物的道痕，比外层岩石新得多。你指出年代不符，卖家只得退还观物费，撤下假货。"
+      },
+      "en": {
+        "title": "Fresh Dao traces passed off as relics",
+        "text": "A supposed relic of world creation holds traces younger than its stone casing. Pointing out the mismatch wins back the viewing fee and removes the counterfeit from exchange."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 12
+    }
+  },
+  {
+    "id": "deception_mortal_secret_lottery",
+    "category": "opportunity",
+    "title": "Phiếu thưởng ở góc chợ",
+    "text": "Người bán phiếu nói ngươi đã trúng nồi đồng nhưng phải trả phí nhận trước. Có người đứng cạnh xác nhận, để ngươi chọn kiểm sổ trúng thưởng hoặc bỏ qua lời mời.",
+    "translations": {
+      "zh": {
+        "title": "市角奖券",
+        "text": "卖券者说你中了铜锅，却要先付领取费。旁人替他作证，你可查中奖簿，也可不理邀请。"
+      },
+      "en": {
+        "title": "A prize ticket at the market corner",
+        "text": "A ticket seller claims you won a copper pot but demands a collection fee. A bystander confirms it, leaving you to inspect the prize register or ignore the offer."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi đòi xem sổ thật rồi tìm đúng tên trên phiếu, nhận được chiếc nồi không phải trả phí. Người bán mất cớ thu thêm, còn ngươi mang vật dùng được về nhà.",
+            "translations": {
+              "zh": {
+                "text": "你要求真簿并核对票名，拿到铜锅而不用付费。卖券者失去加收借口，你也带回了实用之物。"
+              },
+              "en": {
+                "text": "Demanding the genuine register confirms your ticket’s name and wins the pot without a fee. The seller loses an excuse for extra charges, and you take something useful home."
+              }
+            },
+            "effects": {
+              "resources": 7
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Sổ và người làm chứng đều do người bán chuẩn bị để dẫn khách tới quầy thu phí. Ngươi phát hiện khi tiền đã giao, lấy lại phiếu nhưng không đòi được khoản đã mất.",
+            "translations": {
+              "zh": {
+                "text": "账簿和证人都是卖家安排，用来诱人付费。你交钱后才看破，取回奖券，却讨不回失款。"
+              },
+              "en": {
+                "text": "Both register and witness were arranged to lead customers toward payment. You discover the trick after handing over money and recover the ticket, but not the fee already taken."
+              }
+            },
+            "effects": {
+              "resources": -6
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi từ chối phí nhận thưởng và tiếp tục phiên chợ, không để lời xác nhận của người lạ thay mình quyết định. Người bán gọi thêm lần nữa rồi chuyển sang khách khác.",
+            "translations": {
+              "zh": {
+                "text": "你拒付领取费继续逛市，不让陌人担保代你决定。卖券者又喊了一次，随后转向别的客人。"
+              },
+              "en": {
+                "text": "You refuse the collection fee and continue shopping without letting a stranger’s assurance decide for you. The seller calls again, then turns attention toward another customer."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_qi_refining_root_test",
+    "category": "opportunity",
+    "title": "Thẻ đo linh căn giá rẻ",
+    "text": "Người xem căn cốt hứa thẻ rẻ tiền tìm được linh căn ẩn mà phép thử trước bỏ sót. Ngươi có thể yêu cầu thử bằng linh lực, hoặc giữ kết quả đã biết.",
+    "translations": {
+      "zh": {
+        "title": "廉价测灵根牌",
+        "text": "测骨人说廉价牌能找出旧测试漏掉的隐灵根。你可要求用真灵力验证，也可保留已知结果。"
+      },
+      "en": {
+        "title": "A cheap root testing token",
+        "text": "A tester promises a cheap token can reveal hidden roots missed earlier. You can request a trial with real energy or keep the result you already know."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi yêu cầu thử thẻ trên nguồn linh lực đã rõ, tìm được chỗ đo vẫn dùng tốt. Dùng nó kiểm nhịp dẫn khí giúp hiểu cách tu luyện phù hợp với căn cốt mình.",
+            "translations": {
+              "zh": {
+                "text": "你要求用已知灵力试牌，找到仍有用的测量部分。拿它检查引气节奏，更懂得适合自身根骨的修法。"
+              },
+              "en": {
+                "text": "Testing the token against a known source reveals a useful measuring section. Checking circulation with it improves your understanding of practice suited to the roots you already possess."
+              }
+            },
+            "effects": {
+              "cultivation": 8
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Thẻ chỉ đổi màu theo hơi tay, không phản ứng với linh lực như người bán nói. Ngươi dừng thử khi nhận ra, nhưng tiền đo đã trả cùng phí thẻ không lấy lại được.",
+            "translations": {
+              "zh": {
+                "text": "牌子只随手温变色，并不按卖家所说响应灵力。你看破后停止，测费和购牌钱却无法退回。"
+              },
+              "en": {
+                "text": "The token changes color with hand warmth rather than energy as advertised. You stop upon realizing this, but neither the testing fee nor its purchase price is refunded."
+              }
+            },
+            "effects": {
+              "resources": -15
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi không mua thẻ, dùng kết quả căn cốt đã biết để tiếp tục luyện. Những lời hứa về linh căn ẩn ở lại sạp, chưa biến thành khoản tiền rời túi mình.",
+            "translations": {
+              "zh": {
+                "text": "你不买牌，按已知根骨继续修炼。隐灵根的承诺留在摊上，没有变成从钱袋取出的费用。"
+              },
+              "en": {
+                "text": "You decline the token and continue practicing with your known roots. Promises of hidden potential remain at the stall without becoming another payment taken from your purse."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_true_immortal_immortal_pass",
+    "category": "opportunity",
+    "title": "Thẻ qua cửa tiên thành",
+    "text": "Người môi giới rao thẻ qua cửa tiên thành miễn phí đường trọn đời, nhưng không đưa sổ xác nhận. Ngươi có thể nhờ người canh cửa kiểm hoặc chọn mua vé mỗi lần.",
+    "translations": {
+      "zh": {
+        "title": "仙城通门牌",
+        "text": "中人出售终身免路费的仙城门牌，却不给确认簿。你可请守门者验证，也可继续每次买票。"
+      },
+      "en": {
+        "title": "An immortal city gate pass",
+        "text": "A broker sells a city pass promising lifetime exemptions but offers no confirmation register. You can ask the gatekeeper to verify it or continue buying individual tickets."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Người canh cửa xác nhận thẻ thuộc đợt miễn phí thật và đổi đúng tên sử dụng. Ngươi qua cửa không trả lần ấy, giữ bản xác nhận để tránh lời môi giới thêm.",
+            "translations": {
+              "zh": {
+                "text": "守门者确认此牌确属免收费批次，并改正使用人名。你此次免付，也留下确认文书，不再只凭中人的话。"
+              },
+              "en": {
+                "text": "The keeper confirms a genuine exemption batch and corrects its holder’s name. You cross without payment and keep written confirmation rather than relying on the broker’s later claims."
+              }
+            },
+            "effects": {
+              "resources": 15
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Thẻ có hình dấu giống thật nhưng không nằm trong danh sách cửa thành. Người môi giới đã đi khi ngươi kiểm xong, để phí mua thành cái giá của một lời hứa rỗng.",
+            "translations": {
+              "zh": {
+                "text": "牌上印样像真货，却不在城门名册。你查完时中人已走，买价成了空头承诺的代价。"
+              },
+              "en": {
+                "text": "Its printed seal looks genuine, but the pass appears in no gate register. The broker is gone when inspection ends, leaving its price as payment for an empty promise."
+              }
+            },
+            "effects": {
+              "resources": -15
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi trả vé theo lượt như trước, chưa mua thẻ khi thiếu xác nhận. Đường vào thành vẫn mở đúng giờ, còn lời hứa miễn phí không cần theo ngươi qua cổng.",
+            "translations": {
+              "zh": {
+                "text": "你照旧逐次买票，没有确认便不买牌。城门仍按时开放，免费承诺也不必跟你一起过门。"
+              },
+              "en": {
+                "text": "You buy an ordinary ticket and decline an unconfirmed pass. The city gate opens on schedule, while the promise of free travel stays behind with the broker."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_golden_immortal_self_writing_law",
+    "category": "opportunity",
+    "title": "Bút tự viết pháp tắc",
+    "text": "Người bán bút hứa nó tự viết pháp tắc theo ý người cầm, đưa mẫu đẹp nhưng không cho thử. Ngươi có thể đòi kiểm một nét đơn giản hoặc rời quầy giữ tiên thạch.",
+    "translations": {
+      "zh": {
+        "title": "自写法则笔",
+        "text": "卖家称笔会按持者心意自写法则，只展示佳作却不让试。你可要求验证一笔，也可离摊保留仙石。"
+      },
+      "en": {
+        "title": "A brush that writes laws itself",
+        "text": "A seller promises a brush writes laws according to its holder’s wishes, displaying fine samples but refusing trials. You can insist on one simple test or leave with your stones."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi kiểm một nét đơn giản, thấy bút chỉ hỗ trợ giữ lực chứ không tự hiểu pháp tắc. Mua theo giá thật giúp có dụng cụ hữu ích mà không trả cho lời khoe.",
+            "translations": {
+              "zh": {
+                "text": "你试一笔，发现笔只助稳力，并不自行懂法则。按真用途买下，便得实用工具而不为夸言付费。"
+              },
+              "en": {
+                "text": "A simple trial reveals the brush steadies force rather than understanding laws itself. Buying it at an honest price provides a useful tool without paying for the exaggerated claim."
+              }
+            },
+            "effects": {
+              "resources": 15
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Người bán đổi bút sau lượt thử, giao chiếc không giữ được nét pháp tắc cho ngươi. Tới tĩnh thất mới phát hiện, ngươi trở lại nhưng quầy đã dọn khỏi phiên chợ.",
+            "translations": {
+              "zh": {
+                "text": "试后卖家掉包，交来无法稳住法则笔画的笔。你回静室才发现，再来时摊位已撤。"
+              },
+              "en": {
+                "text": "The seller switches brushes after testing and gives you one unable to hold a law stroke. Discovery comes in your chamber; returning finds the stall already gone."
+              }
+            },
+            "effects": {
+              "resources": -15
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi không nhận bút khi người bán chưa cho kiểm rõ, tiếp tục dùng dụng cụ đang quen. Những mẫu chữ đẹp vẫn treo trước quầy, nhưng túi tiên thạch của ngươi không vơi.",
+            "translations": {
+              "zh": {
+                "text": "卖家不让充分检查，你便不买，继续用惯常工具。漂亮样字仍挂在摊前，你的仙石袋却未减少。"
+              },
+              "en": {
+                "text": "You decline a brush the seller will not properly demonstrate and keep your familiar tools. Fine samples remain hanging at the stall, while your purse of stones stays full."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_mystic_immortal_memory_restoration",
+    "category": "opportunity",
+    "title": "Người chữa ký ức thất lạc",
+    "text": "Người chữa ký ức hứa lấy lại chuyện đã quên, yêu cầu mở thần thức không dựng dấu ngăn. Ngươi có thể thử mảnh nhỏ có mốc ngoài, hoặc từ chối cách làm ấy.",
+    "translations": {
+      "zh": {
+        "title": "修补失忆者",
+        "text": "修忆者承诺找回遗忘之事，却要求神识不设屏障。你可留外部标记试一小片，也可拒绝这种做法。"
+      },
+      "en": {
+        "title": "A restorer of lost memories",
+        "text": "A memory restorer promises forgotten experiences but asks for unguarded access. You can try one small fragment with an external reference or decline the proposed method entirely."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi giữ mốc ngoài rồi thử mảnh nhỏ, nhận ra tiếng quen bị ký ức chồng che. Tách lớp đúng giúp nhớ chuyện ấy mà không giao toàn bộ thần thức cho người lạ.",
+            "translations": {
+              "zh": {
+                "text": "你留外部标记试小片，辨出被重叠记忆遮住的熟悉声音。正确分层便找回往事，不必把全部神识交给陌人。"
+              },
+              "en": {
+                "text": "Keeping an external reference reveals a familiar sound hidden beneath overlapping memories. Separating those layers restores the experience without handing your entire consciousness over to a stranger."
+              }
+            },
+            "effects": {
+              "cultivation": 16
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Người chữa đưa hình soạn sẵn vào chỗ trống, cố khiến ngươi nhận là chuyện từng sống. Mốc ngoài giúp phát hiện, nhưng đẩy ký ức giả ra vẫn làm thần thức hao sức.",
+            "translations": {
+              "zh": {
+                "text": "修忆者把编好的画面塞入空处，想让你认作往事。外部标记帮你发现，排除假忆仍耗损神识。"
+              },
+              "en": {
+                "text": "The restorer inserts prepared scenes and tries to make you accept them as your own past. Your external mark exposes it, though removing false memories still exhausts your consciousness."
+              }
+            },
+            "effects": {
+              "cultivation": -5,
+              "health": -4
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi từ chối mở thần thức theo điều kiện họ đặt, giữ phần chưa nhớ ở nguyên chỗ. Chuyện cũ chưa trở lại, nhưng không có ký ức người khác được lén ghép vào.",
+            "translations": {
+              "zh": {
+                "text": "你拒绝按对方条件开放神识，暂留遗忘部分。往事虽未找回，也没有被偷偷拼入别人的记忆。"
+              },
+              "en": {
+                "text": "You decline access under the restorer’s conditions and leave the forgotten portion untouched. Your past remains incomplete, but no one else’s memories have been secretly fitted into it."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_immortal_king_perfect_census",
+    "category": "opportunity",
+    "title": "Sổ dân cư không có người thiếu",
+    "text": "Người làm sổ xin thưởng vì thống kê hoàn hảo, nhưng làng chưa có tên vẫn cầu viện. Ngươi có thể kiểm trang họ giấu hoặc hoãn thưởng tới lúc dân tự xác nhận.",
+    "translations": {
+      "zh": {
+        "title": "无人遗漏的户簿",
+        "text": "造册者以统计完美求赏，一座未列名村落却来求援。你可查隐藏页，也可等百姓确认后再赏。"
+      },
+      "en": {
+        "title": "A census claiming nobody is missing",
+        "text": "A census keeper seeks payment for a perfect count, yet an unnamed village requests aid. You can inspect hidden pages or postpone the reward until residents confirm the register themselves."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi kiểm trang giấu, phát hiện làng bị gạch để giảm số người cần chia vật liệu. Sổ được sửa, khoản thưởng sai thu lại đủ bù phần tiếp tế cho những người bỏ sót.",
+            "translations": {
+              "zh": {
+                "text": "你查隐页，发现村名被删以减少分料人数。户簿改正，收回的错赏也补上漏记者的物资。"
+              },
+              "en": {
+                "text": "Hidden pages reveal a village removed to reduce supply recipients. Correcting the register recovers an improper reward sufficient to cover deliveries to the residents excluded from its count."
+              }
+            },
+            "effects": {
+              "resources": 15
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Những trang đưa ra đã được chép lại, che mất dấu sửa trước khi ngươi kiểm. Một chuyến tiếp tế bị chậm vì số người sai, buộc ngươi bỏ thêm vật liệu để bù kịp.",
+            "translations": {
+              "zh": {
+                "text": "给你的页已重抄，核查前便藏掉改痕。人数不实拖延接济，你只得另补材料赶上需求。"
+              },
+              "en": {
+                "text": "The presented pages were recopied to conceal alterations before inspection. An incorrect count delays one delivery, requiring extra materials from your own stores to meet the village’s needs."
+              }
+            },
+            "effects": {
+              "resources": -15
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi hoãn thưởng, gửi bản sổ cho từng làng tự xem trước khi dùng chia vật liệu. Việc chậm lại một buổi, đổi lấy những tiếng xác nhận không chỉ từ người muốn được tiền.",
+            "translations": {
+              "zh": {
+                "text": "你暂缓赏赐，把户簿交各村先查再分料。事情慢了一场，却换来不只求赏者的确认。"
+              },
+              "en": {
+                "text": "You postpone payment and let each village check its entry before supplies are allocated. A brief delay brings confirmations from people other than the person seeking a reward."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deception_immortal_emperor_universal_cure",
+    "category": "opportunity",
+    "title": "Đạo nguyên được rao chữa mọi giới",
+    "text": "Người bán đạo nguyên hứa chữa mọi nền giới rạn, không cần biết pháp tắc địa phương. Ngươi có thể thử mẫu tách riêng, hoặc yêu cầu chứng minh trước khi đổi bảo vật.",
+    "translations": {
+      "zh": {
+        "title": "号称治万界的道源",
+        "text": "卖家称道源能治所有裂界根基，不必了解地方法则。你可在独立样本上试，也可先要求证明再换宝物。"
+      },
+      "en": {
+        "title": "Dao essence advertised to heal every world",
+        "text": "A seller promises essence repairs every cracked world foundation without studying local laws. You can test an isolated sample or require proof before exchanging any of your treasures."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "verify",
+        "text": "Thử kiểm chứng lời hứa",
+        "hint": "Có thể nhận lợi ích hoặc phát hiện quá muộn",
+        "translations": {
+          "zh": {
+            "text": "试着验证承诺",
+            "hint": "可能获益，也可能发现得太晚"
+          },
+          "en": {
+            "text": "Test the promise",
+            "hint": "Possible benefit or a late discovery"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Mẫu riêng cho thấy đạo nguyên dùng được với một loại nền chứ không phải mọi giới. Ngươi đổi phần vừa cần theo giá đúng, giữ bảo vật khác khỏi lời rao quá rộng.",
+            "translations": {
+              "zh": {
+                "text": "独立样本显示道源只适合一种根基，并非万界皆可。你按真实价格换所需部分，其他宝物免受夸大宣传。"
+              },
+              "en": {
+                "text": "An isolated sample shows the essence suits one foundation type rather than every world. You exchange only what is needed at a fair price, protecting other treasures from exaggerated promises."
+              }
+            },
+            "effects": {
+              "resources": 15
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Mẫu người bán chuẩn bị khác với phần giao sau, khiến đạo nguyên mới không nối vào nền đã đo. Ngươi ngắt trước khi gây hại, nhưng bảo vật trao đổi không lấy lại được.",
+            "translations": {
+              "zh": {
+                "text": "卖家试样与交货不同，新道源接不上已测根基。你及时切断防止损害，却取不回交换的宝物。"
+              },
+              "en": {
+                "text": "The delivered essence differs from the prepared sample and fails to join the tested foundation. Disconnecting prevents damage, but the treasure exchanged for it cannot be recovered."
+              }
+            },
+            "effects": {
+              "resources": -15
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Chưa nhận lời mời",
+        "hint": "Giữ nguyên nguồn lực",
+        "translations": {
+          "zh": {
+            "text": "暂不接受邀请",
+            "hint": "保留现有资源"
+          },
+          "en": {
+            "text": "Decline for now",
+            "hint": "Keep your resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 1,
+            "text": "Ngươi chưa đổi bảo vật, yêu cầu chứng minh phù hợp từng loại nền giới. Người bán phải thu lời chữa mọi giới, để cuộc đổi chờ thông tin rõ hơn thay vì lời hứa.",
+            "translations": {
+              "zh": {
+                "text": "你不急换宝物，要求各类界基的适配证明。卖家只得收回包治万界之言，交易等待更清楚的信息。"
+              },
+              "en": {
+                "text": "You withhold your treasure and request evidence for each foundation type. The seller retracts the universal claim, leaving the exchange to await clearer information rather than a sweeping promise."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_true_immortal_frost_core",
+    "category": "opportunity",
+    "title": "Tinh sương dưới lớp băng rỗng",
+    "text": "Băng rỗng trong hang giữ tinh sương còn dùng luyện khí, nhưng khe dưới phát hơi lạnh lạ. Ngươi có thể xuống lấy phần sáng nhất hoặc đánh dấu cho chuyến khảo sát sau.",
+    "translations": {
+      "zh": {
+        "title": "空冰下的霜晶",
+        "text": "洞中空冰留着可炼器的霜晶，下缝却吐出异寒。你可下取最亮部分，也可只标记留待下次勘察。"
+      },
+      "en": {
+        "title": "Frost crystals beneath hollow ice",
+        "text": "Hollow cave ice holds crystals useful for crafting, but unusual cold rises below it. You can descend for the brightest portion or mark the place for a later survey."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi dùng dây neo xuống lấy tinh sương ở mép, trở lên trước khi tầng băng đổi màu. Phần thu được đủ sửa pháp khí dẫn lực, để chuyến đi có thêm vật đáng giữ.",
+            "translations": {
+              "zh": {
+                "text": "你系锚绳下取边缘霜晶，在冰层变色前返回。收获足以修导力器，让此行多了值得留存的材料。"
+              },
+              "en": {
+                "text": "An anchor rope carries you to edge crystals and back before the ice changes color. What you gather can repair an energy guide and gives the trip something worth keeping."
+              }
+            },
+            "effects": {
+              "resources": 18,
+              "cultivation": 10
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Tầng băng khép quanh ngươi khi hơi lạnh từ khe dưới đổi nhịp, làm tiên lực đông cứng trong mạch. Dây neo treo từ miệng hang, nhưng không kéo nổi người đã mất sinh cơ.",
+            "translations": {
+              "zh": {
+                "text": "下缝寒气换节奏，冰层合拢，仙力冻在脉中。锚绳仍垂于洞口，却拉不回已无生机的人。",
+                "endingReason": "困于霜晶冰层仙力冻封而亡"
+              },
+              "en": {
+                "text": "Changing cold closes the ice around you and freezes energy within your meridians. The anchor rope still hangs from the entrance, unable to retrieve someone whose life has ended.",
+                "endingReason": "Killed by frozen meridians within a frost crystal ice layer"
+              }
+            },
+            "endingReason": "Tiên lực đông cứng do mắc kẹt trong băng tinh sương",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi ghi vị trí tinh sương và rút khỏi hang trước khi hơi lạnh dâng thêm. Phần sáng vẫn nằm dưới băng, chờ người mang đủ dụng cụ hiểu rõ tầng rỗng ấy.",
+            "translations": {
+              "zh": {
+                "text": "你记下霜晶位置，趁寒气继续上升前离洞。亮晶仍在冰下，留给装备足够、了解空层的人。"
+              },
+              "en": {
+                "text": "You record the crystals’ location and leave before more cold rises. Their light remains beneath the ice for someone properly equipped to understand the hollow layer that holds them."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_golden_immortal_hungry_vault",
+    "category": "opportunity",
+    "title": "Kho cổ lấy pháp tắc mở cửa",
+    "text": "Kho cổ chỉ mở khi người tới cấp đạo pháp tắc vào khe khóa, không ghi mức cần dùng. Ngươi có thể thử bằng nhánh tách riêng hoặc rời đi với tọa độ đã ghi.",
+    "translations": {
+      "zh": {
+        "title": "吞法则开门的古库",
+        "text": "古库须把一条法则注入锁缝才开，却未写用量。你可试独立支脉，也可记下坐标离开。"
+      },
+      "en": {
+        "title": "An old vault consuming a law to open",
+        "text": "An old vault opens only after receiving a law through its lock, with no required amount recorded. You can offer an isolated branch or leave with its coordinates noted."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi cấp nhánh nhỏ, cắt nối đúng lúc cửa mở rồi thu vật liệu ở ngăn đầu. Phần tiên kim mang ra đủ bù đạo lực dùng thử và sửa pháp khí.",
+            "translations": {
+              "zh": {
+                "text": "你注小支，开门即断联系，只取首格材料。带出的仙金足以补试耗，还能修一件法器。"
+              },
+              "en": {
+                "text": "A small branch opens the door, and timely disconnection allows collection from its first compartment. The metal recovered covers the trial’s cost and repairs one of your artifacts."
+              }
+            },
+            "effects": {
+              "resources": 18,
+              "cultivation": 10
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Khe khóa theo nhánh pháp tắc tới đạo cơ rồi hút nền đạo làm phí mở cửa. Kho hé sáng khi tiên thể ngươi tan, để vật bên trong không còn ai nhận.",
+            "translations": {
+              "zh": {
+                "text": "锁缝沿法则支脉找到道基，把整座根基当开门代价吞下。仙体消散时古库微亮，里面再无领物之人。",
+                "endingReason": "古库锁缝吞噬道基而亡"
+              },
+              "en": {
+                "text": "The lock follows your branch to its foundation and consumes the entire Dao as payment. The vault lights as your body dissolves, leaving nobody to collect what waits inside.",
+                "endingReason": "Foundation consumed by an ancient vault lock"
+              }
+            },
+            "endingReason": "Đạo cơ bị khe khóa kho cổ nuốt mất",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi rời kho sau khi ghi khe khóa và những dấu hút lực còn thấy được. Cửa vẫn kín, nhưng tọa độ đủ để hỏi người hiểu loại kho ấy trước lần trở lại.",
+            "translations": {
+              "zh": {
+                "text": "你记下锁缝与可见吸力印后离开。库门仍闭，坐标足以让你下次前询问熟悉这类古库的人。"
+              },
+              "en": {
+                "text": "You leave after recording the lock and visible drain marks. The door stays shut, but its coordinates allow you to consult someone familiar with such vaults before returning."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_mystic_immortal_drifting_beacon",
+    "category": "opportunity",
+    "title": "Tinh đảo cần mốc sống",
+    "text": "Tinh đảo lạc quỹ đạo chỉ hiện lối về khi có thần thức sống giữ mốc giữa hai lớp không gian. Ngươi có thể đổi việc giữ mốc lấy vật liệu, hoặc báo trạm cứu.",
+    "translations": {
+      "zh": {
+        "title": "星岛需活神识定位",
+        "text": "漂离轨道的星岛须活神识在两层空间间定位才现归路。你可作标换材料，也可把坐标交救援站。"
+      },
+      "en": {
+        "title": "A drifting island needing a living reference",
+        "text": "A drifting island reveals its return path only with living consciousness between spatial layers. You can serve as that reference for materials or pass its coordinates to a rescue station."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi giữ mốc khi đường về hiện, thu vật liệu đã hẹn rồi rút thần thức đúng nhịp. Tinh đảo neo lại ngoài tuyến cũ, còn bản thể không bị kéo theo lần dịch chuyển.",
+            "translations": {
+              "zh": {
+                "text": "你守标至归路显现，领取材料后按节奏退出。星岛锚在旧路之外，你的本体未随迁移被拖走。"
+              },
+              "en": {
+                "text": "Maintaining the reference reveals the path and earns promised materials. You withdraw on time as the island anchors elsewhere, keeping your identity free from its final spatial shift."
+              }
+            },
+            "effects": {
+              "resources": 18,
+              "cultivation": 10
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Tinh đảo dịch chuyển trước lúc ngươi rút mốc, kéo hai lớp không gian cắt dấu bản thể. Thần thức chia đôi rồi tan, để lối về hiện mà người giữ không thể trở lại.",
+            "translations": {
+              "zh": {
+                "text": "你撤标前星岛已迁，两层空间切过本体印。神识分裂消散，归路虽现，守路者却无法返回。",
+                "endingReason": "星岛迁移割裂神识致死"
+              },
+              "en": {
+                "text": "The island shifts before you withdraw, cutting your identity mark between spatial layers. Consciousness splits and dissolves, revealing a return route that its living reference can no longer use.",
+                "endingReason": "Consciousness severed by a drifting island’s spatial shift"
+              }
+            },
+            "endingReason": "Thần thức bị tinh đảo dịch chuyển cắt đôi",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi gửi tọa độ tinh đảo cho trạm cứu rồi quan sát từ lớp không gian ngoài. Người có dụng cụ giữ mốc sẽ tới, còn thần thức chưa nối vào đường đang đổi.",
+            "translations": {
+              "zh": {
+                "text": "你把坐标交救援站，在外层空间观察。携定位器的人会来，你的神识尚未接入变化中的通路。"
+              },
+              "en": {
+                "text": "You send coordinates to the rescue station and observe from outside. People equipped for holding references will arrive, while your consciousness remains unconnected to the shifting passage."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_king_dragon_bone",
+    "category": "opportunity",
+    "title": "Long cốt trong mộ vực",
+    "text": "Long cốt trong mộ vực giữ đạo lực có thể vá trụ, nhưng hơi xám quanh xương không tan. Ngươi có thể lấy một đoạn với vật niêm, hoặc đóng mộ chờ người khảo sát.",
+    "translations": {
+      "zh": {
+        "title": "域墓中的龙骨",
+        "text": "域墓龙骨仍存可补大柱的道力，骨周灰气却不散。你可用封物取一段，也可封门待勘察者。"
+      },
+      "en": {
+        "title": "Dragon bones within a domain tomb",
+        "text": "Dragon bones in a domain tomb retain power suitable for major pillars, but gray vapor surrounds them. You can seal and collect one section or close the tomb pending examination."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi niêm phần hơi xám trước khi tách long cốt, mang ra đoạn còn đạo lực sạch. Vật liệu ấy đủ sửa trụ đã mòn, để kho tiết kiệm một khoản mua bảo liệu mới.",
+            "translations": {
+              "zh": {
+                "text": "你先封灰气再取龙骨，带出仍有净道力的一段。它足以修补旧柱，为仓库省下购料费用。"
+              },
+              "en": {
+                "text": "Sealing the vapor before separating a bone preserves a section with clean law force. It repairs a worn pillar and saves the warehouse the cost of buying new materials."
+              }
+            },
+            "effects": {
+              "resources": 18,
+              "cultivation": 10
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Hơi xám theo xương thoát vật niêm, quấn đạo cơ ngươi bằng lời nguyền mộ vực. Long cốt rời được chỗ, nhưng người mang nó bị hút cạn sinh cơ trước cửa.",
+            "translations": {
+              "zh": {
+                "text": "灰气随骨破封，以域墓咒缠住道基。龙骨离开原位，携者却在门前被抽尽生机。",
+                "endingReason": "域墓龙骨咒抽尽生机"
+              },
+              "en": {
+                "text": "Gray vapor escapes alongside the bone and binds your foundation with the tomb’s curse. The bone leaves its resting place, but its carrier loses every breath before the entrance.",
+                "endingReason": "Life drained by cursed dragon bones from a domain tomb"
+              }
+            },
+            "endingReason": "Sinh cơ bị lời nguyền long cốt trong mộ vực hút cạn",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi đóng cửa mộ, ghi hơi xám cho người khảo sát xem sau. Long cốt chưa về kho, còn đạo vực có thời gian tìm cách tách vật liệu mà không mang theo lời nguyền.",
+            "translations": {
+              "zh": {
+                "text": "你关墓门并记录灰气，留给勘察者。龙骨未入库，道域却有时间寻找不携墓咒的取料方法。"
+              },
+              "en": {
+                "text": "You close the tomb and record its gray vapor for surveyors. The bones remain outside your store while the domain gains time to learn how materials can be separated safely."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peril_immortal_emperor_battle_dao_echo",
+    "category": "opportunity",
+    "title": "Đạo âm còn trong vết đế chiến",
+    "text": "Vết đế chiến thiên ngoại giữ đạo âm chưa tan của hai cường giả đã mất. Ngươi có thể tách một nhịp để tham ngộ, hoặc ghi dấu ngoài rồi để tiếng cũ lắng thêm.",
+    "translations": {
+      "zh": {
+        "title": "帝战痕中的残道音",
+        "text": "天外帝战痕留着两位亡强者的道音。你可取一节参悟，也可记外印，等待旧音继续平息。"
+      },
+      "en": {
+        "title": "Dao sounds remaining in an emperor’s battle scar",
+        "text": "A battle scar beyond the heavens holds Dao sounds from two fallen masters. You can separate one rhythm for contemplation or mark it outside and let the old echoes settle."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 60,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "有成功机会，也有丧命风险"
+          },
+          "en": {
+            "text": "Try it directly",
+            "hint": "A chance of success and a risk of death"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 4,
+            "text": "Ngươi tách được nhịp hết ý chí tranh đấu, dùng nó hiểu chỗ hai pháp tắc từng giao. Đạo liệu ngưng quanh vết được thu vừa đủ, giúp có vật chuẩn cho lần luyện sau.",
+            "translations": {
+              "zh": {
+                "text": "你分出已无争意的节奏，理解两法则旧交点。收取周围适量道料，为之后修炼留下参照物。"
+              },
+              "en": {
+                "text": "Separating a rhythm free of fighting will clarifies where the two laws once met. A little condensed material provides a reference for the next stage of your practice."
+              }
+            },
+            "effects": {
+              "resources": 18,
+              "cultivation": 10
+            }
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Hai đạo âm nhận nhịp ngươi là đối thủ mới, cùng đánh vào đạo cơ khi đường nghe mở. Tiên thể tan trong vết chiến cũ, để đó giữ thêm tiếng chưa ai gọi tên.",
+            "translations": {
+              "zh": {
+                "text": "两道音把你认作新敌，听路刚开便合击道基。仙体消散于旧战痕，那里又添一声未及命名的回响。",
+                "endingReason": "两股帝战道音合击碎道基"
+              },
+              "en": {
+                "text": "Both sounds mistake your rhythm for a new opponent and strike your foundation together. Your body dissolves inside the old scar, adding another echo nobody has had time to name.",
+                "endingReason": "Foundation shattered by two echoes of an emperor’s battle"
+              }
+            },
+            "endingReason": "Đạo cơ bị hai đạo âm đế chiến đánh tan",
+            "effects": {
+              "death": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "withdraw",
+        "text": "Chọn cách thận trọng",
+        "hint": "Giữ khoảng cách với hiểm cảnh",
+        "translations": {
+          "zh": {
+            "text": "选择谨慎办法",
+            "hint": "与险境保持距离"
+          },
+          "en": {
+            "text": "Take the cautious path",
+            "hint": "Keep your distance from the danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "withdraw",
+            "weight": 1,
+            "text": "Ngươi ghi dấu ngoài vết chiến rồi rút đường cảm nhận trước khi đạo âm chạm bản thể. Tiếng cũ còn tranh nhau trong khoảng trống, chờ lúc yên hơn mới có thể được hiểu.",
+            "translations": {
+              "zh": {
+                "text": "你在战痕外记印，未让道音触本体便撤回感知。旧音仍在空处相争，要等更平静时才能理解。"
+              },
+              "en": {
+                "text": "You mark the scar from outside and withdraw perception before its sounds reach your identity. Old echoes keep contesting the empty space until a quieter time permits understanding."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_nascent_soul_bell",
+    "category": "opportunity",
+    "title": "Chuông trong bụng cá",
+    "text": "Một ngư dân nhờ ngươi xem chiếc chuông lấy từ bụng cá. Khi Nguyên Anh chạm vào, tiếng chuông dẫn ngươi tới túi trữ vật dưới đáy hồ.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "鱼腹中的铜钟",
+        "text": "渔夫请你查看从鱼腹中取出的铜钟。元婴触碰钟身时，钟声指引你找到湖底遗落的储物袋。"
+      },
+      "en": {
+        "title": "The Bell Inside the Fish",
+        "text": "A fisherman asks you to examine a bell found inside a fish. Your nascent soul awakens its chime, revealing an abandoned storage pouch beneath the lake."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_nascent_soul_rain",
+    "category": "opportunity",
+    "title": "Mực hiện trong mưa",
+    "text": "Ngươi trú mưa trong thư lâu bỏ hoang, vô tình làm ướt một cuộn giấy trắng. Những nét mực hiện lên, ghi cách dưỡng Nguyên Anh bằng sương sớm.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "雨中显现的墨迹",
+        "text": "你在废弃书楼避雨，无意间打湿一卷白纸。墨迹逐渐显现，记载着以晨露温养元婴的古老方法。"
+      },
+      "en": {
+        "title": "Ink Revealed by Rain",
+        "text": "Sheltering from rain in an abandoned library, you accidentally wet a blank scroll. Emerging ink describes an ancient method for nourishing the nascent soul with morning dew."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_nascent_soul_well",
+    "category": "opportunity",
+    "title": "Giếng của người giữ vườn",
+    "text": "Người giữ vườn già xin ngươi dời tảng đá chắn giếng. Bên dưới là mạch linh tuyền, ông chia ngươi bình nước để cảm tạ công sức.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "守园人的古井",
+        "text": "年迈的守园人请你搬开堵住古井的巨石。井下竟藏着灵泉，他赠你一瓶泉水，答谢你的帮助。"
+      },
+      "en": {
+        "title": "The Gardener’s Well",
+        "text": "An elderly gardener asks you to move a boulder blocking his well. A spiritual spring lies beneath, and he shares its water in gratitude for your help."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_nascent_soul_shell",
+    "category": "opportunity",
+    "title": "Vỏ trai giữ ánh trăng",
+    "text": "Sau khi thủy triều rút, ngươi nhặt được vỏ trai vẫn tỏa sáng. Ánh trăng tích tụ bên trong giúp Nguyên Anh ổn định sau nhiều năm bôn ba.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "藏月的蚌壳",
+        "text": "潮水退去后，你拾到一枚仍在发光的蚌壳。壳中积蓄的月华，让奔波多年的元婴逐渐恢复安稳。"
+      },
+      "en": {
+        "title": "Moonlight in a Shell",
+        "text": "After the tide recedes, you find a shell still glowing on the shore. Moonlight stored within steadies your nascent soul after years of restless travel."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_nascent_soul_lantern",
+    "category": "opportunity",
+    "title": "Đèn dẫn qua bãi lầy",
+    "text": "Ngươi giúp một lữ khách tìm lại chiếc đèn thất lạc giữa bãi lầy. Đáp lễ, người ấy chỉ nơi chôn linh ngọc dưới gốc liễu già.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "引路的旧灯",
+        "text": "你帮助旅人找回遗失在沼泽中的旧灯。作为回礼，他指点你去老柳树下，挖出埋藏多年的灵玉。"
+      },
+      "en": {
+        "title": "The Marsh Lantern",
+        "text": "You help a traveler recover a lantern lost in the marsh. In return, the stranger reveals where spiritual jade lies buried beneath an ancient willow tree."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_nascent_soul_auction",
+    "category": "opportunity",
+    "title": "Lô hàng không mở hộp",
+    "text": "Chủ phiên đấu giá bí mật đưa ngươi chiếc hộp có tiếng tim đập. Ông hứa bên trong là linh dược, nhưng nhất quyết không cho kiểm tra trước.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "不许开盒的拍品",
+        "text": "拍卖会主人私下递给你一个传出心跳声的盒子。他保证里面是灵药，却坚持不许你提前查看。"
+      },
+      "en": {
+        "title": "The Sealed Auction Lot",
+        "text": "The auctioneer privately offers you a box that sounds like a beating heart. He promises rare medicine inside, yet refuses to let you inspect it beforehand."
+      }
+    },
+    "choices": [
+      {
+        "id": "claim",
+        "text": "Thử lấy cơ duyên",
+        "hint": "Có thể thu bảo vật hoặc chịu hiểm họa",
+        "translations": {
+          "zh": {
+            "text": "尝试夺取机缘",
+            "hint": "可能获得宝物，也可能遭遇危险"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Possible treasure or a dangerous setback"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Linh dược trong hộp thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "effects": {
+              "resources": 30,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你耐心辨认每一道征兆，在恰当时刻出手。盒中灵药最终归你所有，为接下来的修行提供珍贵助力。"
+              },
+              "en": {
+                "text": "You patiently examine every sign and act at the right moment. Claiming the medicine inside the box gives you valuable resources for the next stage of your cultivation."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Một lớp cấm chế ẩn bất ngờ bộc phát khi ngươi chạm tới linh dược trong hộp. Ngươi gắng rút lui, mất nhiều linh lực để giữ thương thế khỏi lan rộng.",
+            "effects": {
+              "health": -18,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你触及盒中灵药时，一层隐藏禁制突然爆发。你勉强退开，耗费大量灵力，才阻止伤势继续恶化。",
+                "endingReason": "死于守护盒中灵药的禁制伤势"
+              },
+              "en": {
+                "text": "A hidden restriction erupts as you reach for the medicine inside the box. You barely withdraw, spending considerable spiritual energy to keep your wounds from growing worse.",
+                "endingReason": "Fatal injuries from the restriction guarding the medicine inside the box"
+              }
+            },
+            "endingReason": "Thương tổn do cấm chế bảo vệ linh dược trong hộp"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Cấm chế khép lại quanh ngươi trước khi đường lui được mở. Ngươi dốc hết pháp lực nhưng không thoát nổi, bỏ mạng khi linh dược trong hộp vẫn còn trong tầm mắt.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "退路尚未打开，禁制便在你周围合拢。你耗尽法力仍无法脱身，最终死在盒中灵药近旁。",
+                "endingReason": "夺取盒中灵药时丧命"
+              },
+              "en": {
+                "text": "The restriction closes around you before an escape opens. You exhaust your spiritual power without breaking free, dying while the medicine inside the box remains within sight.",
+                "endingReason": "Died attempting to claim the medicine inside the box"
+              }
+            },
+            "endingReason": "Bỏ mạng khi tìm cách lấy linh dược trong hộp"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Ghi nhớ rồi rời đi",
+        "hint": "Bỏ cơ duyên, bảo toàn sức lực",
+        "translations": {
+          "zh": {
+            "text": "记下位置后离开",
+            "hint": "放弃机缘，保存实力"
+          },
+          "en": {
+            "text": "Remember the place and leave",
+            "hint": "Forgo the opportunity and preserve your strength"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi ghi nhớ những dấu hiệu quanh nơi này rồi lặng lẽ rời đi. Cơ duyên chưa thuộc về ngươi, nhưng chuyến đường phía trước vẫn còn nhiều điều để tìm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下此地的种种征兆，随后悄然离去。这份机缘暂时与你无缘，但前方旅途仍有许多值得探寻的事物。"
+              },
+              "en": {
+                "text": "You remember the signs surrounding this place and quietly depart. This opportunity remains unclaimed, but the road ahead still holds many other discoveries waiting for you."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_nascent_soul_statue",
+    "category": "opportunity",
+    "title": "Bàn tay tượng chìm",
+    "text": "Một pho tượng chìm giơ bàn tay giữ hạt châu giữa dòng nước xiết. Nguyên Anh cảm nhận linh khí, nhưng cổ tay tượng hiện những vết khóa chưa mở.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "沉像的手掌",
+        "text": "湍流中的沉像伸出手掌，托着一颗灵珠。元婴感受到浓郁灵气，但石像腕上的封锁纹路尚未解除。"
+      },
+      "en": {
+        "title": "The Submerged Statue’s Hand",
+        "text": "A submerged statue holds a pearl above a rushing current. Your nascent soul senses its power, though locking inscriptions remain visible around the statue’s stone wrist."
+      }
+    },
+    "choices": [
+      {
+        "id": "claim",
+        "text": "Thử lấy cơ duyên",
+        "hint": "Có thể thu bảo vật hoặc chịu hiểm họa",
+        "translations": {
+          "zh": {
+            "text": "尝试夺取机缘",
+            "hint": "可能获得宝物，也可能遭遇危险"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Possible treasure or a dangerous setback"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Hạt châu của tượng thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "effects": {
+              "resources": 30,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你耐心辨认每一道征兆，在恰当时刻出手。石像灵珠最终归你所有，为接下来的修行提供珍贵助力。"
+              },
+              "en": {
+                "text": "You patiently examine every sign and act at the right moment. Claiming the the statue’s pearl gives you valuable resources for the next stage of your cultivation."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Một lớp cấm chế ẩn bất ngờ bộc phát khi ngươi chạm tới hạt châu của tượng. Ngươi gắng rút lui, mất nhiều linh lực để giữ thương thế khỏi lan rộng.",
+            "effects": {
+              "health": -18,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你触及石像灵珠时，一层隐藏禁制突然爆发。你勉强退开，耗费大量灵力，才阻止伤势继续恶化。",
+                "endingReason": "死于守护石像灵珠的禁制伤势"
+              },
+              "en": {
+                "text": "A hidden restriction erupts as you reach for the the statue’s pearl. You barely withdraw, spending considerable spiritual energy to keep your wounds from growing worse.",
+                "endingReason": "Fatal injuries from the restriction guarding the the statue’s pearl"
+              }
+            },
+            "endingReason": "Thương tổn do cấm chế bảo vệ hạt châu của tượng"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Cấm chế khép lại quanh ngươi trước khi đường lui được mở. Ngươi dốc hết pháp lực nhưng không thoát nổi, bỏ mạng khi hạt châu của tượng vẫn còn trong tầm mắt.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "退路尚未打开，禁制便在你周围合拢。你耗尽法力仍无法脱身，最终死在石像灵珠近旁。",
+                "endingReason": "夺取石像灵珠时丧命"
+              },
+              "en": {
+                "text": "The restriction closes around you before an escape opens. You exhaust your spiritual power without breaking free, dying while the the statue’s pearl remains within sight.",
+                "endingReason": "Died attempting to claim the the statue’s pearl"
+              }
+            },
+            "endingReason": "Bỏ mạng khi tìm cách lấy hạt châu của tượng"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Ghi nhớ rồi rời đi",
+        "hint": "Bỏ cơ duyên, bảo toàn sức lực",
+        "translations": {
+          "zh": {
+            "text": "记下位置后离开",
+            "hint": "放弃机缘，保存实力"
+          },
+          "en": {
+            "text": "Remember the place and leave",
+            "hint": "Forgo the opportunity and preserve your strength"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi ghi nhớ những dấu hiệu quanh nơi này rồi lặng lẽ rời đi. Cơ duyên chưa thuộc về ngươi, nhưng chuyến đường phía trước vẫn còn nhiều điều để tìm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下此地的种种征兆，随后悄然离去。这份机缘暂时与你无缘，但前方旅途仍有许多值得探寻的事物。"
+              },
+              "en": {
+                "text": "You remember the signs surrounding this place and quietly depart. This opportunity remains unclaimed, but the road ahead still holds many other discoveries waiting for you."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_spirit_transformation_names",
+    "category": "opportunity",
+    "title": "Tên cũ trên vách đá",
+    "text": "Ngươi đọc những cái tên mòn trên vách đá tưởng niệm. Thần thức hòa cùng ý niệm người đã khuất, khiến một đoạn pháp quyết hiện rõ giữa rêu xanh.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "石壁上的旧名",
+        "text": "你读着纪念石壁上磨损的姓名。神识与逝者残念相融，一段法诀在青苔之间渐渐显现。"
+      },
+      "en": {
+        "title": "Old Names on the Cliff",
+        "text": "You read weathered names upon a memorial cliff. As your divine awareness meets the lingering thoughts of the departed, a hidden cultivation formula appears among the moss."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_spirit_transformation_tea",
+    "category": "opportunity",
+    "title": "Chén trà quên nguội",
+    "text": "Một bà lão mời ngươi uống chén trà đã để suốt mùa đông. Hương trà khơi lại ký ức bị quên, giúp thần thức tháo gỡ nút thắt lâu ngày.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "忘却冷却的茶",
+        "text": "老妇人请你喝一杯放了一整个冬天的茶。茶香唤醒遗忘的记忆，帮助神识解开困扰多年的心结。"
+      },
+      "en": {
+        "title": "The Tea That Never Cooled",
+        "text": "An old woman offers tea left untouched throughout winter. Its fragrance awakens forgotten memories, helping your divine awareness unravel a knot that has troubled you for years."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_spirit_transformation_cloud",
+    "category": "opportunity",
+    "title": "Bóng mây giữ đường về",
+    "text": "Trên đỉnh núi, ngươi thấy bóng mây đứng yên dù gió thổi mạnh. Lần theo ý cảnh trong bóng ấy, ngươi tìm được nơi tiền nhân gửi lại linh thạch.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "留住归路的云影",
+        "text": "山顶狂风不止，一片云影却始终不动。你循着云影中的意境，找到前人留下灵石的隐秘地点。"
+      },
+      "en": {
+        "title": "The Cloud That Remembered",
+        "text": "On a windy summit, one cloud shadow remains perfectly still. Following the insight held within it, you discover a hidden cache of stones left by an earlier cultivator."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_spirit_transformation_bamboo",
+    "category": "opportunity",
+    "title": "Ống trúc gửi người sau",
+    "text": "Một thợ đan nhờ ngươi kiểm tra ống trúc không thể chẻ. Thần thức nghe lời nhắn của chủ cũ, rồi tìm thấy đan phương giấu trong từng đốt.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "留给后人的竹筒",
+        "text": "竹匠请你查看一根无法劈开的竹筒。神识听见旧主留下的口信，随后在竹节之间发现隐藏的丹方。"
+      },
+      "en": {
+        "title": "A Bamboo Tube for Tomorrow",
+        "text": "A basket maker asks you to examine an unsplittable bamboo tube. Your divine awareness hears its former owner’s message and uncovers an alchemical recipe hidden between the joints."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_spirit_transformation_snow",
+    "category": "opportunity",
+    "title": "Tuyết rơi từ mái miếu",
+    "text": "Giữa mùa hè, mái miếu hoang vẫn rơi những hạt tuyết mỏng. Ngươi lắng thần thức nghe chuông cũ, nhận được cảm ngộ về cách dung hòa hàn khí.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "庙檐落雪",
+        "text": "盛夏时节，荒庙屋檐仍飘落细雪。你以神识静听旧钟的余音，领悟了调和寒气的方法。"
+      },
+      "en": {
+        "title": "Snow Beneath the Temple Eaves",
+        "text": "In midsummer, delicate snow falls beneath an abandoned temple’s eaves. Listening to an old bell with your divine awareness reveals a method for harmonizing cold spiritual energy."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_spirit_transformation_echo",
+    "category": "opportunity",
+    "title": "Lời mời từ tiếng vọng",
+    "text": "Tiếng vọng trong khe núi gọi đúng tên ngươi và hứa trao truyền thừa. Thần thức thấy bóng người sau vách đá, nhưng bóng ấy không có hơi thở.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "回声中的邀请",
+        "text": "山谷回声准确喊出你的名字，承诺授予传承。神识看见石壁后的人影，却感受不到任何气息。"
+      },
+      "en": {
+        "title": "An Invitation in the Echo",
+        "text": "An echo in the ravine calls your name and promises an inheritance. Your divine awareness detects a figure behind the rock, but the figure has no breath."
+      }
+    },
+    "choices": [
+      {
+        "id": "claim",
+        "text": "Thử lấy cơ duyên",
+        "hint": "Có thể thu bảo vật hoặc chịu hiểm họa",
+        "translations": {
+          "zh": {
+            "text": "尝试夺取机缘",
+            "hint": "可能获得宝物，也可能遭遇危险"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Possible treasure or a dangerous setback"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Truyền thừa trong vách đá thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "effects": {
+              "resources": 30,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你耐心辨认每一道征兆，在恰当时刻出手。石壁中的传承最终归你所有，为接下来的修行提供珍贵助力。"
+              },
+              "en": {
+                "text": "You patiently examine every sign and act at the right moment. Claiming the inheritance within the cliff gives you valuable resources for the next stage of your cultivation."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Một lớp cấm chế ẩn bất ngờ bộc phát khi ngươi chạm tới truyền thừa trong vách đá. Ngươi gắng rút lui, mất nhiều linh lực để giữ thương thế khỏi lan rộng.",
+            "effects": {
+              "health": -18,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你触及石壁中的传承时，一层隐藏禁制突然爆发。你勉强退开，耗费大量灵力，才阻止伤势继续恶化。",
+                "endingReason": "死于守护石壁中的传承的禁制伤势"
+              },
+              "en": {
+                "text": "A hidden restriction erupts as you reach for the inheritance within the cliff. You barely withdraw, spending considerable spiritual energy to keep your wounds from growing worse.",
+                "endingReason": "Fatal injuries from the restriction guarding the inheritance within the cliff"
+              }
+            },
+            "endingReason": "Thương tổn do cấm chế bảo vệ truyền thừa trong vách đá"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Cấm chế khép lại quanh ngươi trước khi đường lui được mở. Ngươi dốc hết pháp lực nhưng không thoát nổi, bỏ mạng khi truyền thừa trong vách đá vẫn còn trong tầm mắt.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "退路尚未打开，禁制便在你周围合拢。你耗尽法力仍无法脱身，最终死在石壁中的传承近旁。",
+                "endingReason": "夺取石壁中的传承时丧命"
+              },
+              "en": {
+                "text": "The restriction closes around you before an escape opens. You exhaust your spiritual power without breaking free, dying while the inheritance within the cliff remains within sight.",
+                "endingReason": "Died attempting to claim the inheritance within the cliff"
+              }
+            },
+            "endingReason": "Bỏ mạng khi tìm cách lấy truyền thừa trong vách đá"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Ghi nhớ rồi rời đi",
+        "hint": "Bỏ cơ duyên, bảo toàn sức lực",
+        "translations": {
+          "zh": {
+            "text": "记下位置后离开",
+            "hint": "放弃机缘，保存实力"
+          },
+          "en": {
+            "text": "Remember the place and leave",
+            "hint": "Forgo the opportunity and preserve your strength"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi ghi nhớ những dấu hiệu quanh nơi này rồi lặng lẽ rời đi. Cơ duyên chưa thuộc về ngươi, nhưng chuyến đường phía trước vẫn còn nhiều điều để tìm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下此地的种种征兆，随后悄然离去。这份机缘暂时与你无缘，但前方旅途仍有许多值得探寻的事物。"
+              },
+              "en": {
+                "text": "You remember the signs surrounding this place and quietly depart. This opportunity remains unclaimed, but the road ahead still holds many other discoveries waiting for you."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_spirit_transformation_feather",
+    "category": "opportunity",
+    "title": "Lông vũ trong mắt bão",
+    "text": "Ngươi nhìn thấy một chiếc lông vũ cháy sáng giữa mắt bão. Khí tức thần điểu còn lưu lại, trong khi các luồng gió xung quanh liên tục xé rách thần thức.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "风眼中的羽毛",
+        "text": "风眼中央有一根燃烧的羽毛，仍残留神鸟气息。周围狂风不断撕扯神识，让你难以靠近。"
+      },
+      "en": {
+        "title": "The Feather in the Storm’s Eye",
+        "text": "A burning feather floats inside the eye of a storm, retaining a divine bird’s presence. Surrounding winds tear at your awareness whenever you attempt to approach."
+      }
+    },
+    "choices": [
+      {
+        "id": "claim",
+        "text": "Thử lấy cơ duyên",
+        "hint": "Có thể thu bảo vật hoặc chịu hiểm họa",
+        "translations": {
+          "zh": {
+            "text": "尝试夺取机缘",
+            "hint": "可能获得宝物，也可能遭遇危险"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Possible treasure or a dangerous setback"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Lông vũ thần điểu thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "effects": {
+              "resources": 30,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你耐心辨认每一道征兆，在恰当时刻出手。神鸟羽毛最终归你所有，为接下来的修行提供珍贵助力。"
+              },
+              "en": {
+                "text": "You patiently examine every sign and act at the right moment. Claiming the divine bird’s feather gives you valuable resources for the next stage of your cultivation."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Một lớp cấm chế ẩn bất ngờ bộc phát khi ngươi chạm tới lông vũ thần điểu. Ngươi gắng rút lui, mất nhiều linh lực để giữ thương thế khỏi lan rộng.",
+            "effects": {
+              "health": -18,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你触及神鸟羽毛时，一层隐藏禁制突然爆发。你勉强退开，耗费大量灵力，才阻止伤势继续恶化。",
+                "endingReason": "死于守护神鸟羽毛的禁制伤势"
+              },
+              "en": {
+                "text": "A hidden restriction erupts as you reach for the divine bird’s feather. You barely withdraw, spending considerable spiritual energy to keep your wounds from growing worse.",
+                "endingReason": "Fatal injuries from the restriction guarding the divine bird’s feather"
+              }
+            },
+            "endingReason": "Thương tổn do cấm chế bảo vệ lông vũ thần điểu"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Cấm chế khép lại quanh ngươi trước khi đường lui được mở. Ngươi dốc hết pháp lực nhưng không thoát nổi, bỏ mạng khi lông vũ thần điểu vẫn còn trong tầm mắt.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "退路尚未打开，禁制便在你周围合拢。你耗尽法力仍无法脱身，最终死在神鸟羽毛近旁。",
+                "endingReason": "夺取神鸟羽毛时丧命"
+              },
+              "en": {
+                "text": "The restriction closes around you before an escape opens. You exhaust your spiritual power without breaking free, dying while the divine bird’s feather remains within sight.",
+                "endingReason": "Died attempting to claim the divine bird’s feather"
+              }
+            },
+            "endingReason": "Bỏ mạng khi tìm cách lấy lông vũ thần điểu"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Ghi nhớ rồi rời đi",
+        "hint": "Bỏ cơ duyên, bảo toàn sức lực",
+        "translations": {
+          "zh": {
+            "text": "记下位置后离开",
+            "hint": "放弃机缘，保存实力"
+          },
+          "en": {
+            "text": "Remember the place and leave",
+            "hint": "Forgo the opportunity and preserve your strength"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi ghi nhớ những dấu hiệu quanh nơi này rồi lặng lẽ rời đi. Cơ duyên chưa thuộc về ngươi, nhưng chuyến đường phía trước vẫn còn nhiều điều để tìm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下此地的种种征兆，随后悄然离去。这份机缘暂时与你无缘，但前方旅途仍有许多值得探寻的事物。"
+              },
+              "en": {
+                "text": "You remember the signs surrounding this place and quietly depart. This opportunity remains unclaimed, but the road ahead still holds many other discoveries waiting for you."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_void_refining_seam",
+    "category": "opportunity",
+    "title": "Đường chỉ trên trời",
+    "text": "Ngươi nhận ra một đường sáng mảnh nối hai khe hư không. Thay vì phá vỡ, ngươi lần theo nhịp dao động và thu được tinh thạch mắc giữa chúng.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "天幕上的丝线",
+        "text": "你发现一缕细光连接两道虚空裂隙。顺着它的震动探查，你取出卡在裂隙之间的晶石。"
+      },
+      "en": {
+        "title": "A Thread Across the Sky",
+        "text": "You notice a slender thread of light joining two void fissures. Following its vibrations carefully leads you to a crystal lodged between the shifting openings."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_void_refining_boat",
+    "category": "opportunity",
+    "title": "Thuyền không chạm nước",
+    "text": "Một chiếc thuyền trôi cao hơn mặt sông ba tấc, không có người chèo. Ngươi chỉnh lại phù văn lệch trên mạn, nhận phần linh tài chủ thuyền gửi lại.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "不沾水的船",
+        "text": "一艘无人小船悬在河面上方三寸。你修正船舷错位的符文，取走船主留给修船人的灵材。"
+      },
+      "en": {
+        "title": "The Boat Above the Water",
+        "text": "An empty boat floats three inches above the river. You realign a damaged inscription along its hull and receive materials left by its owner for whoever repairs it."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_void_refining_door",
+    "category": "opportunity",
+    "title": "Cánh cửa chỉ có bóng",
+    "text": "Bóng một cánh cửa hiện trên sân vắng mỗi khi mặt trời đứng bóng. Ngươi dùng pháp lực nối hai khoảng trống, tìm được giá sách trong tiểu không gian.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "只有影子的门",
+        "text": "每逢正午，空院里便出现一道门影。你以法力连接两处空隙，在一片小空间中找到旧书架。"
+      },
+      "en": {
+        "title": "A Door Made of Shadow",
+        "text": "At noon, a door’s shadow appears across an empty courtyard. Joining two gaps with your spiritual power reveals an old bookshelf inside a tiny pocket of space."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_void_refining_stone",
+    "category": "opportunity",
+    "title": "Đá rơi ngược lên trời",
+    "text": "Một hòn đá từ vực sâu rơi ngược lên trời trước mắt ngươi. Nắm được quy luật đảo chiều, ngươi mở túi không gian chứa linh tài đã thất lạc.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "逆空飞石",
+        "text": "深渊中的石头竟向天空坠落。你掌握逆转规律，打开一个遗失的空间袋，取出其中保存的灵材。"
+      },
+      "en": {
+        "title": "The Stone That Fell Upward",
+        "text": "A stone falls upward from a deep chasm before your eyes. Understanding the reversal allows you to open a lost spatial pouch containing carefully preserved spiritual materials."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_void_refining_garden",
+    "category": "opportunity",
+    "title": "Vườn giữa hai tiếng chuông",
+    "text": "Giữa hai tiếng chuông, ngươi thoáng thấy khu vườn nằm ngoài sơn môn. Lần theo nếp gấp hư không, ngươi hái được linh quả trước khi cảnh vật khép lại.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "两声钟响间的花园",
+        "text": "两声钟响之间，山门外短暂浮现一座花园。你循着虚空褶皱进入，在景象闭合前采下一枚灵果。"
+      },
+      "en": {
+        "title": "The Garden Between Two Chimes",
+        "text": "Between two bell chimes, a garden briefly appears beyond the mountain gate. Following a fold in the void, you pick a spiritual fruit before the vision closes."
+      }
+    },
+    "effects": {
+      "cultivation": 16,
+      "resources": 20
+    }
+  },
+  {
+    "id": "treasure30_void_refining_chest",
+    "category": "opportunity",
+    "title": "Rương nằm ngoài khe nứt",
+    "text": "Một chiếc rương treo bên kia khe nứt không gian, khóa đã gãy. Ngươi có thể kéo nó về, nhưng mỗi lần chạm tới, khe nứt lại mở rộng thêm.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "裂隙外的宝箱",
+        "text": "空间裂隙另一侧悬着一只锁已断裂的宝箱。你可以尝试拉回它，但每次触碰都会使裂隙进一步扩大。"
+      },
+      "en": {
+        "title": "The Chest Beyond the Fissure",
+        "text": "An unlocked chest hangs beyond a spatial fissure. You could pull it closer, but every attempt to touch it makes the opening widen a little further."
+      }
+    },
+    "choices": [
+      {
+        "id": "claim",
+        "text": "Thử lấy cơ duyên",
+        "hint": "Có thể thu bảo vật hoặc chịu hiểm họa",
+        "translations": {
+          "zh": {
+            "text": "尝试夺取机缘",
+            "hint": "可能获得宝物，也可能遭遇危险"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Possible treasure or a dangerous setback"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Rương ngoài khe nứt thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "effects": {
+              "resources": 30,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你耐心辨认每一道征兆，在恰当时刻出手。裂隙外的宝箱最终归你所有，为接下来的修行提供珍贵助力。"
+              },
+              "en": {
+                "text": "You patiently examine every sign and act at the right moment. Claiming the chest beyond the fissure gives you valuable resources for the next stage of your cultivation."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Một lớp cấm chế ẩn bất ngờ bộc phát khi ngươi chạm tới rương ngoài khe nứt. Ngươi gắng rút lui, mất nhiều linh lực để giữ thương thế khỏi lan rộng.",
+            "effects": {
+              "health": -18,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你触及裂隙外的宝箱时，一层隐藏禁制突然爆发。你勉强退开，耗费大量灵力，才阻止伤势继续恶化。",
+                "endingReason": "死于守护裂隙外的宝箱的禁制伤势"
+              },
+              "en": {
+                "text": "A hidden restriction erupts as you reach for the chest beyond the fissure. You barely withdraw, spending considerable spiritual energy to keep your wounds from growing worse.",
+                "endingReason": "Fatal injuries from the restriction guarding the chest beyond the fissure"
+              }
+            },
+            "endingReason": "Thương tổn do cấm chế bảo vệ rương ngoài khe nứt"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Cấm chế khép lại quanh ngươi trước khi đường lui được mở. Ngươi dốc hết pháp lực nhưng không thoát nổi, bỏ mạng khi rương ngoài khe nứt vẫn còn trong tầm mắt.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "退路尚未打开，禁制便在你周围合拢。你耗尽法力仍无法脱身，最终死在裂隙外的宝箱近旁。",
+                "endingReason": "夺取裂隙外的宝箱时丧命"
+              },
+              "en": {
+                "text": "The restriction closes around you before an escape opens. You exhaust your spiritual power without breaking free, dying while the chest beyond the fissure remains within sight.",
+                "endingReason": "Died attempting to claim the chest beyond the fissure"
+              }
+            },
+            "endingReason": "Bỏ mạng khi tìm cách lấy rương ngoài khe nứt"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Ghi nhớ rồi rời đi",
+        "hint": "Bỏ cơ duyên, bảo toàn sức lực",
+        "translations": {
+          "zh": {
+            "text": "记下位置后离开",
+            "hint": "放弃机缘，保存实力"
+          },
+          "en": {
+            "text": "Remember the place and leave",
+            "hint": "Forgo the opportunity and preserve your strength"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi ghi nhớ những dấu hiệu quanh nơi này rồi lặng lẽ rời đi. Cơ duyên chưa thuộc về ngươi, nhưng chuyến đường phía trước vẫn còn nhiều điều để tìm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下此地的种种征兆，随后悄然离去。这份机缘暂时与你无缘，但前方旅途仍有许多值得探寻的事物。"
+              },
+              "en": {
+                "text": "You remember the signs surrounding this place and quietly depart. This opportunity remains unclaimed, but the road ahead still holds many other discoveries waiting for you."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "treasure30_void_refining_map",
+    "category": "opportunity",
+    "title": "Bản đồ dẫn khỏi thế giới",
+    "text": "Một người bán bản đồ chỉ ngươi lối tới kho báu ngoài rìa thế giới. Nét mực tự đổi hướng, còn người bán từ chối cùng ngươi bước qua cổng.",
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 80,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "通往界外的地图",
+        "text": "卖图人指给你一条通往世界边缘宝库的路线。墨迹自行改变方向，而卖图人拒绝陪你穿过门户。"
+      },
+      "en": {
+        "title": "The Map Beyond the World",
+        "text": "A map seller reveals a path to a vault beyond the world’s edge. Its ink keeps changing direction, and the seller refuses to accompany you through the gateway."
+      }
+    },
+    "choices": [
+      {
+        "id": "claim",
+        "text": "Thử lấy cơ duyên",
+        "hint": "Có thể thu bảo vật hoặc chịu hiểm họa",
+        "translations": {
+          "zh": {
+            "text": "尝试夺取机缘",
+            "hint": "可能获得宝物，也可能遭遇危险"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Possible treasure or a dangerous setback"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Kho báu ngoài rìa thế giới thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "effects": {
+              "resources": 30,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你耐心辨认每一道征兆，在恰当时刻出手。世界边缘的宝库最终归你所有，为接下来的修行提供珍贵助力。"
+              },
+              "en": {
+                "text": "You patiently examine every sign and act at the right moment. Claiming the vault beyond the world’s edge gives you valuable resources for the next stage of your cultivation."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Một lớp cấm chế ẩn bất ngờ bộc phát khi ngươi chạm tới kho báu ngoài rìa thế giới. Ngươi gắng rút lui, mất nhiều linh lực để giữ thương thế khỏi lan rộng.",
+            "effects": {
+              "health": -18,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你触及世界边缘的宝库时，一层隐藏禁制突然爆发。你勉强退开，耗费大量灵力，才阻止伤势继续恶化。",
+                "endingReason": "死于守护世界边缘的宝库的禁制伤势"
+              },
+              "en": {
+                "text": "A hidden restriction erupts as you reach for the vault beyond the world’s edge. You barely withdraw, spending considerable spiritual energy to keep your wounds from growing worse.",
+                "endingReason": "Fatal injuries from the restriction guarding the vault beyond the world’s edge"
+              }
+            },
+            "endingReason": "Thương tổn do cấm chế bảo vệ kho báu ngoài rìa thế giới"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Cấm chế khép lại quanh ngươi trước khi đường lui được mở. Ngươi dốc hết pháp lực nhưng không thoát nổi, bỏ mạng khi kho báu ngoài rìa thế giới vẫn còn trong tầm mắt.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "退路尚未打开，禁制便在你周围合拢。你耗尽法力仍无法脱身，最终死在世界边缘的宝库近旁。",
+                "endingReason": "夺取世界边缘的宝库时丧命"
+              },
+              "en": {
+                "text": "The restriction closes around you before an escape opens. You exhaust your spiritual power without breaking free, dying while the vault beyond the world’s edge remains within sight.",
+                "endingReason": "Died attempting to claim the vault beyond the world’s edge"
+              }
+            },
+            "endingReason": "Bỏ mạng khi tìm cách lấy kho báu ngoài rìa thế giới"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Ghi nhớ rồi rời đi",
+        "hint": "Bỏ cơ duyên, bảo toàn sức lực",
+        "translations": {
+          "zh": {
+            "text": "记下位置后离开",
+            "hint": "放弃机缘，保存实力"
+          },
+          "en": {
+            "text": "Remember the place and leave",
+            "hint": "Forgo the opportunity and preserve your strength"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi ghi nhớ những dấu hiệu quanh nơi này rồi lặng lẽ rời đi. Cơ duyên chưa thuộc về ngươi, nhưng chuyến đường phía trước vẫn còn nhiều điều để tìm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下此地的种种征兆，随后悄然离去。这份机缘暂时与你无缘，但前方旅途仍有许多值得探寻的事物。"
+              },
+              "en": {
+                "text": "You remember the signs surrounding this place and quietly depart. This opportunity remains unclaimed, but the road ahead still holds many other discoveries waiting for you."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_mahayana_gate",
+    "category": "opportunity",
+    "title": "Mảnh cửa sau thiên kiếp",
+    "text": "Trên đồng hoang từng chịu thiên kiếp, ngươi nhặt được mảnh cửa cháy đen. Dấu sét còn lưu trên đó giúp ngươi hiểu cách dẫn linh lực qua kinh mạch.",
+    "translations": {
+      "zh": {
+        "title": "天劫后的门片",
+        "text": "在曾遭天劫的荒原上，你拾到一片焦黑门板。残留雷痕让你领悟如何引导灵力穿过经脉。"
+      },
+      "en": {
+        "title": "A Gate Fragment After the Tribulation",
+        "text": "On a plain scarred by a heavenly tribulation, you find a charred gate fragment. Its lingering lightning marks reveal how to guide spiritual power through your meridians."
+      }
+    },
+    "allowedRealms": [
+      "mahayana"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_mahayana_river",
+    "category": "opportunity",
+    "title": "Dòng sông chờ vượt giới",
+    "text": "Một dòng sông đột ngột ngừng chảy khi ngươi đến gần bến cũ. Dưới đáy hiện những viên linh thạch được tiền nhân đặt sẵn cho người chuẩn bị phi thăng.",
+    "translations": {
+      "zh": {
+        "title": "等待渡界的河流",
+        "text": "你靠近旧渡口时，河水突然停止流动。河底显露出前人留给准备飞升者的一批灵石。"
+      },
+      "en": {
+        "title": "The River Awaiting Ascension",
+        "text": "A river suddenly stops flowing as you approach an old crossing. Stones appear along its bed, left by an earlier cultivator to support those preparing for ascension."
+      }
+    },
+    "allowedRealms": [
+      "mahayana"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_mahayana_kite",
+    "category": "opportunity",
+    "title": "Diều giấy vượt tầng gió",
+    "text": "Ngươi kéo xuống chiếc diều mắc giữa tầng cương phong. Trong khung tre là ghi chép về lần phi thăng thất bại, kèm túi linh tài chưa dùng hết.",
+    "translations": {
+      "zh": {
+        "title": "穿越风层的纸鸢",
+        "text": "你取下困在罡风层中的纸鸢。竹骨里藏着一次失败飞升的记录，以及尚未用完的灵材。"
+      },
+      "en": {
+        "title": "The Kite Above the Winds",
+        "text": "You retrieve a paper kite trapped among fierce upper winds. Its bamboo frame contains notes from a failed ascension and a pouch of unused spiritual materials."
+      }
+    },
+    "allowedRealms": [
+      "mahayana"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_mahayana_stair",
+    "category": "opportunity",
+    "title": "Bậc thềm còn thiếu",
+    "text": "Một bậc thềm treo giữa trời giữ hộp đan dược dành cho người vượt kiếp. Muốn chạm tới, ngươi phải đặt chân lên khoảng trống chưa biết có chịu lực.",
+    "translations": {
+      "zh": {
+        "title": "缺失的阶梯",
+        "text": "悬空阶梯上放着供渡劫者使用的丹药盒。想要触及它，你必须踏上一片不知能否承重的空隙。"
+      },
+      "en": {
+        "title": "The Missing Stair",
+        "text": "A suspended stair holds medicine intended for tribulation survivors. To reach it, you must step onto an empty stretch of sky that might not bear your weight."
+      }
+    },
+    "allowedRealms": [
+      "mahayana"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử nhận cơ duyên",
+        "hint": "Bảo vật quý, hiểm họa chưa rõ",
+        "translations": {
+          "zh": {
+            "text": "尝试接受机缘",
+            "hint": "宝物珍贵，危险尚不明确"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Valuable treasure, uncertain danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi chuẩn bị đường lui rồi từng bước hóa giải những ràng buộc quanh hộp đan vượt kiếp. Khi mọi dấu hiệu ổn định, ngươi nhận cơ duyên mà không gặp thêm trở ngại.",
+            "effects": {
+              "resources": 32,
+              "cultivation": 20
+            },
+            "translations": {
+              "zh": {
+                "text": "你先准备退路，再逐步化解渡劫丹药盒周围的束缚。待所有征兆稳定后，你顺利收下这份机缘。"
+              },
+              "en": {
+                "text": "You prepare an escape route and gradually unravel the bindings surrounding the tribulation medicine box. Once every sign settles, you claim the opportunity without further trouble."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Ràng buộc quanh hộp đan vượt kiếp bất ngờ siết chặt, hút tiên lực khỏi người ngươi. Ngươi cắt đứt liên hệ kịp lúc nhưng phải dưỡng thương trước khi lên đường.",
+            "effects": {
+              "health": -18,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "围绕渡劫丹药盒的束缚突然收紧，抽走你的仙力。你及时切断联系，却必须先养好伤势才能继续赶路。",
+                "endingReason": "接近渡劫丹药盒时仙力耗尽而亡"
+              },
+              "en": {
+                "text": "The bindings around the tribulation medicine box suddenly tighten and drain your power. You sever the connection in time, but must recover before continuing your journey.",
+                "endingReason": "Fatal exhaustion while approaching the tribulation medicine box"
+              }
+            },
+            "endingReason": "Tiên lực cạn kiệt khi tiếp cận hộp đan vượt kiếp"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ngươi nhận ra cái giá quá muộn khi ràng buộc đã bám vào tiên thể. Hộp đan vượt kiếp vẫn nguyên vẹn, còn tiên lực của ngươi bị rút đến tận cùng.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "束缚已经缠住仙体，你才明白代价。渡劫丹药盒仍完好无损，你的仙力却被彻底抽空，生命就此终结。",
+                "endingReason": "死于渡劫丹药盒的束缚"
+              },
+              "en": {
+                "text": "You realize the cost only after the bindings seize your immortal body. The tribulation medicine box remains intact while your power drains away completely and your life ends.",
+                "endingReason": "Killed by the bindings of the tribulation medicine box"
+              }
+            },
+            "endingReason": "Bỏ mạng vì ràng buộc của hộp đan vượt kiếp"
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Bỏ lại cơ duyên",
+        "hint": "Bảo toàn tiên lực, tiếp tục hành trình",
+        "translations": {
+          "zh": {
+            "text": "放弃这份机缘",
+            "hint": "保存仙力，继续旅途"
+          },
+          "en": {
+            "text": "Leave the opportunity behind",
+            "hint": "Preserve your power and continue traveling"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi nhìn kỹ hộp đan vượt kiếp lần cuối rồi rời khỏi nơi này. Không nhận thêm ràng buộc, ngươi giữ sức để tìm cơ duyên phù hợp hơn trên đường tu hành.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你最后看了一眼渡劫丹药盒，随后离开此地。没有背负新的束缚，你保存实力，继续寻找更合适的修行机缘。"
+              },
+              "en": {
+                "text": "You take one last look at the tribulation medicine box and depart. Free of new bindings, you conserve your strength to seek a more suitable cultivation opportunity elsewhere."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_true_immortal_dew",
+    "category": "opportunity",
+    "title": "Sương trên bia tiếp dẫn",
+    "text": "Ngươi lau lớp bụi trên bia tiếp dẫn bỏ hoang, để lộ dòng chữ cảm tạ. Sương tiên tụ lại trên mặt đá, giúp tiên thể thích nghi với vùng đất mới.",
+    "translations": {
+      "zh": {
+        "title": "接引碑上的露珠",
+        "text": "你拂去废弃接引碑上的灰尘，露出一行谢词。仙露在碑面凝聚，帮助仙体适应这片陌生天地。"
+      },
+      "en": {
+        "title": "Dew on the Welcoming Stele",
+        "text": "You clean dust from an abandoned welcoming stele, revealing words of gratitude. Immortal dew gathers upon the stone, helping your newly formed body adapt to unfamiliar surroundings."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_true_immortal_horse",
+    "category": "opportunity",
+    "title": "Ngựa đá nhớ đường",
+    "text": "Một con ngựa đá quay đầu mỗi khi ngươi nhắc đến cố hương. Lần theo hướng nó nhìn, ngươi tìm được kho tiên thạch của đoàn tiếp dẫn đã giải tán.",
+    "translations": {
+      "zh": {
+        "title": "记路的石马",
+        "text": "你提起故乡时，一匹石马便转过头去。沿着它凝望的方向，你找到已解散接引队留下的仙石库。"
+      },
+      "en": {
+        "title": "The Stone Horse’s Memory",
+        "text": "A stone horse turns its head whenever you mention home. Following its gaze leads you to immortal stones left by a welcoming caravan that dissolved long ago."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_true_immortal_thread",
+    "category": "opportunity",
+    "title": "Sợi chỉ vá tiên bào",
+    "text": "Một người thợ nhờ ngươi gỡ sợi chỉ mắc trong khe tiên khí. Đổi lại, ông vá áo cho ngươi và tặng đoạn tơ giúp ổn định dòng tiên lực.",
+    "translations": {
+      "zh": {
+        "title": "修补仙袍的丝线",
+        "text": "匠人请你解开卡在仙气裂隙中的丝线。作为回报，他修好你的衣袍，并赠你一段能稳定仙力的丝。"
+      },
+      "en": {
+        "title": "Thread for an Immortal Robe",
+        "text": "A craftsman asks you to untangle thread caught in a spiritual fissure. In thanks, he repairs your robe and gives you silk that steadies your immortal power."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_true_immortal_coin",
+    "category": "opportunity",
+    "title": "Đồng tiền gọi người mở kho",
+    "text": "Đồng tiền nhặt được nóng lên khi ngươi đi qua kho tiên đóng cửa. Người giữ kho hứa cho chọn bảo vật nếu ngươi chịu đứng tên một khế ước lạ.",
+    "translations": {
+      "zh": {
+        "title": "召唤开库人的钱币",
+        "text": "拾来的钱币在仙库门前发热。守库人答应让你挑选宝物，条件是在一份陌生契约上留下姓名。"
+      },
+      "en": {
+        "title": "The Coin That Summons a Keeper",
+        "text": "A found coin warms as you pass a sealed immortal vault. Its keeper offers you a treasure if you agree to sign your name upon an unfamiliar contract."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử nhận cơ duyên",
+        "hint": "Bảo vật quý, hiểm họa chưa rõ",
+        "translations": {
+          "zh": {
+            "text": "尝试接受机缘",
+            "hint": "宝物珍贵，危险尚不明确"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Valuable treasure, uncertain danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi chuẩn bị đường lui rồi từng bước hóa giải những ràng buộc quanh bảo vật trong tiên kho. Khi mọi dấu hiệu ổn định, ngươi nhận cơ duyên mà không gặp thêm trở ngại.",
+            "effects": {
+              "resources": 32,
+              "cultivation": 20
+            },
+            "translations": {
+              "zh": {
+                "text": "你先准备退路，再逐步化解仙库宝物周围的束缚。待所有征兆稳定后，你顺利收下这份机缘。"
+              },
+              "en": {
+                "text": "You prepare an escape route and gradually unravel the bindings surrounding the treasure in the immortal vault. Once every sign settles, you claim the opportunity without further trouble."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Ràng buộc quanh bảo vật trong tiên kho bất ngờ siết chặt, hút tiên lực khỏi người ngươi. Ngươi cắt đứt liên hệ kịp lúc nhưng phải dưỡng thương trước khi lên đường.",
+            "effects": {
+              "health": -18,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "围绕仙库宝物的束缚突然收紧，抽走你的仙力。你及时切断联系，却必须先养好伤势才能继续赶路。",
+                "endingReason": "接近仙库宝物时仙力耗尽而亡"
+              },
+              "en": {
+                "text": "The bindings around the treasure in the immortal vault suddenly tighten and drain your power. You sever the connection in time, but must recover before continuing your journey.",
+                "endingReason": "Fatal exhaustion while approaching the treasure in the immortal vault"
+              }
+            },
+            "endingReason": "Tiên lực cạn kiệt khi tiếp cận bảo vật trong tiên kho"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ngươi nhận ra cái giá quá muộn khi ràng buộc đã bám vào tiên thể. Bảo vật trong tiên kho vẫn nguyên vẹn, còn tiên lực của ngươi bị rút đến tận cùng.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "束缚已经缠住仙体，你才明白代价。仙库宝物仍完好无损，你的仙力却被彻底抽空，生命就此终结。",
+                "endingReason": "死于仙库宝物的束缚"
+              },
+              "en": {
+                "text": "You realize the cost only after the bindings seize your immortal body. The treasure in the immortal vault remains intact while your power drains away completely and your life ends.",
+                "endingReason": "Killed by the bindings of the treasure in the immortal vault"
+              }
+            },
+            "endingReason": "Bỏ mạng vì ràng buộc của bảo vật trong tiên kho"
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Bỏ lại cơ duyên",
+        "hint": "Bảo toàn tiên lực, tiếp tục hành trình",
+        "translations": {
+          "zh": {
+            "text": "放弃这份机缘",
+            "hint": "保存仙力，继续旅途"
+          },
+          "en": {
+            "text": "Leave the opportunity behind",
+            "hint": "Preserve your power and continue traveling"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi nhìn kỹ bảo vật trong tiên kho lần cuối rồi rời khỏi nơi này. Không nhận thêm ràng buộc, ngươi giữ sức để tìm cơ duyên phù hợp hơn trên đường tu hành.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你最后看了一眼仙库宝物，随后离开此地。没有背负新的束缚，你保存实力，继续寻找更合适的修行机缘。"
+              },
+              "en": {
+                "text": "You take one last look at the treasure in the immortal vault and depart. Free of new bindings, you conserve your strength to seek a more suitable cultivation opportunity elsewhere."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_golden_immortal_leaf",
+    "category": "opportunity",
+    "title": "Lá vàng không chịu rụng",
+    "text": "Ngươi thấy chiếc lá vàng đứng yên trên cành giữa bão lớn. Quan sát đường vận chuyển tiên khí quanh nó, ngươi hiểu thêm cách giữ tiên thể vững chắc.",
+    "translations": {
+      "zh": {
+        "title": "不落的金叶",
+        "text": "狂风中，一片金叶始终稳在枝头。观察周围仙气的流转，你进一步领悟了稳固仙体的方法。"
+      },
+      "en": {
+        "title": "The Golden Leaf That Would Not Fall",
+        "text": "A golden leaf remains motionless on its branch during a violent storm. Studying the immortal energy around it teaches you another way to strengthen your enduring body."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_golden_immortal_scale",
+    "category": "opportunity",
+    "title": "Vảy rồng dưới mái chợ",
+    "text": "Một thương nhân dùng vảy rồng làm miếng chặn mái dột mà không biết giá trị. Ngươi đổi vật liệu mới, rồi dùng chiếc vảy luyện thêm linh tài.",
+    "translations": {
+      "zh": {
+        "title": "市棚下的龙鳞",
+        "text": "商人不知龙鳞价值，用它堵住棚顶漏水处。你以新材料交换，随后将龙鳞炼成修行所需的灵材。"
+      },
+      "en": {
+        "title": "A Dragon Scale Above the Market",
+        "text": "An unaware merchant uses a dragon scale to patch his leaking roof. You exchange proper building materials for it and refine the scale into useful cultivation resources."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_golden_immortal_sand",
+    "category": "opportunity",
+    "title": "Cát lưu dưới đồng hồ vỡ",
+    "text": "Chiếc đồng hồ cổ vỡ đôi vẫn giữ cát lơ lửng giữa lòng. Ngươi khôi phục một phù văn, nhận lượng tiên khí tích tụ suốt thời gian nó ngừng chạy.",
+    "translations": {
+      "zh": {
+        "title": "破钟下的流沙",
+        "text": "断成两半的古钟仍悬着一团沙粒。你修复一道符文，吸收它停转期间积蓄的仙气。"
+      },
+      "en": {
+        "title": "Sand Beneath the Broken Clock",
+        "text": "A broken ancient clock holds sand suspended inside its frame. Repairing one inscription releases immortal energy that accumulated throughout the long years when its mechanism stood still."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_golden_immortal_tomb",
+    "category": "opportunity",
+    "title": "Mộ chỉ mở một lần",
+    "text": "Tấm bia trước mộ tiên ghi cửa chỉ mở một lần mỗi vạn năm. Bên trong có khí tức bảo vật, nhưng người mở cửa phải để lại một giọt tinh huyết.",
+    "translations": {
+      "zh": {
+        "title": "只开一次的墓",
+        "text": "仙墓碑文写着墓门每万年只开一次。墓内散发宝物气息，但开门者必须留下一滴精血。"
+      },
+      "en": {
+        "title": "The Tomb That Opens Once",
+        "text": "An immortal tomb opens only once every ten thousand years, according to its stele. Treasure waits inside, but opening the entrance requires a drop of your vital blood."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử nhận cơ duyên",
+        "hint": "Bảo vật quý, hiểm họa chưa rõ",
+        "translations": {
+          "zh": {
+            "text": "尝试接受机缘",
+            "hint": "宝物珍贵，危险尚不明确"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Valuable treasure, uncertain danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi chuẩn bị đường lui rồi từng bước hóa giải những ràng buộc quanh bảo vật trong tiên mộ. Khi mọi dấu hiệu ổn định, ngươi nhận cơ duyên mà không gặp thêm trở ngại.",
+            "effects": {
+              "resources": 32,
+              "cultivation": 20
+            },
+            "translations": {
+              "zh": {
+                "text": "你先准备退路，再逐步化解仙墓宝物周围的束缚。待所有征兆稳定后，你顺利收下这份机缘。"
+              },
+              "en": {
+                "text": "You prepare an escape route and gradually unravel the bindings surrounding the treasure within the immortal tomb. Once every sign settles, you claim the opportunity without further trouble."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Ràng buộc quanh bảo vật trong tiên mộ bất ngờ siết chặt, hút tiên lực khỏi người ngươi. Ngươi cắt đứt liên hệ kịp lúc nhưng phải dưỡng thương trước khi lên đường.",
+            "effects": {
+              "health": -18,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "围绕仙墓宝物的束缚突然收紧，抽走你的仙力。你及时切断联系，却必须先养好伤势才能继续赶路。",
+                "endingReason": "接近仙墓宝物时仙力耗尽而亡"
+              },
+              "en": {
+                "text": "The bindings around the treasure within the immortal tomb suddenly tighten and drain your power. You sever the connection in time, but must recover before continuing your journey.",
+                "endingReason": "Fatal exhaustion while approaching the treasure within the immortal tomb"
+              }
+            },
+            "endingReason": "Tiên lực cạn kiệt khi tiếp cận bảo vật trong tiên mộ"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ngươi nhận ra cái giá quá muộn khi ràng buộc đã bám vào tiên thể. Bảo vật trong tiên mộ vẫn nguyên vẹn, còn tiên lực của ngươi bị rút đến tận cùng.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "束缚已经缠住仙体，你才明白代价。仙墓宝物仍完好无损，你的仙力却被彻底抽空，生命就此终结。",
+                "endingReason": "死于仙墓宝物的束缚"
+              },
+              "en": {
+                "text": "You realize the cost only after the bindings seize your immortal body. The treasure within the immortal tomb remains intact while your power drains away completely and your life ends.",
+                "endingReason": "Killed by the bindings of the treasure within the immortal tomb"
+              }
+            },
+            "endingReason": "Bỏ mạng vì ràng buộc của bảo vật trong tiên mộ"
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Bỏ lại cơ duyên",
+        "hint": "Bảo toàn tiên lực, tiếp tục hành trình",
+        "translations": {
+          "zh": {
+            "text": "放弃这份机缘",
+            "hint": "保存仙力，继续旅途"
+          },
+          "en": {
+            "text": "Leave the opportunity behind",
+            "hint": "Preserve your power and continue traveling"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi nhìn kỹ bảo vật trong tiên mộ lần cuối rồi rời khỏi nơi này. Không nhận thêm ràng buộc, ngươi giữ sức để tìm cơ duyên phù hợp hơn trên đường tu hành.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你最后看了一眼仙墓宝物，随后离开此地。没有背负新的束缚，你保存实力，继续寻找更合适的修行机缘。"
+              },
+              "en": {
+                "text": "You take one last look at the treasure within the immortal tomb and depart. Free of new bindings, you conserve your strength to seek a more suitable cultivation opportunity elsewhere."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_mystic_immortal_ink",
+    "category": "opportunity",
+    "title": "Mực chảy ngược nét bút",
+    "text": "Trong thư các hoang, ngươi thấy mực chạy ngược trên một trang kinh. Đọc từ cuối lên đầu, ngươi lĩnh hội cách phân biệt thật giả giữa huyền cảnh.",
+    "translations": {
+      "zh": {
+        "title": "逆行的墨迹",
+        "text": "荒废书阁里，一页经文的墨迹逆向流动。你从末尾倒读，领悟了辨别玄境真伪的方法。"
+      },
+      "en": {
+        "title": "Ink Against the Brushstroke",
+        "text": "Inside a deserted library, ink flows backward across a scripture. Reading from its ending reveals a method for distinguishing reality from deceptive visions within mysterious realms."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_mystic_immortal_orchard",
+    "category": "opportunity",
+    "title": "Quả chín trong bóng cây",
+    "text": "Cây tiên đã khô nhưng bóng dưới đất vẫn trĩu quả. Ngươi nhận ra huyền cơ đảo bóng, thu một quả chín khi nắng chiều chạm đúng vị trí.",
+    "translations": {
+      "zh": {
+        "title": "树影中的熟果",
+        "text": "仙树早已枯死，地上的树影却挂满果实。你看破倒影玄妙，在夕阳照到准确位置时取下一枚熟果。"
+      },
+      "en": {
+        "title": "Fruit Ripening in a Shadow",
+        "text": "An immortal tree has withered, yet its shadow remains heavy with fruit. Understanding the reversed projection lets you harvest one when evening sunlight reaches the right angle."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_mystic_immortal_needle",
+    "category": "opportunity",
+    "title": "Kim chỉ hướng chưa đến",
+    "text": "Chiếc kim la bàn luôn chỉ vào khoảng không phía trước ngươi. Khi đứng yên đủ lâu, ngươi thấy tiên khí kết thành tinh thể tại điểm nó hướng tới.",
+    "translations": {
+      "zh": {
+        "title": "指向未至之地的针",
+        "text": "罗盘指针始终指着你前方的空处。静候良久，你发现仙气在它所指的位置凝成晶体。"
+      },
+      "en": {
+        "title": "The Needle Pointing Elsewhere",
+        "text": "A compass needle points into empty space ahead of you. Waiting patiently reveals immortal energy slowly crystallizing at that exact location, offering an unexpected source of cultivation resources."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_mystic_immortal_voice",
+    "category": "opportunity",
+    "title": "Tiếng nói trong ngọc rỗng",
+    "text": "Khối ngọc rỗng xin ngươi đập vỡ lớp vỏ để giải thoát người bên trong. Giọng nói hứa truyền huyền pháp, nhưng nhịp tiên khí quanh ngọc khiến ngươi bất an.",
+    "translations": {
+      "zh": {
+        "title": "空玉中的声音",
+        "text": "空心玉石请求你击碎外壳，释放其中之人。声音承诺传授玄法，但玉石周围的仙气波动让你不安。"
+      },
+      "en": {
+        "title": "A Voice Inside Hollow Jade",
+        "text": "A hollow jade asks you to break its shell and free the captive within. The voice promises mysterious teachings, yet the surrounding immortal energy feels deeply unsettling."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử nhận cơ duyên",
+        "hint": "Bảo vật quý, hiểm họa chưa rõ",
+        "translations": {
+          "zh": {
+            "text": "尝试接受机缘",
+            "hint": "宝物珍贵，危险尚不明确"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Valuable treasure, uncertain danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi chuẩn bị đường lui rồi từng bước hóa giải những ràng buộc quanh huyền pháp trong ngọc. Khi mọi dấu hiệu ổn định, ngươi nhận cơ duyên mà không gặp thêm trở ngại.",
+            "effects": {
+              "resources": 32,
+              "cultivation": 20
+            },
+            "translations": {
+              "zh": {
+                "text": "你先准备退路，再逐步化解玉中玄法周围的束缚。待所有征兆稳定后，你顺利收下这份机缘。"
+              },
+              "en": {
+                "text": "You prepare an escape route and gradually unravel the bindings surrounding the teachings within the hollow jade. Once every sign settles, you claim the opportunity without further trouble."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Ràng buộc quanh huyền pháp trong ngọc bất ngờ siết chặt, hút tiên lực khỏi người ngươi. Ngươi cắt đứt liên hệ kịp lúc nhưng phải dưỡng thương trước khi lên đường.",
+            "effects": {
+              "health": -18,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "围绕玉中玄法的束缚突然收紧，抽走你的仙力。你及时切断联系，却必须先养好伤势才能继续赶路。",
+                "endingReason": "接近玉中玄法时仙力耗尽而亡"
+              },
+              "en": {
+                "text": "The bindings around the teachings within the hollow jade suddenly tighten and drain your power. You sever the connection in time, but must recover before continuing your journey.",
+                "endingReason": "Fatal exhaustion while approaching the teachings within the hollow jade"
+              }
+            },
+            "endingReason": "Tiên lực cạn kiệt khi tiếp cận huyền pháp trong ngọc"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ngươi nhận ra cái giá quá muộn khi ràng buộc đã bám vào tiên thể. Huyền pháp trong ngọc vẫn nguyên vẹn, còn tiên lực của ngươi bị rút đến tận cùng.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "束缚已经缠住仙体，你才明白代价。玉中玄法仍完好无损，你的仙力却被彻底抽空，生命就此终结。",
+                "endingReason": "死于玉中玄法的束缚"
+              },
+              "en": {
+                "text": "You realize the cost only after the bindings seize your immortal body. The teachings within the hollow jade remains intact while your power drains away completely and your life ends.",
+                "endingReason": "Killed by the bindings of the teachings within the hollow jade"
+              }
+            },
+            "endingReason": "Bỏ mạng vì ràng buộc của huyền pháp trong ngọc"
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Bỏ lại cơ duyên",
+        "hint": "Bảo toàn tiên lực, tiếp tục hành trình",
+        "translations": {
+          "zh": {
+            "text": "放弃这份机缘",
+            "hint": "保存仙力，继续旅途"
+          },
+          "en": {
+            "text": "Leave the opportunity behind",
+            "hint": "Preserve your power and continue traveling"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi nhìn kỹ huyền pháp trong ngọc lần cuối rồi rời khỏi nơi này. Không nhận thêm ràng buộc, ngươi giữ sức để tìm cơ duyên phù hợp hơn trên đường tu hành.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你最后看了一眼玉中玄法，随后离开此地。没有背负新的束缚，你保存实力，继续寻找更合适的修行机缘。"
+              },
+              "en": {
+                "text": "You take one last look at the teachings within the hollow jade and depart. Free of new bindings, you conserve your strength to seek a more suitable cultivation opportunity elsewhere."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_immortal_king_seal",
+    "category": "opportunity",
+    "title": "Ấn tín của thành đã mất",
+    "text": "Ngươi nhặt ấn tín giữa tàn tích thành trì bị xóa khỏi bản đồ. Đặt nó lên nền điện cũ, ngươi mở được kho linh tài dành cho việc tái thiết.",
+    "translations": {
+      "zh": {
+        "title": "失落城池的印信",
+        "text": "你在地图上已消失的城池废墟中拾到印信。将它放上旧殿基座，便开启了储存重建灵材的仓库。"
+      },
+      "en": {
+        "title": "The Seal of a Lost City",
+        "text": "You discover a seal in the ruins of a city erased from maps. Placing it upon the old palace foundation opens a storehouse of materials reserved for rebuilding."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_immortal_king_rain",
+    "category": "opportunity",
+    "title": "Mưa trên lãnh địa khô cạn",
+    "text": "Ngươi dẫn tiên khí cho một vùng đất khô cạn được mưa trở lại. Địa mạch hồi sinh, đẩy lên những viên tinh thạch từng bị vùi dưới tầng tro cổ.",
+    "translations": {
+      "zh": {
+        "title": "枯地上的雨",
+        "text": "你引导仙气，让干涸之地重新降雨。复苏的地脉将埋在古老灰层下的晶石推上地面。"
+      },
+      "en": {
+        "title": "Rain Upon the Barren Domain",
+        "text": "You guide immortal energy across a barren region, bringing rain back to its soil. Reviving earth veins uncover crystals that had lain buried beneath ancient layers of ash."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_immortal_king_chess",
+    "category": "opportunity",
+    "title": "Quân cờ giữ sơn hà",
+    "text": "Một bàn cờ đá bỏ dở phản chiếu sông núi quanh vùng. Ngươi đặt lại quân cờ rơi, khiến linh mạch thông suốt và nhận tiên khí từ thế trận hồi phục.",
+    "translations": {
+      "zh": {
+        "title": "守护山河的棋子",
+        "text": "未完的石棋局映照着周围山河。你放回掉落的棋子，疏通灵脉，并吸收棋阵恢复时释放的仙气。"
+      },
+      "en": {
+        "title": "The Chess Piece Guarding the Land",
+        "text": "An unfinished stone chessboard reflects the surrounding mountains and rivers. Returning a fallen piece restores blocked spiritual veins and releases immortal energy from the recovered formation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_immortal_king_banner",
+    "category": "opportunity",
+    "title": "Cờ giữ cửa vương đình",
+    "text": "Cờ trấn giới vẫn bay trước vương đình không còn chủ nhân. Muốn nhận bảo vật, ngươi phải bước vào trận thử sức đã từng nghiền nát nhiều tiên thể.",
+    "translations": {
+      "zh": {
+        "title": "镇守王庭的旗",
+        "text": "无主王庭前，镇界旗仍在飘扬。想要取走宝物，你必须进入一座曾碾碎众多仙体的试炼阵。"
+      },
+      "en": {
+        "title": "The Banner Guarding the Royal Court",
+        "text": "A realm guarding banner still flies before an abandoned royal court. Claiming it requires entering a trial formation that has already crushed the bodies of many immortals."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử nhận cơ duyên",
+        "hint": "Bảo vật quý, hiểm họa chưa rõ",
+        "translations": {
+          "zh": {
+            "text": "尝试接受机缘",
+            "hint": "宝物珍贵，危险尚不明确"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Valuable treasure, uncertain danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi chuẩn bị đường lui rồi từng bước hóa giải những ràng buộc quanh cờ trấn giới. Khi mọi dấu hiệu ổn định, ngươi nhận cơ duyên mà không gặp thêm trở ngại.",
+            "effects": {
+              "resources": 32,
+              "cultivation": 20
+            },
+            "translations": {
+              "zh": {
+                "text": "你先准备退路，再逐步化解镇界旗周围的束缚。待所有征兆稳定后，你顺利收下这份机缘。"
+              },
+              "en": {
+                "text": "You prepare an escape route and gradually unravel the bindings surrounding the realm guarding banner. Once every sign settles, you claim the opportunity without further trouble."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Ràng buộc quanh cờ trấn giới bất ngờ siết chặt, hút tiên lực khỏi người ngươi. Ngươi cắt đứt liên hệ kịp lúc nhưng phải dưỡng thương trước khi lên đường.",
+            "effects": {
+              "health": -18,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "围绕镇界旗的束缚突然收紧，抽走你的仙力。你及时切断联系，却必须先养好伤势才能继续赶路。",
+                "endingReason": "接近镇界旗时仙力耗尽而亡"
+              },
+              "en": {
+                "text": "The bindings around the realm guarding banner suddenly tighten and drain your power. You sever the connection in time, but must recover before continuing your journey.",
+                "endingReason": "Fatal exhaustion while approaching the realm guarding banner"
+              }
+            },
+            "endingReason": "Tiên lực cạn kiệt khi tiếp cận cờ trấn giới"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ngươi nhận ra cái giá quá muộn khi ràng buộc đã bám vào tiên thể. Cờ trấn giới vẫn nguyên vẹn, còn tiên lực của ngươi bị rút đến tận cùng.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "束缚已经缠住仙体，你才明白代价。镇界旗仍完好无损，你的仙力却被彻底抽空，生命就此终结。",
+                "endingReason": "死于镇界旗的束缚"
+              },
+              "en": {
+                "text": "You realize the cost only after the bindings seize your immortal body. The realm guarding banner remains intact while your power drains away completely and your life ends.",
+                "endingReason": "Killed by the bindings of the realm guarding banner"
+              }
+            },
+            "endingReason": "Bỏ mạng vì ràng buộc của cờ trấn giới"
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Bỏ lại cơ duyên",
+        "hint": "Bảo toàn tiên lực, tiếp tục hành trình",
+        "translations": {
+          "zh": {
+            "text": "放弃这份机缘",
+            "hint": "保存仙力，继续旅途"
+          },
+          "en": {
+            "text": "Leave the opportunity behind",
+            "hint": "Preserve your power and continue traveling"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi nhìn kỹ cờ trấn giới lần cuối rồi rời khỏi nơi này. Không nhận thêm ràng buộc, ngươi giữ sức để tìm cơ duyên phù hợp hơn trên đường tu hành.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你最后看了一眼镇界旗，随后离开此地。没有背负新的束缚，你保存实力，继续寻找更合适的修行机缘。"
+              },
+              "en": {
+                "text": "You take one last look at the realm guarding banner and depart. Free of new bindings, you conserve your strength to seek a more suitable cultivation opportunity elsewhere."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ascendant30_immortal_emperor_star",
+    "category": "opportunity",
+    "title": "Hạt sao trong lò tắt",
+    "text": "Một lò luyện đã tắt qua nhiều kỷ nguyên còn giữ hạt sao chưa thành hình. Ngươi điều hòa tiên khí quanh lò, thu tinh hoa sót lại từ lần luyện cuối.",
+    "translations": {
+      "zh": {
+        "title": "熄炉中的星种",
+        "text": "熄灭多个纪元的炼炉仍留着一枚未成形的星种。你调和炉边仙气，收取最后一次炼制残留的精华。"
+      },
+      "en": {
+        "title": "A Star Seed in the Cold Furnace",
+        "text": "A furnace cold for many eras still holds an unfinished star seed. Harmonizing the energy around it lets you gather essence left from its final act of creation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_immortal_emperor_page",
+    "category": "opportunity",
+    "title": "Trang sách sống qua kỷ nguyên",
+    "text": "Giữa tro tàn thế giới cũ, một trang sách vẫn tự lật theo gió. Ngươi đọc lời ghi về sai lầm của tiền nhân, rút được cảm ngộ cho đại đạo.",
+    "translations": {
+      "zh": {
+        "title": "历经纪元的书页",
+        "text": "旧世界的灰烬中，一页书仍随风自行翻动。你读到前人记下的错误，从中获得新的大道感悟。"
+      },
+      "en": {
+        "title": "The Page That Survived an Era",
+        "text": "Among the ashes of an old world, a single page still turns with the wind. Reading an earlier cultivator’s recorded mistakes brings fresh insight into the great path."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_immortal_emperor_orchid",
+    "category": "opportunity",
+    "title": "Lan nở trên vết giới thương",
+    "text": "Tại vết nứt của một thế giới đang hồi phục, ngươi thấy hoa lan mọc rễ. Ngươi giúp nối lại địa mạch, nhận hạt giống kết tinh từ sinh khí tái sinh.",
+    "translations": {
+      "zh": {
+        "title": "界伤上盛开的兰花",
+        "text": "一方世界正在愈合的裂口上，兰花扎下了根。你协助接续地脉，得到一枚由新生生机凝结的种子。"
+      },
+      "en": {
+        "title": "An Orchid Upon a World’s Wound",
+        "text": "An orchid roots itself upon a healing wound in a damaged world. Helping reconnect its earth veins earns you a seed condensed from the returning breath of life."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "cultivation": 18,
+      "resources": 22
+    }
+  },
+  {
+    "id": "ascendant30_immortal_emperor_ember",
+    "category": "opportunity",
+    "title": "Tàn lửa mở kỷ nguyên",
+    "text": "Tàn lửa của kỷ nguyên trước nằm trong lòng một ngôi sao chết. Ngươi có thể lấy nó luyện bảo vật, nhưng phong ấn cảnh báo lửa sẽ tìm người nuôi dưỡng.",
+    "translations": {
+      "zh": {
+        "title": "开启纪元的余火",
+        "text": "上个纪元的余火藏在死星核心。你可取它炼宝，但封印警告，这团火会寻找供养它的人。"
+      },
+      "en": {
+        "title": "The Ember That Opens an Era",
+        "text": "An ember from the previous era rests inside a dead star. You could use it to forge a treasure, but its seal warns that the flame demands a keeper."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 5,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử nhận cơ duyên",
+        "hint": "Bảo vật quý, hiểm họa chưa rõ",
+        "translations": {
+          "zh": {
+            "text": "尝试接受机缘",
+            "hint": "宝物珍贵，危险尚不明确"
+          },
+          "en": {
+            "text": "Attempt to claim the opportunity",
+            "hint": "Valuable treasure, uncertain danger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "gain",
+            "weight": 5,
+            "text": "Ngươi chuẩn bị đường lui rồi từng bước hóa giải những ràng buộc quanh tàn lửa kỷ nguyên. Khi mọi dấu hiệu ổn định, ngươi nhận cơ duyên mà không gặp thêm trở ngại.",
+            "effects": {
+              "resources": 32,
+              "cultivation": 20
+            },
+            "translations": {
+              "zh": {
+                "text": "你先准备退路，再逐步化解纪元余火周围的束缚。待所有征兆稳定后，你顺利收下这份机缘。"
+              },
+              "en": {
+                "text": "You prepare an escape route and gradually unravel the bindings surrounding the ember from the previous era. Once every sign settles, you claim the opportunity without further trouble."
+              }
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 3,
+            "text": "Ràng buộc quanh tàn lửa kỷ nguyên bất ngờ siết chặt, hút tiên lực khỏi người ngươi. Ngươi cắt đứt liên hệ kịp lúc nhưng phải dưỡng thương trước khi lên đường.",
+            "effects": {
+              "health": -18,
+              "resources": -10
+            },
+            "translations": {
+              "zh": {
+                "text": "围绕纪元余火的束缚突然收紧，抽走你的仙力。你及时切断联系，却必须先养好伤势才能继续赶路。",
+                "endingReason": "接近纪元余火时仙力耗尽而亡"
+              },
+              "en": {
+                "text": "The bindings around the ember from the previous era suddenly tighten and drain your power. You sever the connection in time, but must recover before continuing your journey.",
+                "endingReason": "Fatal exhaustion while approaching the ember from the previous era"
+              }
+            },
+            "endingReason": "Tiên lực cạn kiệt khi tiếp cận tàn lửa kỷ nguyên"
+          },
+          {
+            "id": "death",
+            "weight": 1,
+            "text": "Ngươi nhận ra cái giá quá muộn khi ràng buộc đã bám vào tiên thể. Tàn lửa kỷ nguyên vẫn nguyên vẹn, còn tiên lực của ngươi bị rút đến tận cùng.",
+            "effects": {
+              "death": true
+            },
+            "translations": {
+              "zh": {
+                "text": "束缚已经缠住仙体，你才明白代价。纪元余火仍完好无损，你的仙力却被彻底抽空，生命就此终结。",
+                "endingReason": "死于纪元余火的束缚"
+              },
+              "en": {
+                "text": "You realize the cost only after the bindings seize your immortal body. The ember from the previous era remains intact while your power drains away completely and your life ends.",
+                "endingReason": "Killed by the bindings of the ember from the previous era"
+              }
+            },
+            "endingReason": "Bỏ mạng vì ràng buộc của tàn lửa kỷ nguyên"
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Bỏ lại cơ duyên",
+        "hint": "Bảo toàn tiên lực, tiếp tục hành trình",
+        "translations": {
+          "zh": {
+            "text": "放弃这份机缘",
+            "hint": "保存仙力，继续旅途"
+          },
+          "en": {
+            "text": "Leave the opportunity behind",
+            "hint": "Preserve your power and continue traveling"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi nhìn kỹ tàn lửa kỷ nguyên lần cuối rồi rời khỏi nơi này. Không nhận thêm ràng buộc, ngươi giữ sức để tìm cơ duyên phù hợp hơn trên đường tu hành.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你最后看了一眼纪元余火，随后离开此地。没有背负新的束缚，你保存实力，继续寻找更合适的修行机缘。"
+              },
+              "en": {
+                "text": "You take one last look at the ember from the previous era and depart. Free of new bindings, you conserve your strength to seek a more suitable cultivation opportunity elsewhere."
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

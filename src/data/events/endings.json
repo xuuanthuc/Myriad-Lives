@@ -6,5 +6,395 @@
   {
     "id": "ascend",
     "text": "Ở đỉnh Tiên Đế, ngươi vượt qua bình cảnh cuối cùng và chứng thành đại đạo. Một đời cầu đạo khép lại, tên ngươi còn lưu giữa vạn giới."
+  },
+  {
+    "id": "ending_age_lamp",
+    "kind": "age",
+    "text": "Ngọn đèn trước mắt vẫn cháy, nhưng hơi thở của ngươi chậm dần khi thọ nguyên cạn. Những năm tháng cầu đạo lặng lẽ khép lại trong khoảng sáng nhỏ ấy.",
+    "translations": {
+      "zh": {
+        "text": "眼前的灯仍亮着，寿元耗尽的你却渐渐放缓呼吸。漫长求道岁月，在这一小片灯光中悄然落幕。"
+      },
+      "en": {
+        "text": "The lamp before you still burns, but your breathing slows as your lifespan ends. Long years of seeking the Dao quietly close within that small circle of light."
+      }
+    }
+  },
+  {
+    "id": "ending_age_wind",
+    "kind": "age",
+    "text": "Thọ nguyên đã đến tận cùng, ngươi nghe gió lướt qua như bao ngày trước. Đất trời vẫn vận chuyển, chỉ hành trình của ngươi dừng lại giữa một khoảnh khắc bình thường.",
+    "translations": {
+      "zh": {
+        "text": "寿元已到尽头，你听见风像往日一样掠过。天地依然运行，只有你的旅途停在一个平凡瞬间。"
+      },
+      "en": {
+        "text": "Your lifespan reaches its end as the wind passes just as it always has. The world continues turning, while your journey stops within an otherwise ordinary moment."
+      }
+    }
+  },
+  {
+    "id": "ending_age_book",
+    "kind": "age",
+    "text": "Ngươi không còn đủ thọ nguyên để đọc hết trang sách đang mở. Đầu ngón tay dừng trên nét mực, để lại những điều chưa hiểu cho người đến sau tiếp tục tìm.",
+    "translations": {
+      "zh": {
+        "text": "寿元不足以让你读完眼前的书页。指尖停在墨迹上，将尚未明白的问题留给后来人继续探寻。"
+      },
+      "en": {
+        "text": "Your remaining lifespan cannot carry you through the open page. A fingertip rests upon the ink, leaving its unanswered questions for those who come after you."
+      }
+    }
+  },
+  {
+    "id": "ending_age_dawn",
+    "kind": "age",
+    "text": "Buổi sáng cuối cùng đến mà không có điềm báo nào khác lạ. Thọ nguyên cạn, ngươi khép mắt giữa ánh ngày mới, để tiên lộ dừng ở nơi đã tới.",
+    "translations": {
+      "zh": {
+        "text": "最后一个清晨没有带来异样征兆。寿元耗尽，你在新日光中闭眼，让仙途停在已经走到的地方。"
+      },
+      "en": {
+        "text": "Your final morning arrives without an unusual omen. With your lifespan exhausted, you close your eyes in fresh daylight, allowing your path to end where it has reached."
+      }
+    }
+  },
+  {
+    "id": "ending_age_season",
+    "kind": "age",
+    "text": "Ngươi đã chứng kiến nhiều lần giao mùa, nhưng lần này thọ nguyên không còn đủ. Hơi thở cuối tan vào gió, khép lại một đời tìm kiếm giữa đất trời rộng lớn.",
+    "translations": {
+      "zh": {
+        "text": "你见过许多次季节交替，这一次却再无足够寿元。最后一息融入风中，一生寻觅在广阔天地间结束。"
+      },
+      "en": {
+        "text": "You have witnessed many changing seasons, but your lifespan cannot reach another. Your final breath joins the wind, closing a lifetime of searching beneath the vast sky."
+      }
+    }
+  },
+  {
+    "id": "ending_age_road",
+    "kind": "age",
+    "text": "Thọ nguyên cạn trước khi con đường cầu đạo đi đến tận cùng. Ngươi dừng lại, không còn bước tiếp, còn những đoạn đường chưa tới vẫn nằm ngoài tầm mắt.",
+    "translations": {
+      "zh": {
+        "text": "寿元先于求道之路走到尽头。你停下脚步，再不能前行，未曾抵达的路段仍在视线之外。"
+      },
+      "en": {
+        "text": "Your lifespan ends before the path of cultivation does. You stop without another step, while the stretches you never reached remain somewhere beyond the limits of your sight."
+      }
+    }
+  },
+  {
+    "id": "ending_age_rain",
+    "kind": "age",
+    "text": "Tiếng mưa rơi đều khi ngươi cảm thấy thọ nguyên cuối cùng tan đi. Những điều từng khiến ngươi bận lòng lắng xuống, chỉ còn hơi thở nhẹ rồi im lặng.",
+    "translations": {
+      "zh": {
+        "text": "雨声均匀，你感到最后的寿元渐渐消散。曾经牵动心绪的事都沉静下来，只剩轻轻一息，随后归于寂静。"
+      },
+      "en": {
+        "text": "Rain falls steadily as you feel your final years dissolve. The concerns that once occupied your mind settle into stillness, leaving a quiet breath and then silence."
+      }
+    }
+  },
+  {
+    "id": "ending_age_shadow",
+    "kind": "age",
+    "text": "Bóng ngươi dài thêm trong ánh chiều, còn thọ nguyên thì không thể kéo dài nữa. Ngươi nhìn nó lần cuối, chấp nhận khép lại những năm tháng đã đi qua.",
+    "translations": {
+      "zh": {
+        "text": "夕光将你的影子拉长，寿元却再无法延续。你最后看它一眼，平静接受走过的岁月就此结束。"
+      },
+      "en": {
+        "text": "Evening lengthens your shadow, though your lifespan can stretch no further. You look at it one last time and accept the closing of the years you have lived."
+      }
+    }
+  },
+  {
+    "id": "ending_age_silence",
+    "kind": "age",
+    "text": "Không có tiếng sấm hay bảo quang trong lúc thọ nguyên của ngươi cạn kiệt. Một đời kết thúc bằng sự yên lặng, sau tất cả những lần cố bước xa hơn.",
+    "translations": {
+      "zh": {
+        "text": "寿元耗尽之时，没有雷鸣，也没有宝光。经历了所有努力前行的日子，一生最终在安静中结束。"
+      },
+      "en": {
+        "text": "No thunder or treasure light marks the exhaustion of your lifespan. After all the times you tried to travel farther, your life ends in an unassuming silence."
+      }
+    }
+  },
+  {
+    "id": "ending_age_breath",
+    "kind": "age",
+    "text": "Ngươi thử điều hòa hơi thở lần cuối, rồi hiểu rằng thọ nguyên đã hết. Pháp quyết không giữ được thời gian, hành trình dừng lại khi đôi mắt từ từ khép.",
+    "translations": {
+      "zh": {
+        "text": "你最后尝试调匀呼吸，随后明白寿元已经耗尽。法诀留不住时光，双眼慢慢闭合，旅程就此停止。"
+      },
+      "en": {
+        "text": "You steady your breathing one last time and understand that your lifespan is spent. No technique can hold back time as your eyes slowly close and the journey ends."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_threshold",
+    "kind": "ascend",
+    "text": "Bình cảnh cuối cùng tan đi, ngươi chứng đạo sau một đời vượt qua bao giới hạn. Tiên Đế không còn là điểm dừng, một khoảng trời chưa từng biết mở ra.",
+    "translations": {
+      "zh": {
+        "text": "最后瓶颈消散，你在不断跨越极限的一生后证道。仙帝不再是终点，一片从未见过的天地展开。"
+      },
+      "en": {
+        "text": "The final barrier dissolves as you attain the Dao after a lifetime of crossing limits. Immortal Emperor is no longer your destination, and an unknown expanse opens before you."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_steps",
+    "kind": "ascend",
+    "text": "Ngươi chứng đạo khi bước cuối cùng nối liền những chặng đường tưởng rời rạc. Nhìn lại từ đỉnh Tiên Đế, từng lần ngã rồi đứng dậy đều tìm được ý nghĩa.",
+    "translations": {
+      "zh": {
+        "text": "最后一步连起曾经零散的道路，你终于证道。从仙帝之巅回望，每次跌倒与重新起身都显出意义。"
+      },
+      "en": {
+        "text": "You attain the Dao as your final step connects roads once thought separate. Looking back from the height of Immortal Emperor, every fall and recovery acquires its meaning."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_quiet",
+    "kind": "ascend",
+    "text": "Không cần lời tuyên cáo, ngươi cảm nhận đại đạo đã thông suốt trong một khoảnh khắc tĩnh lặng. Bình cảnh Tiên Đế tan biến, một đời cầu đạo kết thúc bằng chứng thành.",
+    "translations": {
+      "zh": {
+        "text": "无需宣告，你在寂静一瞬感到大道已然贯通。仙帝瓶颈消失，一生求道以证成收尾。"
+      },
+      "en": {
+        "text": "Without a proclamation, you feel the great path become clear in a moment of stillness. The Immortal Emperor barrier disappears, and your lifelong search ends in attainment."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_horizon",
+    "kind": "ascend",
+    "text": "Chứng thành đại đạo, ngươi nhìn chân trời không còn là một ranh giới phải vượt. Hành trình từ sinh mệnh nhỏ bé đến đỉnh Tiên Đế đã tìm được lời đáp cuối.",
+    "translations": {
+      "zh": {
+        "text": "证成大道后，你望见的天际不再是必须跨越的界限。从渺小生命到仙帝之巅的旅程，终于得到最后答案。"
+      },
+      "en": {
+        "text": "Attaining the Dao, you no longer see the horizon as a boundary to overcome. Your journey from a tiny life to Immortal Emperor has found its final answer."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_echo",
+    "kind": "ascend",
+    "text": "Khi ngươi chứng đạo, những đạo âm từng khó hiểu hòa thành một nhịp rõ ràng. Bước qua giới hạn Tiên Đế, ngươi khép lại đời cầu đạo trong sự sáng tỏ ấy.",
+    "translations": {
+      "zh": {
+        "text": "证道之时，曾经难解的道音融为清晰节奏。跨过仙帝的极限，你在这份明悟中结束一生求道。"
+      },
+      "en": {
+        "text": "As you attain the Dao, its once obscure echoes form a clear rhythm. Crossing the limit of Immortal Emperor, you close your lifelong search within that understanding."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_question",
+    "kind": "ascend",
+    "text": "Câu hỏi theo ngươi suốt tiên lộ cuối cùng không cần hỏi lại. Đại đạo đã chứng thành, bình cảnh Tiên Đế nhường chỗ cho sự thấu hiểu không còn lay chuyển.",
+    "translations": {
+      "zh": {
+        "text": "伴随仙途的疑问终于无需再问。大道已证成，仙帝瓶颈让位于再不动摇的明悟。"
+      },
+      "en": {
+        "text": "The question that followed you throughout cultivation finally needs no repetition. The Dao is attained, and the Immortal Emperor barrier gives way to an understanding that no longer wavers."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_thread",
+    "kind": "ascend",
+    "text": "Ngươi thấy những pháp môn từng luyện nối thành một đường liền mạch khi chứng đạo. Từ đỉnh Tiên Đế, hành trình đã qua trở nên rõ ràng như sợi chỉ trong tay.",
+    "translations": {
+      "zh": {
+        "text": "证道时，你看见曾修习的法门连成一条完整道路。从仙帝之巅回望，过去的旅程如掌中丝线般清晰。"
+      },
+      "en": {
+        "text": "At attainment, the techniques you practiced connect into one unbroken path. From the summit of Immortal Emperor, your journey becomes as clear as a thread resting in your hand."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_light",
+    "kind": "ascend",
+    "text": "Ánh sáng quanh ngươi dịu lại khi bình cảnh cuối cùng được vượt qua. Chứng đạo ở đỉnh Tiên Đế, ngươi không cần tìm thêm lời xác nhận cho đời cầu đạo này.",
+    "translations": {
+      "zh": {
+        "text": "越过最后瓶颈时，周围光芒渐渐柔和。在仙帝之巅证道，你已不必为这一生求道再寻求确认。"
+      },
+      "en": {
+        "text": "Light softens around you as the final barrier falls. Attaining the Dao at the summit of Immortal Emperor, you need no further confirmation of this lifetime’s search."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_beginning",
+    "kind": "ascend",
+    "text": "Chứng thành đại đạo, ngươi nhớ tiếng khóc đầu đời từng mở một hành trình chưa biết. Nay giới hạn Tiên Đế đã vượt, đời cầu đạo ấy trọn vẹn khép lại.",
+    "translations": {
+      "zh": {
+        "text": "证成大道后，你想起初生啼哭曾开启未知旅程。如今仙帝极限已过，那一生求道终于完整落幕。"
+      },
+      "en": {
+        "text": "Attaining the Dao, you remember the first cry that began an unknown journey. With the Immortal Emperor limit now crossed, that lifetime of cultivation reaches its full completion."
+      }
+    }
+  },
+  {
+    "id": "ending_ascend_sky",
+    "kind": "ascend",
+    "text": "Ngươi bước qua bình cảnh Tiên Đế, cảm nhận đại đạo không còn xa cách. Bầu trời vẫn rộng như trước, nhưng người từng ngước nhìn cầu hỏi nay đã chứng thành.",
+    "translations": {
+      "zh": {
+        "text": "你越过仙帝瓶颈，感到大道不再遥远。天空依旧辽阔，但曾仰望求索之人，如今已经证成。"
+      },
+      "en": {
+        "text": "You cross the Immortal Emperor barrier and feel the Dao within reach. The sky remains vast, but the seeker who once looked upward in wonder has finally attained it."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_hands",
+    "kind": "injury",
+    "text": "Ngươi cố giữ bàn tay khỏi run, nhưng thương thế đã vượt sức chịu đựng. Sinh cơ dần tắt giữa những lần vận công dang dở, khép lại hành trình chưa trọn.",
+    "translations": {
+      "zh": {
+        "text": "你努力让双手不再颤抖，伤势却已超出承受极限。未完成的运功之间，生机逐渐熄灭，旅程遗憾终止。"
+      },
+      "en": {
+        "text": "You try to steady your trembling hands, but your wounds have passed endurance. Life fades between unfinished attempts to circulate power, bringing your incomplete journey to an end."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_healing",
+    "kind": "injury",
+    "text": "Ngươi chờ thương thế dịu đi, nhưng mỗi hơi thở lại yếu hơn lần trước. Những phương pháp cứu chữa không giữ nổi sinh cơ, một đời cầu đạo đành khép lại.",
+    "translations": {
+      "zh": {
+        "text": "你等待伤势缓解，每次呼吸却比上次更弱。救治方法再也留不住生机，一生求道只能就此落幕。"
+      },
+      "en": {
+        "text": "You wait for your wounds to ease, but every breath grows weaker. Attempts at healing can no longer hold your life together, and your path closes before completion."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_distance",
+    "kind": "injury",
+    "text": "Đường phía trước vẫn còn, chỉ thân thể ngươi không thể đi tiếp vì thương tổn. Ngươi nhìn khoảng xa lần cuối, để những điều chưa làm chìm vào im lặng.",
+    "translations": {
+      "zh": {
+        "text": "前路仍在，受伤的身体却已无法继续。你最后望向远方，让尚未完成之事慢慢沉入寂静。"
+      },
+      "en": {
+        "text": "The road continues, but your wounded body can no longer follow it. You look into the distance one last time, allowing unfinished intentions to settle into silence."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_breathing",
+    "kind": "injury",
+    "text": "Hơi thở ngắt quãng khiến ngươi hiểu thương thế không còn đường cứu vãn. Ngươi thôi cố vận công, đón khoảng lặng cuối cùng khi sinh cơ rời khỏi thân thể.",
+    "translations": {
+      "zh": {
+        "text": "断续呼吸让你明白伤势已无法挽回。你不再勉强运功，迎接生机离体时最后的寂静。"
+      },
+      "en": {
+        "text": "Your broken breathing tells you the wounds cannot be healed. You stop forcing your power to circulate and accept the final stillness as life leaves your body."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_memory",
+    "kind": "injury",
+    "text": "Trong cơn đau cuối, ngươi nhớ vài khoảnh khắc bình thường hơn là những lần tranh thắng. Thương tổn kéo sinh cơ xuống thấp, để một đời dừng giữa dòng ký ức.",
+    "translations": {
+      "zh": {
+        "text": "最后的痛楚中，你想起平凡瞬间，而非争胜的时刻。伤势不断削弱生机，让一生停在记忆流动之间。"
+      },
+      "en": {
+        "text": "In your final pain, ordinary moments return more clearly than victories. Your wounds draw life ever lower, bringing the journey to a halt amid the flow of memory."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_warmth",
+    "kind": "injury",
+    "text": "Hơi ấm rời khỏi đầu ngón tay khi ngươi cố gom sức lần cuối. Thương thế không cho phép thêm một lần đứng dậy, hành trình khép lại cùng nhịp thở yếu dần.",
+    "translations": {
+      "zh": {
+        "text": "你最后尝试聚起力量，指尖温度却渐渐散去。伤势不容你再次起身，旅途随着微弱呼吸一同结束。"
+      },
+      "en": {
+        "text": "Warmth leaves your fingertips as you gather strength one final time. Your wounds allow no further attempt to rise, and the journey closes with your fading breath."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_strength",
+    "kind": "injury",
+    "text": "Ngươi đã vượt qua nhiều ngày khó khăn, nhưng lần này thương tổn không chịu nhường bước. Sức lực cạn dần, những dự định còn lại không kịp trở thành câu chuyện.",
+    "translations": {
+      "zh": {
+        "text": "你度过许多艰难日子，这一次伤势却不肯退让。力量逐渐耗尽，余下的计划再来不及成为故事。"
+      },
+      "en": {
+        "text": "You have endured many difficult days, but these wounds will not relent. As your strength drains away, the plans still waiting ahead never have the chance to become stories."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_pause",
+    "kind": "injury",
+    "text": "Ngươi tưởng chỉ cần nghỉ thêm một lát để hồi sức, nhưng thương thế đã quá sâu. Khoảng dừng ấy kéo dài thành im lặng, tiên lộ không còn bước chân tiếp theo.",
+    "translations": {
+      "zh": {
+        "text": "你以为再歇片刻便能恢复，伤势却已太深。这次停顿延长为寂静，仙途再没有下一步脚印。"
+      },
+      "en": {
+        "text": "You think another moment of rest might restore your strength, but the wounds run too deep. That pause becomes silence, and your path receives no further footstep."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_pulse",
+    "kind": "injury",
+    "text": "Mỗi nhịp đau làm pháp lực của ngươi khó tụ hơn, cho đến khi không còn đáp lại. Sinh cơ tắt giữa thương tổn, khép lại những năm tháng từng không ngừng tìm kiếm.",
+    "translations": {
+      "zh": {
+        "text": "每阵痛楚都让法力更难凝聚，直到它不再回应。生机在伤势中熄灭，结束了那些从未停止寻觅的岁月。"
+      },
+      "en": {
+        "text": "Each wave of pain makes your power harder to gather, until it no longer answers. Life fades within your wounds, ending the years you once spent searching without rest."
+      }
+    }
+  },
+  {
+    "id": "ending_injury_words",
+    "kind": "injury",
+    "text": "Ngươi còn định nói thêm điều gì, nhưng thương thế khiến tiếng nói tan trong hơi thở. Một đời cầu đạo dừng lại, để câu cuối cùng mãi chưa thành lời.",
+    "translations": {
+      "zh": {
+        "text": "你还想说些什么，伤势却让声音散进呼吸里。一生求道就此停下，最后一句话始终未能出口。"
+      },
+      "en": {
+        "text": "You still intend to say something, but your wounds dissolve the words into breath. A lifetime of seeking the Dao ends with its final sentence left forever unspoken."
+      }
+    }
   }
 ]
