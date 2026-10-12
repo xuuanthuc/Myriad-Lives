@@ -1,0 +1,13 @@
+{
+  "id": "draft_event",
+  "category": "opportunity",
+  "title": "Linh dược bên suối",
+  "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+  "translations": {
+    "zh": {"title": "溪边灵药", "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"},
+    "en": {"title": "Herb beside the stream", "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."}
+  },
+  "weight": 8, "minAge": 18, "allowedRealms": ["foundation"],
+  "cooldownYears": 100, "maxOccurrencesPerLife": 1, "importance": "major",
+  "effects": {"resources": 12, "health": 5}
+}

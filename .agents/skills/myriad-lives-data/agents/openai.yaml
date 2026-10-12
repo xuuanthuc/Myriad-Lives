@@ -1,0 +1,4 @@
+interface:
+  display_name: "Myriad Lives Data"
+  short_description: "Thêm sự kiện JSON và bản dịch Việt Trung Anh"
+  default_prompt: "Dùng $myriad-lives-data để bổ sung sự kiện cho các cảnh giới còn ít data trong dự án."

@@ -8,6 +8,7 @@
     "build": "node scripts/validate.mjs && vite build",
     "test": "node --test tests/*.test.js",
     "data:stats": "node scripts/data-stats.mjs",
+    "data:new": "node scripts/new-event-batch.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
