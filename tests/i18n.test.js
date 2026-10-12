@@ -1,19 +1,23 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { languages,translate,translateName,validateTranslations } from '../src/i18n/index.js';
-import { events,wordCount } from '../src/engine/content.js';
+import { events,wordCount,eventOutcomes } from '../src/engine/content.js';
 import { createRng } from '../src/engine/rng.js';
 import { startLife,autoComplete } from '../src/engine/lifeRunner.js';
 
-test('all 270 encounters and 28 choices have complete translations',()=>{
+test('all 319 encounters and 35 choices have complete translations',()=>{
   assert.deepEqual(languages.map(x=>x.id),['vi','zh','en']);
-  assert.equal(events.length,270);
-  assert.equal(events.filter(e=>e.choices).length,28);
+  assert.equal(events.length,319);
+  assert.equal(events.filter(e=>e.choices).length,35);
   assert.equal(validateTranslations(),true);
   for(const event of events) {
     assert.equal(translate(event.text,'vi'),event.text);
     for(const language of ['zh','en']) {
       assert.notEqual(translate(event.text,language),event.text);
+      for(const outcome of eventOutcomes(event)){
+        assert.notEqual(translate(outcome.text,language),outcome.text);
+        if(outcome.endingReason)assert.notEqual(translate(outcome.endingReason,language),outcome.endingReason);
+      }
       for(const option of event.choices||[]) {
         assert.notEqual(translate(option.text,language),option.text);
         for(const outcome of option.outcomes)assert.notEqual(translate(outcome.text,language),outcome.text);

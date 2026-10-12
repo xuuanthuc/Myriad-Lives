@@ -34,3 +34,10 @@ test('real content totals and per-realm category counts remain internally consis
     assert.equal(new Set(row.events.map(e=>e.id)).size,row.total);
   }
 });
+
+test('automatic battle outcomes count as narrative variants, not additional encounters or choices',()=>{
+  const event={id:'battle',category:'disaster',combat:true,allowedRealms:['a'],outcomes:[{},{},{}]};
+  const [row]=realmDataStats([event],[{id:'a'}]);
+  assert.equal(row.total,1);assert.equal(row.choices,0);assert.equal(row.automatic,1);
+  assert.equal(row.combat,1);assert.equal(row.outcomes,3);assert.equal(row.narratives,4);
+});

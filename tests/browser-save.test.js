@@ -7,6 +7,21 @@ import {visibleRun} from '../src/engine/playback.js';
 
 function snapshot(started){return {engineRun:started.run,session:started.nextSession,language:'zh',speed:4,paused:true,playback:{number:started.run.number,count:1,from:1,elapsed:720}};}
 
+test('birth reveal persists without rerolling fate and old saves continue normally',()=>{
+  const started=startLife({runCount:0,pityCount:0},createRng(987));
+  const saved={...snapshot(started),birthPending:true};
+  const restored=decodeSave(encodeSave(saved));
+  assert.equal(restored.birthPending,true);
+  assert.deepEqual(restored.engineRun.profile,started.run.profile);
+  assert.deepEqual(restored.engineRun.world,started.run.world);
+  assert.equal(restored.engineRun.rng.getState(),started.run.rng.getState());
+  assert.deepEqual(restored.playback,saved.playback);
+  const legacy=JSON.parse(encodeSave(saved));delete legacy.birthPending;
+  assert.equal(decodeSave(JSON.stringify(legacy)).birthPending,false);
+  assert.equal(decodeSave(encodeSave({...saved,birthPending:false})).birthPending,false);
+  assert.equal(decodeSave(encodeSave({...saved,engineRun:null})).birthPending,false);
+});
+
 test('saving and restoring retains RNG fate, session and partially revealed story',()=>{
   for(let seed=1;seed<=100;seed++){
     const start=startLife({runCount:3,pityCount:10},createRng(seed));

@@ -25,13 +25,14 @@ const overall=summarizeEvents(events),all=realmDataStats(events,realms);
 const report=chosen?all.filter(s=>s.realm.id===chosen):all;
 console.log('\nMYRIAD LIVES · THỐNG KÊ DATA LOCAL\n');
 console.log(`Kho toàn web: ${overall.total} sự kiện gốc · ${overall.choices} sự kiện lựa chọn · ${overall.options} phương án · ${overall.outcomes} kết quả.`);
-console.log(`Đoạn kể sự kiện: ${overall.total+overall.outcomes} (mô tả gốc + kết quả lựa chọn).`);
+console.log(`Giao chiến: ${overall.combat} sự kiện · ${overall.automatic} sự kiện có kết quả tự động.`);
+console.log(`Đoạn kể sự kiện: ${overall.total+overall.outcomes} (mô tả gốc + kết quả tự động/lựa chọn).`);
 console.log(`${realms.length} đại cảnh giới · ${realms.reduce((sum,_,i)=>sum+stagesForRealm(i).length,0)} tiểu cảnh giới · ${roots.length} linh căn · ${physiques.length} thể chất · ${origins.length} xuất thân · ${sects.length} tông môn.`);
 console.log(`Ngoài kho sự kiện: ${birth.length} mẫu sinh · ${endings.length} mẫu kết cục · ${origins.length} đoạn xuất thân · ${Object.keys(sectChildhood).length} tình huống tuổi thơ tông môn.`);
 console.log('\nSỐ LƯỢNG THEO CẢNH GIỚI');
 console.table(report.map(s=>({
   'Cảnh giới':s.realm.name,'Tổng':s.total,'Đời thường':s.life,'Tu luyện':s.cultivation,
-  'Cơ duyên':s.opportunity,'Hiểm cảnh':s.disaster,'Lựa chọn':s.choices,'Đoạn kể':s.narratives,
+  'Cơ duyên':s.opportunity,'Hiểm cảnh':s.disaster,'Lựa chọn':s.choices,'Giao chiến':s.combat,'Đoạn kể':s.narratives,
 })));
 console.log('PHẠM VI VÀ ĐIỀU KIỆN');
 console.table(report.map(s=>({
@@ -50,7 +51,7 @@ if(chosen){
   console.table(report[0].events.map(e=>({
     'ID':e.id,'Tên':e.title,'Loại':categories[e.category],
     'Phạm vi':e.allowedRealms?.length===1?'Riêng':e.allowedRealms?'Nhiều cảnh giới':'Mọi cảnh giới',
-    'Lựa chọn':e.choices?.length||0,'Tuổi tối thiểu':e.minAge,
+    'Lựa chọn':e.choices?.length||0,'Kết quả tự động':e.outcomes?.length||0,'Tuổi tối thiểu':e.minAge,
     'Điều kiện':Object.entries(e.conditions||{}).map(([key,value])=>`${key}: ${value}`).join('; ')||'—',
   })));
 }else{

@@ -24,6 +24,8 @@ Chọn **Việt / 中文 / English** tại đầu trang. Đổi ngôn ngữ gi�
 
 Số lượng sự kiện, lựa chọn và đoạn kể hiện tại xem bằng `npm run data:stats`; báo cáo tự cập nhật theo kho data. Mỗi đoạn có bản Việt, Trung giản thể và Anh. Các sự kiện lọc theo tuổi, cảnh giới, tài nguyên, tông môn hoặc đạo lữ; số lần xuất hiện mỗi kiếp được quy định bởi `maxOccurrencesPerLife`.
 
+Giao chiến nằm trong `combatEvents.js` và `combatChoices.js`. Trận bắt buộc dùng `outcomes` để roll thắng/bị thương/tử trận ngay trong engine; trận có lựa chọn dùng `choices` để đánh hoặc rút lui. Trọng số tử trận chịu ảnh hưởng hiểm họa thế giới; khí vận giúp giảm tương đối nguy cơ so với các kết quả còn lại. Kết cục ghi nguyên nhân cụ thể, kể cả chết vì thương tích trận đánh. Tool thống kê đếm cả giao chiến và các đoạn kể kết quả tự động.
+
 Kho sự kiện được tổng hợp tại `src/engine/content.js`, từ `src/data/events/*.json`, `extraPhysiques.js` và các bộ `realm*.js`. Bản dịch sự kiện mới nằm trong trường `translations`; bản dịch 10 sự kiện gốc nằm tại `src/i18n/legacy.js`. Giao diện, cảnh giới và hồ sơ nằm trong `src/i18n/ui.js`. Bộ kiểm tra build xác nhận bản dịch đầy đủ, 15–35 từ cho Việt/Anh và 15–160 ký tự cho Trung (không đếm từ theo khoảng trắng).
 
 Đã có firebase.json cho dist. Liên kết Firebase project rồi chạy npm run build và firebase deploy --only hosting. Chưa triển khai hosting.

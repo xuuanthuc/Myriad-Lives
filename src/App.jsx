@@ -1,4 +1,5 @@
 import HistoryPage from './components/HistoryPage.jsx';
+import BirthReveal from './components/BirthReveal.jsx';
 import {summarizeLife,archiveLife,historyWithCompletedLife} from './engine/lifeHistory.js';
 import FateCardPreview from './components/FateCardPreview.jsx';
 import {prepareFateCard} from './utils/fateCard.js';
@@ -40,11 +41,12 @@ export default function App() {
   const [history,setHistory]=useState(()=>restored?.history||[]);
   const [speed,setSpeed]=useState(restored?.speed||1);
   const [paused,setPaused]=useState(restored?.paused||false);
-  const {run,playing,progress,getPlayback}=useLifePlayback(engineRun,speed,paused||page!=='game',restored?.playback);
+  const [birthPending,setBirthPending]=useState(restored?.birthPending||false);
+  const {run,playing,progress,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
   const finished=run?.phase==='finished';
   const visibleHistory=historyWithCompletedLife(history,run);
   const saveState=useRef(null);
-  saveState.current={engineRun,session,language,speed,paused,history:visibleHistory};
+  saveState.current={engineRun,session,language,speed,paused,birthPending,history:visibleHistory};
   useEffect(()=>{
     const save=()=>saveBrowserState({...saveState.current,playback:getPlayback()});
     save();
@@ -52,7 +54,7 @@ export default function App() {
     window.addEventListener('pagehide',save);
     document.addEventListener('visibilitychange',save);
     return ()=>{clearInterval(interval);window.removeEventListener('pagehide',save);document.removeEventListener('visibilitychange',save);};
-  },[engineRun,session,language,speed,paused,history,finished,getPlayback]);
+  },[engineRun,session,language,speed,paused,birthPending,history,finished,getPlayback]);
   const actionLock=useRef(false);
   useEffect(()=>{actionLock.current=false;},[engineRun]);
   const [error,setError]=useState(false);
@@ -64,6 +66,7 @@ export default function App() {
       const result=startLife(session);
       setSession(result.nextSession);
       setPaused(false);
+      setBirthPending(true);
       setEngineRun(result.run);
     }catch(e){console.error(e);setError(true);}
   },[page,engineRun,session]);
@@ -80,7 +83,7 @@ export default function App() {
   const t=value=>translate(value,language);
   useEffect(()=>{document.documentElement.lang=language==='zh'?'zh-CN':language;document.title=language==='zh'?'万劫 · Myriad Lives':language==='en'?'Myriad Lives · A cultivation journey':'Vạn Kiếp · Myriad Lives';},[language]);
   function act(fn){try{setError(false);fn();}catch(e){console.error(e);setError(true);}}
-  function reincarnate(){if(shareLock.current.isLocked())return;act(()=>{const result=startLife(session);if(run)setHistory(previous=>archiveLife(previous,summarizeLife(run)));setSession(result.nextSession);setPaused(false);setEngineRun(result.run);});}
+  function reincarnate(){if(shareLock.current.isLocked())return;act(()=>{const result=startLife(session);if(run)setHistory(previous=>archiveLife(previous,summarizeLife(run)));setSession(result.nextSession);setPaused(false);setBirthPending(true);setEngineRun(result.run);window.scrollTo({top:0,behavior:'smooth'});});}
   function resolveChoice(optionId,automatic=false){if(playing||actionLock.current||engineRun?.phase!=='awaiting_choice')return;actionLock.current=true;act(()=>{setPaused(false);setEngineRun(automatic?autoUntilBreakthrough(engineRun):chooseOption(engineRun,optionId));});}
   const playbackControls=run&&(<section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
           <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" disabled={sharing||!!sharePreview} onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
@@ -107,7 +110,7 @@ export default function App() {
     <main>
       {page==='history'?<HistoryPage history={visibleHistory} current={run?summarizeLife(run,finished?'finished':'active'):null} t={t} language={language}/>:page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
       <div className="cultivation-backdrop" aria-hidden="true"><img src={`${import.meta.env.BASE_URL}assets/images/cultivation-retreat.jpg`} width="1536" height="1024" alt="" decoding="async"/></div>
-      <section className={'hero '+(run?'compact':'')}>
+      {birthPending&&engineRun?<BirthReveal key={engineRun.number} run={engineRun} t={t} language={language} onEnter={()=>setBirthPending(false)}/>:<><section className={'hero '+(run?'compact':'')}>
         <div className="hero-content">
           <p className="eyebrow"><span/>{t('MỘT LẦN LUÂN HỒI, MỘT ĐỜI TIÊN LỘ')}<span/></p>
           <h1>{t('Vạn')} <em>{t('Kiếp')}</em><span className="seal">輪<br/>迴</span></h1>
@@ -158,7 +161,7 @@ export default function App() {
             </LifeActivity>
           </div>
         </div>
-      </section>}
+      </section>}</>}
       </div>}
     </main>
     <footer><span>MYRIAD LIVES <i> / </i>{t('VẠN KIẾP')}</span><p>{t('Vạn giới rộng lớn. Tiên lộ vô cùng.')}</p><span>{t('Một phiên, vạn số mệnh.')}</span></footer>

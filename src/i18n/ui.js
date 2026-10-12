@@ -1,5 +1,11 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Thiên mệnh sơ khai','天命初现','A fate awakens'],
+  ['Vạn duyên luân chuyển, một kiếp sắp thành.','万缘流转，一世将生。','Destinies turn. A new life takes shape.'],
+  ['Bối cảnh','世间','World'],
+  ['Đang dệt số mệnh…','正在编织命数…','Weaving your fate…'],
+  ['Bước vào tiên lộ','踏上仙途','Begin this life'],
+  ['Hé mở thiên cơ','揭晓天机','Reveal your fate'],
   ["Ảnh số mệnh","命格图片","Fate card image"],
   ["Tải PNG","下载 PNG","Download PNG"],
   ["Đang chia sẻ…","正在分享…","Sharing…"],

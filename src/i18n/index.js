@@ -1,7 +1,7 @@
 import {extraPhysiques} from '../data/extraPhysiques.js';
 import { ui } from './ui.js';
 import { legacy, endingsLocales } from './legacy.js';
-import { events, birth, endings, wordCount } from '../engine/content.js';
+import { events, birth, endings, wordCount,eventOutcomes } from '../engine/content.js';
 import { realms, roots, physiques, origins } from '../data/realms.js';
 import { sectChildhood } from '../data/origins.js';
 import {sects} from '../data/sects.js';
@@ -14,6 +14,8 @@ function add(text, translations) {
 for (const event of events) {
   const old = legacy[event.id];
   for (const field of ['title','text']) add(event[field],old?.[field] || (event.translations && [event.translations.zh[field],event.translations.en[field]]));
+  for(const outcome of event.outcomes||[])add(outcome.text,[outcome.translations?.zh.text,outcome.translations?.en.text]);
+  for(const outcome of eventOutcomes(event))if(outcome.endingReason&&outcome.translations?.zh.endingReason&&outcome.translations?.en.endingReason)add(outcome.endingReason,[outcome.translations.zh.endingReason,outcome.translations.en.endingReason]);
   for (const option of event.choices || []) {
     const translated = old?.choices?.[option.id];
     for (const field of ['text','hint']) add(option[field],translated?.[field] || (option.translations && [option.translations.zh[field],option.translations.en[field]]));
@@ -70,7 +72,7 @@ export function translate(value,language='vi') {
 export function validateTranslations() {
   const fields=[];
   fields.push(...sects.map(sect=>sect.name));
-  for(const e of events){fields.push(e.title,e.text);for(const o of e.choices||[]){fields.push(o.text,o.hint);for(const outcome of o.outcomes){fields.push(outcome.text);if(outcome.endingReason)fields.push(outcome.endingReason);}}}
+  for(const e of events){fields.push(e.title,e.text);for(const o of e.choices||[])fields.push(o.text,o.hint);for(const outcome of eventOutcomes(e)){fields.push(outcome.text);if(outcome.endingReason)fields.push(outcome.endingReason);}}
   fields.push(...[...birth,...endings].map(x=>x.text),...[...realms,...roots,...physiques,...origins].map(x=>x.name));
   fields.push(...origins.map(x=>x.birthText),...Object.values(sectChildhood).flatMap(x=>[x.title,x.text,...x.reason?[x.reason]:[]]));
   for(const text of fields) for(const language of ['zh','en']) {
@@ -79,7 +81,7 @@ export function validateTranslations() {
     if(language==='zh'&&!/\p{Script=Han}/u.test(value))throw Error(`Invalid Chinese translation: ${text}`);
   }
   for(const [vi,zh,en] of ui) if(!vi||!zh||!en)throw Error('Incomplete UI translation');
-  const narratives=events.flatMap(e=>[e.text,...(e.choices||[]).flatMap(o=>o.outcomes.map(outcome=>outcome.text))]);
+  const narratives=events.flatMap(e=>[e.text,...eventOutcomes(e).map(outcome=>outcome.text)]);
   for(const text of [...narratives,...[...birth,...endings].map(e=>e.text),...origins.map(e=>e.birthText),...Object.values(sectChildhood).map(e=>e.text)]) {
     if(wordCount(text)<15||wordCount(text)>35)throw Error(`Vietnamese narrative must have 15–35 words: ${text}`);
     const en=translate(text,'en'),zh=translate(text,'zh');
