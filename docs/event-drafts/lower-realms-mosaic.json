@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "lower_realms_mosaic_001",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_002",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_003",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_004",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_005",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_006",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_007",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_008",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_009",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_010",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_011",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_012",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_013",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_014",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_015",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_016",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_017",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_018",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_019",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_020",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_021",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_022",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_023",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_024",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_025",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_026",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_027",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_028",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_029",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_030",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_031",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_032",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_033",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_034",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_035",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_036",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_037",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_038",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_039",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_040",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_041",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_042",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_043",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_044",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_045",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_046",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_047",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_048",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_049",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_050",
+    "category": "opportunity",
+    "title": "Linh dược bên suối",
+    "text": "Ngươi tìm thấy một gốc linh dược bên dòng suối cạn. Sau khi kiểm tra dấu vết quanh đó, ngươi thu hái cẩn thận rồi trở về luyện thuốc dưỡng thân.",
+    "translations": {
+      "zh": {
+        "title": "溪边灵药",
+        "text": "你在干涸溪流旁发现一株灵药。检查周围痕迹之后，你小心采下，回去炼制滋养身体的药物。"
+      },
+      "en": {
+        "title": "Herb beside the stream",
+        "text": "You discover a spirit herb beside a dry stream. After checking the surrounding tracks, you carefully harvest it and return to prepare medicine that nourishes your body."
+      }
+    },
+    "weight": 8,
+    "minAge": 18,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "effects": {
+      "resources": 12,
+      "health": 5
+    }
+  }
+]

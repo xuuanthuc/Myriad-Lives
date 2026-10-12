@@ -2385,5 +2385,281 @@
         "text": "You listen to music in a windy forest to distinguish overlapping sensations. As individual strings become clearer, your awareness grows less scattered during meditation."
       }
     }
+  },
+  {
+    "id": "lower_realms_colors_005",
+    "category": "cultivation",
+    "title": "Học chữ bên ngọn đèn dầu",
+    "text": "Ngươi học chữ từ thầy đồ nghèo để đọc sách dưỡng sinh. Mỗi đêm chép một dòng, ngươi dần hiểu lời dặn về nghỉ ngơi đúng lúc.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "油灯下识字",
+        "text": "你向贫寒塾师识字，好读养生书。每夜抄上一行，渐渐懂得书中关于适时休息的叮嘱。"
+      },
+      "en": {
+        "title": "Letters beneath an oil lamp",
+        "text": "You learn letters from a poor tutor to read a wellness manual. Copying one line nightly gradually teaches you the value of timely rest."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_006",
+    "category": "cultivation",
+    "title": "Bước chân người đưa tin",
+    "text": "Một người đưa tin dạy ngươi chia sức trên đường dài. Luyện đi qua những triền dốc, ngươi học giữ nhịp thở thay vì chạy theo nóng vội.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "信使的步法",
+        "text": "信使教你在长路上分配体力。走过一道道坡地，你学会保持呼吸节奏，不再一味急奔。"
+      },
+      "en": {
+        "title": "The messenger’s stride",
+        "text": "A messenger teaches you to pace yourself on long journeys. Practicing across rolling slopes, you learn steady breathing instead of rushing ahead in impatience."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_015",
+    "category": "cultivation",
+    "title": "Một nét phù không khoe sáng",
+    "text": "Sư huynh chê lá phù ngươi vẽ quá rực mà hao lực. Ngươi luyện bỏ những nét thừa, khiến thuật nhỏ giữ được lâu hơn trước.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 17
+    },
+    "translations": {
+      "zh": {
+        "title": "不耀光的符笔",
+        "text": "师兄指出你画符只顾耀眼，徒耗灵力。你练习删去多余笔画，让小术的效力维持得更久。"
+      },
+      "en": {
+        "title": "A talisman without a flourish",
+        "text": "A senior disciple says your brilliant talismans waste energy. Practicing without unnecessary flourishes helps you sustain the effects of your smaller spells for longer."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_colors_016",
+    "category": "cultivation",
+    "title": "Gánh phân cho linh điền",
+    "text": "Ngươi chăm linh điền bằng những công việc chẳng ai muốn nhận. Theo dõi rễ hút khí giúp ngươi hiểu dẫn linh lực không cần lúc nào cũng mạnh.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 17
+    },
+    "translations": {
+      "zh": {
+        "title": "灵田挑肥",
+        "text": "你接下灵田里无人愿干的杂活。观察根系吸纳灵气，才懂得引导灵力并非越猛烈越好。"
+      },
+      "en": {
+        "title": "Manure for the spirit fields",
+        "text": "You take unwanted chores in the spirit fields. Watching roots absorb energy teaches you that guiding spiritual power does not always require the greatest force."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_colors_025",
+    "category": "cultivation",
+    "title": "Tường trận cố ý để hở",
+    "text": "Ngươi học dựng trận có lối thoát thay vì khóa kín mọi phía. Quan sát linh lực tuần hoàn giúp nền Trúc Cơ bớt chịu áp lực dồn nén.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "留缺口的阵墙",
+        "text": "你学习布阵时保留出口，而非封死四面。观察灵力循环后，筑基根基承受的积压也有所减轻。"
+      },
+      "en": {
+        "title": "A deliberate gap in the array",
+        "text": "You learn to leave an outlet rather than sealing every side of an array. Observing circulating energy helps ease pressure accumulated within your foundation."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_026",
+    "category": "cultivation",
+    "title": "Luyện pháp cùng đối thủ cũ",
+    "text": "Đối thủ cũ chỉ ra thói quen vận lực khiến ngươi dễ hụt hơi. Ngươi đổi một lời góp ý tương tự, cả hai tiến bộ trong im lặng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "与旧对手练法",
+        "text": "旧对手指出你运力的习惯容易耗气。你也回赠一条建议，两人在沉默中各自有所进步。"
+      },
+      "en": {
+        "title": "Practice with an old rival",
+        "text": "An old rival points out a habit that exhausts your energy. You offer a similar observation in return, and both improve without discussing past grievances."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_035",
+    "category": "cultivation",
+    "title": "Hạ đan hỏa trước lời chê",
+    "text": "Ngươi luyện giữ đan hỏa ổn định khi nghe lời chê từ bạn cũ. Không để giận dữ kéo lệch hơi thở giúp pháp lực ít thất thoát hơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 23
+    },
+    "translations": {
+      "zh": {
+        "title": "责难前收丹火",
+        "text": "你在旧友的批评中练习稳定丹火。不让怒意打乱呼吸，法力运转时的损耗也减少了一些。"
+      },
+      "en": {
+        "title": "Lowering fire before criticism",
+        "text": "You practice steady core fire while an old friend criticizes you. Keeping anger from disrupting your breathing reduces the energy lost during its circulation."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_036",
+    "category": "cultivation",
+    "title": "Vết nứt trên tượng đất",
+    "text": "Ngươi nặn tượng đất rồi truyền lực từ Kim Đan qua từng phần. Vết nứt chỉ nơi pháp lực dồn quá mức, giúp điều chỉnh cách vận công.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 23
+    },
+    "translations": {
+      "zh": {
+        "title": "泥像的裂痕",
+        "text": "你捏成泥像，把金丹法力送入各处。裂痕显出力量积聚过度的位置，帮助你调整行功方式。"
+      },
+      "en": {
+        "title": "Cracks in a clay figure",
+        "text": "You shape a clay figure and channel core power through its parts. Cracks reveal where force accumulates excessively, helping you adjust your cultivation technique."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_045",
+    "category": "cultivation",
+    "title": "Giữ một ý giữa tiếng gọi",
+    "text": "Ngươi luyện thu thần thức giữa phiên chợ ồn ào thay vì núi vắng. Giữ một ý rõ ràng qua tiếng gọi giúp Nguyên Anh ổn định hơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 26
+    },
+    "translations": {
+      "zh": {
+        "title": "呼声中守一念",
+        "text": "你选择喧闹集市而非空山练习收拢神识。在叫卖声中守住清晰一念，元婴也逐渐更加稳定。"
+      },
+      "en": {
+        "title": "One thought among many calls",
+        "text": "You practice gathering awareness in a noisy market rather than empty mountains. Holding one clear thought amid the calls gradually helps stabilize your nascent soul."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_046",
+    "category": "cultivation",
+    "title": "Chép lại lỗi của chính mình",
+    "text": "Ngươi đọc ghi chép cũ và nhận ra mình từng giảng sai vài điều. Sửa từng luận điểm giúp thần thức thoát khỏi lối suy nghĩ đã cứng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 26
+    },
+    "translations": {
+      "zh": {
+        "title": "抄录自己的失误",
+        "text": "翻读旧笔记时，你发现自己曾讲错几处道理。逐条修正后，神识也摆脱了僵化的思路。"
+      },
+      "en": {
+        "title": "Recording your own mistakes",
+        "text": "Reading old notes reveals mistakes in your earlier teachings. Correcting each argument helps your awareness escape patterns of thought that had become rigid over time."
+      }
+    }
   }
 ]

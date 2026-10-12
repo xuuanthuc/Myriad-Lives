@@ -7710,5 +7710,661 @@
         "text": "While moving a cracked temple statue, you discover spirit nourishing jade. The villagers trade it for your help repairing their roof and water well."
       }
     }
+  },
+  {
+    "id": "lower_realms_colors_007",
+    "category": "opportunity",
+    "title": "Đồng tiền trong bụng cá",
+    "text": "Khi mổ cá thuê, ngươi tìm thấy đồng tiền cổ trong bụng. Chủ hàng chia tiền bán nó, đùa rằng hôm nay cá cũng biết trả công.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "鱼腹里的钱",
+        "text": "替鱼贩剖鱼时，你在鱼腹发现古钱。老板分给你卖钱所得，笑说今天连鱼也懂得付工钱。"
+      },
+      "en": {
+        "title": "Coins inside a fish",
+        "text": "While gutting fish for wages, you discover an ancient coin inside one. The fishmonger shares its sale price, joking that even fish now pay workers."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_008",
+    "category": "opportunity",
+    "title": "Gói bạc cạnh xe tù",
+    "text": "Một tù nhân đánh rơi gói bạc, nhờ ngươi đưa cho con đang đói. Người áp giải quay lưng, còn đứa trẻ đứng bên quán với tay không.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "囚车旁的银包",
+        "text": "囚犯掉下一包银子，请你交给挨饿的孩子。押差转过身去，孩子空着双手站在店旁。"
+      },
+      "en": {
+        "title": "Silver beside the prison cart",
+        "text": "A prisoner drops silver and asks you to give it to his hungry child. The escort turns away while the child waits empty handed nearby."
+      }
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Đưa bạc cho đứa trẻ",
+        "hint": "Không giữ phần bạc",
+        "translations": {
+          "zh": {
+            "text": "把银子交给孩子",
+            "hint": "不留下银子"
+          },
+          "en": {
+            "text": "Give the silver to the child",
+            "hint": "Keep none of the silver"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi đưa gói bạc cho đứa trẻ, chỉ nó chỗ mua cơm rẻ. Tù nhân ngoái nhìn khi xe đi, không kịp nói thêm lời nào.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你把银包交给孩子，指给他买便宜饭食的地方。囚车驶离时，犯人回头看着，却来不及再说话。"
+              },
+              "en": {
+                "text": "You give the silver to the child and point out cheap food nearby. As the cart departs, the prisoner looks back without time to speak."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Giữ gói bạc",
+        "hint": "Được tiền, đứa trẻ không nhận được",
+        "translations": {
+          "zh": {
+            "text": "留下银包",
+            "hint": "得到银子，孩子却得不到"
+          },
+          "en": {
+            "text": "Keep the silver",
+            "hint": "Gain money; the child receives none"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 3,
+            "text": "Ngươi cất bạc rồi rời bến, mua đủ lương khô cho nhiều ngày. Khi quay nhìn, đứa trẻ vẫn đứng cạnh quán, chờ một điều chưa tới.",
+            "effects": {
+              "resources": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你收起银子离开，买足了多日干粮。回头望去，孩子仍站在店旁，等着迟迟没有到来的东西。"
+              },
+              "en": {
+                "text": "You pocket the silver and buy provisions for several days. Looking back, you see the child still beside the shop, waiting for something that never arrives."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_colors_017",
+    "category": "opportunity",
+    "title": "Bùa chống muỗi bán chậm",
+    "text": "Ngươi vẽ bùa chống muỗi thay vì tranh bán phù chiến đấu. Đến mùa nước lên, người gác ruộng mua hết, đem lại khoản lời nhỏ bất ngờ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "滞销的驱蚊符",
+        "text": "你不争卖斗法符，转而画驱蚊符。水涨时守田人买光存货，带来一笔意外的小赚。"
+      },
+      "en": {
+        "title": "Slow selling mosquito talismans",
+        "text": "You make mosquito warding talismans instead of competing over battle spells. When waters rise, field watchmen buy your stock, bringing a small and unexpected profit."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_018",
+    "category": "opportunity",
+    "title": "Cuốn pháp quyết giá rẻ",
+    "text": "Một người bán pháp quyết rẻ nói cần tiền cứu mẹ. Chữ trong sách có chỗ sai, nhưng những ghi chú bên lề lại giống kinh nghiệm thật.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "廉价法诀",
+        "text": "卖书人说急需钱救母，低价出售法诀。正文有些错字，页边批注却像是真正修炼留下的经验。"
+      },
+      "en": {
+        "title": "The suspiciously cheap manual",
+        "text": "A seller offers a cheap manual to pay for his mother’s care. Its text contains errors, but marginal notes seem drawn from real cultivation experience."
+      }
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Mua sách và tự kiểm chứng",
+        "hint": "Tốn tiền; có thể học được hoặc bị thương",
+        "translations": {
+          "zh": {
+            "text": "买书自行验证",
+            "hint": "花钱，可能有收获或受伤"
+          },
+          "en": {
+            "text": "Buy and verify the manual",
+            "hint": "Costs money; possible insight or injury"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi kiểm chứng từng đoạn trước khi luyện, tìm được phép dẫn khí hữu ích. Người bán đã rời chợ, ngươi không biết tiền có đến tay thầy thuốc không.",
+            "effects": {
+              "resources": -6,
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你逐段验过再练，找到有用的引气法。卖书人已离市，你仍不知道钱是否送到了医者手里。"
+              },
+              "en": {
+                "text": "You verify each passage before practicing and discover useful breathing techniques. The seller has left, and you cannot know whether your money reached a physician."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Dù đã thử từng đoạn, một chỉ dẫn sai vẫn khiến kinh mạch ngươi đau. Ngươi ngừng luyện và giữ sách lại để đánh dấu những lỗi đã thấy.",
+            "effects": {
+              "resources": -6,
+              "health": -6
+            },
+            "translations": {
+              "zh": {
+                "text": "虽逐段试过，一处错误指引仍令经脉疼痛。你停止修炼，留下书册，把发现的错处逐一标出。"
+              },
+              "en": {
+                "text": "Despite careful testing, a flawed instruction still hurts your meridians. You stop practicing and keep the book to mark the errors you have discovered."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Không mua cuốn sách",
+        "hint": "Giữ tiền, chưa rõ người bán nói thật không",
+        "translations": {
+          "zh": {
+            "text": "不买这本书",
+            "hint": "保留钱财，仍不知卖家是否说真话"
+          },
+          "en": {
+            "text": "Decline the manual",
+            "hint": "Keep your money; the seller’s story remains uncertain"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 3,
+            "text": "Ngươi trả sách rồi đi tiếp, không hỏi thêm chuyện gia đình người bán. Tiếng rao nhỏ dần sau lưng, lẫn vào những lời mời hàng khác.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你把书还回去，没再追问卖家的家事。身后的叫卖声渐渐变小，混进其他商贩的招呼里。"
+              },
+              "en": {
+                "text": "You return the manual and leave without asking further about the seller’s family. His voice fades behind you among the calls of other market stalls."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_colors_027",
+    "category": "opportunity",
+    "title": "Linh ong chọn mái hiên",
+    "text": "Đàn linh ong làm tổ dưới mái hiên động phủ ngươi. Chia đường bay với khách qua lại, ngươi đổi được mật mà không phá tổ của chúng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵蜂选屋檐",
+        "text": "灵蜂在你洞府屋檐下筑巢。你替访客另辟通路，既没毁掉蜂巢，也换得了一些灵蜜。"
+      },
+      "en": {
+        "title": "Spirit bees beneath the eaves",
+        "text": "Spirit bees nest beneath your cave’s eaves. Redirecting visitors around their flight path lets you obtain honey without destroying the colony’s carefully built home."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_028",
+    "category": "opportunity",
+    "title": "Tráp của người phản môn",
+    "text": "Một người bị gọi là phản môn gửi ngươi tráp niêm phong. Ngoài nắp ghi tên trẻ mồ côi, còn người truy tìm khẳng định bên trong là bí pháp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "叛门者的匣子",
+        "text": "被称作叛徒的人托你送一只封匣。盖上写着孤儿姓名，追索者却坚持匣里藏着宗门秘法。"
+      },
+      "en": {
+        "title": "The deserter’s chest",
+        "text": "A supposed sect deserter entrusts you with a sealed chest bearing an orphan’s name. Those pursuing it insist that forbidden teachings are hidden inside."
+      }
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Giúp chuyển tráp tới người nhận",
+        "hint": "Tốn vật tư che dấu; có thể được trả công hoặc gặp bẫy",
+        "translations": {
+          "zh": {
+            "text": "帮忙送匣",
+            "hint": "消耗掩踪物资，可能获酬或遇陷阱"
+          },
+          "en": {
+            "text": "Deliver the chest",
+            "hint": "Spend concealment supplies; possible payment or trap"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi che dấu đường đi rồi giao tráp, thấy bên trong là giấy nhận nuôi. Người chăm trẻ trả công, xin ngươi đừng tiết lộ nơi ở này.",
+            "effects": {
+              "resources": 10
+            },
+            "translations": {
+              "zh": {
+                "text": "你掩去行踪送达匣子，里面竟是收养文书。照料孩子的人付了酬劳，请你不要透露这处住所。"
+              },
+              "en": {
+                "text": "You conceal your route and deliver the chest, finding adoption papers inside. The caretaker pays you and asks that you keep this home’s location private."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Địa chỉ dẫn ngươi vào sân có trận trói chờ sẵn. Ngươi phá một góc để thoát, mất vật tư che dấu và chịu vết bỏng ở chân.",
+            "effects": {
+              "resources": -8,
+              "health": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "地址把你引入布好束缚阵的院子。你破开一角逃出，损失掩踪物资，腿上也留下灼伤。"
+              },
+              "en": {
+                "text": "The address leads to a courtyard rigged with binding wards. Breaking one corner lets you escape, losing concealment supplies and suffering burns on your leg."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Trả tráp, từ chối can dự",
+        "hint": "Không nhận thưởng; tránh cuộc truy tìm",
+        "translations": {
+          "zh": {
+            "text": "退还匣子，不介入",
+            "hint": "不取报酬，避开追索"
+          },
+          "en": {
+            "text": "Return the chest",
+            "hint": "No payment; avoid the pursuit"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 3,
+            "text": "Ngươi trả tráp, nói mình chưa biết đủ để nhận lời. Người kia ôm nó rời đi giữa mưa, còn cuộc truy tìm tiếp tục qua phố.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你退回匣子，说自己知道得不够，无法答应。对方抱匣走进雨中，追索者仍在街上搜寻。"
+              },
+              "en": {
+                "text": "You return the chest, explaining that you know too little to agree. Its bearer disappears into rain while the search continues through the surrounding streets."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_colors_037",
+    "category": "opportunity",
+    "title": "Lời cảm ơn từ thầy thuốc",
+    "text": "Một thầy thuốc nhờ ngươi hong khô dược liệu sau lũ. Ông chia phần thuốc lành, nói chữa người thường cũng cần bàn tay người tu tiên.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "医者的谢礼",
+        "text": "洪水过后，医者请你烘干药材。他分给你一份良药，说医治凡人也需要修士伸手相助。"
+      },
+      "en": {
+        "title": "The physician’s thanks",
+        "text": "A physician asks you to dry herbs after a flood. Sharing restorative medicine, he says ordinary patients sometimes need the help of cultivators as well."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_038",
+    "category": "opportunity",
+    "title": "Bức tranh biết đổi nét",
+    "text": "Trong phiên đấu giá, ngươi thấy tranh đổi nét mỗi khi người xem nói dối. Chủ tranh xin đổi lấy linh thạch, nhưng không chịu kể nguồn gốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "translations": {
+      "zh": {
+        "title": "变笔的画卷",
+        "text": "拍卖会上，一幅画随观者说谎而改变笔迹。画主愿换取灵石，却始终不肯说明它的来历。"
+      },
+      "en": {
+        "title": "The painting that changes strokes",
+        "text": "At an auction, a painting changes strokes whenever its viewers lie. Its owner offers it for spirit stones but refuses to explain where it came from."
+      }
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Mua tranh để nghiên cứu",
+        "hint": "Tốn linh thạch; có thể hiểu trận hoặc chịu phản chấn",
+        "translations": {
+          "zh": {
+            "text": "买画研究",
+            "hint": "花费灵石，可能悟阵或遭反震"
+          },
+          "en": {
+            "text": "Buy the painting for study",
+            "hint": "Costs stones; possible insight or backlash"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi mua tranh, tìm thấy trận cảm ứng hơi thở thay vì phép đọc lời nói. Giải được cách đổi nét giúp ngươi cải thiện điều khiển pháp lực.",
+            "effects": {
+              "resources": -12,
+              "cultivation": 24
+            },
+            "translations": {
+              "zh": {
+                "text": "你买下画卷，发现它感应呼吸而非辨识话语。解明变笔阵法后，你运使法力的技巧有所提升。"
+              },
+              "en": {
+                "text": "Buying the painting reveals an array sensing breath rather than spoken words. Understanding its changing strokes helps improve the way you control your spiritual power."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Khi dò lớp màu, ngươi chạm cấm chế giấu dưới tranh. Phản chấn làm mắt đau và lớp hình vỡ vụn, để lại khung gỗ không giá trị.",
+            "effects": {
+              "resources": -12,
+              "health": -7
+            },
+            "translations": {
+              "zh": {
+                "text": "探查颜料时，你触动了画下暗藏的禁制。反震刺痛双眼，画面碎裂，只剩毫无价值的木框。"
+              },
+              "en": {
+                "text": "Probing the pigments triggers restrictions hidden beneath the painting. The backlash hurts your eyes and shatters its image, leaving only a worthless wooden frame."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Rời phiên đấu giá",
+        "hint": "Không chi tiền, bỏ qua bức tranh",
+        "translations": {
+          "zh": {
+            "text": "离开拍卖",
+            "hint": "不花钱，放过画卷"
+          },
+          "en": {
+            "text": "Leave the auction",
+            "hint": "Spend nothing; pass over the painting"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 3,
+            "text": "Ngươi rời phiên đấu giá trước khi giá tranh tăng tiếp. Ra ngoài, tiếng người trả giá vẫn vọng qua cửa, chẳng ai giải thích được nét đổi kia.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你在画价继续攀升前离开拍卖。门外仍听得到竞价声，却没有人说清那些笔迹为何改变。"
+              },
+              "en": {
+                "text": "You leave before the painting’s price climbs further. Bidding still echoes through the door, with nobody explaining why those curious strokes continue to change."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_colors_047",
+    "category": "opportunity",
+    "title": "Thợ sửa chuông trả công",
+    "text": "Ngươi giúp người thợ dò vết rạn bên trong chuông bằng thần thức. Ông trả ngọc vụn dùng dưỡng thần, giữ lại chiếc chuông để đúc tiếp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "修钟人的酬谢",
+        "text": "你用神识帮工匠寻找钟内裂纹。他以养神玉屑付酬，留下那口旧钟继续修补重铸。"
+      },
+      "en": {
+        "title": "The bell repairer’s payment",
+        "text": "You help a craftsman locate cracks inside a bell with spiritual awareness. He pays in spirit nourishing jade fragments and keeps the bell for further repairs."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_048",
+    "category": "opportunity",
+    "title": "Nhân chứng trong mảnh ngọc",
+    "text": "Mảnh ngọc lưu tiếng của người chết được đưa tới trước cuộc tranh quyền. Giọng nói buộc tội một trưởng lão, nhưng đoạn đầu đã bị xóa mất.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "玉片里的证言",
+        "text": "争权前夕，有人送来留着死者声音的玉片。声音指控一名长老，记录开头却已被抹去了。"
+      },
+      "en": {
+        "title": "Testimony inside jade",
+        "text": "Before a struggle for power, someone brings jade holding a dead person’s voice. It accuses an elder, but the beginning of the recording has been erased."
+      }
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Giám định dấu vết trong ngọc",
+        "hint": "Tốn vật tư; có thể tìm manh mối hoặc tổn thương thần thức",
+        "translations": {
+          "zh": {
+            "text": "鉴定玉中痕迹",
+            "hint": "消耗材料，可能找到线索或损伤神识"
+          },
+          "en": {
+            "text": "Examine the jade’s traces",
+            "hint": "Spend materials; possible clues or harm to awareness"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi dò thấy dấu nối giữa hai đoạn tiếng, báo rằng chứng vật đã bị sửa. Việc phân biệt dư âm cũng giúp thần thức nhận chi tiết tinh hơn.",
+            "effects": {
+              "resources": -8,
+              "cultivation": 28
+            },
+            "translations": {
+              "zh": {
+                "text": "你查出两段声音间的拼接痕迹，说明证物被改过。分辨余响的过程，也让神识感知更加细致。"
+              },
+              "en": {
+                "text": "You find a splice between two passages and report that the evidence was altered. Distinguishing lingering echoes also sharpens the finer perceptions of your awareness."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Lớp khóa trong ngọc vỡ khi ngươi kiểm tra, phóng ra tiếng rít làm thần thức đau. Ngươi dừng giám định, ghi rõ phần chứng cứ đã hỏng.",
+            "effects": {
+              "resources": -8,
+              "health": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "检查时玉中锁层破裂，尖啸冲得神识剧痛。你停止鉴定，明确记录已经损坏的证据部分。"
+              },
+              "en": {
+                "text": "A locking layer breaks during examination, releasing a shriek that wounds your awareness. You stop the investigation and carefully record which evidence has been damaged."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "decline",
+        "text": "Niêm phong, chưa kết luận",
+        "hint": "Giữ nguyên chứng vật; không nhận cơ duyên",
+        "translations": {
+          "zh": {
+            "text": "封存，暂不下结论",
+            "hint": "保留证物，不获机缘"
+          },
+          "en": {
+            "text": "Seal it without a verdict",
+            "hint": "Preserve the evidence; gain no insight"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "decline",
+            "weight": 3,
+            "text": "Ngươi niêm phong mảnh ngọc và ghi rằng lời cáo buộc chưa được kiểm chứng. Cuộc tranh quyền vẫn tiếp diễn, nhưng ngươi không ký vào bản kết tội.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你封存玉片，注明指控尚未核实。争权仍在继续，但你没有在定罪文书上签下名字。"
+              },
+              "en": {
+                "text": "You seal the jade and note that its accusation remains unverified. The struggle continues, but you withhold your signature from the document declaring the elder guilty."
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

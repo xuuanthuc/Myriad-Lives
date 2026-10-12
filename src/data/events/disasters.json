@@ -6793,5 +6793,280 @@
         "text": "You inspect a cracked ancient bell without noticing its accumulated echoes. Their rebound strikes your awareness, causing headaches that require rest and purchased medicine."
       }
     }
+  },
+  {
+    "id": "lower_realms_colors_009",
+    "category": "disaster",
+    "title": "Đám cưới gặp lính thu lương",
+    "text": "Ngươi dự đám cưới thì lính thu lương xông vào lấy gạo. Bàn tiệc tan tác, ngươi mất phần quà mang theo khi giúp chủ nhà dọn lại.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "征粮兵闯婚宴",
+        "text": "你赴婚宴时，征粮兵闯入搬走粮食。酒席一片狼藉，你帮主人收拾，带来的礼物也没能留下。"
+      },
+      "en": {
+        "title": "A wedding interrupted by levies",
+        "text": "Soldiers seize grain during a wedding you attend. The feast falls apart, and your gift disappears while you help the household clear the scattered dishes."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_010",
+    "category": "disaster",
+    "title": "Sương thuốc mê nơi bến đò",
+    "text": "Khói từ quán nước khiến ngươi chóng mặt khi chờ đò. Tỉnh lại trong bụi lau, ngươi thấy túi tiền mất và cổ tay hằn vết trói.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "渡口迷药雾",
+        "text": "候船时，茶摊烟气令你头晕。醒来已躺在芦苇丛中，钱袋不见了，手腕还留着绳痕。"
+      },
+      "en": {
+        "title": "Drugged mist at the ferry",
+        "text": "Smoke from a tea stall makes you dizzy while awaiting the ferry. You awaken among reeds, missing your purse and bearing rope marks around your wrists."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_019",
+    "category": "disaster",
+    "title": "Tiền thuê động phủ tăng",
+    "text": "Chủ động phủ tăng tiền thuê sau khi linh mạch được đo lại. Ngươi phải chuyển đồ giữa mưa, mất thuốc khô và vài ngày tu luyện.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "洞府涨租",
+        "text": "灵脉重新测定后，洞府主人提高租金。你只得冒雨搬家，损失了干药，也耽误数日修炼。"
+      },
+      "en": {
+        "title": "The cave rent rises",
+        "text": "Your cave’s owner raises rent after its spiritual vein is surveyed again. Moving through rain ruins dried medicine and costs you several days of practice."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_020",
+    "category": "disaster",
+    "title": "Bùa giả ở cổng chợ",
+    "text": "Ngươi mua bùa tránh mưa ở cổng chợ rồi gặp giông. Mực tan khiến pháp lực phản ngược, áo ướt sũng và đầu ngón tay bỏng rát.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "市门假符",
+        "text": "你在市门买了避雨符，却迎头遇上雷雨。符墨化开，灵力倒冲，衣衫湿透，指尖也灼痛起来。"
+      },
+      "en": {
+        "title": "False talismans at the gate",
+        "text": "A rain ward bought at the market gate dissolves during a storm. Its ink causes energy to rebound, leaving soaked clothes and painfully singed fingertips."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_029",
+    "category": "disaster",
+    "title": "Linh tuyền bị dẫn dòng",
+    "text": "Gia tộc trên núi dẫn linh tuyền khỏi khu tán tu thuê. Vườn thuốc của ngươi héo trước khi tranh chấp được xử, làm hao phần tích góp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "改道的灵泉",
+        "text": "山上家族把灵泉引离散修租地。争端还没得到裁决，你的药圃已枯萎，积蓄也因此折损。"
+      },
+      "en": {
+        "title": "The diverted spirit spring",
+        "text": "A mountain clan diverts the spring serving rented cultivator plots. Your medicinal garden withers before the dispute is settled, consuming part of your hard earned savings."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_030",
+    "category": "disaster",
+    "title": "Hương an thần giấu độc",
+    "text": "Hương an thần từ cửa hiệu quen khiến ngươi khó thở khi nhập định. Kiểm tra mới thấy thảo dược bị thay, ngươi mất tiền thuốc giải và nghỉ dưỡng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "藏毒的安神香",
+        "text": "熟店买来的安神香让你入定时呼吸困难。检查发现药材被调换，只得花钱解毒并休养身体。"
+      },
+      "en": {
+        "title": "Poison hidden in calming incense",
+        "text": "Calming incense from a familiar shop leaves you breathless during meditation. Discovering substituted herbs forces you to purchase an antidote and spend time recovering."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_039",
+    "category": "disaster",
+    "title": "Lời đồn thao túng đan giá",
+    "text": "Lời đồn thiếu linh dược khiến ngươi mua vật liệu giá cao. Khi kho lớn mở bán trở lại, đan giá sụt mạnh và vốn tích góp hao đi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "操纵丹价的谣言",
+        "text": "灵药短缺的传言令你高价买进材料。大仓重新开售时，丹价骤跌，你的积蓄也随之缩水。"
+      },
+      "en": {
+        "title": "Rumors moving pill prices",
+        "text": "Rumors of scarce herbs lead you to buy expensive materials. When major warehouses resume sales, pill prices collapse and erode the savings you invested."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_040",
+    "category": "disaster",
+    "title": "Khách trọ mang trận nghe lén",
+    "text": "Khách trọ bên cạnh giấu trận nghe lén dưới tường đan thất. Ngươi phá được nó nhưng luồng phản chấn làm tai ù, buộc tốn thuốc dưỡng thần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "携窃听阵的房客",
+        "text": "隔壁房客在丹室墙下藏了窃听阵。你虽将它破除，反震却让耳中嗡鸣，只得用药调养神识。"
+      },
+      "en": {
+        "title": "The guest carrying a listening array",
+        "text": "A neighboring guest hides a listening array beneath your chamber wall. Breaking it causes ringing ears from the backlash, requiring medicine to restore your awareness."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_049",
+    "category": "disaster",
+    "title": "Cấm chế khóa cửa nhà khách",
+    "text": "Chủ nhà khách khóa cấm chế để ép ngươi trả món nợ của khách khác. Phá lối ra làm thần thức đau nhói và tổn hại pháp khí mở khóa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "锁客房的禁制",
+        "text": "客栈主人锁住禁制，逼你替别的客人偿债。你破开出口时神识刺痛，开锁法器也受了损伤。"
+      },
+      "en": {
+        "title": "The guesthouse lock",
+        "text": "A guesthouse owner seals its wards to force another guest’s debt upon you. Breaking out hurts your awareness and damages the tool used to open locks."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_colors_050",
+    "category": "disaster",
+    "title": "Linh cảnh bị nhuộm ký ức",
+    "text": "Ngươi thử linh cảnh mua từ người sưu tầm, gặp những ký ức đau của chủ cũ. Cắt liên kết để tỉnh lại làm nguyên khí suy và tốn thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "被染色的灵景",
+        "text": "你试用收藏家卖的灵景，却陷入旧主痛苦的记忆。切断联系醒来后元气衰弱，只得服药调养。"
+      },
+      "en": {
+        "title": "A vision tainted by memory",
+        "text": "Testing a vision bought from a collector immerses you in its former owner’s painful memories. Severing the connection weakens your vitality and requires restorative medicine."
+      }
+    }
   }
 ]
