@@ -1,5 +1,6 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ["Dấu tích một kiếp","一世留痕","Traces of a lifetime"],
   ["Mở lại","重新打开","Reopen"],
   ["Đóng để đọc ký sự","关闭并阅读纪事","Close to read the chronicle"],
   ["Chuyển sang giao diện sáng","切换浅色主题","Switch to light theme"],

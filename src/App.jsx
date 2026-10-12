@@ -53,6 +53,11 @@ export default function App() {
   function act(fn){try{setError(false);fn();}catch(e){console.error(e);setError(true);}}
   function reincarnate(){act(()=>{const result=startLife(session);setSession(result.nextSession);setPaused(false);setEngineRun(result.run);});}
   function resolveChoice(optionId,automatic=false){if(playing||actionLock.current||engineRun?.phase!=='awaiting_choice')return;actionLock.current=true;act(()=>{setPaused(false);setEngineRun(automatic?autoUntilBreakthrough(engineRun):chooseOption(engineRun,optionId));});}
+  const playbackControls=run&&(<section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
+          <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
+          <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span>{Math.floor(progress)}%</span></div>
+          <progress className="playback-progress" max="10000" value={progress*100} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
+        </section>);
   return <div className={'site lang-'+language}>
     <header className="header">
       <a className="brand" href="#/"><span className="brand-mark">萬</span><span>MYRIAD LIVES<small>{t('VẠN KIẾP')}</small></span></a>
@@ -86,11 +91,7 @@ export default function App() {
       {error&&<div role="alert" className="error">{t('Tiên cơ tạm gián đoạn.')}<button onClick={reincarnate}>{t('Thử một kiếp mới')}</button></div>}
       {run&&<section className="game">
         <div className="section-heading"><p className="eyebrow">{t('THIÊN MỆNH QUYỂN · KIẾP')} {String(run.number).padStart(3,'0')}</p><span className="world">◈ {t(run.world.descriptor)}</span></div>
-        <section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
-          <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
-          <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span>{Math.floor(progress)}%</span></div>
-          <progress className="playback-progress" max="10000" value={progress*100} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
-        </section>
+
         <div className="game-grid">
           <aside className="profile">
             <div className="profile-top"><span className="profile-icon">命</span><p>{t('SỐ MỆNH KIẾP NÀY')}</p><h2>{translateName(run.profile.name,language)}</h2><span className="realm-tag">{t(realms[run.state.realm].name)}{stageName(run.state)?' · '+t(stageName(run.state)):''}</span>{run.profile.isGoodProfile&&<span className="gifted">✦ {t('Tiên tư xuất chúng')}</span>}</div>
@@ -105,7 +106,7 @@ export default function App() {
           </aside>
           <div className="story">
             <div className="story-heading"><h2>{t('Nhân sinh ký sự')}</h2><span>{run.facts.length} {t('mốc cuộc đời')}</span></div>
-            <LifeActivity key={run.number} run={run} t={t}>
+            <LifeActivity key={run.number} run={run} t={t} toolbar={playbackControls}>
             {run.pendingChoice&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}>
             {run.pendingChoice?.kind==='breakthrough'&&<section className="choice-card breakthrough-card" aria-live="polite">
               <p className="eyebrow">✦ {t('Đang chờ đột phá')} · {run.state.age} {t('tuổi')}</p>

@@ -13,7 +13,7 @@ function eventType(fact){
   return fact.category;
 }
 
-export default function LifeActivity({run,t,children}) {
+export default function LifeActivity({run,t,children,toolbar}) {
   const latest=run.facts.at(-1);
   const [page,setPage]=useState(run.state.realm);
   const [selectedId,setSelectedId]=useState(latest?.id);
@@ -72,6 +72,7 @@ export default function LifeActivity({run,t,children}) {
       ><span>{t(realm.name)}</span><small>{counts[index] ? counts[index]+' '+t('sự kiện'):t('Chưa đạt')}</small></button>)}
     </nav>
     <div className="realm-page-heading"><h3>{t(realms[page].name)}</h3><span>{entries.length} {t('mốc cuộc đời')}</span></div>
+    {toolbar}
     <SmoothHeight>
     <div ref={listNode} className="timeline realm-event-list" aria-live="polite" role="region" aria-label={t(realms[page].name)+' · '+t('Nhân sinh ký sự')} tabIndex={0}>
       {entries.map(fact=><article
@@ -87,11 +88,14 @@ export default function LifeActivity({run,t,children}) {
     <SmoothHeight>{children}</SmoothHeight>
     <SmoothHeight>
     <div className="life-heatmap-scroll" role="region" aria-label={t('Bấm ô màu để chuyển tới sự kiện')} tabIndex={0}>
+      <h3 className="life-map-title">{t('Dấu tích một kiếp')}</h3>
+      <div className="heatmap-legend" aria-label={t('Chú giải')}>
+        {eventColors.map(([type,label])=><span key={type}><i className={'type-'+type} aria-hidden="true"/>{t(label)}</span>)}
+      </div>
       <div className="life-heatmap">
         {realms.map((realm,index)=>{
           const realmFacts=run.facts.filter(fact=>fact.realm===index);
           return <div key={realm.id} className={'heatmap-realm'+(page===index?' current':'')} role="group" aria-label={t(realm.name)}>
-            <div className="heatmap-realm-name">{t(realm.name)}</div>
             <div className="heatmap-realm-cells">
               {realmFacts.map(fact=><button
           type="button" key={fact.id}
@@ -106,9 +110,6 @@ export default function LifeActivity({run,t,children}) {
           </div>;
         })}
       </div>
-    </div>
-    <div className="heatmap-legend" aria-label={t('Chú giải')}>
-      {eventColors.map(([type,label])=><span key={type}><i className={'type-'+type} aria-hidden="true"/>{t(label)}</span>)}
     </div>
     </SmoothHeight>
   </section>;
