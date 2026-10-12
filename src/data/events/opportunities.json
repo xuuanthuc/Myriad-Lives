@@ -9001,5 +9001,3291 @@
         ]
       }
     ]
+  },
+  {
+    "id": "lower_realms_crossroads_006",
+    "category": "opportunity",
+    "title": "Lông hạc trong bụi gai",
+    "text": "Ngươi gỡ bụi gai để con hạc mắc chân bay lên. Chiếc lông nó bỏ lại được người làm quạt mua, đủ trả tiền trọ tuần tới.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "荆棘里的鹤羽",
+        "text": "你扒开荆棘，让缠住脚的白鹤飞走。它落下的羽毛被制扇人买去，够付下周的客栈钱。"
+      },
+      "en": {
+        "title": "A crane feather among thorns",
+        "text": "You clear thorns from a trapped crane’s leg and let it fly. A fan maker buys its fallen feather, covering your lodging for the coming week."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_007",
+    "category": "opportunity",
+    "title": "Tiền công đo bóng cây",
+    "text": "Một người trồng vườn thuê ngươi đo bóng cây suốt ngày. Những dấu cọc giúp ông chia đất công bằng, tiền công cao hơn ngươi từng nghĩ.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "量树影的工钱",
+        "text": "园主雇你整日测量树影。留下的木桩帮他公平分地，给你的工钱也比预想多一些。"
+      },
+      "en": {
+        "title": "Payment for measuring shade",
+        "text": "A gardener pays you to measure tree shadows throughout the day. Your stakes help divide plots fairly, earning better wages than you had expected beforehand."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_008",
+    "category": "opportunity",
+    "title": "Bản khế ước giấu trong áo",
+    "text": "Người làm thuê nhờ ngươi tìm khế ước trong áo chủ vừa bỏ. Chủ hứa trả tiền nếu đốt áo ngay, còn người kia nói giấy ấy chứng minh mình tự do.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "衣内暗藏的契书",
+        "text": "佣工请你找东家弃衣里的契书。东家愿付钱让你烧衣，佣工却说那张纸能证明自己已获自由。"
+      },
+      "en": {
+        "title": "The deed hidden in a coat",
+        "text": "A worker asks for a deed hidden in his employer’s discarded coat. The employer offers payment to burn it, while the worker says it proves his freedom."
+      }
+    },
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trả khế ước cho người làm thuê",
+        "hint": "Không nhận tiền đốt áo",
+        "translations": {
+          "zh": {
+            "text": "把契书交还佣工",
+            "hint": "不收烧衣的钱"
+          },
+          "en": {
+            "text": "Return the deed to the worker",
+            "hint": "Take no payment for burning the coat"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi lấy khế ước đưa cho người làm thuê, thấy dấu trả nợ còn nguyên. Người ấy cất giấy sát ngực rồi rời sân, không còn chờ chủ cho phép.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你取出契书交给佣工，偿清债务的印记仍在。他把纸贴胸收好，直接离院，不再等待东家准许。"
+              },
+              "en": {
+                "text": "You return the deed with its debt clearance seal intact. The worker keeps it against his chest and leaves without waiting for his employer’s permission."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Nhận tiền và đốt áo",
+        "hint": "Được tiền, hủy khế ước",
+        "translations": {
+          "zh": {
+            "text": "收钱烧衣",
+            "hint": "得到钱财，毁掉契书"
+          },
+          "en": {
+            "text": "Accept payment and burn the coat",
+            "hint": "Gain money; destroy the deed"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi nhận tiền rồi đốt áo cùng tờ giấy chưa đọc hết. Người làm thuê bỏ đi khi tro nguội, còn chủ bảo chuyện đã xong và đóng cửa.",
+            "effects": {
+              "resources": 10
+            },
+            "translations": {
+              "zh": {
+                "text": "你收钱烧掉衣服和没读完的纸。灰冷后佣工离开，东家说事情已经了结，随即关上院门。"
+              },
+              "en": {
+                "text": "You accept payment and burn the coat with its unread paper. The worker leaves as ashes cool; the employer declares the matter settled and closes the gate."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_crossroads_016",
+    "category": "opportunity",
+    "title": "Vảy cá giữ mực phù",
+    "text": "Ngươi thử viết phù lên vảy cá linh thay giấy đắt tiền. Mẫu chịu nước được người chở hàng mua, đủ bù các lần thử hỏng trước đó.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "留符墨的鱼鳞",
+        "text": "你用灵鱼鳞代替昂贵符纸试写符文。耐水样品被运货人买下，所得终于补上此前失败的花费。"
+      },
+      "en": {
+        "title": "Fish scales that hold ink",
+        "text": "You test spirit fish scales instead of expensive paper for talismans. Carriers buy the waterproof samples, finally covering the cost of your earlier failed attempts."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_017",
+    "category": "opportunity",
+    "title": "Công sửa đèn dưới cầu",
+    "text": "Ngươi giúp người coi cầu sửa đèn dẫn thuyền trong sương. Ông trả công bằng linh thạch dành dụm, bảo không muốn nợ ai vì việc giữ bến.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "桥下修灯",
+        "text": "你帮守桥人修好雾中引船的灯。他用积攒的灵石付酬，说守护渡口这件事不该只欠人情。"
+      },
+      "en": {
+        "title": "Repairing lamps beneath the bridge",
+        "text": "You repair navigation lamps for a bridge keeper. Paying with saved spirit stones, he says caring for the ferry should not depend entirely on unpaid favors."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_018",
+    "category": "opportunity",
+    "title": "Linh xà dưới gốc thuốc",
+    "text": "Một linh xà bị lưới kẹt cạnh cây thuốc chín, mắt vẫn dõi về tổ. Người hái thuốc bảo bắt nó bán lời hơn, còn cây bắt đầu rụng hạt.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "药根下的灵蛇",
+        "text": "灵蛇被网困在成熟药草旁，始终望着巢穴。采药人说卖蛇更赚钱，药草却已开始落种。"
+      },
+      "en": {
+        "title": "The spirit snake beneath the herb",
+        "text": "A spirit snake is netted beside a ripe herb, staring toward its nest. A gatherer suggests selling it for more money as the plant begins shedding seeds."
+      }
+    },
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Gỡ lưới cho linh xà",
+        "hint": "Có thể được hạt thuốc hoặc bị cắn",
+        "translations": {
+          "zh": {
+            "text": "替灵蛇解网",
+            "hint": "可能获得药种，也可能被咬"
+          },
+          "en": {
+            "text": "Free the spirit snake",
+            "hint": "Possible herb seeds or a bite"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi gỡ lưới, linh xà trườn về tổ rồi đẩy ra ít hạt thuốc. Người hái thuốc im lặng giúp nhặt, lần này không nói đến giá con vật nữa.",
+            "effects": {
+              "resources": 14
+            },
+            "translations": {
+              "zh": {
+                "text": "你解开网，灵蛇回巢后推出一些药种。采药人默默帮忙拾起，这次没有再提它能卖多少钱。"
+              },
+              "en": {
+                "text": "You free the snake, which returns to its nest and pushes out herb seeds. The gatherer helps collect them without discussing the animal’s selling price again."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Linh xà hoảng quá cắn tay ngươi lúc dây cuối được tháo. Nó thoát về tổ, còn ngươi phải dùng thuốc giải, bỏ lỡ những hạt đang rơi.",
+            "effects": {
+              "health": -6,
+              "resources": -5
+            },
+            "translations": {
+              "zh": {
+                "text": "解开最后一根绳时，惊慌灵蛇咬了你的手。它逃回巢穴，你却得用药解毒，错过了落下的药种。"
+              },
+              "en": {
+                "text": "The frightened snake bites as you loosen the last cord. It escapes home while you use an antidote, missing the seeds falling from the nearby plant."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Chỉ nhặt hạt đã rụng",
+        "hint": "Được ít vật tư; không chạm linh xà",
+        "translations": {
+          "zh": {
+            "text": "只拾落下的种子",
+            "hint": "得到少量材料，不碰灵蛇"
+          },
+          "en": {
+            "text": "Gather only fallen seeds",
+            "hint": "Gain a few supplies; leave the snake untouched"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi nhặt những hạt đã rụng rồi tránh khỏi lưới, mang đủ để bán một ít. Linh xà vẫn nhìn về tổ, còn người hái thuốc tiếp tục cân nhắc.",
+            "effects": {
+              "resources": 5
+            },
+            "translations": {
+              "zh": {
+                "text": "你拾起落种便避开网子，所得够卖一点钱。灵蛇仍望着巢穴，采药人也还在考虑自己的打算。"
+              },
+              "en": {
+                "text": "You gather fallen seeds and step away with a small amount to sell. The snake still watches its nest, and the gatherer continues considering his options."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_crossroads_026",
+    "category": "opportunity",
+    "title": "Nấm trong bóng trận cũ",
+    "text": "Nấm mọc dưới trận che nắng bỏ hoang lại có dược tính tốt. Ngươi hỏi chủ đất rồi thu một phần, bán đủ tiền tu sửa nơi ở.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "旧阵阴下的菌",
+        "text": "废弃遮阳阵下的菌类竟有不错药性。你征得地主同意采走一部分，卖钱修整了自己的住处。"
+      },
+      "en": {
+        "title": "Mushrooms beneath an old array",
+        "text": "Mushrooms beneath an abandoned shade array prove medicinal. With the landowner’s permission, you gather a portion and sell enough to repair your own living quarters."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_027",
+    "category": "opportunity",
+    "title": "Bản nhạc đổi lấy đá trận",
+    "text": "Người sửa đàn nhờ ngươi nhớ lại bản nhạc từ quê cũ của ông. Nghe xong, ông tặng đá trận còn dùng được, không hỏi ngươi đã đi bao xa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "以曲换阵石",
+        "text": "修琴人请你回忆他故乡的曲子。听过后，他赠你几块还能用的阵石，没有追问你走过多远。"
+      },
+      "en": {
+        "title": "A tune traded for array stones",
+        "text": "An instrument repairer asks you to recall music from his old home. Hearing it earns you usable array stones, without questions about how far you have traveled."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_028",
+    "category": "opportunity",
+    "title": "Kẻ thù dưới cầu gãy",
+    "text": "Ngươi gặp người từng lừa mình mắc dưới cầu gãy, chân bị đá đè. Hắn xin giúp, chìa túi vật tư và thừa nhận món nợ cũ vẫn chưa trả.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "断桥下的仇敌",
+        "text": "你遇见曾骗过自己的人被困断桥下，腿压在石头底。他伸出材料袋求助，承认旧债仍未偿还。"
+      },
+      "en": {
+        "title": "An enemy beneath the broken bridge",
+        "text": "Someone who once cheated you lies beneath a broken bridge with a trapped leg. He offers supplies for help and admits his old debt remains unpaid."
+      }
+    },
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Giúp nhấc đá",
+        "hint": "Có thể nhận vật tư hoặc bị thương",
+        "translations": {
+          "zh": {
+            "text": "帮忙抬石",
+            "hint": "可能获得材料，也可能受伤"
+          },
+          "en": {
+            "text": "Help lift the stone",
+            "hint": "Possible supplies or injury"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi nhấc đá, người kia đưa túi vật tư rồi nhận mình vẫn chưa trả hết. Hắn chống gậy rời cầu, lần này để lại địa chỉ rõ ràng.",
+            "effects": {
+              "resources": 16
+            },
+            "translations": {
+              "zh": {
+                "text": "你抬开石头，对方交出材料袋，承认还未偿清。他拄杖离开断桥，这一次留下了明确住址。"
+              },
+              "en": {
+                "text": "You lift the stone and receive his supplies, though he admits they do not settle everything. Leaving with a stick, he gives a clear address this time."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Khối đá kéo theo dầm mục khi ngươi nâng, quệt vai thành vết sâu. Người kia thoát chân rồi bỏ chạy cùng túi vật tư, không giữ lời đã nói.",
+            "effects": {
+              "health": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你抬石时带落腐朽桥梁，肩上被划出深伤。对方脱困后带着材料袋逃走，没有履行自己的承诺。"
+              },
+              "en": {
+                "text": "Lifting the stone brings down a rotten beam that cuts your shoulder. The man frees his leg and flees with the supplies, breaking his promise again."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Tìm người cứu hộ thay mình",
+        "hint": "Không nhận vật tư; không nhấc đá",
+        "translations": {
+          "zh": {
+            "text": "找救援者代劳",
+            "hint": "不取材料，不亲自抬石"
+          },
+          "en": {
+            "text": "Find rescuers to help instead",
+            "hint": "No supplies; do not lift the stone yourself"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi nhờ đội sửa cầu tới cứu, kể rõ chỗ chân bị kẹt. Không nhận túi vật tư, ngươi đi tiếp trước khi biết người kia sẽ nói gì với họ.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你请修桥队前去救人，说明被压住的位置。没有收材料袋，便在听见对方如何解释前继续赶路。"
+              },
+              "en": {
+                "text": "You direct a bridge crew to the trapped leg and ask them to help. Taking no supplies, you leave before hearing what he will tell his rescuers."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_crossroads_036",
+    "category": "opportunity",
+    "title": "Tro linh mộc cho lò men",
+    "text": "Ngươi đem tro linh mộc bỏ đi cho thợ men thử phối. Màu mới được khách ưa, phần tiền chia giúp ngươi mua thêm vật tư tu luyện.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵木灰入釉炉",
+        "text": "你把废弃灵木灰交给制釉工试配。新颜色受到客人喜爱，分来的收益够添置一些修炼材料。"
+      },
+      "en": {
+        "title": "Spirit wood ash for the kiln",
+        "text": "You give discarded spirit wood ash to a glaze maker for experiments. Customers favor the resulting color, and shared earnings buy additional materials for your practice."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_037",
+    "category": "opportunity",
+    "title": "Dược viên nhận người trả nợ",
+    "text": "Dược viên nhận người mắc nợ làm công có lương, nhờ ngươi sửa trận tưới. Chủ vườn trả vật tư ngay, cho ngươi xem sổ chia công rõ ràng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "接纳还债人的药园",
+        "text": "药园雇欠债人做有薪工，请你修好灌溉阵。园主当场付材料酬劳，也让你看清楚的工钱账册。"
+      },
+      "en": {
+        "title": "The garden taking debtors in",
+        "text": "A medicinal garden employs debtors for wages and asks you to repair irrigation wards. Its owner pays in supplies immediately and shows clearly recorded payments for workers."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_038",
+    "category": "opportunity",
+    "title": "Lửa còn trong lò mộ",
+    "text": "Lò luyện chôn cùng một đan sư vẫn cháy dưới mộ mở. Người giữ mộ cho lấy phần thuốc dư, nhưng tiếng cơ quan vang khi ngươi tới gần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "translations": {
+      "zh": {
+        "title": "墓炉余火",
+        "text": "随丹师下葬的炉子仍在打开的墓穴中燃烧。守墓人准你取剩药，靠近时却传来机关转动声。"
+      },
+      "en": {
+        "title": "Fire inside the burial furnace",
+        "text": "An alchemist’s buried furnace still burns inside an opened tomb. Its keeper permits taking leftover medicine, but moving mechanisms sound as you approach the glowing vessel."
+      }
+    },
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Dò cơ quan rồi lấy thuốc",
+        "hint": "Có thể được thuốc hoặc trúng hơi nóng",
+        "translations": {
+          "zh": {
+            "text": "探查机关后取药",
+            "hint": "可能得药，也可能被热气伤到"
+          },
+          "en": {
+            "text": "Examine the mechanisms and take medicine",
+            "hint": "Possible medicine or burns"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi khóa cơ quan chuyển lò trước khi lấy phần thuốc còn tốt. Người giữ mộ cảm ơn vì đường vào bớt nguy, ngọn lửa sau lưng vẫn cháy đều.",
+            "effects": {
+              "health": 8,
+              "resources": 8
+            },
+            "translations": {
+              "zh": {
+                "text": "你先锁住移炉机关，再取尚好的药。守墓人感谢你让通路更安全，身后炉火仍平稳燃烧。"
+              },
+              "en": {
+                "text": "You lock the furnace moving mechanism before taking usable medicine. The keeper thanks you for making the passage safer while the fire continues steadily behind you."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Cơ quan dưới nền còn nối với lò dù ngươi đã chặn bánh răng. Hơi nóng phụt lên làm tay phồng, ngươi rút lui và để thuốc lại bên trong.",
+            "effects": {
+              "health": -7
+            },
+            "translations": {
+              "zh": {
+                "text": "虽卡住齿轮，地底机关仍连着炉子。热气喷起烫伤手掌，你撤退了，把药留在炉中。"
+              },
+              "en": {
+                "text": "Although you block the gears, another buried mechanism remains connected to the furnace. Rising heat blisters your hand, forcing retreat with the medicine left inside."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Để thuốc lại trong lò",
+        "hint": "Không nhận thuốc; giữ khoảng cách",
+        "translations": {
+          "zh": {
+            "text": "把药留在炉中",
+            "hint": "不取药，保持距离"
+          },
+          "en": {
+            "text": "Leave the medicine in the furnace",
+            "hint": "No medicine; keep your distance"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi để thuốc lại và nhắc người giữ mộ đánh dấu nền có cơ quan. Ra khỏi mộ, tiếng chuyển động vẫn vang, không ai vội thử lần nữa.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你没有取药，只提醒守墓人标出机关地面。出了墓穴仍听见转动声，没有谁急着再试一次。"
+              },
+              "en": {
+                "text": "You leave the medicine and ask the keeper to mark the mechanism beneath the floor. Outside, movement still echoes, and nobody rushes to try once more."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_crossroads_046",
+    "category": "opportunity",
+    "title": "Bút ghi âm cho người học chữ",
+    "text": "Ngươi giúp thợ bút lưu tiếng đọc trong nét chữ cho người mới học. Một thư viện mua bản thử, trả vật tư dưỡng thần và xin làm thêm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "留声识字笔",
+        "text": "你帮制笔人把读音留在字迹中，供初学者识字。书院买下试品，付养神材料，还请你们再做一些。"
+      },
+      "en": {
+        "title": "A voice pen for learners",
+        "text": "You help a pen maker store pronunciations within written strokes for beginners. A library buys the trial version, paying in spirit nourishing supplies and requesting more."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_047",
+    "category": "opportunity",
+    "title": "Nước mắt của linh tượng",
+    "text": "Ngươi tìm thấy linh tượng khóc cạnh chủ cũ đã mất, mắt bị bụi trận làm đau. Rửa sạch bụi, ngươi nhận ngọc vụn người giữ thú gửi cảm tạ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵象的眼泪",
+        "text": "灵象守着亡故的旧主流泪，眼中还留着阵尘。你替它洗净，饲养人送来玉屑表达谢意。"
+      },
+      "en": {
+        "title": "The spirit elephant’s tears",
+        "text": "A spirit elephant mourns its deceased keeper with array dust irritating its eyes. Washing away the dust earns jade fragments from the caretaker now watching over it."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_048",
+    "category": "opportunity",
+    "title": "Bóng người xin mượn một đêm",
+    "text": "Trong gương cổ, bóng người xin mượn thần thức ngươi để viết thư cuối. Nó hứa chỉ một đêm, nhưng trên khung có nhiều tên đã bị cào xóa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "借一夜的影子",
+        "text": "古镜里的影子请求借你的神识写最后一封信。它答应只借一夜，镜框上却有许多被刮去的姓名。"
+      },
+      "en": {
+        "title": "A shadow asking for one night",
+        "text": "A figure in an antique mirror asks to borrow your awareness for one final letter. It promises one night, but many names have been scratched from the frame."
+      }
+    },
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Cho viết thư qua kết giới",
+        "hint": "Có thể lĩnh ngộ hoặc chịu tổn thương thần thức",
+        "translations": {
+          "zh": {
+            "text": "隔结界借念写信",
+            "hint": "可能领悟，也可能损伤神识"
+          },
+          "en": {
+            "text": "Lend awareness through a barrier",
+            "hint": "Possible insight or harm to awareness"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Bóng người viết thư rồi tan trước sáng, để lại cách tách thần niệm trong nét chữ. Ngươi giữ thư cho người trông gương, chưa biết ai còn nhận được.",
+            "effects": {
+              "cultivation": 28
+            },
+            "translations": {
+              "zh": {
+                "text": "影子写完信，在天明前散去，字里留着分离神念的方法。你把信交给看镜人，还不知收信者是否仍在。"
+              },
+              "en": {
+                "text": "The figure writes and fades before dawn, leaving a method for separating thoughts within its strokes. You entrust the letter to the keeper, unsure who can receive it."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Bóng người kéo dài nét chữ để níu thần thức qua kết giới. Ngươi cắt liên kết trước sáng, đầu đau nhiều ngày còn bức thư chỉ toàn tên bị xóa.",
+            "effects": {
+              "health": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "影子拖长笔画，试图隔结界牵住你的神识。你在天亮前切断联系，头痛多日，信上却只有被抹掉的名字。"
+              },
+              "en": {
+                "text": "The figure lengthens strokes to hold your awareness through the barrier. You sever contact before dawn, suffering headaches while the letter contains only erased names."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Từ chối, che gương lại",
+        "hint": "Không cho mượn thần thức, không nhận cơ duyên",
+        "translations": {
+          "zh": {
+            "text": "拒绝并遮住镜子",
+            "hint": "不借神识，不获机缘"
+          },
+          "en": {
+            "text": "Decline and cover the mirror",
+            "hint": "Lend no awareness; gain no insight"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi từ chối rồi che gương, không hứa điều mình chưa thể kiểm chứng. Bóng người ngừng gọi, còn những tên cào xóa trên khung vẫn chưa được giải thích.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你拒绝并遮住古镜，没有答应尚无法验证的事。影子停止呼唤，镜框被刮去的姓名仍没有解释。"
+              },
+              "en": {
+                "text": "You decline and cover the mirror without promising anything you cannot verify. The figure stops calling, leaving the scratched names upon its frame unexplained still."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_tapestry_007",
+    "category": "opportunity",
+    "title": "Công dẫn người mù qua chợ",
+    "text": "Một người buôn mù thuê ngươi dẫn qua chợ để nghe giá hàng. Ông trả công đúng hẹn, dạy phân biệt tiếng rao thật với lời chèo kéo.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "领盲人过市",
+        "text": "盲商雇你领他穿过集市，听各摊货价。他如约付酬，还教你分辨实在报价和招揽客人的虚话。"
+      },
+      "en": {
+        "title": "Guiding a blind merchant",
+        "text": "A blind merchant hires you to guide him through market prices. Paying as promised, he teaches you to distinguish honest offers from words merely attracting customers."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_008",
+    "category": "opportunity",
+    "title": "Hạt cườm từ lòng đất",
+    "text": "Khi đào hố dựng cột, ngươi thấy hạt cườm cũ nằm trong chum vỡ. Chủ đất chia tiền bán cho người làm trang sức, đủ bù ngày mất công.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "土里的珠粒",
+        "text": "挖柱坑时，你在碎陶罐里发现旧珠粒。地主分给你卖首饰材料的钱，补上这一天的辛苦。"
+      },
+      "en": {
+        "title": "Beads beneath the soil",
+        "text": "Digging a post hole reveals old beads inside a broken pot. The landowner shares their sale to a jeweler, covering the day you spent working."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_009",
+    "category": "opportunity",
+    "title": "Đứa trẻ gọi bên kiệu",
+    "text": "Một đứa trẻ nói người trong kiệu đang bị đưa bán, xin ngươi gọi người làng. Người khiêng kiệu phủ nhận, chìa tiền bảo ngươi tránh khỏi đường đi.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "轿旁呼喊的孩子",
+        "text": "孩子说轿中人正被拐卖，请你叫村人来。轿夫矢口否认，递出钱让你别挡在路上。"
+      },
+      "en": {
+        "title": "The child calling beside the palanquin",
+        "text": "A child claims someone inside a palanquin is being sold and asks you to summon villagers. Its carriers deny this and offer money to clear their path."
+      }
+    },
+    "choices": [
+      {
+        "id": "investigate",
+        "text": "Gọi người làng cùng kiểm tra",
+        "hint": "Có thể giúp người hoặc tốn tiền chờ xác minh",
+        "translations": {
+          "zh": {
+            "text": "叫村民一起查问",
+            "hint": "可能助人，也可能花钱等待查证"
+          },
+          "en": {
+            "text": "Summon villagers to investigate",
+            "hint": "Possible help or expenses while verifying"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi gọi người làng, tìm thấy người trong kiệu bị trói và giấy bán người. Khi dây được cắt, người ấy cảm ơn rồi theo dân về nơi an toàn.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你叫来村民，发现轿中人被绑着，还有卖身文书。绳索解开后，对方道谢，跟村人去了安全处。"
+              },
+              "en": {
+                "text": "Villagers find a bound passenger and papers selling that person. Once the ropes are cut, the passenger thanks you and leaves with them for safety."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Người trong kiệu đang bệnh, giấy được xác minh là thư gửi thầy thuốc. Ngươi góp tiền cơm cho người chờ, đứa trẻ nói đã nhầm chiếc kiệu mình thấy.",
+            "effects": {
+              "resources": -5
+            },
+            "translations": {
+              "zh": {
+                "text": "轿中人正在生病，文书证实是求医信。你分担等候者饭钱，孩子承认认错了先前看见的轿子。"
+              },
+              "en": {
+                "text": "The passenger is ill and the papers prove to be a medical letter. You help pay for meals during verification, and the child admits mistaking the palanquin."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Tránh đường, không nhận tiền",
+        "hint": "Không can dự; chưa rõ lời đứa trẻ",
+        "translations": {
+          "zh": {
+            "text": "让路，不收钱",
+            "hint": "不介入，孩子的话尚未查明"
+          },
+          "en": {
+            "text": "Step aside without taking money",
+            "hint": "Stay uninvolved; the child’s claim remains uncertain"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi tránh đường nhưng không lấy tiền, để kiệu tiếp tục qua phố. Đứa trẻ chạy tìm người khác, còn ngươi chưa biết lời nào đã đúng.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你让开道路，没有收钱，轿子继续穿街。孩子跑去找别人，而你仍不知道究竟谁说了真话。"
+              },
+              "en": {
+                "text": "You step aside without taking payment and the palanquin continues. The child runs to find someone else, leaving you uncertain about whose words were true."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_tapestry_010",
+    "category": "opportunity",
+    "title": "Lá trà sau đêm sương",
+    "text": "Ngươi giúp chủ đồi phân loại lá trà bị sương, phát hiện phần còn lành có vị mới. Ông bán được mẻ nhỏ rồi chia thêm công cho ngươi.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "霜夜后的茶叶",
+        "text": "你帮茶农挑出霜后的好叶，发现剩下的茶多了一种滋味。小批茶卖出去后，他又分给你额外工钱。"
+      },
+      "en": {
+        "title": "Tea after the frost",
+        "text": "Sorting frost touched tea leaves reveals a new flavor in the surviving crop. The grower sells a small batch and shares extra wages with you afterward."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_020",
+    "category": "opportunity",
+    "title": "Lưới gom lá linh trà",
+    "text": "Ngươi sửa lưới gom lá bằng thuật nhẹ để người hái không phải leo cao. Chủ vườn chia tiền thu hoạch, mua thêm một chiếc cho luống bên cạnh.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "收灵茶叶的网",
+        "text": "你用小术改好收叶网，让采茶人不必登高。园主分给你收成钱，还为旁边茶畦再买一张。"
+      },
+      "en": {
+        "title": "A net for gathering spirit tea",
+        "text": "You improve a leaf gathering net with a minor spell so pickers need not climb. The grower shares harvest earnings and orders another for the neighboring bed."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_021",
+    "category": "opportunity",
+    "title": "Mảnh kính soi mực giả",
+    "text": "Mảnh kính cũ khiến mực phù pha tạp hiện màu đục. Ngươi thử nhiều mẫu trước khi bán cho chủ quầy, đủ mua mực lành cho lần luyện tới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "识假墨的镜片",
+        "text": "旧镜片让掺假的符墨显出浑浊颜色。你验过多份样品后卖给摊主，所得够买下次练习用的好墨。"
+      },
+      "en": {
+        "title": "A mirror fragment revealing false ink",
+        "text": "An old mirror fragment reveals cloudy colors in adulterated talisman ink. Testing several samples before selling it earns enough to buy honest ink for your next practice."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_022",
+    "category": "opportunity",
+    "title": "Đệ tử trốn trong kho phù",
+    "text": "Trong kho phù tông môn, ngươi thấy đệ tử trốn sau thùng giấy cháy. Em nói bị ép nhận lỗi, còn người coi kho đã treo thưởng tìm người phá hoại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "躲在符库的弟子",
+        "text": "宗门符库里，弟子躲在烧过的纸箱后，说自己被逼顶罪。守库人却已悬赏寻找破坏者。"
+      },
+      "en": {
+        "title": "A disciple hiding in the storeroom",
+        "text": "A disciple hides behind scorched paper in the sect storeroom, claiming someone forced a confession. Its keeper has offered a reward for finding the supposed saboteur."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    },
+    "choices": [
+      {
+        "id": "investigate",
+        "text": "Kiểm tra dấu cháy trước khi báo",
+        "hint": "Có thể tìm manh mối hoặc chịu thương tích",
+        "translations": {
+          "zh": {
+            "text": "先查烧痕再报告",
+            "hint": "可能找到线索，也可能受伤"
+          },
+          "en": {
+            "text": "Inspect the burn marks before reporting",
+            "hint": "Possible clues or injury"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi thấy vết cháy từ trận cấp lực chứ không phải lửa đệ tử gây. Người coi kho rút thưởng, nhận cần kiểm tra lại, còn ngươi học thêm cách dò trận.",
+            "effects": {
+              "cultivation": 16
+            },
+            "translations": {
+              "zh": {
+                "text": "你查出烧痕来自供力阵，而非弟子纵火。守库人撤下赏告，说需重新查验，你也学到了探阵的方法。"
+              },
+              "en": {
+                "text": "Burn marks reveal a faulty supply array rather than the disciple’s fire. The keeper withdraws the bounty to investigate again, and you learn more about tracing wards."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Tro phù còn giữ lực bùng lên khi ngươi dò, làm cánh tay bỏng. Ngươi dừng kiểm tra và yêu cầu giữ nguyên hiện trường, chưa kết luận lỗi thuộc ai.",
+            "effects": {
+              "health": -6
+            },
+            "translations": {
+              "zh": {
+                "text": "探查时，符灰残力突然爆起，灼伤你的手臂。你停止检查，要求保留现场，尚不判断责任归谁。"
+              },
+              "en": {
+                "text": "Residual power erupts from talisman ash during inspection and burns your arm. You stop and request preservation of the scene, without deciding who caused the damage."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Báo vị trí cho người coi kho",
+        "hint": "Nhận thưởng; giao việc xác minh cho họ",
+        "translations": {
+          "zh": {
+            "text": "把位置报给守库人",
+            "hint": "得到赏钱，由他们查证"
+          },
+          "en": {
+            "text": "Report the location to the keeper",
+            "hint": "Receive the reward; leave verification to others"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi báo vị trí, nhận thưởng rồi rời kho khi đệ tử được đưa ra. Em tiếp tục nói mình vô tội, nhưng ngươi chưa xem phần dấu cháy phía sau.",
+            "effects": {
+              "resources": 10
+            },
+            "translations": {
+              "zh": {
+                "text": "你报出位置，领取赏钱，在弟子被带走时离库。他仍说自己无辜，而你没有看过后面的烧痕。"
+              },
+              "en": {
+                "text": "You report the hiding place and receive payment as the disciple is led out. His innocence remains unverified, and you have not examined the marks behind him."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_tapestry_023",
+    "category": "opportunity",
+    "title": "Vết chân dẫn tới dược cỏ",
+    "text": "Ngươi theo vết chân linh thỏ để tránh chỗ bùn sâu, gặp đám dược cỏ mới mọc. Thu phần đủ bán, ngươi để lại rễ cho mùa sau.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "足迹通向药草",
+        "text": "你沿灵兔足迹避开深泥，发现一片新生药草。采够出售的份量后留下根，让它们来年还能再长。"
+      },
+      "en": {
+        "title": "Tracks leading to medicinal grass",
+        "text": "Following spirit rabbit tracks around deep mud reveals young medicinal grass. You gather enough to sell and leave the roots to grow through the next season."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_033",
+    "category": "opportunity",
+    "title": "Đá trận đổi lấy mái che",
+    "text": "Ngươi giúp đoàn xe dựng mái che mưa không cần đóng thêm cọc. Người dẫn đoàn trả đá trận dự phòng, đủ sửa góc động phủ bị thấm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "阵石换棚顶",
+        "text": "你替车队搭好不用加桩的避雨棚。领队以备用阵石付酬，正好够修洞府里漏水的一角。"
+      },
+      "en": {
+        "title": "Array stones for a shelter",
+        "text": "You build a rain shelter for a caravan without adding stakes. Its leader pays in spare array stones, enough to repair a leaking corner of your cave."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_034",
+    "category": "opportunity",
+    "title": "Chậu thuốc dưới sân tranh chấp",
+    "text": "Hai gia đình tranh sân, mời ngươi xem chậu thuốc mọc quanh đường ranh. Ngươi chỉ ra cách dời chậu không hại rễ, được trả công từ cả hai bên.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "争地院中的药盆",
+        "text": "两家争院地，请你查看界线附近的药盆。你找出不伤根的搬法，双方都给了你一份工钱。"
+      },
+      "en": {
+        "title": "Medicine pots in a disputed yard",
+        "text": "Two families disputing a courtyard ask about herb pots along its boundary. Finding a way to move them without damaging roots earns payment from both sides."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_035",
+    "category": "opportunity",
+    "title": "Bầy rùa giữ lối vào di tích",
+    "text": "Bầy rùa linh chắn cửa di tích, mai khắc những dấu trận trông còn mới. Khi ngươi đến gần, một con xoay mình để lộ vết nứt dưới bụng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "守遗迹口的龟群",
+        "text": "灵龟群堵住遗迹入口，背上阵纹像是新刻的。你走近时，一只翻身露出腹下裂伤。"
+      },
+      "en": {
+        "title": "Turtles at the ruin entrance",
+        "text": "Spirit turtles block a ruin’s entrance, carrying seemingly fresh inscriptions on their shells. As you approach, one turns over and reveals a crack beneath its belly."
+      }
+    },
+    "choices": [
+      {
+        "id": "investigate",
+        "text": "Gỡ dấu trận khỏi con bị thương",
+        "hint": "Có thể được chỉ lối hoặc chịu phản chấn",
+        "translations": {
+          "zh": {
+            "text": "替伤龟解阵纹",
+            "hint": "可能获指路，也可能遭反震"
+          },
+          "en": {
+            "text": "Remove the marks from the wounded turtle",
+            "hint": "Possible guidance or backlash"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi gỡ dấu điều khiển khỏi mai, bầy rùa tự tách ra thành lối. Bên cửa có vật tư người khắc trận bỏ lại, ngươi thu phần dùng được.",
+            "effects": {
+              "resources": 16
+            },
+            "translations": {
+              "zh": {
+                "text": "你解掉龟甲上的控制纹，龟群自行散开让路。门旁留着刻阵人弃下的材料，你取了还能用的部分。"
+              },
+              "en": {
+                "text": "Removing control marks lets the turtles separate and open a path. Near the doorway lie supplies abandoned by their inscriber, and you gather the usable portions."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Một nét trận giấu dưới mai bật lực khi ngươi tháo, làm tay đau nhói. Ngươi rút lại trước khi hại con vật, nhưng vẫn phải mua thuốc chữa tay.",
+            "effects": {
+              "health": -6,
+              "resources": -4
+            },
+            "translations": {
+              "zh": {
+                "text": "拆纹时，甲下暗纹突然反冲，令手掌剧痛。你在伤到灵龟前收手，却仍得买药治伤。"
+              },
+              "en": {
+                "text": "A hidden mark beneath the shell rebounds into your hand. You withdraw before harming the animal, but still need to buy medicine for your own injury."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Lùi lại, tìm lối khác",
+        "hint": "Không chạm trận, không nhận vật tư",
+        "translations": {
+          "zh": {
+            "text": "退后另寻道路",
+            "hint": "不碰阵纹，不获材料"
+          },
+          "en": {
+            "text": "Retreat and seek another path",
+            "hint": "Leave the markings untouched; gain no supplies"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi lùi khỏi cửa, để bầy rùa yên rồi đánh dấu đường vòng. Di tích vẫn bị chắn, nhưng không con nào phải chịu thêm lực từ ngươi.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你退开入口，让龟群安静下来，随后标出绕路。遗迹仍被挡住，却没有灵龟再承受你的力量。"
+              },
+              "en": {
+                "text": "You retreat from the entrance and mark a detour, leaving the turtles alone. The ruin remains blocked, but none must bear additional power from your hands."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_tapestry_045",
+    "category": "opportunity",
+    "title": "Công tháo lò cho người già",
+    "text": "Một đan sư già thuê ngươi tháo lò trước khi nghỉ nghề, tặng phần vật liệu chịu nhiệt. Ông giữ chiếc muôi cũ, nói vật đó chẳng bán được kỷ niệm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "为老人拆炉",
+        "text": "老丹师退休前雇你拆炉，把耐热材料赠给你。他留下旧勺，说上面的回忆卖不出价钱。"
+      },
+      "en": {
+        "title": "Dismantling an elder’s furnace",
+        "text": "An aging alchemist hires you to dismantle his furnace before retiring and shares heatproof materials. Keeping an old ladle, he says its memories cannot be priced."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_046",
+    "category": "opportunity",
+    "title": "Linh quả chín sau lớp tuyết",
+    "text": "Lớp tuyết giữ linh quả trong vườn hoang khỏi thối qua mùa rét. Ngươi xin phép người giữ đất thu phần còn dùng, bán để mua vật tư bế quan.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "雪下熟灵果",
+        "text": "积雪让荒园灵果整个寒季都没有腐烂。你获守地人准许收取能用的部分，卖钱添置闭关材料。"
+      },
+      "en": {
+        "title": "Spirit fruit beneath the snow",
+        "text": "Snow keeps spirit fruit in a neglected garden from rotting through winter. With the caretaker’s permission, you gather usable portions and sell them for seclusion supplies."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_047",
+    "category": "opportunity",
+    "title": "Đan lô tự nhận người thầy",
+    "text": "Đan lô cổ gọi ngươi là thầy ngay khi chạm nắp, xin sửa lửa lệch. Người bán bảo đó là linh tính quý, nhưng giọng gọi lặp y hệt mỗi lần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "translations": {
+      "zh": {
+        "title": "认师的丹炉",
+        "text": "你一碰炉盖，古炉就喊你师父，请求修正偏火。卖家说是珍贵灵性，呼唤却每次一模一样。"
+      },
+      "en": {
+        "title": "The furnace that names a teacher",
+        "text": "An antique furnace calls you teacher when touched and requests help with uneven fire. Its seller praises its spirit, though every call sounds exactly the same."
+      }
+    },
+    "choices": [
+      {
+        "id": "investigate",
+        "text": "Kiểm tra mạch lửa trong lò",
+        "hint": "Có thể lĩnh ngộ hoặc chịu bỏng",
+        "translations": {
+          "zh": {
+            "text": "检查炉中火脉",
+            "hint": "可能领悟，也可能灼伤"
+          },
+          "en": {
+            "text": "Inspect the furnace’s fire channels",
+            "hint": "Possible insight or burns"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi tìm thấy trận ghi âm gọi người chạm nắp, không phải linh tính. Người bán cho xem mạch lửa thật, giúp ngươi hiểu cách giữ nhiệt qua nhiều vòng.",
+            "effects": {
+              "cultivation": 22
+            },
+            "translations": {
+              "zh": {
+                "text": "你找出触盖便响的留声阵，并非灵性。卖家让你看真正火脉，你因此明白如何多轮维持温度。"
+              },
+              "en": {
+                "text": "You find a recorded greeting rather than a living spirit. Examining the real fire channels with the seller’s permission teaches you to sustain heat through several cycles."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Mạch lửa bật nhiệt qua khe nắp khi ngươi kiểm tra, làm ngón tay phồng. Ngươi không mua lò, tiếng gọi thầy vẫn lặp khi người khác chạm vào.",
+            "effects": {
+              "health": -6
+            },
+            "translations": {
+              "zh": {
+                "text": "你检查时，火脉从盖缝喷出热气，烫起指泡。你没有买炉，别人触盖时它仍重复喊师父。"
+              },
+              "en": {
+                "text": "Heat escapes through the lid during inspection and blisters your fingers. You decline the furnace, whose greeting repeats when another customer touches the same cover."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Không mua, rời quầy",
+        "hint": "Không trả linh thạch, chưa rõ linh tính",
+        "translations": {
+          "zh": {
+            "text": "不买，离开摊位",
+            "hint": "不付灵石，灵性真假仍未知"
+          },
+          "en": {
+            "text": "Decline and leave the stall",
+            "hint": "Spend no stones; its supposed spirit remains uncertain"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi rời quầy, chưa coi lời gọi là bằng chứng lò có linh tính. Người bán tiếp tục giới thiệu, giọng gọi thầy lại vang giữa những lời mặc cả.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你离开摊位，没有把一句呼唤当作灵性的证据。卖家继续推介，喊师父的声音又夹在讨价还价里。"
+              },
+              "en": {
+                "text": "You leave without treating a greeting as proof of a living spirit. The seller keeps advertising while its call of teacher repeats amid the bargaining voices."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_echoes_007",
+    "category": "opportunity",
+    "title": "Vải cũ làm giấy mới",
+    "text": "Ngươi giúp người làm giấy lọc vải cũ bỏ đi, tìm ra mẻ giấy dai hơn. Ông chia tiền bán cho lớp học, giữ lời dù không lập khế.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "旧布制新纸",
+        "text": "你帮纸匠筛洗废布，做出更结实的纸。卖给学堂后，他按约分钱，即使当初没有立契。"
+      },
+      "en": {
+        "title": "New paper from old cloth",
+        "text": "Helping a paper maker wash discarded cloth yields stronger sheets. He shares their sale to a school as promised, despite your agreement having no written deed."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_008",
+    "category": "opportunity",
+    "title": "Dấu bánh xe trên ruộng",
+    "text": "Dấu bánh xe dẫn ngươi tới bao hàng rơi bên bờ ruộng. Chủ xe tìm lại kịp trước phiên chợ, trả công đủ mua giày cho đường dài.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "田里的车辙",
+        "text": "你沿田中车辙找到掉在沟边的货袋。车主在赶集前及时领回，给的酬劳够买远行的新鞋。"
+      },
+      "en": {
+        "title": "Wheel tracks across the field",
+        "text": "Wheel tracks lead you to goods dropped beside a field ditch. Their owner retrieves them before market and pays enough for shoes for your long journey."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_009",
+    "category": "opportunity",
+    "title": "Giấy nợ đổi một mùa cày",
+    "text": "Người chủ nợ nhờ ngươi chuyển giấy buộc nhà nghèo bán con nếu mất mùa. Gia đình xin giữ giấy để hỏi lý trưởng, nhưng chủ đang chờ ngoài ngõ.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "借据换一季耕作",
+        "text": "债主让你送契，写着歉收便须卖孩子。那家人请求留下借据问里正，债主却已在巷外等着。"
+      },
+      "en": {
+        "title": "A debt note for a harvest season",
+        "text": "A lender sends a note demanding a child be sold if harvest fails. The family asks to show it to the village head while he waits outside."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Giữ giấy để hỏi lý trưởng",
+        "hint": "Tốn công và tiền sao giấy",
+        "translations": {
+          "zh": {
+            "text": "留契去问里正",
+            "hint": "耗费抄契的钱"
+          },
+          "en": {
+            "text": "Keep the note for the village head",
+            "hint": "Pay to copy and examine it"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi trả tiền sao giấy, đưa bản gốc tới lý trưởng cùng gia đình. Điều khoản bán người bị gạch bỏ, khoản vay phải viết lại trước mặt những người làm chứng.",
+            "effects": {
+              "resources": -5
+            },
+            "translations": {
+              "zh": {
+                "text": "你付钱抄契，陪那家人把原件交里正。卖人条款被删，借约须在见证人面前重新写好。"
+              },
+              "en": {
+                "text": "You pay for a copy and take the original to the village head. The sale clause is removed, and witnesses oversee a rewritten loan agreement."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Giao giấy theo lời chủ nợ",
+        "hint": "Nhận công chuyển giấy, không xét điều khoản",
+        "translations": {
+          "zh": {
+            "text": "按债主吩咐交契",
+            "hint": "获送契酬劳，不审条款"
+          },
+          "en": {
+            "text": "Deliver it as the lender requested",
+            "hint": "Receive delivery pay without examining the terms"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi giao giấy rồi nhận công, không hỏi gia đình có thể chịu điều khoản không. Khi quay ra ngõ, chủ nợ đã đếm tiếp tiền và gọi chuyến sau.",
+            "effects": {
+              "resources": 8
+            },
+            "translations": {
+              "zh": {
+                "text": "你送契领钱，没有问那家人能否承受条款。回到巷外时，债主已在数钱，准备吩咐下一趟。"
+              },
+              "en": {
+                "text": "You deliver the note and receive pay without questioning its terms. Outside, the lender counts more money and prepares to send someone on another errand."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_echoes_010",
+    "category": "opportunity",
+    "title": "Công đánh dấu bãi cát",
+    "text": "Ngươi giúp thuyền buôn đánh dấu bãi cát mới lộ để tránh mắc cạn. Người lái trả tiền và chỉ chỗ trú gió, đủ giảm phí đường sau.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "标沙洲的差事",
+        "text": "你帮商船标出新露沙洲，免得搁浅。船夫付钱并指出避风处，也省了你下一段路的费用。"
+      },
+      "en": {
+        "title": "Marking the sandbar",
+        "text": "You mark a newly exposed sandbar to keep a trading boat from grounding. Its pilot pays and points out shelter, reducing costs on your onward journey."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_020",
+    "category": "opportunity",
+    "title": "Đèn linh cho người bán bánh",
+    "text": "Ngươi sửa đèn linh để quầy bánh mở trước rạng đông mà ít tốn dầu. Người bán trả vật tư thay tiền, đủ dùng cho những buổi vẽ phù.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "饼摊的灵灯",
+        "text": "你修好灵灯，让饼摊天亮前开张也省灯油。摊主用材料付酬，够你练习画符多次。"
+      },
+      "en": {
+        "title": "A spirit lamp for a baker",
+        "text": "You repair a spirit lamp so a baker opens before dawn using less oil. Payment in supplies covers several of your coming sessions of talisman practice."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_021",
+    "category": "opportunity",
+    "title": "Phù cũ còn một nét lành",
+    "text": "Trong đống phù bỏ, ngươi tìm thấy nét dẫn khí còn đúng dù giấy đã rách. Sao lại rồi kiểm thử, ngươi bán mẫu bền hơn cho khách thường.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "旧符留一笔",
+        "text": "废符里一笔引气纹仍然准确，虽然纸已破。你临摹并试验后，把更耐用的样符卖给普通客人。"
+      },
+      "en": {
+        "title": "One sound stroke in an old talisman",
+        "text": "A discarded talisman retains one correct energy stroke despite torn paper. Copying and testing it produces more durable samples that you sell to ordinary customers."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_022",
+    "category": "opportunity",
+    "title": "Giếng phản chiếu trời khác",
+    "text": "Giếng bỏ hoang phản chiếu trời sao ngay giữa buổi trưa, dưới đáy có tiếng đồng rơi. Một dây gầu còn mới nằm trên thành, chưa ai nhận chủ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "映异天的井",
+        "text": "荒井在正午映出星空，井底传来钱币落下声。新吊绳放在井沿，却无人说得出它的主人。"
+      },
+      "en": {
+        "title": "A well reflecting another sky",
+        "text": "An abandoned well reflects stars at noon and sounds like falling coins below. A fresh bucket rope rests on its rim, with no known owner nearby."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Dò phản chiếu bằng linh lực nhẹ",
+        "hint": "Có thể lĩnh ngộ hoặc bị thương",
+        "translations": {
+          "zh": {
+            "text": "以微弱灵力探倒影",
+            "hint": "可能领悟或受伤"
+          },
+          "en": {
+            "text": "Probe the reflection gently",
+            "hint": "Possible insight or injury"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi thấy trận phản chiếu cảnh đêm từ một hồ xa, không phải trời bên dưới. Hiểu đường dẫn ánh sáng giúp linh lực vận chuyển chính xác hơn trước.",
+            "effects": {
+              "cultivation": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你查出阵法映来远湖夜景，并非井下另有天空。理解导光路径后，灵力运转也比之前更准确。"
+              },
+              "en": {
+                "text": "You discover wards reflecting a distant lake at night rather than another sky below. Understanding their light channels makes your movement of energy more precise."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Phản chiếu thu lực mạnh hơn dự tính, kéo tay ngươi lạnh buốt khi dò. Ngươi cắt liên kết và rời giếng, bỏ dây lại cho người chủ chưa biết tên.",
+            "effects": {
+              "health": -6
+            },
+            "translations": {
+              "zh": {
+                "text": "倒影吸力比预想强，探查时手掌冰冷刺痛。你切断联系离开，留下绳子给尚不知姓名的主人。"
+              },
+              "en": {
+                "text": "The reflection draws more power than expected and chills your probing hand painfully. You sever contact and leave, preserving the rope for its still unknown owner."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Không thả dây xuống giếng",
+        "hint": "Không lấy cơ duyên, không chạm nước",
+        "translations": {
+          "zh": {
+            "text": "不向井中放绳",
+            "hint": "不取机缘，不碰井水"
+          },
+          "en": {
+            "text": "Keep the rope out of the well",
+            "hint": "No reward; leave the water untouched"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi không thả dây, chỉ đánh dấu giếng để người tới sau cẩn thận. Trời sao trong nước vẫn sáng giữa trưa, chưa ai giải thích tiếng đồng rơi kia.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你没放绳，只给井留下警示。正午水中星空仍明亮，没有人解释那些钱币落下般的声音。"
+              },
+              "en": {
+                "text": "You keep the rope dry and mark a warning for later visitors. Stars still shine in the midday water, leaving the sound of falling coins unexplained."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_echoes_023",
+    "category": "opportunity",
+    "title": "Dịch sâu trên luống linh cải",
+    "text": "Ngươi dùng thuật nhẹ gom sâu khỏi linh cải mà không đốt lá. Chủ ruộng trả công từ khoản bán rau, cười vì hôm nay bớt phải nhổ từng cây.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵菜地的虫害",
+        "text": "你用小术收走灵菜上的虫，不烧伤叶子。田主从卖菜钱里付酬，笑说今天不用逐株拔掉了。"
+      },
+      "en": {
+        "title": "Pests in the spirit vegetables",
+        "text": "You gather pests from spirit vegetables without burning leaves. The farmer pays from crop sales, relieved that today will not require pulling up every damaged plant."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_033",
+    "category": "opportunity",
+    "title": "Linh rêu giữ nước cho vườn",
+    "text": "Linh rêu trên đá bỏ hoang giữ nước lâu hơn đất quanh nó. Ngươi xin chủ đá thu ít giống, bán cho người chăm vườn thuốc đang thiếu nước.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "为药园保水的灵苔",
+        "text": "荒石上的灵苔比周围土壤保水更久。你获石主准许取少许种，卖给缺水药园的看护人。"
+      },
+      "en": {
+        "title": "Spirit moss holding garden water",
+        "text": "Spirit moss on neglected stone holds water longer than nearby soil. With permission, you gather a little stock and sell it to a thirsty medicinal garden."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_034",
+    "category": "opportunity",
+    "title": "Mảnh trận cho người học nghề",
+    "text": "Ngươi phân loại mảnh trận bỏ đi để người học nghề không thử trên vật nguy hiểm. Thầy dạy mua bộ mẫu, trả công đủ thêm vật tư tu luyện.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "学徒用的阵片",
+        "text": "你分类废阵片，免得学徒拿危险器物试手。教习买下样品，付的工钱够添置一些修炼材料。"
+      },
+      "en": {
+        "title": "Array fragments for apprentices",
+        "text": "You sort discarded array fragments so apprentices avoid dangerous objects during practice. Their teacher buys the sample set, paying enough for additional materials for your cultivation."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_035",
+    "category": "opportunity",
+    "title": "Trận khóa mang dấu cứu người",
+    "text": "Một kho thuốc đóng bằng trận mang dấu cứu người, nhưng người coi giữ đã mất. Dân xin thuốc cho trẻ sốt, còn chữ cảnh báo bên cửa không ghi ngày.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "带救援印记的锁阵",
+        "text": "药库被带救援印记的阵锁着，守库人已经去世。百姓求药救发热孩子，门旁警告却没有写日期。"
+      },
+      "en": {
+        "title": "A locking array with a rescue seal",
+        "text": "A medicine store is locked by wards bearing a rescue seal, its keeper deceased. Villagers seek pills for feverish children, while the warning beside the door is undated."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Kiểm tra thuốc rồi mở kho",
+        "hint": "Có thể được công hoặc bị cấm chế thương tổn",
+        "translations": {
+          "zh": {
+            "text": "验药后开库",
+            "hint": "可能获酬或被禁制伤到"
+          },
+          "en": {
+            "text": "Inspect the medicine and open the store",
+            "hint": "Possible payment or injury from the wards"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi kiểm thấy phần thuốc còn lành, mở kho để dân dùng theo lời thầy thuốc. Họ góp vật tư trả công, ngươi ghi riêng những lọ không được phép dùng.",
+            "effects": {
+              "resources": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你验出仍可用的药，开库让百姓按医嘱领用。他们凑材料付酬，你另记下不能使用的药瓶。"
+              },
+              "en": {
+                "text": "You identify usable medicine and open the store under a physician’s guidance. Villagers pay in supplies while you separately record which bottles must not be used."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Dấu cứu người che một lớp khóa đã hỏng, phản lực bật khi ngươi dò. Ngươi chịu thương và dừng mở kho, nhắc dân đừng chạm cửa trước lúc sửa trận.",
+            "effects": {
+              "health": -7
+            },
+            "translations": {
+              "zh": {
+                "text": "救援印记下藏着损坏锁层，探查时反力骤起。你受伤停手，提醒百姓修阵之前不要触门。"
+              },
+              "en": {
+                "text": "A damaged lock hides beneath the rescue seal and rebounds during inspection. You stop with an injury and warn villagers away until the wards can be repaired."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Ghi dấu kho, tìm thầy thuốc khác",
+        "hint": "Không mở kho, không nhận công",
+        "translations": {
+          "zh": {
+            "text": "记下库位，另找医者",
+            "hint": "不开库，不获酬"
+          },
+          "en": {
+            "text": "Mark the store and seek another physician",
+            "hint": "Leave the store closed; take no payment"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi ghi vị trí và dấu cảnh báo rồi giúp dân tìm thầy thuốc khác. Kho chưa được mở, mọi người mang trẻ đi mà không thử thuốc mình chưa hiểu.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下位置与警告，帮百姓寻找别的医者。药库没有开启，大家带孩子离开，没试尚不明白的药。"
+              },
+              "en": {
+                "text": "You record the warning and help villagers find another physician. The store stays closed as families carry their children away without trying medicine they do not understand."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_echoes_045",
+    "category": "opportunity",
+    "title": "Lò sấy cho người làm giấy",
+    "text": "Ngươi sửa lò sấy để giấy không quăn mép khi trời ẩm kéo dài. Chủ xưởng trả vật liệu chịu nhiệt, đủ làm lại vài dụng cụ luyện pháp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "纸坊的烘炉",
+        "text": "你修好烘炉，让连日潮湿时的纸张也不卷边。坊主付耐热材料，够你重做几件练法器具。"
+      },
+      "en": {
+        "title": "A drying furnace for paper makers",
+        "text": "You repair a drying furnace so paper edges stay flat through damp weather. Heatproof materials paid by its owner let you rebuild several tools for practice."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_046",
+    "category": "opportunity",
+    "title": "Tro đan giúp vườn hồi đất",
+    "text": "Ngươi kiểm thử tro đan sạch trước khi cho người trồng vườn dùng. Đất hồi lại sau vụ cũ, phần tiền chia giúp trang trải những lần thử trước đó.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "丹灰养土",
+        "text": "你先试验洁净丹灰，再交给园丁使用。旧季耗尽的土壤恢复后，分来的钱也补上了此前试验的花费。"
+      },
+      "en": {
+        "title": "Alchemy ash restoring soil",
+        "text": "You test clean alchemy ash before giving it to a gardener. Restored soil yields shared earnings that cover the costs of your earlier experiments with it."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_047",
+    "category": "opportunity",
+    "title": "Bản đồ đặt giá bằng một chuyện thật",
+    "text": "Người giữ bản đồ bí cảnh chỉ đổi nó lấy chuyện thật ngươi từng xấu hổ. Trên bàn đã có nhiều thẻ kể, nhưng vài thẻ mang dấu chép lại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "translations": {
+      "zh": {
+        "title": "用真事换地图",
+        "text": "秘境地图持有人只要你讲一件羞于启齿的真事。桌上已有许多记事牌，其中几块却带着抄录印记。"
+      },
+      "en": {
+        "title": "A map priced in one true story",
+        "text": "A keeper offers a hidden realm map for a true story that shames you. Many story tablets lie on his table, some bearing marks of copying."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Đổi một chuyện thật để lấy bản đồ",
+        "hint": "Tốn riêng tư; có thể được vật tư hoặc gặp sai lệch",
+        "translations": {
+          "zh": {
+            "text": "讲真事换地图",
+            "hint": "失去隐私，可能得材料或遇误差"
+          },
+          "en": {
+            "text": "Trade a true story for the map",
+            "hint": "Lose privacy; possible supplies or an inaccurate route"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi kể chuyện từng bỏ mặc bạn vì sợ, nhận bản đồ dẫn tới trạm có vật tư. Người giữ chép lời lên thẻ, ngươi không còn quyết định ai sẽ đọc nó.",
+            "effects": {
+              "resources": 18
+            },
+            "translations": {
+              "zh": {
+                "text": "你讲出曾因害怕弃友的事，地图带你找到有材料的旧站。守图人把故事刻成牌，谁会读到已不由你定。"
+              },
+              "en": {
+                "text": "You confess abandoning a friend in fear and reach supplies using the map. The keeper records your words, and who reads them is no longer your decision."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Ngươi kể thật, nhưng đường trong bản đồ đã bị lũ đổi mất một đoạn. Quay về mất vật tư, câu chuyện trên thẻ vẫn ở lại với người giữ bản đồ.",
+            "effects": {
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你讲了真事，地图路线却有一段被洪水改过。折返耗掉材料，你的故事牌仍留在守图人手中。"
+              },
+              "en": {
+                "text": "You tell the truth, but flooding has changed part of the mapped route. Returning costs supplies while the tablet holding your story remains with the keeper."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Giữ chuyện riêng, từ chối đổi",
+        "hint": "Không lấy bản đồ, không kể chuyện",
+        "translations": {
+          "zh": {
+            "text": "保留私事，不交换",
+            "hint": "不取地图，不讲故事"
+          },
+          "en": {
+            "text": "Keep your story private",
+            "hint": "No map; share no story"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi từ chối đổi, giữ câu chuyện riêng cho người mình chọn kể. Bản đồ vẫn nằm trên bàn, người giữ không hỏi thêm khi ngươi rời khỏi cửa.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你拒绝交换，只想向自己选的人讲那件私事。地图仍在桌上，你离开时守图人没有再追问。"
+              },
+              "en": {
+                "text": "You decline and save the story for someone you choose to tell. The map remains on the table, and its keeper asks nothing more as you leave."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "before_core_lanterns_009",
+    "category": "opportunity",
+    "title": "Công giữ giỏ cho người hát",
+    "text": "Ngươi giữ giỏ hàng cho người hát rong khi cô biểu diễn trước chợ. Đủ khách mua khăn, cô trả công rồi chỉ quán cơm ít tiền gần bến.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "替歌者看篮",
+        "text": "女歌者在集市献唱时，请你看住货篮。卖出足够手帕后，她付了工钱，又指给你渡口旁的便宜饭铺。"
+      },
+      "en": {
+        "title": "Guarding a singer’s basket",
+        "text": "You guard a traveling singer’s goods while she performs. After selling enough scarves, she pays you and points toward inexpensive meals near the ferry landing."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_010",
+    "category": "opportunity",
+    "title": "Túi hạt không chịu nảy",
+    "text": "Ngươi giúp người bán giống thử ngâm túi hạt bị chê hỏng, thấy chúng cần nước ấm. Ông chia tiền bán vụ mới, không bắt ngươi giữ cách làm riêng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "不发芽的种子袋",
+        "text": "你替种商试泡被嫌坏的种子，发现它们需要温水。他分给你新季收益，也不要求把方法保密。"
+      },
+      "en": {
+        "title": "Seeds that refuse to sprout",
+        "text": "Testing a seed seller’s supposedly ruined stock reveals it needs warm water. He shares the new season’s earnings without asking you to keep the method secret."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_011",
+    "category": "opportunity",
+    "title": "Dấu khắc dưới bàn cũ",
+    "text": "Dưới bàn cũ ngươi sửa có dấu ghi vị trí tiền để dành. Chủ bàn đã mất, người con nhờ ngươi tìm giúp để trả khoản thuốc còn nợ.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "旧桌下的刻痕",
+        "text": "修旧桌时，你发现桌下刻着积蓄藏处。桌主已故，儿子请你帮找，好偿还尚欠的药钱。"
+      },
+      "en": {
+        "title": "Marks beneath an old table",
+        "text": "Repairing an old table reveals marks locating hidden savings. Its owner has died, and his son asks your help finding them to pay outstanding medicine debts."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_012",
+    "category": "opportunity",
+    "title": "Người đói cầm bánh cúng",
+    "text": "Ngươi gặp người đói lấy bánh cúng, bị người giữ đình đòi trói. Ông nhờ ngươi làm chứng, còn người kia xin đổi một ngày quét sân lấy bánh.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "饥者手里的祭饼",
+        "text": "饥民拿了祭饼，守祠人要把他绑起。对方请你作证，饥民却请求用一天扫院劳动换那块饼。"
+      },
+      "en": {
+        "title": "An offering cake in hungry hands",
+        "text": "A hungry person takes an offering cake and faces binding by the shrine keeper. Asked to testify, you hear an offer to sweep all day for the food."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Ủng hộ đổi công lấy bánh",
+        "hint": "Giúp người đói được ăn; không nhận thưởng",
+        "translations": {
+          "zh": {
+            "text": "支持以劳动换饼",
+            "hint": "帮助饥者吃饭，不获赏钱"
+          },
+          "en": {
+            "text": "Support work in exchange for food",
+            "hint": "Help the hungry person eat; no reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi đề nghị ghi việc quét sân thay trói người, người giữ đình miễn cưỡng đồng ý. Người đói ăn xong rồi làm hết buổi, chiếc bánh không thành một bản án.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你提议以扫院代替绑人，守祠人勉强同意。饥者吃过后干满一日，一块饼没有变成一场处罚。"
+              },
+              "en": {
+                "text": "You suggest sweeping instead of binding, and the keeper reluctantly agrees. After eating, the hungry person completes the work, keeping one cake from becoming a punishment."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Làm chứng việc lấy bánh",
+        "hint": "Nhận công giữ trật tự, không quyết định hình phạt",
+        "translations": {
+          "zh": {
+            "text": "作证取饼一事",
+            "hint": "获得酬劳，不决定处罚"
+          },
+          "en": {
+            "text": "Testify about the stolen cake",
+            "hint": "Receive payment; leave punishment to the keeper"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi kể điều đã thấy rồi nhận tiền giúp giữ trật tự, không bàn chuyện đổi công. Người giữ đình đưa người đói vào trong, ngươi chưa biết sẽ xử thế nào.",
+            "effects": {
+              "resources": 7
+            },
+            "translations": {
+              "zh": {
+                "text": "你陈述所见，领取维持秩序的报酬，没有提换工。守祠人把饥者带进屋，你还不知道会如何处置。"
+              },
+              "en": {
+                "text": "You report what you saw and receive payment without proposing work instead. The keeper leads the hungry person inside, and you do not learn the eventual decision."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "before_core_lanterns_013",
+    "category": "opportunity",
+    "title": "Củ thuốc sau đá lở",
+    "text": "Đá lở để lộ củ thuốc ở ven đường, ngươi hỏi người giữ đất trước khi đào. Bán phần được chia giúp đủ tiền trọ qua một tuần mưa.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "塌石后的药根",
+        "text": "塌石露出路旁药根，你先问过守地人才挖。卖掉获分的一部分，够付一周雨天的住宿钱。"
+      },
+      "en": {
+        "title": "Medicinal roots after the rockslide",
+        "text": "A rockslide exposes medicinal roots beside the road. With the caretaker’s permission, you dig and sell your share to cover lodging through a rainy week."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_025",
+    "category": "opportunity",
+    "title": "Mành phù cho cửa hàng thuốc",
+    "text": "Ngươi làm mành phù ngăn bụi mà vẫn cho gió qua, giúp hiệu thuốc giữ hàng sạch. Chủ hiệu trả công đều, không đòi ngươi chữa cả bệnh của khách.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "药铺的符帘",
+        "text": "你制符帘挡尘却让风通过，药铺货物因此干净。掌柜如数付酬，没有要求你连病人的病也一起治。"
+      },
+      "en": {
+        "title": "A talisman curtain for a pharmacy",
+        "text": "You make a curtain stopping dust while allowing air through a pharmacy. Its owner pays properly without expecting you to cure every customer’s illness as well."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_026",
+    "category": "opportunity",
+    "title": "Vỏ linh ốc làm chuông nhỏ",
+    "text": "Ngươi dùng vỏ linh ốc bỏ đi làm chuông báo cửa, thử đến khi không hú sai. Người bán đồ thuê mua một bộ, giúp bù tiền vẽ phù trước đó.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵螺壳制小铃",
+        "text": "你用废灵螺壳做门铃，反复试到不再乱响。出租器物的店买了一套，所得补了先前画符花费。"
+      },
+      "en": {
+        "title": "Little bells from spirit shells",
+        "text": "You turn discarded spirit shells into door bells and test away false alarms. A rental shop buys a set, covering money spent on earlier talisman practice."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_027",
+    "category": "opportunity",
+    "title": "Cỏ thơm giữ túi linh gạo",
+    "text": "Cỏ thơm nơi ngươi nghỉ khiến linh trùng tránh xa túi gạo. Ngươi hỏi người trồng rồi mua ít giống, bán cách dùng cho kho nhỏ gần chợ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "香草护灵米袋",
+        "text": "歇脚处香草让灵虫远离米袋。你向种植者买少许种子，再把使用方法卖给集市旁的小仓。"
+      },
+      "en": {
+        "title": "Fragrant grass guarding spirit rice",
+        "text": "Fragrant grass near your resting place keeps insects from spirit rice. Buying seed from its grower, you sell the method to a small storehouse near market."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_029",
+    "category": "opportunity",
+    "title": "Linh chuột ôm thẻ ngọc",
+    "text": "Linh chuột mang thẻ ngọc đến trước ngươi, cứ hướng mũi về nhà khóa cửa. Người đi qua bảo trong đó có kẻ tà tu, nhưng cửa sổ lại vang tiếng ho.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "灵鼠抱玉牌",
+        "text": "灵鼠抱玉牌来到你面前，鼻尖总指向锁门的房子。路人说里面住着邪修，窗内却传出咳嗽声。"
+      },
+      "en": {
+        "title": "A spirit mouse clutching jade",
+        "text": "A spirit mouse brings jade and points toward a locked house. Passersby call its resident an evil cultivator, while coughing can be heard through the window."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Gõ cửa và kiểm tra người trong nhà",
+        "hint": "Có thể được công hoặc chịu phản chấn",
+        "translations": {
+          "zh": {
+            "text": "敲门并查屋内情况",
+            "hint": "可能获酬或遭反震"
+          },
+          "en": {
+            "text": "Knock and investigate the house",
+            "hint": "Possible payment or backlash"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi gõ cửa, thấy người trong nhà đang bệnh còn linh chuột tìm giúp. Kiểm tra không có trận hại người, ngươi gọi thầy thuốc và nhận ít vật tư cảm tạ.",
+            "effects": {
+              "resources": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你敲开门，发现主人生病，灵鼠在替他找帮助。查明没有害人阵后，请来医者，获赠少许材料。"
+              },
+              "en": {
+                "text": "Knocking reveals a sick resident whose mouse sought help. Finding no harmful array, you summon a physician and receive a small gift of supplies in thanks."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Dấu khóa giấu cấm chế cũ phản lực khi ngươi kiểm tra, làm cổ tay đau. Ngươi dừng dò và gọi người sửa trận, chưa biết lời đồn đúng đến đâu.",
+            "effects": {
+              "health": -6
+            },
+            "translations": {
+              "zh": {
+                "text": "锁印藏着旧禁制，探查时反冲让手腕疼痛。你停下请修阵人来，还不知道传闻究竟有几分真。"
+              },
+              "en": {
+                "text": "An old restriction hidden in the lock rebounds into your wrist. You stop and request an array repairer, remaining uncertain how much of the rumor is true."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Đánh dấu nhà, chưa tiến vào",
+        "hint": "Không nhận cơ duyên, không phá khóa",
+        "translations": {
+          "zh": {
+            "text": "标记房屋，暂不进入",
+            "hint": "不获机缘，不破锁"
+          },
+          "en": {
+            "text": "Mark the house and stay outside",
+            "hint": "No reward; leave the lock intact"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi ghi dấu nhà và nhờ người tìm người thân chủ thẻ, chưa bước vào trong. Linh chuột giữ ngọc ở cửa, tiếng ho vẫn vọng qua khe gỗ.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你标记房屋，请人寻找玉牌主人的家人，没有入内。灵鼠抱玉守在门口，咳声仍从木缝传来。"
+              },
+              "en": {
+                "text": "You mark the house and ask others to seek the token owner’s relatives. The mouse waits with its jade, and coughing still carries through the wooden door."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "before_core_lanterns_030",
+    "category": "opportunity",
+    "title": "Tiền công dò linh mạch nhỏ",
+    "text": "Ngươi giúp người làm giếng tìm chỗ linh mạch yếu đủ giữ nước mát. Ông trả vật tư thay lời hứa, để ngươi mua thuốc dùng cho những ngày đường.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "探小灵脉的酬劳",
+        "text": "你帮井匠找到微弱灵脉，让井水保持清凉。他用材料付酬而非只许诺，够换远行所需的药。"
+      },
+      "en": {
+        "title": "Payment for tracing a small vein",
+        "text": "You help a well maker find a weak vein keeping water cool. Payment in supplies rather than promises lets you buy medicine for the journey ahead."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_043",
+    "category": "opportunity",
+    "title": "Mạch nước bên đường cũ",
+    "text": "Ngươi giúp làng tìm mạch nước sau khi giếng bị đất bồi, không cần đào cả sân. Họ trả vật tư bằng phần góp chung, đủ sửa đồ tu luyện.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "旧道旁的水脉",
+        "text": "村井被泥堵住后，你帮他们找到旁边水脉，不必挖遍院子。合凑材料的酬劳，够修补修炼器具。"
+      },
+      "en": {
+        "title": "Water beside the old road",
+        "text": "You locate water near a village’s silted well without digging up the whole yard. Supplies pooled for payment are enough to repair your cultivation tools afterward."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_044",
+    "category": "opportunity",
+    "title": "Đá trận bị bỏ vì sai màu",
+    "text": "Đá trận bị bỏ vì màu không hợp cửa hiệu vẫn dẫn lực tốt. Ngươi mua rẻ rồi kiểm từng viên, bán bộ nhỏ cho người mới học nghề.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "因颜色弃下的阵石",
+        "text": "店铺嫌颜色不合而弃下的阵石仍能导力。你低价购入，逐块检验后卖成小套给新学徒。"
+      },
+      "en": {
+        "title": "Array stones discarded for their color",
+        "text": "Array stones discarded for mismatched colors still conduct power well. Buying them cheaply and checking each lets you sell a smaller set to beginning apprentices."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_045",
+    "category": "opportunity",
+    "title": "Linh ong nhờ mở cửa kho",
+    "text": "Linh ong tụ trước kho đóng, trong đó còn tiếng vỗ cánh rất yếu. Chủ kho cho ngươi mở với điều kiện giữ hàng, nhưng mùi thuốc trừ thú vẫn còn nồng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "灵蜂求开库门",
+        "text": "灵蜂聚在封库门前，里面翅声微弱。库主准你开门，却要保全货物，驱兽药的气味仍然很浓。"
+      },
+      "en": {
+        "title": "Spirit bees at a storehouse door",
+        "text": "Spirit bees gather outside a sealed storehouse with faint wings sounding within. Its owner permits opening if stock survives, but animal repellent still smells strongly inside."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Tách thuốc trừ thú rồi mở kho",
+        "hint": "Tốn vật tư; có thể được công hoặc bị thương",
+        "translations": {
+          "zh": {
+            "text": "先隔驱兽药再开库",
+            "hint": "消耗材料，可能获酬或受伤"
+          },
+          "en": {
+            "text": "Isolate the repellent before opening",
+            "hint": "Spend supplies; possible payment or injury"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi tách hơi thuốc bằng trận nhỏ, cho linh ong bay ra mà hàng vẫn nguyên. Chủ kho bù vật tư đã dùng rồi trả công, không chỉ cảm ơn suông.",
+            "effects": {
+              "resources": 14
+            },
+            "translations": {
+              "zh": {
+                "text": "你以小阵隔开药气，让库中灵蜂飞出，货物未损。库主补回耗材后另付酬劳，不只口头道谢。"
+              },
+              "en": {
+                "text": "You isolate the fumes and free the bees without damaging stock. The owner replaces spent supplies and pays extra, offering more than a spoken thank you."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Một bình thuốc rò làm lớp trận tách khí vỡ khi cửa mở. Ngươi hít phải hơi độc, phải rút ra và dùng thuốc, linh ong chưa được đưa hết ra ngoài.",
+            "effects": {
+              "health": -7,
+              "resources": -6
+            },
+            "translations": {
+              "zh": {
+                "text": "漏药瓶让隔气阵在开门时破裂。你吸入毒气，只得退后用药，还没能让所有灵蜂离库。"
+              },
+              "en": {
+                "text": "A leaking bottle breaks your isolating ward as the door opens. Breathing fumes forces retreat and medicine before all the spirit bees can reach the outside."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Nhờ chủ gọi người chuyên xử thuốc",
+        "hint": "Không mở kho ngay, không nhận công",
+        "translations": {
+          "zh": {
+            "text": "请库主找处理药剂的行家",
+            "hint": "不立即开库，不获酬"
+          },
+          "en": {
+            "text": "Ask the owner to call a specialist",
+            "hint": "Leave it closed for now; no payment"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi nhờ chủ kho gọi người xử thuốc, đứng ngoài giữ lối khỏi người tò mò. Kho chưa mở ngay, linh ong vẫn tụ ở cửa chờ tiếng cánh đáp lại.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你请库主找药剂行家，留在外面挡住好奇者。库门暂未打开，灵蜂仍聚在门口等待里面的回应。"
+              },
+              "en": {
+                "text": "You ask the owner for a specialist and keep curious visitors away. The store remains closed for now, with bees at its door waiting for answering wings."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "before_core_lanterns_046",
+    "category": "opportunity",
+    "title": "Chữ trận trên bức rèm cháy",
+    "text": "Rèm cháy còn giữ chữ trận chống lửa mà người bán đồ cũ chưa hiểu. Ngươi mua và thử phần lành, đổi cách dệt cho thợ để nhận vật tư.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "烧帘上的阵字",
+        "text": "烧坏的帘上仍有防火阵字，旧货商却不懂。你买下试验完好部分，把织法交给工匠换材料。"
+      },
+      "en": {
+        "title": "Array characters on a burned curtain",
+        "text": "A burned curtain retains fire ward characters unknown to its seller. Buying and testing the sound portion lets you trade its weaving method for useful supplies."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_009",
+    "category": "opportunity",
+    "title": "Sợi gai trong đống rơm",
+    "text": "Ngươi giúp người làm dây phân loại sợi gai lẫn rơm, tìm được phần còn chắc. Chủ xưởng chia công từ mẻ dây bán, đủ mua áo chống rét.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "草堆里的麻丝",
+        "text": "你帮绳匠从草堆里挑出仍结实的麻丝。卖出新绳后，坊主分给你工钱，够添一件御寒衣。"
+      },
+      "en": {
+        "title": "Hemp fibers in the straw",
+        "text": "You sort sound hemp fibers from a rope maker’s straw pile. Wages shared after the new ropes sell are enough to buy clothing against the cold."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_010",
+    "category": "opportunity",
+    "title": "Mùi đất chỉ chỗ nước ngọt",
+    "text": "Ngươi nhớ lời người đào giếng, tìm được chỗ nước ngọt giữa vùng nước mặn. Đoàn xe trả công chỉ đường, để ngươi bớt tiền mua nước cho chuyến sau.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "土味指淡水",
+        "text": "你记起井匠的话，在咸水地找出淡水处。车队付指路酬劳，也让你下一段路少花买水的钱。"
+      },
+      "en": {
+        "title": "Soil scent pointing to fresh water",
+        "text": "Remembering a well digger’s advice reveals fresh water amid brackish ground. A caravan pays for your directions, reducing what you must spend on water farther ahead."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_011",
+    "category": "opportunity",
+    "title": "Chum đậu chưa ai nhận",
+    "text": "Chum đậu bị bỏ ở bến có mảnh giấy ghi gửi người lánh nạn. Chủ quán muốn mua rẻ, còn nhóm người đói bên cầu chưa biết có phần gửi mình.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "无人领的豆罐",
+        "text": "渡口豆罐写着送给避难者。店主想便宜买下，桥边饥民还不知道有人给他们送来了这一份。"
+      },
+      "en": {
+        "title": "The unclaimed bean jar",
+        "text": "A bean jar left at the ferry is marked for refugees. An innkeeper offers to buy cheaply while hungry people nearby do not know it was sent for them."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Chuyển chum tới người lánh nạn",
+        "hint": "Không bán đậu; không nhận công",
+        "translations": {
+          "zh": {
+            "text": "送豆给避难者",
+            "hint": "不卖豆，不获酬"
+          },
+          "en": {
+            "text": "Deliver the beans to the refugees",
+            "hint": "No sale or payment"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi đưa chum tới nhóm lánh nạn, đọc lời gửi trước khi họ chia đậu. Không ai trả công, nhưng một người giữ lại mảnh giấy để tìm người gửi cảm ơn.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你把豆罐送给避难者，先读嘱托再分豆。没人付酬，却有人留下纸条，想找到赠者道谢。"
+              },
+              "en": {
+                "text": "You deliver the jar and read its message before the beans are shared. Nobody pays, but someone saves the paper to find and thank its sender."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Bán cho chủ quán",
+        "hint": "Được tiền; bỏ qua lời gửi trên giấy",
+        "translations": {
+          "zh": {
+            "text": "卖给店主",
+            "hint": "得到钱，忽略纸上嘱托"
+          },
+          "en": {
+            "text": "Sell to the innkeeper",
+            "hint": "Gain money; disregard the written request"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi bán chum, nhận tiền rồi để chủ quán bóc mảnh giấy. Khi rời bến, nhóm người đói vẫn ngồi dưới cầu, chưa biết phần đậu từng được gửi tới mình.",
+            "effects": {
+              "resources": 9
+            },
+            "translations": {
+              "zh": {
+                "text": "你卖罐收钱，店主撕下纸条。离开时，饥民仍坐在桥下，不知道那罐豆本来是送给他们的。"
+              },
+              "en": {
+                "text": "You sell the jar and the innkeeper removes its message. Leaving the ferry, you see hungry people beneath the bridge unaware the beans were meant for them."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "below_foundation_riverroads_012",
+    "category": "opportunity",
+    "title": "Bàn tính của người nghỉ nghề",
+    "text": "Người buôn nghỉ nghề thuê ngươi kiểm lại sổ bằng bàn tính cũ. Ngươi phát hiện khoản trả trùng, được chia phần tiết kiệm và học cách ghi rõ mỗi lần nhận.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "歇业人的算盘",
+        "text": "歇业商人雇你用旧算盘复核账册。找出重复付款后，他分给你省下的钱，也教你记清每次收款。"
+      },
+      "en": {
+        "title": "A retiring merchant’s abacus",
+        "text": "A retiring merchant hires you to check accounts with an old abacus. Finding duplicate payments earns shared savings and teaches you to record each receipt clearly."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_013",
+    "category": "opportunity",
+    "title": "Mẻ gạch đủ sửa nền",
+    "text": "Ngươi tìm cách xếp mẻ gạch méo thành nền chắc thay vì bỏ hết. Người xây nhà trả thêm công, bảo không phải thứ lệch nào cũng vô dụng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "够铺地的砖",
+        "text": "你把歪砖重新排列，铺成稳当地面，不必全部扔掉。房主加付工钱，说偏斜的东西也不都是废物。"
+      },
+      "en": {
+        "title": "Bricks enough for a new floor",
+        "text": "You arrange misshapen bricks into a sound floor instead of discarding them. Extra payment comes with the observation that not everything uneven must be useless."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_025",
+    "category": "opportunity",
+    "title": "Linh hồ ngủ dưới xe thuốc",
+    "text": "Ngươi sửa bánh xe thuốc, thấy linh hồ ngủ cạnh túi cỏ chống côn trùng. Người bán nhờ làm thêm túi tương tự, trả công vì kho bớt phải phun thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "药车下睡着的灵狐",
+        "text": "修药车轮时，你见灵狐睡在驱虫草袋旁。药商请你另做同样的袋子，付酬后仓库也少喷了药。"
+      },
+      "en": {
+        "title": "A spirit fox beneath the medicine cart",
+        "text": "Repairing a medicine cart reveals a fox sleeping beside insect warding herbs. Making more such pouches earns payment and reduces the merchant’s need to spray his storehouse."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_026",
+    "category": "opportunity",
+    "title": "Mực linh từ vỏ quả bỏ",
+    "text": "Ngươi thử mực từ vỏ quả linh bị bỏ sau chợ, kiểm độ bám trước khi bán. Một người chép sách mua mẻ nhỏ, đủ bù những lần thử thất bại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "废果皮制灵墨",
+        "text": "你试用市后废灵果皮制墨，验过附着才出售。抄书人买下一小批，所得补了先前失败的花费。"
+      },
+      "en": {
+        "title": "Spirit ink from discarded peel",
+        "text": "You test ink from discarded spirit fruit peel before selling it. A copyist buys a small batch, covering the costs of your earlier unsuccessful attempts at making it."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_027",
+    "category": "opportunity",
+    "title": "Công giữ trận chống sương",
+    "text": "Ngươi giúp chủ ruộng kiểm trận chống sương suốt buổi sáng, không để nhiệt cháy mầm. Ông trả vật tư từ mùa trước, đủ cho vài lần luyện phù.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "守防露阵的酬劳",
+        "text": "你整晨替田主检查防露阵，不让热量烧芽。他用上季存下的材料付酬，够练符好几次。"
+      },
+      "en": {
+        "title": "Payment for tending dew wards",
+        "text": "You check dew wards all morning without scorching shoots. The farmer pays from supplies saved last season, enough for several further sessions of your talisman practice."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_028",
+    "category": "opportunity",
+    "title": "Thẻ môn sinh không cùng ảnh",
+    "text": "Ngươi gặp thiếu niên mang thẻ môn sinh nhưng ảnh khác mặt, xin qua cổng để tìm chị. Người giữ đường treo thưởng thẻ mất, cậu nói chị mới là chủ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "画像不符的弟子牌",
+        "text": "少年持着画像不符的弟子牌，说要进门找姐姐。路守悬赏失牌，他却说姐姐才是令牌主人。"
+      },
+      "en": {
+        "title": "The mismatched disciple token",
+        "text": "A youth carries a disciple token with another face and asks passage to find his sister. A guard offers a reward for it, while he says it belongs to her."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Xác minh với người giữ cổng",
+        "hint": "Có thể giúp tìm chị hoặc tốn tiền chờ",
+        "translations": {
+          "zh": {
+            "text": "向门卫核实",
+            "hint": "可能助他寻姐或花钱等待"
+          },
+          "en": {
+            "text": "Verify the story at the gate",
+            "hint": "Possible help or waiting expenses"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi nhờ đối chiếu ảnh và sổ, tìm được chị thiếu niên đang chữa thương trong viện. Cậu được vào thăm, ngươi không nhận thưởng cho thẻ không thực sự bị trộm.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你请人核对画像和名册，查到姐姐在院中疗伤。少年获准探望，你没有为并非失窃的牌子领赏。"
+              },
+              "en": {
+                "text": "Checking records locates his sister recovering inside the compound. He receives permission to visit, and you take no bounty for a token that was not actually stolen."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Chưa có người xác nhận quan hệ, ngươi góp tiền cơm chờ cho thiếu niên. Thẻ được giữ để tra tiếp, cậu chưa vào cổng và lời kể vẫn cần kiểm chứng.",
+            "effects": {
+              "resources": -5
+            },
+            "translations": {
+              "zh": {
+                "text": "还没人能证实亲属关系，你出钱给少年买等候的饭。牌子暂留查验，他未获入门，故事仍待核实。"
+              },
+              "en": {
+                "text": "Nobody can verify their relationship yet, so you pay for his waiting meal. The token remains under examination, with his passage and account still unresolved for now."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Giao thẻ và nhận thưởng",
+        "hint": "Không giúp thiếu niên vào cổng",
+        "translations": {
+          "zh": {
+            "text": "交牌领赏",
+            "hint": "不让少年入门"
+          },
+          "en": {
+            "text": "Hand over the token for the reward",
+            "hint": "Leave the youth outside"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi giao thẻ, nhận thưởng rồi đi trước khi thiếu niên được hỏi thêm. Người giữ đường xóa biển tìm thẻ, còn cậu vẫn đứng ngoài cổng chờ gặp chị.",
+            "effects": {
+              "resources": 10
+            },
+            "translations": {
+              "zh": {
+                "text": "你交牌领赏，在少年被继续盘问前离开。路守撤下寻牌告示，他却仍站在门外等待见姐姐。"
+              },
+              "en": {
+                "text": "You hand over the token and take payment before further questioning. The guard removes its notice, while the youth remains outside waiting to see his sister."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "below_foundation_riverroads_029",
+    "category": "opportunity",
+    "title": "Khăn giữ hương không giữ bụi",
+    "text": "Ngươi làm khăn giữ hương cho người bán trà nhưng thử để bụi không bám. Khách mua thêm cho quầy thuốc, khoản lời nhỏ giúp trang trải chỗ luyện khí.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "留香不留尘的巾",
+        "text": "你替茶商制留香巾，并试到不容易沾尘。药摊又来订货，小小收益够付一部分练气住处费用。"
+      },
+      "en": {
+        "title": "Cloth retaining fragrance without dust",
+        "text": "You make fragrance retaining cloth for a tea seller while testing against dust. Further orders from a pharmacy help cover part of the rent for your practice space."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_038",
+    "category": "opportunity",
+    "title": "Tiền công cứu bản khắc",
+    "text": "Mưa tạt vào xưởng in, ngươi chuyển bản khắc lên gác trước khi nước ngập. Chủ xưởng trả tiền từ đơn hàng mới, tặng thêm tờ lịch đi đường.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "救下印版的工钱",
+        "text": "雨水灌入印坊，你在积水前把印版搬上楼。坊主从新订单中付工钱，还赠一张出行日历。"
+      },
+      "en": {
+        "title": "Payment for saving printing blocks",
+        "text": "Rain enters a print shop and you move its blocks upstairs before flooding. Its owner pays from a new order and adds a calendar for your travels."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_039",
+    "category": "opportunity",
+    "title": "Vỏ cây thay dây đứt",
+    "text": "Ngươi dùng vỏ cây bện dây thay đoạn đứt của xe hàng, thử chắc rồi mới kéo. Chủ xe trả công, chỉ cho ngươi chỗ mua lương khô ít tiền.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "树皮替断绳",
+        "text": "你用树皮编绳替换货车断索，试牢后才拉车。车主付酬，又告诉你哪里能买到便宜干粮。"
+      },
+      "en": {
+        "title": "Bark replacing a broken rope",
+        "text": "You braid bark to replace a cart’s broken rope and test it before pulling. The driver pays and shows you where inexpensive travel provisions are sold."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_047",
+    "category": "opportunity",
+    "title": "Bấc đèn linh từ sợi cỏ",
+    "text": "Ngươi bện bấc từ sợi cỏ linh, thử nhiều đêm thấy ít khói hơn loại cũ. Người coi đèn mua một bó, tiền đủ bù phần mực luyện đã hết.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "草丝制灵灯芯",
+        "text": "你用灵草丝编灯芯，试过几夜发现烟更少。灯守买下一束，所得够补用完的练符墨。"
+      },
+      "en": {
+        "title": "Spirit lamp wicks from grass fibers",
+        "text": "You braid spirit grass lamp wicks and test them across several nights. Their reduced smoke earns an order that replaces the ink exhausted during talisman practice."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_048",
+    "category": "opportunity",
+    "title": "Giữ ấm ổ trứng linh vịt",
+    "text": "Ngươi giữ hơi ấm quanh ổ trứng linh vịt khi mái chuồng dột lạnh. Chủ đàn trả ít linh gạo, cùng ngươi vá mái trước khi trời lại mưa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "为灵鸭蛋保暖",
+        "text": "棚顶漏雨变冷，你为灵鸭蛋维持温度。鸭主付少许灵米，又和你一起赶在下场雨前补屋顶。"
+      },
+      "en": {
+        "title": "Warming spirit duck eggs",
+        "text": "You keep spirit duck eggs warm beneath a leaking roof. Their keeper pays in spirit rice and helps patch the shelter before the next rain arrives."
+      }
+    }
   }
 ]

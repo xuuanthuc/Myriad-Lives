@@ -4009,5 +4009,1883 @@
         "text": "Your aging tutor asks you to read a worn inscription in the schoolyard. You read slowly as in childhood, and he still corrects one mispronounced word."
       }
     }
+  },
+  {
+    "id": "lower_realms_crossroads_001",
+    "category": "life",
+    "title": "Cáo trắng dự đám tang",
+    "text": "Đám tang người săn thú có con cáo trắng ngồi ngoài hàng rào. Nó để lại một quả rừng rồi đi, khiến người nhà thôi kể chuyện báo oán.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "白狐赴葬",
+        "text": "猎人的葬礼上，白狐坐在篱外。它留下一枚野果便走了，家人也不再提起报仇的传闻。"
+      },
+      "en": {
+        "title": "A white fox at the funeral",
+        "text": "A white fox sits beyond the fence at a hunter’s funeral. It leaves a wild fruit and departs, quieting the family’s fearful talk of revenge."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_002",
+    "category": "life",
+    "title": "Ông tiên ngồi nhầm bàn",
+    "text": "Một lão khách áo trắng ngồi nhầm bàn mừng thọ, được trẻ con gọi ông tiên. Ông ăn bánh rồi thú nhận chỉ là người bán đậu đi lạc.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "仙翁坐错桌",
+        "text": "白衣老客坐错了寿宴桌，被孩子们叫作仙翁。他吃过糕点，才坦白自己只是迷路的卖豆人。"
+      },
+      "en": {
+        "title": "The immortal at the wrong table",
+        "text": "An old man in white joins the wrong birthday table and children call him immortal. After eating cakes, he admits he is merely a lost bean seller."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_003",
+    "category": "life",
+    "title": "Con đường qua nghĩa địa",
+    "text": "Ngươi đi đêm qua nghĩa địa cùng người đỡ đẻ đang vội. Bà nói sợ người sống cần mình mà không tới kịp hơn sợ tiếng cú kêu.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "穿过坟地的路",
+        "text": "你夜里陪接生婆赶路穿过坟地。她说，比起猫头鹰的叫声，更怕活人需要她时自己没能及时赶到。"
+      },
+      "en": {
+        "title": "The road through the graveyard",
+        "text": "You cross a graveyard at night with a hurried midwife. She fears arriving too late for those who need her more than the cries of owls."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_011",
+    "category": "life",
+    "title": "Đệ tử ngoại môn xin về",
+    "text": "Một đệ tử ngoại môn trả thẻ để về chăm ruộng, bị người khác chê yếu chí. Ngươi giúp buộc hành lý, thấy em mang theo sách dạy chữ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "外门弟子归乡",
+        "text": "外门弟子交还令牌，准备回乡种田，却被人讥讽没志气。你帮他绑行李，看见其中还有识字课本。"
+      },
+      "en": {
+        "title": "An outer disciple goes home",
+        "text": "An outer disciple returns his token to farm at home, facing accusations of weak resolve. Helping tie his luggage, you find books for teaching children letters."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_012",
+    "category": "life",
+    "title": "Yêu miêu giữ sạp cá",
+    "text": "Con yêu miêu giúp giữ sạp cá nhưng cứ đếm thiếu một con. Chủ sạp tìm thấy xương dưới ghế, phạt nó ngồi cạnh bảng giá cả buổi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "妖猫看鱼摊",
+        "text": "妖猫替人看鱼摊，却总少算一条鱼。摊主在椅下找到鱼骨，罚它整个上午坐在价牌旁。"
+      },
+      "en": {
+        "title": "The spirit cat tending fish",
+        "text": "A spirit cat guards a fish stall but always counts one fish short. Finding bones beneath its seat, the owner makes it sit beside the price board."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_013",
+    "category": "life",
+    "title": "Một lời từ người thắng",
+    "text": "Ngươi thua cuộc thi vẽ phù nhỏ, nghe người thắng nhận mình từng sao mẫu của ngươi. Lời nói khiến đám cười chê im bặt, dù giải vẫn thuộc hắn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "胜者的一句话",
+        "text": "小符赛落败后，胜者承认曾临摹你的样符。嘲笑声顿时停了，虽然奖品仍归他所有。"
+      },
+      "en": {
+        "title": "A word from the winner",
+        "text": "After you lose a small talisman contest, the winner admits learning from your samples. Mocking laughter stops, although the prize remains in his hands."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_021",
+    "category": "life",
+    "title": "Trưởng bối xin lỗi người trẻ",
+    "text": "Trưởng bối tông môn nhận đã xử nhầm một đệ tử, xin lỗi trước sân. Ngươi thấy người trẻ cúi đầu, không phải vì phục mà vì nghẹn lời.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "长辈向晚辈道歉",
+        "text": "宗门长辈承认错罚弟子，在院中公开道歉。年轻人低下头，并非屈服，而是一时哽咽说不出话。"
+      },
+      "en": {
+        "title": "An elder apologizes to the young",
+        "text": "A sect elder admits wrongly punishing a disciple and apologizes in the courtyard. The young disciple lowers his head, overcome by emotion rather than submission."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_022",
+    "category": "life",
+    "title": "Rượu nhạt cho ngày tái ngộ",
+    "text": "Người bạn cũ rót rượu nhạt, nói chẳng đủ tiền mua loại linh. Ngươi uống hết rồi kể chuyện đường xa, buổi tái ngộ vẫn kéo đến khuya.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "重逢的淡酒",
+        "text": "旧友斟了淡酒，说没钱买灵酒。你饮尽一杯，讲起远行见闻，重逢的闲谈仍延续到深夜。"
+      },
+      "en": {
+        "title": "Weak wine at the reunion",
+        "text": "An old friend serves weak wine, unable to afford spiritual varieties. You finish your cup and recount distant travels, keeping the reunion alive until late night."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_023",
+    "category": "life",
+    "title": "Tiếng cười sau tấm rèm",
+    "text": "Đạo lữ giấu món quà dưới rèm nhưng linh quang cứ lộ ra. Ngươi giả vờ tìm mãi, tiếng cười khiến buổi tối không còn giống một lần bế quan.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "帘后的笑声",
+        "text": "道侣把礼物藏在帘后，灵光却总漏出来。你装作找了很久，笑声让这晚不再像另一场闭关。"
+      },
+      "en": {
+        "title": "Laughter behind the curtain",
+        "text": "Your partner hides a gift behind a curtain, but its glow gives it away. Pretending to search brings laughter to an evening that feels free of seclusion."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_031",
+    "category": "life",
+    "title": "Thầy bói xin xem tay ngược",
+    "text": "Thầy bói nhìn tay ngươi rồi đọc nhầm tuổi thành giá gạo. Ông cất sách, thú nhận đang học tính sổ, ngươi giúp sửa trước khi khách khác tới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "倒看手相的术士",
+        "text": "相士看了你的手，却把年龄念成米价。他收起书，坦白正学记账，你在新客来前帮他改了算式。"
+      },
+      "en": {
+        "title": "The fortune teller reads backward",
+        "text": "A fortune teller reads rice prices instead of your age from his notes. Admitting he is learning accounts, he accepts your help before another customer arrives."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_032",
+    "category": "life",
+    "title": "Sư đệ giữ lời phản đối",
+    "text": "Trong buổi họp tông môn, sư đệ vẫn phản đối kế hoạch ngươi nêu dù bị nhắc vai vế. Ngươi nghe hết, thấy một sai sót mình bỏ qua.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "师弟仍有异议",
+        "text": "宗门议事时，师弟被提醒辈分后仍反对你的提议。你听他讲完，发现自己确实漏掉了一处问题。"
+      },
+      "en": {
+        "title": "The junior keeps his objection",
+        "text": "At a sect meeting, a junior still challenges your proposal after being reminded of rank. Listening fully reveals a flaw you had overlooked in your plan."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_033",
+    "category": "life",
+    "title": "Gặp lại người bán kiếm",
+    "text": "Ngươi gặp người từng bán mình thanh kiếm đầu tiên, nay chỉ mài kéo ở chợ. Ông hỏi kiếm còn dùng không, rồi vui vì đồ mình làm chưa bị quên.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "重遇卖剑人",
+        "text": "你重遇卖出第一把剑的匠人，如今他只在集市磨剪刀。问剑是否还用，得知未被忘记便笑了。"
+      },
+      "en": {
+        "title": "Meeting the sword seller again",
+        "text": "Your first sword’s maker now sharpens scissors at the market. Asking whether the sword still serves, he smiles to hear his work has not been forgotten."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_041",
+    "category": "life",
+    "title": "Tấm bia ghi người quét sân",
+    "text": "Tông môn sửa bia công, ngươi thấy tên người quét sân được thêm vì giữ sách qua cháy. Đệ tử trẻ hỏi chuyện, ông chỉ xin đừng quên người mang nước.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "记着扫院人的碑",
+        "text": "宗门修功碑，添上火灾中护书的扫院人姓名。年轻弟子来问，他只请大家别忘了当时提水的人。"
+      },
+      "en": {
+        "title": "A plaque naming the sweeper",
+        "text": "Your sect honors the sweeper who saved books during a fire. When young disciples ask for his story, he requests remembrance for those who carried water too."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_042",
+    "category": "life",
+    "title": "Mùa đào không ai thúc nở",
+    "text": "Đạo lữ đề nghị đợi đào nở tự nhiên thay vì dùng pháp lực. Ngươi cùng chờ qua mấy ngày mưa, thấy buổi ngắm hoa đáng nhớ hơn dự tính.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "无人催开的桃花季",
+        "text": "道侣提议等桃花自然开放，不必用法力催促。你陪着等过几场雨，赏花那日比预想更值得记住。"
+      },
+      "en": {
+        "title": "Peach blossoms without spells",
+        "text": "Your partner suggests waiting for peach blossoms rather than forcing them with spells. After several rainy days together, their blooming feels more memorable than you expected."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_043",
+    "category": "life",
+    "title": "Người kể sử đổi một dòng",
+    "text": "Ngươi đọc bản sử kể cuộc loạn từng chứng kiến, yêu cầu thêm tên dân giúp sơ tán. Người chép sử sửa một dòng, hỏi ngươi còn nhớ ai nữa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "改一行的史官",
+        "text": "你读到亲历战乱的记述，请史官补上帮助疏散的百姓姓名。他改了一行，又问你还记得哪些人。"
+      },
+      "en": {
+        "title": "The chronicler changes one line",
+        "text": "Reading a chronicle of conflict you witnessed, you request names of villagers who aided evacuation. The chronicler changes one line and asks whom else you remember."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_001",
+    "category": "life",
+    "title": "Tên mới trên gia phả",
+    "text": "Một người con nuôi được ghi tên vào gia phả sau nhiều năm chờ. Ngươi giữ mực giúp, thấy ông trưởng họ tự tay sửa chữ con thành con mình.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "族谱上的新名字",
+        "text": "养子等了多年，终于被写入族谱。你帮忙端墨，看见族长亲手把养子的称谓改成了自己的孩子。"
+      },
+      "en": {
+        "title": "A new name in the genealogy",
+        "text": "An adopted child enters the genealogy after years of waiting. Holding the ink, you watch the patriarch revise the entry to call him his own son."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_002",
+    "category": "life",
+    "title": "Múa rồng thiếu chiếc đầu",
+    "text": "Đoàn múa rồng mất chiếc đầu ngay trước hội xuân. Ngươi giúp ghép rổ tre thay thế, con rồng méo khiến người xem cười đến quên cả lạnh.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "缺龙头的舞龙",
+        "text": "舞龙队在春会前丢了龙头。你帮忙用竹篮拼了替代品，歪头龙逗得看客大笑，连寒意也忘了。"
+      },
+      "en": {
+        "title": "A dragon dance without its head",
+        "text": "A dragon dance troupe loses its headpiece before the spring fair. Your bamboo basket replacement makes spectators laugh hard enough to forget the winter cold."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_003",
+    "category": "life",
+    "title": "Tiếng mõ của người từng trộm",
+    "text": "Người giữ miếu từng là kẻ trộm, nay trả từng món nợ nhỏ bằng tiền quét sân. Ngươi nghe tiếng mõ khi ông dán thêm một tên đã trả xong.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "旧盗的木鱼声",
+        "text": "守庙人从前做过贼，如今靠扫院的钱一点点还债。你听见木鱼声，看他又贴上一个已经偿清的名字。"
+      },
+      "en": {
+        "title": "The former thief’s wooden bell",
+        "text": "A former thief tending a shrine repays small debts with sweeping wages. You hear his wooden bell as he adds another name to the settled list."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_004",
+    "category": "life",
+    "title": "Tin vui từ người thi hỏng",
+    "text": "Người thi hỏng trở về làng, báo đã học được cách làm giấy rẻ. Ngươi thấy thầy đồ mở lớp thêm trẻ, lần này không ai hỏi thứ hạng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "落榜人的喜讯",
+        "text": "落榜书生回村，带来便宜造纸的方法。你看见塾师收下更多孩子，这回没有人追问考试名次。"
+      },
+      "en": {
+        "title": "Good news from a failed scholar",
+        "text": "A failed scholar returns with a cheaper method of making paper. The tutor admits more children to class, and nobody asks about examination rankings this time."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_014",
+    "category": "life",
+    "title": "Linh hạc đòi nghỉ lễ",
+    "text": "Linh hạc đưa thư ngồi lì trên mái tông môn, không chịu bay ngày hội. Người nuôi phát hiện thẻ việc còn buộc ở chân, bèn tháo cho nó nghỉ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "灵鹤也要休假",
+        "text": "宗门传信灵鹤在节日赖在屋顶，不肯起飞。饲养人发现差事牌还绑在它腿上，便解下让它休息。"
+      },
+      "en": {
+        "title": "The spirit crane demands a holiday",
+        "text": "A sect messenger crane refuses to fly during the festival. Its keeper notices a work token still tied to its leg and removes it for a rest."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_tapestry_015",
+    "category": "life",
+    "title": "Một chiếc ghế trong lớp phù",
+    "text": "Đệ tử chân yếu xin được ngồi khi học phù, có người chê không chịu khổ. Thầy đặt thêm ghế cho cả lớp, nói tay vẽ không cần chân đau.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "符课里的一把椅子",
+        "text": "腿脚不便的弟子请求坐着学符，有人笑他吃不了苦。先生给全班添了椅子，说画符不必让腿受罪。"
+      },
+      "en": {
+        "title": "A chair in talisman class",
+        "text": "A disciple with weak legs requests a seat during talisman lessons. Hearing complaints, the teacher supplies chairs for everyone, saying drawing does not require painful legs."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_tapestry_016",
+    "category": "life",
+    "title": "Bức thư trả lại tiền cược",
+    "text": "Người thắng cuộc cược pháp lực gửi trả tiền, thú nhận đã dùng bùa giấu trong áo. Ngươi đọc thư rồi cất lại, chưa biết có nên gặp hắn nữa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "退还赌钱的信",
+        "text": "赌斗的胜者寄回钱，承认曾把助力符藏在衣里。你读完收起信，仍没想好是否再去见他。"
+      },
+      "en": {
+        "title": "A letter returning wager money",
+        "text": "The winner of a power wager returns your money and admits hiding a talisman in his robe. You put away the letter, uncertain about meeting him again."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_017",
+    "category": "life",
+    "title": "Quán trà trả tiền bằng chuyện",
+    "text": "Quán trà cho tán tu hết tiền đổi một chuyện đường xa lấy chỗ ngồi. Ngươi nghe cả chuyện thành thật lẫn khoác lác, chủ quán vẫn rót đều.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "以故事付茶钱",
+        "text": "茶铺让囊空散修用旅途故事换座位。你听见实话也听见夸口，掌柜却照样给每个人续茶。"
+      },
+      "en": {
+        "title": "Paying for tea with stories",
+        "text": "A tea house accepts travel stories from penniless cultivators for a seat. You hear truth alongside boasting while its owner keeps refilling everyone’s cups evenly."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_027",
+    "category": "life",
+    "title": "Tranh luận dưới mái học đường",
+    "text": "Hai tán tu tranh cách dạy trẻ, một muốn sớm luyện khí, một muốn học chữ trước. Ngươi nghe đứa trẻ hỏi bao giờ được chơi, cả hai cùng im.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "学堂檐下的争论",
+        "text": "两名散修争论该先教孩子引气还是识字。你听见孩子问何时能玩，两人都忽然安静了。"
+      },
+      "en": {
+        "title": "Debate beneath the school roof",
+        "text": "Two cultivators debate teaching children energy before letters or the reverse. When a child asks when play can begin, both fall silent beneath the school roof."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_028",
+    "category": "life",
+    "title": "Chiếc ô không che một người",
+    "text": "Đạo lữ giữ ô nghiêng về phía ngươi trong cơn mưa, vai mình lại ướt. Ngươi kéo ô vào giữa, hai người đi chậm vì cùng phải tránh vũng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不只遮一人的伞",
+        "text": "道侣把伞偏向你，自己的肩却湿了。你将伞拉回中间，两人因要一起绕水坑而放慢了脚步。"
+      },
+      "en": {
+        "title": "An umbrella shared by two",
+        "text": "Your partner tilts an umbrella toward you while a shoulder gets soaked. Moving it between you slows your walk as you dodge puddles together in the rain."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "early_realms_tapestry_029",
+    "category": "life",
+    "title": "Lệnh mới cho người giữ cửa",
+    "text": "Tông môn bỏ lệ bắt người giữ cửa quỳ chào khách cảnh giới cao. Ngươi thấy ông lần đầu nhìn thẳng người tới, nhưng vẫn giữ lời chào lịch sự.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "守门人的新规",
+        "text": "宗门取消守门人跪迎高境界来客的规矩。你看他第一次直视来人，问候却仍然恭敬而有礼。"
+      },
+      "en": {
+        "title": "New rules for the gatekeeper",
+        "text": "Your sect ends the rule requiring its gatekeeper to kneel before powerful guests. He meets arrivals’ eyes for the first time while maintaining his courteous greeting."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_tapestry_039",
+    "category": "life",
+    "title": "Tượng ân nhân nhỏ hơn chiếc bàn",
+    "text": "Dân làng muốn dựng tượng ngươi nhưng chọn tượng nhỏ để dành tiền đào giếng. Ngươi dự buổi đặt tượng, nghe tiếng nước mới còn vui hơn lời ca tụng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "比桌小的恩人像",
+        "text": "村民想为你立像，却选小像把钱留来挖井。你参加安放仪式，觉得新井水声比赞词更悦耳。"
+      },
+      "en": {
+        "title": "A rescuer’s statue smaller than a table",
+        "text": "Villagers choose a small statue honoring you so funds can also dig a well. At its unveiling, the new water sounds sweeter than the speeches of praise."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_040",
+    "category": "life",
+    "title": "Hộp cơm viết sai tên",
+    "text": "Đạo lữ mang cơm đến nơi ngươi luận pháp, hộp lại ghi tên món thay tên người. Ngươi đọc lớn nhầm thành đạo hiệu, cả bàn bật cười trước khi ăn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "饭盒上的错名",
+        "text": "道侣送饭到你论法处，盒上却写菜名而非人名。你误把它念成道号，满桌先笑再吃。"
+      },
+      "en": {
+        "title": "The lunchbox with the wrong name",
+        "text": "Your partner brings lunch to a discussion, labeling dishes instead of names. Reading one aloud as a Dao title makes the table laugh before the meal begins."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "early_realms_tapestry_041",
+    "category": "life",
+    "title": "Lời giảng có người xin dừng",
+    "text": "Trong buổi giảng tông môn, một đệ tử xin dừng để hiểu đoạn đầu. Ngươi nhắc lại chậm hơn, thấy nhiều người khác cũng thôi giả vờ gật đầu.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "有人叫停的讲道",
+        "text": "宗门讲道时，弟子请求暂停，想先弄懂开头。你放慢重讲，发现许多人也不再假装点头。"
+      },
+      "en": {
+        "title": "Someone asks to pause the teaching",
+        "text": "A sect disciple asks you to pause a lesson to explain its beginning. Slower repetition reveals how many others had been nodding without actually understanding you."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_echoes_001",
+    "category": "life",
+    "title": "Chợ bán giấc mơ",
+    "text": "Người kể chuyện rao bán giấc mơ thành tiên bằng một đêm nghe hát. Ngươi ngồi ngoài mái lều, thấy khách ra về cười mà chẳng ai mọc cánh.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "卖梦的集市",
+        "text": "说书人卖一夜歌声，说能让人梦见成仙。你坐在棚外，看客人笑着离开，却没谁真的长出翅膀。"
+      },
+      "en": {
+        "title": "The market selling dreams",
+        "text": "A storyteller sells dreams of immortality through a night of songs. Outside his tent, you watch smiling customers depart without anyone actually growing wings."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_002",
+    "category": "life",
+    "title": "Người mẹ không đợi lễ lớn",
+    "text": "Một người mẹ tổ chức bữa cơm vì con đọc được chữ đầu tiên, không phải đỗ đạt. Ngươi được mời thêm bát, nghe đứa trẻ đọc tên mình nhiều lần.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不等大礼的母亲",
+        "text": "母亲为孩子认出第一个字摆饭庆祝，并非为了功名。你也获邀入席，听孩子反复念自己的名字。"
+      },
+      "en": {
+        "title": "A mother who needs no grand ceremony",
+        "text": "A mother celebrates her child’s first written word rather than an examination success. Invited to eat, you hear the child proudly repeat their own name."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_003",
+    "category": "life",
+    "title": "Cánh cửa tháo khỏi nhà giàu",
+    "text": "Cửa nhà giàu bị tháo để làm bè cứu người trong lũ. Chủ nhà trở về nổi giận, rồi im khi thấy đứa cháu mình nằm trên bè đó.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "富宅拆下的门",
+        "text": "富宅大门被拆作木筏救洪水中的人。主人回来大怒，直到看见自己的孙子躺在那张筏上才安静下来。"
+      },
+      "en": {
+        "title": "The door taken from a mansion",
+        "text": "A mansion door becomes a raft rescuing flood victims. Its owner returns furious, then falls silent when he sees his own grandchild lying aboard it."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_004",
+    "category": "life",
+    "title": "Hai người cùng nhận một tên",
+    "text": "Ngươi gọi người khuân hàng, hai người cùng quay lại vì trùng tên. Họ tự đặt biệt hiệu theo đôi dép, rồi tranh ai được mang tên dép lành.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "两人同认一个名字",
+        "text": "你叫搬货人，两人因同名一起回头。他们按鞋子给自己起外号，又争谁能叫好鞋那一个。"
+      },
+      "en": {
+        "title": "Two people answering one name",
+        "text": "Calling a porter makes two men with the same name turn around. They invent nicknames from their sandals, then argue over who deserves the intact pair."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_014",
+    "category": "life",
+    "title": "Linh trư học giữ lễ",
+    "text": "Linh trư trong tông môn cúi đầu khi nhận thức ăn, nhưng húc đổ thùng sau lời khen. Người nuôi bảo nó chỉ học được nửa bài giữ lễ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "学礼的灵猪",
+        "text": "宗门灵猪领食时低头行礼，受夸后却撞翻桶。饲养人说，它只学会了礼数的一半。"
+      },
+      "en": {
+        "title": "A spirit pig learns manners",
+        "text": "A sect spirit pig bows before receiving food, then knocks over its bucket after praise. Its keeper says it learned only half the lesson in manners."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_echoes_015",
+    "category": "life",
+    "title": "Tờ đơn xin học lại",
+    "text": "Đệ tử lớn tuổi xin học lại dẫn khí cùng lớp mới, mặc lời cười sau lưng. Ngươi nhường chỗ gần bảng, thấy tay người ấy ghi rất cẩn thận.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "请求重学的纸条",
+        "text": "年长弟子不顾背后笑声，请求跟新班重学引气。你让出靠前座位，看他记笔记时十分认真。"
+      },
+      "en": {
+        "title": "A request to learn again",
+        "text": "An older disciple asks to relearn breathing with beginners despite laughter behind him. Giving him a seat near the board, you notice his unusually careful notes."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_echoes_016",
+    "category": "life",
+    "title": "Cuộc chia tay không lời nguyền",
+    "text": "Hai tán tu từng đồng hành chia đường vì muốn sống khác nhau. Ngươi giữ ngựa trong lúc họ đổi lại đồ, nghe lời chúc thay vì lời nguyền.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "没有诅咒的告别",
+        "text": "两名结伴散修因想过不同日子而分路。你帮他们牵马，听见归还物品时说的是祝愿，而非诅咒。"
+      },
+      "en": {
+        "title": "A parting without curses",
+        "text": "Two traveling cultivators part because they want different lives. Holding their horses while they return possessions, you hear good wishes where you expected bitter curses."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_017",
+    "category": "life",
+    "title": "Đêm cấm kể chuyện linh căn",
+    "text": "Quán trọ dành một đêm không bàn linh căn hay xuất thân. Ngươi nghe người thường kể chuyện biển, khiến những khách tu tiên cũng quên so tài.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不谈灵根的夜晚",
+        "text": "客栈约定一晚不谈灵根和出身。你听凡人讲海上见闻，修士们也暂时忘了彼此比较高低。"
+      },
+      "en": {
+        "title": "A night without root rankings",
+        "text": "An inn sets aside one night without comparing roots or origins. Ordinary travelers tell sea stories, and even the cultivators forget to rank one another."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_027",
+    "category": "life",
+    "title": "Thiệp mời không ghi cảnh giới",
+    "text": "Một nhà mở tiệc chỉ ghi tên khách, không ghi cảnh giới trên chỗ ngồi. Ngươi ngồi cạnh người giữ vườn, nghe chuyện cây chanh khó chăm suốt bữa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不写境界的请帖",
+        "text": "主人办宴只写客名，不按境界排座。你坐在园丁旁，整顿饭都听他讲那棵难养的柠檬树。"
+      },
+      "en": {
+        "title": "An invitation without realms",
+        "text": "A host assigns seats by names without listing realms. You sit beside a gardener and hear about his troublesome lemon tree throughout the entire meal."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_028",
+    "category": "life",
+    "title": "Đạo lữ sửa một lời kể",
+    "text": "Ngươi kể chuyến đi như mình chẳng từng sợ, đạo lữ nhắc đêm đã cùng thức. Ngươi sửa câu chuyện, thấy người nghe gần mình hơn sau lời thật.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "道侣改正一段话",
+        "text": "你把远行说得毫无畏惧，道侣提醒那夜两人都未睡。你改正说法，发现听众因实话反而更亲近。"
+      },
+      "en": {
+        "title": "A partner corrects the tale",
+        "text": "You describe a journey as fearless until your partner recalls a sleepless night together. Revising the tale makes your listeners feel closer after that honest admission."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "early_realms_echoes_029",
+    "category": "life",
+    "title": "Phần thưởng cho người dọn hậu trường",
+    "text": "Tông môn trao phần thưởng cho người dọn hậu trường sau cuộc thi pháp. Người ấy nhận trước tiếng vỗ tay, xin thêm thùng rác thay một bài ca ngợi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "幕后的清场奖",
+        "text": "宗门奖励斗法后清理场地的人。他在掌声里领赏，却请求多添垃圾桶，而非再听一篇赞词。"
+      },
+      "en": {
+        "title": "A prize for clearing the stage",
+        "text": "Your sect rewards the person cleaning after a magic contest. Receiving applause, the cleaner requests more waste baskets rather than another speech praising his efforts."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_echoes_039",
+    "category": "life",
+    "title": "Người già xin dạy trò mới",
+    "text": "Một trưởng bối tông môn xin dạy lớp mới thay vì ngồi ghế danh dự. Ngươi thấy ông xóa bảng nhiều lần, cố giải thích dễ hiểu hơn ngày trước.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "老人要教新生",
+        "text": "宗门老前辈申请教新生，不愿只坐荣誉席。你看他反复擦黑板，努力比从前讲得更容易懂。"
+      },
+      "en": {
+        "title": "An elder asks to teach beginners",
+        "text": "A sect elder requests beginner lessons instead of an honorary seat. Watching him repeatedly erase the board, you see his effort to explain more clearly than before."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "early_realms_echoes_040",
+    "category": "life",
+    "title": "Chiếc bánh không giữ linh vị",
+    "text": "Đạo lữ làm bánh thường theo công thức quê, hỏi ngươi có nhớ vị cũ không. Ngươi ăn chậm, nhận ra nhiều năm mình chỉ hỏi món ăn thêm bao nhiêu lực.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "没有灵味的糕",
+        "text": "道侣按故乡食谱做凡糕，问你还记得旧味吗。你慢慢吃，才发现多年只问食物能增加多少力量。"
+      },
+      "en": {
+        "title": "A cake without spiritual flavor",
+        "text": "Your partner makes an ordinary hometown cake and asks if you remember its taste. Eating slowly, you realize years have passed asking only what food adds to power."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "early_realms_echoes_041",
+    "category": "life",
+    "title": "Kẻ giữ lời thua cuộc",
+    "text": "Người thua cuộc luận pháp trả sách đúng hẹn, dù bạn bè bảo ngươi chẳng cần. Ngươi nhận sách rồi mời trà, buổi nói chuyện sau đó không còn đặt cược.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "守信的败者",
+        "text": "论法败者如约还书，朋友却说你并不缺这本。你收书请他喝茶，后来的交谈再没有赌注。"
+      },
+      "en": {
+        "title": "The loser who keeps a promise",
+        "text": "A debate loser returns a promised book despite friends saying you do not need it. Accepting it over tea, you continue talking without wagers this time."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_001",
+    "category": "life",
+    "title": "Người đưa dâu quay lại",
+    "text": "Đoàn đưa dâu quay lại vì cô gái quên chào người thầy dạy chữ. Ngươi giữ đèn ngoài cửa, thấy lời chúc chỉ có sống tử tế và biết đọc thư.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "送亲人折返",
+        "text": "送亲队折返，因为新娘忘了向识字先生告别。你守着门灯，听见祝福只是好好生活，记得读信。"
+      },
+      "en": {
+        "title": "The wedding escort returns",
+        "text": "A wedding procession returns so the bride can farewell her tutor. Holding the doorway lamp, you hear wishes for a decent life and letters she can read."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_002",
+    "category": "life",
+    "title": "Vịt lạc giữa lễ rước",
+    "text": "Con vịt lạc đi đầu lễ rước thần, khiến người đánh trống không biết đuổi hay theo. Ngươi giúp tìm chủ, dân vẫn gọi nó là vị thần chân ngắn.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "巡游里的迷鸭",
+        "text": "迷路的鸭子走到迎神队伍前头，鼓手不知该赶还是跟。你找到鸭主，乡人仍笑称它是短腿神。"
+      },
+      "en": {
+        "title": "A duck in the procession",
+        "text": "A lost duck leads a sacred procession, confusing the drummer about whether to follow. You find its owner, while villagers keep calling it the short legged deity."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_003",
+    "category": "life",
+    "title": "Người lính trả chiếc nồi",
+    "text": "Người lính cũ đem trả chiếc nồi từng lấy trong loạn, kèm tiền dành dụm. Chủ nhà nhận nồi nhưng chưa tha thứ, ngươi thấy cả hai vẫn ngồi uống nước.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "归还锅的士兵",
+        "text": "退伍兵送还战乱时拿走的锅，并附上积蓄。主人收锅，却还没原谅他，两人仍坐下喝了水。"
+      },
+      "en": {
+        "title": "The soldier returning a pot",
+        "text": "A former soldier returns a pot taken during war along with savings. Its owner accepts without granting forgiveness, yet both sit together to drink water."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_004",
+    "category": "life",
+    "title": "Sân chơi bên ruộng mới",
+    "text": "Dân chia ruộng mới nhưng chừa một khoảng cho trẻ chơi, dù có người phản đối. Ngươi giúp dời đá, nghe tiếng cười tới trước mùa thu hoạch đầu.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "新田边的游戏场",
+        "text": "分新田时，村人留一块给孩子玩，虽然有人反对。你帮忙搬石头，第一季收成前已先听见笑声。"
+      },
+      "en": {
+        "title": "A playground beside new fields",
+        "text": "Villagers leave room for children when dividing new fields despite objections. Helping move stones, you hear laughter arrive before the first season’s harvest is ready."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_005",
+    "category": "life",
+    "title": "Lời hẹn của hai người góa",
+    "text": "Hai người góa cùng sửa nhà, con cháu hỏi có làm lễ cưới không. Họ bảo trước hết phải lợp mái, ngươi góp công nghe chuyện ấy mà bật cười.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "两个寡居者的约定",
+        "text": "两位寡居老人一起修房，儿孙问是否办婚礼。他们说先得补好屋顶，你帮忙时也听得笑了。"
+      },
+      "en": {
+        "title": "An agreement between two widowed elders",
+        "text": "Two widowed elders repair a house together while relatives ask about a wedding. They insist the roof comes first, making you laugh as you help them."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_018",
+    "category": "life",
+    "title": "Linh dê nhận nhầm thầy",
+    "text": "Linh dê theo ngươi khắp sân tông môn vì áo giống người cho ăn. Đến giờ học, nó chui dưới bàn khiến thầy phải tạm dừng để gọi chủ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "认错师父的灵羊",
+        "text": "灵羊因你的衣服像喂食人，跟遍宗门庭院。上课时它钻进桌下，先生只好停课找饲养人。"
+      },
+      "en": {
+        "title": "A spirit goat mistakes its teacher",
+        "text": "A spirit goat follows your familiar looking robe through the sect courtyard. Crawling under a classroom table, it makes the teacher pause lessons to summon its keeper."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "before_core_lanterns_019",
+    "category": "life",
+    "title": "Bảng việc có tên người nghỉ",
+    "text": "Tông môn ghi tên người nghỉ dưỡng trên bảng việc để không ai tự ý gọi đi. Ngươi nghe đệ tử bàn chuyện thay ca, lần này không chê người vắng mặt.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "差事牌上的休息者",
+        "text": "宗门在差事牌标明谁正疗养，免得被随意叫走。弟子讨论替班时，这回没有讥讽缺席的人。"
+      },
+      "en": {
+        "title": "A worker’s name on the rest board",
+        "text": "Your sect marks recovering workers on its duty board to prevent interruptions. Disciples discuss covering shifts without mocking those absent from their usual work today."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "before_core_lanterns_020",
+    "category": "life",
+    "title": "Lời cảm ơn không ghi công",
+    "text": "Một tán tu cảm ơn ngươi đã nghe mình kể buổi thi hỏng, không xin thêm gì. Ngươi cùng ăn bát mì, thấy việc giúp người đôi lúc chỉ cần ngồi lại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不记功劳的谢意",
+        "text": "散修感谢你听他讲落选的难过，没有再提请求。一起吃面时，你觉得帮人有时只需留下陪坐。"
+      },
+      "en": {
+        "title": "Thanks without a credit tally",
+        "text": "A cultivator thanks you for hearing about his failed examination without requesting anything else. Sharing noodles, you realize helping sometimes requires only staying to listen."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_021",
+    "category": "life",
+    "title": "Mùa hội không xếp linh căn",
+    "text": "Hội nhỏ ở khu tán tu bốc thăm chỗ ngồi thay xếp linh căn. Ngươi nghe người căn yếu kể chuyện cười, cả bàn chẳng ai muốn đổi chỗ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不按灵根排座的节庆",
+        "text": "散修区小节庆抽签排座，不按灵根高低。弱根修士讲起笑话，满桌都不想再换位子。"
+      },
+      "en": {
+        "title": "A festival without root rankings",
+        "text": "A cultivator neighborhood draws seats by lottery instead of root rankings. A man with weak roots tells jokes, leaving nobody at the table wanting another place."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_028",
+    "category": "life",
+    "title": "Kiếm gỗ thắng lời khoe",
+    "text": "Một tán tu khoe kiếm sáng nhưng thua trò giữ thăng bằng trước trẻ cầm kiếm gỗ. Ngươi giúp nhặt đồ rơi, hắn cười nhận mình chỉ giỏi đứng yên.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "木剑赢过夸口",
+        "text": "散修夸耀亮剑，却在平衡游戏里输给持木剑的孩子。你帮忙捡物，他笑着承认自己只擅长站稳不动。"
+      },
+      "en": {
+        "title": "A wooden sword defeats a boast",
+        "text": "A cultivator boasts of his shining sword but loses a balance game to a child with wood. Helping collect dropped things, you hear him admit the defeat."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_035",
+    "category": "life",
+    "title": "Buổi giảng dành cho người làm công",
+    "text": "Ngươi dự buổi dạy trận vào giờ người làm công vừa nghỉ, không chỉ dành cho khách rảnh. Thầy giảng chậm khi có người gật ngủ, chẳng gọi họ lười.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "为佣工开的讲课",
+        "text": "你参加安排在佣工下工后的阵课，不只让闲人听。有人困得点头，先生放慢讲解，没有骂他们懒惰。"
+      },
+      "en": {
+        "title": "A lesson for hired workers",
+        "text": "An array class meets after hired workers finish rather than only for idle guests. The teacher slows for sleepy listeners without accusing them of laziness."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_036",
+    "category": "life",
+    "title": "Đạo lữ xin giữ một góc riêng",
+    "text": "Đạo lữ xin giữ góc sân riêng để trồng hoa không dùng linh dược. Ngươi giúp dời chậu, hai người bàn chuyện sống chung mà vẫn có chỗ cho mình.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "道侣要留一角独处",
+        "text": "道侣想留一角院子只种普通花，不种灵药。你帮搬花盆，两人商量相处时也各有自己的地方。"
+      },
+      "en": {
+        "title": "A partner asks for a private corner",
+        "text": "Your partner requests a courtyard corner for ordinary flowers instead of spirit herbs. Moving pots together, you discuss sharing a home while keeping space for yourselves."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "before_core_lanterns_037",
+    "category": "life",
+    "title": "Người giữ kho từ chối quà",
+    "text": "Người giữ kho tông môn trả lại món quà khách đưa để xin nhận hàng trước. Ngươi nghe ông giải thích ai tới sớm phải được trước, dù cảnh giới thấp hơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "库管拒收礼",
+        "text": "宗门库管退回插队客人的礼物。他解释先到者就该先领货，即使修为比后来的客人低。"
+      },
+      "en": {
+        "title": "The storekeeper refuses a gift",
+        "text": "A sect storekeeper returns a gift meant to secure priority. He explains that earlier arrivals receive their goods first, even when later customers hold higher realms."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "before_core_lanterns_038",
+    "category": "life",
+    "title": "Hạc giấy trở về đúng bếp",
+    "text": "Hạc giấy ngươi gửi đạo lữ lại đáp cạnh nồi đang nấu vì nhớ dấu linh khí cũ. Hai người đọc thư ngay trong bếp, tiếng nước sôi làm nền.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "纸鹤回到厨房",
+        "text": "你寄给道侣的纸鹤循旧灵气落在灶边。两人在厨房读信，旁边锅中的沸水声一直轻响。"
+      },
+      "en": {
+        "title": "The paper crane returns to the kitchen",
+        "text": "A paper crane sent to your partner follows familiar energy into the kitchen. You read the letter together beside a pot whose boiling water fills the silence."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_001",
+    "category": "life",
+    "title": "Miếu thờ người chưa thành tiên",
+    "text": "Ngươi ghé miếu thờ người đào kênh, hỏi sao tượng không cầm pháp khí. Người giữ miếu chỉ dòng nước ngoài cửa, bảo thứ ấy đủ để dân nhớ.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "未成仙者的祠",
+        "text": "你到开渠人的祠堂，问雕像为何不拿法器。守祠人指着门外流水，说有这些就足够百姓记住他。"
+      },
+      "en": {
+        "title": "A shrine for one who never ascended",
+        "text": "You ask why a canal builder’s shrine has no magical weapon on its statue. Its keeper points to flowing water, saying that is enough for remembrance."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_002",
+    "category": "life",
+    "title": "Trâu kéo xe áo cưới",
+    "text": "Con trâu chở áo cưới chỉ chịu đi khi người dẫn hát. Ngươi hát sai nhịp khiến nó đứng lại, bà thợ may cười rồi hát giúp cả đoạn.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "牛拉婚衣车",
+        "text": "运婚衣的牛只听歌才走。你唱错节拍，它便停住，女裁缝笑着替你唱完一整段。"
+      },
+      "en": {
+        "title": "The ox carrying wedding robes",
+        "text": "An ox carrying wedding robes only moves to singing. Your wrong rhythm stops it, and the seamstress laughs before singing the rest of the verse herself."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_003",
+    "category": "life",
+    "title": "Dấu gạch trên cửa nhà trống",
+    "text": "Ngươi thấy cửa nhà bỏ trống có dấu gạch mỗi năm. Người hàng xóm vẫn đếm mùa cho gia đình đi tránh loạn, chờ họ tìm được đường về.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "空屋门上的记号",
+        "text": "空屋门上每年添一道划痕。邻人替逃难的那家人记着年岁，等他们有一天找到回家的路。"
+      },
+      "en": {
+        "title": "Marks on the empty house",
+        "text": "An empty house gains one mark on its door each year. A neighbor counts seasons for its displaced family, waiting for them to find a path home."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_004",
+    "category": "life",
+    "title": "Hôn lễ chỉ có hai chiếc bát",
+    "text": "Hai người làm thuê tổ chức hôn lễ bằng hai chiếc bát mượn. Ngươi mang nước nóng đến, nghe họ hứa không giấu nhau chuyện tiền công mỗi tháng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "只有两只碗的婚礼",
+        "text": "两名佣工借来两只碗成婚。你送去热水，听他们约定以后每月工钱都不瞒着对方。"
+      },
+      "en": {
+        "title": "A wedding with two bowls",
+        "text": "Two hired workers marry with two borrowed bowls. Bringing hot water, you hear them promise never to conceal their monthly wages from each other in future."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_005",
+    "category": "life",
+    "title": "Chiếc trống gọi người về ăn",
+    "text": "Trống làng từng báo giặc được dùng gọi người về ăn trong ngày sửa đê. Ngươi rửa tay nghe nhịp cũ, thấy vài người già cười rồi lau mắt.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "喊人吃饭的鼓",
+        "text": "曾报敌情的村鼓如今在修堤日喊人吃饭。你洗手听旧节奏，看几位老人笑着又抹了眼睛。"
+      },
+      "en": {
+        "title": "The drum calling people to eat",
+        "text": "A village drum once warning of enemies now calls dam workers to eat. Washing your hands to its old rhythm, you see elders smile and wipe their eyes."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_018",
+    "category": "life",
+    "title": "Linh cá chỉ ăn đúng bát",
+    "text": "Linh cá ở tông môn bỏ ăn khi người nuôi đổi bát sang loại đẹp. Ngươi giúp tìm bát sứt cũ, nó ăn ngay khiến cả nhóm phải cười.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "只认饭碗的灵鱼",
+        "text": "宗门灵鱼换了漂亮食碗就绝食。你帮找回旧缺口碗，它立刻开吃，众人都忍不住笑了。"
+      },
+      "en": {
+        "title": "The spirit fish recognizing one bowl",
+        "text": "A sect fish refuses food after its keeper buys a handsome bowl. Finding the old chipped one makes it eat immediately, leaving everyone laughing at its preference."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_019",
+    "category": "life",
+    "title": "Sư huynh giữ chỗ cho người về",
+    "text": "Đệ tử tông môn trở lại sau tháng chăm mẹ bệnh, sợ bị lớp quên. Sư huynh giữ chỗ cùng bản chép bài, ngươi thấy em lặng lâu trước khi ngồi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "师兄替归者留位",
+        "text": "弟子照顾病母一月后返宗，怕同班已忘了他。师兄留好座位和笔记，他沉默许久才坐下。"
+      },
+      "en": {
+        "title": "A senior saves a returning disciple’s seat",
+        "text": "A disciple returns after caring for his mother, fearing his class has forgotten him. A saved seat and copied notes leave him quiet before he finally sits."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_020",
+    "category": "life",
+    "title": "Tin đồn đổi thành lời xin lỗi",
+    "text": "Người từng đồn ngươi mua giải đến xin lỗi sau khi thấy bản chấm. Ngươi không bắt hắn quỳ, chỉ yêu cầu sửa lời trước những người đã nghe.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "传言变成道歉",
+        "text": "曾传你买奖的人看过评分后道歉。你没让他跪，只请他向听过谣言的人说清真相。"
+      },
+      "en": {
+        "title": "A rumor becomes an apology",
+        "text": "Someone who claimed you bought a prize apologizes after seeing the marks. You request a correction before those who heard the rumor rather than a kneeling apology."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_021",
+    "category": "life",
+    "title": "Quán cơm giữ bát người mất",
+    "text": "Quán cơm tán tu giữ một bát của người không trở về từ chuyến tìm thuốc. Chủ quán vẫn dùng tiền người ấy gửi giúp khách nghèo, không biến bát thành thần vật.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "饭铺留故人的碗",
+        "text": "散修饭铺留着采药未归者的碗。掌柜用他留下的钱帮助穷客，没有把那只碗吹成神物。"
+      },
+      "en": {
+        "title": "The dining shop keeps a lost friend’s bowl",
+        "text": "A dining shop keeps a bowl from someone lost gathering herbs. Its owner uses his remaining money for poor guests without claiming the bowl has miraculous powers."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_034",
+    "category": "life",
+    "title": "Người chèo thuyền chở tượng rỗng",
+    "text": "Ngươi giúp chở tượng thần về làng, phát hiện bên trong chỉ có đất khô. Người chèo thuyền vẫn lau sạch áo tượng, nói lòng kính không nằm ở ruột vàng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "载空像的船夫",
+        "text": "你帮忙运神像回村，发现里面只有干土。船夫仍擦净神像衣襟，说敬意并不取决于金子做的内里。"
+      },
+      "en": {
+        "title": "The boatman carrying a hollow statue",
+        "text": "You help carry a sacred statue home and discover dry clay inside. The boatman still cleans its robes, saying respect does not require a golden interior."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_035",
+    "category": "life",
+    "title": "Lễ tiễn người thôi cầu tiên",
+    "text": "Người bạn bỏ ý định cầu tiên mở quán chè, mời ngươi bữa khai trương. Khách hỏi có tiếc không, người ấy chỉ cười rồi múc thêm chè nóng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不再求仙的送别宴",
+        "text": "朋友放弃求仙，开糖水铺请你吃开业饭。客人问是否遗憾，他只笑着又盛了一碗热糖水。"
+      },
+      "en": {
+        "title": "Farewell for one leaving the immortal road",
+        "text": "A friend abandons immortality to open a sweet soup shop and invites you to its opening. Asked about regrets, the owner smiles and serves another warm bowl."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_036",
+    "category": "life",
+    "title": "Tấm khăn chôn thay người",
+    "text": "Gia đình chôn chiếc khăn của người mất tích nơi chiến tuyến, nhờ ngươi đọc tên. Họ để cổng nhà mở sau lễ, phòng khi người ấy vẫn trở về.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "以巾代人的葬礼",
+        "text": "家人把前线失踪者的围巾下葬，请你读出姓名。仪式后仍留家门敞开，盼他或许还能回来。"
+      },
+      "en": {
+        "title": "A scarf buried for the missing",
+        "text": "A family buries a missing soldier’s scarf and asks you to read the name. Afterward, they leave their gate open in case the soldier still returns."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_042",
+    "category": "life",
+    "title": "Đệ tử chép lời thầy sai",
+    "text": "Trong tông môn, đệ tử chép nhầm tĩnh tâm thành tỉnh ngủ khiến cả lớp cười. Thầy giữ dòng ấy trên bảng, nói hôm nay cả hai đều cần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "弟子抄错师言",
+        "text": "宗门弟子把静心抄成醒困，全班大笑。先生把那行留在黑板上，说今天这两件事都需要。"
+      },
+      "en": {
+        "title": "The disciple copying the teacher wrongly",
+        "text": "A disciple copies calm the mind as stay awake, making the class laugh. The teacher keeps it on the board, saying both instructions are needed today."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_043",
+    "category": "life",
+    "title": "Linh hầu trả chiếc lược",
+    "text": "Linh hầu lấy lược của khách rồi đem trả cùng nắm hạt rừng. Người chủ định mắng, nhưng thấy nó đang bắt chước chải tóc cho con nhỏ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "灵猴归还木梳",
+        "text": "灵猴拿走客人的梳子，又带野果核归还。主人本想责骂，却见它正学着给幼猴梳毛。"
+      },
+      "en": {
+        "title": "A spirit monkey returns a comb",
+        "text": "A spirit monkey returns a stolen comb with forest seeds. Its owner prepares to scold it, then notices it copying the act of grooming its young."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_044",
+    "category": "life",
+    "title": "Tên thật sau biệt hiệu dữ",
+    "text": "Tán tu mang biệt hiệu dữ nhờ ngươi đọc thư mẹ gửi, trong thư chỉ gọi tên nhỏ. Hắn gấp thư cẩn thận, xin đừng đem cái tên ấy ra đùa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "凶名后的真名字",
+        "text": "凶名在外的散修请你读母亲来信，信里只叫乳名。他仔细折好信，请你别拿那个名字玩笑。"
+      },
+      "en": {
+        "title": "A real name behind a fierce nickname",
+        "text": "A cultivator with a fierce nickname asks you to read his mother’s letter. Hearing his childhood name, he folds it carefully and requests that you never mock it."
+      }
+    }
   }
 ]

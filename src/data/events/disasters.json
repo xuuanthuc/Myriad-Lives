@@ -7346,5 +7346,1675 @@
         "text": "An old ward roof collapses while you help move a household. Holding it up until residents escape hurts your awareness and damages your magical tool."
       }
     }
+  },
+  {
+    "id": "lower_realms_crossroads_009",
+    "category": "disaster",
+    "title": "Quả chín trên cây giả",
+    "text": "Ngươi hái quả từ cây trông xanh tốt bên đường, không biết rễ đã mục. Cành gãy khiến ngươi ngã đau, giỏ thức ăn cũng đổ xuống khe.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "假树上的熟果",
+        "text": "你采摘路旁绿树上的果子，却不知根已腐烂。树枝折断让你摔伤，食物篮也滚进了溪沟。"
+      },
+      "en": {
+        "title": "Ripe fruit on a false tree",
+        "text": "You pick fruit from a lush roadside tree without knowing its roots have rotted. A breaking branch bruises you and sends your food basket into a ravine."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_010",
+    "category": "disaster",
+    "title": "Quan sai thu cả hạt giống",
+    "text": "Lính thu thuế tịch thu cả túi hạt giống ngươi mua hộ người làng. Ngươi góp tiền mua lại phần khác, chuyến đi cầu nghề phải chậm vài ngày.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "连种子也征走",
+        "text": "税吏没收了你替村人买的种子。你掏钱另买一份，出门学手艺的行程也只好推迟几天。"
+      },
+      "en": {
+        "title": "The levy takes the seeds",
+        "text": "Tax collectors confiscate seeds you bought for villagers. Contributing money for replacements delays your journey to learn a trade by several days along the way."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_019",
+    "category": "disaster",
+    "title": "Đèn dẫn đường bị đổi màu",
+    "text": "Đèn đánh dấu đường núi bị kẻ thu phí đổi màu khiến ngươi vào lối cụt. Mất đêm tìm đường, ngươi bỏ tiền thuê người dẫn trở lại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "换色的路灯",
+        "text": "收路费的人换了山路灯色，把你引入死路。你找路耗掉一夜，只得花钱雇向导带回正道。"
+      },
+      "en": {
+        "title": "The guide lamp changes color",
+        "text": "A toll collector changes a mountain guide lamp’s color, leading you into a dead end. After a lost night, you pay a guide to lead you back."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_020",
+    "category": "disaster",
+    "title": "Linh cát lọt vào mắt",
+    "text": "Gió cuốn linh cát từ công trường trận pháp vào mắt ngươi. Thuốc rửa mắt tốn hơn tiền công vừa nhận, khiến chuyến mua sách phải hoãn lại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "灵砂入眼",
+        "text": "阵法工地的灵砂被风吹进你的眼睛。洗眼药比刚领的工钱还贵，买书的打算也只能暂缓。"
+      },
+      "en": {
+        "title": "Spirit sand in the eyes",
+        "text": "Wind blows spirit sand from an array construction site into your eyes. Washing medicine costs more than your latest wages, forcing you to postpone buying books."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_029",
+    "category": "disaster",
+    "title": "Giấy phép hành nghề giả",
+    "text": "Người môi giới bán giấy phép mở trận quán giả cho ngươi. Khi bị kiểm tra, ngươi mất tiền thuê và phải tháo những vật liệu đã dựng xong.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "假的执业文书",
+        "text": "中间人卖给你假的阵坊执业文书。巡查发现后，你损失租金，还得拆掉已经架好的材料。"
+      },
+      "en": {
+        "title": "A false practice permit",
+        "text": "A broker sells you a false permit for an array workshop. Inspectors discover it, costing your rent and forcing you to dismantle the materials already installed."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_030",
+    "category": "disaster",
+    "title": "Dược khí từ bãi thải",
+    "text": "Bãi thải luyện đan gần chỗ nghỉ xả dược khí giữa đêm. Ngươi tỉnh vì khó thở, phải chuyển nơi ở và mua thuốc giải phần đã hít vào.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "废料场的药气",
+        "text": "住处附近的炼丹废料场半夜排出药气。你因气短惊醒，只得搬走，并买药解去已经吸入的毒气。"
+      },
+      "en": {
+        "title": "Medicinal fumes from the dump",
+        "text": "An alchemy dump near your lodging releases fumes overnight. You awaken short of breath, move elsewhere and buy medicine to counter what you have already inhaled."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_039",
+    "category": "disaster",
+    "title": "Trận sáng bị ép làm đẹp",
+    "text": "Người thuê ngươi sửa trận sáng tự đổi vị trí để đẹp hơn. Trận vỡ trong lễ khai trương, ngươi chịu phản chấn và mất tiền tranh luận trách nhiệm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "为好看而改的灯阵",
+        "text": "雇主为了好看擅自移动灯阵节点。开业时阵法崩散，你遭反震，还为争辩责任花去一笔钱。"
+      },
+      "en": {
+        "title": "A light array altered for display",
+        "text": "A client moves your light array’s nodes to improve its appearance. It collapses at the opening ceremony, hurting you and costing money in the dispute over responsibility."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_040",
+    "category": "disaster",
+    "title": "Linh dược bị tráo nhãn",
+    "text": "Dược liệu trong kho thuê bị tráo nhãn khiến ngươi phối sai một mẻ. Kịp dừng trước khi dùng, ngươi vẫn mất vật tư và tiền thuê lò.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "被换标签的灵药",
+        "text": "租仓里的药材被换了标签，你配错一炉药。幸好服用前及时停下，材料和炉租却已经损失了。"
+      },
+      "en": {
+        "title": "Swapped labels on spirit herbs",
+        "text": "Swapped labels in a rented storehouse cause you to mix the wrong batch. Stopping before use prevents harm, but wastes ingredients and the furnace rental fee."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_049",
+    "category": "disaster",
+    "title": "Thần niệm cũ trong thẻ khách",
+    "text": "Thẻ khách truyền thần niệm của người dùng trước vào giấc ngủ ngươi. Những tiếng gọi làm tỉnh liên tục, buộc ngươi thay thẻ và mua thuốc dưỡng thần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "客牌里的旧神念",
+        "text": "客牌把上一位客人的神念传进你的睡梦。呼唤声让你反复惊醒，只得换牌并买药调养神识。"
+      },
+      "en": {
+        "title": "Old thoughts inside a guest token",
+        "text": "A guest token carries its previous user’s thoughts into your sleep. Repeated calls keep waking you, forcing replacement of the token and purchase of restorative medicine."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_crossroads_050",
+    "category": "disaster",
+    "title": "Cột đá mang trận hút lực",
+    "text": "Ngươi giúp dựng cột đá mà không biết bên trong có trận hút lực. Khi thần thức chạm lõi, nguyên khí bị rút, khiến ngươi nghỉ dưỡng và mất thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "吸力阵藏石柱",
+        "text": "你帮忙立石柱，却不知道里面藏着吸力阵。神识触到核心时元气被抽走，只得休养并耗费药物。"
+      },
+      "en": {
+        "title": "A draining array inside the pillar",
+        "text": "You help erect a stone pillar unaware of its hidden draining array. Awareness touching the core loses vitality, leaving you needing recovery and consuming your medicinal supplies."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_011",
+    "category": "disaster",
+    "title": "Xe hàng cán vỡ chum",
+    "text": "Xe hàng của nhà giàu cán vỡ chum ngươi chở thuê rồi không dừng. Ngươi phải bồi thường một phần, buổi tìm việc kế tiếp bắt đầu với bụng đói.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "货车撞碎水缸",
+        "text": "富户货车撞碎你代运的水缸，却没有停下。你赔了部分钱，第二天只好饿着肚子再去找活。"
+      },
+      "en": {
+        "title": "The cart breaking water jars",
+        "text": "A wealthy household’s cart breaks jars you were carrying and does not stop. Paying partial compensation leaves you searching for the next job on an empty stomach."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_012",
+    "category": "disaster",
+    "title": "Nước lũ cuốn sạp nhỏ",
+    "text": "Ngươi dựng sạp bán đồ sửa được thì nước lũ tới sớm hơn lời báo. Gánh phần còn lại lên dốc, ngươi đau chân và mất gần hết vốn.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "洪水卷走小摊",
+        "text": "你刚摆好修补物件的小摊，洪水就比预警更早到了。把残货挑上坡后，双腿酸痛，本钱也损失大半。"
+      },
+      "en": {
+        "title": "Floodwater takes the stall",
+        "text": "Floodwater arrives ahead of warnings just as you set up repaired goods for sale. Carrying what survives uphill hurts your legs and costs most of your capital."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_013",
+    "category": "disaster",
+    "title": "Tờ bảo chứng không dấu",
+    "text": "Người môi giới hứa việc nhẹ rồi giao ngươi tờ bảo chứng không dấu. Đến nơi chẳng có chủ nhận, ngươi mất tiền đường và phải tự tìm chỗ ngủ.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "无印的担保书",
+        "text": "中人许诺轻松差事，却交给你一张无印担保书。到了地方没人接应，你赔了路费，还得自己找住处。"
+      },
+      "en": {
+        "title": "A guarantee without a seal",
+        "text": "A broker promises easy work but gives you an unsealed guarantee. Nobody receives you at the destination, leaving travel money lost and lodging to find yourself."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_024",
+    "category": "disaster",
+    "title": "Dây buộc pháp khí mục",
+    "text": "Dây buộc pháp khí cũ đứt khi ngươi chuyển hàng qua khe. Món đồ rơi vỡ, tiền sửa lấy mất phần dành mua sách nhập môn tháng tới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "朽坏的法器绳",
+        "text": "运货过沟时，旧法器的系绳突然断了。器物摔坏，修理费花掉了你为下月入门书攒的钱。"
+      },
+      "en": {
+        "title": "A rotten tool tether",
+        "text": "An old tool’s tether snaps while you carry goods across a ditch. Its fall breaks it, and repairs consume money saved for next month’s introductory books."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_025",
+    "category": "disaster",
+    "title": "Bột dẫn khí lẫn tro",
+    "text": "Bột dẫn khí giá rẻ có tro lẫn khiến ngươi ho khi luyện. Dừng kịp trước khi khí chạy loạn, ngươi vẫn tốn thuốc và bỏ cả gói đã mua.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "引气粉掺灰",
+        "text": "便宜引气粉掺着灰，练习时让你不停咳嗽。虽及时停下，没有气息紊乱，仍须买药并丢掉整包粉。"
+      },
+      "en": {
+        "title": "Ash mixed into energy powder",
+        "text": "Cheap energy powder contains ash that makes you cough during practice. Stopping before your breathing goes astray still costs medicine and the packet you bought."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_026",
+    "category": "disaster",
+    "title": "Phiên chợ đổi thẻ cân",
+    "text": "Ngươi đổi linh gạo theo thẻ cân mới rồi phát hiện mỗi thẻ thiếu một phần. Chủ quầy đã rời chợ, ngươi mất vốn và phải giảm bữa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "市集换了秤牌",
+        "text": "你按新秤牌换灵米，却发现每份都少了重量。摊主早已离市，你损失本钱，只得缩减饭食。"
+      },
+      "en": {
+        "title": "The market’s swapped weight tokens",
+        "text": "Buying spirit rice with new weight tokens leaves every portion short. The vendor has already left the market, costing your capital and forcing smaller meals."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_036",
+    "category": "disaster",
+    "title": "Trận lạnh đóng băng giếng",
+    "text": "Trận bảo quản của quán bên cạnh lệch hướng, đóng băng giếng động phủ ngươi. Phá lớp băng làm tay tê đau, thuốc và tiền sửa đều hao.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "寒阵冻井",
+        "text": "邻店储物寒阵偏了方向，冻住你洞府的井。破冰时手掌冻痛，药钱和修井费也一同耗去了。"
+      },
+      "en": {
+        "title": "Cold wards freeze the well",
+        "text": "A neighboring shop’s storage wards misdirect their cold and freeze your well. Breaking the ice numbs your hands painfully and consumes medicine alongside repair money."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_037",
+    "category": "disaster",
+    "title": "Người trung gian giữ vật tư",
+    "text": "Người trung gian nhận vật tư sửa trận rồi không giao tới như hẹn. Ngươi phải mua bù để hoàn thành việc, không muốn người thuê chịu lỗi thay hắn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "中人扣下材料",
+        "text": "中人收下修阵材料却没有如约送来。你自己买齐缺额完成差事，不愿让雇主替他的过失受损。"
+      },
+      "en": {
+        "title": "The broker withholds supplies",
+        "text": "A broker accepts array supplies but never delivers them as agreed. Buying replacements to finish the work costs you money, sparing the client from his failure."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_038",
+    "category": "disaster",
+    "title": "Lá bùa trấn cửa bị đảo",
+    "text": "Bùa trấn cửa bị khách nghịch dán ngược khiến trận bảo hộ dội vào phòng. Ngươi giật mình giữa hành công, phải nghỉ vì ngực đau và thay giấy trận.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "倒贴的镇门符",
+        "text": "顽客把镇门符倒贴，护阵反冲进室内。你行功时惊醒，胸口疼痛，只得休息并更换阵符。"
+      },
+      "en": {
+        "title": "The reversed door ward",
+        "text": "A mischievous guest reverses your door talisman, turning its protection inward. The shock interrupts practice, causing chest pain that needs rest and replacement ward paper."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_048",
+    "category": "disaster",
+    "title": "Hội buôn giữ tiền bảo chứng",
+    "text": "Hội buôn giữ tiền bảo chứng khi khách đổi ý mua hàng, dù ngươi giao đúng hẹn. Chờ phân xử kéo dài, ngươi phải bán vật tư để tiếp tục tu luyện.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "商会扣下保证金",
+        "text": "你按时交货，客人却反悔，商会还扣下保证金。裁决迟迟不来，你只好卖材料维持修炼。"
+      },
+      "en": {
+        "title": "The guild keeps the deposit",
+        "text": "A buyer changes his mind despite timely delivery, and the guild retains your deposit. A delayed ruling forces you to sell supplies to continue your cultivation."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_049",
+    "category": "disaster",
+    "title": "Đá dẫn hỏa nứt từ trong",
+    "text": "Đá dẫn hỏa mới mua nứt từ trong khi ngươi thử lò. Ngọn nóng bật lên làm tay rát, mẻ vật liệu phải bỏ và người bán đã đóng quầy.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "内裂的导火石",
+        "text": "新买导火石在试炉时从内部裂开。热流灼伤手掌，材料只得丢弃，卖家也已经收摊离开。"
+      },
+      "en": {
+        "title": "A heatstone cracked within",
+        "text": "A new heatstone cracks internally while you test a furnace. Its flare burns your hand and ruins the ingredients, with the seller’s stall already closed."
+      }
+    }
+  },
+  {
+    "id": "early_realms_tapestry_050",
+    "category": "disaster",
+    "title": "Người giữ trận xin thay chủ",
+    "text": "Người giữ trận trong mỏ linh thạch nhờ ngươi chứng kiến công nhân bị khóa lối về. Chủ mỏ nói cửa đóng vì an toàn, nhưng sổ ca ghi làm suốt đêm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "translations": {
+      "zh": {
+        "title": "守阵人请求换主",
+        "text": "灵矿守阵人请你见证工人的归路被锁。矿主说关门为了安全，值班册却写着他们整夜干活。"
+      },
+      "en": {
+        "title": "The ward keeper asks for change",
+        "text": "A mine ward keeper asks you to witness workers being locked inside. The owner cites safety, but shift records show they are made to work all night."
+      }
+    },
+    "choices": [
+      {
+        "id": "investigate",
+        "text": "Kiểm tra khóa và mở lối có kiểm soát",
+        "hint": "Tốn vật tư; có thể giúp người hoặc bị thương",
+        "translations": {
+          "zh": {
+            "text": "查锁并有序开路",
+            "hint": "消耗材料，可能助人或受伤"
+          },
+          "en": {
+            "text": "Inspect the lock and open a controlled exit",
+            "hint": "Spend supplies; possible help or injury"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi mở lối sau khi dò khí độc, đưa công nhân ra nghỉ từng nhóm. Vật tư tiêu đi, chủ mỏ buộc sửa lịch ca trước những lời chứng được ghi.",
+            "effects": {
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你先查毒气，再分批放工人出去休息。材料耗去，矿主也被记录下的证词迫使更改班次安排。"
+              },
+              "en": {
+                "text": "After checking for poisonous gas, you guide workers out in groups. Supplies are spent, and recorded testimony forces the owner to change the exhausting shift schedule."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Chân trận bị chủ mỏ nối sai dội lực khi ngươi mở khóa. Ngươi chịu thương, phải ngừng tháo và ghi rõ nguy cơ trước khi gọi thêm người hỗ trợ.",
+            "effects": {
+              "health": -8,
+              "resources": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "矿主接错的阵脚在开锁时反冲。你受伤后暂停拆解，写明危险，再请更多人来协助处理。"
+              },
+              "en": {
+                "text": "A node incorrectly connected by the owner rebounds as you open the lock. Injured, you pause dismantling, record the danger and request additional help at the site."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Ghi chứng cứ để đưa đi khiếu nại",
+        "hint": "Không mở cửa ngay; không nhận lợi ích",
+        "translations": {
+          "zh": {
+            "text": "记下证据以便申诉",
+            "hint": "不立即开门，不获收益"
+          },
+          "en": {
+            "text": "Record evidence for a complaint",
+            "hint": "Leave the gate closed for now; gain no benefit"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi chép sổ ca và dấu khóa để gửi khiếu nại, không mở cửa ngay. Người giữ trận nhận bản chép, nói sẽ cùng công nhân giữ lời chứng.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你抄下班册和锁纹准备申诉，没有立即开门。守阵人收下副本，说会与工人一起保留证词。"
+              },
+              "en": {
+                "text": "You copy shift records and lock markings for a complaint without opening the gate immediately. The keeper accepts a copy and promises to preserve workers’ testimony."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early_realms_echoes_011",
+    "category": "disaster",
+    "title": "Đường tắt bị người rào",
+    "text": "Đường tắt qua rừng bị người mua đất rào giữa lúc ngươi chở hàng. Vòng đường xa làm hỏng rau, ngươi mất phần tiền công đã trông đợi.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "被围住的近路",
+        "text": "运货途中，买地人突然围住穿林近路。你绕远道，菜蔬途中坏了，原本指望的工钱也少了许多。"
+      },
+      "en": {
+        "title": "The fenced shortcut",
+        "text": "A new landowner fences a forest shortcut during your delivery. The longer detour spoils vegetables and costs part of the wages you had counted upon."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_012",
+    "category": "disaster",
+    "title": "Gạch rơi từ mái mới",
+    "text": "Gạch mái mới rơi khi ngươi đi ngang, làm vai đau và vỡ bát mang thuê. Chủ thầu đùn trách nhiệm, ngươi phải tự mua thuốc trước.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "新屋顶落瓦",
+        "text": "新屋顶瓦片在你经过时落下，砸伤肩膀，也打碎代运的碗。工头推卸责任，你只能先自己买药。"
+      },
+      "en": {
+        "title": "Tiles from the new roof",
+        "text": "Tiles fall from a new roof as you pass, hurting your shoulder and breaking borrowed bowls. The contractor denies responsibility, leaving you to buy medicine yourself."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_013",
+    "category": "disaster",
+    "title": "Muối giả làm hỏng cá",
+    "text": "Muối trộn bột đá khiến mẻ cá ngươi ướp hỏng qua đêm. Ngươi bỏ hàng thay vì bán cho khách, mất vốn và phải đi tìm việc khác.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "假盐坏了鱼",
+        "text": "掺石粉的盐让你腌的鱼一夜变坏。你宁可扔掉也没有卖给客人，赔了本钱，只好另找活干。"
+      },
+      "en": {
+        "title": "False salt spoils the fish",
+        "text": "Salt mixed with stone dust spoils your preserved fish overnight. You discard the stock rather than sell it, losing capital and having to seek other work."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_024",
+    "category": "disaster",
+    "title": "Thẻ thuê phòng bị bán hai lần",
+    "text": "Ngươi mua thẻ phòng rồi thấy người khác đã ngủ trong đó, cũng có thẻ thật. Chủ trọ biến mất, cả hai góp tiền tìm chỗ nghỉ mới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "一房二租的客牌",
+        "text": "你买了客牌，却发现房里已有人住，对方也持真牌。掌柜不见踪影，你们只好各掏钱另寻住处。"
+      },
+      "en": {
+        "title": "A room token sold twice",
+        "text": "Your room token leads to a room already occupied by someone holding another valid token. The owner disappears, forcing both of you to pay for new lodging."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_025",
+    "category": "disaster",
+    "title": "Linh bùn bít lỗ thông khí",
+    "text": "Linh bùn theo nước mưa bít lỗ thông khí trong phòng luyện ngươi thuê. Ngươi tỉnh vì ngực tức, phải tốn thuốc và thuê người dọn đường thoát.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "灵泥堵气孔",
+        "text": "雨水带来的灵泥堵住租赁练功室气孔。你胸闷醒来，只得买药，还要雇人疏通出口。"
+      },
+      "en": {
+        "title": "Spirit mud blocks the vent",
+        "text": "Rain carries spirit mud into the vent of your rented practice room. Waking with chest pressure, you need medicine and hired help to clear an exit."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_026",
+    "category": "disaster",
+    "title": "Người đổi hàng bớt linh thạch",
+    "text": "Người đổi hàng đếm linh thạch rất nhanh rồi tráo túi lúc ngươi quay đầu. Phát hiện thiếu sau khi hắn đi, ngươi phải hoãn mua vật liệu phù.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "换货者少付灵石",
+        "text": "换货人飞快数好灵石，趁你回头换了袋子。他走后你才发现少钱，只得推迟买符料。"
+      },
+      "en": {
+        "title": "A trader shortchanges the exchange",
+        "text": "An exchanger counts stones quickly and swaps bags when you turn away. Discovering the shortage after his departure forces you to postpone buying talisman materials."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_036",
+    "category": "disaster",
+    "title": "Nền nhà bị đào trộm linh thạch",
+    "text": "Kẻ đào trộm linh thạch khoét dưới nền nhà ngươi thuê, làm trận chống sập lệch. Ngươi phải dọn đi, mất tiền đặt chỗ và vật liệu ổn định nền.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "地基被偷挖灵石",
+        "text": "偷矿者挖空租屋地基，让防塌阵偏移。你不得不搬走，损失定金，也耗去稳固地面的材料。"
+      },
+      "en": {
+        "title": "Stones stolen beneath the foundation",
+        "text": "Stone thieves dig beneath your rented house and displace its supporting array. Moving costs your deposit as well as materials spent making the weakened foundation stable."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_037",
+    "category": "disaster",
+    "title": "Linh dây mọc xuyên trận ngủ",
+    "text": "Linh dây từ vườn bên cạnh mọc xuyên trận ngủ, hút khí khiến ngươi tỉnh mệt. Nhổ rễ và dưỡng lại thân thể tốn phần vật tư đã dành bế quan.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "灵藤穿过眠阵",
+        "text": "邻园灵藤穿过安眠阵，吸走气息，令你醒来疲惫。拔根并调养身体，耗掉原留给闭关的材料。"
+      },
+      "en": {
+        "title": "Spirit vines through the sleeping ward",
+        "text": "Spirit vines from a nearby garden pierce your sleeping ward and drain energy. Removing roots and recovering consumes supplies that you had reserved for seclusion."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_038",
+    "category": "disaster",
+    "title": "Cửa trận đòi tiền hai lần",
+    "text": "Cửa trận công cộng thu phí nhưng không mở vì người giữ đặt sai dấu. Ngươi bị dội lực khi thử lại, rồi phải mua thuốc và tìm đường vòng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "收费两次的阵门",
+        "text": "公用阵门收了钱，却因守门人设错印记不开。再次尝试时你遭反冲，只得买药并另找绕路。"
+      },
+      "en": {
+        "title": "The ward gate charging twice",
+        "text": "A public ward gate takes payment but stays closed through a keeper’s mistake. Trying again causes a backlash, requiring medicine and a detour around the entrance."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_048",
+    "category": "disaster",
+    "title": "Kho chung thất lạc thẻ nhận",
+    "text": "Kho chung làm mất sổ thẻ nhận khiến vật tư của ngươi bị giữ lại. Chờ đối chiếu kéo dài, ngươi phải mua thêm để không gián đoạn việc dưỡng thân.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "共仓丢了领牌",
+        "text": "共仓丢了领牌账册，扣住你的材料不放。核对迟迟未完，你只得另买一份，免得调养中断。"
+      },
+      "en": {
+        "title": "Lost claim tokens at the shared storehouse",
+        "text": "A shared storehouse loses its claim register and withholds your supplies. Lengthy verification forces you to buy replacements rather than interrupt the care of your body."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_049",
+    "category": "disaster",
+    "title": "Lửa lò bên cạnh tràn trận",
+    "text": "Lửa từ lò bên cạnh tràn trận khi người vận hành ngủ quên. Ngươi chặn kịp khỏi nhà ở, nhưng tay bỏng và vài pháp khí giữ lửa hỏng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "邻炉火越阵",
+        "text": "邻炉操作者睡着，炉火冲过阵界。你及时挡住，不让火进住屋，却烫伤双手并毁了几件控火法器。"
+      },
+      "en": {
+        "title": "A neighboring furnace crosses the ward",
+        "text": "A sleeping operator lets furnace fire cross its wards. You stop it reaching homes, but burn your hands and damage several tools used to contain the flames."
+      }
+    }
+  },
+  {
+    "id": "early_realms_echoes_050",
+    "category": "disaster",
+    "title": "Dược thư bị thay một dòng",
+    "text": "Một dòng trong dược thư thuê bị người trước sửa để giấu bí quyết. Ngươi nhận ra khi mẻ thử đổi màu lạ, mất vật liệu và tiền kiểm lại sách.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "药书被改一行",
+        "text": "租来的药书被前客改了一行，想藏住秘方。试料颜色异常时你才察觉，损失材料，还花钱重新校书。"
+      },
+      "en": {
+        "title": "One altered line in the herbal book",
+        "text": "A previous borrower changes one line in a rented herbal manual to hide a secret. Strange colors during testing reveal it, costing ingredients and paid verification of the text."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_014",
+    "category": "disaster",
+    "title": "Người thu phí đổi lời hứa",
+    "text": "Người thu phí hứa xe ngươi qua ngay rồi đòi thêm vì trời tối. Mất tiền chờ và cơm dọc đường, ngươi tới chợ khi khách đã tan.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "收费者改口",
+        "text": "收费人承诺让车立刻过路，天黑后却又加钱。等候与饭食花掉钱，你抵市时客人已散了。"
+      },
+      "en": {
+        "title": "The toll collector changes his promise",
+        "text": "A collector promises immediate passage, then charges more after dusk. Waiting and roadside meals cost money, and you reach the market after its customers leave."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_015",
+    "category": "disaster",
+    "title": "Thùng dầu lăn xuống dốc",
+    "text": "Thùng dầu trên xe người khác tuột dây, lăn trúng gánh hàng của ngươi. Ngươi bị bầm chân, mất bánh mang bán mà chưa đòi được bồi thường.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "油桶滚下坡",
+        "text": "别人车上的油桶脱绳滚下坡，撞坏你的货担。腿被撞青，待卖糕点损失了，赔偿却还未拿到。"
+      },
+      "en": {
+        "title": "The oil barrel rolls downhill",
+        "text": "An oil barrel slips from another cart and strikes your goods downhill. Your leg is bruised and cakes are lost, with compensation still nowhere in sight."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_016",
+    "category": "disaster",
+    "title": "Sổ công bị nước làm nhòe",
+    "text": "Sổ ghi công bị người quản để dưới mái dột khiến ngày làm của ngươi nhòe mất. Chưa tìm đủ người chứng, ngươi phải dùng phần dành dụm mua cơm.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "工账被水洇花",
+        "text": "管事把工账留在漏雨屋檐下，你的工作记录被洇掉。找到足够见证人之前，只能用积蓄买饭。"
+      },
+      "en": {
+        "title": "The soaked wage ledger",
+        "text": "A manager leaves the wage ledger beneath a leaking roof, erasing your work record. Until witnesses can confirm it, you must spend savings on meals."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_017",
+    "category": "disaster",
+    "title": "Thuyền chở đồ bị giữ cọc",
+    "text": "Thuyền chở đồ của ngươi bị giữ làm cọc cho khoản nợ chủ thuyền. Hàng tới muộn hỏng một phần, ngươi mất vốn dù chẳng vay tiền của ai.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "货船被扣押",
+        "text": "货船因船主欠债被扣作抵押。你的货迟到并坏了一部分，明明没借钱，却也损失了本钱。"
+      },
+      "en": {
+        "title": "The cargo boat held as security",
+        "text": "The boat carrying your goods is seized for its owner’s debt. Delayed cargo partly spoils, costing your capital although you never borrowed money from anyone."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_031",
+    "category": "disaster",
+    "title": "Dấu phù bị người sửa giá",
+    "text": "Người giữ quầy sửa giá phù ngươi gửi bán rồi nói hàng chưa ai mua. Tìm được khách làm chứng mất nhiều ngày, phần tiền tu luyện đã hao bớt.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "符价被人改过",
+        "text": "寄卖摊主改了你的符价，却说还没有卖出。找买家作证耗了多日，你的修炼钱也少了一些。"
+      },
+      "en": {
+        "title": "The altered talisman price",
+        "text": "A consignment keeper alters your talisman prices and denies sales. Finding buyers to testify takes days, consuming part of the money reserved for your cultivation."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_032",
+    "category": "disaster",
+    "title": "Khói linh than tràn chỗ ngủ",
+    "text": "Khói linh than từ phòng bên lọt vào chỗ ngủ khiến ngươi đau đầu. Đổi chỗ trọ và dùng thuốc tốn hơn dự tính, buổi mua sách phải lùi lại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "灵炭烟入卧处",
+        "text": "隔房灵炭烟进入卧处，让你头痛。换客栈和买药比预计更贵，购书的安排也只得延期。"
+      },
+      "en": {
+        "title": "Spirit charcoal smoke enters the bedroom",
+        "text": "Spirit charcoal smoke from another room gives you headaches while sleeping. New lodging and medicine cost more than expected, postponing your plan to buy books."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_033",
+    "category": "disaster",
+    "title": "Linh thú làm đứt dây hàng",
+    "text": "Linh thú của khách lạ giật dây chở hàng khiến pháp khí ngươi rơi xuống đá. Người chủ kéo nó đi mất, ngươi tự trả tiền sửa phần nứt.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "灵兽扯断货绳",
+        "text": "陌生客人的灵兽扯断货绳，让你的法器摔上石头。主人牵兽离开不见，你只得自付修补裂缝的钱。"
+      },
+      "en": {
+        "title": "A spirit beast snaps the cargo rope",
+        "text": "A stranger’s spirit beast snaps your cargo rope, dropping a tool onto stone. Its owner disappears with the animal, leaving you to pay for repairs yourself."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_034",
+    "category": "disaster",
+    "title": "Đồ thuốc thuê bị rửa sai",
+    "text": "Đồ nghiền thuốc thuê còn chất tẩy từ lần rửa sai, làm mẻ của ngươi đổi mùi. Ngươi bỏ phần đã thử, mất tiền nguyên liệu trước khi tranh được trách nhiệm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "租药具被错洗",
+        "text": "租来的药碾残留错误清洗的药剂，让配料变了气味。你丢掉试品，责任未分清前已赔掉材料钱。"
+      },
+      "en": {
+        "title": "Rented medicine tools washed incorrectly",
+        "text": "A rented grinder retains chemicals from incorrect washing and changes your medicine’s smell. Discarding the trial batch costs ingredients before anyone settles responsibility for the mistake."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_047",
+    "category": "disaster",
+    "title": "Trận gió xưởng bên thổi độc",
+    "text": "Trận gió xưởng bên đổi hướng, đưa bụi luyện kim vào phòng ngươi. Ngươi ho và phải chuyển đồ, mất thuốc cùng vật tư che nơi ở mới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "邻坊风阵送毒",
+        "text": "邻坊风阵改向，把炼金属的粉尘吹进你房里。你咳嗽着搬家，耗掉药物和遮护新住处的材料。"
+      },
+      "en": {
+        "title": "A neighboring workshop’s poisonous wind",
+        "text": "A neighboring workshop redirects its wind wards and blows metal dust into your room. Coughing forces relocation, consuming medicine and supplies to protect your new lodging."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_048",
+    "category": "disaster",
+    "title": "Thẻ thuê linh địa bị giả dấu",
+    "text": "Thẻ thuê linh địa có dấu giả khiến người giữ thật mời ngươi rời đi. Ngươi mất tiền đặt trước, phải mua thêm vật tư cho lần bế quan bị ngắt.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "租灵地的假印",
+        "text": "租灵地的牌子印记造假，真正守地人请你离开。你损失预付款，还要为中断的闭关另买材料。"
+      },
+      "en": {
+        "title": "A forged seal on rented spirit land",
+        "text": "A rental token for spirit land carries a forged seal and its real keeper asks you to leave. Losing the advance costs supplies for your interrupted seclusion."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_049",
+    "category": "disaster",
+    "title": "Linh dây kéo lệch đường trận",
+    "text": "Linh dây luồn dưới nền kéo lệch đường trận trong lúc ngươi hành công. Phản lực làm vai đau, ngươi phải thay vật liệu và kiểm lại từng nút đã đặt.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "灵藤拉偏阵路",
+        "text": "灵藤钻进地基，行功时拉偏阵路。反力震痛肩膀，你只得换材料并逐个复查已经布好的节点。"
+      },
+      "en": {
+        "title": "Spirit vines shift array lines",
+        "text": "Spirit vines beneath the floor shift your array during practice. Backlash hurts your shoulder, requiring new materials and another inspection of every node already in place."
+      }
+    }
+  },
+  {
+    "id": "before_core_lanterns_050",
+    "category": "disaster",
+    "title": "Khách đổi lời sau khi dựng trận",
+    "text": "Khách thuê ngươi dựng trận đổi lời về tiền công khi việc đã xong. Tháo phần của mình về tốn sức và vật tư, ngươi ghi lại thỏa thuận cho lần sau.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "布阵后反悔的客人",
+        "text": "阵法完成后，雇主改口拒付原定工钱。拆回自己的部分耗费力气和材料，你决定以后留下书面约定。"
+      },
+      "en": {
+        "title": "The client changes terms after construction",
+        "text": "A client changes agreed payment after your array is finished. Dismantling your own portion costs effort and supplies, prompting you to record future agreements in writing."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_014",
+    "category": "disaster",
+    "title": "Áo thuê bị chủ đòi sớm",
+    "text": "Ngươi thuê áo ấm theo tháng nhưng chủ đòi lại giữa đợt rét để bán. Tìm áo khác tốn thêm tiền, công việc ngoài trời cũng phải hoãn vài ngày.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "租衣被提前收回",
+        "text": "你按月租暖衣，主人却在寒潮中收回去卖。另找衣服花了更多钱，户外差事也只能耽搁几日。"
+      },
+      "en": {
+        "title": "Borrowed clothes reclaimed early",
+        "text": "An owner reclaims your monthly rented coat during a cold spell to sell it. Replacing it costs extra money and delays outdoor work for several days."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_015",
+    "category": "disaster",
+    "title": "Sụt bờ nơi gánh nước",
+    "text": "Bờ đất sụt khi ngươi gánh nước về, làm cổ chân đau và vỡ thùng. Người thu tiền bến vẫn đòi đủ phí, ngươi phải mua thuốc từ khoản dành dụm.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "挑水处塌岸",
+        "text": "挑水回去时土岸塌下，扭伤脚踝并摔破水桶。渡口收费人仍要全费，你只得用积蓄买药。"
+      },
+      "en": {
+        "title": "The bank collapses while fetching water",
+        "text": "A riverbank collapses while you fetch water, hurting your ankle and breaking a bucket. The landing collector still demands full payment, forcing medicine purchases from savings."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_016",
+    "category": "disaster",
+    "title": "Gạo bị niêm vì nợ người khác",
+    "text": "Kho niêm gạo ngươi gửi vì nhầm tên với người mắc nợ. Trong lúc chờ xác minh, ngươi phải mua cơm ngoài, phần vốn cho mùa tới hao dần.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "替人欠债的封粮",
+        "text": "粮仓因你与欠债人同名而封了存米。等待核实时只能外买饭食，留给下季的本钱逐渐消耗。"
+      },
+      "en": {
+        "title": "Rice sealed for another’s debt",
+        "text": "A storehouse seals your rice after confusing your name with a debtor’s. Buying meals during verification steadily consumes capital that you had reserved for next season."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_017",
+    "category": "disaster",
+    "title": "Xe đò bỏ khách giữa đường",
+    "text": "Người lái xe nhận tiền rồi bỏ khách ở trạm hoang vì tìm được chuyến giá cao. Ngươi góp thuê xe khác, đến nơi khi việc làm đã giao người khác.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "车夫半途弃客",
+        "text": "车夫收钱后为更高价差事把客人丢在荒站。你合付另车费用，到地方时工作已交给别人。"
+      },
+      "en": {
+        "title": "The driver abandons passengers",
+        "text": "A driver abandons paid passengers for a better fare at a deserted station. Sharing replacement transport costs brings you to work after someone else has taken it."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_030",
+    "category": "disaster",
+    "title": "Linh thạch rỗng dưới lớp vỏ",
+    "text": "Linh thạch đổi ở quầy lạ chỉ còn lớp vỏ, khiến thuật ngươi thử tắt ngang. Người bán mất dấu, ngươi hao tiền mua lại phần cần cho buổi luyện.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "空壳灵石",
+        "text": "陌生摊换来的灵石只剩外壳，试术途中突然断力。卖家不见，你只得花钱重买练习所需。"
+      },
+      "en": {
+        "title": "Spirit stones empty beneath the shell",
+        "text": "Stones from an unfamiliar stall hold only an outer shell, interrupting your spell. The seller disappears, forcing you to pay again for supplies needed for practice."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_031",
+    "category": "disaster",
+    "title": "Linh mực bắn khỏi lọ nứt",
+    "text": "Lọ mực linh thuê có vết nứt giấu dưới dây, vỡ khi ngươi vận khí. Mực nóng làm tay đau, giấy phù và khoản đặt cọc đều mất.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "裂瓶溅灵墨",
+        "text": "租来的灵墨瓶裂纹藏在绳下，运气时突然碎裂。热墨灼痛手掌，符纸和押金也一同损失。"
+      },
+      "en": {
+        "title": "Spirit ink from a cracked bottle",
+        "text": "A rented ink bottle hides a crack beneath its binding and breaks during practice. Hot ink hurts your hand, costing talisman paper and the deposit together."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_032",
+    "category": "disaster",
+    "title": "Quán trọ ngắt trận giữa rét",
+    "text": "Chủ trọ ngắt trận giữ ấm giữa rét để ép khách mua phí mới. Ngươi chuyển đồ đi, tiền thuốc chống cảm và chỗ nghỉ khác hao phần dành luyện thuật.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "寒夜客栈停阵",
+        "text": "掌柜在寒夜停暖阵，逼客人另付费用。你搬走后，防寒药与新住处又花掉原留给练术的钱。"
+      },
+      "en": {
+        "title": "The inn shuts its ward in the cold",
+        "text": "An innkeeper stops warmth wards during cold weather to demand extra fees. Moving costs medicine against illness and new lodging, consuming money set aside for spell practice."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_033",
+    "category": "disaster",
+    "title": "Người nhận hàng đổi địa chỉ",
+    "text": "Người nhận hàng đổi địa chỉ trên phù mà không báo ngươi, rồi phạt giao muộn. Tìm đủ bản ghi mất vài ngày, ngươi phải dùng tiền mình mua cơm chờ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "收货人改了地址",
+        "text": "收货人改传讯符地址却没告诉你，又罚迟送。寻找完整记录耗了多日，你得用自己的钱买饭等待。"
+      },
+      "en": {
+        "title": "A recipient changes the address",
+        "text": "A recipient changes the message address without telling you and fines late delivery. Finding the records takes days, during which you buy waiting meals yourself."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_040",
+    "category": "disaster",
+    "title": "Phiếu cơm mất giá sau hội",
+    "text": "Phiếu cơm trả thay tiền công bị chủ hội tuyên bố hết hạn ngay hôm sau. Ngươi phải mua bữa khác bằng tiền dành dụm, lời phản đối chẳng được nghe.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "散会后作废的饭票",
+        "text": "庙会以饭票抵工钱，第二天却宣布过期。你只得花积蓄另买饭食，抗议也无人理会。"
+      },
+      "en": {
+        "title": "Meal tokens void after the fair",
+        "text": "A fair pays wages in meal tokens, then declares them expired the next day. Buying food from savings becomes necessary while nobody listens to your objection."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_041",
+    "category": "disaster",
+    "title": "Dằm tre trong gánh thuê",
+    "text": "Gánh tre thuê nứt ngầm, dằm đâm tay khi ngươi nâng hàng qua bậc đá. Thuốc và tiền thay gánh lấy mất phần công, buổi tối còn phải băng lại.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "租担里的竹刺",
+        "text": "租来的竹担暗裂，抬货上石阶时刺伤手。药钱和换担费花掉工钱，夜里还得重新包扎。"
+      },
+      "en": {
+        "title": "A splinter in a rented carrying pole",
+        "text": "A rented pole hides a split and splinters your hand on stone steps. Medicine and replacement costs consume your wages, with another bandage needed that evening."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_049",
+    "category": "disaster",
+    "title": "Khói phù từ lò giấy lậu",
+    "text": "Lò giấy phù lậu đốt phế liệu gần chỗ ngươi luyện, khói làm mắt cay và ho. Chuyển nơi ở cùng mua thuốc hao hết phần tiền dành cho bút mới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "私纸炉的符烟",
+        "text": "私符纸炉在练功处附近焚废料，烟熏得你眼痛咳嗽。搬家与买药耗尽了买新笔的积蓄。"
+      },
+      "en": {
+        "title": "Talisman smoke from an illicit paper kiln",
+        "text": "An illicit paper kiln burns scraps near your practice room, stinging eyes and causing coughs. Relocation and medicine use the savings intended for a new brush."
+      }
+    }
+  },
+  {
+    "id": "below_foundation_riverroads_050",
+    "category": "disaster",
+    "title": "Túi thuốc giao nhầm bến",
+    "text": "Người chở thuê giao túi thuốc của ngươi nhầm bến, quay lại thì hàng đã ngấm nước. Ngươi bỏ phần hỏng, mua bù bằng tiền công vừa lĩnh.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "送错渡口的药袋",
+        "text": "雇来的船工把药袋送错渡口，找回时已浸水。你丢掉坏药，用刚领的工钱补买了一份。"
+      },
+      "en": {
+        "title": "Medicine delivered to the wrong ferry",
+        "text": "A hired carrier leaves your medicine at the wrong ferry and water spoils it. Discarding damaged herbs forces replacement using wages that you have only just received."
+      }
+    }
   }
 ]
