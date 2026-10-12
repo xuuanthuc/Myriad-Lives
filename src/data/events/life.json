@@ -2470,5 +2470,505 @@
     "maxOccurrencesPerLife": 1,
     "importance": "normal",
     "effects": {}
+  },
+  {
+    "id": "lower_realms_life_001",
+    "category": "life",
+    "title": "Bếp cháo đầu đông",
+    "text": "Ngươi phụ nhóm bếp cháo khi rét đầu mùa tràn về. Người bán củi chỉ cách giữ than qua đêm, đổi lại một bát nóng.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "初冬粥棚",
+        "text": "初冬寒潮来临，你帮忙照看粥棚。卖柴人教你如何让炭火过夜，只换一碗热粥。"
+      },
+      "en": {
+        "title": "The winter soup kitchen",
+        "text": "You tend a soup kitchen during the first winter chill. A wood seller teaches you to preserve embers overnight in exchange for a warm bowl."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_002",
+    "category": "life",
+    "title": "Đèn hội bên sông",
+    "text": "Trong hội đèn, ngươi giúp đứa trẻ tìm lại bà giữa đám đông. Bà tặng túi bánh, kể chuyện người tu hành từng cứu bến sông.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "河畔灯会",
+        "text": "灯会上，你帮迷路的孩子找到祖母。老人送你一袋糕点，讲起修士曾救下渡口的往事。"
+      },
+      "en": {
+        "title": "Lanterns by the river",
+        "text": "At the lantern festival, you reunite a lost child with her grandmother. She offers cakes and tells of a cultivator who once saved the ferry."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_003",
+    "category": "life",
+    "title": "Sổ nợ của thợ rèn",
+    "text": "Thợ rèn nhờ ngươi đọc sổ nợ bị lem nước. Ngươi đối chiếu từng dấu than, giúp ông tránh đòi nhầm tiền một nhà nghèo.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "铁匠的账本",
+        "text": "铁匠请你辨认被水浸花的账本。你逐一核对炭笔记号，免得他向穷苦人家错讨工钱。"
+      },
+      "en": {
+        "title": "The smith’s ledger",
+        "text": "A smith asks you to decipher his soaked ledger. You compare charcoal marks carefully, preventing him from mistakenly collecting payment from an impoverished family."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_004",
+    "category": "life",
+    "title": "Gánh hát trú mưa",
+    "text": "Gánh hát trú dưới mái đình nơi ngươi nghỉ chân. Ngươi vá phông rách, nghe người kép già kể những làng đã mất vì chiến loạn.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "避雨戏班",
+        "text": "戏班在你歇脚的祠堂避雨。你替他们缝补破幕，听老戏子讲述那些毁于战乱的村庄。"
+      },
+      "en": {
+        "title": "Players sheltering from rain",
+        "text": "A traveling troupe shelters beneath the shrine roof beside you. While mending their backdrop, you hear an aging actor describe villages lost to war."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_011",
+    "category": "life",
+    "title": "Chợ phù giấy vụn",
+    "text": "Ngươi gom giấy phù hỏng ở cuối phiên chợ. Một người bán chỉ cách phân biệt mực cũ, giúp ngươi tránh mua nhầm hàng tái chế.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "碎符纸市",
+        "text": "你在散市后收集废符纸。摊主教你辨别陈旧符墨，让你下次不再误买翻新的劣货。"
+      },
+      "en": {
+        "title": "The scrap talisman market",
+        "text": "You collect discarded talisman paper after market closes. A vendor shows you how to recognize old ink, helping you avoid refurbished scraps sold as new."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_012",
+    "category": "life",
+    "title": "Nhà trọ cấm pháp thuật",
+    "text": "Chủ trọ yêu cầu khách không dùng pháp thuật trong phòng. Ngươi nhóm lửa bằng củi, nghe các tán tu bàn chuyện giá linh gạo.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "禁术客栈",
+        "text": "客栈掌柜不许客人在房内施法。你用柴火做饭，听散修们讨论灵米涨价与生计。"
+      },
+      "en": {
+        "title": "The inn that forbids spells",
+        "text": "The innkeeper forbids spells inside the rooms. You cook over a wood fire while wandering cultivators discuss rising spirit rice prices and their livelihoods."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_013",
+    "category": "life",
+    "title": "Lá thư gửi về quê",
+    "text": "Ngươi nhờ đoàn xe mang thư về quê sau chuyến tu hành. Viết đến chuyện ăn ở, ngươi nhận ra mình vẫn nhớ bếp nhà.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "寄回故乡的信",
+        "text": "你托车队捎信回乡。写到修行途中的衣食住行时，才发觉自己仍惦念家中的灶火。"
+      },
+      "en": {
+        "title": "A letter home",
+        "text": "You send a letter home with a caravan after traveling to cultivate. Describing your meals and lodging, you realize how much you miss the family hearth."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_014",
+    "category": "life",
+    "title": "Giặt áo bên khe",
+    "text": "Ngươi gặp vài tán tu giặt áo bên khe, ai cũng giấu mảnh vá. Chuyện trò về đường núi khiến buổi nghỉ bớt cô quạnh.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "溪边洗衣",
+        "text": "你在溪边遇见几名洗衣的散修，人人都遮着衣上补丁。聊起山路见闻，歇息时也少了孤寂。"
+      },
+      "en": {
+        "title": "Laundry beside the stream",
+        "text": "You meet wandering cultivators washing patched robes beside a stream. Exchanging stories about mountain trails makes an otherwise lonely rest feel unexpectedly companionable."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_021",
+    "category": "life",
+    "title": "Sửa cầu cho khách hành hương",
+    "text": "Ngươi sửa cầu gỗ trên đường hành hương bằng linh lực vừa đủ. Người qua cầu để lại cơm nắm, chẳng ai hỏi tên hay cảnh giới.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "为香客修桥",
+        "text": "你以适量灵力修好香道上的木桥。过桥的人留下饭团，却没有谁问你的姓名或境界。"
+      },
+      "en": {
+        "title": "Repairing a pilgrim bridge",
+        "text": "You repair a wooden bridge on a pilgrim road with measured energy. Travelers leave rice balls in thanks, asking neither your name nor cultivation realm."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_022",
+    "category": "life",
+    "title": "Một bữa cơm không linh vị",
+    "text": "Trong quán ven đường, ngươi ăn rau thường cùng người giữ ngựa. Ông kể mùa màng thất bát, khiến chuyện tranh linh thạch bỗng xa xôi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "无灵食的晚饭",
+        "text": "路边饭馆里，你与马夫同吃寻常青菜。他谈起歉收的庄稼，争夺灵石的烦恼忽然显得遥远。"
+      },
+      "en": {
+        "title": "A meal without spiritual ingredients",
+        "text": "At a roadside tavern, you share ordinary vegetables with a horse keeper. His stories of failed harvests make your disputes over spirit stones seem distant."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_023",
+    "category": "life",
+    "title": "Đổi tên trên bia mộ",
+    "text": "Ngươi phát hiện bia mộ bên đường khắc sai tên người mất. Theo lời gia đình, ngươi sửa từng nét, nhận một lời cảm tạ nghẹn ngào.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "改刻墓碑",
+        "text": "你发现路旁墓碑刻错了逝者姓名。按家人的说明改好笔画后，只收下一声哽咽的道谢。"
+      },
+      "en": {
+        "title": "Correcting a gravestone",
+        "text": "You discover a misspelled name on a roadside gravestone. Following the family’s instructions, you correct each stroke and receive their tearful thanks in return."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_024",
+    "category": "life",
+    "title": "Bản đồ có quán trà",
+    "text": "Một lữ khách đổi bản đồ lấy chỗ ngồi cạnh lửa. Ngoài linh mạch, ông đánh dấu quán trà, nhắc rằng đường tu cũng cần nghỉ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "标着茶铺的地图",
+        "text": "旅人用地图换取炉边座位。除灵脉外，他还标出茶铺，提醒你修行路上也要歇息。"
+      },
+      "en": {
+        "title": "A map marked with tea houses",
+        "text": "A traveler trades a map for a seat beside your fire. Alongside spiritual veins, he marks tea houses, reminding you that cultivation also requires rest."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_031",
+    "category": "life",
+    "title": "Tiếng chuông gọi chợ",
+    "text": "Ngươi được nhờ đánh chuông mở chợ vì người gác bị ốm. Thu pháp lực cho âm thanh vừa đủ khiến người bán hàng thở phào.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "开市钟声",
+        "text": "守钟人病了，市集请你敲响开市钟。你收敛法力，钟声不震坏货物，摊贩们都松了口气。"
+      },
+      "en": {
+        "title": "The market opening bell",
+        "text": "With the bell keeper ill, you open the market by ringing its bell. Carefully restrained power keeps the sound from damaging the vendors’ fragile goods."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_032",
+    "category": "life",
+    "title": "Người thợ khắc đã già",
+    "text": "Ngươi trở lại cửa hiệu từng làm vỏ kiếm cho mình. Người thợ đã già, vẫn nhận ra dấu xước cũ và mời ngươi uống trà.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "老去的雕刻师",
+        "text": "你重访曾替你做剑鞘的铺子。雕刻师已经年老，却仍认得旧划痕，邀你坐下喝茶。"
+      },
+      "en": {
+        "title": "The aging engraver",
+        "text": "You revisit the shop that once made your sword sheath. Its engraver has grown old, yet recognizes an old scratch and invites you for tea."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_033",
+    "category": "life",
+    "title": "Lối đi cho người phàm",
+    "text": "Phiên đấu giá dựng kết giới chắn đường làng khiến dân phải vòng xa. Ngươi thương lượng mở lối nhỏ, nhận vài giỏ quả thay lời cảm ơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "凡人的通路",
+        "text": "拍卖会的结界挡住村路，百姓只能绕远。你协商开出一条通道，获赠几篮果子作为谢礼。"
+      },
+      "en": {
+        "title": "A path for ordinary travelers",
+        "text": "An auction barrier blocks a village road and forces long detours. You negotiate a narrow passage, earning baskets of fruit from the grateful residents."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_034",
+    "category": "life",
+    "title": "Bộ cờ thiếu quân",
+    "text": "Trong đình vắng, ngươi chơi cờ bằng hạt quả với một lão khách. Ông chẳng hỏi tuổi thọ, chỉ tiếc con đường quê nay đổi dòng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "缺子的棋盘",
+        "text": "空亭里，你与老客用果核代替棋子。他不问你的寿元，只惋惜故乡道路因河流改道而消失。"
+      },
+      "en": {
+        "title": "The incomplete chess set",
+        "text": "In an empty pavilion, you play chess with fruit pits beside an elderly traveler. He ignores your lifespan, mourning a hometown road lost to shifting waters."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_041",
+    "category": "life",
+    "title": "Đêm giữ đèn bến nước",
+    "text": "Ngươi giữ đèn bến nước trong đêm người lái đò chịu tang. Những chuyến thuyền qua yên ổn, để lại tiếng cảm ơn lẫn trong sương.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "渡口守灯夜",
+        "text": "船夫守丧那夜，你替他看护渡口灯火。船只平安经过，雾里不断传来低低的道谢声。"
+      },
+      "en": {
+        "title": "Keeping the ferry light",
+        "text": "You tend the ferry light while its keeper mourns a relative. Boats cross safely through the night, leaving murmured thanks drifting among the river mist."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_042",
+    "category": "life",
+    "title": "Gia phả qua mấy đời",
+    "text": "Gia đình từng quen nhờ ngươi đọc gia phả mới chép. Những tên đã khuất khiến ngươi lặng lâu trước khi kể lại một chuyện cũ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "数代家谱",
+        "text": "旧识的后人请你读新抄家谱。那些逝去的名字令你沉默许久，才缓缓讲出一段往事。"
+      },
+      "en": {
+        "title": "A genealogy across generations",
+        "text": "Descendants of old acquaintances ask you to read their newly copied genealogy. Familiar names of the departed hold you silent before you recount an old story."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_043",
+    "category": "life",
+    "title": "Người kể chuyện nhầm mặt",
+    "text": "Người kể chuyện nhận nhầm ngươi thành nhân vật trong truyền thuyết. Ngươi sửa vài chi tiết rồi mua trà, để quán tiếp tục cười nói.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "认错人的说书客",
+        "text": "说书人把你认作传闻中的人物。你纠正几处细节，又买了一壶茶，让满堂笑谈继续下去。"
+      },
+      "en": {
+        "title": "The storyteller’s mistaken face",
+        "text": "A storyteller mistakes you for a figure from local legend. You correct a few details and order tea, letting conversation and laughter continue around you."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_044",
+    "category": "life",
+    "title": "Cây đa che lối cũ",
+    "text": "Ngươi tìm đường xưa nhưng rễ đa đã phủ kín bậc đá. Trẻ chăn trâu dẫn lối mới, đổi lại chuyện về ngôi chợ đã mất.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "遮住旧路的榕树",
+        "text": "你寻找旧路，却见榕根盖满石阶。牧童带你走新路，只想听一段关于消失集市的故事。"
+      },
+      "en": {
+        "title": "The banyan over the old path",
+        "text": "You seek an old path whose steps are buried beneath banyan roots. A herding child shows another route in exchange for tales of the vanished market."
+      }
+    }
   }
 ]

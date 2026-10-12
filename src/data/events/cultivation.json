@@ -1980,5 +1980,410 @@
     "effects": {
       "cultivation": 21
     }
+  },
+  {
+    "id": "lower_realms_life_005",
+    "category": "cultivation",
+    "title": "Hơi thở người kéo lưới",
+    "text": "Ngươi theo người đánh cá kéo lưới lúc rạng đông. Nhịp thở đều theo từng lần kéo giúp thân thể bớt mệt và sức lực bền hơn.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "渔人的呼吸",
+        "text": "你在黎明跟渔人拉网。随着每次发力调整呼吸，身体逐渐不再疲惫，耐力也有所增长。"
+      },
+      "en": {
+        "title": "The net hauler’s breathing",
+        "text": "You help a fisherman haul nets at dawn. Matching your breathing to each pull reduces fatigue and gradually builds endurance for the work ahead."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_006",
+    "category": "cultivation",
+    "title": "Đứng tấn trên sân đất",
+    "text": "Một hộ viện nghỉ hưu sửa tư thế đứng của ngươi. Sau nhiều buổi trên sân đất, đôi chân vững hơn khi gánh nước qua dốc.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "泥院练桩",
+        "text": "退隐的护院纠正你的站姿。在泥院练习多日后，你挑水上坡时双腿稳健了许多。"
+      },
+      "en": {
+        "title": "Stances in the clay yard",
+        "text": "A retired guard corrects your stance in a clay yard. After several mornings of practice, your legs feel steadier while carrying water uphill."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_007",
+    "category": "cultivation",
+    "title": "Chép sách thuốc cũ",
+    "text": "Ngươi chép sách thuốc để đổi chỗ ngủ trong hiệu. Những ghi chú về ăn nghỉ giúp ngươi chăm thân thể tốt hơn qua mùa bệnh.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "抄写旧药书",
+        "text": "你替药铺抄书换取住处。书中关于饮食作息的批注，让你在疫病季节更懂得照料身体。"
+      },
+      "en": {
+        "title": "Copying an old herbal book",
+        "text": "You copy an herbal book in exchange for lodging at a pharmacy. Notes about meals and rest help you care for yourself during sickness season."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_015",
+    "category": "cultivation",
+    "title": "Dẫn khí qua ngọn nến",
+    "text": "Ngươi đặt nến trước mặt để luyện dẫn khí thật chậm. Khi ngọn lửa thôi chao đảo, linh lực qua kinh mạch cũng bớt tán loạn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 16
+    },
+    "translations": {
+      "zh": {
+        "title": "烛前引气",
+        "text": "你在面前点烛，练习缓缓引气。火苗终于不再摇晃时，经脉中的灵力也少了散乱。"
+      },
+      "en": {
+        "title": "Breathing before a candle",
+        "text": "You practice drawing energy slowly before a candle. As the flame stops trembling, the spiritual energy moving through your meridians becomes noticeably less scattered."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_016",
+    "category": "cultivation",
+    "title": "Nhận biết linh khí đục",
+    "text": "Sau trận mưa, ngươi so sánh linh khí ở rừng và bãi bùn. Học cách lọc phần đục giúp những buổi thổ nạp nhẹ nhàng hơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 16
+    },
+    "translations": {
+      "zh": {
+        "title": "辨认浊灵气",
+        "text": "雨后，你比较林间与泥滩的灵气。学会滤去浊气后，日常吐纳变得舒畅了许多。"
+      },
+      "en": {
+        "title": "Recognizing cloudy energy",
+        "text": "After rain, you compare energy in the forest and muddy flats. Learning to filter the cloudy portion makes your daily breathing exercises considerably easier."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_017",
+    "category": "cultivation",
+    "title": "Khâu lại túi chứa vật",
+    "text": "Túi chứa vật rò linh lực khiến ngươi phải dò từng đường chỉ. Việc sửa nút thắt dạy ngươi giữ lực đều khi vận pháp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 16
+    },
+    "translations": {
+      "zh": {
+        "title": "修补储物袋",
+        "text": "储物袋漏出灵力，你逐针检查缝线。修好结扣的过程，让你学会施法时维持均匀力道。"
+      },
+      "en": {
+        "title": "Mending a storage pouch",
+        "text": "Your storage pouch leaks energy, so you inspect every seam. Repairing its knotted threads teaches you to maintain a steadier flow while using spells."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_025",
+    "category": "cultivation",
+    "title": "Trận đá giữ hơi sương",
+    "text": "Ngươi xếp đá thành trận nhỏ để gom hơi sương lúc sáng. Điều chỉnh khoảng cách từng viên giúp ngươi hiểu cách linh lực nối các điểm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "聚露石阵",
+        "text": "你摆出小石阵，收拢清晨露气。逐一调整石块间距，让你理解灵力如何连接各个节点。"
+      },
+      "en": {
+        "title": "A stone array gathering dew",
+        "text": "You arrange stones into a small array to gather morning dew. Adjusting each gap teaches you how spiritual energy connects the array’s separate points."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_026",
+    "category": "cultivation",
+    "title": "Pháp lực qua sợi tơ",
+    "text": "Ngươi tập truyền pháp lực qua sợi tơ mà không làm đứt. Sau nhiều lần thất bại, dòng lực ổn định hơn khi thi triển thuật nhỏ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "灵力穿丝",
+        "text": "你练习把灵力送入细丝而不将它震断。屡次失败后，施展小术时的力量终于更稳定。"
+      },
+      "en": {
+        "title": "Energy through silk",
+        "text": "You practice sending energy through silk without snapping it. After repeated failures, your control improves and the power behind minor techniques becomes more stable."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_027",
+    "category": "cultivation",
+    "title": "Đo linh mạch bằng chén nước",
+    "text": "Ngươi đặt chén nước dọc sườn núi, quan sát gợn sóng từ linh mạch. Ghi lại những nhịp mạnh yếu giúp chọn chỗ ngồi tu thích hợp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "水碗测灵脉",
+        "text": "你沿山坡摆放水碗，观察灵脉引起的波纹。记下强弱节律后，找到一处更合适的修炼位置。"
+      },
+      "en": {
+        "title": "Measuring veins with water bowls",
+        "text": "You place water bowls along a hillside and observe ripples caused by spiritual veins. Recording their changing rhythms helps you choose a better cultivation spot."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_035",
+    "category": "cultivation",
+    "title": "Đan quang trên mặt hồ",
+    "text": "Ngươi quan sát đan quang phản chiếu trên mặt hồ yên. Những vòng sáng lệch giúp nhận ra chỗ vận lực quá mạnh và sửa dần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "湖面丹光",
+        "text": "你观察丹光在平静湖面的倒影。偏斜的光环显出运力过猛之处，让你得以逐步纠正。"
+      },
+      "en": {
+        "title": "Core light upon the lake",
+        "text": "You observe your core’s light reflected on a still lake. Uneven rings reveal where you apply excessive force, allowing gradual corrections to your practice."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_036",
+    "category": "cultivation",
+    "title": "Giữ lửa dưới bình đất",
+    "text": "Ngươi luyện giữ đan hỏa dưới bình đất mỏng, chỉ đủ hâm nước. Khi bình không nứt nữa, khả năng điều tiết pháp lực tiến bộ rõ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "陶罐下守火",
+        "text": "你用丹火给薄陶罐温水，火候仅够加热。陶罐终于不再开裂时，你调节法力的功夫明显进步。"
+      },
+      "en": {
+        "title": "Tending fire beneath clay",
+        "text": "You keep core fire beneath a thin clay pot, barely warming its water. Once the pot stops cracking, your ability to regulate power noticeably improves."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_037",
+    "category": "cultivation",
+    "title": "Nghe nhịp chuông trong sương",
+    "text": "Sương núi che khuất mọi lối khiến ngươi ngồi nghe chuông xa. Phân biệt tiếng vọng thật giả giúp thần thức tập trung hơn giữa nhiễu loạn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "雾中听钟",
+        "text": "山雾遮住道路，你静坐听远处钟声。分清回响与原声，让神识在纷乱中更加凝聚。"
+      },
+      "en": {
+        "title": "Listening to bells in mist",
+        "text": "Mountain mist hides every path, so you sit listening to distant bells. Distinguishing echoes from their source helps your awareness remain focused amid confusion."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_045",
+    "category": "cultivation",
+    "title": "Thu thần thức khỏi tiếng mưa",
+    "text": "Ngươi để thần thức chạm từng giọt mưa rồi chậm rãi thu về. Bài tập giúp giữ tâm trí liền mạch khi cảm nhận nhiều chuyển động.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "雨中收拢神识",
+        "text": "你让神识轻触每滴雨水，再缓缓收回。这番练习让你感知众多动静时仍能保持心念连贯。"
+      },
+      "en": {
+        "title": "Gathering awareness from rain",
+        "text": "You extend awareness to individual raindrops before slowly gathering it back. The exercise helps you keep a coherent mind while sensing many simultaneous movements."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_046",
+    "category": "cultivation",
+    "title": "Bóng anh nhi trong gương nước",
+    "text": "Ngươi dùng gương nước quan sát bóng Nguyên Anh lúc hành công. Nhận ra dao động nhỏ trong hơi thở giúp việc giữ thần ổn định hơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "水镜婴影",
+        "text": "你借水镜观察行功时的元婴虚影。察觉呼吸间的细微波动后，维持神魂稳定变得更容易。"
+      },
+      "en": {
+        "title": "The nascent reflection",
+        "text": "You watch your nascent soul’s reflection in a water mirror during practice. Discovering tiny fluctuations in your breathing helps you maintain a more stable spirit."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_047",
+    "category": "cultivation",
+    "title": "Tách tiếng đàn khỏi tiếng gió",
+    "text": "Ngươi nghe đàn giữa rừng gió để luyện phân chia cảm nhận. Khi từng tiếng dây rõ lại, thần thức bớt tản mạn lúc nhập định.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "琴风分声",
+        "text": "你在风林中听琴，练习区分不同感知。待每根琴弦的声音清晰起来，入定时神识也不再散乱。"
+      },
+      "en": {
+        "title": "Separating strings from wind",
+        "text": "You listen to music in a windy forest to distinguish overlapping sensations. As individual strings become clearer, your awareness grows less scattered during meditation."
+      }
+    }
   }
 ]

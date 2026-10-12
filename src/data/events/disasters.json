@@ -6653,5 +6653,145 @@
         "endingReason": "Tử trận trong cuộc tranh đoạt đế kiếm"
       }
     ]
+  },
+  {
+    "id": "lower_realms_life_010",
+    "category": "disaster",
+    "title": "Giếng cạn giữa mùa khô",
+    "text": "Giếng làng cạn khiến ngươi phải gánh nước từ khe xa. Một lần trượt đá làm vai bầm, số tiền dành dụm hao vì thuốc.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": -5,
+      "resources": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "旱季枯井",
+        "text": "村井干涸，你只能去远处溪谷挑水。一次踩滑石头摔伤肩膀，积攒的钱也花在了药上。"
+      },
+      "en": {
+        "title": "The dry village well",
+        "text": "The village well dries up, forcing you to fetch water from a distant ravine. Slipping on stone bruises your shoulder and costs precious medicine money."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_020",
+    "category": "disaster",
+    "title": "Mực phù bị pha loãng",
+    "text": "Mực phù rẻ khiến nét chú loang ngay khi ngươi thử. Lá bùa cháy xém tay, buộc ngươi mua thuốc và bỏ cả lọ mực.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "health": -5,
+      "resources": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "掺水符墨",
+        "text": "便宜符墨刚试画就洇散了。符纸烧伤你的手，你只得买药疗伤，并扔掉整瓶劣墨。"
+      },
+      "en": {
+        "title": "Watered talisman ink",
+        "text": "Cheap talisman ink spreads as soon as you test it. The resulting flare singes your hand, forcing you to buy medicine and discard the bottle."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_030",
+    "category": "disaster",
+    "title": "Mối ăn cọc trận",
+    "text": "Cọc gỗ giữ trận bị mối khoét rỗng mà ngươi không hay. Khi trận lệch, linh lực bật ngược làm ngực đau và hỏng vài vật liệu.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "health": -5,
+      "resources": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "蛀空阵桩",
+        "text": "维持阵法的木桩被白蚁蛀空，你却未察觉。阵势偏移时灵力反冲，震痛胸口并毁掉几份材料。"
+      },
+      "en": {
+        "title": "Termites in the array stakes",
+        "text": "Termites hollow out your wooden array stakes unnoticed. When the formation shifts, rebounding energy hurts your chest and ruins several of the materials inside."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_040",
+    "category": "disaster",
+    "title": "Muối kết trong đan thất",
+    "text": "Hơi nước mặn len vào đan thất khiến đường trận kết muối. Khi vận công, ngươi bị phản chấn nhẹ và phải thay cả nền dẫn lực.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "health": -5,
+      "resources": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "丹室盐晶",
+        "text": "盐雾渗入丹室，阵纹间结满盐晶。运功时你遭轻微反震，只得更换整片导力地基。"
+      },
+      "en": {
+        "title": "Salt inside the cultivation chamber",
+        "text": "Saltwater vapor enters your chamber and crystallizes along its inscriptions. Cultivating causes a minor backlash, forcing you to replace the entire energy conducting floor."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_050",
+    "category": "disaster",
+    "title": "Dư âm trong chuông nứt",
+    "text": "Ngươi kiểm tra chuông cổ nứt mà bỏ qua dư âm tích tụ. Tiếng vọng dội vào thần thức khiến đầu đau, buộc nghỉ và mua thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "health": -5,
+      "resources": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "裂钟余响",
+        "text": "你检查裂开的古钟，却忽略了积蓄的余响。回声冲击神识，引来头痛，只得休养并购买药物。"
+      },
+      "en": {
+        "title": "Echoes inside a cracked bell",
+        "text": "You inspect a cracked ancient bell without noticing its accumulated echoes. Their rebound strikes your awareness, causing headaches that require rest and purchased medicine."
+      }
+    }
   }
 ]

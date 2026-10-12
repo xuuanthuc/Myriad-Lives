@@ -7440,5 +7440,275 @@
         ]
       }
     ]
+  },
+  {
+    "id": "lower_realms_life_008",
+    "category": "opportunity",
+    "title": "Hạt giống sau phiên chợ",
+    "text": "Người bán giống bỏ quên túi đậu khi chợ tan. Ngươi tìm trả lại, được chia ít hạt và học cách trồng trên đất cằn.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "散集后的种子",
+        "text": "散集后，卖种人遗落一袋豆种。你追去归还，获赠少许种子，还学会了在贫土上种植。"
+      },
+      "en": {
+        "title": "Seeds after the market",
+        "text": "A seed seller leaves a bag behind after market closes. Returning it earns you some beans and advice for growing them in poor soil."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_009",
+    "category": "opportunity",
+    "title": "Viên đá chặn cửa",
+    "text": "Khi sửa cửa miếu, ngươi thấy viên đá chặn có vân lạ. Một khách buôn nhận ra quặng hữu dụng, trả tiền đủ mua áo mới.",
+    "weight": 6,
+    "minAge": 12,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "门下石块",
+        "text": "修缮庙门时，你发现门下石块纹路奇特。路过商人认出它是有用矿石，出钱让你添了新衣。"
+      },
+      "en": {
+        "title": "The doorstop stone",
+        "text": "While repairing a temple door, you notice unusual veins in its doorstop. A passing merchant buys the useful ore, paying enough for new clothing."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_018",
+    "category": "opportunity",
+    "title": "Linh gạo sót trong kho",
+    "text": "Ngươi giúp chủ kho đuổi chuột mà không làm cháy bao hàng. Ông trả công bằng linh gạo sót vụ trước, vẫn đủ dùng nhiều ngày.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 11
+    },
+    "translations": {
+      "zh": {
+        "title": "仓中余灵米",
+        "text": "你替仓主赶鼠，没有烧坏粮袋。他用上季剩下的灵米付工钱，足够你吃上好些天。"
+      },
+      "en": {
+        "title": "Spirit rice left in storage",
+        "text": "You drive mice from a warehouse without burning any sacks. Its owner pays with leftover spirit rice, providing enough food for several coming days."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_019",
+    "category": "opportunity",
+    "title": "Chuông đồng mất tiếng",
+    "text": "Một quầy đồ cũ bán chuông đồng không kêu. Ngươi gỡ lớp bụi trong trận văn, phục hồi món pháp khí nhỏ rồi bán lấy tiền.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 11
+    },
+    "translations": {
+      "zh": {
+        "title": "失声铜铃",
+        "text": "旧货摊卖着一只不响的铜铃。你清掉阵纹里的积尘，修复这件小法器后换得一些钱。"
+      },
+      "en": {
+        "title": "The silent bronze bell",
+        "text": "A secondhand stall sells a silent bronze bell. Clearing dust from its inscriptions restores the little magical tool, which you sell for some money."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_028",
+    "category": "opportunity",
+    "title": "Rễ cây dưới nền quán",
+    "text": "Khi giúp dời nền quán, ngươi tìm thấy rễ cây ngấm linh khí. Chủ quán cho ngươi giữ lại, đổi lấy việc san phẳng sân sau.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 14
+    },
+    "translations": {
+      "zh": {
+        "title": "店基下的树根",
+        "text": "帮店家迁移地基时，你发现吸收灵气的树根。掌柜让你留下它，只请你顺手平整后院。"
+      },
+      "en": {
+        "title": "Roots beneath the shop",
+        "text": "While helping relocate a shop foundation, you find roots steeped in spiritual energy. The owner lets you keep them in exchange for leveling his yard."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_029",
+    "category": "opportunity",
+    "title": "Ống tre của người đo đất",
+    "text": "Một người đo đất tặng ống tre ghi vị trí giếng cũ. Ngươi lần theo dấu, tìm được nước giàu khoáng dùng dưỡng một vườn thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 14
+    },
+    "translations": {
+      "zh": {
+        "title": "测地人的竹筒",
+        "text": "测地人送你一只竹筒，里面记着旧井位置。你循标记寻去，找到可滋养药圃的矿泉水。"
+      },
+      "en": {
+        "title": "The surveyor’s bamboo tube",
+        "text": "A surveyor gives you a bamboo tube recording an old well’s location. Following its marks reveals mineral water useful for nourishing a medicinal garden."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_038",
+    "category": "opportunity",
+    "title": "Mảnh lò bị bỏ quên",
+    "text": "Trong bãi phế liệu, ngươi tìm thấy mảnh lò còn giữ nhiệt đều. Người thu mua bán rẻ, đủ giúp ngươi sửa bộ dụng cụ luyện đan.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 17
+    },
+    "translations": {
+      "zh": {
+        "title": "遗弃的炉片",
+        "text": "废料场里，你找到仍能均匀导热的炉片。收废人低价卖给你，正好用来修补炼丹器具。"
+      },
+      "en": {
+        "title": "The discarded furnace fragment",
+        "text": "Among discarded metal, you find a furnace fragment that distributes heat evenly. A scrap dealer sells it cheaply, letting you repair your alchemy equipment."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_039",
+    "category": "opportunity",
+    "title": "Thù lao giữ mùa hoa",
+    "text": "Ngươi giúp vườn thuốc giữ nhiệt qua đêm sương muộn. Chủ vườn chia phần hoa thu hoạch, đủ đổi lấy vật tư cho lần bế quan.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 17
+    },
+    "translations": {
+      "zh": {
+        "title": "护花的报酬",
+        "text": "你替药圃在晚霜之夜维持温度。园主分给你一份花材，足以换来下次闭关所需的物资。"
+      },
+      "en": {
+        "title": "Payment for guarding blossoms",
+        "text": "You maintain warmth in a medicinal garden through a late frost. Its keeper shares harvested blossoms, enough to trade for supplies for your next seclusion."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_048",
+    "category": "opportunity",
+    "title": "Kho sách tránh lũ",
+    "text": "Ngươi chuyển kho sách lên cao trước khi nước lũ tới. Người giữ kho tặng bản ghi về dưỡng thần, còn nguyên những chú thích hữu ích.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "避洪藏书",
+        "text": "洪水到来前，你把藏书搬到高处。守库人赠你一册养神笔记，里面仍保留着有用的批注。"
+      },
+      "en": {
+        "title": "Books rescued from flooding",
+        "text": "You move a library’s books uphill before flooding arrives. Its keeper gives you notes on nourishing the spirit, with useful annotations still intact inside."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_life_049",
+    "category": "opportunity",
+    "title": "Ngọc vụn trong tượng cũ",
+    "text": "Khi dời tượng đá nứt khỏi miếu, ngươi tìm thấy ngọc dưỡng thần. Dân làng đồng ý đổi nó lấy công sửa mái và giếng nước.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "旧像玉屑",
+        "text": "迁走庙中裂开的石像时，你发现养神玉。村民同意用它换取修缮屋顶和水井的劳力。"
+      },
+      "en": {
+        "title": "Jade inside an old statue",
+        "text": "While moving a cracked temple statue, you discover spirit nourishing jade. The villagers trade it for your help repairing their roof and water well."
+      }
+    }
   }
 ]
