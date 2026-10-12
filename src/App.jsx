@@ -21,6 +21,7 @@ import CultivationGuide from './components/CultivationGuide.jsx';
 import LifeActivity from './components/LifeActivity.jsx';
 import ArrowIcon from './components/ArrowIcon.jsx';
 import useLifePlayback from './hooks/useLifePlayback.js';
+import useOnlineCultivators from './hooks/useOnlineCultivators.js';
 import {PLAYBACK_SPEEDS} from './engine/playback.js';
 function Mountains(){return <svg className="mountains" viewBox="0 0 1400 620" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="mist" x2="0" y2="1"><stop stopColor="#82988a" stopOpacity=".2"/><stop offset="1" stopColor="#e9ede4" stopOpacity=".1"/></linearGradient></defs><circle cx="1040" cy="130" r="68" fill="#c4ac76" opacity=".18"/><path d="M0 530 120 340 210 390 340 160 420 260 510 210 650 440 770 350 900 160 960 220 1050 70 1160 290 1260 230 1400 460V620H0Z" fill="url(#mist)"/><path d="m0 580 200-170 140 80 190-180 150 140 100-80 170 110 170-230 120 140 160-70v300H0Z" fill="#6e897b" opacity=".10"/><path d="m0 610 250-120 170 65 200-80 200 95 240-120 340 110v60H0Z" fill="#466857" opacity=".08"/><path d="m1035 510 8-125 6 125m-4-100-25-22m25 5 20-20" stroke="#526e5d" strokeWidth="3" opacity=".3"/></svg>}
 
@@ -46,6 +47,7 @@ export default function App() {
   const [birthPending,setBirthPending]=useState(restored?.birthPending||false);
   const {run,playing,progress,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
   const finished=run?.phase==='finished';
+  const onlineCount=useOnlineCultivators({active:page==='game'&&!!run&&!finished&&!birthPending,observe:page==='home'});
   const visibleHistory=historyWithCompletedLife(history,run);
   const saveState=useRef(null);
   saveState.current={engineRun,session,language,speed,paused,birthPending,history:visibleHistory};
@@ -110,7 +112,7 @@ export default function App() {
       </div>
     </header>
     <main>
-      {page==='history'?<HistoryPage history={visibleHistory} current={run?summarizeLife(run,finished?'finished':'active'):null} t={t} language={language}/>:page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
+      {page==='history'?<HistoryPage history={visibleHistory} current={run?summarizeLife(run,finished?'finished':'active'):null} t={t} language={language}/>:page==='home'?<HomePage onlineCount={onlineCount} t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
       <div className="cultivation-backdrop" aria-hidden="true"><img src={`${import.meta.env.BASE_URL}assets/images/cultivation-retreat.jpg`} width="1536" height="1024" alt="" decoding="async"/></div>
       {birthPending&&engineRun?<BirthReveal key={engineRun.number} run={engineRun} t={t} language={language} onEnter={()=>setBirthPending(false)}/>:<><section className={'hero '+(run?'compact':'')}>
         <div className="hero-content">

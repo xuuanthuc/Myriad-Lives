@@ -1,0 +1,10 @@
+{
+  "name": "myriad-lives-presence",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-12",
+  "durable_objects": {
+    "bindings": [{"name": "PRESENCE", "class_name": "CultivatorPresence"}]
+  },
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["CultivatorPresence"]}],
+  "vars": {"ALLOWED_ORIGINS": "https://myriad-lives.celestialpath.workers.dev"}
+}

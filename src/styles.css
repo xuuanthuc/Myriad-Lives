@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+.online-cultivators{display:flex;align-items:center;justify-content:center;gap:7px;font-size:11px;color:var(--muted);margin:16px 0 0}.online-cultivators strong{color:var(--green);font-weight:500}.online-cultivators i{width:6px;height:6px;background:var(--green);border-radius:50%}
 .birth-reveal{position:relative;max-width:700px;margin:auto;padding:55px 24px 70px;text-align:center;animation:birth-arrive .65s ease both}
 .birth-reveal h1{font:500 clamp(28px,5vw,44px)/1.4 'Noto Serif',serif;letter-spacing:0;color:var(--green);margin:16px 0}
 .birth-copy{font:13px/1.8 'Noto Serif',serif;color:var(--muted)}

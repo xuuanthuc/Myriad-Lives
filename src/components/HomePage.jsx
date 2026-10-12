@@ -1,7 +1,7 @@
 import ArrowIcon from './ArrowIcon.jsx';
 import {roots,physiques,realms} from '../data/realms.js';
 
-export default function HomePage({t,mountains,onOpenGuide}) {
+export default function HomePage({t,mountains,onOpenGuide,onlineCount}) {
   return <>
     <section className="hero">
       {mountains}
@@ -11,6 +11,7 @@ export default function HomePage({t,mountains,onOpenGuide}) {
         <p className="hero-copy">{t('Giữa vạn giới mênh mang, một sinh mệnh thức giấc.')}<br/>{t('Phàm nhân hay tiên nhân — số mệnh nào đang đợi ngươi?')}</p>
         <a className="primary home-cultivation-button" href="#/cultivation">{t('Tu tiên')}</a>
         <p className="hero-note">{t('Không có hai cuộc đời giống nhau.')}</p>
+        {onlineCount!==null&&onlineCount!==undefined&&<p className="online-cultivators"><i aria-hidden="true"/><strong>{onlineCount}</strong> {t('đạo hữu đang cùng tu luyện')}</p>}
       </div>
       <div className="vertical-poem">{t('NHẤT NIỆM KHỞI · VẠN KIẾP SINH')}</div>
     </section>
