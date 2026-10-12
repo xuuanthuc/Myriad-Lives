@@ -3488,5 +3488,526 @@
         "text": "A musician without spiritual roots plays until you have listened through dusk. Asked for his secret, he describes years of practice carried through hungry seasons."
       }
     }
+  },
+  {
+    "id": "lower_realms_mosaic_001",
+    "category": "life",
+    "title": "Lễ cầu mưa gặp nắng",
+    "text": "Ngươi phụ dựng đàn cầu mưa, nhưng trời chỉ thêm nắng. Thầy cúng tháo mũ đi đào mương, cả làng theo sau mà không ai trách ông.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "求雨遇晴",
+        "text": "你帮忙搭起求雨坛，天却越发晴朗。巫祝摘帽去挖水渠，全村跟上，没有谁再责怪他。"
+      },
+      "en": {
+        "title": "Sunshine at the rain ceremony",
+        "text": "You help build a rain altar, but sunshine only grows stronger. The ritual master removes his hat to dig channels, and villagers follow without blaming him."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_002",
+    "category": "life",
+    "title": "Người vá áo cho quan",
+    "text": "Người vá áo kể quan huyện từng mặc đồ rách như ngươi. Khi quan đi ngang không nhận ra ông, ngươi ngồi lại nghe nốt câu chuyện.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "替官员补衣的人",
+        "text": "补衣匠说县官从前也穿过破衣。官轿经过，却无人认出他，你便留下听完那段旧事。"
+      },
+      "en": {
+        "title": "The official’s mender",
+        "text": "A mender recalls when the magistrate wore rags like yours. The official passes without recognizing him, so you stay to hear the rest of his story."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_003",
+    "category": "life",
+    "title": "Búp bê mặc áo tiên",
+    "text": "Đứa trẻ cho búp bê mặc áo tiên bằng lá chuối, mời ngươi dự lễ phi thăng. Cả buổi chỉ có gió, tiếng cười và một cành cây.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "穿仙衣的木偶",
+        "text": "孩子用蕉叶给木偶做仙衣，请你来看飞升仪式。整场只有风声、笑声和一根被举起的树枝。"
+      },
+      "en": {
+        "title": "A doll dressed as an immortal",
+        "text": "A child dresses a doll in banana leaves and invites you to its ascension ceremony. The afternoon brings only wind, laughter and a lifted branch."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_004",
+    "category": "life",
+    "title": "Cô dâu giữ tên mình",
+    "text": "Trong lễ cưới, cô dâu yêu cầu giữ tên trên giấy đất do mẹ để lại. Ngươi giúp đọc giấy, thấy đôi bên im lặng rồi cùng gật đầu.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "保留姓名的新娘",
+        "text": "婚礼上，新娘坚持保留母亲留给她的地契姓名。你帮忙读出文书，两家沉默片刻，终于一同点头。"
+      },
+      "en": {
+        "title": "The bride keeping her name",
+        "text": "At her wedding, a bride asks to keep her name on inherited land papers. You read them aloud; both families pause, then agree together."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_011",
+    "category": "life",
+    "title": "Linh kê gáy sai giờ",
+    "text": "Con linh kê trong sân tông môn gáy giữa trưa, làm đệ tử tưởng chuông tập bị quên. Người nuôi thú nhận nó chỉ đòi thêm thức ăn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "乱报时的灵鸡",
+        "text": "宗门院里的灵鸡午时打鸣，弟子还以为漏敲了早课钟。饲养人坦白，它只是想多讨一份食料。"
+      },
+      "en": {
+        "title": "The spirit rooster’s wrong hour",
+        "text": "A sect rooster crows at noon, making disciples wonder whether morning practice was missed. Its keeper admits the bird merely wants another serving of feed."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_012",
+    "category": "life",
+    "title": "Người bán phù không tay",
+    "text": "Người bán phù dùng chân xếp hàng sau khi mất hai tay trong trận cũ. Ngươi giữ giấy giúp lúc gió nổi, nghe ông bàn giá như mọi người.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "无手符商",
+        "text": "符商在旧战中失去双手，如今用脚摆摊。风起时你帮他压住纸张，听他照常与人讨价还价。"
+      },
+      "en": {
+        "title": "The talisman seller without hands",
+        "text": "A talisman seller lost both hands in an old battle and arranges stock with his feet. You hold paper against the wind as he bargains normally."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_013",
+    "category": "life",
+    "title": "Đổi phần trực đêm",
+    "text": "Sư tỷ xin đổi phần trực vì muốn thăm cha bệnh, hứa không để ngươi thiệt. Đến sáng, phần cơm của ngươi có thêm trứng và tờ cảm ơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "交换夜值",
+        "text": "师姐为探望病父请求换夜值，说不会让你吃亏。天亮时，你的饭盒多了一枚鸡蛋和一张谢笺。"
+      },
+      "en": {
+        "title": "Trading the night watch",
+        "text": "A senior disciple swaps watches with you to visit her sick father. At dawn, your meal contains an extra egg and a note expressing her thanks."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_014",
+    "category": "life",
+    "title": "Chợ đêm của người hết vốn",
+    "text": "Chợ đêm cho tán tu đổi đồ không cần linh thạch. Ngươi thấy kiếm đổi lấy chăn, đan bình đổi thành nồi, chuyện cầu tiên xen chuyện ăn no.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "本钱耗尽者的夜市",
+        "text": "夜市允许散修以物易物，不必带灵石。你见长剑换成被子、丹瓶换成锅，求仙话语里总夹着生计。"
+      },
+      "en": {
+        "title": "A night market for the penniless",
+        "text": "A night market lets wandering cultivators barter without stones. Swords become blankets and pill bottles become pots, with dreams of immortality sharing space with hunger."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_021",
+    "category": "life",
+    "title": "Quán trọ dành cho người hồi hương",
+    "text": "Quán trọ giảm tiền cho người bỏ tu trở về quê. Ngươi nghe chủ quán nói từng cầu tiên, nay chỉ muốn ai cũng có đường quay lại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "归乡客栈",
+        "text": "客栈给放弃修行回乡的人减租。掌柜说自己也曾求仙，如今只希望每个人都有回去的路。"
+      },
+      "en": {
+        "title": "The inn for returning travelers",
+        "text": "An inn charges less for travelers abandoning cultivation to return home. Its owner once sought immortality too, and now wants everyone to have a way back."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_022",
+    "category": "life",
+    "title": "Bức chân dung đẹp quá thật",
+    "text": "Họa sĩ vẽ ngươi đẹp đến mức người quen không nhận ra. Ngươi xin thêm vết sẹo cũ, ông thở dài vì khách thường chỉ muốn xóa đi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "太好看的肖像",
+        "text": "画师把你画得太俊美，熟人都认不出来。你请他添回旧疤，他叹道客人通常只想把疤抹去。"
+      },
+      "en": {
+        "title": "The suspiciously flattering portrait",
+        "text": "A painter flatters you so much that acquaintances cannot recognize the portrait. You request your old scar, prompting a sigh about clients usually wanting scars removed."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_023",
+    "category": "life",
+    "title": "Lời xin lỗi trước cửa bếp",
+    "text": "Một đệ tử tông môn xin lỗi người nấu bếp vì chê cơm nguội. Ngươi thấy em tự rửa bát, còn người đầu bếp chỉ gật đầu rồi nhóm lửa.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "厨房门前的道歉",
+        "text": "宗门弟子为嫌饭冷向厨子道歉。你见他自己洗碗，厨子只点点头，又转身生起炉火。"
+      },
+      "en": {
+        "title": "An apology at the kitchen door",
+        "text": "A sect disciple apologizes for complaining about cold rice. You watch him wash his own bowl while the cook simply nods and lights the stove again."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_024",
+    "category": "life",
+    "title": "Đôi giày cho chuyến xa",
+    "text": "Đạo lữ đo chân ngươi để đặt đôi giày đi đường, dù ngươi đã biết ngự kiếm. Thử giày xong, hai người cùng dạo bộ qua chợ sớm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "远行的鞋",
+        "text": "道侣替你量脚订远行鞋，尽管你已经会御剑。试好鞋后，你们并肩走过清晨刚开的集市。"
+      },
+      "en": {
+        "title": "Shoes for a long journey",
+        "text": "Your partner measures your feet for traveling shoes despite your ability to fly by sword. After trying them on, you walk together through the morning market."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_031",
+    "category": "life",
+    "title": "Một tiếng gọi sai vai vế",
+    "text": "Trong tông môn, đệ tử gọi ngươi là sư tổ trước mặt người hướng dẫn. Người ấy bật cười, bảo cứ gọi đúng tên để khỏi nhầm cả buổi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "喊错了辈分",
+        "text": "宗门弟子当着教习的面叫你师祖。教习笑出声，说不如直接叫名字，免得整堂课都弄错辈分。"
+      },
+      "en": {
+        "title": "The wrong form of address",
+        "text": "A sect disciple calls you grandmaster in front of the instructor. The instructor laughs and suggests using names so nobody confuses ranks throughout the lesson."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_032",
+    "category": "life",
+    "title": "Người giữ bến nghỉ việc",
+    "text": "Người giữ bến từng nhớ lịch ngươi đi bế quan nay nghỉ việc. Ông giao sổ cho cháu, nhắc ghi người về chứ đừng chỉ đếm người đi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "渡口守人辞工",
+        "text": "记得你闭关行程的渡口守人辞工了。他把账册交给孙辈，叮嘱记下归来的人，别只数离去的人。"
+      },
+      "en": {
+        "title": "The ferry keeper retires",
+        "text": "The ferry keeper who remembered your seclusion journeys retires. Handing his ledger to a grandchild, he asks them to record returns as carefully as departures."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_033",
+    "category": "life",
+    "title": "Bữa giỗ của người chưa chết",
+    "text": "Ngươi trở về sau bế quan dài, gặp người quen đang cúng mình. Họ dẹp hương rồi thêm bát, bữa giỗ biến thành cuộc đoàn tụ vụng về.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "活人的祭饭",
+        "text": "漫长闭关后归来，你撞见故人正在祭拜自己。他们撤去香火，添了碗筷，祭饭变成一场笨拙的重逢。"
+      },
+      "en": {
+        "title": "A memorial for the living",
+        "text": "Returning from long seclusion, you find acquaintances holding your memorial. They remove incense and set another bowl, turning the ceremony into an awkward reunion."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_034",
+    "category": "life",
+    "title": "Cuộc hẹn không bàn đạo",
+    "text": "Ngươi và đạo lữ dành một chiều không bàn đạo hay linh thạch. Hai người thử bánh ở từng quầy, tranh luận mãi chỉ vì vị mè rang.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不谈道的约定",
+        "text": "你与道侣约定一下午不谈道法和灵石。两人逐摊尝糕，争论了许久，也只是为了芝麻该如何炒香。"
+      },
+      "en": {
+        "title": "An appointment without teachings",
+        "text": "You and your partner spend an afternoon avoiding talk of cultivation and stones. Sampling market cakes, you argue only about the proper flavor of toasted sesame."
+      }
+    },
+    "conditions": {
+      "partnerStatus": "bonded"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_041",
+    "category": "life",
+    "title": "Tranh vẽ không nhận tiền",
+    "text": "Một họa sĩ vẽ ngươi giữa đám người ở bến, từ chối tiền công. Ông nói muốn nhớ khuôn mặt ai đã đứng đợi như người bình thường.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "不收钱的画像",
+        "text": "画师把等船的你画在人群中，不肯收钱。他说只想记住一张愿意像普通人那样等待的面孔。"
+      },
+      "en": {
+        "title": "A portrait without payment",
+        "text": "A painter sketches you among ferry passengers and refuses payment. He wants to remember the face of someone willing to wait alongside ordinary travelers."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_042",
+    "category": "life",
+    "title": "Tàng thư giữ sách nấu ăn",
+    "text": "Đệ tử hỏi sao tàng thư tông môn giữ cả sách nấu ăn cũ. Ngươi đọc lời ghi đầu sách: người biên soạn từng nuôi cả viện qua nạn đói.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "藏书楼里的食谱",
+        "text": "弟子问宗门藏书楼为何留着旧食谱。你读出卷首题记：编书人曾靠这些菜法养活全院，熬过饥荒。"
+      },
+      "en": {
+        "title": "Recipes in the archive",
+        "text": "A disciple asks why the sect archive preserves old recipes. You read the dedication: their compiler once fed the entire hall through a famine."
+      }
+    },
+    "conditions": {
+      "sectStatus": "member"
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_043",
+    "category": "life",
+    "title": "Lễ thả thuyền không tên",
+    "text": "Ngươi gặp dân thả thuyền giấy cho những người mất tích trong chiến loạn. Không ai biết họ còn sống, nên trên thuyền chỉ viết lời mời về nhà.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "无名纸船祭",
+        "text": "你遇见百姓为战乱失踪者放纸船。没人知道他们是否还活着，船上便只写着请回家的话。"
+      },
+      "en": {
+        "title": "The unnamed paper boats",
+        "text": "Villagers launch paper boats for people lost during war. Nobody knows whether they survive, so each boat carries only an invitation to return home."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_044",
+    "category": "life",
+    "title": "Thầy dạy chữ hỏi lại trò",
+    "text": "Thầy dạy chữ đã già nhờ ngươi đọc dòng bia mờ nơi sân học. Ngươi đọc chậm như ngày mới học, còn ông vẫn sửa một chữ phát âm sai.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "minor",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {},
+    "translations": {
+      "zh": {
+        "title": "识字先生再问学生",
+        "text": "年老的识字先生请你读学堂里模糊的碑文。你像初学时一样慢读，他仍纠正了一个念错的字。"
+      },
+      "en": {
+        "title": "The tutor asks the pupil",
+        "text": "Your aging tutor asks you to read a worn inscription in the schoolyard. You read slowly as in childhood, and he still corrects one mispronounced word."
+      }
+    }
   }
 ]

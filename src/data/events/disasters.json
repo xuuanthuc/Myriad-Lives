@@ -7068,5 +7068,283 @@
         "text": "Testing a vision bought from a collector immerses you in its former owner’s painful memories. Severing the connection weakens your vitality and requires restorative medicine."
       }
     }
+  },
+  {
+    "id": "lower_realms_mosaic_009",
+    "category": "disaster",
+    "title": "Cầu phao bị cắt dây",
+    "text": "Dây cầu phao bị người thu phí bên bến cắt trong đêm. Ngươi hụt chân khi qua sáng sớm, mất giày và phải nghỉ vì mắt cá sưng.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "浮桥断绳",
+        "text": "渡口收费人夜里割断浮桥绳索。清早过桥时你失足落水，丢了鞋，脚踝肿得只能停下休息。"
+      },
+      "en": {
+        "title": "The severed pontoon ropes",
+        "text": "A ferry toll collector cuts the pontoon ropes overnight. Crossing at dawn, you slip into water, lose your shoes and must rest a swollen ankle."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_010",
+    "category": "disaster",
+    "title": "Thuế trên hũ muối",
+    "text": "Lính trạm đòi thuế cả hũ muối ngươi mang làm công. Không đủ giấy chứng, ngươi phải bán phần lương khô để tiếp tục đường về nhà.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "盐罐上的税",
+        "text": "关卡兵连你抵工钱的盐罐也要收税。拿不出凭据，你只好卖掉部分干粮，才能继续回家的路。"
+      },
+      "en": {
+        "title": "Tax on a jar of salt",
+        "text": "Checkpoint guards tax the salt jar you received as wages. Without papers, you sell some travel provisions to pay and continue the journey toward home."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_019",
+    "category": "disaster",
+    "title": "Mưa ăn mất mực truyền tin",
+    "text": "Mưa làm nhòe địa chỉ trên phù truyền tin rẻ khiến ngươi giao sai hàng. Để bồi thường chủ quầy, ngươi phải bỏ tiền và quay lại đường cũ.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7
+    },
+    "translations": {
+      "zh": {
+        "title": "雨蚀传讯墨",
+        "text": "雨水洇花了廉价传讯符上的地址，你把货送错地方。为赔偿摊主，只得掏钱并沿旧路折返。"
+      },
+      "en": {
+        "title": "Rain washing away a message",
+        "text": "Rain blurs the address on a cheap message talisman and you deliver goods incorrectly. Compensating the vendor costs money and sends you back along your route."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_020",
+    "category": "disaster",
+    "title": "Linh trùng trong bao gạo",
+    "text": "Bao linh gạo mua chịu có linh trùng ngủ trong đáy. Khi chúng tỉnh, ngươi bị cắn ở tay và phải bỏ phần gạo đã nhiễm độc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "米袋里的灵虫",
+        "text": "赊来的灵米袋底藏着休眠灵虫。它们醒来后咬伤你的手，你只能扔掉已经染毒的那部分米。"
+      },
+      "en": {
+        "title": "Spirit insects in the rice sack",
+        "text": "Dormant spirit insects hide inside a sack of rice bought on credit. Awakening, they bite your hand and force you to discard the contaminated grain."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_029",
+    "category": "disaster",
+    "title": "Trận ruộng lấn sang đường",
+    "text": "Chủ linh điền mở trận lấn sang đường công cộng giữa lúc ngươi qua. Ngươi bị đẩy ngã, mất vật tư để phá lối ra khỏi bụi gai.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "侵占道路的田阵",
+        "text": "你经过时，灵田主人扩张阵法侵占公路。阵力将你推倒，你耗去材料才从荆棘间打开出口。"
+      },
+      "en": {
+        "title": "Field wards across the road",
+        "text": "A field owner expands his wards across the public road as you pass. Knocked into thorns, you spend supplies creating a way back out again."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_030",
+    "category": "disaster",
+    "title": "Thùng nước giấu phù nổ",
+    "text": "Ngươi dùng thùng nước bỏ cạnh động phủ, không thấy phù nổ dưới đáy. Khi linh lực chạm nước, thùng vỡ làm tay đau và hỏng túi thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "水桶暗藏爆符",
+        "text": "你用了放在洞府旁的水桶，没发现桶底爆符。灵力碰到水时木桶炸裂，震伤手掌并毁了药袋。"
+      },
+      "en": {
+        "title": "An explosive talisman in the bucket",
+        "text": "You use a water bucket left beside your cave, missing the explosive paper underneath. Energy touching water shatters it, hurting your hand and ruining medicine."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_039",
+    "category": "disaster",
+    "title": "Giáo án bị đem bán",
+    "text": "Ghi chép ngươi cho học trò bị người khác in bán thiếu trang. Người mua đòi bồi hoàn sau khi luyện sai, khiến ngươi tốn tiền sửa hậu quả.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "被售出的讲义",
+        "text": "你给学生的笔记被别人缺页刊卖。买家照着错练后索赔，你只得花钱帮他们处理后果。"
+      },
+      "en": {
+        "title": "Teaching notes sold without leave",
+        "text": "Someone sells incomplete copies of notes you gave students. Buyers demand compensation after practicing incorrectly, costing you money to help repair the resulting damage."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_040",
+    "category": "disaster",
+    "title": "Vách động phủ giấu muội độc",
+    "text": "Động phủ thuê mới có muội độc từ lò luyện cũ dưới vách. Khi đan hỏa làm nóng đá, khói rỉ ra khiến ngươi khó thở và phải chuyển đi.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "洞壁毒烟灰",
+        "text": "新租洞府的墙里藏着旧炉留下的毒灰。丹火一烘热石壁，烟气渗出，令你气短，只好搬走。"
+      },
+      "en": {
+        "title": "Toxic soot in the cave wall",
+        "text": "Your newly rented cave conceals toxic soot from an old furnace. Heating its walls with core fire releases fumes, leaving you breathless and forcing relocation."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_049",
+    "category": "disaster",
+    "title": "Tiếng gọi nhái trong linh ngọc",
+    "text": "Một linh ngọc nhái giọng người quen khiến ngươi mở thần thức quá sâu. Nhận ra âm điệu lặp, ngươi cắt liên kết nhưng vẫn mất sức và thuốc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "灵玉中的假呼唤",
+        "text": "一块灵玉模仿熟人的声音，引你把神识探得太深。察觉语调重复后，你切断联系，仍损耗元气和药物。"
+      },
+      "en": {
+        "title": "False calls within spirit jade",
+        "text": "A piece of jade mimics familiar voices, drawing your awareness too deeply. Recognizing repeated intonation, you sever the connection but still lose vitality and medicine."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_050",
+    "category": "disaster",
+    "title": "Mái trận sụp lúc chuyển nhà",
+    "text": "Ngươi giúp chuyển nhà thì mái trận cũ sụp do chân trụ mục. Giữ nó để người trong nhà thoát khiến thần thức đau và pháp khí chịu hỏng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": -7,
+      "health": -5
+    },
+    "translations": {
+      "zh": {
+        "title": "搬迁时阵顶坍塌",
+        "text": "帮人搬家时，旧阵顶因支柱腐朽而坍塌。你撑住它让屋内人撤离，神识受创，法器也损坏了。"
+      },
+      "en": {
+        "title": "A ward roof collapses during moving",
+        "text": "An old ward roof collapses while you help move a household. Holding it up until residents escape hurts your awareness and damages your magical tool."
+      }
+    }
   }
 ]

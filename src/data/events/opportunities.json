@@ -8366,5 +8366,640 @@
         ]
       }
     ]
+  },
+  {
+    "id": "lower_realms_mosaic_007",
+    "category": "opportunity",
+    "title": "Việc làm ở lò gốm",
+    "text": "Chủ lò thuê ngươi phân biệt tiếng gõ của bình nứt. Tai nghe tốt giúp giữ hàng lành, ông trả thêm tiền dù ngươi chưa có nghề.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "陶窑的差事",
+        "text": "窑主雇你敲罐听音，挑出裂器。你听得仔细，保住了好货，他便给这个新手多付了一些工钱。"
+      },
+      "en": {
+        "title": "Work at the pottery kiln",
+        "text": "A potter hires you to recognize cracked jars by their sound. Your careful listening saves good stock, earning extra wages despite your lack of experience."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_008",
+    "category": "opportunity",
+    "title": "Chiếc hộp trong đám tro",
+    "text": "Sau vụ cháy kho, ngươi tìm thấy hộp khóa mang dấu nhà chủ. Người coi kho nhờ giao kín, nhưng khách ngoài cổng trả tiền để xem trước.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "translations": {
+      "zh": {
+        "title": "灰烬里的匣子",
+        "text": "仓库失火后，你找到印着东家标记的锁匣。守仓人请你秘密送还，门外客人却出钱想先看一眼。"
+      },
+      "en": {
+        "title": "A box among the ashes",
+        "text": "After a warehouse fire, you find a locked box bearing its owner’s mark. The keeper requests discreet delivery, while a visitor offers payment to inspect it first."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Giao kín về nhà chủ",
+        "hint": "Không lấy tiền của khách lạ",
+        "translations": {
+          "zh": {
+            "text": "秘密送还东家",
+            "hint": "不收陌生人的钱"
+          },
+          "en": {
+            "text": "Deliver it discreetly",
+            "hint": "Take no money from the stranger"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi giao hộp về nhà chủ, thấy trong đó là giấy nợ của dân nghèo. Chủ nhà nhận lại không trả công, còn người coi kho cảm ơn lặng lẽ.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你送匣回东家，得知里面是穷人的借据。东家没有付酬，守仓人却悄悄向你道了谢。"
+              },
+              "en": {
+                "text": "You deliver the box, discovering debt papers belonging to poor villagers. Its owner offers no payment, while the warehouse keeper thanks you quietly."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Cho khách xem trước",
+        "hint": "Được trả công, tiết lộ chuyện trong hộp",
+        "translations": {
+          "zh": {
+            "text": "先让客人查看",
+            "hint": "获得酬劳，但透露匣中内容"
+          },
+          "en": {
+            "text": "Let the visitor inspect it",
+            "hint": "Receive payment; disclose its contents"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Khách xem giấy trong hộp rồi trả tiền như hẹn, ghi lại tên từng con nợ. Ngươi giao hộp sau đó, không biết những cái tên sẽ được dùng thế nào.",
+            "effects": {
+              "resources": 10
+            },
+            "translations": {
+              "zh": {
+                "text": "客人看过借据，如约付钱，并抄下每个欠债人的姓名。你随后送还匣子，却不知道这些名字会被如何使用。"
+              },
+              "en": {
+                "text": "The visitor pays after reading the papers and copying every debtor’s name. You deliver the box afterward, uncertain how those names will be used."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_mosaic_017",
+    "category": "opportunity",
+    "title": "Vỏ linh quả làm phẩm màu",
+    "text": "Ngươi thử dùng vỏ linh quả nhuộm vải, thấy màu bền hơn lá thường. Một thợ may mua cách làm, trả đủ tiền cho vài tháng linh gạo.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵果皮染料",
+        "text": "你试用灵果皮染布，发现颜色比普通叶汁牢固。裁缝买下这个法子，付的钱足够换几个月灵米。"
+      },
+      "en": {
+        "title": "Dye from spirit fruit peel",
+        "text": "Dyeing cloth with spirit fruit peel produces a color more durable than ordinary leaves. A tailor buys the method, paying for several months of spirit rice."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_018",
+    "category": "opportunity",
+    "title": "Dấu chân dưới tường phù",
+    "text": "Dấu chân bùn dẫn tới bức tường phủ phù trong nhà bỏ hoang. Sau tường vang tiếng gõ đều, còn phù ở sát đất đã bong một góc.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "translations": {
+      "zh": {
+        "title": "符墙下的足迹",
+        "text": "泥脚印通向荒屋的符墙。墙后传来规律敲击声，靠近地面的符纸已经翘起一角。"
+      },
+      "en": {
+        "title": "Footprints beneath the talisman wall",
+        "text": "Muddy footprints lead to a talisman covered wall inside an abandoned house. Steady knocks sound behind it, and one paper near the floor has come loose."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Dò phù rồi mở lối",
+        "hint": "Có thể cứu người hoặc chịu phản chấn",
+        "translations": {
+          "zh": {
+            "text": "查符后开路",
+            "hint": "可能救人，也可能遭反震"
+          },
+          "en": {
+            "text": "Examine the wards and open a way",
+            "hint": "Possible rescue or backlash"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi tháo phù, tìm thấy người sửa trận bị kẹt sau vách sập. Ông trả ít vật tư còn giữ, tiếng gõ ngừng khi cả hai ra ngoài.",
+            "effects": {
+              "resources": 12
+            },
+            "translations": {
+              "zh": {
+                "text": "你拆开符纸，找到被塌墙困住的修阵人。他把剩余材料分给你，两人离屋时敲击声终于停了。"
+              },
+              "en": {
+                "text": "Removing wards reveals an array repairer trapped behind collapsed masonry. He shares his remaining supplies, and the knocking stops as you both leave the house."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Phù rách nối với bẫy cũ, bật linh lực vào tay ngươi khi gỡ. Ngươi rút lui sau vết bỏng, tiếng gõ đều vẫn vang sau tường kín.",
+            "effects": {
+              "health": -7
+            },
+            "translations": {
+              "zh": {
+                "text": "破符连着旧陷阱，拆下时灵力反打在你手上。灼伤后你退了出来，封墙后仍响着规律的敲击声。"
+              },
+              "en": {
+                "text": "The torn paper connects to an old trap that strikes your hand when removed. Retreating with burns, you still hear steady knocks beyond the sealed wall."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Đánh dấu nhà rồi rời đi",
+        "hint": "Không mở tường, không nhận thưởng",
+        "translations": {
+          "zh": {
+            "text": "标记房屋后离开",
+            "hint": "不打开墙壁，不获报酬"
+          },
+          "en": {
+            "text": "Mark the house and leave",
+            "hint": "Leave the wall closed; gain no reward"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi đánh dấu căn nhà để người qua đường biết có điều lạ. Đi xa vẫn nghe tiếng gõ trong trí nhớ, chưa rõ ai đang ở sau vách.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你留下标记，提醒路人此屋有异。走远后仍记得那敲击声，却不知道墙后究竟有什么。"
+              },
+              "en": {
+                "text": "You mark the house to warn travelers that something is unusual. Long afterward, you remember the knocking without knowing who or what stood behind the wall."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_mosaic_027",
+    "category": "opportunity",
+    "title": "Lá sen giữ dược hương",
+    "text": "Ngươi phát hiện lá sen ở ao hoang giữ dược hương khi gói thuốc. Chủ hiệu mua một mẻ, giúp ngươi trang trải vật tư cho bế quan.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "留药香的荷叶",
+        "text": "你发现荒池荷叶包药时能留住药香。药铺买下一批，让你有钱添置闭关所需的材料。"
+      },
+      "en": {
+        "title": "Lotus leaves preserving medicine",
+        "text": "You discover that lotus leaves from a neglected pond preserve medicinal fragrance. A pharmacy buys a batch, helping cover the supplies needed for your seclusion."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_028",
+    "category": "opportunity",
+    "title": "Cửa đá nghe lời hứa",
+    "text": "Cửa đá trong di tích sáng lên khi ngươi hứa không lấy vật ngoài nhu cầu. Sau khe cửa có dược hương, nhưng câu khắc dưới chân đã mòn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "translations": {
+      "zh": {
+        "title": "听誓言的石门",
+        "text": "遗迹石门在你承诺只取所需时亮起。门缝飘来药香，脚边的另一行刻字却已经磨损难辨。"
+      },
+      "en": {
+        "title": "The gate that hears promises",
+        "text": "A stone gate lights up when you promise to take only what you need. Medicine scents the gap, but an inscription beneath your feet has worn away."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Giữ lời, lấy đúng phần cần",
+        "hint": "Có thể được thuốc hoặc bị cấm chế thương tổn",
+        "translations": {
+          "zh": {
+            "text": "守诺，只取所需",
+            "hint": "可能得药，也可能被禁制伤到"
+          },
+          "en": {
+            "text": "Keep your promise and take only what is needed",
+            "hint": "Possible medicine or injury from the restrictions"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi lấy một phần thuốc, để phần còn lại trên giá đá. Cửa mở cho ngươi trở ra, hàng chữ mòn vẫn không đọc được dù đã nhìn gần.",
+            "effects": {
+              "health": 7,
+              "resources": 6
+            },
+            "translations": {
+              "zh": {
+                "text": "你取一份药，留下石架上的其余药物。石门放你出去，磨损的刻字即使近看也仍无法辨清。"
+              },
+              "en": {
+                "text": "You take one portion and leave the rest on its stone shelf. The gate lets you return, though closer inspection still cannot reveal its worn inscription."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Ngươi chỉ lấy phần cần, nhưng lớp cấm chế hỏng vẫn quét qua người. Bỏ thuốc để thoát ra, ngươi hiểu lời hứa không đủ sửa một trận cũ.",
+            "effects": {
+              "health": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "你只取所需，损坏的禁制却仍扫过全身。丢药逃出后，你明白守诺也无法修好一座旧阵。"
+              },
+              "en": {
+                "text": "You take only what is needed, but damaged restrictions still strike you. Leaving the medicine to escape shows that a promise cannot repair an old formation."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Ghi cửa đá, chưa bước vào",
+        "hint": "Giữ an toàn, không lấy thuốc",
+        "translations": {
+          "zh": {
+            "text": "记下石门，暂不进入",
+            "hint": "保全自身，不取药物"
+          },
+          "en": {
+            "text": "Record the gate and stay outside",
+            "hint": "Stay safe; take no medicine"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi ghi lại cửa đá rồi rời đi, chưa thử điều mình không hiểu. Dược hương còn thoảng sau lưng, cùng câu khắc mòn chưa ai đọc rõ.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你记下石门后离开，没有尝试尚未明白的禁制。药香仍在身后飘散，那行磨损刻字也依旧无人读清。"
+              },
+              "en": {
+                "text": "You record the gate and leave without testing restrictions you do not understand. Medicinal fragrance lingers behind you alongside the inscription that nobody has deciphered."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_mosaic_037",
+    "category": "opportunity",
+    "title": "Đường mật bên vườn linh hoa",
+    "text": "Ngươi giúp người làm kẹo giữ hương từ hoa trước khi nấu mật. Mẻ hàng được khách chuộng, ông chia tiền thay vì chỉ hứa món nợ ân tình.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "灵花园的糖蜜",
+        "text": "你帮糖匠在熬蜜前留住花香。成品很受顾客欢迎，他直接分给你钱，没有只许下一笔人情债。"
+      },
+      "en": {
+        "title": "Syrup beside the spirit garden",
+        "text": "You help a sweet maker preserve floral fragrance before boiling syrup. Customers love the result, and he shares earnings rather than merely promising a future favor."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_038",
+    "category": "opportunity",
+    "title": "Kho đan sau biển cứu tế",
+    "text": "Một kho đan treo biển cứu tế nhưng khóa cửa trước dân đói. Người quản kho mời ngươi mua phần thuốc dư, còn sổ phát ghi những tên lặp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "translations": {
+      "zh": {
+        "title": "赈济牌后的丹库",
+        "text": "丹库挂着赈济招牌，却对饥民锁门。管事请你买剩药，发放账册上却反复写着相同的姓名。"
+      },
+      "en": {
+        "title": "Pills behind the relief sign",
+        "text": "A pill warehouse advertises relief but locks out hungry villagers. Its manager offers surplus medicine for sale, while distribution records repeatedly list the same names."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Mua thuốc dư",
+        "hint": "Trả linh thạch để nhận thuốc",
+        "translations": {
+          "zh": {
+            "text": "购买剩药",
+            "hint": "付出灵石，得到药物"
+          },
+          "en": {
+            "text": "Buy the surplus pills",
+            "hint": "Pay stones to obtain medicine"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi trả tiền nhận phần thuốc đã kiểm phẩm, đủ dùng dưỡng thân. Ra khỏi kho, ngươi gặp dân vẫn chờ dưới biển cứu tế chưa được tháo xuống.",
+            "effects": {
+              "resources": -12,
+              "health": 9
+            },
+            "translations": {
+              "zh": {
+                "text": "你付钱拿走验过的药，足够调养身体。离开丹库时，百姓仍等在那块没有撤下的赈济牌下。"
+              },
+              "en": {
+                "text": "You pay for inspected pills sufficient to restore your body. Outside, villagers still wait beneath the relief sign that has not been taken down."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Đề nghị mở sổ trước dân",
+        "hint": "Bỏ qua thuốc mua; làm rõ việc cứu tế",
+        "translations": {
+          "zh": {
+            "text": "要求当众公开账册",
+            "hint": "放弃买药，查明赈济情况"
+          },
+          "en": {
+            "text": "Ask for a public accounting",
+            "hint": "Pass over the purchase; examine the relief records"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi đề nghị đối chiếu sổ trước dân, phát hiện người nhận được ghi nhiều lần thay số lượng. Kho mở phát phần còn giữ, nhưng ngươi không mua được thuốc.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你要求当众核对账册，发现用重复姓名代替了数量。丹库发出仍存的赈济药，你却没买到自己的那份。"
+              },
+              "en": {
+                "text": "Comparing records publicly reveals repeated names replacing actual quantities. The warehouse distributes its remaining relief stock, leaving you without the pills you hoped to purchase."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lower_realms_mosaic_047",
+    "category": "opportunity",
+    "title": "Ngọc dẫn tiếng cho người điếc",
+    "text": "Ngươi cùng thợ ngọc làm vật dẫn tiếng thành rung nhẹ cho người điếc. Khách đặt thêm vài món, trả công đủ mua vật tư dưỡng thần.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "resources": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "为聋人导声的玉",
+        "text": "你与玉匠做出把声音转成轻震的小器，供失聪者使用。客人又订了几件，酬劳够买养神材料。"
+      },
+      "en": {
+        "title": "Jade carrying sound for the deaf",
+        "text": "Working with a jade carver, you turn sound into gentle vibrations for deaf customers. Further orders pay enough for supplies that nourish your spirit."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_048",
+    "category": "opportunity",
+    "title": "Thư viện mở bằng giấc mơ",
+    "text": "Thư viện cũ chỉ mở khi người giữ ngủ, sách hiện trong mộng chung. Ông mời ngươi vào đọc, dặn tiếng chuông ngoài hiên là dấu phải tỉnh.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "translations": {
+      "zh": {
+        "title": "梦中开启的书库",
+        "text": "旧书库只在守书人睡着时打开，书卷显于共梦。他邀你进去，叮嘱檐下钟响便必须醒来。"
+      },
+      "en": {
+        "title": "The library opened by dreaming",
+        "text": "An old library opens only while its keeper sleeps, revealing books in a shared dream. He invites you inside, warning that the porch bell signals waking."
+      }
+    },
+    "choices": [
+      {
+        "id": "engage",
+        "text": "Đọc trong mộng, nghe chuông thì về",
+        "hint": "Có thể lĩnh ngộ hoặc tổn thương thần thức",
+        "translations": {
+          "zh": {
+            "text": "入梦读书，闻钟即返",
+            "hint": "可能领悟，也可能损伤神识"
+          },
+          "en": {
+            "text": "Read in the dream and return at the bell",
+            "hint": "Possible insight or harm to awareness"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "result",
+            "weight": 3,
+            "text": "Ngươi đọc một đoạn về dưỡng thần rồi tỉnh ngay khi chuông vang. Chữ không mang về được, nhưng cách gom thần thức vẫn rõ sau khi mở mắt.",
+            "effects": {
+              "cultivation": 26
+            },
+            "translations": {
+              "zh": {
+                "text": "你读到一段养神法，钟响便立刻醒来。文字无法带出梦境，收拢神识的法门却仍清晰记在心中。"
+              },
+              "en": {
+                "text": "You read a passage about nourishing awareness and awaken at the bell. The words cannot leave the dream, but the method remains clear after your eyes open."
+              }
+            }
+          },
+          {
+            "id": "setback",
+            "weight": 1,
+            "text": "Chuông bị mộng biến thành tiếng lật sách, khiến ngươi tỉnh chậm hơn dự tính. Người giữ gọi ngươi ra, nhưng thần thức đã đau và phải nghỉ dưỡng.",
+            "effects": {
+              "health": -8
+            },
+            "translations": {
+              "zh": {
+                "text": "梦境把钟声变成翻书声，你比预想醒得更迟。守书人喊你出来，神识却已受伤，需要休养。"
+              },
+              "en": {
+                "text": "The dream disguises the bell as turning pages, delaying your awakening. The keeper calls you out, but your awareness is already hurt and needs recovery."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "alternative",
+        "text": "Chờ bản chép ngoài mộng",
+        "hint": "Không lĩnh ngộ ngay; không vào mộng chung",
+        "translations": {
+          "zh": {
+            "text": "等候梦外抄本",
+            "hint": "不立即领悟，不进入共梦"
+          },
+          "en": {
+            "text": "Wait for a copy outside the dream",
+            "hint": "No immediate insight; avoid entering the shared dream"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "alternative",
+            "weight": 3,
+            "text": "Ngươi xin chờ bản chép, ngồi ngoài thư viện khi người giữ ngủ. Sáng đến chưa có trang nào được mang ra, hai người hẹn lại một ngày khác.",
+            "effects": {},
+            "translations": {
+              "zh": {
+                "text": "你请求等候抄本，在守书人睡去时留在库外。清晨仍没有书页带出，你们便约好另日再来。"
+              },
+              "en": {
+                "text": "You wait outside for a copy while the keeper sleeps. Morning brings no pages out of the dream, so you agree to meet on another day."
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

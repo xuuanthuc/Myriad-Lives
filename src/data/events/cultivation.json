@@ -2661,5 +2661,275 @@
         "text": "Reading old notes reveals mistakes in your earlier teachings. Correcting each argument helps your awareness escape patterns of thought that had become rigid over time."
       }
     }
+  },
+  {
+    "id": "lower_realms_mosaic_005",
+    "category": "cultivation",
+    "title": "Đuổi theo diều giấy",
+    "text": "Ngươi học cách giữ sức khi chạy theo diều của trẻ trong làng. Những lần đổi hướng giúp chân linh hoạt, nhịp thở cũng bớt rối hơn.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "追纸鸢",
+        "text": "你陪村中孩子追纸鸢，练习奔跑时分配体力。反复转向让脚步更灵活，呼吸也不再那么急乱。"
+      },
+      "en": {
+        "title": "Following a paper kite",
+        "text": "You practice pacing yourself while chasing village children’s kites. Repeated changes of direction improve your footing and gradually make your breathing less hurried and confused."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_006",
+    "category": "cultivation",
+    "title": "Bài thuốc không ghi giá",
+    "text": "Một lang y dạy ngươi nấu thuốc từ rau mọc ven đường. Học nhận cây và đun đúng lửa giúp ngươi hồi sức sau những ngày làm thuê.",
+    "weight": 6,
+    "minAge": 14,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "mortal"
+    ],
+    "effects": {
+      "health": 2
+    },
+    "translations": {
+      "zh": {
+        "title": "不标价的药方",
+        "text": "郎中教你用路边野菜煎药。学会认草与掌握火候后，你在辛苦佣工之余也能调养身体。"
+      },
+      "en": {
+        "title": "The prescription without a price",
+        "text": "A physician teaches you to brew medicine from roadside greens. Recognizing plants and controlling heat helps you recover after tiring days of work for wages."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_015",
+    "category": "cultivation",
+    "title": "Chờ phù khô đúng lúc",
+    "text": "Ngươi từng hấp tấp thúc pháp trước khi mực phù khô. Luyện chờ đúng nhịp giúp nét chú không vỡ và linh lực trong tay bớt hao.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 17
+    },
+    "translations": {
+      "zh": {
+        "title": "等待符墨干透",
+        "text": "你从前总在符墨未干时急着催动法术。练习等待合适时机后，符纹不再崩散，手中灵力也少了损耗。"
+      },
+      "en": {
+        "title": "Waiting for the ink to dry",
+        "text": "You once activated talismans before their ink dried. Learning to wait for the proper moment preserves their strokes and reduces energy wasted through your hands."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_016",
+    "category": "cultivation",
+    "title": "Ánh sáng cho người đọc sách",
+    "text": "Ngươi giữ thuật chiếu sáng cho người chép sách suốt buổi tối. Điều chỉnh độ sáng theo mắt người đọc dạy ngươi vận khí đều và tiết kiệm.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "effects": {
+      "cultivation": 17
+    },
+    "translations": {
+      "zh": {
+        "title": "为读书人掌灯",
+        "text": "你整晚为抄书人维持照明术。随着读者眼力调整亮度，让你学会均匀而节省地运转灵气。"
+      },
+      "en": {
+        "title": "Light for a reader",
+        "text": "You maintain a light spell for a copyist throughout the evening. Adjusting brightness to suit tired eyes teaches you a steadier and more economical flow of energy."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_025",
+    "category": "cultivation",
+    "title": "Trận gió không tắt đèn",
+    "text": "Ngươi dựng trận thông gió cho hiệu thuốc mà không tắt đèn. Giữ luồng khí đi quanh từng vật giúp ngươi điều phối pháp lực chính xác hơn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "不灭灯的风阵",
+        "text": "你为药铺布下通风阵，却不能吹灭灯火。让气流绕过每件物品，练出了更准确的法力调配。"
+      },
+      "en": {
+        "title": "Wind that leaves lamps burning",
+        "text": "You build a ventilation array for a pharmacy without extinguishing its lamps. Guiding air around each object improves the precision with which you distribute power."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_026",
+    "category": "cultivation",
+    "title": "Buông lực trước khi chuông vỡ",
+    "text": "Ngươi luyện truyền lực vào chuông mỏng rồi rút lại đúng lúc. Nghe tiếng rung đổi giúp ngươi nhận ra giới hạn trước khi pháp khí chịu tổn hại.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "foundation"
+    ],
+    "effects": {
+      "cultivation": 20
+    },
+    "translations": {
+      "zh": {
+        "title": "钟碎前收力",
+        "text": "你向薄钟注入力量，再练习及时收回。听清颤音的变化后，终于能在法器损坏前察觉承受极限。"
+      },
+      "en": {
+        "title": "Releasing power before a bell breaks",
+        "text": "You channel power into a thin bell, then withdraw it in time. Changes in its vibration teach you to sense limits before a magical tool suffers damage."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_035",
+    "category": "cultivation",
+    "title": "Đan hỏa trước men gốm",
+    "text": "Ngươi giúp thợ gốm thử men bằng đan hỏa, tránh nung quá tay. Những màu đổi theo nhiệt dạy ngươi giữ lực tinh tế hơn lúc luyện pháp.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 23
+    },
+    "translations": {
+      "zh": {
+        "title": "丹火与陶釉",
+        "text": "你用丹火帮陶工试釉，避免烧过火。釉色随温度变化，让你练法时更懂得细致掌握力量。"
+      },
+      "en": {
+        "title": "Core fire and pottery glaze",
+        "text": "You help a potter test glazes with core fire without overheating them. Their changing colors teach you a subtler control of power during your practice."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_036",
+    "category": "cultivation",
+    "title": "Khép đan quang khi ngủ",
+    "text": "Đan quang của ngươi làm người cùng nhà khó ngủ mỗi đêm. Luyện thu ánh sáng về thân giúp dòng pháp lực khép kín hơn mà không gián đoạn.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "effects": {
+      "cultivation": 23
+    },
+    "translations": {
+      "zh": {
+        "title": "睡前收丹光",
+        "text": "你的丹光让同住的人夜夜难眠。练习将光收回体内后，法力循环更加闭合，却没有因此中断。"
+      },
+      "en": {
+        "title": "Dimming core light before sleep",
+        "text": "Your core light keeps housemates awake each night. Learning to draw its glow inward makes the circulation of power more contained without interrupting its flow."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_045",
+    "category": "cultivation",
+    "title": "Thần thức qua nhịp dệt",
+    "text": "Ngươi nghe máy dệt để luyện thần thức theo những nhịp không đều. Nhận ra lúc sợi sắp đứt giúp cảm nhận trở nên tinh mà không tản rộng.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 26
+    },
+    "translations": {
+      "zh": {
+        "title": "织机节奏中的神识",
+        "text": "你借织机不齐的节奏练习神识。辨出丝线将断的瞬间后，感知更加细致，不必一味向外扩张。"
+      },
+      "en": {
+        "title": "Awareness through the loom’s rhythm",
+        "text": "You train awareness through a loom’s uneven rhythms. Recognizing the instant before a thread breaks refines perception without requiring you to spread consciousness ever farther."
+      }
+    }
+  },
+  {
+    "id": "lower_realms_mosaic_046",
+    "category": "cultivation",
+    "title": "Đọc sách không chạm tâm tác giả",
+    "text": "Khi đọc sách lưu thần niệm, ngươi luyện giữ khoảng cách với tâm tác giả. Phân biệt lời viết và cảm xúc lưu lại giúp Nguyên Anh bớt nhiễu.",
+    "weight": 6,
+    "minAge": 16,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "effects": {
+      "cultivation": 26
+    },
+    "translations": {
+      "zh": {
+        "title": "读书不探作者心",
+        "text": "读留有神念的书时，你练习不陷入作者心绪。分清文字与残留情感，让元婴少受杂念干扰。"
+      },
+      "en": {
+        "title": "Reading without entering another mind",
+        "text": "Reading books imprinted with thoughts, you practice keeping distance from their authors’ feelings. Separating written words from lingering emotions reduces disturbance within your nascent soul."
+      }
+    }
   }
 ]
