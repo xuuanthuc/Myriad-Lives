@@ -27,7 +27,7 @@ export async function createFateCard(item,language){
   text(t('Kiếp')+' '+String(item.number).padStart(3,'0')+' · '+item.age+' '+t('tuổi'),540,475,25,'#7b856e','center');
   if(item.isGoodProfile)text('✦ '+t('Tiên tư xuất chúng'),540,526,26,'#9b7b40','center');
   line(560);
-  const details=[...(item.gender?[['Giới tính',item.gender]]:[]),['Xuất thân',item.origin],['Linh căn',item.root],['Thể chất',item.physique],...(item.sectName?[['Tông môn',item.sectName]]:[])];
+  const details=[...(item.gender?[['Giới tính',item.gender]]:[]),['Xuất thân',item.origin],['Linh căn',item.root],['Thể chất',item.physique],...(item.sectName?[['Tông môn',item.sectName]]:[]),...(item.partnerName?[['Đạo lữ',item.partnerName]]:[])];
   details.forEach(([label,value],i)=>{
     const y=details.length>=4?600+i*(220/(details.length-1)):635+i*82;
     text(t(label),110,y,26,'#7b856e');fit(t(value),970,y,30,640,'#345c46','right',true);

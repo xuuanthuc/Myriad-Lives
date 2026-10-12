@@ -1,4 +1,5 @@
 import {genderName} from './data/genders.js';
+import {partnerForRun} from './data/partners.js';
 import HistoryPage from './components/HistoryPage.jsx';
 import BirthReveal from './components/BirthReveal.jsx';
 import {summarizeLife,archiveLife,historyWithCompletedLife} from './engine/lifeHistory.js';
@@ -130,7 +131,7 @@ export default function App() {
             <dl>{[
               ['Giới tính',genderName(run.profile)],['Xuất thân',run.profile.origin.name],['Linh căn',run.profile.root.name],['Thể chất',run.profile.physique.name],
               ['Tông môn',sectNameForRun(run)||'Chưa gia nhập'],
-              ['Đạo lữ',run.state.partnerStatus==='bonded'?'Đã kết duyên':'Độc hành'],
+              ['Đạo lữ',partnerForRun(run)?.name||'Độc hành'],
             ].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
             <div className="stats">{[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',run.profile.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}</div>
             <div className="age"><span>{t(finished?'Hưởng thọ':'Tuổi hiện tại')}</span><strong><AnimatedNumber key={run.number} value={run.state.age} speed={speed}/><small> {t('tuổi')}</small></strong></div>

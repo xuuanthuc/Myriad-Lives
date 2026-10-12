@@ -5,6 +5,7 @@ import { events, birth, endings, wordCount,eventOutcomes } from '../engine/conte
 import { realms, roots, physiques, origins } from '../data/realms.js';
 import { sectChildhood } from '../data/origins.js';
 import {sects} from '../data/sects.js';
+import {partners,partnerNames} from '../data/partners.js';
 
 export const languages = [{id:'vi',label:'Việt'},{id:'zh',label:'中文'},{id:'en',label:'English'}];
 const dictionary = new Map(ui.map(([vi,zh,en]) => [vi,{vi,zh,en}]));
@@ -25,6 +26,7 @@ for (const event of events) {
 for (const record of [...birth,...endings]) add(record.text,endingsLocales[record.id]);
 for (const origin of origins) add(origin.birthText,[origin.translations.zh.birthText,origin.translations.en.birthText]);
 for(const sect of sects)add(sect.name,[sect.translations.zh,sect.translations.en]);
+for(const partner of partners)add(partner.name,[partner.translations.zh,partner.translations.en]);
 for(const physique of extraPhysiques){add(physique.name,[physique.translations.zh.name,physique.translations.en.name]);add(physique.description,[physique.translations.zh.description,physique.translations.en.description]);}
 add('Bỏ mạng trong cấm chế',['死于洞府禁制','Killed by the cave’s restrictions']);
 
@@ -39,6 +41,7 @@ const givenNames = {
 };
 export function translateName(name,language) {
   if (language==='vi') return name;
+  if(partnerNames.has(name))return partnerNames.get(name).translations[language]||name;
   const [surname,...given]=name.split(' ');
   const index=language==='zh'?0:1;
   return (surnames[surname]?.[index] || surname)+(language==='zh'?'':' ')+(givenNames[given.join(' ')]?.[index] || given.join(' '));

@@ -27,7 +27,7 @@ export default function HistoryPage({history,current,t,language}){
         <h2>{translateName(item.name,language)}</h2>
         <p className="history-realm">{t(realms[item.realm].name)}{stageName(item)?' · '+t(stageName(item)):''}</p>
         {item.isGoodProfile&&<p className="history-gifted">✦ {t('Tiên tư xuất chúng')}</p>}
-        <dl>{[...(item.gender?[['Giới tính',item.gender]]:[]),['Xuất thân',item.origin],['Linh căn',item.root],['Thể chất',item.physique],...(item.sectName?[['Tông môn',item.sectName]]:[])].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
+        <dl>{[...(item.gender?[['Giới tính',item.gender]]:[]),['Xuất thân',item.origin],['Linh căn',item.root],['Thể chất',item.physique],...(item.sectName?[['Tông môn',item.sectName]]:[]),...(item.partnerName?[['Đạo lữ',item.partnerName]]:[])].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
         <div className="history-traits">{[['Tư chất',item.talent],['Ngộ tính',item.comprehension],['Khí vận',item.luck]].map(([label,value])=><div key={label}><span>{t(label)}</span><b>{value}</b></div>)}</div>
         <p className="history-ending">{item.age} {t('tuổi')} · {t(item.endingReason||item.world)}</p>
         <div className="history-actions"><button disabled={busy!==null} onClick={()=>exportImage(item,false)}>{t(busy===item.number?'Đang tạo ảnh…':'Tải ảnh')}</button><button disabled={busy!==null} onClick={()=>exportImage(item,true)}>{t('Chia sẻ ảnh')}</button></div>
