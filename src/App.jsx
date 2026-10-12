@@ -1,3 +1,4 @@
+import {genderName} from './data/genders.js';
 import HistoryPage from './components/HistoryPage.jsx';
 import BirthReveal from './components/BirthReveal.jsx';
 import {summarizeLife,archiveLife,historyWithCompletedLife} from './engine/lifeHistory.js';
@@ -127,7 +128,7 @@ export default function App() {
           <aside className="profile">
             <div className="profile-top"><span className="profile-icon">命</span><p>{t('SỐ MỆNH KIẾP NÀY')}</p><h2>{translateName(run.profile.name,language)}</h2><span className="realm-tag">{t(realms[run.state.realm].name)}{stageName(run.state)?' · '+t(stageName(run.state)):''}</span>{run.profile.isGoodProfile&&<span className="gifted">✦ {t('Tiên tư xuất chúng')}</span>}</div>
             <dl>{[
-              ['Xuất thân',run.profile.origin.name],['Linh căn',run.profile.root.name],['Thể chất',run.profile.physique.name],
+              ['Giới tính',genderName(run.profile)],['Xuất thân',run.profile.origin.name],['Linh căn',run.profile.root.name],['Thể chất',run.profile.physique.name],
               ['Tông môn',sectNameForRun(run)||'Chưa gia nhập'],
               ['Đạo lữ',run.state.partnerStatus==='bonded'?'Đã kết duyên':'Độc hành'],
             ].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>

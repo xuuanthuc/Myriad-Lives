@@ -1,3 +1,4 @@
+import {genderName} from '../data/genders.js';
 import {useEffect,useState} from 'react';
 import {roots,physiques,origins} from '../data/realms.js';
 import {translateName} from '../i18n/index.js';
@@ -13,20 +14,21 @@ export default function BirthReveal({run,t,language,onEnter}){
     const tick=now=>{
       if(!document.hidden)total+=Math.min(now-last,100);
       last=now;setElapsed(total);
-      if(total<4600)frame=requestAnimationFrame(tick);
+      if(total<5200)frame=requestAnimationFrame(tick);
     };
     frame=requestAnimationFrame(tick);
     return ()=>cancelAnimationFrame(frame);
   },[]);
   const rows=[
     ['Bối cảnh',run.world.descriptor,worlds,'界'],
+    ['Giới tính',genderName(run.profile),['Nam','Nữ'],'命'],
     ['Xuất thân',run.profile.origin.name,origins.map(x=>x.name),'生'],
     ['Linh căn',run.profile.root.name,roots.map(x=>x.name),'根'],
     ['Thể chất',run.profile.physique.name,physiques.map(x=>x.name),'體'],
     ['Tư chất',run.profile.talent,Array.from({length:11},(_,i)=>i*9+5),'才'],
     ['Khí vận',run.profile.luck,Array.from({length:11},(_,i)=>i*9+5),'運'],
   ];
-  const complete=skipped||elapsed>=4600;
+  const complete=skipped||elapsed>=5200;
   return <section className="birth-reveal">
     <div className="birth-orbit" aria-hidden="true"><span>命</span></div>
     <p className="eyebrow">{t('THIÊN MỆNH QUYỂN · KIẾP')} {String(run.number).padStart(3,'0')}</p>

@@ -1,5 +1,8 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Giới tính','性别','Gender'],
+  ['Nam','男','Male'],
+  ['Nữ','女','Female'],
   ['Thiên mệnh sơ khai','天命初现','A fate awakens'],
   ['Vạn duyên luân chuyển, một kiếp sắp thành.','万缘流转，一世将生。','Destinies turn. A new life takes shape.'],
   ['Bối cảnh','世间','World'],

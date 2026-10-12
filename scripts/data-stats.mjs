@@ -37,7 +37,7 @@ console.table(report.map(s=>({
 console.log('PHẠM VI VÀ ĐIỀU KIỆN');
 console.table(report.map(s=>({
   'Cảnh giới':s.realm.name,'Chỉ cảnh giới này':s.exclusive,'Dùng chung':s.shared,
-  'Có điều kiện':s.conditional,'Theo thể chất':s.physique,'Theo tông môn':s.sect,'Theo đạo lữ':s.partner,
+  'Có điều kiện':s.conditional,'Theo giới tính':s.gender,'Theo thể chất':s.physique,'Theo tông môn':s.sect,'Theo đạo lữ':s.partner,
 })));
 console.log('Tổng = riêng + dùng chung. Lựa chọn nằm trong Tổng; không cộng thêm vào tổng sự kiện.');
 console.log('Sự kiện dùng chung được tính ở từng cảnh giới phù hợp, nên không cộng các hàng để ra tổng toàn web.');

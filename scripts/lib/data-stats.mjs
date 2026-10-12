@@ -11,6 +11,7 @@ export function summarizeEvents(events){
     automatic:events.filter(e=>e.outcomes?.length).length,
     combat:events.filter(e=>e.combat).length,
     conditional:events.filter(e=>Object.keys(e.conditions||{}).length>0).length,
+    gender:events.filter(e=>e.conditions?.gender!==undefined).length,
     physique:events.filter(e=>e.conditions?.physique!==undefined).length,
     sect:events.filter(e=>e.conditions?.sectStatus!==undefined).length,
     partner:events.filter(e=>e.conditions?.partnerStatus!==undefined).length,
