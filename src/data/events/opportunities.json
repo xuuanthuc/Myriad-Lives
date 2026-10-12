@@ -873,5 +873,2606 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sparse_mortal_lime_cave",
+    "category": "opportunity",
+    "title": "Dấu vỏ sò trong núi",
+    "text": "Ngươi theo lớp đá trắng tìm tới hốc núi có vỏ sò hóa thạch. Người thợ xây mua vài mảnh rời để thử vôi, còn ngươi ghi nhớ đường tránh đá lở.",
+    "translations": {
+      "zh": {
+        "title": "山中贝痕",
+        "text": "你沿白色岩层找到藏着贝壳化石的山洞。石匠买走几块碎石试烧石灰，你则记住了避开落石的路。"
+      },
+      "en": {
+        "title": "Shell marks inside the mountain",
+        "text": "Following white stone layers leads you to fossil shells inside a mountain hollow. A mason buys loose pieces for testing lime, while you note a route avoiding rockfalls."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 6
+    }
+  },
+  {
+    "id": "sparse_mortal_buried_kiln",
+    "category": "opportunity",
+    "title": "Lò gốm dưới bãi bồi",
+    "text": "Bãi bồi sạt ra miệng lò gốm đã nguội từ nhiều đời. Ngươi lấy mảnh men rời đưa người thợ xem, đổi được tiền và biết nơi này từng có xóm cũ.",
+    "translations": {
+      "zh": {
+        "title": "淤滩埋窑",
+        "text": "淤滩露出一座冷却多年的旧陶窑。你把松脱的釉片带给陶工，换得钱，也知道此处曾有村落。"
+      },
+      "en": {
+        "title": "A kiln beneath the riverbank",
+        "text": "An eroded riverbank exposes a kiln cold for generations. Bringing loose glazed fragments to a potter earns coins and reveals that a village once stood here."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 6
+    }
+  },
+  {
+    "id": "sparse_true_immortal_pollen_stairs",
+    "category": "opportunity",
+    "title": "Bậc thang phủ phấn tiên hoa",
+    "text": "Ngươi lần theo phấn hoa tới một vườn ươm bỏ trống trên sườn núi. Những thẻ cây còn đọc được chỉ rõ cách giữ tiên hoa sống qua mùa lạnh.",
+    "translations": {
+      "zh": {
+        "title": "仙花粉石阶",
+        "text": "你沿花粉找到山坡上一处空置苗圃。尚可辨读的木牌详细记着仙花越过寒季的养护方法。"
+      },
+      "en": {
+        "title": "Steps dusted with immortal pollen",
+        "text": "Following fallen pollen leads you to an empty mountain nursery. Its surviving plant labels explain how to keep immortal flowers alive throughout the cold season."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16
+    }
+  },
+  {
+    "id": "sparse_golden_immortal_magnetic_dunes",
+    "category": "opportunity",
+    "title": "Cồn cát giữ phương hướng",
+    "text": "Một cồn cát tiên kim luôn chỉ về cực cũ dù địa hình đã đổi. Ngươi thu ít hạt rời, dùng chúng hiệu chỉnh la bàn pháp khí đang lệch hướng.",
+    "translations": {
+      "zh": {
+        "title": "定向沙丘",
+        "text": "一片仙金沙丘即使地形改变，仍指向旧日磁极。你收取少量散粒，用它们校正偏转的法器罗盘。"
+      },
+      "en": {
+        "title": "Dunes that preserve direction",
+        "text": "An immortal metal dune points toward an ancient pole despite the changing terrain. Gathering loose grains provides a reference for correcting your artifact compass’s drifting needle."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16
+    }
+  },
+  {
+    "id": "sparse_mystic_immortal_echo_fossil",
+    "category": "opportunity",
+    "title": "Hóa thạch của tiếng vang",
+    "text": "Trong vành đá tinh vực, ngươi tìm thấy khoang giữ tiếng vang từ trận rung chuyển cũ. Đo độ trễ từng âm giúp xác định đường xuyên vành đá an toàn.",
+    "translations": {
+      "zh": {
+        "title": "回声化石",
+        "text": "星域石环中，你发现保存着旧日震动回声的空腔。测量每道声音的延迟，便找到了安全穿越石环的路线。"
+      },
+      "en": {
+        "title": "A fossil of an echo",
+        "text": "Within a stellar stone ring, a hollow preserves echoes of an ancient tremor. Measuring each delay reveals a safe route through the otherwise confusing belt of rocks."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16
+    }
+  },
+  {
+    "id": "sparse_immortal_king_dry_aqueduct",
+    "category": "opportunity",
+    "title": "Máng dẫn khí trên núi cạn",
+    "text": "Ngươi khảo sát máng dẫn tiên khí bỏ hoang qua vùng núi cạn. Dấu mài trên đá cho thấy nhánh phụ còn hoạt động, mở thêm nguồn khí cho làng dưới chân núi.",
+    "translations": {
+      "zh": {
+        "title": "旱山导气渠",
+        "text": "你勘察旱山间废弃的仙气导渠。石上的磨痕显示支渠仍在运转，为山脚村落找到了一处气源。"
+      },
+      "en": {
+        "title": "An energy channel above dry mountains",
+        "text": "Surveying an abandoned energy channel above dry mountains reveals wear along an active branch. Following it uncovers another source of energy for the villages beneath the slopes."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16
+    }
+  },
+  {
+    "id": "sparse_immortal_emperor_world_shell",
+    "category": "opportunity",
+    "title": "Lớp vỏ của giới đã rỗng",
+    "text": "Ngươi khảo sát lớp vỏ của một giới đã mất hết sinh linh từ xa xưa. Những tầng đạo tích còn nguyên cho thấy cách nền giới thích nghi sau biến động.",
+    "translations": {
+      "zh": {
+        "title": "空界遗壳",
+        "text": "你考察一座远古以来已无生灵的空界遗壳。完整的道痕层次，展现了世界根基如何在剧变后重新适应。"
+      },
+      "en": {
+        "title": "The shell of an emptied world",
+        "text": "You survey the shell of a world emptied of life long ago. Its intact layers of Dao reveal how the world’s foundations adapted after a profound upheaval."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16
+    }
+  },
+  {
+    "id": "sparse_mortal_ferry_ledger",
+    "category": "opportunity",
+    "title": "Sổ nợ của người lái đò",
+    "text": "Người lái đò nhờ ngươi đối chiếu sổ nợ trước khi bán thuyền. Làm ngay có thể lỡ chuyến hàng của mình; ngươi cũng có thể giúp tìm người biết tính.",
+    "translations": {
+      "zh": {
+        "title": "船夫债簿",
+        "text": "船夫卖船前请你核对债簿。现在帮忙可能耽误自己的货运，你也可以替他找个会算账的人。"
+      },
+      "en": {
+        "title": "The ferryman’s debt ledger",
+        "text": "A ferryman asks you to check his debts before selling his boat. Helping now may delay your own delivery; you could instead find someone familiar with accounting."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 50,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "assist",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Try it yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi tìm ra khoản lãi bị ghi hai lần, giúp người lái đò giữ lại thuyền. Chuyến hàng vẫn kịp giao trước tối, còn thù lao đủ bù buổi làm.",
+            "translations": {
+              "zh": {
+                "text": "你发现利息被记了两遍，帮船夫保住船只。货物仍赶在天黑前送达，报酬也补足了这半日工钱。"
+              },
+              "en": {
+                "text": "You uncover interest entered twice, allowing the ferryman to keep his boat. Your delivery arrives before dusk, and his payment covers the hours spent checking figures."
+              }
+            },
+            "effects": {
+              "resources": 7,
+              "cultivation": 0
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Ngươi mất cả buổi dò những con số nhòe mà chưa giải được sổ nợ. Chuyến hàng phải giao sang ngày sau, khiến tiền công giảm theo điều đã hẹn.",
+            "translations": {
+              "zh": {
+                "text": "你花了半日核对模糊数字，仍未理清债簿。货物只得次日送达，工钱按约定减少。"
+              },
+              "en": {
+                "text": "Blurred figures take half a day to untangle without resolving the debts. Your delivery slips until tomorrow, reducing the payment according to the agreement you made."
+              }
+            },
+            "effects": {
+              "resources": -5
+            }
+          }
+        ]
+      },
+      {
+        "id": "observe",
+        "text": "Giúp theo cách thận trọng",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "谨慎协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help cautiously",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "observe",
+            "weight": 1,
+            "text": "Ngươi dẫn người lái đò tới một thư lại quen rồi tiếp tục chuyến hàng. Sổ nợ được để lại trên bàn, chờ người có nghề xem từng khoản.",
+            "translations": {
+              "zh": {
+                "text": "你带船夫找到熟识的书吏，随后继续运货。债簿留在桌上，等懂行的人逐项核对。"
+              },
+              "en": {
+                "text": "You introduce the ferryman to a clerk you know, then continue your delivery. His ledger remains on the desk for someone experienced to examine each entry."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse_true_immortal_cloud_furnace",
+    "category": "opportunity",
+    "title": "Lò sưởi dùng tiên vân",
+    "text": "Người thợ mời ngươi thử lò sưởi dùng tiên vân vừa cải tiến. Ngươi có thể cấp tiên lực kiểm nhiệt, hoặc chỉ đứng ngoài quan sát trước khi quyết định mua.",
+    "translations": {
+      "zh": {
+        "title": "仙云暖炉",
+        "text": "工匠邀你试用新改的仙云暖炉。你可以注入仙力测温，也可以先在外观察，再决定是否购买。"
+      },
+      "en": {
+        "title": "A heater powered by immortal clouds",
+        "text": "A craftsman invites you to test an improved cloud heater. You can supply energy to measure its warmth, or simply observe before deciding whether to buy one."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 50,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "assist",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Try it yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi giữ nhiệt lò đều suốt lượt thử, giúp người thợ sửa van dẫn khí. Họ trả công bằng tiên thạch, kèm sơ đồ bộ điều nhiệt vừa hoàn thiện.",
+            "translations": {
+              "zh": {
+                "text": "你在试用中保持炉温均匀，帮工匠修正导气阀。他付你仙石，并附上刚完善的调温器图纸。"
+              },
+              "en": {
+                "text": "Your steady heat lets the craftsman correct an intake valve during testing. Payment arrives in immortal stones, together with plans for the temperature regulator you helped complete."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 14
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Tiên vân ngưng quá nhanh khiến van lò kẹt lại giữa lượt thử. Ngươi ngắt tiên lực để tránh nổ, nhưng phải bồi thường phần ống bị cháy hỏng.",
+            "translations": {
+              "zh": {
+                "text": "仙云凝结太快，试用中的炉阀卡住。你切断仙力避免爆炸，却需赔偿烧坏的管道。"
+              },
+              "en": {
+                "text": "Clouds condense too quickly and jam the valve during testing. Cutting your energy prevents an explosion, but replacing the scorched pipe still costs you immortal stones."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "observe",
+        "text": "Giúp theo cách thận trọng",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "谨慎协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help cautiously",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "observe",
+            "weight": 1,
+            "text": "Ngươi đứng ngoài ghi nhiệt độ người thợ đo, chưa nối tiên lực vào lò. Buổi thử kết thúc, hai người hẹn kiểm tra lại van trước lần vận hành sau.",
+            "translations": {
+              "zh": {
+                "text": "你只记录工匠测出的温度，没有向炉内注入仙力。试用结束后，两人约好下次运行前再检查阀门。"
+              },
+              "en": {
+                "text": "You record the craftsman’s measurements without connecting your energy to the heater. After testing ends, you agree to inspect its valve again before another trial."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse_golden_immortal_law_library",
+    "category": "opportunity",
+    "title": "Bản luật thiếu lời chú",
+    "text": "Thư quán bán bản pháp tắc bị mất lời chú ở trang cuối. Ngươi có thể mua để tự kiểm chứng cách diễn giải, hoặc xin xem mục lục rồi rời đi.",
+    "translations": {
+      "zh": {
+        "title": "缺注法册",
+        "text": "书馆出售末页缺注的法则册。你可买下自行验证解读，也可只看目录后离开。"
+      },
+      "en": {
+        "title": "A law manual missing its commentary",
+        "text": "A library sells a law manual whose final commentary is missing. You can purchase it to test your interpretation, or inspect its contents and leave it behind."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 50,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "assist",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Try it yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi kiểm chứng từng bước và tìm được giới hạn mà lời chú bỏ trống. Bản pháp tắc trở nên dùng được, giúp vận tiên lực trong trận nhỏ chắc hơn.",
+            "translations": {
+              "zh": {
+                "text": "你逐步验证，找出缺失注释应当说明的限制。法则册终于可用，让小阵中的仙力运转更加稳妥。"
+              },
+              "en": {
+                "text": "Testing each step reveals the limitation its missing commentary should explain. The manual becomes usable, giving you a more reliable method for circulating energy through small formations."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 14
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Cách diễn giải của ngươi khiến hai đạo văn triệt tiêu giữa lần thử. Ngươi dừng trận khi nhận ra sai, mất vật liệu cùng số tiên thạch mua sách.",
+            "translations": {
+              "zh": {
+                "text": "你的解读让两道道纹在试验中互相抵消。察觉错误后你停阵，损失了材料和买书的仙石。"
+              },
+              "en": {
+                "text": "Your interpretation makes two patterns cancel each other during testing. Stopping the formation prevents further trouble, but costs the materials and stones spent buying the book."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "observe",
+        "text": "Giúp theo cách thận trọng",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "谨慎协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help cautiously",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "observe",
+            "weight": 1,
+            "text": "Ngươi chép lại mục lục được phép xem, trả bản sách về giá cũ. Chưa có lời chú đáng tin, ngươi dành tiên thạch cho những pháp môn đã hiểu rõ.",
+            "translations": {
+              "zh": {
+                "text": "你抄下获准查看的目录，将书放回原架。缺少可信注解时，你把仙石留给已经理解的法门。"
+              },
+              "en": {
+                "text": "You copy the permitted contents list and return the manual to its shelf. Without trustworthy commentary, you reserve your stones for techniques you already understand clearly."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse_mystic_immortal_reversed_beacon",
+    "category": "opportunity",
+    "title": "Hải đăng sáng ngược thời",
+    "text": "Một hải đăng tinh vực phát tín hiệu trước lúc người gác châm đèn. Ngươi được mời vào kiểm tra tầng thời gian, hoặc có thể theo dõi tín hiệu từ ngoài.",
+    "translations": {
+      "zh": {
+        "title": "逆时灯塔",
+        "text": "星域灯塔在守灯人点火前发出信号。你受邀检查时间层，也可留在外面监测灯光。"
+      },
+      "en": {
+        "title": "A beacon shining backward through time",
+        "text": "A stellar beacon sends its signal before the keeper lights it. You are invited to inspect its time layers, or you can monitor the pulses from outside."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 50,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "assist",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Try it yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi tìm được tầng thời gian gấp sai và chỉnh lại đường truyền ánh sáng. Người gác trả công, còn nhịp đảo chiều giúp ngươi hiểu thêm một điểm huyền pháp.",
+            "translations": {
+              "zh": {
+                "text": "你找到折叠错位的时间层，修正光线传递。守灯人付你报酬，那段逆转节奏也让你领悟了玄法的一处难点。"
+              },
+              "en": {
+                "text": "You locate a misplaced time fold and correct the light’s passage. The keeper pays you, while studying its reversed rhythm clarifies a difficult point in your subtle art."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 14
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Tín hiệu lặp cuốn thần thức vào cùng một nhịp khiến ngươi mất phương hướng. Ngươi phá dấu dò để thoát, phải tĩnh dưỡng trước khi tiếp tục tham ngộ.",
+            "translations": {
+              "zh": {
+                "text": "重复信号把神识卷入同一个节奏，令你迷失方向。你毁去探查印记脱身，须静养后才能继续参悟。"
+              },
+              "en": {
+                "text": "Repeating signals trap your consciousness in a single rhythm and erase your bearings. Breaking the probe mark frees you, but recovery must come before further contemplation."
+              }
+            },
+            "effects": {
+              "health": -8,
+              "cultivation": -3
+            }
+          }
+        ]
+      },
+      {
+        "id": "observe",
+        "text": "Giúp theo cách thận trọng",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "谨慎协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help cautiously",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "observe",
+            "weight": 1,
+            "text": "Ngươi đặt mốc đo ngoài hải đăng rồi giao bản ghi cho người gác. Không chạm tầng thời gian, ngươi vẫn chỉ ra được lúc tín hiệu bắt đầu lệch.",
+            "translations": {
+              "zh": {
+                "text": "你在灯塔外设下测量标记，把记录交给守灯人。没有触碰时间层，也能指出信号开始偏移的时刻。"
+              },
+              "en": {
+                "text": "You establish measuring marks outside and give your records to the keeper. Without touching the time layers, you identify the moment when its signals begin to drift."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse_immortal_king_water_rights",
+    "category": "opportunity",
+    "title": "Quyền dẫn nước qua đạo vực",
+    "text": "Hai vùng xin dẫn nước qua đường biên đạo vực nhưng chưa thống nhất phí bảo trì. Ngươi có thể tự bảo đảm tuyến thử, hoặc chờ họ lập khế ước rõ ràng.",
+    "translations": {
+      "zh": {
+        "title": "道域引水权",
+        "text": "两地请求穿过道域边界引水，却未议定维护费用。你可担保试行水路，也可等他们立下明确契约。"
+      },
+      "en": {
+        "title": "Water rights through a domain",
+        "text": "Two regions request water access through your domain without agreeing on maintenance costs. You can guarantee a trial channel, or wait until they establish clear terms."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 50,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "assist",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Try it yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Tuyến thử dẫn nước đều qua đường biên mà không ép pháp tắc địa phương. Hai vùng dựa vào kết quả ký khế ước, gửi vật liệu hoàn lại phí dựng trận.",
+            "translations": {
+              "zh": {
+                "text": "试行水路稳定穿过边界，没有压迫地方法则。两地据此签约，并送来材料补偿布阵费用。"
+              },
+              "en": {
+                "text": "The trial carries water across the boundary without straining local laws. Both regions use its results to settle their agreement and send materials covering your formation costs."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 14
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Mực nước hai vùng chênh quá lớn khiến tuyến thử đảo dòng. Ngươi đóng đường dẫn trước khi ruộng ngập, nhưng phải dùng vật liệu riêng sửa những điểm neo hỏng.",
+            "translations": {
+              "zh": {
+                "text": "两地水位相差过大，试行水路发生倒流。你赶在田地被淹前关闭通道，却须自备材料修复损坏的锚点。"
+              },
+              "en": {
+                "text": "Unequal water levels reverse the trial current. Closing the channel prevents flooded fields, but repairing its damaged anchors consumes materials from your own reserves afterward."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "observe",
+        "text": "Giúp theo cách thận trọng",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "谨慎协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help cautiously",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "observe",
+            "weight": 1,
+            "text": "Ngươi giữ đường biên nguyên trạng, đề nghị hai vùng ghi rõ trách nhiệm trước. Những người thương lượng quay lại bàn, còn tuyến nước chưa được nối vào đạo vực.",
+            "translations": {
+              "zh": {
+                "text": "你保持边界原状，请两地先写清各自责任。谈判者回到桌前，水路尚未接入道域。"
+              },
+              "en": {
+                "text": "You preserve the boundary and ask both regions to define their responsibilities first. Negotiators return to the table while the proposed channel remains disconnected from your domain."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse_immortal_emperor_world_dream",
+    "category": "opportunity",
+    "title": "Giấc mơ xin hình hài",
+    "text": "Một giới chưa thành gửi tới ngươi ý niệm muốn có hình hài cố định. Ngươi có thể cấp đạo nguyên để thử, hoặc quan sát thêm những chu kỳ tự biến đổi.",
+    "translations": {
+      "zh": {
+        "title": "求形之梦",
+        "text": "未成之界传来想要固定形态的意念。你可给予道源试验，也可继续观察它自行变化的周期。"
+      },
+      "en": {
+        "title": "A dream asking for form",
+        "text": "An unformed world sends you a wish for a fixed shape. You can offer Dao essence for a trial, or observe more of its naturally changing cycles."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 50,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "assist",
+        "text": "Trực tiếp thử sức",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自尝试",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Try it yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Đạo nguyên giúp giới non giữ được hình hài qua một chu kỳ mà không mất khả năng biến đổi. Quan sát ranh giới ấy mở thêm hướng hiểu về nền đại đạo.",
+            "translations": {
+              "zh": {
+                "text": "道源让幼界在一个周期内保持形态，又不失变化能力。观察这道界限，为理解大道根基开辟了新方向。"
+              },
+              "en": {
+                "text": "Your essence lets the young world retain its shape for one cycle without losing its ability to change. That balance offers another way to understand the Dao’s foundations."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 14
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Giới non khước từ hình hài giữa lần thử, làm đạo nguyên tan thành dòng hỗn độn. Ngươi thu ý chí về kịp lúc, nhưng phần nguyên lực đã cấp không lấy lại được.",
+            "translations": {
+              "zh": {
+                "text": "幼界在试验中排斥固定形态，道源散成混乱气流。你及时收回意志，却无法取回已经给予的力量。"
+              },
+              "en": {
+                "text": "The young world rejects its shape during the trial, scattering your essence into chaotic currents. Withdrawing your will prevents harm, but the power already given cannot return."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "observe",
+        "text": "Giúp theo cách thận trọng",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "谨慎协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help cautiously",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "observe",
+            "weight": 1,
+            "text": "Ngươi chưa cấp đạo nguyên, chỉ ghi lại mỗi lần giới non đổi dạng. Ý niệm của nó vẫn được lắng nghe, chờ khi cả hai hiểu rõ nhu cầu ấy hơn.",
+            "translations": {
+              "zh": {
+                "text": "你暂不给予道源，只记录幼界每次变形。它的意念仍被倾听，等待双方更明白这份需求的时候。"
+              },
+              "en": {
+                "text": "You withhold essence and record each change in the young world’s form. Its wish remains heard while you wait for a clearer understanding of what it needs."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_mortal_tide_marks",
+    "category": "opportunity",
+    "title": "Vạch triều trên cọc cũ",
+    "text": "Ngươi tìm thấy hàng cọc có vạch triều sau bụi lau ven biển. Đối chiếu với nước hiện tại giúp chọn giờ nhặt sò an toàn, mang về phần đủ bán.",
+    "translations": {
+      "zh": {
+        "title": "旧桩潮痕",
+        "text": "你在海边芦丛后发现刻着潮位的旧桩。对照如今水位，便选到安全拾贝的时刻，收获足够拿去卖。"
+      },
+      "en": {
+        "title": "Tide marks on old posts",
+        "text": "Old posts behind coastal reeds bear tide marks. Comparing them with the present water level reveals a safe hour for gathering enough shellfish to sell afterward."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 6
+    }
+  },
+  {
+    "id": "sparse2_mortal_red_clay",
+    "category": "opportunity",
+    "title": "Đất đỏ sau tổ mối",
+    "text": "Sau tổ mối lớn, ngươi thấy lớp đất đỏ khác màu ruộng chung quanh. Thợ nhuộm thử một nắm rồi mua phần ngươi đào được, dùng làm màu cho vải thô.",
+    "translations": {
+      "zh": {
+        "title": "白蚁巢后红土",
+        "text": "大白蚁巢后有层红土，与附近田土不同。染匠试了一把后买下你挖出的部分，用来染粗布。"
+      },
+      "en": {
+        "title": "Red earth behind a termite mound",
+        "text": "Behind a large termite mound, red earth differs from the surrounding field. A dyer tests a handful and buys what you dig out for coloring coarse cloth."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 7
+    }
+  },
+  {
+    "id": "sparse2_mortal_cool_cellar",
+    "category": "opportunity",
+    "title": "Hầm mát dưới nền nhà cũ",
+    "text": "Ngươi khảo sát nền nhà bỏ trống được phép dọn, thấy hầm giữ mát nhờ khe thông gió. Chủ đất trả công chỉ vị trí, định sửa lại để cất rau.",
+    "translations": {
+      "zh": {
+        "title": "旧宅地下凉窖",
+        "text": "清理获准打扫的空宅时，你发现通风缝使地下窖保持凉爽。地主付你勘查的钱，打算修好后储菜。"
+      },
+      "en": {
+        "title": "A cool cellar beneath an old house",
+        "text": "Surveying an empty house with its owner’s permission reveals a cellar cooled by ventilation gaps. The owner pays for your discovery and plans to restore it for vegetables."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 6
+    }
+  },
+  {
+    "id": "sparse2_true_immortal_root_gallery",
+    "category": "opportunity",
+    "title": "Lối rễ dưới tiên mộc",
+    "text": "Ngươi theo khe giữa rễ tiên mộc tới khoang đất chưa có người ghi chép. Nấm tiên mọc trên phần gỗ mục được hái vừa đủ, để đường rễ còn nguyên.",
+    "translations": {
+      "zh": {
+        "title": "仙木根廊",
+        "text": "你沿仙木根间缝隙找到未被记载的土穴。只采少量腐木上的仙菇，让根部通道保持完好。"
+      },
+      "en": {
+        "title": "A passage beneath immortal tree roots",
+        "text": "Following gaps beneath immortal tree roots reveals an unrecorded earthen chamber. You gather a few mushrooms from decaying wood while leaving the surrounding roots and passage intact."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16,
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse2_golden_immortal_glass_riverbed",
+    "category": "opportunity",
+    "title": "Lòng suối hóa lưu ly",
+    "text": "Ngươi khảo sát lòng suối cạn nơi pháp tắc nhiệt từng hóa đá thành lưu ly. Các lớp màu cho biết nhiệt đã đổi ra sao, giúp chọn vật liệu chịu lửa.",
+    "translations": {
+      "zh": {
+        "title": "琉璃溪床",
+        "text": "你考察一处被热法则熔成琉璃的干溪床。不同色层记录温度变化，帮助你挑选耐火材料。"
+      },
+      "en": {
+        "title": "A streambed turned to glass",
+        "text": "You survey a dry streambed glazed by an ancient heat law. Its colored layers record changing temperatures and help you choose materials capable of enduring stronger fire."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 17
+    }
+  },
+  {
+    "id": "sparse2_mystic_immortal_stone_dock",
+    "category": "opportunity",
+    "title": "Dấu bến tàu trong tinh nham",
+    "text": "Ngươi khảo sát bến tàu cổ khắc vào tinh nham, thấy các rãnh neo hướng về vùng trống. Bộ dẫn lực tháo rời còn dùng được, đủ sửa chỗ neo tinh thuyền.",
+    "translations": {
+      "zh": {
+        "title": "星岩中的古码头",
+        "text": "你考察刻入星岩的古码头，发现锚槽朝向一片空域。拆下的导力装置仍可使用，足以修补星舟的停泊锚点。"
+      },
+      "en": {
+        "title": "An ancient dock carved into star rock",
+        "text": "Surveying a dock carved into star rock reveals anchor grooves facing empty space. Its removable force guides still work, providing parts for repairing your star vessel’s mooring point."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 18
+    }
+  },
+  {
+    "id": "sparse2_immortal_king_underground_roots",
+    "category": "opportunity",
+    "title": "Rễ đạo dưới con đường cũ",
+    "text": "Khi khảo sát đường cũ, ngươi thấy các rễ đạo nối những làng đã mất liên lạc. Lần theo nhánh còn nguyên giúp tìm chỗ dựng lại trạm chuyển tin cho vùng xa.",
+    "translations": {
+      "zh": {
+        "title": "旧路下的道根",
+        "text": "勘察旧路时，你发现道根连着失去联系的村落。沿完整支脉追查，找到了重建远地传讯站的位置。"
+      },
+      "en": {
+        "title": "Roots of law beneath an old road",
+        "text": "Surveying an old road reveals roots of law linking isolated villages. Following intact branches identifies a place to rebuild a message relay serving the more distant settlements."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 18
+    }
+  },
+  {
+    "id": "sparse2_immortal_emperor_law_migration",
+    "category": "opportunity",
+    "title": "Dấu chân của pháp tắc di cư",
+    "text": "Ngươi khảo sát những pháp tắc rời một giới cạn đạo nguyên, theo dấu tới vùng hư vô mới. Các đường đi còn giữ nhịp cũ, cho thấy cách chúng tìm nền khác.",
+    "translations": {
+      "zh": {
+        "title": "迁徙法则的足迹",
+        "text": "你追查离开道源枯竭之界的法则，一路来到新的虚无区域。轨迹保留旧节奏，显出它们寻找新根基的方法。"
+      },
+      "en": {
+        "title": "Footprints of migrating laws",
+        "text": "You trace laws leaving a world depleted of Dao essence into a new stretch of void. Their paths preserve old rhythms, revealing how they seek another foundation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 19
+    }
+  },
+  {
+    "id": "sparse2_mortal_oil_press",
+    "category": "opportunity",
+    "title": "Trục ép dầu chờ người sửa",
+    "text": "Người giữ lò dầu nhờ ngươi chỉnh trục ép bị lệch trước buổi bán. Ngươi có thể thử sửa để lấy công, hoặc giúp gọi thợ chuyên làm loại máy ấy.",
+    "translations": {
+      "zh": {
+        "title": "榨油轴待修",
+        "text": "油坊掌柜请你在开卖前校正偏斜的压轴。你可以尝试修好赚工钱，也可以帮忙请来熟悉这类机器的工匠。"
+      },
+      "en": {
+        "title": "An oil press waiting for repairs",
+        "text": "An oil seller asks you to align a crooked press shaft before opening. You can attempt repairs for wages, or help summon a craftsman familiar with the machine."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi kê lại chân máy rồi chỉnh trục đúng rãnh, khiến dầu chảy đều hơn. Người giữ lò trả đủ công, cho thêm chai dầu nhỏ mang về dùng bếp.",
+            "translations": {
+              "zh": {
+                "text": "你垫稳机脚，把轴调回槽中，油流便均匀了。掌柜付足工钱，另给一小瓶油带回家用。"
+              },
+              "en": {
+                "text": "You level the machine’s feet and align its shaft, restoring an even flow. The seller pays your wages and adds a small bottle of oil for cooking."
+              }
+            },
+            "effects": {
+              "resources": 7
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Ngươi thử chỉnh khi chân máy còn nghiêng, làm rãnh trục sứt thêm một góc. Người giữ lò phải dừng ép, còn ngươi bù phần gỗ thay theo lời nhận việc.",
+            "translations": {
+              "zh": {
+                "text": "机脚仍歪时你便校轴，导致轴槽又崩一角。掌柜只得停工，你按接活时的约定赔了换木的钱。"
+              },
+              "en": {
+                "text": "Aligning the shaft before leveling the feet chips its groove. The seller must stop pressing, and you cover replacement wood under the terms agreed before starting."
+              }
+            },
+            "effects": {
+              "resources": -5
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi tìm người thợ có dụng cụ chỉnh trục rồi quay lại báo giờ họ tới. Lò dầu vẫn dừng trong lúc chờ, nhưng ngươi không phải nhận việc quá sức.",
+            "translations": {
+              "zh": {
+                "text": "你找到有校轴工具的工匠，回来报了抵达时间。油坊暂时停工等候，你也没有接下超出能力的活。"
+              },
+              "en": {
+                "text": "You find a craftsman equipped to align shafts and report when they will arrive. The press stays idle while waiting, and you avoid accepting work beyond your skills."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_mortal_unclaimed_net",
+    "category": "opportunity",
+    "title": "Tấm lưới không ai nhận",
+    "text": "Tấm lưới dạt vào bờ có dấu nhà chài đã chuyển đi, người trong xóm chưa ai nhận. Ngươi có thể dò nơi họ đến, hoặc giao người quản bến giữ hộ.",
+    "translations": {
+      "zh": {
+        "title": "无人认领的渔网",
+        "text": "漂上岸的渔网带着搬走渔户的标记，村里无人认领。你可以查访他们的去处，也可以交渡口管事代存。"
+      },
+      "en": {
+        "title": "A net nobody claims",
+        "text": "A washed up net bears the mark of a fishing family that moved away. You can trace their destination, or ask the harbor keeper to safeguard it."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi hỏi được nơi nhà chài chuyển đến và trả lưới còn nguyên phần chì. Họ gửi tiền cảm ơn, đủ bù chuyến đi cùng bữa ăn dọc đường về.",
+            "translations": {
+              "zh": {
+                "text": "你问出渔户的新住处，送回铅坠齐全的渔网。他们给的谢钱，足以补上路费和归途的饭钱。"
+              },
+              "en": {
+                "text": "You locate the family and return the net with its lead weights intact. Their thanks cover your journey and a meal along the road back home."
+              }
+            },
+            "effects": {
+              "resources": 7
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Ngươi đi theo địa chỉ cũ nhưng nhà chài đã chuyển thêm lần nữa. Đưa lưới trở về bến, ngươi mất tiền đường mà chưa tìm được đúng người nhận.",
+            "translations": {
+              "zh": {
+                "text": "你按旧地址寻找，渔户却又搬过一次。把网带回渡口后，路费已花去，真正的主人仍未找到。"
+              },
+              "en": {
+                "text": "Following an old address reveals that the family moved again. Returning the net to the harbor leaves you out of pocket without finding its rightful owner."
+              }
+            },
+            "effects": {
+              "resources": -5
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi giao lưới cho người quản bến, nhờ ghi rõ dấu nhận dạng lên sổ. Tấm lưới được cất trong kho, chờ chủ nhân hoặc người biết họ tới hỏi.",
+            "translations": {
+              "zh": {
+                "text": "你把网交给渡口管事，请他在簿上记清标记。渔网收进仓里，等主人或认识他们的人来询问。"
+              },
+              "en": {
+                "text": "You leave the net with the harbor keeper and have its markings recorded. It waits in storage for its owner or someone who knows the family."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_true_immortal_scent_distiller",
+    "category": "opportunity",
+    "title": "Nồi cất hương từ tiên quả",
+    "text": "Người chế hương cần tiên lực ổn định để thử nồi cất từ vỏ tiên quả. Ngươi có thể trực tiếp dẫn khí, hoặc chỉ giúp phân loại vỏ trước buổi thử.",
+    "translations": {
+      "zh": {
+        "title": "仙果蒸香锅",
+        "text": "制香师需要稳定仙力，试用以仙果皮蒸香的新锅。你可亲自引气，也可只在试验前帮忙分类果皮。"
+      },
+      "en": {
+        "title": "A still for immortal fruit fragrance",
+        "text": "A perfumer needs steady energy to test a still using immortal fruit peel. You can guide its current yourself, or simply sort the peel before testing starts."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi giữ dòng khí vừa đủ để hương tách ra mà không cháy vỏ. Người chế hương chia tiền bán mẻ đầu, kèm một túi hương giúp tĩnh thất dễ chịu.",
+            "translations": {
+              "zh": {
+                "text": "你把气流维持得恰到好处，让香气析出而不焦皮。制香师分给你首批收入，另送一袋静室香料。"
+              },
+              "en": {
+                "text": "Your steady current extracts fragrance without scorching the peel. The perfumer shares earnings from the first batch and adds a sachet that makes your chamber more pleasant."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Tiên lực dồn quá nhanh khiến hơi hương kết đặc trong ống dẫn. Ngươi dừng nồi trước khi tăng áp, nhưng phải trả vật liệu thay ống và mẻ vỏ hỏng.",
+            "translations": {
+              "zh": {
+                "text": "仙力来得太急，香气在导管中凝结。你在压力升高前停锅，却须赔偿换管材料和损坏的果皮。"
+              },
+              "en": {
+                "text": "Energy arrives too quickly and condenses fragrance inside the pipe. Stopping the still prevents rising pressure, but replacing the pipe and spoiled peel costs your own stones."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi chia vỏ theo độ khô, để phần dẫn tiên lực cho người đã quen nồi. Buổi chuẩn bị xong, ngươi rời xưởng trước khi họ bắt đầu đốt lửa.",
+            "translations": {
+              "zh": {
+                "text": "你按干燥程度分好果皮，把引仙力交给熟悉蒸锅的人。准备完毕后，你在开火之前离开工坊。"
+              },
+              "en": {
+                "text": "You sort peel by dryness and leave the energy work to someone familiar with the still. Preparations complete, you depart the workshop before its fire is lit."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_golden_immortal_grain_seal",
+    "category": "opportunity",
+    "title": "Ấn giữ hạt không nảy mầm",
+    "text": "Kho lương mời ngươi thử ấn pháp tắc giữ hạt khỏi nảy mầm trong mùa ẩm. Ngươi có thể chỉnh mẫu trên một bao nhỏ, hoặc đợi thợ chuyên bảo quản tới.",
+    "translations": {
+      "zh": {
+        "title": "抑芽粮印",
+        "text": "粮仓请你试用防止湿季发芽的法则印。你可在小袋粮食上调试，也可等专业保管师到来。"
+      },
+      "en": {
+        "title": "A seal preventing grain from sprouting",
+        "text": "A granary requests a law seal to prevent sprouting during humid weather. You can test an adjustment on a small sack, or wait for its preservation specialist."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi chỉnh ấn chỉ tác động lớp vỏ hạt, để phần ruột không mất chất. Mẫu thử giữ được qua ngày ẩm, người coi kho trả công cùng bản đo kết quả.",
+            "translations": {
+              "zh": {
+                "text": "你把印记调到只影响外壳，不损内里的养分。样粮经潮湿天气仍完好，仓管付了报酬并给你测量记录。"
+              },
+              "en": {
+                "text": "You limit the seal to each grain’s husk, preserving the nourishment inside. The sample survives humid weather, earning payment and measurements useful for understanding the law."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Ấn pháp tắc dừng cả sự sống bên trong hạt thay vì chỉ ngăn mầm. Ngươi tháo mẫu ngay sau kiểm tra, nhưng phải đền bao lương đã không dùng được.",
+            "translations": {
+              "zh": {
+                "text": "法则印不只抑芽，还停止了粮粒内部的生机。你检查后立刻解除试印，却须赔偿那袋失去用途的粮食。"
+              },
+              "en": {
+                "text": "The seal halts life inside the grain instead of merely preventing sprouts. Removing it after inspection limits damage, but you must replace the sack it rendered unusable."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi niêm mẫu chưa dùng, ghi rõ độ ẩm kho để người bảo quản xem sau. Không sửa ấn khi thiếu kinh nghiệm, ngươi để nguyên những bao lương còn lại.",
+            "translations": {
+              "zh": {
+                "text": "你封好未用样粮，记下仓内湿度供保管师查看。经验不足时不改印记，其余粮袋也保持原状。"
+              },
+              "en": {
+                "text": "You seal the unused sample and record humidity for the specialist. Leaving the seal alone until someone experienced arrives preserves the remaining grain sacks in their present condition."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_mystic_immortal_night_record",
+    "category": "opportunity",
+    "title": "Bản ghi của đêm chưa qua",
+    "text": "Đài quan sát nhận hai bản ghi cùng một đêm nhưng thời điểm kết thúc khác nhau. Ngươi có thể nhập huyền cảnh đối chiếu, hoặc chỉ kiểm dấu máy đo từ ngoài.",
+    "translations": {
+      "zh": {
+        "title": "未尽之夜的记录",
+        "text": "观测台收到同一夜的两份记录，结束时刻却不同。你可进入玄境比对，也可只在外检查仪器标记。"
+      },
+      "en": {
+        "title": "The record of an unfinished night",
+        "text": "An observatory receives two records of the same night with different ending times. You can enter their subtle realm to compare them, or inspect the instruments outside."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Trong huyền cảnh, ngươi thấy một máy đo giữ nhịp của tinh đảo cũ. Chỉnh lại bản ghi giúp quan trắc thống nhất, còn nhịp sai mở thêm góc hiểu thời gian.",
+            "translations": {
+              "zh": {
+                "text": "玄境中，你发现一台仪器保留了旧星岛的节奏。修正记录后观测一致，错误节奏也让你更理解时间。"
+              },
+              "en": {
+                "text": "Within the subtle realm, one instrument still follows an old island rhythm. Correcting its record reconciles the observations, while the discrepancy deepens your understanding of time."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Hai bản ghi kéo thần thức về hai nhịp trái nhau khiến ngươi khó thoát huyền cảnh. Ngươi cắt liên hệ để tỉnh, rồi dành nhiều ngày dưỡng lại khả năng cảm nhận.",
+            "translations": {
+              "zh": {
+                "text": "两份记录把神识拉向相反节奏，令你难离玄境。你切断联系醒来，随后花多日恢复感知能力。"
+              },
+              "en": {
+                "text": "The records pull your consciousness into conflicting rhythms, trapping it within the subtle realm. Severing contact wakes you, but restoring your perception takes several days of recovery."
+              }
+            },
+            "effects": {
+              "health": -8,
+              "cultivation": -3
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi kiểm dấu máy đo và ghi rõ bản nào cần đối chiếu thêm. Hai bản ghi vẫn được cất riêng, chưa nhập thành một đêm theo suy đoán vội vàng.",
+            "translations": {
+              "zh": {
+                "text": "你核查仪器标记，注明哪份记录仍需比对。两份记录继续分开保存，没有因匆忙猜测而并成同一夜。"
+              },
+              "en": {
+                "text": "You inspect instrument marks and flag the record requiring further comparison. Both remain separately stored, preserving their differences until a careful explanation of that night becomes possible."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_immortal_king_seed_vault",
+    "category": "opportunity",
+    "title": "Kho giống xin mở sớm",
+    "text": "Kho giống xin mở sớm vì một vùng vừa đổi mùa, nhưng trận giữ hạt chưa tới kỳ tháo. Ngươi có thể điều chỉnh đạo vực, hoặc cho họ tìm nguồn giống khác.",
+    "translations": {
+      "zh": {
+        "title": "种库请求提前开门",
+        "text": "一地季节刚变，种库请求提前开放，但护种阵尚未到解除时限。你可调整道域，也可让他们另寻种源。"
+      },
+      "en": {
+        "title": "A seed vault requesting an early opening",
+        "text": "A region’s changed season prompts an early seed request, though its vault formation is not ready. You can adjust your domain, or direct them toward another seed source."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi tách một ngăn khỏi nhịp trận chung để lấy giống mà không đánh thức cả kho. Vùng cần gieo kịp nhận hạt, gửi vật liệu bù phần trận đã điều chỉnh.",
+            "translations": {
+              "zh": {
+                "text": "你把一个库格从总阵节奏中分开，取种而不唤醒整库。需播种的地方及时收到种子，并送来补阵材料。"
+              },
+              "en": {
+                "text": "You separate one compartment’s rhythm, releasing seeds without awakening the entire vault. The region receives them in time and sends materials to compensate for the adjusted formation."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Nhịp đạo vực không khớp lớp giữ hạt khiến một ngăn kho mất khí lạnh. Ngươi đóng lại trước khi lan rộng, rồi bù vật liệu để dựng lại phần bảo quản hỏng.",
+            "translations": {
+              "zh": {
+                "text": "道域节奏与护种层不合，使一个库格失去冷气。你及时关闭避免扩散，再补上材料修复损坏的保管阵。"
+              },
+              "en": {
+                "text": "Your domain rhythm clashes with the seed layer, warming one compartment. Closing it prevents wider damage, but restoring the failed preservation section requires materials from your stores."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi giữ trận kho theo kỳ cũ, gửi danh sách những nơi có giống đang sẵn. Người xin mở kho chuyển lời hỏi sang đó, để hạt ngủ chưa phải chịu thay đổi.",
+            "translations": {
+              "zh": {
+                "text": "你维持种库原有时限，送去已有现成种子的地点名单。请求者转向那些地方询问，库中休眠的种子不必受扰。"
+              },
+              "en": {
+                "text": "You preserve the vault’s schedule and provide a list of available seed sources. The petitioners approach those places instead, leaving the sleeping seeds undisturbed by an early opening."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse2_immortal_emperor_borrowed_dawn",
+    "category": "opportunity",
+    "title": "Bình minh một giới muốn mượn",
+    "text": "Một giới thiếu ánh sáng muốn mượn nhịp bình minh từ đạo tràng của ngươi. Ngươi có thể thử nối một chu kỳ, hoặc chờ họ hoàn thiện nguồn sáng riêng.",
+    "translations": {
+      "zh": {
+        "title": "一界欲借晨光",
+        "text": "一座缺光世界想借你道场的晨光节奏。你可试接一个周期，也可等他们完善自己的光源。"
+      },
+      "en": {
+        "title": "A world wishing to borrow a dawn",
+        "text": "A dim world wishes to borrow the dawn rhythm of your sanctuary. You can connect it for one trial cycle, or wait for its own light source to mature."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Nhận việc trực tiếp",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on yourself",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi nối nhịp bình minh mà giữ nguyên chiều dài ngày đêm của giới ấy. Sinh linh nhận ánh sáng đúng kỳ, còn đường nối cho thấy cách hai nền đạo tương hợp.",
+            "translations": {
+              "zh": {
+                "text": "你接入晨光节奏，同时保留该界昼夜长度。生灵按时获得光明，连接之路也展现了两种道基如何相容。"
+              },
+              "en": {
+                "text": "You share dawn while preserving the world’s own day length. Its inhabitants receive light on schedule, and the connection reveals how two different foundations can coexist."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Nhịp bình minh kéo dài ngày của giới nhận khiến pháp tắc địa phương lệch mùa. Ngươi tháo nối trước khi sinh linh chịu hại, nhưng mất đạo nguyên dùng cho lần thử.",
+            "translations": {
+              "zh": {
+                "text": "晨光节奏拉长受光之界的白昼，使地方法则错季。你在生灵受害前断开连接，却损失了试验所用道源。"
+              },
+              "en": {
+                "text": "Your dawn rhythm lengthens the receiving world’s day and disrupts its seasons. Disconnecting before inhabitants suffer prevents harm, but the Dao essence invested in testing is lost."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Chọn cách khác để giúp",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "换一种方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi chưa nối bình minh, chỉ gửi bản quan sát để họ tự xây nguồn sáng. Đạo tràng giữ nhịp cũ, còn giới thiếu sáng có thêm cách kiểm tra công việc.",
+            "translations": {
+              "zh": {
+                "text": "你暂不连接晨光，只送去观测记录供他们自建光源。道场保持旧节奏，缺光世界也多了检验工程的方法。"
+              },
+              "en": {
+                "text": "You withhold the connection and send observations for building an independent light source. Your sanctuary keeps its rhythm while the dim world gains another way to check progress."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse3_mortal_sand_water",
+    "category": "opportunity",
+    "title": "Nước ngọt dưới bãi cát",
+    "text": "Ngươi lần theo cây cỏ xanh giữa bãi cát khô, tìm được tầng nước ngọt nông. Người trồng rau trả công đánh dấu chỗ đào, để giếng mới tránh phần đất dễ sụt.",
+    "translations": {
+      "zh": {
+        "title": "沙地下淡水",
+        "text": "你沿干沙地中的绿草找到浅层淡水。菜农付钱请你标出挖井位置，避开容易坍塌的土层。"
+      },
+      "en": {
+        "title": "Fresh water beneath the sand",
+        "text": "Following green plants across dry sand reveals shallow fresh water. A vegetable grower pays you to mark a well site away from ground likely to collapse during digging."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 7
+    }
+  },
+  {
+    "id": "sparse3_true_immortal_cloud_geodes",
+    "category": "opportunity",
+    "title": "Hốc đá trong chân mây",
+    "text": "Ngươi khảo sát những hốc đá nằm dưới chân mây đứng yên, thấy tinh sương kết ở mặt khuất. Thu phần đã rời vách giúp có vật liệu vá trận che mưa.",
+    "translations": {
+      "zh": {
+        "title": "云脚石穴",
+        "text": "你勘察静止云层下的石穴，发现背光处凝着晶霜。收取已经脱离岩壁的部分，便有材料修补挡雨阵。"
+      },
+      "en": {
+        "title": "Stone hollows beneath a cloud bank",
+        "text": "Surveying hollows beneath a stationary cloud reveals crystal frost upon shaded walls. Gathering loose pieces provides materials for repairing the formation that keeps rain from your dwelling."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 16
+    }
+  },
+  {
+    "id": "sparse3_golden_immortal_mending_stone",
+    "category": "opportunity",
+    "title": "Đá tự liền sau va chạm",
+    "text": "Ngươi khảo sát bãi đá tự lấp vết nứt sau va chạm, thấy pháp tắc phục hồi còn lưu. Thu mảnh đã rời giúp có vật liệu sửa vỏ pháp khí.",
+    "translations": {
+      "zh": {
+        "title": "碰撞后自合的岩石",
+        "text": "你勘察碰撞后自行合拢裂缝的岩石，发现残留的修复法则。收取已经脱落的碎片，便有材料修补法器外壳。"
+      },
+      "en": {
+        "title": "Stone that mends after an impact",
+        "text": "Surveying stones that close their cracks after impacts reveals a lingering restoration law. Gathering detached fragments supplies material for repairing the outer shell of your artifact."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 17
+    }
+  },
+  {
+    "id": "sparse3_mystic_immortal_star_ice_layers",
+    "category": "opportunity",
+    "title": "Các lớp băng giữ vị trí sao",
+    "text": "Ngươi khảo sát băng trong hang tinh đảo, thấy mỗi lớp giữ một vị trí sao khác. Đối chiếu thứ tự lớp giúp xác định chu kỳ đảo trôi, bổ sung bản đồ đường về.",
+    "translations": {
+      "zh": {
+        "title": "留星位的冰层",
+        "text": "你勘察星岛洞中的冰层，发现每层留着不同星位。比对层次先后便能测出浮岛周期，补全归途地图。"
+      },
+      "en": {
+        "title": "Ice layers retaining the stars’ positions",
+        "text": "Surveying ice within an island cave reveals different star positions in each layer. Comparing their sequence identifies the island’s drifting cycle and improves your map of the return journey."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 18
+    }
+  },
+  {
+    "id": "sparse3_immortal_king_old_terraces",
+    "category": "opportunity",
+    "title": "Ruộng bậc thang theo đạo tuyến",
+    "text": "Ngươi khảo sát ruộng bậc thang bỏ trống, thấy bờ đá bám theo đạo tuyến dưới đất. Đường giữ khí còn nguyên có thể dùng để phục hồi đất mà ít dựng trận.",
+    "translations": {
+      "zh": {
+        "title": "沿道线的梯田",
+        "text": "你勘察空置梯田，发现石埂沿着地下道线排列。完整的留气路径能帮助恢复土地，减少重新布阵的耗费。"
+      },
+      "en": {
+        "title": "Terraces following lines of law",
+        "text": "Surveying empty terraces reveals stone banks following underground law lines. Their intact energy paths offer a way to restore the soil while reducing the need for new formations."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 18
+    }
+  },
+  {
+    "id": "sparse3_immortal_emperor_law_rainbow",
+    "category": "opportunity",
+    "title": "Quang phổ của đạo nguyên cạn",
+    "text": "Ngươi khảo sát đạo nguyên gần cạn trong một vùng thiên ngoại không người ở. Quang phổ thay đổi trước lúc tắt giúp tìm dấu báo sớm cho những nền giới thiếu lực.",
+    "translations": {
+      "zh": {
+        "title": "将尽道源的光谱",
+        "text": "你勘察无人天外区域中将尽的道源。熄灭前变化的光谱，给力量不足的世界根基提供了早期预警的线索。"
+      },
+      "en": {
+        "title": "The spectrum of fading Dao essence",
+        "text": "Surveying fading Dao essence in an uninhabited region reveals a changing spectrum before extinction. Those shifts offer early warning signs for world foundations running short of support."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 19
+    }
+  },
+  {
+    "id": "sparse3_mortal_parcel_seal",
+    "category": "opportunity",
+    "title": "Dấu niêm trên kiện hàng",
+    "text": "Người gửi hàng nhờ ngươi chứng kiến niêm kiện gốm trước chuyến giao xa. Ngươi có thể nhận kiểm từng món để lấy công, hoặc chỉ giới thiệu người kiểm hàng quen.",
+    "translations": {
+      "zh": {
+        "title": "货箱封记",
+        "text": "寄货人请你见证远送陶器的封箱。你可逐件检查赚取工钱，也可介绍熟悉的验货人。"
+      },
+      "en": {
+        "title": "The seal on a parcel",
+        "text": "A sender asks you to witness sealing pottery for a distant delivery. You can check each item for wages, or introduce an inspector familiar with the work."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp nhận việc",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on directly",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi phát hiện tấm lót dưới đáy quá mỏng, nhờ thay trước khi niêm kiện. Người gửi trả công kiểm hàng, còn những món gốm được xếp lại chắc chắn hơn.",
+            "translations": {
+              "zh": {
+                "text": "你发现箱底衬垫太薄，请寄货人先更换再封箱。他付了验货工钱，陶器也重新摆得更稳。"
+              },
+              "en": {
+                "text": "You notice the bottom padding is too thin and request replacement before sealing. The sender pays for inspection, and the pottery is packed more securely afterward."
+              }
+            },
+            "effects": {
+              "resources": 7
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Ngươi để sót vết rạn dưới quai bình rồi nhận dấu kiểm trên kiện. Người gửi phát hiện trước chuyến đi, nhưng ngươi phải bù món hỏng theo điều đã thỏa thuận.",
+            "translations": {
+              "zh": {
+                "text": "你漏看了壶柄下的裂纹，在箱上盖了验记。寄货人在出发前发现，你仍须按约赔偿损坏的器物。"
+              },
+              "en": {
+                "text": "You overlook a crack beneath a jar’s handle and approve the parcel. The sender discovers it before departure, but you replace the damaged piece under your agreement."
+              }
+            },
+            "effects": {
+              "resources": -5
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Giúp theo cách khác",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "以别的方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi dẫn người kiểm hàng quen tới, để họ chịu trách nhiệm xem từng món gốm. Dấu niêm chưa đóng khi ngươi rời đi, còn chuyến giao đợi đủ người xác nhận.",
+            "translations": {
+              "zh": {
+                "text": "你请来熟识的验货人，由他负责逐件查看陶器。离开时封记尚未盖上，货运仍等各方确认。"
+              },
+              "en": {
+                "text": "You bring a trusted inspector to examine each piece of pottery. The seal remains unset when you leave, and the shipment awaits confirmation from the people responsible."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse3_true_immortal_moon_ferry",
+    "category": "opportunity",
+    "title": "Chuyến đò thử qua bóng nguyệt",
+    "text": "Người lái tiên đò thử tuyến qua bóng nguyệt để rút ngắn quãng đường. Ngươi có thể giúp giữ tiên lực ở mũi thuyền, hoặc đo dòng nước từ bờ trước chuyến thử.",
+    "translations": {
+      "zh": {
+        "title": "试渡月影",
+        "text": "仙舟船夫试开穿过月影的捷径。你可在船首稳住仙力，也可在试航前留岸测量水流。"
+      },
+      "en": {
+        "title": "A trial ferry across a moon reflection",
+        "text": "An immortal ferryman tests a shortcut through a moon reflection. You can steady energy at the bow, or measure the current from shore before the trial begins."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp nhận việc",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on directly",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi giữ mũi thuyền không lệch bóng nguyệt tới khi sang bờ đối diện. Người lái trả công, còn bản ghi dòng nước cho thấy cách tiên khí dẫn vật qua mặt phản chiếu.",
+            "translations": {
+              "zh": {
+                "text": "你稳住船首，使它不离月影直到抵达对岸。船夫付了报酬，水流记录也显出仙气如何引物穿过倒影。"
+              },
+              "en": {
+                "text": "You keep the bow aligned with the reflection until reaching the opposite shore. The ferryman pays you, while current records reveal how energy guides objects through reflected surfaces."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Bóng nguyệt vỡ bởi dòng nước ngang khiến tiên lực ở mũi thuyền bị kéo lệch. Ngươi giúp quay về bờ cũ, nhưng phải bù phần trận dẫn cháy trong lần thử.",
+            "translations": {
+              "zh": {
+                "text": "横流冲散月影，把船首仙力拖偏。你协助返回原岸，却须赔偿试航中烧坏的引导阵部件。"
+              },
+              "en": {
+                "text": "A crosscurrent breaks the reflection and pulls the bow’s energy aside. You help return to the original bank, but must replace a guide formation damaged during testing."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Giúp theo cách khác",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "以别的方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi đo dòng ngang rồi giao bản ghi cho người lái, chưa lên chuyến thử. Họ hoãn giờ đi để chọn mặt nước yên hơn, giữ thuyền bên cọc neo cũ.",
+            "translations": {
+              "zh": {
+                "text": "你测出横流并交给船夫，没有登上试航船。他推迟出发，等水面更平静，让船仍系在旧桩旁。"
+              },
+              "en": {
+                "text": "You measure crosscurrents and hand the records to the ferryman without boarding. The trial is postponed for calmer water, leaving the boat secured beside its familiar mooring post."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse3_golden_immortal_ceramic_temper",
+    "category": "opportunity",
+    "title": "Lớp men cần đổi pháp tắc",
+    "text": "Thợ gốm tiên khí nhờ ngươi đổi pháp tắc giữ nhiệt cho mẻ men mới. Ngươi có thể thử trên chiếc bình mẫu, hoặc giúp họ tìm người đã dùng loại men ấy.",
+    "translations": {
+      "zh": {
+        "title": "需换法则的釉层",
+        "text": "仙器陶工请你为新釉更换保温法则。你可在样瓶上试验，也可帮他找用过这种釉的人。"
+      },
+      "en": {
+        "title": "A glaze needing a different law",
+        "text": "An artifact potter requests a new heat retaining law for unfamiliar glaze. You can test it on a sample vase, or find someone who has worked with that glaze."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp nhận việc",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on directly",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi đổi pháp tắc theo lúc men co lại, giữ bình mẫu không rạn khi nguội. Người thợ trả công bằng tiên thạch, cho thêm bản nhiệt trình để ngươi nghiên cứu.",
+            "translations": {
+              "zh": {
+                "text": "你依釉层收缩时刻切换法则，使样瓶冷却而不裂。陶工付了仙石，还给你温程记录供研究。"
+              },
+              "en": {
+                "text": "Switching laws as the glaze contracts keeps the sample uncracked during cooling. The potter pays in immortal stones and gives you temperature records for further study."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Pháp tắc mới giữ nhiệt quá lâu khiến men mẫu chảy xuống chân bình. Ngươi dừng thử để cứu lò chung, nhưng mất tiên thạch bù chiếc bình đã hỏng.",
+            "translations": {
+              "zh": {
+                "text": "新法则保温过久，样瓶釉层流到瓶脚。你停止试验保住公炉，却花仙石赔偿了损坏的瓶子。"
+              },
+              "en": {
+                "text": "The new law retains heat too long and sends glaze flowing toward the vase’s base. Stopping preserves the shared kiln, but you pay stones to replace the ruined sample."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Giúp theo cách khác",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "以别的方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi gửi mẫu men cho người thợ từng dùng nó, chưa thay pháp tắc của lò. Chiếc bình mẫu được cất riêng, chờ nhiệt trình rõ ràng trước khi nung lại.",
+            "translations": {
+              "zh": {
+                "text": "你把釉样送给曾用过它的工匠，没有改炉中法则。样瓶单独收起，等明确温程后再烧。"
+              },
+              "en": {
+                "text": "You send the glaze sample to an experienced potter without changing the kiln’s law. The vase stays stored separately until a clear temperature schedule is available."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse3_mystic_immortal_missing_horizon",
+    "category": "opportunity",
+    "title": "Đường chân trời biến khỏi tranh",
+    "text": "Một bức tinh họa mất đường chân trời mỗi khi người xem nhớ nơi khác. Ngươi có thể nhập cảnh để tìm quan hệ giữa ký ức và hình, hoặc chỉ xem từ ngoài.",
+    "translations": {
+      "zh": {
+        "title": "画中消失的地平线",
+        "text": "一幅星画在观者想起别处时便失去地平线。你可入境查明记忆与图像的关系，也可只在外观看。"
+      },
+      "en": {
+        "title": "A horizon vanishing from a painting",
+        "text": "A star painting loses its horizon whenever viewers recall another place. You can enter to examine the connection between memory and image, or simply observe it from outside."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp nhận việc",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on directly",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi nhận ra đường chân trời được dựng theo ký ức người đứng trước tranh. Giữ một mốc ngoài cảnh giúp nó hiện lại, mở thêm cách hiểu thần thức tạo hình.",
+            "translations": {
+              "zh": {
+                "text": "你发现地平线依观看者的记忆而成。守住境外标记便使它重现，也让你更理解神识如何塑造景象。"
+              },
+              "en": {
+                "text": "You discover the horizon follows the viewer’s memory. Keeping a reference outside restores it and offers another way to understand how consciousness gives perceived scenes their shape."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Ký ức đổi quá nhanh làm cảnh trong tranh nối vào những nơi không có thật. Ngươi cắt đường nhập để thoát, nhưng phải dưỡng thần trước khi cảm nhận không gian rõ lại.",
+            "translations": {
+              "zh": {
+                "text": "记忆变化太快，让画境接到不存在的地方。你切断入境之路逃出，却须养神后才能再次清楚感知空间。"
+              },
+              "en": {
+                "text": "Rapidly changing memories connect the painting to nonexistent places. Breaking your entry path frees you, but recovery is needed before your perception of space becomes clear again."
+              }
+            },
+            "effects": {
+              "health": -8,
+              "cultivation": -3
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Giúp theo cách khác",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "以别的方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi đứng ngoài ghi lúc đường chân trời mất rồi gửi người giữ tranh xem. Bức họa được che lại để kiểm tra, còn thần thức của ngươi chưa nối vào cảnh.",
+            "translations": {
+              "zh": {
+                "text": "你在外记录地平线消失的时刻，交给守画人。星画被遮起等待检查，你的神识也尚未接入画境。"
+              },
+              "en": {
+                "text": "You record when the horizon disappears and pass those notes to its keeper. The painting is covered for inspection, while your consciousness remains unconnected to its scene."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse3_immortal_king_road_suspension",
+    "category": "opportunity",
+    "title": "Đường mới xin treo qua đạo vực",
+    "text": "Đoàn vận tải xin treo đường mới qua đạo vực để tránh sườn núi dễ lở. Ngươi có thể cấp điểm neo thử, hoặc yêu cầu họ khảo sát tuyến vòng trước khi quyết định.",
+    "translations": {
+      "zh": {
+        "title": "新路欲悬过道域",
+        "text": "运输队请求在道域悬起新路，避开易崩山坡。你可提供试验锚点，也可先请他们勘察绕行路线。"
+      },
+      "en": {
+        "title": "A new road suspended through the domain",
+        "text": "Carriers request a suspended road through your domain to avoid unstable slopes. You can supply trial anchors, or ask them to survey an alternative route before deciding."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp nhận việc",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on directly",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi cấp điểm neo theo đạo tuyến đủ bền, giữ đường thử chịu được xe hàng đầu. Đoàn vận tải hoàn phí vật liệu, gửi bản tải trọng để theo dõi về sau.",
+            "translations": {
+              "zh": {
+                "text": "你沿坚固道线设锚，使试路承住首辆货车。运输队偿还材料费用，并送来载重记录供后续观察。"
+              },
+              "en": {
+                "text": "Anchors following sturdy law lines let the trial road support its first cart. The carriers reimburse materials and provide load records for monitoring the road afterward."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Tải xe làm điểm neo phụ lệch khỏi đạo tuyến, kéo đường thử nghiêng xuống. Ngươi giữ người và hàng khỏi rơi, nhưng phải hao vật liệu thu hồi các neo đã hỏng.",
+            "translations": {
+              "zh": {
+                "text": "货车使副锚偏离道线，试路随之倾斜。你护住人货没有坠落，却耗费材料回收损坏的锚点。"
+              },
+              "en": {
+                "text": "The cart’s load shifts a secondary anchor away from its law line. You prevent people and cargo from falling, but recovering damaged anchors consumes your own materials."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Giúp theo cách khác",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "以别的方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi chưa mở điểm neo, giao đoàn vận tải bản đường vòng đã có. Họ mang bản đồ đi khảo sát, để quyết định dựng tuyến mới dựa trên thông tin đủ hơn.",
+            "translations": {
+              "zh": {
+                "text": "你暂不开锚点，交给运输队现有绕路图。他们带图去勘察，让新路决定建立在更完整的信息上。"
+              },
+              "en": {
+                "text": "You withhold anchors and provide an existing map of the longer route. The carriers survey it, allowing the decision about construction to rest upon more complete information."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparse3_immortal_emperor_quiet_world",
+    "category": "opportunity",
+    "title": "Một giới xin ngừng nghe đạo âm",
+    "text": "Một giới muốn tạm ngừng đạo âm từ bên ngoài để pháp tắc riêng tự trưởng thành. Ngươi có thể thử ngắt một chu kỳ, hoặc cùng họ đo ảnh hưởng trước khi tách.",
+    "translations": {
+      "zh": {
+        "title": "一界请求停听道音",
+        "text": "一界想暂时停止外来道音，让自身法则成长。你可试断一个周期，也可先与他们测量影响再分离。"
+      },
+      "en": {
+        "title": "A world asking for silence from Dao sounds",
+        "text": "A world asks to silence external Dao sounds so its own laws can mature. You can disconnect them for one cycle, or first measure their influence together."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "attempt",
+        "text": "Trực tiếp nhận việc",
+        "hint": "Có thể thu lợi hoặc hao tổn",
+        "translations": {
+          "zh": {
+            "text": "亲自接下此事",
+            "hint": "可能获益，也可能受损"
+          },
+          "en": {
+            "text": "Take it on directly",
+            "hint": "Possible benefit or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "success",
+            "weight": 3,
+            "text": "Ngươi ngắt đạo âm mà giữ những dòng nuôi nền giới không đổi, thấy pháp tắc riêng dần rõ. Chu kỳ thử giúp hiểu khi nào trợ lực nên nhường chỗ cho tự vận hành.",
+            "translations": {
+              "zh": {
+                "text": "你停下道音而不改滋养界基的气流，见自身法则渐清。试验周期让你理解何时外助应让位于自行运转。"
+              },
+              "en": {
+                "text": "You silence the sounds while preserving currents supporting the foundation. Its own laws grow clearer, revealing when assistance should give way to a world’s independent operation."
+              }
+            },
+            "effects": {
+              "resources": 16,
+              "cultivation": 12
+            }
+          },
+          {
+            "id": "failure",
+            "weight": 2,
+            "text": "Đạo âm đang giữ nhịp cho một lớp nền mà ngươi chưa thấy, khiến giới rung khi bị ngắt. Ngươi nối lại kịp lúc, nhưng hao đạo nguyên bù phần lệch nhịp.",
+            "translations": {
+              "zh": {
+                "text": "道音原来稳着一层尚未察觉的界基，切断后世界震动。你及时重新连接，却耗去道源补回节奏偏差。"
+              },
+              "en": {
+                "text": "The sounds support a hidden foundation layer, which shakes when disconnected. Restoring contact in time prevents harm, but correcting the rhythm costs some of your Dao essence."
+              }
+            },
+            "effects": {
+              "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "defer",
+        "text": "Giúp theo cách khác",
+        "hint": "Không nhận thưởng, không chịu tổn thất",
+        "translations": {
+          "zh": {
+            "text": "以别的方式协助",
+            "hint": "不取奖励，也无损失"
+          },
+          "en": {
+            "text": "Help another way",
+            "hint": "No reward or loss"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "defer",
+            "weight": 1,
+            "text": "Ngươi giữ đạo âm ở mức cũ, cùng người trong giới lập bản đo từng lớp nền. Quyết định ngắt được để sau, chờ rõ phần nào đang nương vào tiếng đạo.",
+            "translations": {
+              "zh": {
+                "text": "你维持原有道音，与界中人逐层测量根基。断音决定留待以后，先弄清哪些部分依靠道音维持。"
+              },
+              "en": {
+                "text": "You preserve the sounds while measuring each foundation layer with the world’s inhabitants. Disconnection waits until you understand which portions currently depend upon those sounds for support."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
   }
 ]

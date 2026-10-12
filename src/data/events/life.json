@@ -678,5 +678,1468 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sparse_mortal_clay_roof",
+    "category": "life",
+    "title": "Ngói nung trước mùa mưa",
+    "text": "Ngươi phụ người thợ xếp ngói vào lò trước mùa mưa. Một viên cong được giữ lại làm máng nước cho chim, thay vì ném vào đống phế phẩm.",
+    "translations": {
+      "zh": {
+        "title": "雨前烧瓦",
+        "text": "雨季将至，你帮瓦匠把瓦片码入窑中。一片弯瓦被留下做鸟儿的水槽，没有扔进废料堆。"
+      },
+      "en": {
+        "title": "Roof tiles before the rains",
+        "text": "You help a potter stack roof tiles in the kiln before the rains. A crooked tile becomes a drinking trough for birds instead of joining the scrap heap."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_mortal_borrowed_abacus",
+    "category": "life",
+    "title": "Bàn tính mượn ở tiệm gạo",
+    "text": "Chủ tiệm gạo cho ngươi mượn bàn tính để kiểm tiền công. Tự cộng từng khoản, ngươi phát hiện mình bỏ sót tiền hai ngày khuân vác và được trả đủ.",
+    "translations": {
+      "zh": {
+        "title": "米铺借算盘",
+        "text": "米铺老板借你算盘核对工钱。逐项相加后，你发现漏算了两天搬运的报酬，终于领到应得的钱。"
+      },
+      "en": {
+        "title": "A borrowed abacus",
+        "text": "A rice merchant lends you an abacus to check your wages. Adding each entry reveals two unpaid days of carrying sacks, and you collect the missing coins."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_mortal_shared_shoes",
+    "category": "life",
+    "title": "Đôi giày vá bên cửa",
+    "text": "Đạo lữ khâu lại đế giày của ngươi trong lúc ngươi vá áo cho người ấy. Hai người thử đồ dưới hiên, bật cười vì mỗi bên còn một mũi chỉ lệch.",
+    "translations": {
+      "zh": {
+        "title": "门边补鞋",
+        "text": "道侣为你缝补鞋底，你替对方补衣。两人在檐下试穿，发现各有一针歪斜，忍不住相视而笑。"
+      },
+      "en": {
+        "title": "Shoes mended by the doorway",
+        "text": "Your partner repairs your soles while you mend their coat. Trying both beneath the eaves, you laugh together when each repair reveals a single crooked stitch."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse_mortal_winter_reading",
+    "category": "life",
+    "title": "Trang sách bên quán cháo",
+    "text": "Quán cháo cho ngươi đổi việc rửa bát lấy giờ học chữ sau buổi bán. Ngươi viết được tên mình trên giấy nháp, cẩn thận gấp lại trước khi về.",
+    "translations": {
+      "zh": {
+        "title": "粥铺读书",
+        "text": "粥铺让你以洗碗换取收摊后的识字课。你终于在草纸上写出自己的名字，回家前小心折好。"
+      },
+      "en": {
+        "title": "Reading beside the porridge stall",
+        "text": "A porridge seller exchanges washing dishes for reading lessons after closing. You finally write your name upon scrap paper and fold it carefully before heading home."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_true_immortal_rain_umbrella",
+    "category": "life",
+    "title": "Ô che mưa tiên giới",
+    "text": "Cơn mưa tiên giới xuyên qua chiếc ô mang từ hạ giới. Ngươi nhờ người bán vá thêm lớp lụa, rồi đứng nghe tiếng mưa lần đầu không thấm vào vai.",
+    "translations": {
+      "zh": {
+        "title": "仙雨撑伞",
+        "text": "仙界雨水穿透你从下界带来的伞。你请摊主补上一层丝绸，第一次听雨而不再淋湿肩头。"
+      },
+      "en": {
+        "title": "An umbrella for immortal rain",
+        "text": "Immortal rain passes through the umbrella you brought from below. A vendor adds a silk lining, letting you finally listen to rainfall without soaking your shoulders."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_true_immortal_lease_key",
+    "category": "life",
+    "title": "Chìa khóa trả đúng hẹn",
+    "text": "Hết hạn thuê động phủ, ngươi lau sạch bàn đá rồi trả chìa khóa. Chủ nhà hoàn lại tiền cọc, tặng thêm tấm bản đồ những khu ở vừa mở.",
+    "translations": {
+      "zh": {
+        "title": "如期还钥",
+        "text": "洞府租期结束，你擦净石桌后归还钥匙。房主退回押金，还送你一张新开放居住区的地图。"
+      },
+      "en": {
+        "title": "Returning the key on time",
+        "text": "When your retreat lease ends, you clean its stone desk and return the key. The owner refunds your deposit and offers a map of newly opened neighborhoods."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_true_immortal_arrival_token",
+    "category": "life",
+    "title": "Hai thẻ cư trú đặt cạnh",
+    "text": "Ngươi và đạo lữ đối chiếu hai thẻ cư trú sau ngày lên tiên giới. Chọn được giờ nghỉ trùng nhau, cả hai dành buổi ấy đi tìm quán ăn quen vị.",
+    "translations": {
+      "zh": {
+        "title": "并排居留牌",
+        "text": "来到仙界后，你与道侣核对各自的居留牌。终于排出共同休息的时间，两人便去寻找合口味的小店。"
+      },
+      "en": {
+        "title": "Two residence tokens together",
+        "text": "You compare residence tokens with your partner after reaching the immortal realm. Finding a shared rest period, you spend it searching for a stall with familiar flavors."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse_golden_immortal_silent_bells",
+    "category": "life",
+    "title": "Chuông gió tháo bớt một chiếc",
+    "text": "Chuông gió trước nhà vang quá lâu vì dư âm pháp tắc. Ngươi tháo một chiếc, để khoảng lặng trở lại giữa hai tiếng ngân trong những buổi trà chiều.",
+    "translations": {
+      "zh": {
+        "title": "少一枚风铃",
+        "text": "门前风铃受法则余韵影响，响声久久不散。你摘下一枚，让午后饮茶时两声铃响之间重新有了安静。"
+      },
+      "en": {
+        "title": "One fewer wind bell",
+        "text": "Law resonance keeps your porch bells ringing too long. Removing one brings silence back between the notes, making afternoon tea easier to enjoy at home."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_golden_immortal_market_measures",
+    "category": "life",
+    "title": "Thước đo ở phiên chợ",
+    "text": "Ngươi giúp hai sạp hàng thống nhất thước đo khi pháp tắc co giãn làm lệch kích thước. Phiên chợ mở lại, người bán biếu cuộn vải vừa đủ may áo.",
+    "translations": {
+      "zh": {
+        "title": "集市量尺",
+        "text": "伸缩法则令尺寸不一，你帮两家摊位统一量尺。集市恢复交易后，摊主送你一卷恰好够做衣服的布。"
+      },
+      "en": {
+        "title": "Measuring rods at the market",
+        "text": "You help neighboring stalls standardize measurements distorted by spatial laws. Trading resumes, and a grateful seller gives you a roll of cloth sufficient for a new robe."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_golden_immortal_separate_notes",
+    "category": "life",
+    "title": "Hai tập ghi chú khác nhau",
+    "text": "Đạo lữ ghi pháp tắc bằng hình, còn ngươi quen dùng chữ. Hai người đổi tập ghi chú, phát hiện cùng một chỗ khó có thể hiểu từ hai hướng.",
+    "translations": {
+      "zh": {
+        "title": "两册不同笔记",
+        "text": "道侣用图记录法则，你习惯以文字记述。两人交换笔记，发现同一个难点可以从不同角度理解。"
+      },
+      "en": {
+        "title": "Two different notebooks",
+        "text": "Your partner records laws with diagrams while you prefer words. Exchanging notebooks reveals that the same difficult passage can become clear through two different approaches."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse_mystic_immortal_starlight_curtain",
+    "category": "life",
+    "title": "Rèm cửa chắn tinh quang",
+    "text": "Tinh quang lọt vào phòng khiến ngươi khó ngủ dù đã ngừng tu luyện. Người hàng xóm chỉ cách dệt rèm tối, đổi lấy một buổi giúp sửa mái nhà.",
+    "translations": {
+      "zh": {
+        "title": "遮星窗帘",
+        "text": "停下修炼后，透窗星光仍让你难眠。邻人教你织遮光帘，作为交换，你帮他修了一下午屋顶。"
+      },
+      "en": {
+        "title": "Curtains against starlight",
+        "text": "Starlight entering your room disturbs sleep even after practice ends. A neighbor teaches you to weave dark curtains in exchange for an afternoon spent repairing their roof."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_mystic_immortal_delayed_supper",
+    "category": "life",
+    "title": "Bữa cơm lệch một canh giờ",
+    "text": "Đảo cư trú đổi nhịp thời gian khiến khách tới sớm hơn bữa cơm một canh giờ. Ngươi đặt lại đồng hồ ngoài cửa, cả nhóm cùng chờ nồi canh chín.",
+    "translations": {
+      "zh": {
+        "title": "错时晚饭",
+        "text": "居住岛屿的时间节奏改变，客人比晚饭早到一个时辰。你重调门外时钟，众人一同等待汤煮好。"
+      },
+      "en": {
+        "title": "Supper an hour apart",
+        "text": "A change in your island’s time rhythm brings guests an hour before supper. You reset the clock outside, then everyone waits together for the soup to finish."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_mystic_immortal_memory_garden",
+    "category": "life",
+    "title": "Vườn nhớ theo hai lối",
+    "text": "Ngươi và đạo lữ dựng hai lối trong vườn theo ký ức mỗi người. Đến chỗ gặp nhau, cả hai nhận ra cùng một chuyến đi đã để lại hình ảnh khác.",
+    "translations": {
+      "zh": {
+        "title": "双径忆园",
+        "text": "你与道侣按各自记忆在园中铺出两条小径。走到交汇处，两人才发现同一趟旅程留下了不同景象。"
+      },
+      "en": {
+        "title": "A memory garden with two paths",
+        "text": "You and your partner lay garden paths following separate memories. Where they meet, you discover that the same journey left each of you with a different picture."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse_immortal_king_petition_bench",
+    "category": "life",
+    "title": "Ghế chờ ngoài công đường",
+    "text": "Ngươi ghé công đường đúng lúc người dân phải đứng chờ xử việc. Một dãy ghế được kê thêm theo lời ngươi, để người già ngồi nghỉ trước lượt trình bày.",
+    "translations": {
+      "zh": {
+        "title": "堂外候凳",
+        "text": "你经过公堂，见百姓站着等候办事。依你的提议添了一排凳子，老人得以在陈述前坐下歇息。"
+      },
+      "en": {
+        "title": "A bench outside the hearing hall",
+        "text": "Passing a hearing hall, you find residents standing while awaiting their turn. At your suggestion, benches are added so older petitioners can rest before presenting their cases."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_immortal_king_festival_calendar",
+    "category": "life",
+    "title": "Lịch hội không trùng mùa gặt",
+    "text": "Ngươi nghe các làng xin đổi ngày hội vì trùng mùa thu hoạch. Lịch mới được treo ở trạm tin, giúp đoàn biểu diễn đến khi người dân đã rảnh tay.",
+    "translations": {
+      "zh": {
+        "title": "避开收割的节历",
+        "text": "村民请求把庆典从收割季移开，你听取了建议。新日历挂上驿站，让戏班在人们忙完农事后抵达。"
+      },
+      "en": {
+        "title": "A festival calendar beyond harvest",
+        "text": "Villages request a festival date outside their harvest season. You approve a revised calendar, allowing traveling performers to arrive when the residents finally have time to attend."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_immortal_king_unofficial_walk",
+    "category": "life",
+    "title": "Buổi đi dạo không nghi trượng",
+    "text": "Đạo lữ rủ ngươi ra phố mà không mang nghi trượng. Hai người tự mua bánh ở góc chợ, nghe người bán kể chuyện sửa mái hiên sau trận gió.",
+    "translations": {
+      "zh": {
+        "title": "无仪仗散步",
+        "text": "道侣邀你不带仪仗出门。两人在街角买糕点，听摊主说起大风过后修补屋檐的小事。"
+      },
+      "en": {
+        "title": "A walk without an escort",
+        "text": "Your partner invites you into town without a ceremonial escort. Buying pastries at a corner stall, you listen to its owner describe repairing the awning after a gale."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse_immortal_emperor_pebble_game",
+    "category": "life",
+    "title": "Luật chơi do trẻ đặt",
+    "text": "Lũ trẻ mời ngươi chơi cờ sỏi với luật vừa nghĩ ra. Ngươi thua vì hiểu nhầm nước nhảy, rồi ngồi nghe đứa nhỏ nhất giải thích lại bằng que vẽ trên đất.",
+    "translations": {
+      "zh": {
+        "title": "孩子定的玩法",
+        "text": "孩子们邀你按刚想出的规则下石子棋。你误解跳步而输掉一局，便坐下听最小的孩子用树枝在地上画图讲解。"
+      },
+      "en": {
+        "title": "Rules invented by children",
+        "text": "Children invite you to a pebble game with freshly invented rules. Misunderstanding a jump costs you the match; their youngest player explains it with drawings in the dirt."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_immortal_emperor_unfinished_song",
+    "category": "life",
+    "title": "Khúc hát quên đoạn cuối",
+    "text": "Người hát rong quên đoạn cuối bài ca về ngươi giữa phiên chợ. Ngươi mua một chỗ ngồi nghe họ tự ứng tác, thấy câu chuyện mới nhẹ hơn lời tụng cũ.",
+    "translations": {
+      "zh": {
+        "title": "忘了末段的歌",
+        "text": "集市歌者忘了赞颂你的歌的末段。你买了座位听他即兴补唱，觉得新故事比旧日颂词更轻快。"
+      },
+      "en": {
+        "title": "A song missing its final verse",
+        "text": "A market singer forgets the final verse of a song about you. Paying for a seat, you enjoy an improvised ending lighter than the familiar praises."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse_immortal_emperor_equal_table",
+    "category": "life",
+    "title": "Bàn trà không có chủ vị",
+    "text": "Ngươi và đạo lữ bỏ chiếc ghế chủ vị khỏi bàn trà cũ. Ngồi đối diện như thời chưa thành danh, hai người bàn xem ngày mai ai sẽ nấu bữa sáng.",
+    "translations": {
+      "zh": {
+        "title": "不设主位的茶桌",
+        "text": "你与道侣撤去旧茶桌的主位椅子。像尚未成名时那样相对而坐，两人商量明天由谁做早饭。"
+      },
+      "en": {
+        "title": "A tea table without a seat of honor",
+        "text": "You and your partner remove the seat of honor from an old tea table. Sitting opposite as before your fame, you discuss who will prepare tomorrow’s breakfast."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse2_mortal_dye_wage",
+    "category": "life",
+    "title": "Tiền công phơi vải",
+    "text": "Ngươi nhận phơi vải cho xưởng nhuộm, nhớ lật từng tấm trước khi nắng tắt. Chủ xưởng trả công bằng tiền lẻ và mảnh vải đủ làm túi đựng đồ.",
+    "translations": {
+      "zh": {
+        "title": "晒布工钱",
+        "text": "你替染坊晒布，记得在日落前翻好每一匹。坊主付了零钱，还给一块足够做袋子的布。"
+      },
+      "en": {
+        "title": "Wages for drying cloth",
+        "text": "You dry cloth for a dye workshop, turning every length before sunset. The owner pays in small coins and adds enough spare fabric for a carrying bag."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 5
+    }
+  },
+  {
+    "id": "sparse2_mortal_fish_rack",
+    "category": "life",
+    "title": "Giàn cá cuối buổi",
+    "text": "Ngươi giúp người bán cá thu giàn phơi khi gió chuyển hướng. Họ chia phần cá nhỏ chưa bán, đủ cho bữa cơm có thêm vị mặn trong mấy ngày.",
+    "translations": {
+      "zh": {
+        "title": "收摊鱼架",
+        "text": "风向变了，你帮鱼贩收起晾晒架。他分给你几条未卖的小鱼，让接下来几日的饭菜多些咸香。"
+      },
+      "en": {
+        "title": "The fish rack at closing",
+        "text": "When the wind changes, you help a fish seller clear the drying racks. A share of unsold small fish brings more flavor to meals over the coming days."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "health": 3
+    }
+  },
+  {
+    "id": "sparse2_mortal_communal_oven",
+    "category": "life",
+    "title": "Lượt bánh ở lò chung",
+    "text": "Lò chung trong xóm chỉ đủ chỗ cho vài mẻ bánh mỗi sáng. Ngươi đến đúng lượt, nhường phần than còn nóng cho nhà kế bên trước khi xách bánh về.",
+    "translations": {
+      "zh": {
+        "title": "公炉烤饼轮次",
+        "text": "村里的公炉每天早晨只够烤几批饼。你按轮次来到，离开前把仍热的炭火留给下一家。"
+      },
+      "en": {
+        "title": "Your turn at the communal oven",
+        "text": "The village oven fits only a few batches each morning. Arriving at your turn, you leave its warm coals for the next household before carrying your bread home."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse2_mortal_birthday_knot",
+    "category": "life",
+    "title": "Nút dây nhớ ngày sinh",
+    "text": "Ngươi buộc thêm nút vào dây nhớ tuổi theo lời người lớn trong nhà. Bữa cơm ngày sinh chỉ thêm quả trứng, nhưng mọi người ngồi lại lâu hơn thường lệ.",
+    "translations": {
+      "zh": {
+        "title": "记生辰的绳结",
+        "text": "你按家中长辈的习惯，在记岁的绳上添一结。生辰饭只多了一个鸡蛋，大家却比平日坐得更久。"
+      },
+      "en": {
+        "title": "A knot remembering your birthday",
+        "text": "Following an elder’s custom, you add a knot to the cord counting your years. Your birthday meal gains just one egg, yet everyone stays together longer than usual."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse2_mortal_saving_jar",
+    "category": "life",
+    "title": "Hũ tiền cho mái nhà mới",
+    "text": "Ngươi và đạo lữ bỏ tiền dư vào chung một hũ để sửa mái nhà. Hai người viết rõ khoản đã góp, rồi thống nhất vẫn dành chút tiền mua thuốc.",
+    "translations": {
+      "zh": {
+        "title": "新屋积钱罐",
+        "text": "你与道侣把余钱放进同一只罐子，准备修屋顶。两人记清各自存入的数目，也商定留些钱备药。"
+      },
+      "en": {
+        "title": "A savings jar for a new roof",
+        "text": "You and your partner save spare coins in one jar for roof repairs. Recording each contribution, you also agree to keep a little aside for medicine."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 3
+    }
+  },
+  {
+    "id": "sparse2_mortal_weaving_signs",
+    "category": "life",
+    "title": "Ám hiệu giữa tiếng khung cửi",
+    "text": "Tiếng khung cửi át lời nói khi ngươi phụ đạo lữ dệt vải. Hai người nghĩ ra vài dấu tay báo hết sợi, rồi dùng chúng cả lúc chợ đông người.",
+    "translations": {
+      "zh": {
+        "title": "织机声中的手势",
+        "text": "帮道侣织布时，机声盖住了说话声。两人约定几个缺线手势，后来赶集人多时也用上了。"
+      },
+      "en": {
+        "title": "Signals above the loom’s noise",
+        "text": "The loom drowns your words while you help your partner weave. Together you invent signs for running out of thread and later use them in crowded markets."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 3
+    }
+  },
+  {
+    "id": "sparse2_true_immortal_laundry_label",
+    "category": "life",
+    "title": "Thẻ áo ở tiệm giặt tiên thành",
+    "text": "Tiệm giặt tiên thành buộc thẻ lên áo để tránh lẫn đồ của khách bế quan. Ngươi nhận lại áo sau nhiều năm, thấy đường chỉ cũ vẫn được giữ nguyên.",
+    "translations": {
+      "zh": {
+        "title": "仙城洗衣牌",
+        "text": "仙城洗衣铺给衣服系上牌子，免得闭关客人的衣物混淆。多年后你领回衣服，发现旧缝线仍保留着。"
+      },
+      "en": {
+        "title": "A laundry tag in the immortal city",
+        "text": "An immortal laundry tags robes belonging to customers in seclusion. Collecting yours years later, you find that the familiar stitching has been carefully preserved through cleaning."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse2_true_immortal_seclusion_message",
+    "category": "life",
+    "title": "Mảnh giấy báo ngày xuất quan",
+    "text": "Ngươi để lại giấy báo ngày xuất quan cho đạo lữ trước cửa tĩnh thất. Người ấy đổi lịch đi xa để gặp ngươi, cùng kể những chuyện mỗi người đã bỏ lỡ.",
+    "translations": {
+      "zh": {
+        "title": "出关便条",
+        "text": "你在静室门前留下出关日期给道侣。对方调整远行安排来见你，两人互诉彼此错过的近况。"
+      },
+      "en": {
+        "title": "A note announcing the end of seclusion",
+        "text": "You leave a note announcing your return from seclusion for your partner. They rearrange a journey to meet you, and you share what each has missed."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse2_golden_immortal_public_workshop",
+    "category": "life",
+    "title": "Buổi mở cửa xưởng tiên khí",
+    "text": "Người thợ mở xưởng cho khách xem các món tiên khí bị loại vì lỗi nhỏ. Ngươi mua chiếc móc áo không giữ hình hoàn hảo, thấy nó vẫn dùng được.",
+    "translations": {
+      "zh": {
+        "title": "仙器工坊开放日",
+        "text": "工匠开放工坊，让客人查看因小毛病淘汰的仙器。你买了不能完全定形的衣钩，发现它仍然够用。"
+      },
+      "en": {
+        "title": "An open day at the artifact workshop",
+        "text": "A smith opens the workshop to show artifacts rejected for minor flaws. You buy a clothes hook that cannot hold a perfect shape but still serves its purpose."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -2
+    }
+  },
+  {
+    "id": "sparse2_golden_immortal_separate_seats",
+    "category": "life",
+    "title": "Hai chỗ ngồi cùng học",
+    "text": "Ngươi và đạo lữ sửa bàn học để mỗi người có chỗ đặt pháp khí riêng. Không phải dọn đồ cho nhau mỗi lần luyện, cả hai giữ được thời gian đọc chung.",
+    "translations": {
+      "zh": {
+        "title": "并肩学法的双席",
+        "text": "你与道侣改了书桌，各留一处放自己的法器。修炼时不必再挪动彼此的东西，也留出了共读的时间。"
+      },
+      "en": {
+        "title": "Two places for studying together",
+        "text": "You and your partner arrange separate spaces for artifacts on a shared desk. No longer moving each other’s tools before practice leaves more time for reading together."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse2_mystic_immortal_star_postage",
+    "category": "life",
+    "title": "Tem thư theo quỹ đạo",
+    "text": "Trạm thư tinh vực tính cước theo số quỹ đạo bưu thuyền phải vượt. Ngươi ghép những lá thư cùng hướng vào một gói, dành tiền còn lại mua giấy tốt.",
+    "translations": {
+      "zh": {
+        "title": "按轨道计邮资",
+        "text": "星域邮站按邮船跨越的轨道数收费。你把同方向的信合装一包，将省下的钱用来买好纸。"
+      },
+      "en": {
+        "title": "Postage measured by orbit",
+        "text": "A stellar post office charges by the orbits its mail ship must cross. Combining letters traveling the same way leaves enough saved coins to buy better paper."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": 4
+    }
+  },
+  {
+    "id": "sparse2_mystic_immortal_shared_dream_boundary",
+    "category": "life",
+    "title": "Ranh giới trong giấc mộng chung",
+    "text": "Trước khi cùng nhập mộng, ngươi và đạo lữ thống nhất chỗ mỗi người có thể bước vào. Giữ đúng lời hẹn, hai người kể chuyện mà không chạm ký ức riêng.",
+    "translations": {
+      "zh": {
+        "title": "共梦边界",
+        "text": "共同入梦前，你与道侣约定各自允许进入的地方。守住约定后，两人分享故事，而不触碰彼此的私密记忆。"
+      },
+      "en": {
+        "title": "Boundaries within a shared dream",
+        "text": "Before sharing a dream, you and your partner agree which places each may enter. Respecting those boundaries lets you exchange stories without disturbing the other’s private memories."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse2_immortal_king_tool_exchange",
+    "category": "life",
+    "title": "Phiên đổi nông cụ trong tiên vực",
+    "text": "Ngươi ghé phiên đổi nông cụ, nghe người dân phân biệt đồ tốt bằng dấu mòn. Một lời giải thích về cán cuốc khiến ngươi hiểu thêm công việc ngoài công đường.",
+    "translations": {
+      "zh": {
+        "title": "仙域农具交换集",
+        "text": "你来到农具交换集，听百姓凭磨痕辨别好工具。一番关于锄柄的讲解，让你更了解公堂之外的劳作。"
+      },
+      "en": {
+        "title": "A tool exchange within the domain",
+        "text": "At a farming tool exchange, residents judge quality by signs of wear. An explanation about hoe handles teaches you more about work beyond the hearing hall."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse2_immortal_king_honest_letter",
+    "category": "life",
+    "title": "Lá thư không dùng tôn xưng",
+    "text": "Đạo lữ gửi lá thư chỉ gọi tên ngươi, kể cả chuyện buồn chưa nói trước mặt người khác. Ngươi trả lời bằng lời thường, hẹn dành một buổi chỉ để nghe.",
+    "translations": {
+      "zh": {
+        "title": "不用尊称的信",
+        "text": "道侣来信只写你的名字，也提到未曾当众说出的烦恼。你以平常语气回信，约好留一段时间专心倾听。"
+      },
+      "en": {
+        "title": "A letter without honorifics",
+        "text": "Your partner writes using only your name, sharing worries never voiced before others. You answer in ordinary words and arrange a time devoted simply to listening."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 5
+    }
+  },
+  {
+    "id": "sparse2_immortal_emperor_wrong_statue",
+    "category": "life",
+    "title": "Tượng đá khắc nhầm người",
+    "text": "Thợ đá nhờ ngươi xem bức tượng tưởng khắc chân dung mình nhưng giống người giao hàng. Ngươi mua nó cho người ấy, để câu chuyện nhầm lẫn thành món quà vui.",
+    "translations": {
+      "zh": {
+        "title": "刻错人的石像",
+        "text": "石匠请你看一尊自认为刻的是你的像，面容却像送货人。你买来送给那人，让误会变成一份有趣的礼物。"
+      },
+      "en": {
+        "title": "A statue of the wrong person",
+        "text": "A mason shows you a supposed portrait that resembles the delivery worker instead. You buy it for that worker, turning the mistaken likeness into an amusing gift."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -3
+    }
+  },
+  {
+    "id": "sparse2_immortal_emperor_private_disagreement",
+    "category": "life",
+    "title": "Điều hai người chưa đồng ý",
+    "text": "Ngươi và đạo lữ bất đồng chuyện giữ một căn nhà cũ. Sau buổi nói chuyện dài, hai người để quyết định sang ngày khác, vẫn cùng dọn bữa cơm tối.",
+    "translations": {
+      "zh": {
+        "title": "两人尚未同意之事",
+        "text": "你与道侣对是否保留旧屋意见不同。长谈之后，两人把决定留到另一天，仍一起摆好了晚饭。"
+      },
+      "en": {
+        "title": "Something you have not agreed upon",
+        "text": "You and your partner disagree about keeping an old house. After a long conversation, you postpone the decision until another day and still prepare supper together."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse3_mortal_read_letter",
+    "category": "life",
+    "title": "Lá thư đọc hộ bên hiên",
+    "text": "Một người hàng xóm nhờ ngươi đọc thư từ đứa con đi làm xa. Ngươi đọc chậm từng câu, rồi viết giúp lời đáp báo rằng cây khế sau nhà đã ra quả.",
+    "translations": {
+      "zh": {
+        "title": "檐下代读家书",
+        "text": "邻人请你读远行做工的孩子寄来的信。你慢慢读完，再代写回信，告诉孩子屋后的杨桃已经结果。"
+      },
+      "en": {
+        "title": "Reading a letter beneath the eaves",
+        "text": "A neighbor asks you to read a letter from a child working far away. Reading slowly, you then help reply that the starfruit tree behind the house bears fruit."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_mortal_reed_mat",
+    "category": "life",
+    "title": "Chiếu mới từ cói khô",
+    "text": "Ngươi mua bó cói khô về đan chiếu thay tấm đã rách. Mép đầu còn lệch, nhưng người quen chỉ cách ép phẳng, đủ trải một chỗ ngủ sạch qua mùa nóng.",
+    "translations": {
+      "zh": {
+        "title": "干莎草新席",
+        "text": "你买来干莎草编席，替换破旧的一张。最初边缘歪斜，熟人教你压平，终于铺出炎热季节的干净睡处。"
+      },
+      "en": {
+        "title": "A new mat from dried reeds",
+        "text": "You buy dried reeds to replace a torn sleeping mat. Its uneven edge flattens with a friend’s advice, giving you a clean place to sleep through the heat."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "health": 3
+    }
+  },
+  {
+    "id": "sparse3_mortal_market_shifts",
+    "category": "life",
+    "title": "Hai ca ở sạp hàng nhỏ",
+    "text": "Ngươi và đạo lữ chia ca trông sạp để mỗi người có lúc nghỉ. Giờ giao ca luôn có chén nước để sẵn, khiến công việc đông khách bớt căng hơn trước.",
+    "translations": {
+      "zh": {
+        "title": "小摊双班",
+        "text": "你与道侣轮班看小摊，让彼此都有休息的时间。交班时总有一杯水备好，忙碌的生意也不再那么紧张。"
+      },
+      "en": {
+        "title": "Two shifts at a small stall",
+        "text": "You and your partner divide stall shifts so each can rest. A cup of water always waits at the changeover, easing the strain of serving a busy market."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse3_true_immortal_floating_laundry",
+    "category": "life",
+    "title": "Dây phơi giữa hai tầng mây",
+    "text": "Dây phơi trước nhà bị tầng mây mới che mất nắng. Ngươi hạ nó xuống một đoạn, nghe hàng xóm chỉ giờ gió khô thường tới trước khi đem áo ra.",
+    "translations": {
+      "zh": {
+        "title": "两层云间晾衣绳",
+        "text": "新云层挡住了门前晾衣绳的阳光。你把绳子降低一截，又听邻人讲解干风通常到来的时辰，再拿衣服出来。"
+      },
+      "en": {
+        "title": "A clothesline between cloud layers",
+        "text": "A new cloud layer shades your clothesline. Lowering it a little, you listen to a neighbor explain when dry winds usually arrive before bringing your robes outside."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_true_immortal_appointment_stone",
+    "category": "life",
+    "title": "Viên đá ghi giờ hẹn",
+    "text": "Người sửa động phủ cho ngươi viên đá ghi giờ hẹn vì lịch tiên thành quá dài. Ngươi đặt nó cạnh cửa, lần đầu nhớ đúng buổi họ đến kiểm mái.",
+    "translations": {
+      "zh": {
+        "title": "记约时的石牌",
+        "text": "仙城日历跨度太长，修洞府的工匠给你一块记约石。你把它放在门边，终于记准了他来检查屋顶的时间。"
+      },
+      "en": {
+        "title": "A stone recording appointment times",
+        "text": "A retreat repairer gives you an appointment stone for the city’s lengthy calendar. Leaving it by the door helps you finally remember the scheduled roof inspection."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_true_immortal_new_voice",
+    "category": "life",
+    "title": "Giọng nói sau tiên thể",
+    "text": "Sau khi quen tiên thể, đạo lữ hỏi ngươi có nhận ra giọng người ấy hơi đổi. Ngươi nhắc cách họ gọi mình lúc vui, để tiếng nói mới vẫn mang nét quen.",
+    "translations": {
+      "zh": {
+        "title": "仙体后的声音",
+        "text": "习惯仙体后，道侣问你是否听出声音有些改变。你提起对方高兴时叫你的方式，让新声音仍带着熟悉之处。"
+      },
+      "en": {
+        "title": "A voice after gaining an immortal body",
+        "text": "After settling into an immortal body, your partner asks whether their voice has changed. Recalling how they call you when happy brings familiarity into its new sound."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse3_golden_immortal_bookbinding",
+    "category": "life",
+    "title": "Gáy sách chịu được tiên lực",
+    "text": "Người đóng sách thay gáy quyển ngươi thường đọc khi tham ngộ, để dư tiên lực không xé trang. Ngươi chọn bìa đơn giản, giữ lại mảnh nhãn đã sờn ở góc.",
+    "translations": {
+      "zh": {
+        "title": "耐仙力书脊",
+        "text": "装订师更换你参悟时常读书册的书脊，免得仙力余波撕坏纸页。你选朴素封面，留下角上磨损的旧标签。"
+      },
+      "en": {
+        "title": "A book spine that withstands immortal energy",
+        "text": "A binder replaces the spine of your study book so stray energy cannot tear its pages. You choose a plain cover and keep its worn corner label."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "resources": -3
+    }
+  },
+  {
+    "id": "sparse3_golden_immortal_kettle_promise",
+    "category": "life",
+    "title": "Ấm nước sôi trước giờ khách",
+    "text": "Ngươi thử pháp khí hẹn giờ đun nước nhưng vẫn tự kiểm lửa trước khi khách tới. Ấm sôi đúng lúc, để buổi gặp không phải bắt đầu bằng chuyện đồ dùng trục trặc.",
+    "translations": {
+      "zh": {
+        "title": "客到前沸壶",
+        "text": "你试用定时烧水法器，客人到来前仍亲自查看炉火。水恰好烧开，让聚会不必从抱怨器具故障开始。"
+      },
+      "en": {
+        "title": "A kettle before the guests arrive",
+        "text": "You test a timed kettle artifact but check its fire before guests arrive. The water boils promptly, allowing the gathering to begin comfortably without discussing unreliable household tools."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_golden_immortal_different_methods",
+    "category": "life",
+    "title": "Hai cách chăm cùng một cây",
+    "text": "Ngươi và đạo lữ áp dụng pháp tắc khác nhau để chăm cây trước hiên. Hai người chia lượt thay vì tranh cách đúng, ghi lại khi lá đổi màu để cùng hiểu cây.",
+    "translations": {
+      "zh": {
+        "title": "同树不同照料",
+        "text": "你与道侣用不同法则照料檐前的树。两人轮流而不争论谁对，记录叶色变化，共同了解树的需要。"
+      },
+      "en": {
+        "title": "Two ways of caring for one tree",
+        "text": "You and your partner use different laws to tend a porch tree. Taking turns instead of disputing methods, you record leaf changes and learn its needs together."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse3_mystic_immortal_slow_delivery",
+    "category": "life",
+    "title": "Kiện hàng đến chậm một mùa",
+    "text": "Kiện hàng đặt mua tới sau một mùa vì tinh đảo nhận thư đã đổi quỹ đạo. Ngươi cùng người giao kiểm lại địa chỉ, rồi giữ gói đồ cho dịp dùng kế tiếp.",
+    "translations": {
+      "zh": {
+        "title": "迟一季的包裹",
+        "text": "订购的包裹晚了一季，因为收信星岛改变了轨道。你和送货人核对地址，再把东西收好，等下次需要时使用。"
+      },
+      "en": {
+        "title": "A parcel arriving one season late",
+        "text": "A parcel arrives one season late because its destination island changed orbit. You check the address with the courier and keep the package for the next suitable occasion."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_mystic_immortal_house_number",
+    "category": "life",
+    "title": "Số nhà theo ngọn sao gần",
+    "text": "Khu ở đổi số nhà theo ngọn sao gần nhất sau lần dịch chuyển lớn. Ngươi giúp người mới tìm cửa, rồi treo biển cũ bên trong để không quên chỗ từng quen.",
+    "translations": {
+      "zh": {
+        "title": "按邻星编门牌",
+        "text": "居住区大迁移后按最近的星重新编号。你帮新来者找到门口，又把旧牌挂在屋内，留住熟悉的住址。"
+      },
+      "en": {
+        "title": "House numbers by the nearest star",
+        "text": "After a major relocation, houses receive numbers based on the nearest star. You guide a newcomer home and hang your old plate inside to remember the familiar address."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_mystic_immortal_two_perceptions",
+    "category": "life",
+    "title": "Cùng thấy mà không cùng cảm",
+    "text": "Ngươi và đạo lữ cùng xem cực quang trên tinh đảo, mỗi người cảm nhận một sắc khác. Không sửa cách nhìn của nhau, hai người ghép lại lời kể sau buổi ngắm trời.",
+    "translations": {
+      "zh": {
+        "title": "同见异感",
+        "text": "你与道侣在星岛同看极光，却各自感到不同颜色。两人不去纠正彼此，观天后把各自描述拼在一起。"
+      },
+      "en": {
+        "title": "Seeing together and feeling differently",
+        "text": "You watch an island’s aurora with your partner, each sensing a different color. Rather than correcting either perception, you combine your descriptions after the night of watching."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse3_immortal_king_pronunciation_list",
+    "category": "life",
+    "title": "Tên làng đọc theo người sống",
+    "text": "Ngươi nghe người đưa tin đọc tên làng theo cách dân ở đó gọi, khác văn bản trong điện. Bảng ghi âm được sửa, để những lần thông báo sau không còn gọi sai.",
+    "translations": {
+      "zh": {
+        "title": "依村民念村名",
+        "text": "传信者按村民的习惯念出村名，与殿中公文不同。你修正发音表，让之后的通告不再叫错名字。"
+      },
+      "en": {
+        "title": "Village names spoken by their residents",
+        "text": "A messenger speaks village names as residents pronounce them, unlike the hall’s records. You correct the pronunciation list so later announcements can address each settlement properly."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_immortal_king_travel_ceremony",
+    "category": "life",
+    "title": "Nghi lễ gọn cho người đi xa",
+    "text": "Người tới dự lễ phải đi nhiều ngày xin được nhận giấy chứng sớm để kịp đường về. Ngươi rút phần chờ không cần thiết, nghe sân điện bớt tiếng thở dài.",
+    "translations": {
+      "zh": {
+        "title": "远行者简礼",
+        "text": "远行多日的宾客请求早领证明，好赶上归程。你缩短不必要的等待，殿前叹气的声音也少了。"
+      },
+      "en": {
+        "title": "A shorter ceremony for distant visitors",
+        "text": "Visitors traveling for days ask to collect certificates early enough for their return journey. Removing unnecessary waits quiets the sighs that had filled the hall’s courtyard."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_immortal_king_shared_silence",
+    "category": "life",
+    "title": "Khoảng im lặng sau công việc",
+    "text": "Sau ngày xử nhiều việc, ngươi ngồi cùng đạo lữ mà chưa muốn kể chuyện. Người ấy để trà bên tay, chờ tới khi ngươi tự nói thay vì hỏi liên tục.",
+    "translations": {
+      "zh": {
+        "title": "忙后共同静默",
+        "text": "处理许多事务后，你与道侣并坐，暂时不想说话。对方把茶放在手边，等你自己开口，没有不断追问。"
+      },
+      "en": {
+        "title": "Silence together after duties end",
+        "text": "After a day of many duties, you sit beside your partner without wishing to talk. They leave tea within reach and wait until you choose to speak."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 5
+    }
+  },
+  {
+    "id": "sparse3_immortal_emperor_lost_title",
+    "category": "life",
+    "title": "Người chép sách bỏ quên tước vị",
+    "text": "Người chép sách quên tước vị của ngươi ở trang giới thiệu, định chép lại cả quyển. Ngươi bảo giữ trang ấy, vì phần chỉ đường đã rõ và tên người viết vẫn còn.",
+    "translations": {
+      "zh": {
+        "title": "抄书人漏写尊号",
+        "text": "抄书人在引言漏写你的尊号，想重抄全册。你请他留着，因为指路内容清楚，作者的名字也还在。"
+      },
+      "en": {
+        "title": "A copyist omits your title",
+        "text": "A copyist omits your title in an introduction and prepares to redo the book. You keep the page because its directions are clear and its author remains named."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
+  },
+  {
+    "id": "sparse3_immortal_emperor_street_flavor",
+    "category": "life",
+    "title": "Món cay quá lời đồn",
+    "text": "Ngươi gọi món được người bán nói là chỉ hơi cay, rồi phải xin thêm nước. Họ bật cười đưa bát thứ hai, để buổi ăn giữa chợ có chuyện kể nhỏ.",
+    "translations": {
+      "zh": {
+        "title": "比传闻更辣的菜",
+        "text": "摊主说菜只是微辣，你点来后却得再要水。他笑着递上第二碗，让这顿集市饭有了一个小插曲。"
+      },
+      "en": {
+        "title": "A dish hotter than its reputation",
+        "text": "A seller calls a dish mildly spicy, yet you soon ask for more water. Their laughing offer of a second bowl gives the market meal a small story."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse3_immortal_emperor_unkept_promise",
+    "category": "life",
+    "title": "Lời hẹn cần xin sửa lại",
+    "text": "Ngươi không kịp buổi đi chơi đã hẹn với đạo lữ vì việc kéo dài. Tự báo trước và chọn ngày bù cùng người ấy giúp lời hẹn không biến thành im lặng.",
+    "translations": {
+      "zh": {
+        "title": "需要改约的承诺",
+        "text": "事务拖延让你赶不上与道侣约好的出游。你主动提前说明，再一起挑选补约日期，让承诺不至于化成沉默。"
+      },
+      "en": {
+        "title": "A promise that needs changing",
+        "text": "Lengthy duties prevent you from keeping an outing promised to your partner. Giving notice and choosing another date together keeps that promise from disappearing into silence."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "conditions": {
+      "partnerStatus": "bonded"
+    },
+    "effects": {
+      "health": 4
+    }
+  },
+  {
+    "id": "sparse3_qi_refining_talisman_scraps",
+    "category": "life",
+    "title": "Giấy phù thừa làm dấu sách",
+    "text": "Ngươi gom những mép giấy phù còn sạch làm dấu sách thay vì vứt bỏ. Người cùng học xin một mảnh, ghi số trang pháp quyết để lần sau khỏi tìm lại.",
+    "translations": {
+      "zh": {
+        "title": "余符纸作书签",
+        "text": "你把干净符纸边角收作书签，而不丢掉。同学讨来一片，写上法诀页数，下次便不用重新翻找。"
+      },
+      "en": {
+        "title": "Talisman scraps as bookmarks",
+        "text": "You gather clean talisman paper scraps as bookmarks instead of discarding them. A fellow student takes one to record a manual’s page number for their next reading."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {}
   }
 ]

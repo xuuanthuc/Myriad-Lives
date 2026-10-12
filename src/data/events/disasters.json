@@ -518,5 +518,1497 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sparse_mortal_granary_raiders",
+    "category": "disaster",
+    "combat": true,
+    "title": "Giặc đánh kho thóc",
+    "text": "Trong lúc ngươi kiểm thóc thuê, một nhóm giặc phá cửa kho để cướp lương. Người giữ kho bị kẹt phía sau, buộc ngươi cầm gậy chặn lối cho họ thoát.",
+    "translations": {
+      "zh": {
+        "title": "粮仓遇袭",
+        "text": "你受雇清点粮食时，一伙匪徒破门抢粮。守仓人被困后方，你只得持棍挡路，让他们逃走。"
+      },
+      "en": {
+        "title": "Raiders at the granary",
+        "text": "While you count grain for wages, raiders break into the storehouse. Its keepers are trapped behind you, forcing you to hold the doorway with a staff."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi gạt ngã kẻ dẫn đầu, giữ cửa tới khi dân binh chạy đến. Kho thóc còn nguyên phần lớn, người giữ kho trả thêm tiền cho buổi làm hiểm nguy.",
+        "translations": {
+          "zh": {
+            "text": "你打倒领头匪徒，守住仓门直到民兵赶到。大部分粮食保住了，守仓人给这场险差补了工钱。"
+          },
+          "en": {
+            "text": "You knock down the leader and hold the door until militia arrive. Most grain remains safe, and the keeper adds payment for the danger you faced."
+          }
+        },
+        "effects": {
+          "resources": 8,
+          "cultivation": 0
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Lưỡi dao sượt qua sườn khi ngươi kéo người giữ kho khỏi đống bao đổ. Dân binh đuổi được giặc, nhưng ngươi phải nằm dưỡng thương và mất tiền thuốc.",
+        "translations": {
+          "zh": {
+            "text": "你从倒下的粮袋中拉出守仓人时，被刀刃划伤肋侧。民兵赶走匪徒，你却须卧床养伤，花钱买药。",
+            "endingReason": "粮仓遇匪刺杀身亡"
+          },
+          "en": {
+            "text": "A blade cuts your side as you pull a keeper from fallen sacks. Militia drive the raiders away, but recovery confines you to bed and costs medicine.",
+            "endingReason": "Killed by raiders at the granary"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -6
+        },
+        "endingReason": "Bị giặc đâm tại kho thóc"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Kẻ cướp đâm xuyên ngực ngươi giữa lối kho chật hẹp, khi đồng bọn chặn cửa sau. Tiếng dân binh tới gần không còn giúp ngươi bước khỏi những bao thóc.",
+        "translations": {
+          "zh": {
+            "text": "匪徒在狭窄仓道中刺穿你的胸口，同伙堵住后门。民兵虽已赶近，你却再也无法走出粮袋之间。",
+            "endingReason": "粮仓遇匪刺杀身亡"
+          },
+          "en": {
+            "text": "A raider pierces your chest in the narrow aisle while another blocks the rear door. Approaching militia cannot help you rise from among the sacks of grain.",
+            "endingReason": "Killed by raiders at the granary"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Bị giặc đâm tại kho thóc"
+      }
+    ]
+  },
+  {
+    "id": "sparse_true_immortal_ash_hounds",
+    "category": "disaster",
+    "combat": true,
+    "title": "Tro thú dưới trạm tiên dịch",
+    "text": "Bầy tro thú chui từ nền trạm tiên dịch lên lúc ngươi chờ nhận hàng. Chúng cắn đứt trận chắn, ép ngươi giao chiến giữa những hòm đồ chưa kịp chuyển.",
+    "translations": {
+      "zh": {
+        "title": "仙驿灰兽",
+        "text": "你等候取货时，一群灰兽钻出仙驿地基。它们咬断屏障阵，迫使你在尚未搬走的货箱之间迎战。"
+      },
+      "en": {
+        "title": "Ash hounds beneath the immortal relay",
+        "text": "Ash hounds emerge beneath the immortal relay while you await a parcel. Their jaws break its barrier, forcing you to fight between crates still awaiting transport."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi dồn tro thú vào sân đá rồi dùng tiên lực đánh tan lõi nóng. Người coi trạm trả công bảo vệ hàng, để ngươi thu phần tinh hạch còn nguyên.",
+        "translations": {
+          "zh": {
+            "text": "你将灰兽逼入石院，以仙力击碎炽热核心。驿站管事付你护货报酬，并让你收取完整晶核。"
+          },
+          "en": {
+            "text": "You drive the hounds into a stone yard and break their burning cores. The relay keeper pays for protecting the cargo and lets you gather intact crystals."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Một tro thú ngoạm vai trước khi ngươi khép lại trận chắn tạm. Bầy thú bị đẩy xuống nền cũ, nhưng tro nóng trong vết cắn buộc ngươi dùng thuốc thanh lọc.",
+        "translations": {
+          "zh": {
+            "text": "临时屏障合拢前，一头灰兽咬住你的肩膀。兽群被逼回旧地基，伤口里的热灰却须用药清除。",
+            "endingReason": "仙驿遭灰兽咬杀"
+          },
+          "en": {
+            "text": "A hound bites your shoulder before the temporary barrier closes. The pack retreats beneath the foundations, but heated ash within the wound requires costly cleansing medicine.",
+            "endingReason": "Killed by ash hounds at the immortal relay"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Tử nạn do tro thú tại tiên dịch"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Tro thú phá lớp tiên lực hộ thân rồi cắn vỡ tiên mạch của ngươi. Trận chắn khép lại phía sau, để người chờ hàng mất mạng giữa sân trạm dịch.",
+        "translations": {
+          "zh": {
+            "text": "灰兽撕破护体仙力，咬碎你的仙脉。屏障在身后合拢，等候取货的人却已命丧驿站庭院。",
+            "endingReason": "仙驿遭灰兽咬杀"
+          },
+          "en": {
+            "text": "The hounds tear through your protection and destroy your immortal meridians. The barrier closes behind you, leaving your life ended within the courtyard of the relay.",
+            "endingReason": "Killed by ash hounds at the immortal relay"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Tử nạn do tro thú tại tiên dịch"
+      }
+    ]
+  },
+  {
+    "id": "sparse_golden_immortal_law_parasite",
+    "category": "disaster",
+    "combat": true,
+    "title": "Ký sinh trong tiên giáp",
+    "text": "Bộ tiên giáp đem sửa bật dậy khi ký sinh pháp tắc chiếm lõi điều khiển. Những mảnh giáp lao tới khóa đường ra, buộc ngươi phá từng vòng công kích.",
+    "translations": {
+      "zh": {
+        "title": "仙甲寄法虫",
+        "text": "送修仙甲被法则寄生虫占据控制核心，突然自行站起。甲片飞来封锁出口，迫使你逐层破解攻势。"
+      },
+      "en": {
+        "title": "A law parasite inside immortal armor",
+        "text": "Armor brought for repairs rises as a law parasite seizes its control core. Flying plates block the exit, forcing you to break through successive rings of attacks."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi tách pháp tắc ký sinh khỏi lõi giáp, khiến các mảnh kim loại rơi xuống. Người thợ chia phần tiên kim cứu được, còn ngươi ghi lại điểm yếu của nó.",
+        "translations": {
+          "zh": {
+            "text": "你将寄生法则从甲核中剥离，金属甲片纷纷落地。工匠分给你救下的仙金，你也记住了它的弱点。"
+          },
+          "en": {
+            "text": "You separate the parasite’s law from the armor core, dropping its metal plates. The smith shares recovered immortal metal while you record the weakness that ended the attack."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Một mảnh giáp xuyên cánh tay khi ngươi cắt dòng pháp tắc tới lõi. Ký sinh bị tiêu diệt, nhưng đạo thương lưu lại khiến ngươi phải mua thuốc chuyên trị.",
+        "translations": {
+          "zh": {
+            "text": "你切断通往核心的法则时，一块甲片刺穿手臂。寄生虫虽被消灭，留下的道伤仍须专门药物治疗。",
+            "endingReason": "仙甲寄生虫毁道基而亡"
+          },
+          "en": {
+            "text": "An armor plate pierces your arm as you sever the law feeding its core. The parasite dies, but the remaining law wound demands specialized medicine for recovery.",
+            "endingReason": "Foundation destroyed by an armor law parasite"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đạo cơ bị ký sinh tiên giáp phá hủy"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ký sinh chuyển pháp tắc vào tiên thể qua mảnh giáp xuyên ngực, phá đạo cơ từ trong. Ngươi không kịp tách nó ra trước khi thần thức mất chỗ nương.",
+        "translations": {
+          "zh": {
+            "text": "寄生虫沿刺穿胸口的甲片侵入仙体，从内部摧毁道基。你来不及将它剥离，神识便失去了依托。",
+            "endingReason": "仙甲寄生虫毁道基而亡"
+          },
+          "en": {
+            "text": "The parasite enters through a plate piercing your chest and destroys your foundation within. Before you can separate it, your consciousness loses the support keeping it alive.",
+            "endingReason": "Foundation destroyed by an armor law parasite"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đạo cơ bị ký sinh tiên giáp phá hủy"
+      }
+    ]
+  },
+  {
+    "id": "sparse_mystic_immortal_false_self",
+    "category": "disaster",
+    "combat": true,
+    "title": "Ảnh giả bước khỏi tinh kính",
+    "text": "Tinh kính ở trạm quan trắc nhả ra một ảnh giả mang nhịp thần thức của ngươi. Nó đánh người gác rồi chặn đường lui, khiến ngươi phải tự giao chiến với ảnh.",
+    "translations": {
+      "zh": {
+        "title": "星镜伪影出走",
+        "text": "观测站的星镜吐出一道带着你神识节奏的伪影。它袭击守卫并封住退路，迫使你亲自与它交战。"
+      },
+      "en": {
+        "title": "A false self leaves the star mirror",
+        "text": "A station’s star mirror releases a false self bearing your consciousness rhythm. It attacks the keeper and blocks retreat, forcing you to confront your own moving reflection."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi đổi nhịp thần thức ngoài phần tinh kính đã ghi, khiến ảnh giả mất sức. Mảnh tinh kính được giữ làm vật nghiên cứu, sau khi người gác niêm phong lõi.",
+        "translations": {
+          "zh": {
+            "text": "你改变神识节奏，超出星镜已有记录，伪影随之失力。守卫封好核心后，你留下镜片用于研究。"
+          },
+          "en": {
+            "text": "You change your consciousness rhythm beyond the mirror’s recorded pattern, weakening the false self. Once the keeper seals its core, you retain a fragment for study."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Ảnh giả bắt đúng nhịp phản kích khiến thần thức ngươi rạn trước khi tinh kính vỡ. Người gác giữ được trạm, còn ngươi phải dùng tiên dược dưỡng lại tâm thần.",
+        "translations": {
+          "zh": {
+            "text": "伪影抓住反击节奏，在星镜破碎前震裂你的神识。守卫保住了观测站，你却须用仙药调养心神。",
+            "endingReason": "神识遭星镜伪影碾灭"
+          },
+          "en": {
+            "text": "The false self times a counterattack that cracks your consciousness before the mirror breaks. The station survives, but restoring your mind requires a course of immortal medicine.",
+            "endingReason": "Consciousness destroyed by a star mirror reflection"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Thần thức bị phản ảnh tinh kính nghiền tan"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Ảnh giả chiếm nhịp thần thức rồi xóa dấu bản thể của ngươi trong tinh kính. Tiên thể còn đứng trước gương, nhưng ý thức đã bị phản ảnh nghiền tan.",
+        "translations": {
+          "zh": {
+            "text": "伪影夺走神识节奏，抹去星镜中你的本体印记。仙体仍立在镜前，意识却已被倒影碾碎。",
+            "endingReason": "神识遭星镜伪影碾灭"
+          },
+          "en": {
+            "text": "The false self captures your rhythm and erases your original mark within the mirror. Your body stands before the glass while its reflection crushes your consciousness.",
+            "endingReason": "Consciousness destroyed by a star mirror reflection"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Thần thức bị phản ảnh tinh kính nghiền tan"
+      }
+    ]
+  },
+  {
+    "id": "sparse_immortal_king_oath_wraith",
+    "category": "disaster",
+    "combat": true,
+    "title": "Oán linh từ khế ước cháy",
+    "text": "Một khế ước cũ bị đốt tại điện hòa giải, thả oán linh gom từ lời thề phản bội. Nó cuốn người dự họp vào xiềng đạo, buộc ngươi đánh mở lối.",
+    "translations": {
+      "zh": {
+        "title": "焚契怨灵",
+        "text": "调解殿中，一份旧契约被焚毁，释放出背誓凝成的怨灵。它用道链困住与会者，迫使你出手开路。"
+      },
+      "en": {
+        "title": "A wraith from a burned covenant",
+        "text": "A burned covenant releases a wraith formed from broken promises inside a mediation hall. It binds the delegates with Dao chains, forcing you to fight a passage open."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi chặt xiềng đạo theo từng lời thề đã hết hiệu lực, làm oán linh tan. Những mảnh khế ngọc được thu lại, đủ bù vật liệu dựng lại trận bảo vệ.",
+        "translations": {
+          "zh": {
+            "text": "你沿失效誓言逐一斩断道链，使怨灵消散。收回的契玉碎片，足以补偿重建防护阵所需的材料。"
+          },
+          "en": {
+            "text": "You sever chains along expired promises until the wraith disperses. Recovered covenant jade provides enough material to compensate for rebuilding the hall’s damaged protective formation."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Xiềng đạo siết tiên thể khi ngươi mở đường cho người cuối rời điện. Oán linh bị trấn xuống nền trận, nhưng lời thề độc để lại đạo thương khó lành.",
+        "translations": {
+          "zh": {
+            "text": "你为最后一人开路时，道链勒伤仙体。怨灵被压入阵基，毒誓却留下难以愈合的道伤。",
+            "endingReason": "道基被契约怨灵焚毁"
+          },
+          "en": {
+            "text": "Dao chains wound your body as you clear the final delegate’s escape. The wraith is pressed beneath the formation, but its poisoned promises leave stubborn injuries.",
+            "endingReason": "Foundation burned away by a covenant wraith"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đạo cơ bị oán linh khế ước thiêu hủy"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Oán linh trói đạo cơ vào khế ước đang cháy, kéo tiên thể tan theo lời thề mục nát. Cửa điện mở được, nhưng ngươi không còn bước qua ngưỡng cửa.",
+        "translations": {
+          "zh": {
+            "text": "怨灵将道基绑进燃烧的契约，仙体随腐败誓言一同消散。殿门终于打开，你却再也无法跨过门槛。",
+            "endingReason": "道基被契约怨灵焚毁"
+          },
+          "en": {
+            "text": "The wraith binds your foundation to the burning covenant, dissolving your body with its rotten promises. The hall opens, but you can no longer cross its threshold.",
+            "endingReason": "Foundation burned away by a covenant wraith"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đạo cơ bị oán linh khế ước thiêu hủy"
+      }
+    ]
+  },
+  {
+    "id": "sparse_immortal_emperor_void_grazer",
+    "category": "disaster",
+    "combat": true,
+    "title": "Thú ăn nền giới",
+    "text": "Một cổ thú lần theo nền đạo của các giới để gặm phần liên kết. Ngươi chặn nó ở khoảng trống thiên ngoại, giao chiến trước khi những giới phía sau mất neo.",
+    "translations": {
+      "zh": {
+        "title": "吞界基之兽",
+        "text": "古兽沿诸界道基啃食连接之处。你在天外空隙拦住它，赶在身后诸界失去锚定之前迎战。"
+      },
+      "en": {
+        "title": "A beast feeding on world foundations",
+        "text": "An ancient beast follows world foundations to devour their connections. You intercept it beyond the heavens and fight before the worlds behind you lose their anchors."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi đổi đường liên kết khiến cổ thú cắn vào khoảng không rồi đánh vỡ hàm nó. Phần đạo nguyên chưa tiêu hóa được thu lại để gia cố những nền giới yếu.",
+        "translations": {
+          "zh": {
+            "text": "你改变连接路径，使古兽咬空，再击碎它的巨颚。尚未消化的道源被收回，用来加固薄弱的界基。"
+          },
+          "en": {
+            "text": "You redirect the connections, drawing an empty bite before breaking the beast’s jaws. Recovering its undigested Dao essence gives you material to reinforce weakened world foundations."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Cổ thú ngoạm một phần đạo cơ khi ngươi giữ đường neo cho giới phía sau. Ngươi đẩy được nó vào hư vô, nhưng phải hao bảo vật chữa vết cắn đại đạo.",
+        "translations": {
+          "zh": {
+            "text": "你稳住身后诸界锚线时，古兽咬去部分道基。虽将它推入虚无，仍须耗费宝物修复大道咬伤。",
+            "endingReason": "道基遭吞界古兽吞噬"
+          },
+          "en": {
+            "text": "The beast bites away part of your foundation while you hold the worlds’ anchors. Driving it into the void succeeds, but healing the Dao wound consumes treasures.",
+            "endingReason": "Foundation devoured by a world grazing beast"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đạo cơ bị cổ thú ăn nền giới nuốt mất"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Cổ thú nuốt đường neo rồi kéo đạo cơ của ngươi vào hàm hư vô. Đại đạo đứt khỏi tiên thể, để ý chí giữ giới tan giữa những mảnh liên kết.",
+        "translations": {
+          "zh": {
+            "text": "古兽吞掉锚线，将你的道基拖进虚无巨口。大道与仙体断开，守界意志消散在碎裂的连接之间。",
+            "endingReason": "道基遭吞界古兽吞噬"
+          },
+          "en": {
+            "text": "The beast swallows the anchor and drags your foundation into its void jaws. Your Dao separates from your body, scattering your will among the severed world connections.",
+            "endingReason": "Foundation devoured by a world grazing beast"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đạo cơ bị cổ thú ăn nền giới nuốt mất"
+      }
+    ]
+  },
+  {
+    "id": "sparse2_mortal_boar_firebreak",
+    "category": "disaster",
+    "title": "Lợn rừng chặn đường ngăn lửa",
+    "text": "Khi ngươi cùng dân làng phát đường ngăn cháy, lợn rừng bị động lao vào nhóm. Lối sau đầy cành vừa chặt, buộc ngươi dùng giáo ngắn giữ nó khỏi người ngã.",
+    "translations": {
+      "zh": {
+        "title": "野猪阻断防火道",
+        "text": "你与村民清理防火道时，受惊野猪冲入人群。身后堆满刚砍的枝条，你只得持短矛保护跌倒的人。"
+      },
+      "en": {
+        "title": "A boar blocks the firebreak",
+        "text": "While clearing a firebreak with villagers, you startle a boar into charging. Fresh branches block retreat, forcing you to hold it away from someone fallen with a short spear."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi giữ mũi giáo đúng hướng, buộc lợn rừng quay khỏi nhóm rồi chạy vào rừng. Người ngã được kéo dậy, còn làng trả thêm công cho buổi phát đường nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "你稳住矛尖，逼野猪转离人群逃回林中。跌倒者被扶起，村里也为这场危险的清理补了工钱。"
+          },
+          "en": {
+            "text": "Keeping the spear pointed steadily drives the boar away into the trees. The fallen villager rises safely, and the village adds wages for the dangerous clearing work."
+          }
+        },
+        "effects": {
+          "resources": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Nanh lợn rừng rạch đùi khi ngươi kéo người ngã khỏi lối lao tới. Nó chạy thoát qua bụi tre, để ngươi cần thuốc cầm máu trước khi về được nhà.",
+        "translations": {
+          "zh": {
+            "text": "你拉开跌倒者时，野猪獠牙划破大腿。它逃入竹丛，你则须先用止血药，才能设法回家。",
+            "endingReason": "清理防火道时遭野猪獠牙重创身亡"
+          },
+          "en": {
+            "text": "The boar’s tusk cuts your thigh while you pull the fallen villager aside. It escapes through bamboo, leaving you needing medicine to stop bleeding before returning home.",
+            "endingReason": "Killed by a boar while clearing a firebreak"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -6
+        },
+        "endingReason": "Tử nạn do nanh lợn rừng tại đường ngăn lửa"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Lợn rừng hất ngươi ngã trên cành chặt rồi đâm nanh vào bụng. Người trong làng tới kéo nó ra, nhưng vết thương đã khiến ngươi không còn giữ nổi hơi thở.",
+        "translations": {
+          "zh": {
+            "text": "野猪把你掀倒在断枝上，又以獠牙刺入腹部。村民赶来驱开它，重伤却已让你无法继续呼吸。",
+            "endingReason": "清理防火道时遭野猪獠牙重创身亡"
+          },
+          "en": {
+            "text": "The boar throws you onto cut branches and drives its tusks into your belly. Villagers force it away, but the wound has already ended your breathing.",
+            "endingReason": "Killed by a boar while clearing a firebreak"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Tử nạn do nanh lợn rừng tại đường ngăn lửa"
+      }
+    ]
+  },
+  {
+    "id": "sparse2_true_immortal_canal_eel",
+    "category": "disaster",
+    "title": "Điện man trong kênh tiên khí",
+    "text": "Ngươi kiểm kênh tiên khí thì điện man trốn dưới đá tấn công, hút lực từ dòng chảy. Van kênh kẹt khiến lối về ngập, buộc ngươi đánh nó để mở đường.",
+    "translations": {
+      "zh": {
+        "title": "仙气渠电鳗",
+        "text": "你检查仙气渠时，藏在石下的电鳗借水流吸力袭来。渠阀卡住，归路被淹，迫使你迎战开路。"
+      },
+      "en": {
+        "title": "An electric eel in the energy canal",
+        "text": "Inspecting an energy canal draws an electric eel from beneath the stones. A jammed valve floods your return path, forcing you to fight the creature for passage."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi tách điện man khỏi dòng tiên khí rồi đánh ngất nó bằng lực đã nén. Người coi kênh trả công, cho phép thu phần tinh cát kẹt quanh van hỏng.",
+        "translations": {
+          "zh": {
+            "text": "你切断电鳗与仙气水流的联系，用压缩之力将它击昏。渠管付了报酬，也允许收取卡在坏阀旁的晶砂。"
+          },
+          "en": {
+            "text": "You cut the eel off from the current and stun it with compressed energy. The canal keeper pays you and allows collection of crystal sand around the damaged valve."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Điện man quấn tay ngươi, phóng dòng điện tiên lực trước khi bị đánh bật. Ngươi mở được van để thoát, nhưng kinh mạch cháy đau cần thuốc điều dưỡng riêng.",
+        "translations": {
+          "zh": {
+            "text": "电鳗缠住手臂，在被击退前放出仙力电流。你开阀脱身，经脉灼伤却需要专门药物调养。",
+            "endingReason": "仙气渠电鳗摧毁仙脉致死"
+          },
+          "en": {
+            "text": "The eel coils around your arm and releases charged immortal energy before you repel it. Opening the valve frees you, but burned meridians require specialized restorative medicine.",
+            "endingReason": "Immortal meridians destroyed by a canal eel"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Tiên mạch bị điện man trong kênh phá hủy"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Điện man kéo ngươi xuống đáy kênh, truyền điện qua tiên mạch tới thần thức. Dòng khí vẫn chảy trên đầu, nhưng tiên thể đã mất sinh cơ giữa nước xoáy.",
+        "translations": {
+          "zh": {
+            "text": "电鳗把你拖到渠底，电流沿仙脉直击神识。头顶气流仍在流动，仙体却已在旋水中失去生机。",
+            "endingReason": "仙气渠电鳗摧毁仙脉致死"
+          },
+          "en": {
+            "text": "The eel drags you beneath the canal and sends current through your meridians into consciousness. Energy flows overhead while your body loses its life within the turning water.",
+            "endingReason": "Immortal meridians destroyed by a canal eel"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Tiên mạch bị điện man trong kênh phá hủy"
+      }
+    ]
+  },
+  {
+    "id": "sparse2_golden_immortal_bell_cricket",
+    "category": "disaster",
+    "title": "Thiết dế rung vỡ pháp tắc",
+    "text": "Một thiết dế khổng lồ chui khỏi nền xưởng, phát tiếng rung làm pháp tắc quanh ngươi rạn. Nó khóa nhịp mọi đường thoát, buộc ngươi phá tiếng kêu bằng giao chiến.",
+    "translations": {
+      "zh": {
+        "title": "铁蟋震裂法则",
+        "text": "巨型铁蟋从工坊地基钻出，鸣振使周围法则开裂。它锁住所有退路的节奏，迫使你交战破鸣。"
+      },
+      "en": {
+        "title": "An iron cricket shattering laws",
+        "text": "A giant iron cricket emerges beneath a workshop, cracking nearby laws with its vibrating call. It locks every escape route’s rhythm, forcing you to fight and silence it."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi đặt nhịp pháp tắc lệch tiếng kêu, đánh gãy cánh rung của thiết dế. Người thợ thu lại nền xưởng, chia phần thiết tinh còn dùng được cho ngươi.",
+        "translations": {
+          "zh": {
+            "text": "你错开法则与鸣声的节奏，击断铁蟋振翅。工匠修复工坊地基，将仍可用的铁晶分给你。"
+          },
+          "en": {
+            "text": "You shift your law away from its call’s rhythm and break the cricket’s wings. The smith restores the workshop foundation and shares iron crystals still fit for use."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Tiếng kêu xuyên hộ thân làm xương tay ngươi nứt trước khi thiết dế bị hạ. Ngươi giữ được đạo cơ, nhưng phải đổi tiên thạch lấy thuốc chữa rung chấn trong tiên thể.",
+        "translations": {
+          "zh": {
+            "text": "铁蟋倒下前，鸣声穿过护体力量震裂臂骨。道基得以保住，你却须花仙石买药清除仙体震伤。",
+            "endingReason": "道基遭铁蟋鸣振震碎"
+          },
+          "en": {
+            "text": "Before the cricket falls, its call pierces your defense and fractures an arm. Your foundation survives, but treating vibrations trapped within your body costs immortal stones.",
+            "endingReason": "Foundation shattered by an iron cricket’s call"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đạo cơ bị tiếng thiết dế chấn vỡ"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Thiết dế bắt được nhịp đạo cơ, rung từng lớp pháp tắc tới khi nền đạo vỡ. Tiếng kêu ngừng sau đó, còn tiên thể của ngươi đã sụp xuống nền xưởng.",
+        "translations": {
+          "zh": {
+            "text": "铁蟋抓住道基节奏，逐层震荡法则直到根基破碎。鸣声随后止息，你的仙体却已倒在工坊地上。",
+            "endingReason": "道基遭铁蟋鸣振震碎"
+          },
+          "en": {
+            "text": "The cricket captures your foundation’s rhythm and vibrates each law until its support breaks. Its call finally stops, leaving your body collapsed upon the workshop floor.",
+            "endingReason": "Foundation shattered by an iron cricket’s call"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đạo cơ bị tiếng thiết dế chấn vỡ"
+      }
+    ]
+  },
+  {
+    "id": "sparse2_mystic_immortal_dream_moth",
+    "category": "disaster",
+    "title": "Mộng nga săn người đang tỉnh",
+    "text": "Mộng nga thoát khỏi vùng ngủ của tinh đảo, kéo thần thức người tỉnh vào cánh nó. Ngươi bị đánh dấu giữa đường, phải giao chiến để cắt dấu trước khi ý thức chìm.",
+    "translations": {
+      "zh": {
+        "title": "梦蛾猎醒者",
+        "text": "梦蛾逃出星岛眠区，把清醒者的神识拖向双翼。你在路上被标记，须交战断印，免得意识沉陷。"
+      },
+      "en": {
+        "title": "A dream moth hunting the waking",
+        "text": "A dream moth leaves an island’s sleeping quarter and draws waking minds toward its wings. Marked in the street, you must fight to sever its hold before sinking."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi giữ một dấu tỉnh bên ngoài rồi đánh vào nhịp khép cánh của mộng nga. Nó rơi xuống khi liên hệ đứt, để lại phấn mộng dùng nghiên cứu huyền cảnh.",
+        "translations": {
+          "zh": {
+            "text": "你在外留住清醒印记，趁梦蛾合翼之际出击。联系切断后它坠落，留下可研究玄境的梦粉。"
+          },
+          "en": {
+            "text": "You anchor a waking mark outside and strike as the moth folds its wings. Severed contact brings it down, leaving dream powder useful for studying subtle realms."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Phấn mộng cuốn qua mắt khiến ngươi mất một phần cảm nhận khi đánh bật mộng nga. Dấu săn được gỡ, nhưng tiếng gọi người quen còn xa lạ tới khi dưỡng thần xong.",
+        "translations": {
+          "zh": {
+            "text": "梦粉掠过眼睛，你在击退梦蛾时失去部分感知。猎印虽除，熟人的呼唤仍显陌生，直到神识调养完毕。",
+            "endingReason": "神识在眠境中遭梦蛾吞灭"
+          },
+          "en": {
+            "text": "Dream powder crosses your eyes, dulling perception as you drive the moth away. Its mark disappears, yet familiar voices remain strange until your consciousness has recovered fully.",
+            "endingReason": "Consciousness devoured by a dream moth"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Thần thức bị mộng nga nuốt trong vùng ngủ"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Mộng nga khép cánh quanh dấu săn, nghiền thần thức ngươi trong vùng ngủ không có lối tỉnh. Tiên thể đổ giữa đường, khi người qua lại vẫn tưởng ngươi chỉ thiếp đi.",
+        "translations": {
+          "zh": {
+            "text": "梦蛾围着猎印合拢双翼，在无法醒来的眠境中碾碎你的神识。仙体倒在路上，行人却仍以为你只是睡着。",
+            "endingReason": "神识在眠境中遭梦蛾吞灭"
+          },
+          "en": {
+            "text": "The moth closes around its mark and crushes your mind within sleep that offers no awakening. Your body falls as passersby still mistake its stillness for a nap.",
+            "endingReason": "Consciousness devoured by a dream moth"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Thần thức bị mộng nga nuốt trong vùng ngủ"
+      }
+    ]
+  },
+  {
+    "id": "sparse2_immortal_king_decree_guardian",
+    "category": "disaster",
+    "title": "Vệ binh nhận chiếu lệnh giả",
+    "text": "Vệ binh khôi lỗi tại cửa điện nhận chiếu giả và bắt đầu đánh người dự lễ. Ngươi đứng chặn trước bậc thềm, phải phá quyền điều khiển mà không để đòn lan xuống sân.",
+    "translations": {
+      "zh": {
+        "title": "卫兵误受伪诏",
+        "text": "殿门傀儡卫兵误受伪诏，开始攻击参加典礼的人。你挡在台阶前，须破除控制，避免攻势波及庭院。"
+      },
+      "en": {
+        "title": "A guardian obeying a forged decree",
+        "text": "A palace guardian accepts a forged decree and attacks ceremony guests. Holding the steps, you must break its command without letting the blows reach the courtyard below."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi cắt dấu chiếu giả khỏi lõi lệnh, khiến vệ binh dừng trước bậc cuối. Phần ngọc điều khiển hỏng được thu để luyện lại, bù số vật liệu ngươi đã dùng.",
+        "translations": {
+          "zh": {
+            "text": "你从令核切去伪诏印记，使卫兵停在最后一级台阶前。损坏的控玉收来重炼，补偿了你用掉的材料。"
+          },
+          "en": {
+            "text": "You sever the forged command from its core, stopping the guardian above the final step. Reclaimed control jade can be refined again to cover the materials you spent."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Vệ binh đâm xuyên lớp đạo vực ở tay ngươi trước khi lõi lệnh bị cắt. Khách dự lễ thoát khỏi sân, nhưng đạo thương khiến ngươi phải dừng việc nhiều ngày.",
+        "translations": {
+          "zh": {
+            "text": "令核被切断前，卫兵刺穿你手臂外的道域。宾客逃离庭院，道伤却迫使你停下事务休养多日。",
+            "endingReason": "受伪诏控制的傀儡卫兵自爆致死"
+          },
+          "en": {
+            "text": "Before you sever its command, the guardian pierces the domain around your arm. Guests escape the courtyard, but the law wound keeps you from duties for days.",
+            "endingReason": "Killed by a guardian detonated under a forged decree"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Tử nạn do vệ binh khôi lỗi mang chiếu giả tự hủy"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Chiếu giả thúc vệ binh tự hủy lõi ngay khi ngươi áp sát, nổ đạo lực xuyên tiên thể. Ngươi che được bậc thềm phía sau, nhưng đạo cơ tan trong vụ nổ.",
+        "translations": {
+          "zh": {
+            "text": "你近身时，伪诏令卫兵引爆核心，道力穿透仙体。身后台阶虽被护住，你的道基却在爆炸中消散。",
+            "endingReason": "受伪诏控制的傀儡卫兵自爆致死"
+          },
+          "en": {
+            "text": "As you approach, the forged decree detonates the guardian’s core and drives force through your body. The steps remain shielded, but the explosion dissolves your foundation.",
+            "endingReason": "Killed by a guardian detonated under a forged decree"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Tử nạn do vệ binh khôi lỗi mang chiếu giả tự hủy"
+      }
+    ]
+  },
+  {
+    "id": "sparse2_immortal_emperor_karma_vines",
+    "category": "disaster",
+    "title": "Dây nghiệp trói đường luân chuyển",
+    "text": "Dây nghiệp mọc từ những nhân quả bỏ dở, trói các đường luân chuyển ngoài giới. Chúng quấn tới đạo tràng của ngươi, buộc ngươi giao chiến để sinh linh không bị giữ lại.",
+    "translations": {
+      "zh": {
+        "title": "业藤缚轮转之路",
+        "text": "未尽因果生出业藤，缠住界外轮转之路。藤蔓攀向你的道场，迫使你迎战，免得生灵被困。"
+      },
+      "en": {
+        "title": "Karma vines binding the paths of renewal",
+        "text": "Vines born from unfinished causes bind paths of renewal beyond the worlds. Reaching your sanctuary, they force you to fight before living souls become caught within them."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi tách nhân quả còn hiệu lực khỏi nút nghiệp rồi chặt phần dây tự sinh. Đường luân chuyển mở lại, những mảnh đạo kết thu được giúp nghiên cứu chỗ ràng buộc.",
+        "translations": {
+          "zh": {
+            "text": "你把仍有效的因果从业结中分离，斩去自行滋生的藤蔓。轮转道路重开，收得的道结碎片可研究束缚之理。"
+          },
+          "en": {
+            "text": "You separate living causes from the knots and cut away the overgrown vines. Renewal paths reopen, while recovered fragments offer material for studying the nature of binding."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Dây nghiệp siết đạo cơ khi ngươi gỡ một nút đang giữ sinh linh. Đường được mở sau trận đánh, nhưng nhân quả lẫn trong vết thương cần nhiều bảo vật thanh lọc.",
+        "translations": {
+          "zh": {
+            "text": "你解开困住生灵的业结时，藤蔓勒伤道基。战后道路开放，伤处混杂的因果却须耗费许多宝物净化。",
+            "endingReason": "大道遭业藤绞断而亡"
+          },
+          "en": {
+            "text": "Vines wound your foundation as you loosen a knot imprisoning souls. The fight opens their path, but cleansing the tangled causes within your injury consumes many treasures.",
+            "endingReason": "Dao severed by constricting karma vines"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đại đạo bị dây nghiệp siết đứt"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Dây nghiệp kéo đạo cơ vào nút nhân quả không còn đầu mối, khiến đại đạo tự buộc rồi đứt. Tiên thể tan trước cửa đạo tràng khi những đường luân chuyển vẫn bị khóa.",
+        "translations": {
+          "zh": {
+            "text": "业藤把道基拖进无头因果之结，大道自缚而断。轮转之路仍被锁住，仙体已消散在道场门前。",
+            "endingReason": "大道遭业藤绞断而亡"
+          },
+          "en": {
+            "text": "The vines drag your foundation into a knot of lost causes, binding your Dao until it breaks. Your body dissolves before the sanctuary while renewal paths remain closed.",
+            "endingReason": "Dao severed by constricting karma vines"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đại đạo bị dây nghiệp siết đứt"
+      }
+    ]
+  },
+  {
+    "id": "sparse3_mortal_tannery_hounds",
+    "category": "disaster",
+    "title": "Chó dữ thoát ở xưởng thuộc da",
+    "text": "Hai con chó giữ xưởng thuộc da thoát dây khi ngươi tới nhận hàng, lao vào người khuân đồ. Cửa sân bị xe chắn, buộc ngươi cầm đòn gánh che người ngã.",
+    "translations": {
+      "zh": {
+        "title": "制革坊恶犬脱逃",
+        "text": "你来制革坊取货时，两只护院犬挣脱绳索扑向搬货人。车堵住院门，你只得拿扁担护住跌倒者。"
+      },
+      "en": {
+        "title": "Hounds loose at the tannery",
+        "text": "Two guard dogs break loose as you collect goods from the tannery and attack a carrier. A cart blocks the gate, forcing you to shield the fallen worker with a pole."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi dùng đòn gánh giữ mõm chó khỏi người ngã tới khi chủ xưởng bắt lại dây. Hàng không mất, người chủ trả thêm tiền và hứa sửa chốt giữ trước buổi sau.",
+        "translations": {
+          "zh": {
+            "text": "你用扁担挡住犬口，直到坊主重新套好绳索。货物未损，他补了工钱，并答应下次前修好拴扣。"
+          },
+          "en": {
+            "text": "You hold the dogs away with your pole until the owner secures their leads. The goods survive, and extra payment comes with a promise to repair the faulty fastenings."
+          }
+        },
+        "effects": {
+          "resources": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Một con chó cắn sâu cẳng tay khi ngươi che cho người khuân hàng. Chủ xưởng kéo chúng vào chuồng, nhưng ngươi cần rửa vết thương và mua thuốc trước khi tiếp tục làm.",
+        "translations": {
+          "zh": {
+            "text": "你护住搬货人时，一只犬深咬手臂。坊主把它们拖回笼中，你则须洗伤口买药，才能继续做工。",
+            "endingReason": "在制革坊遭恶犬咬杀"
+          },
+          "en": {
+            "text": "A dog bites deeply into your forearm as you shield the carrier. The owner locks both away, but cleaning and treating the wound interrupts your work afterward.",
+            "endingReason": "Killed by guard dogs at the tannery"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -6
+        },
+        "endingReason": "Tử nạn do chó dữ cắn tại xưởng thuộc da"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Hai con chó quật ngươi xuống giữa sân, cắn rách cổ trước khi dây giữ được nối lại. Người chủ tới kéo chúng ra, nhưng ngươi đã mất máu không còn tỉnh nữa.",
+        "translations": {
+          "zh": {
+            "text": "两只犬把你扑倒在院里，绳索重新接好前便咬裂颈部。坊主赶来拖开它们，你却已因失血而无法苏醒。",
+            "endingReason": "在制革坊遭恶犬咬杀"
+          },
+          "en": {
+            "text": "The dogs knock you down and tear your neck before their leads are secured. The owner drags them away, but blood loss has already ended your life.",
+            "endingReason": "Killed by guard dogs at the tannery"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Tử nạn do chó dữ cắn tại xưởng thuộc da"
+      }
+    ]
+  },
+  {
+    "id": "sparse3_true_immortal_silt_crab",
+    "category": "disaster",
+    "title": "Nham cua dưới cầu dẫn khí",
+    "text": "Nham cua đội nền cầu dẫn khí khi ngươi kiểm trụ, kẹp đường lui bằng càng đá. Dòng tiên lực làm nó lớn nhanh, buộc ngươi đánh tách khỏi cầu trước khi trụ gãy.",
+    "translations": {
+      "zh": {
+        "title": "引气桥下岩蟹",
+        "text": "你检查引气桥柱时，岩蟹顶起桥基，用石螯堵住退路。仙力让它迅速长大，迫使你将它打离桥身。"
+      },
+      "en": {
+        "title": "A rock crab beneath the energy bridge",
+        "text": "A rock crab lifts the energy bridge during your inspection and blocks retreat with stone claws. Fed by the current, it grows, forcing you to separate it before the pillars break."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi cắt dòng khí nuôi nham cua rồi đánh vỡ vỏ càng đang kẹp cầu. Người giữ trụ trả công sửa, để ngươi thu mảnh giáp làm vật liệu chịu nén.",
+        "translations": {
+          "zh": {
+            "text": "你切断养大岩蟹的气流，再击碎夹桥的螯壳。守柱人付了修护报酬，并让你收取甲片作耐压材料。"
+          },
+          "en": {
+            "text": "You cut the current feeding the crab and break the claw gripping the bridge. Its keeper pays for repairs and lets you gather shell fragments as pressure resistant material."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Càng đá ép chân ngươi khi dòng khí bị cắt, trước lúc nham cua rơi xuống nước. Trụ cầu còn đứng, nhưng tiên thể cần thuốc liền xương để đi lại như cũ.",
+        "translations": {
+          "zh": {
+            "text": "气流断开时石螯压伤你的腿，随后岩蟹落水。桥柱仍立，仙体却须用接骨药才能恢复行走。",
+            "endingReason": "桥下岩蟹夹毁仙脉致死"
+          },
+          "en": {
+            "text": "A claw crushes your leg as the current stops and the crab drops away. The bridge remains standing, but restoring your walk requires medicine to mend the bone.",
+            "endingReason": "Meridians crushed by a rock crab beneath the bridge"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Tiên mạch bị nham cua dưới cầu phá nát"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Nham cua kẹp nát tiên mạch rồi kéo ngươi vào nền cầu đang sụp, chặn mọi đường thoát. Tiên lực tắt trong thân trước khi người giữ trụ tìm tới chỗ gạch đá.",
+        "translations": {
+          "zh": {
+            "text": "岩蟹夹碎仙脉，把你拖入坍塌桥基，堵住所有出路。守柱人找到碎石之前，体内仙力已经熄灭。",
+            "endingReason": "桥下岩蟹夹毁仙脉致死"
+          },
+          "en": {
+            "text": "The crab crushes your meridians and drags you beneath the collapsing bridge, closing every escape. Your energy dies before its keeper reaches the buried stones where you fell.",
+            "endingReason": "Meridians crushed by a rock crab beneath the bridge"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Tiên mạch bị nham cua dưới cầu phá nát"
+      }
+    ]
+  },
+  {
+    "id": "sparse3_golden_immortal_thunder_spirit",
+    "category": "disaster",
+    "title": "Lôi linh phá cột thử pháp",
+    "text": "Lôi linh trú trong cột thử pháp thoát ra khi ngươi kiểm trận, hút đạo văn thành thân sét. Nó chặn cửa xưởng bằng điện, buộc ngươi giao chiến trước khi cột bên cạnh vỡ.",
+    "translations": {
+      "zh": {
+        "title": "雷灵冲破试法柱",
+        "text": "你检查阵法时，试法柱中的雷灵逃出，吸取道纹化作雷体。它以电封住工坊出口，迫使你在邻柱破裂前迎战。"
+      },
+      "en": {
+        "title": "A thunder spirit breaks the testing pillar",
+        "text": "A thunder spirit escapes a testing pillar during your inspection and consumes patterns to form its body. It seals the workshop with lightning, forcing battle before neighboring pillars break."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi ngắt những đạo văn nuôi thân sét rồi đánh lôi linh vào cột rỗng đã nối đất. Xưởng giữ được trận chính, còn tinh lôi kết lại đủ dùng gia cố pháp khí.",
+        "translations": {
+          "zh": {
+            "text": "你切断滋养雷体的道纹，将雷灵打入已接地的空柱。工坊主阵保住了，凝结的雷晶也足以加固法器。"
+          },
+          "en": {
+            "text": "You sever the patterns feeding its body and drive the spirit into a grounded empty pillar. The main formation survives, leaving thunder crystals suitable for strengthening your artifacts."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Lôi linh phóng điện xuyên vai khi ngươi cắt được đạo văn cuối nuôi nó. Cửa xưởng mở lại sau trận đánh, nhưng kinh mạch cháy đau cần thuốc dưỡng trước khi vận pháp.",
+        "translations": {
+          "zh": {
+            "text": "你切断最后一道养雷道纹时，雷灵放电穿过肩膀。战后工坊门重新开放，灼伤经脉却须用药调养才能施法。",
+            "endingReason": "道基遭试法柱雷灵击穿"
+          },
+          "en": {
+            "text": "As you sever its final feeding pattern, the spirit sends lightning through your shoulder. The workshop opens after the fight, but burned meridians need medicine before further practice.",
+            "endingReason": "Foundation pierced by a testing pillar’s thunder spirit"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đạo cơ bị lôi linh trong cột thử pháp đánh thủng"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Lôi linh nối điện từ các cột thử thành một mũi sét xuyên đạo cơ, trước khi ngươi ngắt nguồn. Tiên thể đổ bên trận vỡ, để pháp khí hộ thân cháy đen trên đất.",
+        "translations": {
+          "zh": {
+            "text": "你来不及断源，雷灵便把试法柱电流连成雷矛，刺穿道基。仙体倒在破阵旁，护身法器烧黑在地。",
+            "endingReason": "道基遭试法柱雷灵击穿"
+          },
+          "en": {
+            "text": "Before you disconnect its source, the spirit joins the pillars’ currents into a spear through your foundation. Your body falls beside the broken formation, its protective artifacts scorched.",
+            "endingReason": "Foundation pierced by a testing pillar’s thunder spirit"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đạo cơ bị lôi linh trong cột thử pháp đánh thủng"
+      }
+    ]
+  },
+  {
+    "id": "sparse3_mystic_immortal_blind_stars",
+    "category": "disaster",
+    "title": "Tinh bọ ăn dấu phương hướng",
+    "text": "Tinh bọ từ khe đảo ăn dấu phương hướng của người đi đường, khiến lối về mất mốc. Ngươi bị vây giữa đàn, phải đánh mở khoảng trống trước khi thần thức lạc.",
+    "translations": {
+      "zh": {
+        "title": "星虫吞方位印",
+        "text": "星虫从岛缝涌出，吞食行路者的方位印，使归路失去标记。你被虫群围住，须在神识迷失前打出空隙。"
+      },
+      "en": {
+        "title": "Star beetles consuming direction marks",
+        "text": "Star beetles emerge from an island seam and consume travelers’ direction marks. Surrounded as your return route loses its bearings, you must open a gap before consciousness becomes lost."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi dựng mốc giả ngoài đường về, kéo tinh bọ tụ lại rồi đánh tan lớp vỏ cảm nhận. Phần tinh xác còn nguyên được thu làm vật liệu che dấu cho pháp khí.",
+        "translations": {
+          "zh": {
+            "text": "你在归路之外设假标记，引星虫聚集后击碎感知外壳。完整星壳收来，可作遮蔽法器印记的材料。"
+          },
+          "en": {
+            "text": "You place false bearings away from the return route and break the beetles’ sensing shells. Intact remnants provide material for shielding the marks carried by your artifacts."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Tinh bọ ăn mất một dấu thần thức khi ngươi mở được lối thoát khỏi đàn. Trở về nhờ mốc ngoài, ngươi vẫn phải dưỡng tâm để phân biệt lại những hướng quen.",
+        "translations": {
+          "zh": {
+            "text": "你打出逃路时，星虫吞掉了一处神识印。靠外部标记返回后，仍须养神才能再次分清熟悉的方向。",
+            "endingReason": "本体印被星虫吞尽而神识消散"
+          },
+          "en": {
+            "text": "A beetle consumes one consciousness mark as you break free of the swarm. External bearings bring you home, but restoring recognition of familiar directions still requires recovery.",
+            "endingReason": "Consciousness lost after star beetles consume its original marks"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Thần thức tan do tinh bọ ăn mất dấu bản thể"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Đàn tinh bọ ăn sạch dấu bản thể rồi kéo thần thức ngươi vào phương hướng giả. Tiên thể còn trên đảo, nhưng ý thức tan khi không còn điểm để tự nhận ra.",
+        "translations": {
+          "zh": {
+            "text": "星虫吞尽本体印，把神识拖入虚假方位。仙体仍在岛上，意识却因失去自认的锚点而消散。",
+            "endingReason": "本体印被星虫吞尽而神识消散"
+          },
+          "en": {
+            "text": "The swarm consumes your original marks and draws consciousness into false directions. Your body remains upon the island, but awareness dissolves without a point by which to recognize itself.",
+            "endingReason": "Consciousness lost after star beetles consume its original marks"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Thần thức tan do tinh bọ ăn mất dấu bản thể"
+      }
+    ]
+  },
+  {
+    "id": "sparse3_immortal_king_stone_falcon",
+    "category": "disaster",
+    "title": "Thạch ưng phá trạm đưa tin",
+    "text": "Thạch ưng cổ đánh vào trạm đưa tin, gom đạo lực các cột truyền thành cánh sắc. Ngươi tới lúc người giữ trạm bị kẹt, phải giao chiến để chặn nó khỏi dân cư.",
+    "translations": {
+      "zh": {
+        "title": "石鹰袭传讯站",
+        "text": "古石鹰袭击传讯站，把传讯柱的道力聚成锐翼。你赶到时守站人被困，须迎战阻止它飞向居民区。"
+      },
+      "en": {
+        "title": "A stone falcon attacking the message relay",
+        "text": "An ancient stone falcon attacks a relay and gathers its pillars’ power into sharp wings. With the keeper trapped, you must fight before it reaches nearby homes."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi khóa đạo lực ở cột truyền rồi đánh gãy cánh thạch ưng mất nguồn nuôi. Trạm giữ được lõi, còn mảnh cánh được thu lại để bù vật liệu sửa trận.",
+        "translations": {
+          "zh": {
+            "text": "你封住传讯柱道力，击断失去供给的石翼。站中核心保住，收回的翼片也补了修阵材料。"
+          },
+          "en": {
+            "text": "You seal the pillars’ power and break the falcon’s unfed wings. The relay core survives, while recovered wing fragments provide material to compensate for its damaged formations."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Cánh đá chém qua đạo vực khiến vai ngươi chịu thương trong lúc cứu người giữ trạm. Thạch ưng bị hạ, nhưng đạo lực lẫn đá vụn cần tiên dược để lấy khỏi tiên thể.",
+        "translations": {
+          "zh": {
+            "text": "救守站人时，石翼斩过道域，伤了你的肩膀。石鹰虽被击落，混着碎石的道力仍须仙药从仙体中清除。",
+            "endingReason": "道基遭袭站石鹰刺穿"
+          },
+          "en": {
+            "text": "A stone wing cuts your domain and shoulder as you free the keeper. The falcon falls, but medicine is needed to remove stone fragments tangled with law force.",
+            "endingReason": "Foundation pierced by a stone falcon at the relay"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Đạo cơ bị thạch ưng phá trạm đưa tin xuyên thủng"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Thạch ưng gom đạo lực trạm thành mỏ xuyên đạo cơ trước khi ngươi khóa được nguồn. Người giữ trạm thoát ra sau đó, còn ngươi đã tan giữa cột truyền gãy.",
+        "translations": {
+          "zh": {
+            "text": "石鹰把站中道力聚成尖喙，在你封源前刺穿道基。守站人后来脱身，你却已消散在断裂的传讯柱之间。",
+            "endingReason": "道基遭袭站石鹰刺穿"
+          },
+          "en": {
+            "text": "The falcon concentrates relay power into its beak and pierces your foundation before you seal it. The keeper later escapes, while you dissolve among the broken pillars.",
+            "endingReason": "Foundation pierced by a stone falcon at the relay"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Đạo cơ bị thạch ưng phá trạm đưa tin xuyên thủng"
+      }
+    ]
+  },
+  {
+    "id": "sparse3_immortal_emperor_hollow_tide",
+    "category": "disaster",
+    "title": "Hư triều mang ý chí săn đạo",
+    "text": "Hư triều mang ý chí cường giả đã mất, tìm đạo cơ sống để trú vào. Nó chạm đạo tràng khi ngươi quan sát thiên ngoại, buộc ngươi giao chiến trước khi bị chiếm nền.",
+    "translations": {
+      "zh": {
+        "title": "猎道意志的虚潮",
+        "text": "虚潮带着亡强者的意志，寻找活道基寄居。你观天外时它触及道场，迫使你迎战，免得根基被占。"
+      },
+      "en": {
+        "title": "A void tide hunting the Dao",
+        "text": "A void tide carries a fallen master’s will seeking a living foundation. It reaches your sanctuary during observation, forcing you to fight before that will claims your Dao."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 4,
+    "minAge": 18,
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "combat": true,
+    "outcomes": [
+      {
+        "id": "victory",
+        "weight": 5,
+        "text": "Ngươi tách ý chí săn đạo khỏi hư triều rồi dẫn dòng rỗng ra ngoài đạo tràng. Những đạo tích không còn chủ được thu để nghiên cứu cách ý chí bám nền.",
+        "translations": {
+          "zh": {
+            "text": "你将猎道意志从虚潮剥离，把空流引出道场。收取无主道痕，用来研究意志依附根基的方法。"
+          },
+          "en": {
+            "text": "You separate the hunting will from the tide and guide its empty current away. Unclaimed Dao traces offer material for studying how will attaches itself to a foundation."
+          }
+        },
+        "effects": {
+          "resources": 18,
+          "cultivation": 8
+        }
+      },
+      {
+        "id": "injury",
+        "weight": 4,
+        "text": "Ý chí lạ bám một phần đạo cơ trước khi ngươi đẩy hư triều khỏi cửa. Giữ được bản thể, ngươi vẫn phải hao bảo vật tách những ý niệm chưa thuộc về mình.",
+        "translations": {
+          "zh": {
+            "text": "陌生意志在你推退虚潮前附上部分道基。本体虽保住，仍须耗费宝物剥离不属于自己的念头。",
+            "endingReason": "虚潮亡意占据道基并碾灭神识"
+          },
+          "en": {
+            "text": "The foreign will clings to part of your foundation before you repel the tide. Your identity survives, but removing thoughts that are not your own consumes precious treasures.",
+            "endingReason": "Consciousness destroyed by a void tide’s invading will"
+          }
+        },
+        "effects": {
+          "health": -18,
+          "resources": -14
+        },
+        "endingReason": "Thần thức bị ý chí trong hư triều chiếm đạo cơ nghiền tan"
+      },
+      {
+        "id": "death",
+        "weight": 1,
+        "text": "Hư triều phủ kín đạo cơ, để ý chí đã mất xóa dấu chủ nhân còn sống. Đại đạo đổi hướng ngay trong tiên thể, nghiền tan thần thức ngươi trước khi dòng triều rút.",
+        "translations": {
+          "zh": {
+            "text": "虚潮覆满道基，亡者意志抹去活主人的印记。大道在仙体内改向，潮水退去之前已碾碎你的神识。",
+            "endingReason": "虚潮亡意占据道基并碾灭神识"
+          },
+          "en": {
+            "text": "The tide covers your foundation, allowing the fallen will to erase its living owner. Your Dao turns within your body and crushes consciousness before the current withdraws.",
+            "endingReason": "Consciousness destroyed by a void tide’s invading will"
+          }
+        },
+        "effects": {
+          "death": true
+        },
+        "endingReason": "Thần thức bị ý chí trong hư triều chiếm đạo cơ nghiền tan"
+      }
+    ]
   }
 ]

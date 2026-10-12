@@ -624,5 +624,1037 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sparse_mortal_reed_breath",
+    "category": "cultivation",
+    "title": "Hơi thở qua ống sậy",
+    "text": "Ngươi thổi qua ống sậy để giữ hơi đều theo lời người dạy dưỡng sinh. Buổi đầu chỉ có tiếng đứt quãng; dần dần, ngực bớt tức khi đi đường dài.",
+    "translations": {
+      "zh": {
+        "title": "苇管练息",
+        "text": "你依养生师傅所言，用苇管练习均匀呼气。最初声音断断续续，渐渐地，远行时胸口不再那么憋闷。"
+      },
+      "en": {
+        "title": "Breathing through a reed",
+        "text": "Following a healer’s advice, you blow through a reed to steady your breathing. Its broken notes gradually become even, and long walks leave your chest less strained."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 3
+    }
+  },
+  {
+    "id": "sparse_mortal_grain_balance",
+    "category": "cultivation",
+    "title": "Bát kê đặt trên đầu",
+    "text": "Ngươi tập đứng tấn với bát kê trên đầu, cố giữ thân ngay mà không gồng vai. Khi hạt cuối thôi rung, ngươi nhận ra sức bền đến từ nhịp thở.",
+    "translations": {
+      "zh": {
+        "title": "头顶粟碗",
+        "text": "你顶着一碗粟米练站桩，保持身形端正而不绷紧肩膀。最后一粒米不再晃动时，你体会到呼吸对耐力的作用。"
+      },
+      "en": {
+        "title": "A bowl of millet balanced overhead",
+        "text": "You practice standing with millet balanced upon your head, keeping straight without stiffening your shoulders. When the last grain stops shaking, you recognize how breathing supports endurance."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 3
+    }
+  },
+  {
+    "id": "sparse_true_immortal_vapor_scale",
+    "category": "cultivation",
+    "title": "Cân hơi tiên lực",
+    "text": "Ngươi đặt hơi tiên lực lên chiếc cân chuyên dụng, tập rút từng phần bằng nhau. Khi hai đĩa đứng yên, việc điều lực vào kinh mạch không còn chênh lệch.",
+    "translations": {
+      "zh": {
+        "title": "称量仙力气息",
+        "text": "你把仙力化作气息置于专用天平上，练习每次抽取同等分量。两盘平稳后，注入经脉的力量也变得均匀。"
+      },
+      "en": {
+        "title": "Weighing immortal vapor",
+        "text": "You weigh vapor formed from immortal energy, practicing equal withdrawals each time. Once both pans remain level, the currents entering your meridians become easier to balance."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_true_immortal_mortal_habit",
+    "category": "cultivation",
+    "title": "Bỏ nhịp vận công cũ",
+    "text": "Ngươi ghi lại lúc tiên lực nghẽn theo nhịp vận công thời hạ giới. Đổi khoảng nghỉ giữa hai vòng tuần hoàn giúp tiên thể tiếp nhận dòng khí nhẹ hơn.",
+    "translations": {
+      "zh": {
+        "title": "改去旧行功节奏",
+        "text": "你记下沿用下界行功节奏时仙力堵塞的时刻。调整两次循环之间的间歇后，仙体吸纳气息更加轻松。"
+      },
+      "en": {
+        "title": "Leaving an old practice rhythm",
+        "text": "You record where immortal energy stalls under your old mortal rhythm. Adjusting the pauses between circulations allows your immortal body to receive the current more comfortably."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_golden_immortal_law_rest",
+    "category": "cultivation",
+    "title": "Pháp tắc trong khoảng nghỉ",
+    "text": "Ngươi ngừng thúc pháp tắc mỗi khi tiên lực chạm giới hạn, quan sát nó tự lắng. Những khoảng nghỉ đúng lúc giúp đạo văn giữ hình mà không hao lực dư.",
+    "translations": {
+      "zh": {
+        "title": "停顿中的法则",
+        "text": "仙力触及限度时，你停止催动法则，观察它自行平复。适时停顿让道纹保持形态，也减少多余消耗。"
+      },
+      "en": {
+        "title": "The law within a pause",
+        "text": "You stop driving a law whenever energy reaches its limit and watch it settle. Timely pauses preserve the pattern’s shape while reducing the effort wasted sustaining it."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_golden_immortal_weightless_stone",
+    "category": "cultivation",
+    "title": "Viên đá không mất trọng lượng",
+    "text": "Ngươi luyện pháp tắc nâng vật mà vẫn giữ nguyên trọng lượng thật của viên đá. Phân biệt sức nâng với bản chất vật giúp tiên lực thôi bù vào chỗ sai.",
+    "translations": {
+      "zh": {
+        "title": "不失重量的石头",
+        "text": "你练习抬起石块而不改变它真实的重量。分清托举之力与物体本质后，仙力不再补到错误之处。"
+      },
+      "en": {
+        "title": "A stone retaining its weight",
+        "text": "You practice lifting a stone without altering its actual weight. Distinguishing the supporting force from the stone itself prevents your energy from compensating in the wrong place."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_mystic_immortal_double_shadow",
+    "category": "cultivation",
+    "title": "Hai bóng dưới tinh đăng",
+    "text": "Ngươi dựng hai tinh đăng để quan sát bóng thần thức giao nhau. Tách phần do nguồn sáng tạo ra giúp huyền ý bớt lẫn với những sai lệch của giác quan.",
+    "translations": {
+      "zh": {
+        "title": "星灯双影",
+        "text": "你立起两盏星灯，观察神识投影交叠。分离光源造成的部分后，玄意不再轻易混入感官误差。"
+      },
+      "en": {
+        "title": "Two shadows beneath a star lamp",
+        "text": "You arrange two star lamps to study overlapping shadows of consciousness. Separating the effects of each light helps keep subtle understanding free from distortions introduced by perception."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_mystic_immortal_interval_map",
+    "category": "cultivation",
+    "title": "Bản đồ khoảng cách giữa ý niệm",
+    "text": "Ngươi ghi khoảng nghỉ giữa những ý niệm khi tham ngộ huyền pháp. Những chỗ tưởng liền nhau hóa ra khác nhịp, cho phép chỉnh lại đường vận thần thức.",
+    "translations": {
+      "zh": {
+        "title": "念间距离图",
+        "text": "参悟玄法时，你记录念头之间的停顿。看似相连之处其实节奏不同，使你得以修正神识运转的路径。"
+      },
+      "en": {
+        "title": "Mapping the distance between thoughts",
+        "text": "While contemplating a subtle art, you record the intervals between thoughts. Seemingly connected moments reveal different rhythms, allowing you to correct the path taken by your consciousness."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_immortal_king_domain_edge",
+    "category": "cultivation",
+    "title": "Đường biên không ép đạo",
+    "text": "Ngươi thu nhỏ phạm vi đạo vực, dò nơi pháp tắc ép lên đất bên ngoài. Làm mềm đường biên giúp quyền năng giữ ổn định mà không tổn hại vùng tiếp giáp.",
+    "translations": {
+      "zh": {
+        "title": "不压道的边界",
+        "text": "你缩小道域，探查法则压迫外部土地的位置。柔化边界后，力量保持稳定，也不再损伤相邻地域。"
+      },
+      "en": {
+        "title": "A boundary that does not press the Dao",
+        "text": "You narrow your domain to examine where its laws press against neighboring ground. Softening that boundary keeps your power stable while sparing the land beside it."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_immortal_king_many_streams",
+    "category": "cultivation",
+    "title": "Dòng đạo từ những nhánh nhỏ",
+    "text": "Ngươi quan sát các dòng pháp tắc địa phương trước khi hợp chúng vào đạo vực. Giữ lại nhịp riêng từng nhánh khiến dòng chung bền hơn cách cưỡng ép đồng nhất.",
+    "translations": {
+      "zh": {
+        "title": "细支汇道",
+        "text": "你先观察地方各支法则，再将它们汇入道域。保留各自节奏，让整体比强行统一时更加稳固。"
+      },
+      "en": {
+        "title": "The Dao gathered from smaller streams",
+        "text": "You study local currents of law before joining them within your domain. Preserving each branch’s rhythm makes the whole more resilient than forcing every stream into uniformity."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_immortal_emperor_absent_law",
+    "category": "cultivation",
+    "title": "Đại đạo nơi không can thiệp",
+    "text": "Ngươi rút ý chí khỏi một góc đạo tràng để quan sát pháp tắc tự vận hành. Phần vẫn bền cho thấy chỗ nào đại đạo thực sự đã thành nền.",
+    "translations": {
+      "zh": {
+        "title": "不干预处的大道",
+        "text": "你从道场一角撤去意志，观察法则自行运转。仍然稳固的部分，显出大道真正化作根基的位置。"
+      },
+      "en": {
+        "title": "The Dao where you do not intervene",
+        "text": "You withdraw your will from one corner of your sanctuary and observe the laws operating alone. Whatever remains stable reveals where your Dao has become a lasting foundation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse_immortal_emperor_opposing_seasons",
+    "category": "cultivation",
+    "title": "Hai mùa trong một đạo văn",
+    "text": "Ngươi đặt ý niệm sinh trưởng và tàn úa vào cùng đạo văn, giữ chúng chuyển tiếp thay vì triệt tiêu. Nhịp tuần hoàn ấy giúp đại đạo chứa được những mặt trái chiều.",
+    "translations": {
+      "zh": {
+        "title": "一道纹中的两季",
+        "text": "你把生长与凋零的意念置入同一道纹，让它们轮转而非相互消灭。这份循环使大道能够容纳相反的两面。"
+      },
+      "en": {
+        "title": "Two seasons within one pattern",
+        "text": "You place growth and decline within one Dao pattern, allowing transitions instead of mutual destruction. Their cycle teaches your Dao to accommodate forces pulling in opposite directions."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse2_mortal_door_posture",
+    "category": "cultivation",
+    "title": "Lưng thẳng bên khung cửa",
+    "text": "Ngươi tập tựa lưng sát khung cửa để nhận ra thói quen khom người. Sau những buổi chỉnh vai và cổ, việc ngồi dưỡng sinh không còn khiến lưng mỏi sớm.",
+    "translations": {
+      "zh": {
+        "title": "门框旁正背",
+        "text": "你靠着门框检查弯背的习惯。多次调整肩颈后，静坐养生时背部不再那么快疲劳。"
+      },
+      "en": {
+        "title": "Straightening your back by the doorway",
+        "text": "You lean against a doorframe to notice your habitual stoop. Repeatedly adjusting your shoulders and neck lets you sit for restorative practice without tiring your back so quickly."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 2,
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse2_mortal_ankle_stretch",
+    "category": "cultivation",
+    "title": "Gân chân sau buổi gánh",
+    "text": "Người thầy dưỡng sinh chỉ ngươi duỗi gân chân sau mỗi buổi gánh nặng. Ngươi tập chậm theo mức chịu được, để hôm sau bước đi không còn kéo theo đau nhức.",
+    "translations": {
+      "zh": {
+        "title": "挑担后舒筋",
+        "text": "养生师傅教你挑重担后舒展腿筋。你按能承受的程度缓缓练习，让翌日行走不再带着酸痛。"
+      },
+      "en": {
+        "title": "Stretching after carrying a load",
+        "text": "A healer teaches you to stretch your legs after carrying heavy loads. Practicing slowly within your limits makes the next day’s walking easier and less painful."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 2,
+      "health": 3
+    }
+  },
+  {
+    "id": "sparse2_mortal_cooking_focus",
+    "category": "cultivation",
+    "title": "Giữ tâm khi canh bếp",
+    "text": "Ngươi tập chú tâm vào tiếng nước sôi khi canh bếp, không chạy theo chuyện ngoài sân. Nồi cơm thôi khê, còn lúc ngồi yên cũng bớt những ý nghĩ rối.",
+    "translations": {
+      "zh": {
+        "title": "看灶守心",
+        "text": "看灶时，你练习专注水沸之声，不再被院中的闲话牵走。饭不再烧焦，静坐时杂念也少了些。"
+      },
+      "en": {
+        "title": "Keeping focus beside the stove",
+        "text": "Tending the stove, you focus on boiling water instead of courtyard gossip. The rice stops burning, and sitting quietly afterward brings fewer wandering thoughts than before."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 3
+    }
+  },
+  {
+    "id": "sparse2_true_immortal_pore_current",
+    "category": "cultivation",
+    "title": "Tiên khí qua từng lỗ chân lông",
+    "text": "Ngươi luyện tiếp nhận tiên khí qua da thay vì dồn hết vào hơi thở. Mở từng vùng nhỏ giúp tiên thể bớt nóng, giữ dòng hấp thu ổn định lâu hơn.",
+    "translations": {
+      "zh": {
+        "title": "毛孔间的仙气",
+        "text": "你练习以肌肤吸纳仙气，不再全靠呼吸。逐片开放小区域，使仙体少些灼热，吸收也保持得更久。"
+      },
+      "en": {
+        "title": "Immortal energy through each pore",
+        "text": "You practice receiving immortal energy through your skin rather than relying entirely on breath. Opening small areas gradually reduces overheating and sustains a steadier intake for longer."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 16
+    }
+  },
+  {
+    "id": "sparse2_true_immortal_gentle_pressure",
+    "category": "cultivation",
+    "title": "Tiên lực không làm nứt chén",
+    "text": "Ngươi dẫn tiên lực quanh chén sứ mỏng, tập chạm mà không làm nứt men. Lúc nâng được chén đầy nước, lực trên đầu ngón tay đã bớt thô hơn trước.",
+    "translations": {
+      "zh": {
+        "title": "仙力不裂杯",
+        "text": "你让仙力绕过薄瓷杯，练习触碰而不裂釉。终于托起满水的杯子时，指尖力量已比从前细腻。"
+      },
+      "en": {
+        "title": "Energy that does not crack a cup",
+        "text": "You guide energy around a thin porcelain cup without cracking its glaze. Lifting it full of water at last shows how much gentler your fingertips have become."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 15
+    }
+  },
+  {
+    "id": "sparse2_golden_immortal_law_threshold",
+    "category": "cultivation",
+    "title": "Ngưỡng bắt đầu của pháp tắc",
+    "text": "Ngươi tăng tiên lực từng chút để tìm lúc pháp tắc bắt đầu tác dụng. Ghi đúng ngưỡng ấy giúp vận pháp không còn phí sức vào những khoảng chưa sinh hiệu lực.",
+    "translations": {
+      "zh": {
+        "title": "法则起效门槛",
+        "text": "你逐点增加仙力，寻找法则开始起效的门槛。准确记下后，施法便不再把力量浪费在尚无作用的区间。"
+      },
+      "en": {
+        "title": "The threshold where a law begins",
+        "text": "You increase energy gradually to identify the point where a law takes effect. Recording that threshold prevents wasted effort in ranges where the technique does nothing useful."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse2_golden_immortal_law_residue",
+    "category": "cultivation",
+    "title": "Dư lực sau khi thu pháp",
+    "text": "Sau mỗi lần thu pháp, ngươi đo phần tiên lực vẫn bám quanh đạo văn. Dẫn nó trở về đúng đường giúp bớt phản chấn và giữ kinh mạch ổn định.",
+    "translations": {
+      "zh": {
+        "title": "收法后的余力",
+        "text": "每次收法后，你测量仍附在道纹周围的仙力。把它沿正确路径引回，减轻反震，也让经脉更稳定。"
+      },
+      "en": {
+        "title": "Residual force after a technique ends",
+        "text": "After ending each technique, you measure energy still clinging to its pattern. Returning it along the correct path reduces backlash and keeps your meridians more stable."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 17,
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse2_mystic_immortal_dream_weight",
+    "category": "cultivation",
+    "title": "Phân biệt sức nặng của mộng",
+    "text": "Ngươi đặt dấu thần thức trước giấc ngủ rồi kiểm lại khi tỉnh. Những dấu không đổi giúp phân biệt mộng do tâm sinh với ảnh hưởng thật từ huyền pháp.",
+    "translations": {
+      "zh": {
+        "title": "辨梦之重",
+        "text": "入睡前你留下一道神识标记，醒来后再检查。未变的印记帮助分辨内心之梦与玄法造成的真实影响。"
+      },
+      "en": {
+        "title": "Distinguishing the weight of dreams",
+        "text": "You leave a consciousness mark before sleep and examine it upon waking. Unchanged marks help distinguish dreams arising within your mind from actual effects of subtle arts."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse2_mystic_immortal_distant_sense",
+    "category": "cultivation",
+    "title": "Thần thức ở hai đầu đường",
+    "text": "Ngươi đặt hai dấu cảm nhận cách xa nhau, tập chuyển chú ý mà không kéo lệch vị trí. Khoảng chuyển ngắn dần giúp thần thức giữ phương hướng giữa tinh vực rộng.",
+    "translations": {
+      "zh": {
+        "title": "长路两端的神识",
+        "text": "你在远隔两处留感知印记，练习转移注意而不挪动位置。切换间隙渐短，神识在辽阔星域中也更能保持方向。"
+      },
+      "en": {
+        "title": "Consciousness at both ends of a road",
+        "text": "You set perception marks far apart and shift attention without moving either point. Shortening that transition helps your consciousness preserve its bearings across a wide stellar region."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 19
+    }
+  },
+  {
+    "id": "sparse2_immortal_king_domain_listening",
+    "category": "cultivation",
+    "title": "Nghe đạo vực trước khi dẫn",
+    "text": "Ngươi để pháp tắc địa phương tự truyền tin trong đạo vực trước khi thêm ý chí. Nhận ra chỗ liên hệ sẵn có giúp dẫn dòng chung bằng ít lực hơn.",
+    "translations": {
+      "zh": {
+        "title": "引导之前听道域",
+        "text": "加入意志之前，你让地方法则在道域中自行传递信息。认出原有联系后，便能以更少力量引导整体。"
+      },
+      "en": {
+        "title": "Listening before guiding the domain",
+        "text": "Before adding your will, you let local laws communicate within the domain. Recognizing their existing connections allows you to guide the combined current with less force."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 20
+    }
+  },
+  {
+    "id": "sparse2_immortal_king_empty_center",
+    "category": "cultivation",
+    "title": "Khoảng trống ở tâm đạo vực",
+    "text": "Ngươi giữ một khoảng trống tại tâm đạo vực để các dòng lực có chỗ chuyển. Khi giao nhau không còn dồn cứng, đạo cơ bớt chịu sức ép từ nhiều hướng.",
+    "translations": {
+      "zh": {
+        "title": "道域中心的空处",
+        "text": "你在道域中心留一片空处，让力量流动有转圜空间。交汇不再僵塞，道基承受的多向压力也减轻了。"
+      },
+      "en": {
+        "title": "An open space at the domain’s center",
+        "text": "You preserve an open space at your domain’s center for currents to turn. Freeing their intersections eases the pressure that once pushed against your foundation from every direction."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 19,
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse2_immortal_emperor_dao_vocabulary",
+    "category": "cultivation",
+    "title": "Tên gọi không ôm hết đại đạo",
+    "text": "Ngươi thử mô tả cùng một đoạn đại đạo bằng những hệ chữ khác nhau. Phần luôn mất khi chuyển lời chỉ ra giới hạn cách hiểu, mở thêm hướng tham ngộ.",
+    "translations": {
+      "zh": {
+        "title": "名字容不尽大道",
+        "text": "你用不同文字体系描述同一段大道。每次转述都会遗失的部分，显出了理解的边界，也开辟了新的参悟方向。"
+      },
+      "en": {
+        "title": "Names that cannot contain the Dao",
+        "text": "You describe one passage of Dao through several writing systems. What each translation consistently loses reveals the limits of your understanding and offers another direction for contemplation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 22
+    }
+  },
+  {
+    "id": "sparse2_immortal_emperor_consequence_circle",
+    "category": "cultivation",
+    "title": "Vòng hệ quả của một ý niệm",
+    "text": "Ngươi theo dấu một ý niệm qua từng lớp pháp tắc trong đạo tràng khép kín. Thấy hệ quả quay lại điểm đầu giúp chỉnh đại đạo trước khi dùng ngoài các giới.",
+    "translations": {
+      "zh": {
+        "title": "一念的后果环",
+        "text": "你在封闭道场中追踪一念穿过各层法则。看清后果如何回到起点，便能在用于诸界之前调整大道。"
+      },
+      "en": {
+        "title": "The consequences of a single thought",
+        "text": "Within a closed sanctuary, you follow one thought through successive layers of law. Watching its consequences return to the beginning helps refine your Dao before applying it beyond."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 21
+    }
+  },
+  {
+    "id": "sparse3_mortal_falling_seeds",
+    "category": "cultivation",
+    "title": "Nghe hạt rơi khi nhắm mắt",
+    "text": "Ngươi nhắm mắt nghe người dạy thả hạt xuống những bát khác nhau. Tập phân biệt âm gần xa giúp giữ chú ý vào một việc, thay vì đoán vội theo thói quen.",
+    "translations": {
+      "zh": {
+        "title": "闭眼听落籽",
+        "text": "你闭眼听师傅将籽粒落入不同碗中。练习分辨远近声音，让注意力留在眼前之事，不再凭习惯急着猜测。"
+      },
+      "en": {
+        "title": "Listening to falling seeds with closed eyes",
+        "text": "With eyes closed, you hear a teacher drop seeds into different bowls. Distinguishing nearby sounds from distant ones helps sustain attention instead of rushing into habitual guesses."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 3
+    }
+  },
+  {
+    "id": "sparse3_mortal_turning_step",
+    "category": "cultivation",
+    "title": "Bước vòng trên nền đất mềm",
+    "text": "Ngươi tập đổi hướng trên nền đất mềm, để dấu chân cho thấy mình dồn sức bên nào. Sửa từng bước ngắn giúp thân giữ cân bằng mà đầu gối không chịu xoắn.",
+    "translations": {
+      "zh": {
+        "title": "软地转步",
+        "text": "你在软地练习转向，凭脚印看出力量偏在哪侧。调整短步后，身体能保持平衡，膝盖也不再承受扭转。"
+      },
+      "en": {
+        "title": "Turning steps on soft ground",
+        "text": "You practice turning on soft ground, reading footprints to see where your weight falls. Adjusting short steps preserves balance while sparing your knees the strain of twisting."
+      }
+    },
+    "allowedRealms": [
+      "mortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 2,
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse3_true_immortal_warm_marrows",
+    "category": "cultivation",
+    "title": "Tiên lực qua tủy xương",
+    "text": "Ngươi dẫn tiên lực mỏng qua từng đoạn xương, không để hơi nóng dồn một chỗ. Khi tủy tiếp nhận đều hơn, tiên thể chịu được buổi vận công dài mà ít rã rời.",
+    "translations": {
+      "zh": {
+        "title": "仙力过骨髓",
+        "text": "你把细薄仙力逐段导入骨中，不让热气聚在一处。骨髓吸纳更均匀后，长时间行功也不再那么疲惫。"
+      },
+      "en": {
+        "title": "Immortal energy through the marrow",
+        "text": "You guide thin currents through each bone without concentrating their heat. More even reception within the marrow helps your immortal body endure long practice with less fatigue."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 16,
+      "health": 2
+    }
+  },
+  {
+    "id": "sparse3_true_immortal_pool_surface",
+    "category": "cultivation",
+    "title": "Mặt nước không gợn khi vận lực",
+    "text": "Ngươi đặt tay dưới mặt nước, tập vận tiên lực mà không làm sóng nổi lên. Giữ được mặt nước yên giúp phân biệt phần lực hữu dụng với dư chấn vô tình.",
+    "translations": {
+      "zh": {
+        "title": "运力水面不波",
+        "text": "你把手放在水面下，练习运仙力而不起波纹。水面平稳后，便能分辨有效力量与无意产生的余震。"
+      },
+      "en": {
+        "title": "A still surface during energy practice",
+        "text": "With your hand beneath water, you circulate energy without raising ripples. Keeping the surface still teaches you to distinguish useful force from the vibrations produced by careless effort."
+      }
+    },
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 15
+    }
+  },
+  {
+    "id": "sparse3_golden_immortal_law_friction",
+    "category": "cultivation",
+    "title": "Ma sát giữa hai đạo văn",
+    "text": "Ngươi cho hai đạo văn gần nhau trượt qua mà không nhập thành một. Nhận ra điểm ma sát giúp đổi khoảng cách, giữ cả hai pháp tắc hoạt động với ít hao tổn.",
+    "translations": {
+      "zh": {
+        "title": "双道纹间摩擦",
+        "text": "你让相邻的两道道纹擦身而过，却不合成一体。找出摩擦位置后调整间距，两种法则便能以更少消耗运转。"
+      },
+      "en": {
+        "title": "Friction between two law patterns",
+        "text": "You slide neighboring patterns past each other without merging them. Identifying friction lets you adjust their spacing and keep both laws active with less energy lost between them."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse3_golden_immortal_law_rotation",
+    "category": "cultivation",
+    "title": "Pháp tắc thuận và nghịch chiều",
+    "text": "Ngươi xoay cùng một đạo văn theo hai chiều, ghi lúc tiên lực đổi cách truyền. Phân biệt phần phụ thuộc hướng quay giúp vận pháp chính xác hơn khi dựng trận nhỏ.",
+    "translations": {
+      "zh": {
+        "title": "法则的顺转与逆转",
+        "text": "你让同一道纹向两侧旋转，记录仙力传递改变的时刻。分清哪些部分依赖转向后，布置小阵时施法更加准确。"
+      },
+      "en": {
+        "title": "A law turning forward and backward",
+        "text": "You rotate one pattern in both directions and record changes in energy transmission. Distinguishing which parts depend on rotation improves your precision when setting up small formations."
+      }
+    },
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 17
+    }
+  },
+  {
+    "id": "sparse3_mystic_immortal_meaning_pause",
+    "category": "cultivation",
+    "title": "Huyền ý trước khi thành lời",
+    "text": "Ngươi ghi nhận ý niệm ngay trước lúc nó thành câu trong tâm trí. Tách phần đã bị lời dẫn đi giúp huyền ý rõ hơn, không mắc vào cách gọi quen.",
+    "translations": {
+      "zh": {
+        "title": "成言之前的玄意",
+        "text": "你观察念头在心中化成句子前的一刻。分离已被语言牵引的部分，玄意便更清楚，也不再困在惯用名称里。"
+      },
+      "en": {
+        "title": "Subtle meaning before it becomes words",
+        "text": "You observe a thought just before it becomes a sentence within your mind. Separating what language has already shaped clarifies subtle meaning beyond the names you habitually use."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 19
+    }
+  },
+  {
+    "id": "sparse3_mystic_immortal_return_marker",
+    "category": "cultivation",
+    "title": "Dấu về trong huyền cảnh nhiều tầng",
+    "text": "Ngươi dựng dấu về tại mỗi lớp huyền cảnh trước khi đi sâu hơn. Tập trở lại theo đúng thứ tự giúp thần thức thôi kéo ký ức từ tầng dưới lên nhầm.",
+    "translations": {
+      "zh": {
+        "title": "多层玄境归印",
+        "text": "深入玄境前，你在每层设下归路印记。练习依次返回，使神识不再把下层记忆误带到上层。"
+      },
+      "en": {
+        "title": "A return mark within layered subtle realms",
+        "text": "Before entering deeper subtle realms, you place a return mark in each layer. Coming back in sequence prevents your consciousness from bringing memories into the wrong level."
+      }
+    },
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 18
+    }
+  },
+  {
+    "id": "sparse3_immortal_king_domain_resonance",
+    "category": "cultivation",
+    "title": "Cộng hưởng không đồng nhịp",
+    "text": "Ngươi cho các vùng đạo vực giữ nhịp khác nhau nhưng gặp tại điểm chung. Cộng hưởng hiện ra từng lúc giúp nâng lực mà không bắt toàn vực thay đổi cùng lúc.",
+    "translations": {
+      "zh": {
+        "title": "不同节奏的共鸣",
+        "text": "你让道域各处保持不同节奏，只在共同点相遇。间歇出现的共鸣提升力量，而不必让全域同时改变。"
+      },
+      "en": {
+        "title": "Resonance without an identical rhythm",
+        "text": "You let domain regions keep different rhythms that meet at shared points. Their occasional resonance strengthens your power without requiring every region to change at once."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 20
+    }
+  },
+  {
+    "id": "sparse3_immortal_king_boundary_memory",
+    "category": "cultivation",
+    "title": "Đạo vực nhớ đường từng mở",
+    "text": "Ngươi kiểm những đường đạo từng mở rồi khép trong đạo vực, tìm sức ép còn lưu. Xóa dấu dẫn đã lỗi giúp dòng lực không chạy nhầm vào khoảng đất bỏ trống.",
+    "translations": {
+      "zh": {
+        "title": "道域记旧通路",
+        "text": "你检查道域中曾开后闭的道途，找出残留压力。抹去过时引路印后，力量便不再误流向空置土地。"
+      },
+      "en": {
+        "title": "A domain remembering earlier passages",
+        "text": "You inspect passages previously opened and closed within your domain for lingering pressure. Removing outdated guide marks prevents energy from straying toward land the paths no longer serve."
+      }
+    },
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 19
+    }
+  },
+  {
+    "id": "sparse3_immortal_emperor_dao_exception",
+    "category": "cultivation",
+    "title": "Ngoại lệ trong nền đại đạo",
+    "text": "Ngươi tìm một hiện tượng không khớp cách đại đạo thường vận hành trong đạo tràng. Thay vì ép nó đổi, ngươi xét lại điều kiện đã bỏ sót khi lập nền.",
+    "translations": {
+      "zh": {
+        "title": "大道根基中的例外",
+        "text": "你在道场找到不符合大道常态的现象。没有强迫它改变，而是重新检查建立根基时遗漏的条件。"
+      },
+      "en": {
+        "title": "An exception within the Dao’s foundations",
+        "text": "You find a phenomenon within your sanctuary that defies your Dao’s usual operation. Instead of forcing it to change, you reconsider conditions overlooked when establishing that foundation."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 22
+    }
+  },
+  {
+    "id": "sparse3_immortal_emperor_dao_scale",
+    "category": "cultivation",
+    "title": "Cùng đạo ở hai tầm nhìn",
+    "text": "Ngươi quan sát một đạo tuyến ở quy mô hạt bụi rồi mở tới khoảng giới. Những chỗ chỉ đúng ở một tầm giúp đại đạo bớt áp dụng cứng cùng một cách.",
+    "translations": {
+      "zh": {
+        "title": "同道不同尺度",
+        "text": "你先在尘粒尺度观察一道道线，再扩大到世界之间。找出只在某种尺度成立之处，便能避免大道僵用同一办法。"
+      },
+      "en": {
+        "title": "The same Dao at different scales",
+        "text": "You study a Dao line at the scale of dust, then between worlds. Discovering what holds only at one scale prevents rigidly applying the same method everywhere."
+      }
+    },
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 21
+    }
+  },
+  {
+    "id": "sparse3_qi_refining_single_channel",
+    "category": "cultivation",
+    "title": "Linh khí theo một mạch nhỏ",
+    "text": "Ngươi chỉ dẫn linh khí qua một đoạn kinh mạch ngắn, kiểm từng chỗ hụt trước khi nối xa hơn. Những lượt vận chuyển nhỏ giúp tụ khí đều mà không phải cưỡng ép.",
+    "translations": {
+      "zh": {
+        "title": "灵气沿一细脉",
+        "text": "你先让灵气走过短段经脉，检查各处不足后再延长。小幅循环让聚气更均匀，不必强行催逼。"
+      },
+      "en": {
+        "title": "Energy along a single narrow channel",
+        "text": "You guide energy through one short channel, checking each weak point before extending the route. Small circulations make gathering steadier without the strain of forcing a larger current."
+      }
+    },
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "weight": 6,
+    "minAge": 18,
+    "cooldownYears": 40,
+    "maxOccurrencesPerLife": 1,
+    "importance": "normal",
+    "effects": {
+      "cultivation": 7
+    }
   }
 ]

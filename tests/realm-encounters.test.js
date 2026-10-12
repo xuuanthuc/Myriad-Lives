@@ -1,3 +1,4 @@
+import {events} from '../src/engine/content.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {realms} from '../src/data/realms.js';
@@ -21,7 +22,7 @@ test('every realm has its own ordinary, beneficial and dangerous encounters plus
 });
 
 test('new encounters appear only in their allowed realms, once per life; choices resolve and simulations finish',()=>{
-  const added=new Map([...realmEncounters,...realmChoices,...realmJourneys,...realmTales,...realmWanderings].map(e=>[e.id,e]));
+  const added=new Map([...realmEncounters,...realmChoices,...realmJourneys,...realmTales,...realmWanderings,...events.filter(event=>/^sparse[23]?_/.test(event.id))].map(e=>[e.id,e]));
   const seen=new Set(),choicesSeen=new Set();
   for(let seed=1;seed<=600;seed++){
     const run=autoComplete(startLife({runCount:0,pityCount:25},createRng(seed)).run);
