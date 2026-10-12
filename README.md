@@ -2,9 +2,15 @@
 
 Game tu tiên theo hai tài liệu v1.2 trong docs. React + JavaScript + Vite.
 
+Nhật ký chia theo trang cảnh giới: hàng nút cảnh giới ở trên, danh sách sự kiện theo tuổi ở giữa, bảng ô xanh nhỏ kiểu GitHub ở dưới cùng. Bấm ô xanh chuyển trang cảnh giới và cuộn tới sự kiện tương ứng. Các ô chỉ đại diện cho sự kiện đã xảy ra; ngôn ngữ và diễn biến kiếp được giữ nguyên khi chuyển trang.
+
 Chạy: npm install rồi npm run dev.
 
+Tốc độ kể chuyện **x1 / x2 / x4**, mặc định x1: mỗi mốc mới hiện sau khoảng 2 / 1 / 0,5 giây. Có thanh tiến độ chặng và Tạm dừng/Tiếp tục. Đổi tốc độ ngay giữa chặng giữ lại thời gian đã chạy. Game dừng để chọn khi ngã rẽ được hiển thị; Tự động hoàn tất tự chọn phần còn lại nhưng vẫn kể theo tốc độ đã đặt. Đổi tab sẽ tạm ngưng nhịp kể. Hồ sơ trạng thái, nhật ký và bảng xanh chỉ hiện tới mốc đã kể; engine và RNG không chịu ảnh hưởng của tốc độ. Đây là thay đổi theo yêu cầu người chơi, thay thế quy tắc v1.2 hiển thị ngay toàn bộ chặng.
+
 Kiểm tra: npm test (10.000 kiếp) và npm run build.
+
+**Dừng trước đột phá:** đủ tu vi thì engine trả về mốc chờ, chưa roll kết quả hay tiến tuổi thêm. Sau khi nhật ký chặng đã hiện hết, chỉ có nút **Thử đột phá**. Người chơi có thể đọc lại tự do; bấm mới roll thành/bại, chạy và kể chặng tiếp theo. Thất bại thì tích lũy lại, lần thử sau tiếp tục chờ xác nhận. Lần Độ Kiếp để Phi thăng cũng phải xác nhận. Nút tự động trong UI xử lý lựa chọn sự kiện thường nhưng dừng ở mốc đột phá kế tiếp; `autoComplete()` vẫn được giữ cho kiểm thử engine hàng loạt.
 
 Luân hồi sinh nhân vật và thế giới mới, mô phỏng đến ngã rẽ hoặc kết cục. Có lựa chọn và Tự động hoàn tất. Pity chỉ đổi khi sinh hồ sơ. Tải lại trang reset toàn bộ phiên.
 
