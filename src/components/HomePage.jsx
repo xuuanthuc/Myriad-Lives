@@ -30,7 +30,7 @@ export default function HomePage({t,mountains,onOpenGuide,onlineCount}) {
         <h2 id="home-world-heading">{t('Một đời phàm tục, một giấc mộng trường sinh.')}</h2>
         <p>{t('Có người sinh giữa sơn thôn, có người mở mắt dưới mái tông môn. Một lần trắc linh có thể mở ra tiên lộ, cũng có thể để lại cả đời sống giữa nhân gian.')}</p>
         <p>{t('Vạn Kiếp kể hành trình ấy qua từng mốc tuổi: tu luyện, gặp gỡ, lựa chọn và vượt bình cảnh. Không phải ai cũng đến được tiên giới; một đời ngắn ngủi vẫn có câu chuyện của riêng mình.')}</p>
-        {onlineCount>0&&<p className="online-cultivators"><i aria-hidden="true"/><strong>{onlineCount}</strong> {t('đạo hữu đang cùng tu luyện')}</p>}
+        {onlineCount>0&&<p className="online-cultivators"><i aria-hidden="true"/><strong>{onlineCount}</strong> {t('Vị đạo hữu đang tu luyện')}</p>}
       </div>
     </section>
     <section className="home-codex">

@@ -1,6 +1,6 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
-  ['đạo hữu đang cùng tu luyện','位道友正在修行','fellow cultivators on the path'],
+  ['Vị đạo hữu đang tu luyện','位道友正在修行','fellow cultivators on the path'],
   ['Giới tính','性别','Gender'],
   ['Nam','男','Male'],
   ['Nữ','女','Female'],
