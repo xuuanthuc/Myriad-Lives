@@ -1,6 +1,7 @@
 import HomePage from './components/HomePage.jsx';
 import AnimatedNumber from './components/AnimatedNumber.jsx';
 import AssetIcon from './components/AssetIcon.jsx';
+import ChoiceDialog from './components/ChoiceDialog.jsx';
 import {stageName} from './data/subrealms.js';
 import {useEffect, useRef, useState} from 'react';
 import {startLife, chooseOption, autoUntilBreakthrough} from './engine/lifeRunner.js';
@@ -71,9 +72,9 @@ export default function App() {
     </header>
     {guide&&<aside className="guide"><b>{t('Một đời, một số mệnh.')}</b>{t('Bước vào luân hồi để gieo một số mệnh mới. Trên đường cầu đạo, hãy chọn lối đi khi gặp ngã rẽ; đến lúc chạm bình cảnh, đọc lại ký sự rồi thử đột phá. Có thể tạm dừng hoặc đổi tốc độ để thong thả dõi theo một đời. Tải lại trang, mọi dấu tích của phiên này sẽ tan theo mây khói.')}<button onClick={()=>setGuide(false)} aria-label={t('Đóng hướng dẫn')}>×</button></aside>}
     <main>
-      {page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<>
+      {page==='home'?<HomePage t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
+      <div className="cultivation-backdrop" aria-hidden="true"><img src={`${import.meta.env.BASE_URL}assets/images/cultivation-retreat.jpg`} width="1536" height="1024" alt="" decoding="async"/></div>
       <section className={'hero '+(run?'compact':'')}>
-        <Mountains/>
         <div className="hero-content">
           <p className="eyebrow"><span/>{t('MỘT LẦN LUÂN HỒI, MỘT ĐỜI TIÊN LỘ')}<span/></p>
           <h1>{t('Vạn')} <em>{t('Kiếp')}</em><span className="seal">輪<br/>迴</span></h1>
@@ -105,6 +106,7 @@ export default function App() {
           <div className="story">
             <div className="story-heading"><h2>{t('Nhân sinh ký sự')}</h2><span>{run.facts.length} {t('mốc cuộc đời')}</span></div>
             <LifeActivity key={run.number} run={run} t={t}>
+            {run.pendingChoice&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}>
             {run.pendingChoice?.kind==='breakthrough'&&<section className="choice-card breakthrough-card" aria-live="polite">
               <p className="eyebrow">✦ {t('Đang chờ đột phá')} · {run.state.age} {t('tuổi')}</p>
               <h2>{t(realms[run.state.realm].name)} · {t(stageName(run.state))} <ArrowIcon/> {t(run.pendingChoice.targetRealm===null?'Phi thăng':realms[run.pendingChoice.targetRealm].name)}</h2>
@@ -117,6 +119,7 @@ export default function App() {
               <div className="options">{run.pendingChoice.options.map((o,i)=><button key={o.id} onClick={()=>resolveChoice(o.id)}><span className="option-number">0{i+1}</span><span><b>{t(o.text)}</b><small>{t(o.hint)}</small></span><ArrowIcon/></button>)}</div>
               <button className="auto" onClick={()=>resolveChoice(null,true)}>{t('Để số mệnh tự quyết')} <ArrowIcon direction="up-right"/><small>{t('Tự động hoàn tất')}</small></button>
             </section>}
+            </ChoiceDialog>}
             {finished&&<section className="ending-card" aria-live="polite">
               <span className="ending-symbol">{run.result.endingType==='ascension'?'仙':'終'}</span><p className="eyebrow">{t('KẾT CỤC KIẾP NÀY')}</p><h2>{t(run.result.endingReason)}</h2>
               <p>{t('Cảnh giới cao nhất')}: <b>{t(realms[run.result.highestRealm].name)}{run.result.highestRealm>0?' · '+t(stageName({realm:run.result.highestRealm,subrealm:run.result.highestSubrealm})):''}</b> · {run.state.age} {t('tuổi')}</p>
@@ -126,7 +129,7 @@ export default function App() {
           </div>
         </div>
       </section>}
-      </>}
+      </div>}
     </main>
     <footer><span>MYRIAD LIVES <i> / </i>{t('VẠN KIẾP')}</span><p>{t('Vạn giới rộng lớn. Tiên lộ vô cùng.')}</p><span>{t('Một phiên, vạn số mệnh.')}</span></footer>
   </div>;

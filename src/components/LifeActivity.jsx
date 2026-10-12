@@ -20,7 +20,7 @@ export default function LifeActivity({run,t,children}) {
   const eventNodes=useRef(new Map());
   const listNode=useRef(null);
   const scrollToEvent=useRef(false);
-  const entries=run.facts.filter(fact=>fact.realm===page);
+  const entries=run.facts.filter(fact=>fact.realm===page).reverse();
   const counts=realms.map((_,index)=>run.facts.filter(fact=>fact.realm===index).length);
   const heatmapRows=Math.max(7,...counts);
 
@@ -37,8 +37,7 @@ export default function LifeActivity({run,t,children}) {
     if(selectedId!==latest?.id||page!==latest?.realm||scrollToEvent.current)return;
     const node=eventNodes.current.get(selectedId),list=listNode.current;
     if(node&&list){
-      const top=node.getBoundingClientRect().top-list.getBoundingClientRect().top+list.scrollTop;
-      list.scrollTo({top:Math.max(0,top-list.clientHeight+node.offsetHeight+10),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+      list.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     }
   },[selectedId,latest?.id,page]);
 

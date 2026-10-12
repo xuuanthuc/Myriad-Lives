@@ -100,7 +100,7 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
           <caption className="sr-only">{t('Các thể chất đang có trong game')}</caption>
           <thead><tr><th scope="col">{t('Thể chất')}</th><th scope="col">{t('Độ hiếm')}</th><th scope="col">{t('Đặc điểm')}</th></tr></thead>
           <tbody>{physiques.map(physique => {
-            const [rarity,description]=physiqueInfo[physique.name];
+            const [rarity,description]=physiqueInfo[physique.name]||[physique.rarity,physique.description];
             const current=run?.profile.physique.name===physique.name;
             return <tr key={physique.name} className={current?'codex-current':''}>
               <th scope="row">{t(physique.name)}{current&&<small className="codex-badge">{t('Kiếp này')}</small>}</th>

@@ -1,3 +1,4 @@
+import {extraPhysiques} from '../data/extraPhysiques.js';
 import { ui } from './ui.js';
 import { legacy, endingsLocales } from './legacy.js';
 import { events, birth, endings, wordCount } from '../engine/content.js';
@@ -20,6 +21,7 @@ for (const event of events) {
 }
 for (const record of [...birth,...endings]) add(record.text,endingsLocales[record.id]);
 for (const origin of origins) add(origin.birthText,[origin.translations.zh.birthText,origin.translations.en.birthText]);
+for(const physique of extraPhysiques){add(physique.name,[physique.translations.zh.name,physique.translations.en.name]);add(physique.description,[physique.translations.zh.description,physique.translations.en.description]);}
 add('Bỏ mạng trong cấm chế',['死于洞府禁制','Killed by the cave’s restrictions']);
 
 const surnames = {

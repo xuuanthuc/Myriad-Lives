@@ -1,4 +1,5 @@
+import {extraPhysiques} from './extraPhysiques.js';
 export const realms = [['mortal','Phàm nhân',85,0],['qi_refining','Luyện Khí',125,7],['foundation','Trúc Cơ',230,4],['golden_core','Kim Đan',480,2.2],['nascent_soul','Nguyên Anh',950,1.15],['spirit_transformation','Hóa Thần',1900,.6],['void_refining','Luyện Hư',3600,.32],['body_integration','Hợp Thể',6500,.18],['mahayana','Đại Thừa',11000,.10],['tribulation','Độ Kiếp',18000,.06]].map(([id,name,lifespan,rate])=>({id,name,lifespan,rate}));
 export const roots=[['Phàm căn',0,15],['Ngũ linh căn',22,27],['Tứ linh căn',35,24],['Tam linh căn',48,18],['Song linh căn',68,10],['Thiên linh căn',92,4],['Biến dị linh căn',100,2]].map(([name,score,weight])=>({name,score,weight}));
-export const physiques=[['Thể chất thường',25,85],['Thanh Linh Thể',65,10],['Lôi Linh Thể',88,4],['Tiên Thiên Đạo Thể',100,1]].map(([name,score,weight])=>({name,score,weight}));
+export const physiques=[['Thể chất thường',25,68],['Thanh Linh Thể',65,8],['Lôi Linh Thể',88,3],['Tiên Thiên Đạo Thể',100,1]].map(([name,score,weight])=>({name,score,weight})).concat(extraPhysiques);
 export {origins} from './origins.js';

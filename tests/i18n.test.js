@@ -5,9 +5,9 @@ import { events,wordCount } from '../src/engine/content.js';
 import { createRng } from '../src/engine/rng.js';
 import { startLife,autoComplete } from '../src/engine/lifeRunner.js';
 
-test('all 60 encounters and 14 choices have complete translations',()=>{
+test('all 68 encounters and 14 choices have complete translations',()=>{
   assert.deepEqual(languages.map(x=>x.id),['vi','zh','en']);
-  assert.equal(events.length,60);
+  assert.equal(events.length,68);
   assert.equal(events.filter(e=>e.choices).length,14);
   assert.equal(validateTranslations(),true);
   for(const event of events) {
