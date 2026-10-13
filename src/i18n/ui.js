@@ -1,5 +1,7 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Thuận theo thiên mệnh','顺应天命','Follow destiny'],
+  ['Đang thuận thiên mệnh','正顺应天命','Following destiny'],
   ['Auto toàn bộ','全程自动','Auto all'],
   ['Đang auto','自动中','Auto on'],
   ['Tám giới diện, tám bối cảnh cầu đạo: từ Thanh Bình yên ổn đến Huyết Sát hiểm nguy, từ Linh Thịnh dồi dào đến Mạt Pháp suy kiệt. Nơi xuất thế định hình cơ duyên, kiếp nạn và đường tu luyện của mỗi đời.','八大界域，八种求道天地：从安宁的清平界到凶险的血煞界，从丰饶的灵盛界到衰竭的末法界。出生之地影响每一世的机缘、劫难与修行之路。','Eight world planes offer eight settings for cultivation: from peaceful Qingping to perilous Bloodslaughter, from abundant Spiritflourish to declining Dharma’s End. Your birthplace shapes each life’s opportunities, calamities, and cultivation path.'],
