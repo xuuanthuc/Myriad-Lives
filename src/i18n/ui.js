@@ -1,5 +1,18 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Tám giới diện, tám bối cảnh cầu đạo: từ Thanh Bình yên ổn đến Huyết Sát hiểm nguy, từ Linh Thịnh dồi dào đến Mạt Pháp suy kiệt. Nơi xuất thế định hình cơ duyên, kiếp nạn và đường tu luyện của mỗi đời.','八大界域，八种求道天地：从安宁的清平界到凶险的血煞界，从丰饶的灵盛界到衰竭的末法界。出生之地影响每一世的机缘、劫难与修行之路。','Eight world planes offer eight settings for cultivation: from peaceful Qingping to perilous Bloodslaughter, from abundant Spiritflourish to declining Dharma’s End. Your birthplace shapes each life’s opportunities, calamities, and cultivation path.'],
+  ['Hiểu căn cốt, biết cảnh giới và giới diện, rồi tự viết một đời cầu đạo. Lật cẩm nang để xem tiên tư, các bậc tu hành và thế giới ngươi có thể sinh ra.','了解根骨、境界与界域，再书写一生求道之路。翻阅指南，查看仙资、修行诸境与可能降生的世界。','Learn about innate gifts, cultivation realms, and world planes, then write your own journey toward the Dao. Open the guide to explore your gifts, cultivation stages, and possible birth worlds.'],
+  ['Tám thế giới, cơ duyên và hiểm họa khác nhau.','八方世界，机缘与险劫各异。','Eight worlds with differing opportunities and dangers.'],
+  ['Mỗi kiếp sinh ra trong một giới diện. Bối cảnh quyết định mức hiểm họa, cơ duyên, tài nguyên và độ thuận lợi khi tu luyện.','每一世诞生于不同界域，其环境影响危险、机缘、资源与修炼难度。','Each life begins in a world plane whose conditions shape danger, opportunities, resources, and cultivation difficulty.'],
+  ['Tám giới diện và đặc trưng','八大界域及其特点','Eight world planes and their characteristics'],
+  ['Ít hiểm họa, trật tự ổn định; tài nguyên và cơ duyên ở mức vừa phải.','危险较少，秩序稳定；资源与机缘适中。','Few dangers and stable order, with moderate resources and opportunities.'],
+  ['Linh khí và tài nguyên phong phú, tu luyện thuận lợi; hiểm họa vẫn hiện hữu.','灵气与资源丰富，修炼顺利，但危险仍然存在。','Abundant spiritual energy and resources ease cultivation, though dangers remain.'],
+  ['Chiến loạn khiến hiểm cảnh xuất hiện nhiều; cơ duyên khá dồi dào nhưng tu luyện khó hơn.','战乱带来更多险境，机缘较多，但修炼更难。','War brings frequent dangers and plentiful opportunities, but cultivation is harder.'],
+  ['Yêu thú hoành hành giữa vùng đất giàu tài nguyên; cơ duyên lớn đi cùng nguy hiểm cao.','妖兽横行于资源丰饶之地；丰厚机缘伴随高度危险。','Beasts roam lands rich in resources; great opportunities come with high danger.'],
+  ['Tài nguyên khan hiếm, cơ duyên ít; linh khí suy kiệt khiến tu luyện chậm và khó đột phá.','资源匮乏，机缘稀少；灵气衰竭使修炼缓慢，突破艰难。','Scarce resources and few opportunities; fading spiritual energy slows cultivation and makes breakthroughs difficult.'],
+  ['Trật tự ổn định, nhiều cơ duyên ẩn; tài nguyên khá và hiểm họa ở mức vừa phải.','秩序稳定，暗藏诸多机缘；资源尚丰，危险适中。','Stable order and many hidden opportunities, with decent resources and moderate danger.'],
+  ['Tà tu lộng hành, trật tự bất ổn; nguy hiểm rất cao và tu luyện khó khăn.','邪修横行，秩序动荡；危险极高，修炼艰难。','Evil cultivators thrive amid unstable order; danger is extreme and cultivation difficult.'],
+  ['Thiên địa rạn vỡ, hiểm họa rất cao; cơ duyên dồi dào nhưng đường tu luyện gian nan.','天地破裂，危险极高；机缘丰富，但修行之路艰难。','A fractured world holds extreme dangers and abundant opportunities, but cultivation is arduous.'],
   ['Giới diện','界面','World plane'],
   ['Thiên hạ thái bình','天下太平','Peace across the land'],
   ['Linh khí dồi dào','灵气充盈','Abundant spiritual energy'],

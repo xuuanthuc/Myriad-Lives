@@ -1,5 +1,6 @@
 import ArrowIcon from './ArrowIcon.jsx';
 import {roots,physiques,realms} from '../data/realms.js';
+import {worldPlanes} from '../data/worlds.js';
 
 export default function HomePage({t,mountains,onOpenGuide,onlineCount}) {
   return <>
@@ -29,6 +30,7 @@ export default function HomePage({t,mountains,onOpenGuide,onlineCount}) {
         <p className="eyebrow">{t('VẠN GIỚI · VẠN DUYÊN')}</p>
         <h2 id="home-world-heading">{t('Một đời phàm tục, một giấc mộng trường sinh.')}</h2>
         <p>{t('Có người sinh giữa sơn thôn, có người mở mắt dưới mái tông môn. Một lần trắc linh có thể mở ra tiên lộ, cũng có thể để lại cả đời sống giữa nhân gian.')}</p>
+        <p>{t('Tám giới diện, tám bối cảnh cầu đạo: từ Thanh Bình yên ổn đến Huyết Sát hiểm nguy, từ Linh Thịnh dồi dào đến Mạt Pháp suy kiệt. Nơi xuất thế định hình cơ duyên, kiếp nạn và đường tu luyện của mỗi đời.')}</p>
         <p>{t('Vạn Kiếp kể hành trình ấy qua từng mốc tuổi: tu luyện, gặp gỡ, lựa chọn và vượt bình cảnh. Không phải ai cũng đến được tiên giới; một đời ngắn ngủi vẫn có câu chuyện của riêng mình.')}</p>
         {onlineCount>0&&<p className="online-cultivators"><i aria-hidden="true"/><strong>{onlineCount}</strong> {t('Vị đạo hữu đang tu luyện')}</p>}
       </div>
@@ -36,12 +38,13 @@ export default function HomePage({t,mountains,onOpenGuide,onlineCount}) {
     <section className="home-codex">
       <p className="eyebrow">{t('CẨM NANG TIÊN LỘ')}</p>
       <h2>{t('Trước khi bước vào tiên lộ')}</h2>
-      <p>{t('Hiểu căn cốt, biết cảnh giới, rồi tự viết một đời cầu đạo. Lật cẩm nang để xem từng bậc tu hành và những tiên tư có thể gặp khi luân hồi.')}</p>
+      <p>{t('Hiểu căn cốt, biết cảnh giới và giới diện, rồi tự viết một đời cầu đạo. Lật cẩm nang để xem tiên tư, các bậc tu hành và thế giới ngươi có thể sinh ra.')}</p>
       <div className="home-codex-grid">
         {[
           ['Linh căn',roots.length,'Căn cốt dẫn khí, khởi đầu tiên lộ.'],
           ['Thể chất',physiques.length,'Phàm thân hay dị thể, mỗi kiếp một tiên tư.'],
           ['Cảnh giới',realms.length,'Chín tầng Luyện Khí, từng bước vượt đại cảnh giới.'],
+          ['Giới diện',worldPlanes.length,'Tám thế giới, cơ duyên và hiểm họa khác nhau.'],
         ].map(([name,count,description])=><button key={name} onClick={onOpenGuide}><span className="home-codex-count">{String(count).padStart(2,'0')}</span><h3>{t(name)}</h3><p>{t(description)}</p><span className="home-codex-link">{t('Xem cẩm nang')} <ArrowIcon/></span></button>)}
       </div>
     </section>

@@ -2,6 +2,18 @@ import {stagesForRealm} from '../data/subrealms.js';
 import { useEffect, useRef } from 'react';
 import ArrowIcon from './ArrowIcon.jsx';
 import { realms, roots, physiques } from '../data/realms.js';
+import {worldPlanes,worldPlaneName} from '../data/worlds.js';
+
+const planeFeatures={
+  peaceful:'Ít hiểm họa, trật tự ổn định; tài nguyên và cơ duyên ở mức vừa phải.',
+  abundant:'Linh khí và tài nguyên phong phú, tu luyện thuận lợi; hiểm họa vẫn hiện hữu.',
+  turmoil:'Chiến loạn khiến hiểm cảnh xuất hiện nhiều; cơ duyên khá dồi dào nhưng tu luyện khó hơn.',
+  wild:'Yêu thú hoành hành giữa vùng đất giàu tài nguyên; cơ duyên lớn đi cùng nguy hiểm cao.',
+  declining:'Tài nguyên khan hiếm, cơ duyên ít; linh khí suy kiệt khiến tu luyện chậm và khó đột phá.',
+  hidden:'Trật tự ổn định, nhiều cơ duyên ẩn; tài nguyên khá và hiểm họa ở mức vừa phải.',
+  blood:'Tà tu lộng hành, trật tự bất ổn; nguy hiểm rất cao và tu luyện khó khăn.',
+  shattered:'Thiên địa rạn vỡ, hiểm họa rất cao; cơ duyên dồi dào nhưng đường tu luyện gian nan.',
+};
 
 const rootDescriptions = [
   'Không thể dẫn khí nhập thể; sống một đời phàm nhân.',
@@ -63,6 +75,21 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
               </tr>;
             })}</tbody>
           </table>
+          <section className="codex-origins">
+            <h3>{t('Giới diện')}</h3>
+            <p className="codex-description">{t('Mỗi kiếp sinh ra trong một giới diện. Bối cảnh quyết định mức hiểm họa, cơ duyên, tài nguyên và độ thuận lợi khi tu luyện.')}</p>
+            <table>
+              <caption className="sr-only">{t('Tám giới diện và đặc trưng')}</caption>
+              <thead><tr><th scope="col">{t('Giới diện')}</th><th scope="col">{t('Đặc điểm')}</th></tr></thead>
+              <tbody>{worldPlanes.map(plane=>{
+                const current=run?.world&&worldPlaneName(run.world)===plane.name;
+                return <tr key={plane.id} className={current?'codex-current':''}>
+                  <th scope="row">{t(plane.name)}{current&&<small className="codex-badge">{t('Kiếp này')}</small>}</th>
+                  <td>{t(planeFeatures[plane.id])}</td>
+                </tr>;
+              })}</tbody>
+            </table>
+          </section>
         </section>
         <section>
           <h3>{t('Cảnh giới')}</h3><p className="codex-description">{t('Luyện Khí có chín tầng; từ Trúc Cơ trở lên chia Sơ kỳ, Trung kỳ và Hậu kỳ. Tiểu cảnh giới tiến theo tu vi; đủ tích lũy mới có thể thử đột phá đại cảnh giới.')}</p>
@@ -110,6 +137,8 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
           })}</tbody>
         </table>
       </section>
+
+
 
     </section>
     </dialog>
