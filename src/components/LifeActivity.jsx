@@ -1,5 +1,5 @@
 import {stageName} from '../data/subrealms.js';
-import { useEffect, useRef, useState } from 'react';
+import {memo,useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import { realms } from '../data/realms.js';
 import { events } from '../engine/content.js';
 import SmoothHeight from './SmoothHeight.jsx';
@@ -13,6 +13,15 @@ function eventType(fact){
   return fact.category;
 }
 
+const EventEntry=memo(function EventEntry({fact,t,selected,registerNode}){
+  const attach=useCallback(node=>registerNode(fact.id,node),[fact.id,registerNode]);
+  const stage=stageName(fact.stateSnapshot);
+  return <article key={fact.id} tabIndex={-1} ref={attach} className={'entry '+fact.category+(selected?' event-highlight':'')}>
+    <div className="time"><b>{fact.age}</b><small>{t('tuổi')}</small></div>
+    <div className="entry-content"><span className="dot"/><h3>{t(fact.title)}</h3>{stage&&<small className="event-subrealm">{t(realms[fact.realm].name)} · {t(stage)}</small>}<p>{t(fact.text)}</p></div>
+  </article>;
+});
+
 export default function LifeActivity({run,t,children,toolbar}) {
   const latest=run.facts.at(-1);
   const [page,setPage]=useState(run.state.realm);
@@ -20,8 +29,16 @@ export default function LifeActivity({run,t,children,toolbar}) {
   const eventNodes=useRef(new Map());
   const listNode=useRef(null);
   const scrollToEvent=useRef(false);
-  const entries=run.facts.filter(fact=>fact.realm===page).reverse();
-  const counts=realms.map((_,index)=>run.facts.filter(fact=>fact.realm===index).length);
+  const grouped=useMemo(()=>{
+    const groups=realms.map(()=>[]);
+    for(const fact of run.facts)groups[fact.realm].push(fact);
+    return groups;
+  },[run.facts]);
+  const entries=useMemo(()=>[...grouped[page]].reverse(),[grouped,page]);
+  const counts=useMemo(()=>grouped.map(facts=>facts.length),[grouped]);
+  const registerNode=useCallback((id,node)=>{
+    if(node)eventNodes.current.set(id,node);else eventNodes.current.delete(id);
+  },[]);
   const heatmapRows=Math.max(7,...counts);
 
   useEffect(()=>{
@@ -75,14 +92,7 @@ export default function LifeActivity({run,t,children,toolbar}) {
     {toolbar}
     <SmoothHeight>
     <div ref={listNode} className="timeline realm-event-list" aria-live="polite" role="region" aria-label={t(realms[page].name)+' · '+t('Nhân sinh ký sự')} tabIndex={0}>
-      {entries.map(fact=><article
-        key={fact.id} tabIndex={-1}
-        ref={node=>{if(node)eventNodes.current.set(fact.id,node);else eventNodes.current.delete(fact.id);}}
-        className={'entry '+fact.category+(selectedId===fact.id?' event-highlight':'')}
-      >
-        <div className="time"><b>{fact.age}</b><small>{t('tuổi')}</small></div>
-        <div className="entry-content"><span className="dot"/><h3>{t(fact.title)}</h3>{stageName(fact.stateSnapshot)&&<small className="event-subrealm">{t(realms[fact.realm].name)} · {t(stageName(fact.stateSnapshot))}</small>}<p>{t(fact.text)}</p></div>
-      </article>)}
+      {entries.map(fact=><EventEntry key={fact.id} fact={fact} t={t} selected={selectedId===fact.id} registerNode={registerNode}/>)}
     </div>
     </SmoothHeight>
     <SmoothHeight>{children}</SmoothHeight>
@@ -94,7 +104,7 @@ export default function LifeActivity({run,t,children,toolbar}) {
       </div>
       <div className="life-heatmap" style={{gridTemplateColumns:`repeat(${realms.length},minmax(0,1fr))`}}>
         {realms.map((realm,index)=>{
-          const realmFacts=run.facts.filter(fact=>fact.realm===index);
+          const realmFacts=grouped[index];
           return <div key={realm.id} className={'heatmap-realm'+(page===index?' current':'')} role="group" aria-label={t(realm.name)}>
             <div className="heatmap-realm-cells">
               {realmFacts.map(fact=><button

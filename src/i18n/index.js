@@ -1,5 +1,6 @@
 import {extraPhysiques} from '../data/extraPhysiques.js';
 import { ui } from './ui.js';
+import {choiceHintTranslations} from '../data/choiceHints.js';
 import { legacy, endingsLocales } from './legacy.js';
 import { events, birth, endings, wordCount,eventOutcomes } from '../engine/content.js';
 import { realms, roots, physiques, origins } from '../data/realms.js';
@@ -8,7 +9,7 @@ import {sects} from '../data/sects.js';
 import {partners,partnerNames} from '../data/partners.js';
 
 export const languages = [{id:'vi',label:'Việt'},{id:'zh',label:'中文'},{id:'en',label:'English'}];
-const dictionary = new Map(ui.map(([vi,zh,en]) => [vi,{vi,zh,en}]));
+const dictionary = new Map([...ui,...choiceHintTranslations].map(([vi,zh,en]) => [vi,{vi,zh,en}]));
 function add(text, translations) {
   if (text && translations) dictionary.set(text,{vi:text,zh:translations[0],en:translations[1]});
 }

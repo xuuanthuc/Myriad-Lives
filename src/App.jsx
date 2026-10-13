@@ -1,4 +1,5 @@
 import {worldPlaneName,worldPlaneDescription} from './data/worlds.js';
+import {choiceHint} from './data/choiceHints.js';
 import {genderName} from './data/genders.js';
 import {partnerForRun} from './data/partners.js';
 import HistoryPage from './components/HistoryPage.jsx';
@@ -13,7 +14,7 @@ import AnimatedNumber from './components/AnimatedNumber.jsx';
 import AssetIcon from './components/AssetIcon.jsx';
 import ChoiceDialog from './components/ChoiceDialog.jsx';
 import {stageName} from './data/subrealms.js';
-import {useEffect, useRef, useState} from 'react';
+import {useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {startLife, chooseOption, autoUntilBreakthrough} from './engine/lifeRunner.js';
 import {realms} from './data/realms.js';
 import {sectNameForRun} from './data/sects.js';
@@ -46,10 +47,10 @@ export default function App() {
   const [speed,setSpeed]=useState(restored?.speed||1);
   const [paused,setPaused]=useState(restored?.paused||false);
   const [birthPending,setBirthPending]=useState(restored?.birthPending||false);
-  const {run,playing,progress,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
+  const {run,playing,progress,progressNode,progressLabel,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
   const finished=run?.phase==='finished';
   const onlineCount=useOnlineCultivators({active:page==='game'&&!!run&&!finished&&!birthPending,observe:page==='home'});
-  const visibleHistory=historyWithCompletedLife(history,run);
+  const visibleHistory=useMemo(()=>historyWithCompletedLife(history,run),[history,run]);
   const saveState=useRef(null);
   saveState.current={engineRun,session,language,speed,paused,birthPending,history:visibleHistory};
   useEffect(()=>{
@@ -85,15 +86,15 @@ export default function App() {
     setSharing(true);setShareError(false);
     try{const blob=await prepareFateCard(summarizeLife(run),language);setSharePreview({blob,number:run.number});}catch(e){console.error(e);setShareError(true);shareLock.current.release();}finally{setSharing(false);}
   }
-  const t=value=>translate(value,language);
+  const t=useCallback(value=>translate(value,language),[language]);
   useEffect(()=>{document.documentElement.lang=language==='zh'?'zh-CN':language;document.title=language==='zh'?'万劫 · Myriad Lives':language==='en'?'Myriad Lives · A cultivation journey':'Vạn Kiếp · Myriad Lives';},[language]);
   function act(fn){try{setError(false);fn();}catch(e){console.error(e);setError(true);}}
   function reincarnate(){if(shareLock.current.isLocked())return;act(()=>{const result=startLife(session);if(run)setHistory(previous=>archiveLife(previous,summarizeLife(run)));setSession(result.nextSession);setPaused(false);setBirthPending(true);setEngineRun(result.run);window.scrollTo({top:0,behavior:'smooth'});});}
   function resolveChoice(optionId,automatic=false){if(playing||actionLock.current||engineRun?.phase!=='awaiting_choice')return;actionLock.current=true;act(()=>{setPaused(false);setEngineRun(automatic?autoUntilBreakthrough(engineRun):chooseOption(engineRun,optionId));});}
   const playbackControls=run&&(<section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
           <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" disabled={sharing||!!sharePreview} onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
-          <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span>{Math.floor(progress)}%</span></div>
-          <progress className="playback-progress" max="1000000" value={progress*10000} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
+          <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span ref={progressLabel}>{Math.floor(progress)}%</span></div>
+          <progress ref={progressNode} className="playback-progress" max="1000000" value={progress*10000} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
         </section>);
   return <div className={'site lang-'+language}>
     {sharePreview&&<FateCardPreview card={sharePreview} t={t} onClose={()=>{setSharePreview(null);shareLock.current.release();}}/>}
@@ -152,7 +153,7 @@ export default function App() {
             {run.pendingChoice&&run.pendingChoice.kind!=='breakthrough'&&<section className="choice-card" aria-live="polite">
               <p className="eyebrow">✦ {t('NGÃ RẼ SỐ MỆNH')} · {run.state.age} {t('tuổi')}</p>
               <h2>{t(run.pendingChoice.title)}</h2><p>{t(run.pendingChoice.prompt)}</p>
-              <div className="options">{run.pendingChoice.options.map((o,i)=><button key={o.id} onClick={()=>resolveChoice(o.id)}><span className="option-number">0{i+1}</span><span><b>{t(o.text)}</b><small>{t(o.hint)}</small></span><ArrowIcon/></button>)}</div>
+              <div className="options">{run.pendingChoice.options.map((o,i)=><button key={o.id} onClick={()=>resolveChoice(o.id)}><span className="option-number">0{i+1}</span><span><b>{t(o.text)}</b><small>{t(choiceHint(o))}</small></span><ArrowIcon/></button>)}</div>
               <button className="auto" onClick={()=>resolveChoice(null,true)}>{t('Để số mệnh tự quyết')} <ArrowIcon direction="up-right"/><small>{t('Tự động hoàn tất')}</small></button>
             </section>}
             </ChoiceDialog>}

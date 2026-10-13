@@ -4,10 +4,21 @@ import {advancePlayback,visibleRun,EVENT_DURATION_MS} from '../engine/playback.j
 export default function useLifePlayback(target,speed,paused,restoredPlayback) {
   const [playback,setPlayback]=useState(()=>restoredPlayback||{number:0,count:1,from:1,elapsed:0});
   const current=useRef(playback);
+  const progressNode=useRef(null);
+  const progressLabel=useRef(null);
   const lastTarget=useRef(null);
   const getPlayback=useCallback(()=>({...current.current}),[]);
   const controls=useRef({speed,paused});
   controls.current={speed,paused};
+  const updateProgress=useCallback((value)=>{
+    const node=progressNode.current,label=progressLabel.current;
+    const percent=Math.floor(value)+'%';
+    if(node){
+      node.value=value*10000;
+      if(node.getAttribute('aria-valuetext')!==percent)node.setAttribute('aria-valuetext',percent);
+    }
+    if(label&&label.textContent!==percent)label.textContent=percent;
+  },[]);
   useEffect(()=>{
     if(!target)return;
     const previous=current.current;
@@ -16,6 +27,7 @@ export default function useLifePlayback(target,speed,paused,restoredPlayback) {
     lastTarget.current=target;
     current.current=continuing?previous:{number:target.number,count,from:count,elapsed:0};
     setPlayback(current.current);
+    updateProgress(playbackProgress(current.current,target));
     if(count>=target.facts.length)return;
     let last=performance.now();
     let frame;
@@ -26,8 +38,11 @@ export default function useLifePlayback(target,speed,paused,restoredPlayback) {
       last=now;
       // Do not silently skip the story while the user is on another tab.
       if(!controls.current.paused&&!document.hidden){
+        const previousCount=current.current.count;
         current.current=advancePlayback(current.current,delta,controls.current.speed,target.facts.length);
-        setPlayback(current.current);
+        // Only a new narrated fact needs a React render. Progress stays at frame rate.
+        updateProgress(playbackProgress(current.current,target));
+        if(current.current.count!==previousCount)setPlayback(current.current);
       }
       if(current.current.count<target.facts.length)frame=requestAnimationFrame(tick);
     };
@@ -36,11 +51,16 @@ export default function useLifePlayback(target,speed,paused,restoredPlayback) {
       cancelAnimationFrame(frame);
       document.removeEventListener('visibilitychange',resetClock);
     };
-  },[target]);
+  },[target,updateProgress]);
   const count=target?.number===playback.number?playback.count:1;
   const playing=!!target&&count<target.facts.length;
-  const remaining=target?target.facts.length-playback.from:0;
-  const progress=!playing?100:target.number!==playback.number?0:Math.min(100,100*(count-playback.from+playback.elapsed/EVENT_DURATION_MS)/Math.max(1,remaining));
+  const progress=playbackProgress(current.current,target);
   const run=useMemo(()=>visibleRun(target,count),[target,count]);
-  return {run,playing,progress,getPlayback};
+  return {run,playing,progress,progressNode,progressLabel,getPlayback};
+}
+
+function playbackProgress(playback,target){
+  if(!target||playback.number!==target.number)return 0;
+  if(playback.count>=target.facts.length)return 100;
+  return Math.min(100,100*(playback.count-playback.from+playback.elapsed/EVENT_DURATION_MS)/Math.max(1,target.facts.length-playback.from));
 }
