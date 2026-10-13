@@ -4891,21 +4891,21 @@
       {
         "id": "attempt",
         "text": "Trực tiếp thử sức",
-        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "亲自尝试",
-            "hint": "有成功机会，也有丧命风险"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Try it directly",
-            "hint": "A chance of success and a risk of death"
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 4,
+            "weight": 65,
             "text": "Ngươi kéo được người cuối tới dây cứu trước khi dòng xoáy đổi hướng. Người lái trả công từ phần hàng còn giữ, còn tiên lực của ngươi thôi phải chống sức hút dưới nước.",
             "translations": {
               "zh": {
@@ -4916,12 +4916,12 @@
               }
             },
             "effects": {
-              "resources": 18
+              "resources": 32
             }
           },
           {
             "id": "death",
-            "weight": 1,
+            "weight": 35,
             "text": "Dòng xoáy hút ngươi xuống dưới lớp tiên lực đang ép nước, cắt dấu về khỏi bờ. Tiên mạch vỡ khi ngươi cố giữ người bên cạnh, để lời gọi cứu chìm cùng thuyền gãy.",
             "translations": {
               "zh": {
@@ -5000,21 +5000,21 @@
       {
         "id": "attempt",
         "text": "Trực tiếp thử sức",
-        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "亲自尝试",
-            "hint": "有成功机会，也有丧命风险"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Try it directly",
-            "hint": "A chance of success and a risk of death"
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 4,
+            "weight": 65,
             "text": "Ngươi tách khóa khỏi nhịp lò, mở được khoảng cho người thợ bước ra. Họ chia phần vật liệu đã luyện xong, còn ngươi hiểu thêm cách pháp tắc giữ vật mà không ép người.",
             "translations": {
               "zh": {
@@ -5025,12 +5025,12 @@
               }
             },
             "effects": {
-              "resources": 18
+              "resources": 32
             }
           },
           {
             "id": "death",
-            "weight": 1,
+            "weight": 35,
             "text": "Nét khóa chuyển từ người thợ sang đạo cơ ngươi khi hai dòng pháp tắc chạm nhau. Lò hút hết phần giữ tiên thể, khiến người muốn cứu tan trước khi vòng đạo văn mở.",
             "translations": {
               "zh": {
@@ -5109,21 +5109,21 @@
       {
         "id": "attempt",
         "text": "Trực tiếp thử sức",
-        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "亲自尝试",
-            "hint": "有成功机会，也有丧命风险"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Try it directly",
-            "hint": "A chance of success and a risk of death"
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 4,
+            "weight": 65,
             "text": "Ngươi giữ mốc bản thể, nghe lời nhắn ngắn rồi tách khỏi hồn trước lúc ký ức tan. Người nhận lời gửi vật cảm ơn, để sự giúp đỡ còn dấu thật trong đời.",
             "translations": {
               "zh": {
@@ -5134,12 +5134,12 @@
               }
             },
             "effects": {
-              "resources": 18
+              "resources": 32
             }
           },
           {
             "id": "death",
-            "weight": 1,
+            "weight": 35,
             "text": "Ký ức chết của hồn tàn kéo thần thức ngươi vào khoảnh khắc không có lối tỉnh. Hai dấu bản thể lẫn rồi tan, để lời nhắn cuối không còn người đưa tới.",
             "translations": {
               "zh": {
@@ -5218,21 +5218,21 @@
       {
         "id": "attempt",
         "text": "Trực tiếp thử sức",
-        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "亲自尝试",
-            "hint": "有成功机会，也有丧命风险"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Try it directly",
-            "hint": "A chance of success and a risk of death"
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 4,
+            "weight": 65,
             "text": "Ngươi lọc phần bệnh qua lớp đạo lực tách riêng, giữ dòng sạch trở lại vùng đất. Người giữ kho cấp vật liệu bù phần dùng, còn nhánh bệnh không lan sang làng còn lại.",
             "translations": {
               "zh": {
@@ -5243,12 +5243,12 @@
               }
             },
             "effects": {
-              "resources": 18
+              "resources": 32
             }
           },
           {
             "id": "death",
-            "weight": 1,
+            "weight": 35,
             "text": "Đạo dịch vượt lớp lọc, ăn vào nền đạo nơi ngươi nối dòng bệnh và làm đạo cơ mục. Tiên thể tan trước khi nhánh đứt, để người giữ dòng mất mạng trong lần chữa.",
             "translations": {
               "zh": {
@@ -5327,21 +5327,21 @@
       {
         "id": "attempt",
         "text": "Trực tiếp thử sức",
-        "hint": "Có cơ hội thành công và nguy cơ mất mạng",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "亲自尝试",
-            "hint": "有成功机会，也有丧命风险"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Try it directly",
-            "hint": "A chance of success and a risk of death"
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 4,
+            "weight": 65,
             "text": "Ngươi đặt phần đạo cơ tách riêng dưới giới, giữ thời gian cho lớp nền mới kết lại. Người trong giới gửi đạo liệu cảm tạ, còn nhánh cho được rút về khi đất ổn.",
             "translations": {
               "zh": {
@@ -5352,12 +5352,12 @@
               }
             },
             "effects": {
-              "resources": 18
+              "resources": 32
             }
           },
           {
             "id": "death",
-            "weight": 1,
+            "weight": 35,
             "text": "Giới đang tan kéo cả đạo cơ qua phần nối tạm, nhận nền đạo vào chỗ vỡ không đáy. Tiên thể mất lực giữ, tan cùng lớp đất cuối trước khi nền mới thành.",
             "translations": {
               "zh": {
@@ -9032,7 +9032,7 @@
         "text": "The spirit field fence suffered rain damage, and its keeper has only crude tools. You can attempt spiritual repairs or recover the remaining usable materials."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "qi_refining"
@@ -9041,27 +9041,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa hàng rào ruộng linh cốc, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -9072,26 +9072,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa hàng rào ruộng linh cốc, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý hàng rào ruộng linh cốc, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复灵田围栏时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理灵田围栏时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "灵力反震毁掉经脉（灵田围栏）"
               },
               "en": {
-                "text": "While repairing the spirit field fence, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the spirit field fence. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Rebounding energy destroys your meridians at the spirit field fence"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Linh lực phản chấn phá kinh mạch tại hàng rào ruộng linh cốc"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Linh lực phản chấn phá kinh mạch khi ngươi xử lý hàng rào ruộng linh cốc. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理灵田围栏时，灵力反震毁掉经脉。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "灵力反震毁掉经脉（灵田围栏）"
+              },
+              "en": {
+                "text": "Rebounding energy destroys your meridians while you work at the spirit field fence. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Rebounding energy destroys your meridians at the spirit field fence"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Linh lực phản chấn phá kinh mạch tại hàng rào ruộng linh cốc"
           }
         ]
       },
@@ -9896,7 +9918,7 @@
         "text": "The keeper of the resting station rain barrier reports an energy leak through a connection. Repair requires locating it precisely; salvaging intact sections means abandoning the damage."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "foundation"
@@ -9905,27 +9927,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa trận che mưa của trạm nghỉ, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -9936,26 +9958,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa trận che mưa của trạm nghỉ, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý trận che mưa của trạm nghỉ, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复驿站挡雨阵时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理驿站挡雨阵时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "阵力卷入道基（驿站挡雨阵）"
               },
               "en": {
-                "text": "While repairing the resting station rain barrier, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the resting station rain barrier. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Formation power consumes your foundation at the resting station rain barrier"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Trận lực cuốn vào nền đạo tại trận che mưa của trạm nghỉ"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Trận lực cuốn vào nền đạo khi ngươi xử lý trận che mưa của trạm nghỉ. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理驿站挡雨阵时，阵力卷入道基。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "阵力卷入道基（驿站挡雨阵）"
+              },
+              "en": {
+                "text": "Formation power consumes your foundation while you work at the resting station rain barrier. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Formation power consumes your foundation at the resting station rain barrier"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Trận lực cuốn vào nền đạo tại trận che mưa của trạm nghỉ"
           }
         ]
       },
@@ -10760,7 +10804,7 @@
         "text": "Heat from the formation containing a lava lake rises despite nobody operating it. You can repair energy channels, salvage outer materials, or notify the keeper and leave."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "golden_core"
@@ -10769,27 +10813,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa trận giữ hồ dung nham, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -10800,26 +10844,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa trận giữ hồ dung nham, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý trận giữ hồ dung nham, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复熔湖镇守阵时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理熔湖镇守阵时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "火力穿透金丹（熔湖镇守阵）"
               },
               "en": {
-                "text": "While repairing the formation containing a lava lake, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the formation containing a lava lake. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Burning power pierces your golden core at the formation containing a lava lake"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Hỏa lực xuyên qua Kim Đan tại trận giữ hồ dung nham"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Hỏa lực xuyên qua Kim Đan khi ngươi xử lý trận giữ hồ dung nham. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理熔湖镇守阵时，火力穿透金丹。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "火力穿透金丹（熔湖镇守阵）"
+              },
+              "en": {
+                "text": "Burning power pierces your golden core while you work at the formation containing a lava lake. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Burning power pierces your golden core at the formation containing a lava lake"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Hỏa lực xuyên qua Kim Đan tại trận giữ hồ dung nham"
           }
         ]
       },
@@ -11480,7 +11546,7 @@
         "text": "Soul traces around the messenger station soul lamp are fading, leaving its keeper with incomplete signals. You can repair the connections or salvage intact parts before leaving."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "nascent_soul"
@@ -11489,27 +11555,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa hồn đăng của trạm truyền tin, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -11520,26 +11586,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa hồn đăng của trạm truyền tin, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý hồn đăng của trạm truyền tin, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复传讯站魂灯时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理传讯站魂灯时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "魂力锁住元婴（传讯站魂灯）"
               },
               "en": {
-                "text": "While repairing the messenger station soul lamp, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the messenger station soul lamp. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Soul power imprisons your nascent soul at the messenger station soul lamp"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Hồn lực khóa chặt Nguyên Anh tại hồn đăng của trạm truyền tin"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Hồn lực khóa chặt Nguyên Anh khi ngươi xử lý hồn đăng của trạm truyền tin. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理传讯站魂灯时，魂力锁住元婴。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "魂力锁住元婴（传讯站魂灯）"
+              },
+              "en": {
+                "text": "Soul power imprisons your nascent soul while you work at the messenger station soul lamp. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Soul power imprisons your nascent soul at the messenger station soul lamp"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Hồn lực khóa chặt Nguyên Anh tại hồn đăng của trạm truyền tin"
           }
         ]
       },
@@ -12200,7 +12288,7 @@
         "text": "Disordered spiritual thoughts around the cracked Dao debate altar prevent the keeper from approaching. You can repair the resonance point or recover materials outside the disturbance."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "spirit_transformation"
@@ -12209,27 +12297,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa đàn luận đạo bị nứt, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -12240,26 +12328,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa đàn luận đạo bị nứt, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý đàn luận đạo bị nứt, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复开裂论道坛时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理开裂论道坛时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "道音撕裂神念（开裂论道坛）"
               },
               "en": {
-                "text": "While repairing the cracked Dao debate altar, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the cracked dao debate altar. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Dao sounds tear apart your spiritual thoughts at the cracked dao debate altar"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Đạo âm xé rách thần niệm tại đàn luận đạo bị nứt"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Đạo âm xé rách thần niệm khi ngươi xử lý đàn luận đạo bị nứt. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理开裂论道坛时，道音撕裂神念。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "道音撕裂神念（开裂论道坛）"
+              },
+              "en": {
+                "text": "Dao sounds tear apart your spiritual thoughts while you work at the cracked dao debate altar. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Dao sounds tear apart your spiritual thoughts at the cracked dao debate altar"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Đạo âm xé rách thần niệm tại đàn luận đạo bị nứt"
           }
         ]
       },
@@ -12776,7 +12886,7 @@
         "text": "Space stretching around the anchor holding an outer island gradually loosens its connections. You can repair the anchor point or salvage materials before the coordinates drift farther."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "void_refining"
@@ -12785,27 +12895,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa neo giữ đảo ngoài giới, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -12816,26 +12926,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa neo giữ đảo ngoài giới, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý neo giữ đảo ngoài giới, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复界外岛锚时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理界外岛锚时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "空间隙切断护体（界外岛锚）"
               },
               "en": {
-                "text": "While repairing the anchor holding an outer island, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the anchor holding an outer island. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "A spatial rift severs your protection at the anchor holding an outer island"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Khe không gian cắt đứt hộ thân tại neo giữ đảo ngoài giới"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Khe không gian cắt đứt hộ thân khi ngươi xử lý neo giữ đảo ngoài giới. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理界外岛锚时，空间隙切断护体。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "空间隙切断护体（界外岛锚）"
+              },
+              "en": {
+                "text": "A spatial rift severs your protection while you work at the anchor holding an outer island. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "A spatial rift severs your protection at the anchor holding an outer island"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Khe không gian cắt đứt hộ thân tại neo giữ đảo ngoài giới"
           }
         ]
       },
@@ -13352,7 +13484,7 @@
         "text": "Pressure at the sanctuary pressure distributing formation concentrates on one side, deforming its materials. You can redistribute the load or remove intact parts before further damage."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "body_integration"
@@ -13361,27 +13493,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa trận chia áp của đạo trường, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -13392,26 +13524,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa trận chia áp của đạo trường, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý trận chia áp của đạo trường, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复道场分压阵时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理道场分压阵时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "灵压碾碎肉身（道场分压阵）"
               },
               "en": {
-                "text": "While repairing the sanctuary pressure distributing formation, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the sanctuary pressure distributing formation. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Spiritual pressure crushes your body at the sanctuary pressure distributing formation"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Linh áp nghiền nát thân thể tại trận chia áp của đạo trường"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Linh áp nghiền nát thân thể khi ngươi xử lý trận chia áp của đạo trường. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理道场分压阵时，灵压碾碎肉身。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "灵压碾碎肉身（道场分压阵）"
+              },
+              "en": {
+                "text": "Spiritual pressure crushes your body while you work at the sanctuary pressure distributing formation. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Spiritual pressure crushes your body at the sanctuary pressure distributing formation"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Linh áp nghiền nát thân thể tại trận chia áp của đạo trường"
           }
         ]
       },
@@ -13928,7 +14082,7 @@
         "text": "Residual lightning around the lightning altar with sinking foundations accelerates material decay. You can repair the dispersal channels or recover intact sections beyond the accumulated lightning."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "mahayana"
@@ -13937,27 +14091,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa đàn dẫn lôi bị sụt nền, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -13968,26 +14122,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa đàn dẫn lôi bị sụt nền, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý đàn dẫn lôi bị sụt nền, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复沉基导雷坛时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理沉基导雷坛时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "余雷穿透道基（沉基导雷坛）"
               },
               "en": {
-                "text": "While repairing the lightning altar with sinking foundations, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the lightning altar with sinking foundations. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Residual lightning pierces your Dao foundation at the lightning altar with sinking foundations"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Dư lôi xuyên qua đạo cơ tại đàn dẫn lôi bị sụt nền"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Dư lôi xuyên qua đạo cơ khi ngươi xử lý đàn dẫn lôi bị sụt nền. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理沉基导雷坛时，余雷穿透道基。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "余雷穿透道基（沉基导雷坛）"
+              },
+              "en": {
+                "text": "Residual lightning pierces your Dao foundation while you work at the lightning altar with sinking foundations. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Residual lightning pierces your Dao foundation at the lightning altar with sinking foundations"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Dư lôi xuyên qua đạo cơ tại đàn dẫn lôi bị sụt nền"
           }
         ]
       },
@@ -14504,7 +14680,7 @@
         "text": "Immortal energy flowing through the immortal courtyard energy formation has weakened, worrying its keeper. You can inspect the channels or recover materials not yet affected."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "true_immortal"
@@ -14513,27 +14689,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa trận dẫn khí của tiên viện, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -14544,26 +14720,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa trận dẫn khí của tiên viện, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý trận dẫn khí của tiên viện, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复仙院导气阵时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理仙院导气阵时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "仙力反震毁掉仙体（仙院导气阵）"
               },
               "en": {
-                "text": "While repairing the immortal courtyard energy formation, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the immortal courtyard energy formation. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Rebounding immortal power destroys your body at the immortal courtyard energy formation"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Tiên lực phản chấn phá tiên thể tại trận dẫn khí của tiên viện"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Tiên lực phản chấn phá tiên thể khi ngươi xử lý trận dẫn khí của tiên viện. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理仙院导气阵时，仙力反震毁掉仙体。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "仙力反震毁掉仙体（仙院导气阵）"
+              },
+              "en": {
+                "text": "Rebounding immortal power destroys your body while you work at the immortal courtyard energy formation. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Rebounding immortal power destroys your body at the immortal courtyard energy formation"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tiên lực phản chấn phá tiên thể tại trận dẫn khí của tiên viện"
           }
         ]
       },
@@ -14936,7 +15134,7 @@
         "text": "Golden inscriptions on the displaced immortal metal furnace fade section by section, creating uneven force. You can repair connections or dismantle materials that remain sound."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "golden_immortal"
@@ -14945,27 +15143,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa lò nung tiên kim bị lệch, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -14976,26 +15174,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa lò nung tiên kim bị lệch, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý lò nung tiên kim bị lệch, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复偏位仙金炉时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理偏位仙金炉时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "金火烧穿仙体（偏位仙金炉）"
               },
               "en": {
-                "text": "While repairing the displaced immortal metal furnace, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the displaced immortal metal furnace. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Golden fire burns through your immortal body at the displaced immortal metal furnace"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Kim hỏa đốt xuyên tiên thể tại lò nung tiên kim bị lệch"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Kim hỏa đốt xuyên tiên thể khi ngươi xử lý lò nung tiên kim bị lệch. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理偏位仙金炉时，金火烧穿仙体。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "金火烧穿仙体（偏位仙金炉）"
+              },
+              "en": {
+                "text": "Golden fire burns through your immortal body while you work at the displaced immortal metal furnace. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Golden fire burns through your immortal body at the displaced immortal metal furnace"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Kim hỏa đốt xuyên tiên thể tại lò nung tiên kim bị lệch"
           }
         ]
       },
@@ -15368,7 +15588,7 @@
         "text": "A missing mystic stroke around the stele with fading mystic inscriptions alters its interpretation. You can restore it from archived records or recover materials whose meaning remains unchanged."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "mystic_immortal"
@@ -15377,27 +15597,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa bia ghi huyền văn phai nét, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -15408,26 +15628,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa bia ghi huyền văn phai nét, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý bia ghi huyền văn phai nét, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复褪纹玄碑时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理褪纹玄碑时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "玄纹抹去生机印记（褪纹玄碑）"
               },
               "en": {
-                "text": "While repairing the stele with fading mystic inscriptions, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the stele with fading mystic inscriptions. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Mystic inscriptions erase the traces of your life at the stele with fading mystic inscriptions"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Huyền văn xóa dấu sinh cơ tại bia ghi huyền văn phai nét"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Huyền văn xóa dấu sinh cơ khi ngươi xử lý bia ghi huyền văn phai nét. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理褪纹玄碑时，玄纹抹去生机印记。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "玄纹抹去生机印记（褪纹玄碑）"
+              },
+              "en": {
+                "text": "Mystic inscriptions erase the traces of your life while you work at the stele with fading mystic inscriptions. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Mystic inscriptions erase the traces of your life at the stele with fading mystic inscriptions"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Huyền văn xóa dấu sinh cơ tại bia ghi huyền văn phai nét"
           }
         ]
       },
@@ -15800,7 +16042,7 @@
         "text": "World veins near the anchor pillar at a star region edge change course, placing uneven loads on connections. You can redistribute the strain or recover sections not yet damaged."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "immortal_king"
@@ -15809,27 +16051,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa trụ neo ở rìa tinh vực, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -15840,26 +16082,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa trụ neo ở rìa tinh vực, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý trụ neo ở rìa tinh vực, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复星域边锚柱时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理星域边锚柱时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "界脉拖碎道基（星域边锚柱）"
               },
               "en": {
-                "text": "While repairing the anchor pillar at a star region edge, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the anchor pillar at a star region edge. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "World veins tear your Dao foundation apart at the anchor pillar at a star region edge"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Giới mạch kéo vỡ đạo cơ tại trụ neo ở rìa tinh vực"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Giới mạch kéo vỡ đạo cơ khi ngươi xử lý trụ neo ở rìa tinh vực. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理星域边锚柱时，界脉拖碎道基。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "界脉拖碎道基（星域边锚柱）"
+              },
+              "en": {
+                "text": "World veins tear your Dao foundation apart while you work at the anchor pillar at a star region edge. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "World veins tear your Dao foundation apart at the anchor pillar at a star region edge"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Giới mạch kéo vỡ đạo cơ tại trụ neo ở rìa tinh vực"
           }
         ]
       },
@@ -16232,7 +16496,7 @@
         "text": "Dao essence reaching the Dao foundation of a world refuge becomes intermittent, though worlds still depend on it. You can repair connections or salvage intact parts after notifying those affected."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "immortal_emperor"
@@ -16241,27 +16505,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử sửa chữa",
-        "hint": "Có thể được đáp công; sửa sai mất sức và vật tư.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "尝试修复",
-            "hint": "可能得到报酬，修复失误损耗体力和物资。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt repairs",
-            "hint": "May earn payment; repair errors cost health and supplies."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi sửa nền đạo của nơi trú giới, thay phần hỏng rồi kiểm tra lại từng mối nối. Khi hoạt động ổn định, người trông coi gửi vật tư để đáp công.",
             "translations": {
               "zh": {
@@ -16272,26 +16536,48 @@
               }
             },
             "effects": {
-              "resources": 14,
-              "cultivation": 3
+              "resources": 32,
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi sửa nền đạo của nơi trú giới, nhưng phần hỏng lan sâu hơn dự tính. Việc tháo bỏ gây thương nhẹ và tiêu hao vật tư trước khi dừng lại.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý nền đạo của nơi trú giới, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你修复庇界道基时，发现损坏比预计更深。拆除过程中受了轻伤，物资也被消耗，只得及时停止继续修补。"
+                "text": "处理庇界道基时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "道源逆卷毁掉道座（庇界道基）"
               },
               "en": {
-                "text": "While repairing the Dao foundation of a world refuge, you find damage deeper than expected. Removing the failed section causes minor injuries and consumes supplies before you stop."
+                "text": "Serious injuries interrupt your work at the dao foundation of a world refuge. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Reversed Dao essence destroys your throne at the dao foundation of a world refuge"
               }
             },
             "effects": {
-              "health": -5,
-              "resources": -8
-            }
+              "health": -24,
+              "resources": -10
+            },
+            "endingReason": "Đạo nguyên cuốn ngược phá đạo tọa tại nền đạo của nơi trú giới"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Đạo nguyên cuốn ngược phá đạo tọa khi ngươi xử lý nền đạo của nơi trú giới. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理庇界道基时，道源逆卷毁掉道座。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "道源逆卷毁掉道座（庇界道基）"
+              },
+              "en": {
+                "text": "Reversed Dao essence destroys your throne while you work at the dao foundation of a world refuge. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Reversed Dao essence destroys your throne at the dao foundation of a world refuge"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Đạo nguyên cuốn ngược phá đạo tọa tại nền đạo của nơi trú giới"
           }
         ]
       },
@@ -16641,6 +16927,1882 @@
               },
               "en": {
                 "text": "You report the condition of the stele preserving old world names and leave by a safe route. The keeper records the problem for workers arriving with suitable tools."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_mortal_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại mỏ đá ven sông",
+    "text": "Tại mỏ đá ven sông, toán cướp giữ mỏ chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "河边石矿交锋",
+        "text": "在河边石矿，占矿劫匪拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the riverside quarry",
+        "text": "At the riverside quarry, quarry robbers blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 12,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui toán cướp giữ mỏ tại mỏ đá ven sông, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在河边石矿击退占矿劫匪，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel quarry robbers at the riverside quarry and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 0
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Toán cướp giữ mỏ đánh thủng phòng hộ tại mỏ đá ven sông. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "占矿劫匪在河边石矿击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于占矿劫匪之手"
+              },
+              "en": {
+                "text": "Quarry robbers breaks your protection at the riverside quarry. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by quarry robbers"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước toán cướp giữ mỏ"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Toán cướp giữ mỏ chặn đường rút tại mỏ đá ven sông, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "占矿劫匪在河边石矿封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于占矿劫匪之手"
+              },
+              "en": {
+                "text": "Quarry robbers seals your retreat at the riverside quarry and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by quarry robbers"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước toán cướp giữ mỏ"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời mỏ đá ven sông khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开河边石矿，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the riverside quarry while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_qi_refining_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại vườn linh sâm",
+    "text": "Tại vườn linh sâm, yêu lang đói chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "灵参园交锋",
+        "text": "在灵参园，饥饿妖狼拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the spirit ginseng garden",
+        "text": "At the spirit ginseng garden, a starving spirit wolf blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui yêu lang đói tại vườn linh sâm, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在灵参园击退饥饿妖狼，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a starving spirit wolf at the spirit ginseng garden and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Yêu lang đói đánh thủng phòng hộ tại vườn linh sâm. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "饥饿妖狼在灵参园击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于饥饿妖狼之手"
+              },
+              "en": {
+                "text": "A starving spirit wolf breaks your protection at the spirit ginseng garden. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a starving spirit wolf"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước yêu lang đói"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Yêu lang đói chặn đường rút tại vườn linh sâm, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "饥饿妖狼在灵参园封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于饥饿妖狼之手"
+              },
+              "en": {
+                "text": "A starving spirit wolf seals your retreat at the spirit ginseng garden and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a starving spirit wolf"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước yêu lang đói"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời vườn linh sâm khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开灵参园，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the spirit ginseng garden while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_foundation_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại kho ngầm trong núi",
+    "text": "Tại kho ngầm trong núi, tu sĩ cướp kho chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "山中地库交锋",
+        "text": "在山中地库，劫库修士拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the mountain vault",
+        "text": "At the mountain vault, a vault raiding cultivator blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "foundation"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui tu sĩ cướp kho tại kho ngầm trong núi, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在山中地库击退劫库修士，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a vault raiding cultivator at the mountain vault and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Tu sĩ cướp kho đánh thủng phòng hộ tại kho ngầm trong núi. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "劫库修士在山中地库击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于劫库修士之手"
+              },
+              "en": {
+                "text": "A vault raiding cultivator breaks your protection at the mountain vault. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a vault raiding cultivator"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước tu sĩ cướp kho"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Tu sĩ cướp kho chặn đường rút tại kho ngầm trong núi, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "劫库修士在山中地库封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于劫库修士之手"
+              },
+              "en": {
+                "text": "A vault raiding cultivator seals your retreat at the mountain vault and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a vault raiding cultivator"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước tu sĩ cướp kho"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời kho ngầm trong núi khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开山中地库，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the mountain vault while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_golden_core_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại mỏ hỏa tinh sâu",
+    "text": "Tại mỏ hỏa tinh sâu, yêu xà giữ mỏ chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "深火晶矿交锋",
+        "text": "在深火晶矿，守矿妖蛇拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the deep fire crystal mine",
+        "text": "At the deep fire crystal mine, a mine guarding serpent blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui yêu xà giữ mỏ tại mỏ hỏa tinh sâu, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在深火晶矿击退守矿妖蛇，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a mine guarding serpent at the deep fire crystal mine and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Yêu xà giữ mỏ đánh thủng phòng hộ tại mỏ hỏa tinh sâu. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "守矿妖蛇在深火晶矿击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于守矿妖蛇之手"
+              },
+              "en": {
+                "text": "A mine guarding serpent breaks your protection at the deep fire crystal mine. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a mine guarding serpent"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước yêu xà giữ mỏ"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Yêu xà giữ mỏ chặn đường rút tại mỏ hỏa tinh sâu, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "守矿妖蛇在深火晶矿封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于守矿妖蛇之手"
+              },
+              "en": {
+                "text": "A mine guarding serpent seals your retreat at the deep fire crystal mine and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a mine guarding serpent"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước yêu xà giữ mỏ"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời mỏ hỏa tinh sâu khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开深火晶矿，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the deep fire crystal mine while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_nascent_soul_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại hồn tháp bỏ hoang",
+    "text": "Tại hồn tháp bỏ hoang, hồn tu săn Nguyên Anh chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "废弃魂塔交锋",
+        "text": "在废弃魂塔，猎婴魂修拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the abandoned soul tower",
+        "text": "At the abandoned soul tower, a soul hunter blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui hồn tu săn Nguyên Anh tại hồn tháp bỏ hoang, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在废弃魂塔击退猎婴魂修，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a soul hunter at the abandoned soul tower and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Hồn tu săn Nguyên Anh đánh thủng phòng hộ tại hồn tháp bỏ hoang. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "猎婴魂修在废弃魂塔击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于猎婴魂修之手"
+              },
+              "en": {
+                "text": "A soul hunter breaks your protection at the abandoned soul tower. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a soul hunter"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước hồn tu săn Nguyên Anh"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Hồn tu săn Nguyên Anh chặn đường rút tại hồn tháp bỏ hoang, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "猎婴魂修在废弃魂塔封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于猎婴魂修之手"
+              },
+              "en": {
+                "text": "A soul hunter seals your retreat at the abandoned soul tower and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a soul hunter"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước hồn tu săn Nguyên Anh"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời hồn tháp bỏ hoang khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开废弃魂塔，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the abandoned soul tower while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_spirit_transformation_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại đàn pháp tướng cổ",
+    "text": "Tại đàn pháp tướng cổ, tu sĩ đoạt thần quang chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "古法相坛交锋",
+        "text": "在古法相坛，夺神光修士拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the ancient manifestation altar",
+        "text": "At the ancient manifestation altar, a spiritual radiance raider blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui tu sĩ đoạt thần quang tại đàn pháp tướng cổ, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在古法相坛击退夺神光修士，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a spiritual radiance raider at the ancient manifestation altar and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Tu sĩ đoạt thần quang đánh thủng phòng hộ tại đàn pháp tướng cổ. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "夺神光修士在古法相坛击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于夺神光修士之手"
+              },
+              "en": {
+                "text": "A spiritual radiance raider breaks your protection at the ancient manifestation altar. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a spiritual radiance raider"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước tu sĩ đoạt thần quang"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Tu sĩ đoạt thần quang chặn đường rút tại đàn pháp tướng cổ, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "夺神光修士在古法相坛封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于夺神光修士之手"
+              },
+              "en": {
+                "text": "A spiritual radiance raider seals your retreat at the ancient manifestation altar and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a spiritual radiance raider"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước tu sĩ đoạt thần quang"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời đàn pháp tướng cổ khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开古法相坛，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the ancient manifestation altar while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_void_refining_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại bến giới giữa hư không",
+    "text": "Tại bến giới giữa hư không, đạo tặc chặn giới lộ chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "虚空界港交锋",
+        "text": "在虚空界港，截界路盗匪拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the void world harbor",
+        "text": "At the void world harbor, a world passage bandit blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "void_refining"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui đạo tặc chặn giới lộ tại bến giới giữa hư không, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在虚空界港击退截界路盗匪，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a world passage bandit at the void world harbor and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Đạo tặc chặn giới lộ đánh thủng phòng hộ tại bến giới giữa hư không. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "截界路盗匪在虚空界港击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于截界路盗匪之手"
+              },
+              "en": {
+                "text": "A world passage bandit breaks your protection at the void world harbor. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a world passage bandit"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước đạo tặc chặn giới lộ"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Đạo tặc chặn giới lộ chặn đường rút tại bến giới giữa hư không, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "截界路盗匪在虚空界港封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于截界路盗匪之手"
+              },
+              "en": {
+                "text": "A world passage bandit seals your retreat at the void world harbor and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a world passage bandit"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước đạo tặc chặn giới lộ"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời bến giới giữa hư không khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开虚空界港，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the void world harbor while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_body_integration_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại đạo trường trọng áp",
+    "text": "Tại đạo trường trọng áp, tu sĩ phá giáp hợp thân chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "重压道场交锋",
+        "text": "在重压道场，破合身甲修士拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the heavy pressure sanctuary",
+        "text": "At the heavy pressure sanctuary, an integrated armor breaker blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "body_integration"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui tu sĩ phá giáp hợp thân tại đạo trường trọng áp, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在重压道场击退破合身甲修士，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel an integrated armor breaker at the heavy pressure sanctuary and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Tu sĩ phá giáp hợp thân đánh thủng phòng hộ tại đạo trường trọng áp. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "破合身甲修士在重压道场击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于破合身甲修士之手"
+              },
+              "en": {
+                "text": "An integrated armor breaker breaks your protection at the heavy pressure sanctuary. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by an integrated armor breaker"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước tu sĩ phá giáp hợp thân"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Tu sĩ phá giáp hợp thân chặn đường rút tại đạo trường trọng áp, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "破合身甲修士在重压道场封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于破合身甲修士之手"
+              },
+              "en": {
+                "text": "An integrated armor breaker seals your retreat at the heavy pressure sanctuary and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by an integrated armor breaker"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước tu sĩ phá giáp hợp thân"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời đạo trường trọng áp khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开重压道场，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the heavy pressure sanctuary while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_mahayana_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại đàn lôi ngoài biển",
+    "text": "Tại đàn lôi ngoài biển, kiếp tu cướp trận bàn chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "海外雷坛交锋",
+        "text": "在海外雷坛，劫修夺阵者拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the offshore thunder altar",
+        "text": "At the offshore thunder altar, a tribulation formation raider blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "mahayana"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui kiếp tu cướp trận bàn tại đàn lôi ngoài biển, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在海外雷坛击退劫修夺阵者，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a tribulation formation raider at the offshore thunder altar and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Kiếp tu cướp trận bàn đánh thủng phòng hộ tại đàn lôi ngoài biển. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "劫修夺阵者在海外雷坛击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于劫修夺阵者之手"
+              },
+              "en": {
+                "text": "A tribulation formation raider breaks your protection at the offshore thunder altar. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a tribulation formation raider"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước kiếp tu cướp trận bàn"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Kiếp tu cướp trận bàn chặn đường rút tại đàn lôi ngoài biển, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "劫修夺阵者在海外雷坛封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于劫修夺阵者之手"
+              },
+              "en": {
+                "text": "A tribulation formation raider seals your retreat at the offshore thunder altar and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a tribulation formation raider"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước kiếp tu cướp trận bàn"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời đàn lôi ngoài biển khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开海外雷坛，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the offshore thunder altar while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_true_immortal_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại tiên cảng sương lạnh",
+    "text": "Tại tiên cảng sương lạnh, tiên tu cướp hành trang chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "寒雾仙港交锋",
+        "text": "在寒雾仙港，劫行囊仙修拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the cold mist immortal harbor",
+        "text": "At the cold mist immortal harbor, an immortal supply raider blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "true_immortal"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui tiên tu cướp hành trang tại tiên cảng sương lạnh, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在寒雾仙港击退劫行囊仙修，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel an immortal supply raider at the cold mist immortal harbor and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Tiên tu cướp hành trang đánh thủng phòng hộ tại tiên cảng sương lạnh. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "劫行囊仙修在寒雾仙港击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于劫行囊仙修之手"
+              },
+              "en": {
+                "text": "An immortal supply raider breaks your protection at the cold mist immortal harbor. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by an immortal supply raider"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước tiên tu cướp hành trang"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Tiên tu cướp hành trang chặn đường rút tại tiên cảng sương lạnh, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "劫行囊仙修在寒雾仙港封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于劫行囊仙修之手"
+              },
+              "en": {
+                "text": "An immortal supply raider seals your retreat at the cold mist immortal harbor and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by an immortal supply raider"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước tiên tu cướp hành trang"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời tiên cảng sương lạnh khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开寒雾仙港，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the cold mist immortal harbor while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_golden_immortal_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại lò tiên kim cổ",
+    "text": "Tại lò tiên kim cổ, kim giáp vệ phản chủ chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "古仙金炉交锋",
+        "text": "在古仙金炉，反主金甲卫拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the ancient immortal metal furnace",
+        "text": "At the ancient immortal metal furnace, a renegade golden guard blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "golden_immortal"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui kim giáp vệ phản chủ tại lò tiên kim cổ, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在古仙金炉击退反主金甲卫，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a renegade golden guard at the ancient immortal metal furnace and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Kim giáp vệ phản chủ đánh thủng phòng hộ tại lò tiên kim cổ. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "反主金甲卫在古仙金炉击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于反主金甲卫之手"
+              },
+              "en": {
+                "text": "A renegade golden guard breaks your protection at the ancient immortal metal furnace. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a renegade golden guard"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước kim giáp vệ phản chủ"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Kim giáp vệ phản chủ chặn đường rút tại lò tiên kim cổ, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "反主金甲卫在古仙金炉封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于反主金甲卫之手"
+              },
+              "en": {
+                "text": "A renegade golden guard seals your retreat at the ancient immortal metal furnace and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a renegade golden guard"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước kim giáp vệ phản chủ"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời lò tiên kim cổ khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开古仙金炉，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the ancient immortal metal furnace while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_mystic_immortal_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại huyền điện thất truyền",
+    "text": "Tại huyền điện thất truyền, huyền tu sửa khế giả chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "失传玄殿交锋",
+        "text": "在失传玄殿，改假契玄修拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the forgotten mystic hall",
+        "text": "At the forgotten mystic hall, a mystic covenant forger blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "mystic_immortal"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui huyền tu sửa khế giả tại huyền điện thất truyền, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在失传玄殿击退改假契玄修，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a mystic covenant forger at the forgotten mystic hall and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Huyền tu sửa khế giả đánh thủng phòng hộ tại huyền điện thất truyền. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "改假契玄修在失传玄殿击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于改假契玄修之手"
+              },
+              "en": {
+                "text": "A mystic covenant forger breaks your protection at the forgotten mystic hall. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a mystic covenant forger"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước huyền tu sửa khế giả"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Huyền tu sửa khế giả chặn đường rút tại huyền điện thất truyền, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "改假契玄修在失传玄殿封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于改假契玄修之手"
+              },
+              "en": {
+                "text": "A mystic covenant forger seals your retreat at the forgotten mystic hall and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a mystic covenant forger"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước huyền tu sửa khế giả"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời huyền điện thất truyền khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开失传玄殿，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the forgotten mystic hall while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_immortal_king_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại trụ giới ngoài tinh vực",
+    "text": "Tại trụ giới ngoài tinh vực, địch thủ chiếm giới mạch chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "星域外界柱交锋",
+        "text": "在星域外界柱，占界脉敌手拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the outer star world pillar",
+        "text": "At the outer star world pillar, a rival occupying world veins blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "immortal_king"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui địch thủ chiếm giới mạch tại trụ giới ngoài tinh vực, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在星域外界柱击退占界脉敌手，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel a rival occupying world veins at the outer star world pillar and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Địch thủ chiếm giới mạch đánh thủng phòng hộ tại trụ giới ngoài tinh vực. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "占界脉敌手在星域外界柱击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于占界脉敌手之手"
+              },
+              "en": {
+                "text": "A rival occupying world veins breaks your protection at the outer star world pillar. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by a rival occupying world veins"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước địch thủ chiếm giới mạch"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Địch thủ chiếm giới mạch chặn đường rút tại trụ giới ngoài tinh vực, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "占界脉敌手在星域外界柱封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于占界脉敌手之手"
+              },
+              "en": {
+                "text": "A rival occupying world veins seals your retreat at the outer star world pillar and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by a rival occupying world veins"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước địch thủ chiếm giới mạch"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời trụ giới ngoài tinh vực khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开星域外界柱，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the outer star world pillar while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
+              }
+            },
+            "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "danger_immortal_emperor_001",
+    "category": "disaster",
+    "combat": true,
+    "title": "Đối đầu tại đạo đình giữa vạn giới",
+    "text": "Tại đạo đình giữa vạn giới, đế tu đoạt đạo nguyên chặn đoàn mang linh tài. Ngươi còn có thể rời đi, hoặc giao chiến để giành lại phần hàng bị giữ.",
+    "translations": {
+      "zh": {
+        "title": "万界间道庭交锋",
+        "text": "在万界间道庭，夺道源帝修拦下运送灵材的队伍。你尚可离开，也可以交战，夺回被扣下的货物。"
+      },
+      "en": {
+        "title": "Confrontation at the Dao court between worlds",
+        "text": "At the Dao court between worlds, an emperor seizing Dao essence blocks a supply convoy. You can still withdraw, or fight to recover the materials being held there."
+      }
+    },
+    "weight": 8,
+    "minAge": 8,
+    "allowedRealms": [
+      "immortal_emperor"
+    ],
+    "conditions": {
+      "health": 35
+    },
+    "cooldownYears": 100,
+    "maxOccurrencesPerLife": 1,
+    "importance": "major",
+    "choices": [
+      {
+        "id": "risk",
+        "text": "Giao chiến giành linh tài",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
+        "translations": {
+          "zh": {
+            "text": "交战夺回灵材",
+            "hint": "机缘丰厚，但可能重伤或死亡。"
+          },
+          "en": {
+            "text": "Fight for the materials",
+            "hint": "Major reward; may cause serious injury or death."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "victory",
+            "weight": 50,
+            "text": "Ngươi đánh lui đế tu đoạt đạo nguyên tại đạo đình giữa vạn giới, mở đường cho đoàn vận chuyển. Phần linh tài đáp công được giữ lại để chuẩn bị lần bế quan tiếp.",
+            "translations": {
+              "zh": {
+                "text": "你在万界间道庭击退夺道源帝修，为运货队打开道路。答谢的灵材留下，供下一次闭关时使用。"
+              },
+              "en": {
+                "text": "You repel an emperor seizing Dao essence at the Dao court between worlds and reopen the convoy route. The materials offered in thanks provide supplies for your next cultivation retreat."
+              }
+            },
+            "effects": {
+              "resources": 36,
+              "cultivation": 28
+            }
+          },
+          {
+            "id": "injury",
+            "weight": 15,
+            "text": "Đế tu đoạt đạo nguyên đánh thủng phòng hộ tại đạo đình giữa vạn giới. Ngươi bỏ vật tư để rút khỏi trận, mang thương nặng và phải dừng tu luyện để hồi sức.",
+            "translations": {
+              "zh": {
+                "text": "夺道源帝修在万界间道庭击穿你的防护。你舍弃物资退出战场，带着重伤停下修炼，等待身体恢复。",
+                "endingReason": "战死于夺道源帝修之手"
+              },
+              "en": {
+                "text": "An emperor seizing Dao essence breaks your protection at the Dao court between worlds. Abandoning supplies allows escape, but serious injuries force you to suspend cultivation and recover.",
+                "endingReason": "Slain by an emperor seizing Dao essence"
+              }
+            },
+            "effects": {
+              "health": -28,
+              "resources": -14
+            },
+            "endingReason": "Tử trận trước đế tu đoạt đạo nguyên"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Đế tu đoạt đạo nguyên chặn đường rút tại đạo đình giữa vạn giới, đánh xuyên phòng hộ còn lại. Ngươi không thể thoát khỏi trận, sinh cơ tắt trước khi viện trợ tới.",
+            "translations": {
+              "zh": {
+                "text": "夺道源帝修在万界间道庭封住退路，击穿最后的防护。你无法逃离战场，援手尚未赶到，生机已经断绝。",
+                "endingReason": "战死于夺道源帝修之手"
+              },
+              "en": {
+                "text": "An emperor seizing Dao essence seals your retreat at the Dao court between worlds and pierces your remaining protection. Unable to escape the battle, your life ends before assistance arrives.",
+                "endingReason": "Slain by an emperor seizing Dao essence"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tử trận trước đế tu đoạt đạo nguyên"
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Rút lui giữ mạng",
+        "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
+        "translations": {
+          "zh": {
+            "text": "退避保命",
+            "hint": "放弃机缘，不进入危险区域。"
+          },
+          "en": {
+            "text": "Withdraw safely",
+            "hint": "Forgo the reward and avoid entering danger."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "safe",
+            "weight": 1,
+            "text": "Ngươi rời đạo đình giữa vạn giới khi lối về còn thông, giữ vật tư và sức lực. Cơ duyên được bỏ lại, còn kế hoạch tu luyện tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你在归路仍畅通时离开万界间道庭，保留物资与体力。机缘留在原处，接下来的修炼安排照旧继续。"
+              },
+              "en": {
+                "text": "You leave the Dao court between worlds while the return route remains open, preserving supplies and strength. The opportunity stays behind, and your cultivation plans continue unchanged."
               }
             },
             "effects": {}

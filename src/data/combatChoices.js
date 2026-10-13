@@ -51,8 +51,8 @@ export const combatChoices=stories.map(([id,allowedRealms,title,prompt,victory,d
     choices:[
       {id:'fight',text:'Giao chiến',hint:'Có phần thưởng · Có thể tử trận',
         translations:{zh:{text:'应战',hint:'有奖励，也可能战死'},en:{text:'Fight',hint:'Reward possible; death possible'}},
-        outcomes:[{id:'victory',weight:4,...narrative(victory),effects:{resources:24,cultivation:12,health:5}},
-          {id:'death',weight:1,...fatal,endingReason:reason[0],translations:{zh:{...fatal.translations.zh,endingReason:reason[1]},en:{...fatal.translations.en,endingReason:reason[2]}},effects:{death:true}}]},
+        outcomes:[{id:'victory',weight:65,...narrative(victory),effects:{resources:36,cultivation:28,health:5}},
+          {id:'death',weight:35,...fatal,endingReason:reason[0],translations:{zh:{...fatal.translations.zh,endingReason:reason[1]},en:{...fatal.translations.en,endingReason:reason[2]}},effects:{death:true}}]},
       {id:'retreat',text:'Rút lui giữ mạng',hint:'Bỏ cơ duyên, tránh giao chiến',
         translations:{zh:{text:'退避保命',hint:'放弃机缘，避开交战'},en:{text:'Withdraw safely',hint:'Give up the opportunity; avoid combat'}},
         outcomes:[{id:'safe',weight:1,...narrative(leave),effects:{}}]},

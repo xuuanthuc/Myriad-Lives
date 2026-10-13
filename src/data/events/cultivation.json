@@ -4270,7 +4270,7 @@
         "text": "Notes on energy rhythms during cold weather disagree with your observations. A breathing trial could explain the difference, while further observation would consume less energy."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "qi_refining"
@@ -4279,27 +4279,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh nhịp linh lực lúc trời lạnh, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -4310,25 +4310,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh nhịp linh lực lúc trời lạnh, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý nhịp linh lực lúc trời lạnh, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整寒天灵力节奏，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理寒天灵力节奏时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "灵力反震毁掉经脉（寒天灵力节奏）"
               },
               "en": {
-                "text": "Adjusting energy rhythms during cold weather produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at energy rhythms during cold weather. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Rebounding energy destroys your meridians at energy rhythms during cold weather"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Linh lực phản chấn phá kinh mạch tại nhịp linh lực lúc trời lạnh"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Linh lực phản chấn phá kinh mạch khi ngươi xử lý nhịp linh lực lúc trời lạnh. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理寒天灵力节奏时，灵力反震毁掉经脉。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "灵力反震毁掉经脉（寒天灵力节奏）"
+              },
+              "en": {
+                "text": "Rebounding energy destroys your meridians while you work at energy rhythms during cold weather. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Rebounding energy destroys your meridians at energy rhythms during cold weather"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Linh lực phản chấn phá kinh mạch tại nhịp linh lực lúc trời lạnh"
           }
         ]
       },
@@ -5128,7 +5151,7 @@
         "text": "Examining energy circulating around the foundation reveals energy deviating from predictions. Your foundation remains stable, allowing an adjustment trial or further measurements without changing the method."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "foundation"
@@ -5137,27 +5160,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh dòng khí quanh nền đạo, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -5168,25 +5191,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh dòng khí quanh nền đạo, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý dòng khí quanh nền đạo, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整道基周围气流，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理道基周围气流时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "阵力卷入道基（道基周围气流）"
               },
               "en": {
-                "text": "Adjusting energy circulating around the foundation produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at energy circulating around the foundation. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Formation power consumes your foundation at energy circulating around the foundation"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Trận lực cuốn vào nền đạo tại dòng khí quanh nền đạo"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Trận lực cuốn vào nền đạo khi ngươi xử lý dòng khí quanh nền đạo. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理道基周围气流时，阵力卷入道基。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "阵力卷入道基（道基周围气流）"
+              },
+              "en": {
+                "text": "Formation power consumes your foundation while you work at energy circulating around the foundation. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Formation power consumes your foundation at energy circulating around the foundation"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Trận lực cuốn vào nền đạo tại dòng khí quanh nền đạo"
           }
         ]
       },
@@ -5986,7 +6032,7 @@
         "text": "Signals from the halo around a golden core trigger unexpected golden core resonance. You can change your circulation rhythm experimentally or record the response for later comparison."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "golden_core"
@@ -5995,27 +6041,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh vòng sáng quanh Kim Đan, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -6026,25 +6072,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh vòng sáng quanh Kim Đan, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý vòng sáng quanh kim đan, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整金丹光环，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理金丹光环时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "火力穿透金丹（金丹光环）"
               },
               "en": {
-                "text": "Adjusting the halo around a golden core produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at the halo around a golden core. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Burning power pierces your golden core at the halo around a golden core"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Hỏa lực xuyên qua Kim Đan tại vòng sáng quanh kim đan"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Hỏa lực xuyên qua Kim Đan khi ngươi xử lý vòng sáng quanh kim đan. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理金丹光环时，火力穿透金丹。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "火力穿透金丹（金丹光环）"
+              },
+              "en": {
+                "text": "Burning power pierces your golden core while you work at the halo around a golden core. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Burning power pierces your golden core at the halo around a golden core"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Hỏa lực xuyên qua Kim Đan tại vòng sáng quanh kim đan"
           }
         ]
       },
@@ -6701,7 +6770,7 @@
         "text": "Studying the breathing of a nascent soul produces different responses in soul and body. You can attempt synchronization or keep observing their separate rhythms before changing practice."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "nascent_soul"
@@ -6710,27 +6779,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh nhịp thở của Nguyên Anh, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -6741,25 +6810,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh nhịp thở của Nguyên Anh, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý nhịp thở của nguyên anh, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整元婴呼吸节奏，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理元婴呼吸节奏时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "魂力锁住元婴（元婴呼吸节奏）"
               },
               "en": {
-                "text": "Adjusting the breathing of a nascent soul produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at the breathing of a nascent soul. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Soul power imprisons your nascent soul at the breathing of a nascent soul"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Hồn lực khóa chặt Nguyên Anh tại nhịp thở của nguyên anh"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Hồn lực khóa chặt Nguyên Anh khi ngươi xử lý nhịp thở của nguyên anh. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理元婴呼吸节奏时，魂力锁住元婴。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "魂力锁住元婴（元婴呼吸节奏）"
+              },
+              "en": {
+                "text": "Soul power imprisons your nascent soul while you work at the breathing of a nascent soul. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Soul power imprisons your nascent soul at the breathing of a nascent soul"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Hồn lực khóa chặt Nguyên Anh tại nhịp thở của nguyên anh"
           }
         ]
       },
@@ -7416,7 +7508,7 @@
         "text": "Observing resonance within spiritual radiance, you see imagery change with spiritual thought. An adjustment may suggest new practice, while careful recording offers a safer approach."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "spirit_transformation"
@@ -7425,27 +7517,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh sự cộng hưởng của thần quang, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -7456,25 +7548,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh sự cộng hưởng của thần quang, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý sự cộng hưởng của thần quang, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整神光共鸣，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理神光共鸣时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "道音撕裂神念（神光共鸣）"
               },
               "en": {
-                "text": "Adjusting resonance within spiritual radiance produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at resonance within spiritual radiance. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Dao sounds tear apart your spiritual thoughts at resonance within spiritual radiance"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Đạo âm xé rách thần niệm tại sự cộng hưởng của thần quang"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Đạo âm xé rách thần niệm khi ngươi xử lý sự cộng hưởng của thần quang. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理神光共鸣时，道音撕裂神念。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "道音撕裂神念（神光共鸣）"
+              },
+              "en": {
+                "text": "Dao sounds tear apart your spiritual thoughts while you work at resonance within spiritual radiance. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Dao sounds tear apart your spiritual thoughts at resonance within spiritual radiance"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Đạo âm xé rách thần niệm tại sự cộng hưởng của thần quang"
           }
         ]
       },
@@ -7988,7 +8103,7 @@
         "text": "Repeated measurements of the curvature of a spatial wall vary with coordinates. You can adjust your scouting method or preserve it while identifying the pattern behind the changes."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "void_refining"
@@ -7997,27 +8112,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh độ cong của vách không gian, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -8028,25 +8143,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh độ cong của vách không gian, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý độ cong của vách không gian, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整空间壁曲率，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理空间壁曲率时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "空间隙切断护体（空间壁曲率）"
               },
               "en": {
-                "text": "Adjusting the curvature of a spatial wall produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at the curvature of a spatial wall. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "A spatial rift severs your protection at the curvature of a spatial wall"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Khe không gian cắt đứt hộ thân tại độ cong của vách không gian"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Khe không gian cắt đứt hộ thân khi ngươi xử lý độ cong của vách không gian. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理空间壁曲率时，空间隙切断护体。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "空间隙切断护体（空间壁曲率）"
+              },
+              "en": {
+                "text": "A spatial rift severs your protection while you work at the curvature of a spatial wall. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "A spatial rift severs your protection at the curvature of a spatial wall"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Khe không gian cắt đứt hộ thân tại độ cong của vách không gian"
           }
         ]
       },
@@ -8560,7 +8698,7 @@
         "text": "Studying rhythms coordinating body and spirit reveals different response speeds in body and spirit. You can attempt synchronization or measure separately to avoid forcing either side."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "body_integration"
@@ -8569,27 +8707,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh nhịp phối hợp thân và thần, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -8600,25 +8738,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh nhịp phối hợp thân và thần, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý nhịp phối hợp thân và thần, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整身神协调节奏，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理身神协调节奏时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "灵压碾碎肉身（身神协调节奏）"
               },
               "en": {
-                "text": "Adjusting rhythms coordinating body and spirit produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at rhythms coordinating body and spirit. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Spiritual pressure crushes your body at rhythms coordinating body and spirit"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Linh áp nghiền nát thân thể tại nhịp phối hợp thân và thần"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Linh áp nghiền nát thân thể khi ngươi xử lý nhịp phối hợp thân và thần. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理身神协调节奏时，灵压碾碎肉身。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "灵压碾碎肉身（身神协调节奏）"
+              },
+              "en": {
+                "text": "Spiritual pressure crushes your body while you work at rhythms coordinating body and spirit. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Spiritual pressure crushes your body at rhythms coordinating body and spirit"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Linh áp nghiền nát thân thể tại nhịp phối hợp thân và thần"
           }
         ]
       },
@@ -9132,7 +9293,7 @@
         "text": "Recording intervals between lightning rhythms, you notice tribulation traces never repeat exactly. You can revise your circulation experimentally or observe another spiritual pressure cycle first."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "mahayana"
@@ -9141,27 +9302,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh khoảng nghỉ giữa các lôi nhịp, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -9172,25 +9333,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh khoảng nghỉ giữa các lôi nhịp, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý khoảng nghỉ giữa các lôi nhịp, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整雷节间隙，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理雷节间隙时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "余雷穿透道基（雷节间隙）"
               },
               "en": {
-                "text": "Adjusting intervals between lightning rhythms produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at intervals between lightning rhythms. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Residual lightning pierces your Dao foundation at intervals between lightning rhythms"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Dư lôi xuyên qua đạo cơ tại khoảng nghỉ giữa các lôi nhịp"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Dư lôi xuyên qua đạo cơ khi ngươi xử lý khoảng nghỉ giữa các lôi nhịp. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理雷节间隙时，余雷穿透道基。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "余雷穿透道基（雷节间隙）"
+              },
+              "en": {
+                "text": "Residual lightning pierces your Dao foundation while you work at intervals between lightning rhythms. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Residual lightning pierces your Dao foundation at intervals between lightning rhythms"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Dư lôi xuyên qua đạo cơ tại khoảng nghỉ giữa các lôi nhịp"
           }
         ]
       },
@@ -9704,7 +9888,7 @@
         "text": "Observing the circulation of immortal power, you find lower world measurements unsuitable. You can adjust them using immortal power or compare records from an immortal courtyard."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "true_immortal"
@@ -9713,27 +9897,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh sự tuần hoàn của tiên lực, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -9744,25 +9928,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh sự tuần hoàn của tiên lực, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý sự tuần hoàn của tiên lực, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整仙力循环，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理仙力循环时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "仙力反震毁掉仙体（仙力循环）"
               },
               "en": {
-                "text": "Adjusting the circulation of immortal power produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at the circulation of immortal power. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Rebounding immortal power destroys your body at the circulation of immortal power"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Tiên lực phản chấn phá tiên thể tại sự tuần hoàn của tiên lực"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Tiên lực phản chấn phá tiên thể khi ngươi xử lý sự tuần hoàn của tiên lực. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理仙力循环时，仙力反震毁掉仙体。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "仙力反震毁掉仙体（仙力循环）"
+              },
+              "en": {
+                "text": "Rebounding immortal power destroys your body while you work at the circulation of immortal power. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Rebounding immortal power destroys your body at the circulation of immortal power"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Tiên lực phản chấn phá tiên thể tại sự tuần hoàn của tiên lực"
           }
         ]
       },
@@ -10133,7 +10340,7 @@
         "text": "Measuring golden inscription networks within an immortal body, you notice golden inscriptions responding one beat late. You can adjust immortal energy flow experimentally or continue documenting the delay."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "golden_immortal"
@@ -10142,27 +10349,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh mạng kim văn trong tiên thể, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -10173,25 +10380,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh mạng kim văn trong tiên thể, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý mạng kim văn trong tiên thể, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整仙体金纹网，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理仙体金纹网时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "金火烧穿仙体（仙体金纹网）"
               },
               "en": {
-                "text": "Adjusting golden inscription networks within an immortal body produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at golden inscription networks within an immortal body. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Golden fire burns through your immortal body at golden inscription networks within an immortal body"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Kim hỏa đốt xuyên tiên thể tại mạng kim văn trong tiên thể"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Kim hỏa đốt xuyên tiên thể khi ngươi xử lý mạng kim văn trong tiên thể. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理仙体金纹网时，金火烧穿仙体。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "金火烧穿仙体（仙体金纹网）"
+              },
+              "en": {
+                "text": "Golden fire burns through your immortal body while you work at golden inscription networks within an immortal body. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Golden fire burns through your immortal body at golden inscription networks within an immortal body"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Kim hỏa đốt xuyên tiên thể tại mạng kim văn trong tiên thể"
           }
         ]
       },
@@ -10562,7 +10792,7 @@
         "text": "Studying changing meanings within mystic inscriptions, you find an earlier rule no longer applies. You can experiment with new practice or first record all its changing states."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "mystic_immortal"
@@ -10571,27 +10801,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh sự đổi nghĩa của huyền văn, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -10602,25 +10832,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh sự đổi nghĩa của huyền văn, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý sự đổi nghĩa của huyền văn, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整玄纹义变，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理玄纹义变时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "玄纹抹去生机印记（玄纹义变）"
               },
               "en": {
-                "text": "Adjusting changing meanings within mystic inscriptions produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at changing meanings within mystic inscriptions. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Mystic inscriptions erase the traces of your life at changing meanings within mystic inscriptions"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Huyền văn xóa dấu sinh cơ tại sự đổi nghĩa của huyền văn"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Huyền văn xóa dấu sinh cơ khi ngươi xử lý sự đổi nghĩa của huyền văn. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理玄纹义变时，玄纹抹去生机印记。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "玄纹抹去生机印记（玄纹义变）"
+              },
+              "en": {
+                "text": "Mystic inscriptions erase the traces of your life while you work at changing meanings within mystic inscriptions. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Mystic inscriptions erase the traces of your life at changing meanings within mystic inscriptions"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Huyền văn xóa dấu sinh cơ tại sự đổi nghĩa của huyền văn"
           }
         ]
       },
@@ -10991,7 +11244,7 @@
         "text": "Studying the balance of world veins reveals different responses from each small world. You can adjust one branch experimentally or compare results before adding further connections."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "immortal_king"
@@ -11000,27 +11253,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh sự cân bằng của giới mạch, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -11031,25 +11284,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh sự cân bằng của giới mạch, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý sự cân bằng của giới mạch, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整界脉平衡，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理界脉平衡时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "界脉拖碎道基（界脉平衡）"
               },
               "en": {
-                "text": "Adjusting the balance of world veins produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at the balance of world veins. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "World veins tear your Dao foundation apart at the balance of world veins"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Giới mạch kéo vỡ đạo cơ tại sự cân bằng của giới mạch"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Giới mạch kéo vỡ đạo cơ khi ngươi xử lý sự cân bằng của giới mạch. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理界脉平衡时，界脉拖碎道基。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "界脉拖碎道基（界脉平衡）"
+              },
+              "en": {
+                "text": "World veins tear your Dao foundation apart while you work at the balance of world veins. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "World veins tear your Dao foundation apart at the balance of world veins"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Giới mạch kéo vỡ đạo cơ tại sự cân bằng của giới mạch"
           }
         ]
       },
@@ -11420,7 +11696,7 @@
         "text": "Studying the connection between two great Daos reveals results dependent on each world’s Dao foundation. You can attempt a small adjustment or document those differences before applying anything."
       }
     },
-    "weight": 4,
+    "weight": 6,
     "minAge": 8,
     "allowedRealms": [
       "immortal_emperor"
@@ -11429,27 +11705,27 @@
     "maxOccurrencesPerLife": 1,
     "importance": "major",
     "conditions": {
-      "health": 20
+      "health": 35
     },
     "choices": [
       {
         "id": "commit",
         "text": "Thử điều chỉnh trực tiếp",
-        "hint": "Có thể tiến tu vi; sai lệch làm tổn sức và mất tích lũy.",
+        "hint": "Cơ duyên lớn; có thể trọng thương hoặc tử vong.",
         "translations": {
           "zh": {
             "text": "直接调整试验",
-            "hint": "可能精进修为，偏差会损伤体力与积累。"
+            "hint": "机缘丰厚，但可能重伤或死亡。"
           },
           "en": {
             "text": "Attempt an adjustment",
-            "hint": "May advance cultivation; errors cost health and accumulated progress."
+            "hint": "Major reward; may cause serious injury or death."
           }
         },
         "outcomes": [
           {
             "id": "success",
-            "weight": 65,
+            "weight": 42.25,
             "text": "Ngươi thử điều chỉnh mối nối giữa hai đại đạo, ghi rõ điều kiện mỗi lần làm. Kết quả nhất quán giúp sửa phương pháp cũ và tích lũy thêm tu vi.",
             "translations": {
               "zh": {
@@ -11460,25 +11736,48 @@
               }
             },
             "effects": {
-              "cultivation": 12
+              "cultivation": 24
             }
           },
           {
             "id": "setback",
-            "weight": 35,
-            "text": "Ngươi thử điều chỉnh mối nối giữa hai đại đạo, nhưng kết quả không giữ ổn định. Phải dừng vận công để hồi sức, ngươi mất một phần tích lũy trước đó.",
+            "weight": 22.75,
+            "text": "Ngươi bị thương nặng khi xử lý mối nối giữa hai đại đạo, phải bỏ vật tư để rút lui. Việc tu luyện tạm dừng cho tới khi sức lực hồi phục.",
             "translations": {
               "zh": {
-                "text": "你调整双大道连接，结果却无法保持稳定。只得停下运功恢复体力，先前积累也损失了一部分，需要重新整理思路。"
+                "text": "处理双大道连接时，你受了重伤，只得舍弃物资撤离。修炼暂时停止，直到体力恢复后才能继续。",
+                "endingReason": "道源逆卷毁掉道座（双大道连接）"
               },
               "en": {
-                "text": "Adjusting the connection between two great Daos produces unstable results. You stop circulating energy to recover, losing some accumulated progress while reconsidering the assumptions behind your method."
+                "text": "Serious injuries interrupt your work at the connection between two great daos. You abandon supplies to withdraw, suspending cultivation until your strength recovers.",
+                "endingReason": "Reversed Dao essence destroys your throne at the connection between two great daos"
               }
             },
             "effects": {
-              "health": -3,
-              "cultivation": -4
-            }
+              "health": -24,
+              "cultivation": -4,
+              "resources": -10
+            },
+            "endingReason": "Đạo nguyên cuốn ngược phá đạo tọa tại mối nối giữa hai đại đạo"
+          },
+          {
+            "id": "death",
+            "weight": 35,
+            "text": "Đạo nguyên cuốn ngược phá đạo tọa khi ngươi xử lý mối nối giữa hai đại đạo. Phòng hộ tan trước khi kịp rút, khiến một đời tu hành khép lại tại chỗ.",
+            "translations": {
+              "zh": {
+                "text": "你处理双大道连接时，道源逆卷毁掉道座。来不及撤离，防护已经崩溃，一生修行就此终结。",
+                "endingReason": "道源逆卷毁掉道座（双大道连接）"
+              },
+              "en": {
+                "text": "Reversed Dao essence destroys your throne while you work at the connection between two great daos. Protection collapses before withdrawal, ending your cultivation journey at the site.",
+                "endingReason": "Reversed Dao essence destroys your throne at the connection between two great daos"
+              }
+            },
+            "effects": {
+              "death": true
+            },
+            "endingReason": "Đạo nguyên cuốn ngược phá đạo tọa tại mối nối giữa hai đại đạo"
           }
         ]
       },
