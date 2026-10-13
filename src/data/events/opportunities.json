@@ -52,6 +52,40 @@
         }
       },
       {
+        "id": "third_path",
+        "text": "Chép trận văn ngoài cửa",
+        "hint": "-4 tài nguyên · +8 tu vi",
+        "translations": {
+          "zh": {
+            "text": "拓录门外阵纹",
+            "hint": "-4 物资 · +8 修为"
+          },
+          "en": {
+            "text": "Copy the outer formation",
+            "hint": "-4 resources · +8 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi dùng giấy phù chép trận văn ngoài cửa, không phá phong ấn. Vật tư hao đi, nhưng cách nối các nét giúp hiểu thêm phương pháp dẫn khí.",
+            "translations": {
+              "zh": {
+                "text": "你用符纸拓录门外阵纹，没有破开封印。材料虽有消耗，纹路的连接方式却帮助你理解引气方法。"
+              },
+              "en": {
+                "text": "You copy the outer formation onto talisman paper without breaking the seal. Supplies are spent, but its connected strokes deepen your understanding of energy circulation."
+              }
+            },
+            "effects": {
+              "resources": -4,
+              "cultivation": 8
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Lặng lẽ rời đi",
         "hint": "Bảo toàn tính mạng",
@@ -103,6 +137,40 @@
               "resources": -20
             },
             "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Trả phí nhờ giám định",
+        "hint": "-5 tài nguyên · +4 tu vi",
+        "translations": {
+          "zh": {
+            "text": "付费请人鉴定",
+            "hint": "-5 物资 · +4 修为"
+          },
+          "en": {
+            "text": "Pay for an appraisal",
+            "hint": "-5 resources · +4 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi nhờ người đọc cổ tự xem tàn quyển, trả phí rồi nghe giải thích chỗ thiếu. Không mua sách, ngươi vẫn hiểu thêm cách phân biệt pháp môn thật.",
+            "translations": {
+              "zh": {
+                "text": "你付费请识古字的人鉴定残卷，听他解释缺失之处。没有买书，却学会了更多辨别真实法门的方法。"
+              },
+              "en": {
+                "text": "You pay an ancient script reader to examine the fragment and explain its gaps. Without buying it, you learn more about recognizing authentic methods."
+              }
+            },
+            "effects": {
+              "resources": -5,
+              "cultivation": 4
+            }
           }
         ]
       },
@@ -620,6 +688,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Luyện khí trên bờ linh trì",
+        "hint": "+6 tu vi",
+        "translations": {
+          "zh": {
+            "text": "在池边练气",
+            "hint": "+6 修为"
+          },
+          "en": {
+            "text": "Cultivate beside the pool",
+            "hint": "+6 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi ngồi trên bờ, chỉ dẫn phần linh khí thoát khỏi mặt nước. Không xuống trì hay mang nước đi, việc tu luyện tiến chậm nhưng tránh được hàn khí sâu.",
+            "translations": {
+              "zh": {
+                "text": "你留在岸边，只引导水面散出的灵气。不入池也不取水，修炼进展较慢，却避开深处寒气。"
+              },
+              "en": {
+                "text": "You remain on the bank and draw only energy escaping the surface. Neither entering nor collecting water, you cultivate slowly while avoiding the deeper cold."
+              }
+            },
+            "effects": {
+              "cultivation": 6
+            }
+          }
+        ]
+      },
+      {
         "id": "safe",
         "text": "Chỉ lấy ít nước",
         "hint": "Thận trọng · Lợi ích nhỏ",
@@ -843,6 +944,40 @@
               "en": {
                 "text": "A wall collapses while you mine, blocking the nearest exit. You find another way out, but lose the ore and suffer injuries from falling rocks."
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Thuê thợ gia cố lối nông",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "雇工加固浅道",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Hire workers to reinforce a shallow route",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi thuê thợ chống vách đoạn nông, cùng họ kiểm tra vết nứt trước khi lấy mẫu. Tiền công vượt phần quặng thu, nhưng ngươi học cách nhận mạch khoáng.",
+            "translations": {
+              "zh": {
+                "text": "你雇人支撑浅层岩壁，取样前一起检查裂缝。工钱超过矿样价值，却让你学会辨认矿脉的走向。"
+              },
+              "en": {
+                "text": "You hire workers to brace a shallow passage and inspect its cracks before sampling. Wages exceed the recovered ore, but you learn to recognize mineral veins."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
             }
           }
         ]
@@ -1360,6 +1495,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Thuê chép phần còn nguyên",
+        "hint": "-6 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "付费抄录完整部分",
+            "hint": "-6 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Pay to copy the intact sections",
+            "hint": "-6 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi trả phí chép những trang còn đủ lời chú, để phần thiếu ở lại thư quán. Bản chép giúp tham ngộ ít hơn nhưng không cần đoán đoạn cuối.",
+            "translations": {
+              "zh": {
+                "text": "你付费抄录注解完整的页，缺失部分仍留在书馆。参悟所得较少，却无须猜测末页的含义。"
+              },
+              "en": {
+                "text": "You pay to copy pages with complete notes, leaving the damaged sections in the library. The copy offers less insight but requires no guessing about the ending."
+              }
+            },
+            "effects": {
+              "resources": -6,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "observe",
         "text": "Giúp theo cách thận trọng",
         "hint": "Không nhận thưởng, không chịu tổn thất",
@@ -1570,6 +1739,40 @@
             },
             "effects": {
               "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Góp vật tư đo lưu lượng chung",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "出资联合测量流量",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Fund a joint flow survey",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp vật tư để hai vùng cùng đo lưu lượng, chưa mở đường qua đạo vực. Số liệu được ghi chung giúp họ bàn phí và ngươi hiểu thêm giới mạch.",
+            "translations": {
+              "zh": {
+                "text": "你出资让两地共同测量流量，暂不开放道域通路。共同记录的数据帮助协商费用，也让你更了解界脉。"
+              },
+              "en": {
+                "text": "You fund a joint flow survey without opening passage through your domain. Shared measurements help both regions discuss fees and deepen your understanding of world veins."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
             }
           }
         ]
@@ -1996,6 +2199,39 @@
               },
               "en": {
                 "text": "Aligning the shaft before leveling the feet chips its groove. The seller must stop pressing, and you cover replacement wood under the terms agreed before starting."
+              }
+            },
+            "effects": {
+              "resources": -5
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Cho mượn vật tư thay trục tạm",
+        "hint": "-5 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "借材料换临时轴",
+            "hint": "-5 物资"
+          },
+          "en": {
+            "text": "Lend materials for a temporary axle",
+            "hint": "-5 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi cho mượn vật tư làm trục tạm, dặn giảm lượng ép cho tới khi thợ đến. Không nhận công sửa, ngươi giúp lò giữ được buổi bán nhỏ.",
+            "translations": {
+              "zh": {
+                "text": "你借出材料制作临时轴，叮嘱工匠来前减少压榨量。没有领取修理工钱，却让作坊保住一场小规模售卖。"
+              },
+              "en": {
+                "text": "You lend materials for a temporary axle and advise reducing production until a craftsman arrives. Taking no repair payment, you help preserve a smaller market sale."
               }
             },
             "effects": {
@@ -2642,6 +2878,40 @@
             },
             "effects": {
               "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Tặng vật liệu làm nguồn sáng riêng",
+        "hint": "-12 tài nguyên · +4 tu vi",
+        "translations": {
+          "zh": {
+            "text": "赠送独立光源材料",
+            "hint": "-12 物资 · +4 修为"
+          },
+          "en": {
+            "text": "Donate materials for an independent light source",
+            "hint": "-12 resources · +4 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi tặng vật liệu cho giới ấy làm nguồn sáng riêng, không nối nhịp bình minh của mình. Theo dõi cách họ dùng giúp hiểu thêm việc nuôi ánh sáng độc lập.",
+            "translations": {
+              "zh": {
+                "text": "你赠送材料供小界建造自己的光源，没有连接自身晨光节奏。观察他们使用材料，让你更懂如何独立维持光明。"
+              },
+              "en": {
+                "text": "You donate materials for an independent light source without linking your dawn rhythm. Watching their use teaches you more about sustaining light without an external connection."
+              }
+            },
+            "effects": {
+              "resources": -12,
+              "cultivation": 4
             }
           }
         ]
@@ -3339,6 +3609,39 @@
             },
             "effects": {
               "resources": -14
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Tài trợ tuyến vòng tạm",
+        "hint": "-10 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "资助临时绕路",
+            "hint": "-10 物资"
+          },
+          "en": {
+            "text": "Fund a temporary detour",
+            "hint": "-10 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp vật tư sửa tuyến vòng cho đoàn vận tải, chưa treo đường qua đạo vực. Đường đi dài hơn nhưng hàng vẫn tới nơi trong lúc chờ khảo sát.",
+            "translations": {
+              "zh": {
+                "text": "你提供材料修整绕路，暂不让新路悬过道域。路程较长，货物却能在勘察期间继续送达目的地。"
+              },
+              "en": {
+                "text": "You fund repairs to a detour without suspending a road across your domain. The route is longer, but deliveries can continue while the proposed passage is surveyed."
+              }
+            },
+            "effects": {
+              "resources": -10
             }
           }
         ]
@@ -7802,6 +8105,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Mua thức ăn cho đứa trẻ",
+        "hint": "-4 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "给孩子买食物",
+            "hint": "-4 物资"
+          },
+          "en": {
+            "text": "Buy food for the child",
+            "hint": "-4 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi mua thức ăn đưa đứa trẻ, không cầm gói bạc của tù nhân. Người áp giải tiếp tục đi, còn bữa ăn giúp đứa trẻ qua cơn đói trước mắt.",
+            "translations": {
+              "zh": {
+                "text": "你买食物交给孩子，没有拿囚犯的钱袋。押送继续前行，孩子也靠这顿饭暂时度过了饥饿。"
+              },
+              "en": {
+                "text": "You buy food for the child without taking the prisoner’s silver. The escort continues onward, while the meal relieves the child’s immediate hunger."
+              }
+            },
+            "effects": {
+              "resources": -4
+            }
+          }
+        ]
+      },
+      {
         "id": "decline",
         "text": "Giữ gói bạc",
         "hint": "Được tiền, đứa trẻ không nhận được",
@@ -8073,6 +8409,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Giao tráp niêm cho người làm chứng",
+        "hint": "-5 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "把封匣交给见证人",
+            "hint": "-5 物资"
+          },
+          "en": {
+            "text": "Entrust the sealed box to a witness",
+            "hint": "-5 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi thuê người làm chứng giữ tráp nguyên niêm, ghi tên trẻ trên nắp. Không nhận lời giấu tráp hay giao người truy tìm, ngươi để việc xác minh có dấu rõ.",
+            "translations": {
+              "zh": {
+                "text": "你付费请见证人保管原封匣子，并记录盖上的孩子姓名。不藏匣也不交给追者，让查证留下清楚凭据。"
+              },
+              "en": {
+                "text": "You pay a witness to hold the sealed box and record the child’s name. Neither hiding nor surrendering it gives future verification a clear record."
+              }
+            },
+            "effects": {
+              "resources": -5
+            }
+          }
+        ]
+      },
+      {
         "id": "decline",
         "text": "Trả tráp, từ chối can dự",
         "hint": "Không nhận thưởng; tránh cuộc truy tìm",
@@ -8338,6 +8707,40 @@
               "en": {
                 "text": "A locking layer breaks during examination, releasing a shriek that wounds your awareness. You stop the investigation and carefully record which evidence has been damaged."
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Thuê người đối chiếu giọng nói",
+        "hint": "-6 tài nguyên · +3 tu vi",
+        "translations": {
+          "zh": {
+            "text": "雇人核对声音",
+            "hint": "-6 物资 · +3 修为"
+          },
+          "en": {
+            "text": "Hire someone to verify the voice",
+            "hint": "-6 resources · +3 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi thuê người đối chiếu giọng trong ngọc với bản ghi còn nguyên, chưa công bố lời buộc tội. Cách kiểm dấu giúp hiểu lưu âm dù kết luận vẫn chờ.",
+            "translations": {
+              "zh": {
+                "text": "你雇人把玉中声音与完整录音对照，暂不公开指控。核验印记帮助理解留音之法，结论仍需等待。"
+              },
+              "en": {
+                "text": "You hire someone to compare the jade’s voice with intact recordings before publishing accusations. Checking its marks teaches recording methods, though a conclusion still awaits evidence."
+              }
+            },
+            "effects": {
+              "resources": -6,
+              "cultivation": 3
             }
           }
         ]
@@ -9924,6 +10327,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Mời người làng tới xác nhận",
+        "hint": "-4 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "请村民前来核实",
+            "hint": "-4 物资"
+          },
+          "en": {
+            "text": "Bring villagers to verify the claim",
+            "hint": "-4 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi trả phí nhờ người chạy gọi dân làng, đứng lại giữ kiệu trong tầm nhìn. Không nhận tiền tránh đường, ngươi chờ người biết gia đình tới đối chiếu lời kể.",
+            "translations": {
+              "zh": {
+                "text": "你付钱让人召来村民，留下看住轿子。没有收钱让路，而是等认识家人的人来核对说法。"
+              },
+              "en": {
+                "text": "You pay a runner to summon villagers and keep the palanquin in sight. Refusing money to leave, you await people who can verify the family’s account."
+              }
+            },
+            "effects": {
+              "resources": -4
+            }
+          }
+        ]
+      },
+      {
         "id": "alternative",
         "text": "Tránh đường, không nhận tiền",
         "hint": "Không can dự; chưa rõ lời đứa trẻ",
@@ -10109,6 +10545,39 @@
               "en": {
                 "text": "Residual power erupts from talisman ash during inspection and burns your arm. You stop and request preservation of the scene, without deciding who caused the damage."
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Mời người khác chứng kiến lời khai",
+        "hint": "-4 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "请旁人见证陈述",
+            "hint": "-4 物资"
+          },
+          "en": {
+            "text": "Bring a witness to hear the account",
+            "hint": "-4 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi nhờ người ngoài kho cùng nghe lời đệ tử, ghi dấu cháy trước khi báo người coi. Không giấu người hay nhận thưởng ngay, việc kiểm tra có thêm nhân chứng.",
+            "translations": {
+              "zh": {
+                "text": "你请仓外的人共同听取弟子陈述，记录火痕再通知看守。不藏人也不立即领赏，让调查多了一名见证人。"
+              },
+              "en": {
+                "text": "You bring an outside witness to hear the disciple and record burn marks before notifying the keeper. Neither hiding them nor claiming payment leaves the inquiry witnessed."
+              }
+            },
+            "effects": {
+              "resources": -4
             }
           }
         ]
@@ -11313,6 +11782,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Trả tiền bánh thay người đói",
+        "hint": "-4 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "替饥者付饼钱",
+            "hint": "-4 物资"
+          },
+          "en": {
+            "text": "Pay for the hungry person’s cake",
+            "hint": "-4 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi trả tiền chiếc bánh, đề nghị người giữ đình không trói người đói. Không buộc họ quét sân hay nhận công làm chứng, ngươi tự chịu khoản tiền ấy.",
+            "translations": {
+              "zh": {
+                "text": "你付清祭饼的钱，请守祠人不要绑饥者。不要求扫院，也不领作证报酬，而是自己承担这笔钱。"
+              },
+              "en": {
+                "text": "You pay for the cake and ask the keeper not to bind the hungry person. Requiring no labor and accepting no witness fee, you bear the cost yourself."
+              }
+            },
+            "effects": {
+              "resources": -4
+            }
+          }
+        ]
+      },
+      {
         "id": "alternative",
         "text": "Làm chứng việc lấy bánh",
         "hint": "Nhận công giữ trật tự, không quyết định hình phạt",
@@ -11881,6 +12383,39 @@
               "en": {
                 "text": "You deliver the jar and read its message before the beans are shared. Nobody pays, but someone saves the paper to find and thank its sender."
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Trả phí chia đậu trước người làm chứng",
+        "hint": "-4 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "付费见证分豆",
+            "hint": "-4 物资"
+          },
+          "en": {
+            "text": "Pay for witnessed distribution of the beans",
+            "hint": "-4 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi trả phí mời người giữ bến chứng kiến chia đậu cho nhóm lánh nạn theo giấy gửi. Không bán chum, số phần được ghi để người gửi có thể kiểm lại.",
+            "translations": {
+              "zh": {
+                "text": "你付费请渡口管事见证按纸条给避难者分豆。没有卖掉豆瓮，份额被记录下来，供送豆者日后核查。"
+              },
+              "en": {
+                "text": "You pay the dock keeper to witness distributing the beans according to the note. Keeping a record of shares allows the sender to verify what reached the refugees."
+              }
+            },
+            "effects": {
+              "resources": -4
             }
           }
         ]

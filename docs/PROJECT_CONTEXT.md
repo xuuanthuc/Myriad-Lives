@@ -11,6 +11,7 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 - Tốc độ x1/x2/x4, mỗi fact khoảng 2/1/0,5 giây. Progress mượt, tuổi tăng có animation. Tốc độ và Kiếp mới gọn phía trên list sự kiện.
 - Cảnh giới ngang phía trên; tiểu cảnh giới là text ngang hàng dưới, mũi tên SVG. Luyện Khí rút gọn các tầng, không scroll ngang riêng. Ký sự mới nhất lên trên, có min/max height và scroll nội bộ. Life map ở cuối: cột theo đại cảnh giới, ô màu theo loại event, không label cột/border chia cột/scroll dọc; chú giải phía trên.
 - Lựa chọn và đột phá là popup; đóng vẫn có nút mở lại và thời gian dừng. Đột phá có nút Chưa vội đột phá cùng hàng với Thử đột phá. Chỉ bấm mới roll. Có force Kiếp mới nhưng gọn, không nổi bật.
+- Phần lớn sự kiện lựa chọn có 3 phương án khi có cách xử lý khác biệt: thương lượng, góp vật tư, kiểm định, thăm dò hoặc phối hợp cứu giúp. Quyết định thuần nhận/từ chối như nhập tông, kết đạo lữ, nhận khế ước giữ 2; không thêm phương án chỉ đổi tên. Nhánh thứ ba có chi phí, lợi ích và lời kể riêng; không đổi các nhánh đã có trong save.
 - Cẩm nang popup gồm linh căn, cảnh giới, thể chất; không mục xuất thân. Home có phần giới thiệu và card mở cẩm nang. Ảnh nền Home/game khác nhau và đủ mờ cho chữ; hỗ trợ light/dark, VI/ZH/EN, mobile.
 - Card lịch sử gọn, desktop 4 cột và giảm cột theo width. Chia sẻ mở preview có hành động tải/chia sẻ thật; khóa luân hồi khi chuẩn bị/preview ảnh.
 

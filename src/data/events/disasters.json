@@ -487,6 +487,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Thu khí ở sườn núi",
+        "hint": "-3 tài nguyên · +7 tu vi",
+        "translations": {
+          "zh": {
+            "text": "在山腰收集灵气",
+            "hint": "-3 物资 · +7 修为"
+          },
+          "en": {
+            "text": "Gather energy on the mountainside",
+            "hint": "-3 resources · +7 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi chuyển xuống sườn núi, dùng vật tư dựng lớp chắn nhỏ rồi thu linh khí ngoài lôi vân. Tu vi tiến ít hơn, đổi lại tránh đứng dưới đường sét.",
+            "translations": {
+              "zh": {
+                "text": "你退到山腰，耗用材料搭起小屏障，收集雷云外缘灵气。修为增长较少，却避开了直接落雷的位置。"
+              },
+              "en": {
+                "text": "You move downhill and spend supplies on a small barrier to gather energy beyond the clouds. Cultivation advances less, but you avoid the direct lightning path."
+              }
+            },
+            "effects": {
+              "resources": -3,
+              "cultivation": 7
+            }
+          }
+        ]
+      },
+      {
         "id": "safe",
         "text": "Xuống núi tránh sét",
         "hint": "Thận trọng · Lợi ích nhỏ",
@@ -17037,6 +17071,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Dẫn đoàn qua lối mòn và góp lương",
+        "hint": "-8 tài nguyên",
+        "translations": {
+          "zh": {
+            "text": "引队走小路并供粮",
+            "hint": "-8 物资"
+          },
+          "en": {
+            "text": "Guide a detour and supply food",
+            "hint": "-8 resources"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi dẫn những người chưa vào mỏ qua lối mòn, góp lương cho đường vòng. Không đánh cướp hay lấy hàng bị giữ, ngươi giúp phần đoàn ngoài thoát đi.",
+            "translations": {
+              "zh": {
+                "text": "你把尚未入矿的人带上小路，提供绕行口粮。不攻打劫匪也不取扣货，只帮助外围队伍离开。"
+              },
+              "en": {
+                "text": "You guide travelers still outside the quarry along a trail and supply detour food. Neither attacking nor reclaiming cargo, you help that portion escape."
+              }
+            },
+            "effects": {
+              "resources": -8
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -17167,6 +17234,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước yêu lang đói"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Rải mồi dẫn yêu lang khỏi lối phụ",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "撒饵引狼离开侧路",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Scatter bait away from a side path",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi dùng vật tư làm mồi, kéo yêu lang khỏi lối phụ để người ngoài vườn rút. Không giành linh sâm, ngươi chỉ hỗ trợ đường thoát rồi đi.",
+            "translations": {
+              "zh": {
+                "text": "你用物资做诱饵，把妖狼引离侧路，让园外的人撤退。不争灵参，只协助打开逃路后离开。"
+              },
+              "en": {
+                "text": "You use supplies as bait to draw the wolf away from a side path. Helping those outside retreat, you leave without claiming the ginseng."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },
@@ -17305,6 +17406,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Dựng phù chỉ đường ngoài kho",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "在库外布引路符",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Place guiding talismans outside the vault",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp phù đánh dấu lối vòng ngoài kho, đưa người chưa bị giữ rời khỏi tầm truy đuổi. Không phá cửa, cách nối dấu giúp học thêm bố trận.",
+            "translations": {
+              "zh": {
+                "text": "你用符标出库外绕路，带未被扣住的人避开追赶。没有破门，连接路标的过程却帮助学习布阵。"
+              },
+              "en": {
+                "text": "You place guiding talismans around the vault and lead untrapped travelers beyond pursuit. Without breaking its gates, connecting the markers teaches you more about formations."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -17435,6 +17570,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước yêu xà giữ mỏ"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Dẫn khí che dấu cho đoàn rút",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "导气掩护队伍撤离",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Use an energy veil to cover withdrawal",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi tiêu vật tư dựng lớp khí che đoạn ngoài mỏ, giúp người vận hàng lùi khỏi yêu xà. Không tranh hỏa tinh, ngươi chỉ giữ lớp che tới khi họ khuất.",
+            "translations": {
+              "zh": {
+                "text": "你用材料在矿外布起气幕，让运货者退离妖蛇。不争火晶，只维持遮蔽，直到众人离开视野。"
+              },
+              "en": {
+                "text": "You spend supplies on an energy veil outside the mine, letting carriers withdraw from the serpent. Avoiding the crystals, you maintain cover until they disappear."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },
@@ -17573,6 +17742,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Gửi hồn phù chỉ đường tránh tháp",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "送魂符指绕塔路",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Send soul markers along a route around the tower",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi gửi hồn phù cho người còn ngoài tháp, chỉ lối tránh vùng săn Nguyên Anh. Không xông vào cứu hàng, việc giữ liên lạc giúp hiểu thêm hồn dấu.",
+            "translations": {
+              "zh": {
+                "text": "你把魂符送给塔外的人，指引绕开猎婴区域。不冲入夺货，维持联络的过程却加深了对魂印的理解。"
+              },
+              "en": {
+                "text": "You send soul markers to those outside the tower, guiding them around the hunting ground. Without reclaiming cargo, maintaining contact deepens your understanding of soul traces."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -17703,6 +17906,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước tu sĩ đoạt thần quang"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Dựng màn ý cảnh cho người ngoài rút",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "布意境幕掩护撤退",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Raise an imagery veil for those outside",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp vật tư dựng màn ý cảnh ngoài đàn, che đoàn chưa bị giữ khỏi người đoạt thần quang. Không vào đàn, ngươi tháo màn sau khi họ rút hết.",
+            "translations": {
+              "zh": {
+                "text": "你用材料在坛外布起意境幕，遮住尚未被扣的队伍。不进入坛内，等众人撤完后再收幕。"
+              },
+              "en": {
+                "text": "You spend supplies on an imagery veil outside the altar, hiding untrapped travelers from the raider. Remaining outside, you remove it after they withdraw."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },
@@ -17841,6 +18078,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Góp neo mở tuyến vòng cho đoàn",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "提供锚点开绕行路线",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Provide anchors for a detour",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp vật tư đặt neo ngoài bến giới, giúp đoàn còn tự do đi theo tuyến vòng. Không đánh đạo tặc, cách nối tọa độ giúp hiểu thêm đường hư không.",
+            "translations": {
+              "zh": {
+                "text": "你用材料在界港外设锚，让未被扣的队伍绕行。不攻击盗匪，连接坐标却帮助理解虚空通路。"
+              },
+              "en": {
+                "text": "You supply anchors outside the world harbor so untrapped travelers can take a detour. Without fighting bandits, connecting the coordinates teaches you about void routes."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -17971,6 +18242,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước tu sĩ phá giáp hợp thân"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Chia linh áp mở lối rút bên ngoài",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "分散灵压开外围退路",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Redistribute pressure along an outer escape route",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi dùng vật tư chia linh áp đoạn ngoài đạo trường, đưa người vận hàng tránh kẻ phá giáp. Không cứu phần hàng bị giữ, ngươi học cách phân tải hộ thân.",
+            "translations": {
+              "zh": {
+                "text": "你耗用材料分散道场外围灵压，引导运货人避开破甲者。不救回扣货，却学会了分配护身压力。"
+              },
+              "en": {
+                "text": "You spend supplies distributing pressure outside the sanctuary and guide carriers away from the armor breaker. Leaving captured cargo, you learn how to distribute protective loads."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },
@@ -18109,6 +18414,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Góp trận dẫn dư lôi che đường rút",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "供阵导余雷掩护撤路",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Use a residual lightning formation to cover retreat",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp trận nhỏ dẫn dư lôi sang lối trống, giúp người ngoài đàn rút đi. Không đoạt lại trận bàn, việc canh nhịp lôi giúp tích lũy thêm kinh nghiệm.",
+            "translations": {
+              "zh": {
+                "text": "你提供小阵把余雷引向空路，让坛外的人撤走。不夺回阵盘，观察雷节却积累了更多经验。"
+              },
+              "en": {
+                "text": "You provide a small formation guiding residual lightning toward an empty path. Helping those outside retreat without reclaiming the plate teaches you about lightning timing."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -18239,6 +18578,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước tiên tu cướp hành trang"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Cấp phù chống lạnh cho đoàn ngoài",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "给外围队伍防寒符",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Provide frost wards to the outer convoy",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi cấp phù chống lạnh, dẫn phần đoàn ngoài cảng tới chỗ ít sương. Không giao chiến với tiên tu, vật tư hao đi để giữ đường rút cho họ.",
+            "translations": {
+              "zh": {
+                "text": "你提供防寒符，带港外队伍去雾薄之处。不与仙修交战，而是耗费物资为他们保持退路。"
+              },
+              "en": {
+                "text": "You provide frost wards and guide the outer convoy toward thinner mist. Without fighting the immortal raider, you spend supplies keeping their retreat accessible."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },
@@ -18377,6 +18750,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Dựng kim quang che người rời lò",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "布金光掩护离炉",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Raise golden cover for those leaving the furnace",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi dùng vật tư dựng kim quang ngoài lò, che người chưa bị giữ khỏi kim giáp vệ. Không tranh tiên kim, giữ nhịp màn sáng giúp luyện cách phân lực.",
+            "translations": {
+              "zh": {
+                "text": "你用材料在炉外布起金光，遮住未被扣的人。不争仙金，维持光幕节奏帮助练习分配力量。"
+              },
+              "en": {
+                "text": "You spend supplies raising golden cover outside the furnace for untrapped travelers. Without contesting the metal, maintaining its rhythm teaches you to distribute power."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -18507,6 +18914,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước huyền tu sửa khế giả"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Ghi dấu thật mở lối tránh huyền khế",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "记真印开避契路径",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Use verified marks to bypass the covenant",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp vật tư ghi dấu thật ngoài huyền điện, dẫn người đi tránh vùng khế giả. Không đối đầu huyền tu, việc đối chiếu dấu giúp hiểu thêm cách nhận khế.",
+            "translations": {
+              "zh": {
+                "text": "你耗用材料在殿外留下真印，带人绕开假契区域。不对抗玄修，核对印记却帮助辨认契约。"
+              },
+              "en": {
+                "text": "You spend supplies placing verified marks outside the hall and guide travelers around false covenants. Avoiding the forger, checking those marks teaches you to recognize agreements."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },
@@ -18645,6 +19086,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Góp điểm neo cho đoàn rời giới mạch",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "供锚点让队伍脱离界脉",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Provide anchors for the convoy to leave the veins",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp điểm neo ngoài trụ giới, giúp phần đoàn tự do tách khỏi giới mạch bị chiếm. Không tranh trụ, cách chia tải giúp hiểu thêm việc giữ đường tinh vực.",
+            "translations": {
+              "zh": {
+                "text": "你在界柱外提供锚点，让自由的队伍离开被占界脉。不争柱位，分配负载帮助理解维持星域通路。"
+              },
+              "en": {
+                "text": "You provide anchors outside the pillar so free travelers can leave occupied veins. Without contesting the pillar, distributing loads teaches you about sustaining star passages."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "leave",
         "text": "Rút lui giữ mạng",
         "hint": "Bỏ cơ duyên, không bước vào vùng nguy hiểm.",
@@ -18775,6 +19250,40 @@
               "death": true
             },
             "endingReason": "Tử trận trước đế tu đoạt đạo nguyên"
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Góp đạo nguyên dựng nơi trú ngoài",
+        "hint": "-8 tài nguyên · +5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "供道源搭外部避所",
+            "hint": "-8 物资 · +5 修为"
+          },
+          "en": {
+            "text": "Supply Dao essence for an outer refuge",
+            "hint": "-8 resources · +5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp đạo nguyên dựng nơi trú ngoài đạo đình, đón phần đoàn chưa bị giữ. Không đấu đế tu, quan sát nền trú giúp hiểu cách giữ các giới tách biệt.",
+            "translations": {
+              "zh": {
+                "text": "你提供道源在道庭外搭起避所，接纳未被扣的人。不与帝修交战，观察避所道基帮助理解诸界分离。"
+              },
+              "en": {
+                "text": "You supply Dao essence for a refuge outside the court and receive untrapped travelers. Without battling the emperor, observing its foundation teaches you about separating worlds."
+              }
+            },
+            "effects": {
+              "resources": -8,
+              "cultivation": 5
+            }
           }
         ]
       },

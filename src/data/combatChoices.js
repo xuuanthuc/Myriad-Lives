@@ -43,6 +43,143 @@ const stories=[
     ['Tử trận trong cuộc đấu biên giới','边界斗法中战死','Fallen in a border duel']],
 ];
 const narrative=([vi,zh,en])=>({text:vi,translations:{zh:{text:zh},en:{text:en}}});
+const thirdPaths={
+  "combat_choice_bridge-bandits": {
+    "id": "third_path",
+    "text": "Đưa dân qua bến đò và chịu phí",
+    "hint": "-8 tài nguyên",
+    "translations": {
+      "zh": {
+        "text": "带旅人绕渡并付费",
+        "hint": "-8 物资"
+      },
+      "en": {
+        "text": "Lead travelers to a ferry and pay",
+        "hint": "-8 resources"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi gọi người chưa lên cầu đi theo bờ tới bến đò, trả phí cho những ai thiếu tiền. Nhóm cướp vẫn giữ cầu, nhưng thêm người qua sông an toàn.",
+        "translations": {
+          "zh": {
+            "text": "你把尚未上桥的旅人带往渡口，替缺钱的人付费。劫匪仍占着桥，却有更多人平安渡河。"
+          },
+          "en": {
+            "text": "You lead travelers still outside the bridge to a ferry and pay for those short of money. The robbers remain, but more people cross safely."
+          }
+        },
+        "effects": {
+          "resources": -8
+        }
+      }
+    ]
+  },
+  "combat_choice_herb-duel": {
+    "id": "third_path",
+    "text": "Đổi linh tài lấy phần lá",
+    "hint": "-8 tài nguyên · +6 tu vi",
+    "translations": {
+      "zh": {
+        "text": "用灵材交换药叶",
+        "hint": "-8 物资 · +6 修为"
+      },
+      "en": {
+        "text": "Trade materials for some leaves",
+        "hint": "-8 resources · +6 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi đề nghị đổi linh tài lấy phần lá, để đối phương giữ rễ thuốc. Hai bên chia phần trước khi rời đi, ngươi có ít dược lực mà không giao chiến.",
+        "translations": {
+          "zh": {
+            "text": "你提议用灵材交换药叶，让对方保留药根。双方分清份额后离开，你获得少量药力，无须交战。"
+          },
+          "en": {
+            "text": "You offer materials for some leaves while the other claimant keeps the roots. Agreeing on shares lets you obtain modest medicinal benefits without fighting."
+          }
+        },
+        "effects": {
+          "resources": -8,
+          "cultivation": 6
+        }
+      }
+    ]
+  },
+  "combat_choice_rescue-duel": {
+    "id": "third_path",
+    "text": "Gửi vật tư và gọi cứu viện",
+    "hint": "-10 tài nguyên · +4 tu vi",
+    "translations": {
+      "zh": {
+        "text": "送物资并召集援手",
+        "hint": "-10 物资 · +4 修为"
+      },
+      "en": {
+        "text": "Send supplies and summon reinforcements",
+        "hint": "-10 resources · +4 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi truyền tọa độ cho người gần đó, gửi vật tư tiếp sức thay vì vào vòng vây. Đồng đạo giữ được liên lạc, còn ngươi học cách tổ chức ứng cứu.",
+        "translations": {
+          "zh": {
+            "text": "你把坐标传给附近同道，并送去补给，没有进入包围。被困者保持联系，你也学到组织救援的方法。"
+          },
+          "en": {
+            "text": "You send coordinates to nearby allies and provide supplies without entering the encirclement. The trapped cultivator remains in contact, teaching you about organizing rescue support."
+          }
+        },
+        "effects": {
+          "resources": -10,
+          "cultivation": 4
+        }
+      }
+    ]
+  },
+  "combat_choice_stolen-inscription": {
+    "id": "third_path",
+    "text": "Thuê người truy dấu để báo hội",
+    "hint": "-10 tài nguyên · +5 tu vi",
+    "translations": {
+      "zh": {
+        "text": "雇人追踪并向会场报案",
+        "hint": "-10 物资 · +5 修为"
+      },
+      "en": {
+        "text": "Hire a tracker and report the theft",
+        "hint": "-10 resources · +5 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi thuê người ghi dấu kẻ cướp, gửi chứng cứ cho hội trao đổi thay vì đuổi theo. Chưa lấy lại đạo văn, ngươi học cách giữ dấu mua bán rõ ràng.",
+        "translations": {
+          "zh": {
+            "text": "你雇人记录劫者踪迹，把证据交给交易会，没有亲自追赶。道文暂未追回，却学会了保留清楚的交易凭证。"
+          },
+          "en": {
+            "text": "You hire a tracker and submit evidence to the exchange instead of pursuing. The inscription remains missing, but you learn to preserve clear records of transactions."
+          }
+        },
+        "effects": {
+          "resources": -10,
+          "cultivation": 5
+        }
+      }
+    ]
+  }
+};
 export const combatChoices=stories.map(([id,allowedRealms,title,prompt,victory,death,leave,reason])=>{
   const fatal=narrative(death);
   return {id:`combat_choice_${id}`,combat:true,category:'disaster',title:title[0],text:prompt[0],
@@ -57,4 +194,4 @@ export const combatChoices=stories.map(([id,allowedRealms,title,prompt,victory,d
         translations:{zh:{text:'退避保命',hint:'放弃机缘，避开交战'},en:{text:'Withdraw safely',hint:'Give up the opportunity; avoid combat'}},
         outcomes:[{id:'safe',weight:1,...narrative(leave),effects:{}}]},
     ]};
-});
+}).map(event=>{const option=thirdPaths[event.id];if(option)event.choices.splice(1,0,option);return event;});

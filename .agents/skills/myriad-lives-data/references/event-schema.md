@@ -14,4 +14,6 @@ Automatic fights: combat:true, category:disaster, outcomes array (not choices). 
 
 Choices: 2–3 choices, never alongside event outcomes. Each has id/text/hint, translations.zh/en for text/hint, and nonempty weighted outcomes. Retreat may have one safe outcome with empty effects. Examples: src/data/combatChoices.js.
 
+Prefer three choices only when the third is a materially different action with its own cost, reward and narrative (negotiation, appraisal, supplies, scouting, coordinated assistance). Keep binary acceptance/refusal decisions at two. Preserve existing option/outcome IDs and weights when extending an event; saved pending choices remain valid.
+
 Use realm-appropriate scenes and distinct stakes. Do not repeat generic prose across realms. Sect scenes need membership, partner scenes require bonded. Gender changes story eligibility, not assumed superiority. World danger and relative luck affect fatal outcome weights; disaster also affects encounter weight. Validate mortality when materially increasing heavy combat content.

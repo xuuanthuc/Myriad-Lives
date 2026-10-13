@@ -426,6 +426,40 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Góp phù hộ đường thay hộ tống",
+        "hint": "-6 tài nguyên · +4 tu vi",
+        "translations": {
+          "zh": {
+            "text": "提供护路符而不随行",
+            "hint": "-6 物资 · +4 修为"
+          },
+          "en": {
+            "text": "Provide wards without joining the escort",
+            "hint": "-6 resources · +4 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi góp phù hộ đường và chỉ đoạn dễ gặp yêu thú, không theo đoàn. Sau chuyến đi, thương nhân gửi bản ghi giúp ngươi hiểu thêm cách dùng phù.",
+            "translations": {
+              "zh": {
+                "text": "你提供护路符并标出易遇妖兽的路段，没有随队。商人事后送来记录，帮助你理解符箓的实际用法。"
+              },
+              "en": {
+                "text": "You provide route wards and mark likely beast encounters without joining the convoy. Later reports from the merchants teach you more about using talismans in practice."
+              }
+            },
+            "effects": {
+              "resources": -6,
+              "cultivation": 4
+            }
+          }
+        ]
+      },
+      {
         "id": "safe",
         "text": "Từ chối chuyến đi",
         "hint": "Thận trọng · Lợi ích nhỏ",
@@ -541,6 +575,39 @@
         ]
       },
       {
+        "id": "third_path",
+        "text": "Đổi so tài thành diễn giải chiêu thức",
+        "hint": "+5 tu vi",
+        "translations": {
+          "zh": {
+            "text": "改比斗为讲解招式",
+            "hint": "+5 修为"
+          },
+          "en": {
+            "text": "Exchange explanations instead of blows",
+            "hint": "+5 cultivation"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi đề nghị mỗi bên diễn một chiêu rồi giải thích cách vận khí. Không phân thắng thua, hai người ghi lại điều học được trước khi rời sân.",
+            "translations": {
+              "zh": {
+                "text": "你提议双方各演一招，再解释运气方式。不分胜负，两人记下学到的内容，随后离开练武场。"
+              },
+              "en": {
+                "text": "You suggest demonstrating one technique each and explaining its energy flow. Without declaring a winner, both record what they learned before leaving the practice ground."
+              }
+            },
+            "effects": {
+              "cultivation": 5
+            }
+          }
+        ]
+      },
+      {
         "id": "safe",
         "text": "Đứng ngoài quan sát",
         "hint": "Thận trọng · Lợi ích nhỏ",
@@ -642,6 +709,40 @@
               "en": {
                 "text": "The injuries are worse than expected and require more medicine to stabilize. The traveler survives the crisis, but your own supplies are substantially reduced."
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "third_path",
+        "text": "Mua thuốc thường và đưa tới y quán",
+        "hint": "-5 tài nguyên · -2 máu",
+        "translations": {
+          "zh": {
+            "text": "买普通药并送医",
+            "hint": "-5 物资 · -2 体力"
+          },
+          "en": {
+            "text": "Buy ordinary medicine and escort the patient",
+            "hint": "-5 resources · -2 health"
+          }
+        },
+        "outcomes": [
+          {
+            "id": "third_path_done",
+            "weight": 1,
+            "text": "Ngươi mua thuốc thường cầm thương rồi dìu người tới y quán. Không dùng linh dược quý, nhưng tiền thuốc và sức đưa đường vẫn khiến bản thân hao tổn.",
+            "translations": {
+              "zh": {
+                "text": "你买普通药暂时处理伤口，再扶人去医馆。没有消耗珍贵灵药，但药费和送医的劳累仍让你付出代价。"
+              },
+              "en": {
+                "text": "You buy ordinary medicine to stabilize the wounds and escort the patient to a clinic. Precious herbs remain untouched, but fees and exertion still cost you."
+              }
+            },
+            "effects": {
+              "resources": -5,
+              "health": -2
             }
           }
         ]

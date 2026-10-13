@@ -72,6 +72,278 @@ const stories = [
 ];
 
 const translatedText=([vi,zh,en])=>({text:vi,translations:{zh:{text:zh},en:{text:en}}});
+const thirdPaths={
+  "realm_choice_forest-shrine": {
+    "id": "third_path",
+    "text": "Dò tiếng nước từ ngoài miếu",
+    "hint": "-3 tài nguyên · +5 tu vi",
+    "translations": {
+      "zh": {
+        "text": "在庙外探查水声",
+        "hint": "-3 物资 · +5 修为"
+      },
+      "en": {
+        "text": "Trace the water from outside",
+        "hint": "-3 resources · +5 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi thả phù dò theo tiếng nước từ ngoài miếu, không bước qua cửa. Phù hao đi nhưng đường khí hiện rõ, giúp hiểu cách trận che giấu lối ngầm.",
+        "translations": {
+          "zh": {
+            "text": "你在庙外沿水声放出探符，没有跨过门槛。符箓耗去，气路却显露出来，帮助你理解隐藏暗道的阵法。"
+          },
+          "en": {
+            "text": "You release a scouting talisman along the water sounds without entering the shrine. It is consumed, but revealed energy paths explain how the formation conceals passages."
+          }
+        },
+        "effects": {
+          "resources": -3,
+          "cultivation": 5
+        }
+      }
+    ]
+  },
+  "realm_choice_buried-cauldron": {
+    "id": "third_path",
+    "text": "Chép trận văn khi nước rút",
+    "hint": "-4 tài nguyên · +6 tu vi",
+    "translations": {
+      "zh": {
+        "text": "趁退水拓录阵纹",
+        "hint": "-4 物资 · +6 修为"
+      },
+      "en": {
+        "text": "Copy exposed formation marks",
+        "hint": "-4 resources · +6 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi dùng giấy chép trận văn lộ trên bờ, để nguyên xích và nắp lò. Không thu đan dược, việc đối chiếu nét trận vẫn giúp tu luyện thêm vững.",
+        "translations": {
+          "zh": {
+            "text": "你拓录岸边露出的阵纹，保留锁链和炉盖原状。没有取得丹药，但对照纹路仍使修炼有了更稳固的依据。"
+          },
+          "en": {
+            "text": "You copy exposed formation marks while leaving the chains and lid untouched. No medicine is obtained, but comparing the strokes gives your cultivation a firmer basis."
+          }
+        },
+        "effects": {
+          "resources": -4,
+          "cultivation": 6
+        }
+      }
+    ]
+  },
+  "realm_choice_soul-bridge": {
+    "id": "third_path",
+    "text": "Ghi đạo âm bên bờ cầu",
+    "hint": "+5 tu vi",
+    "translations": {
+      "zh": {
+        "text": "在桥边记录道音",
+        "hint": "+5 修为"
+      },
+      "en": {
+        "text": "Record the teachings from the near bank",
+        "hint": "+5 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi giữ thần thức ở bờ cầu, chỉ ghi những lời giảng vọng tới. Không thấy người bên kia, ngươi vẫn đối chiếu được vài ý với pháp quyết đang dùng.",
+        "translations": {
+          "zh": {
+            "text": "你把神识留在桥边，只记录传来的讲道声。没有看清对岸之人，却能把一些道理与现用法诀对照。"
+          },
+          "en": {
+            "text": "You keep your senses on the near bank and record distant teachings. Without seeing the speaker, you can still compare a few ideas with your current methods."
+          }
+        },
+        "effects": {
+          "cultivation": 5
+        }
+      }
+    ]
+  },
+  "realm_choice_lost-vessel": {
+    "id": "third_path",
+    "text": "Góp vật tư neo thuyền để cứu sau",
+    "hint": "-8 tài nguyên · +5 tu vi",
+    "translations": {
+      "zh": {
+        "text": "提供材料锚船待救",
+        "hint": "-8 物资 · +5 修为"
+      },
+      "en": {
+        "text": "Provide materials to anchor the ship",
+        "hint": "-8 resources · +5 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi dùng vật tư dựng neo ngoài thân thuyền, không mở khoang phong kín. Dòng trôi chậm lại, còn cách phân tải giúp ngươi hiểu thêm phép giữ không gian.",
+        "translations": {
+          "zh": {
+            "text": "你用材料在船外架起锚点，没有打开密封船舱。漂移减缓，分配受力的过程也让你更懂空间稳定之法。"
+          },
+          "en": {
+            "text": "You spend materials anchoring the vessel from outside without opening its sealed hold. Slowing its drift teaches you more about distributing forces to stabilize space."
+          }
+        },
+        "effects": {
+          "resources": -8,
+          "cultivation": 5
+        }
+      }
+    ]
+  },
+  "realm_choice_ascending-messenger": {
+    "id": "third_path",
+    "text": "Báo trạm giới đến tiếp nhận",
+    "hint": "-6 tài nguyên",
+    "translations": {
+      "zh": {
+        "text": "通知界站接应",
+        "hint": "-6 物资"
+      },
+      "en": {
+        "text": "Notify the world station to receive the messenger",
+        "hint": "-6 resources"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi gửi phù báo trạm giới, cho người bị thương ít vật tư chờ tiếp nhận. Không mang hộp qua ranh giới, ngươi giữ khoảng cách với người truy đuổi.",
+        "translations": {
+          "zh": {
+            "text": "你用符通知界站，给伤者少量补给等候接应。没有携盒越界，也与追赶者保持了距离。"
+          },
+          "en": {
+            "text": "You notify the world station and leave supplies for the injured messenger awaiting reception. Without carrying the box across, you keep your distance from the pursuers."
+          }
+        },
+        "effects": {
+          "resources": -6
+        }
+      }
+    ]
+  },
+  "realm_choice_world-refuge": {
+    "id": "third_path",
+    "text": "Góp vật liệu cho đội vá giới",
+    "hint": "-12 tài nguyên · +5 tu vi",
+    "translations": {
+      "zh": {
+        "text": "提供材料给修界队",
+        "hint": "-12 物资 · +5 修为"
+      },
+      "en": {
+        "text": "Supply materials to a world repair team",
+        "hint": "-12 resources · +5 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi chuyển vật liệu tới đội cứu viện, giúp họ dựng điểm trú trước khi vào vùng vỡ. Không tự nối tiểu giới, ngươi vẫn học cách chuẩn bị nền neo.",
+        "translations": {
+          "zh": {
+            "text": "你把材料送给救援队，协助搭好避难点，再让他们进入破碎区域。没有亲自连接小界，却学到了准备锚基的方法。"
+          },
+          "en": {
+            "text": "You supply a repair team and help prepare shelter before they enter the fractures. Without connecting the world yourself, you learn how to prepare anchoring foundations."
+          }
+        },
+        "effects": {
+          "resources": -12,
+          "cultivation": 5
+        }
+      }
+    ]
+  },
+  "realm_choice_cracked-recipe": {
+    "id": "third_path",
+    "text": "Đối chiếu dược tính trước khi luyện",
+    "hint": "-4 tài nguyên · +6 tu vi",
+    "translations": {
+      "zh": {
+        "text": "炼前对照药性",
+        "hint": "-4 物资 · +6 修为"
+      },
+      "en": {
+        "text": "Compare medicinal properties before brewing",
+        "hint": "-4 resources · +6 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi mua ít mẫu thuốc để so dược tính, không đưa vào đan lô. Một vị thay thế được loại khỏi danh sách, giúp đan sư tránh thử sai vô ích.",
+        "translations": {
+          "zh": {
+            "text": "你购买少量药样比较药性，没有投入丹炉。一种替代药材被排除，帮助丹师避免没有意义的错误试验。"
+          },
+          "en": {
+            "text": "You buy small samples to compare their properties without using the furnace. Ruling out one substitute helps the alchemist avoid an unnecessary and mistaken trial."
+          }
+        },
+        "effects": {
+          "resources": -4,
+          "cultivation": 6
+        }
+      }
+    ]
+  },
+  "realm_choice_memory-pearl": {
+    "id": "third_path",
+    "text": "Sao dấu ngoài ngọc để đối chiếu",
+    "hint": "-3 tài nguyên · +5 tu vi",
+    "translations": {
+      "zh": {
+        "text": "拓录玉外印记核对",
+        "hint": "-3 物资 · +5 修为"
+      },
+      "en": {
+        "text": "Copy the pearl’s outer marks for comparison",
+        "hint": "-3 resources · +5 cultivation"
+      }
+    },
+    "outcomes": [
+      {
+        "id": "third_path_done",
+        "weight": 1,
+        "text": "Ngươi sao những dấu ngoài viên ngọc lên giấy, không nối thần thức vào trong. So với ký hiệu từng biết, ngươi nhận ra cách người cũ phân lớp ký ức.",
+        "translations": {
+          "zh": {
+            "text": "你拓录玉外印记，没有把神识接入内部。与已知符号对照后，认出了旧主人划分记忆层次的方式。"
+          },
+          "en": {
+            "text": "You copy the pearl’s outer marks without connecting your senses inside. Comparing familiar symbols reveals how its former owner separated the layers of stored memory."
+          }
+        },
+        "effects": {
+          "resources": -3,
+          "cultivation": 5
+        }
+      }
+    ]
+  }
+};
 export const realmChoices=stories.map(([id,allowedRealms,title,prompt,success,failure,leave,reward,penalty])=>({
   id:`realm_choice_${id}`,category:'opportunity',title:title[0],...translatedText(prompt),
   translations:{zh:{title:title[1],text:prompt[1]},en:{title:title[2],text:prompt[2]}},
@@ -84,4 +356,4 @@ export const realmChoices=stories.map(([id,allowedRealms,title,prompt,success,fa
       translations:{zh:{text:'选择稳妥之路',hint:'不取奖励，保全自身'},en:{text:'Take the cautious path',hint:'No reward; preserve yourself'}},
       outcomes:[{id:'withdraw',weight:1,...translatedText(leave),effects:{}}]},
   ],
-}));
+})).map(event=>{const option=thirdPaths[event.id];if(option)event.choices.splice(1,0,option);return event;});
