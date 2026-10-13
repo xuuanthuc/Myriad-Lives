@@ -53,7 +53,8 @@ export default function LifeActivity({run,t,children,toolbar}) {
   useEffect(()=>{
     if(selectedId!==latest?.id||page!==latest?.realm||scrollToEvent.current)return;
     const node=eventNodes.current.get(selectedId),list=listNode.current;
-    if(node&&list){
+    // Follow the newest event only while the reader stays at the top; never pull them back mid-scroll.
+    if(node&&list&&list.scrollTop<48){
       list.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     }
   },[selectedId,latest?.id,page]);
@@ -90,13 +91,10 @@ export default function LifeActivity({run,t,children,toolbar}) {
     </nav>
     <div className="realm-page-heading"><h3>{t(realms[page].name)}</h3><span>{entries.length} {t('mốc cuộc đời')}</span></div>
     {toolbar}
-    <SmoothHeight>
     <div ref={listNode} className="timeline realm-event-list" aria-live="polite" role="region" aria-label={t(realms[page].name)+' · '+t('Nhân sinh ký sự')} tabIndex={0}>
       {entries.map(fact=><EventEntry key={fact.id} fact={fact} t={t} selected={selectedId===fact.id} registerNode={registerNode}/>)}
     </div>
-    </SmoothHeight>
     <SmoothHeight>{children}</SmoothHeight>
-    <SmoothHeight>
     <div className="life-heatmap-scroll" role="region" aria-label={t('Bấm ô màu để chuyển tới sự kiện')} tabIndex={0}>
       <h3 className="life-map-title">{t('Dấu tích một kiếp')}</h3>
       <div className="heatmap-legend" aria-label={t('Chú giải')}>
@@ -121,6 +119,5 @@ export default function LifeActivity({run,t,children,toolbar}) {
         })}
       </div>
     </div>
-    </SmoothHeight>
   </section>;
 }

@@ -12,10 +12,12 @@ export default function useLifePlayback(target,speed,paused,restoredPlayback) {
   controls.current={speed,paused};
   const updateProgress=useCallback((value)=>{
     const node=progressNode.current,label=progressLabel.current;
-    const percent=Math.floor(value)+'%';
+    const whole=String(Math.floor(value)),percent=whole+'%';
     if(node){
-      node.value=value*10000;
-      if(node.getAttribute('aria-valuetext')!==percent)node.setAttribute('aria-valuetext',percent);
+      // Transform only: the bar repaints on the compositor, not the whole page each frame.
+      node.style.transform=`scaleX(${value/100})`;
+      const bar=node.parentElement;
+      if(bar&&bar.getAttribute('aria-valuenow')!==whole)bar.setAttribute('aria-valuenow',whole);
     }
     if(label&&label.textContent!==percent)label.textContent=percent;
   },[]);
