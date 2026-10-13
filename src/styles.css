@@ -97,6 +97,13 @@
 .realm-page-heading h3{font:500 19px 'Noto Serif',serif;margin:0;color:var(--green)}.realm-page-heading>span{font-size:9px;color:#929d84}
 .realm-event-list .entry{border-radius:3px;padding-top:8px;scroll-margin-top:35px}.realm-event-list .entry.event-highlight{background:#e5eddc66}
 .realm-event-list .entry:focus{outline:2px solid #a4b993;outline-offset:4px}
+.realm-event-list .entry{position:relative;isolation:isolate}
+.realm-event-list .entry::before{content:'';position:absolute;inset:4px 0;z-index:-1;border-radius:inherit;pointer-events:none;background-image:var(--event-art,none);background-size:cover;background-position:right center;opacity:.2;mask-image:linear-gradient(to right,transparent 5%,#000 65%);-webkit-mask-image:linear-gradient(to right,transparent 5%,#000 65%)}
+.realm-event-list .event-type-disaster{--event-art:url('/assets/images/events/danger.webp')}
+.realm-event-list .event-type-choice{--event-art:url('/assets/images/events/choice.webp')}
+.realm-event-list .event-type-breakthrough{--event-art:url('/assets/images/events/breakthrough.webp')}
+.realm-event-list .event-type-ending{--event-art:url('/assets/images/events/ending.webp')}
+[data-theme="dark"] .realm-event-list .entry::before{opacity:.16;mix-blend-mode:luminosity}
 .realm-event-list{contain:content;margin-bottom:16px;min-height:min(360px,65dvh);max-height:min(480px,65dvh);overflow-y:auto;overscroll-behavior-y:contain;scrollbar-width:thin;scrollbar-color:#a8b99b #edf0e5;padding:5px 12px 5px 5px}
 .realm-event-list:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .event-subrealm{display:block;color:var(--green);font-size:11px;margin:5px 0 7px;letter-spacing:.3px}

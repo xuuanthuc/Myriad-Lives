@@ -8,7 +8,7 @@ const choiceEvents=new Set(events.filter(event=>event.choices).map(event=>event.
 const eventColors=[['birth','Xuất sinh'],['life','Nhân sinh'],['cultivation','Tu luyện'],['opportunity','Cơ duyên'],['disaster','Hiểm họa'],['choice','Lựa chọn'],['breakthrough','Đột phá'],['ending','Kết cục']];
 function eventType(fact){
   if(fact.category==='ending')return 'ending';
-  if(fact.eventId.startsWith('ready-'))return 'breakthrough';
+  if(fact.eventId.startsWith('ready-')||fact.eventId.startsWith('breakthrough-')||fact.eventId==='ascension')return 'breakthrough';
   if(choiceEvents.has(fact.eventId)||fact.category==='choice')return 'choice';
   return fact.category;
 }
@@ -16,7 +16,7 @@ function eventType(fact){
 const EventEntry=memo(function EventEntry({fact,t,selected,registerNode}){
   const attach=useCallback(node=>registerNode(fact.id,node),[fact.id,registerNode]);
   const stage=stageName(fact.stateSnapshot);
-  return <article key={fact.id} tabIndex={-1} ref={attach} className={'entry '+fact.category+(selected?' event-highlight':'')}>
+  return <article key={fact.id} tabIndex={-1} ref={attach} className={'entry '+fact.category+' event-type-'+eventType(fact)+(selected?' event-highlight':'')}>
     <div className="time"><b>{fact.age}</b><small>{t('tuổi')}</small></div>
     <div className="entry-content"><span className="dot"/><h3>{t(fact.title)}</h3>{stage&&<small className="event-subrealm">{t(realms[fact.realm].name)} · {t(stage)}</small>}<p>{t(fact.text)}</p></div>
   </article>;

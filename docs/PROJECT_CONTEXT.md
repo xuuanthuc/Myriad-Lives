@@ -5,6 +5,7 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 ## Sản phẩm và giao diện
 
 - Số kiếp đã trải chỉ hiển thị trong trang Lịch sử, không nằm trên thanh header.
+- Item ký sự Hiểm họa/Lựa chọn/Đột phá/Kết cục có nền tranh thủy mặc riêng trong `public/assets/images/events`, mờ và giảm dần về phía chữ; hỗ trợ light/dark. Item và ô life map dùng chung phân loại: mốc sẵn sàng, đột phá thành công và phi thăng thuộc Đột phá; kết cục ưu tiên cao nhất.
 
 - Home `#/`, Tu tiên `#/cultivation`, lịch sử `#/history`; đường dẫn tiếng Anh. Header Home không có Trang chủ/Tu tiên/cẩm nang; game có Trang chủ và popup cẩm nang; lịch sử có Tu tiên và không có link Lịch sử trùng trang.
 - Vào game lần đầu tự tạo kiếp. Kiếp mới đi qua màn Thiên mệnh sơ khai: chạy chữ và chốt bối cảnh/giới tính/xuất thân/linh căn/thể chất/tư chất/khí vận trong 5,2 giây. Không skip; sau đó người chơi bấm Bước vào tiên lộ. Refresh không gieo lại số mệnh. Kiếp đang chơi mở lại thì tiếp tục.
