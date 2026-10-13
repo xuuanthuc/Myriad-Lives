@@ -1,3 +1,4 @@
+import {rootBreakthroughBonus,fatalBreakthroughChance} from './breakthrough.js';
 import {luckOutcomeWeights} from './luck.js';
 import {birthNarrative,endingNarrative} from './narrative.js';
 import {genderForProfile} from '../data/genders.js';
@@ -48,7 +49,7 @@ if(run.phase!=='awaiting_choice'||run.pendingChoice?.kind!=='breakthrough')throw
 const next={...run,state:structuredClone(run.state),facts:[...run.facts],pendingChoice:null,phase:'running'};
 const s=next.state,p=next.profile,w=next.world,rng=next.rng;
 if(s.age>=s.lifespanLimit)return finish(next,'Thọ nguyên đã cạn');
-const baseChance=.78-s.realm*.055+(p.comprehension-50)*.003+(p.luck-50)*.001+Math.min(s.resources,100)*.001-(100-s.health)*.003-(w.cultivationDifficulty-1)*.15;
+const baseChance=.78-s.realm*.055+rootBreakthroughBonus(p)+(p.comprehension-50)*.003+(p.luck-50)*.001+Math.min(s.resources,100)*.001-(100-s.health)*.003-(w.cultivationDifficulty-1)*.15;
 const chance=clamp(clamp(baseChance,.08,.95)*ageBreakthroughFactor(s),.08,.95);
 s.resources=Math.max(0,s.resources-12);s.cultivationProgress=0;s.subrealm=0;
 if(rng.float()<chance){
@@ -58,7 +59,7 @@ s.realm++;s.realmEnteredAge=s.age;s.lifespanLimit=Math.max(s.age+1,realms[s.real
 if(ascends)fact(next,'ascension','Phi thăng tiên giới','Lôi kiếp tan đi, phàm thân chuyển thành tiên thể. Ngươi bước qua cửa trời, đặt chân vào tiên giới và bắt đầu một đoạn đường cầu đạo mới.','cultivation');
 else fact(next,'breakthrough-'+s.realm,'Đột phá '+realms[s.realm].name,'Sau nhiều năm tích lũy, ngươi vượt qua bình cảnh và tiến vào '+realms[s.realm].name+'. Linh lực đổi khác, thọ nguyên kéo dài, tiên lộ lại mở thêm một đoạn.','cultivation');
 }else{
-if(rng.float()<.025*s.realm*w.danger){fact(next,'fatal-breakthrough','Tẩu hỏa nhập ma','Trong lúc đột phá, linh lực mất kiểm soát và phá hủy kinh mạch. Ngươi không thể ổn định tâm thần, một đời tu hành kết thúc trong tiếc nuối.','ending');return finish(next,'Tẩu hỏa khi đột phá',false,false);}
+if(rng.float()<fatalBreakthroughChance(p,s.realm,w.danger)){fact(next,'fatal-breakthrough','Tẩu hỏa nhập ma','Trong lúc đột phá, linh lực mất kiểm soát và phá hủy kinh mạch. Ngươi không thể ổn định tâm thần, một đời tu hành kết thúc trong tiếc nuối.','ending');return finish(next,'Tẩu hỏa khi đột phá',false,false);}
 s.health-=12;fact(next,'failed-'+s.age,'Bình cảnh chưa phá','Ngươi thử vượt qua bình cảnh nhưng linh lực tán loạn. Sau khi ổn định kinh mạch, ngươi phải dưỡng thương và tích lũy lại từ đầu.','disaster');
 if(s.health<=0)return finish(next,'Trọng thương không qua khỏi');
 }
