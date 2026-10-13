@@ -3,30 +3,41 @@ import {realms,roots,physiques,origins} from '../src/data/realms.js';
 import {sects} from '../src/data/sects.js';
 import {stagesForRealm} from '../src/data/subrealms.js';
 import {sectChildhood} from '../src/data/origins.js';
-import {realmDataStats,summarizeEvents} from './lib/data-stats.mjs';
+import {realmDataStats,summarizeEvents,planeDataStats} from './lib/data-stats.mjs';
+import {worldPlanes} from '../src/data/worlds.js';
 
 const args=process.argv.slice(2);
-if(args.length&&!(args.length===2&&args[0]==='--realm')&&!(args.length===1&&['--help','-h'].includes(args[0]))){
-  console.error('Cú pháp: npm run data:stats [-- --realm <id>]');process.exit(1);
+if(args.length&&!(args.length===2&&['--realm','--plane'].includes(args[0]))&&!(args.length===1&&['--help','-h'].includes(args[0]))){
+  console.error('Cú pháp: npm run data:stats [-- --realm <id> | -- --plane <id>]');process.exit(1);
 }
 if(args.includes('--help')||args.includes('-h')){
   console.log('npm run data:stats                    Thống kê toàn bộ kho dữ liệu');
   console.log('npm run data:stats -- --realm foundation    Xem chi tiết Trúc Cơ');
   console.table(realms.map(r=>({'ID':r.id,'Cảnh giới':r.name})));
+  console.log('npm run data:stats -- --plane blood    Xem sự kiện riêng Huyết Sát Giới');
+  console.table(worldPlanes.map(p=>({ID:p.id,'Giới diện':p.name})));
   process.exit(0);
 }
-const chosen=args[1];
+const chosen=args[0]==='--realm'?args[1]:undefined;
+const chosenPlane=args[0]==='--plane'?args[1]:undefined;
+if(chosenPlane&&!worldPlanes.some(p=>p.id===chosenPlane)){
+  console.error(`Giới diện không hợp lệ: ${chosenPlane}`);process.exit(1);
+}
 if(chosen&&!realms.some(r=>r.id===chosen)){
   console.error(`Không có cảnh giới "${chosen}". Chạy npm run data:stats -- --help để xem ID.`);
   process.exit(1);
 }
 validateContent();
-const overall=summarizeEvents(events),all=realmDataStats(events,realms);
+const scoped=chosenPlane?events.filter(e=>e.allowedPlanes?.includes(chosenPlane)):events;
+const overall=summarizeEvents(events),all=realmDataStats(scoped,realms);
 const report=chosen?all.filter(s=>s.realm.id===chosen):all;
 console.log('\nMYRIAD LIVES · THỐNG KÊ DATA LOCAL\n');
 console.log(`Kho toàn web: ${overall.total} sự kiện gốc · ${overall.choices} sự kiện lựa chọn · ${overall.options} phương án · ${overall.outcomes} kết quả.`);
 console.log(`Giao chiến: ${overall.combat} sự kiện · ${overall.automatic} sự kiện có kết quả tự động.`);
 console.log(`Đoạn kể sự kiện: ${overall.total+overall.outcomes} (mô tả gốc + kết quả tự động/lựa chọn).`);
+console.log('\nPHẠM VI GIỚI DIỆN');
+console.table(planeDataStats(events,worldPlanes).map(s=>({'Giới diện':s.plane.name,'Riêng giới này':s.exclusive,'Kho dùng chung':s.shared})));
+if(chosenPlane)console.log(`Các bảng dưới chỉ tính sự kiện riêng giới diện ${chosenPlane}; không gồm kho dùng chung.`);
 console.log(`${realms.length} đại cảnh giới · ${realms.reduce((sum,_,i)=>sum+stagesForRealm(i).length,0)} tiểu cảnh giới · ${roots.length} linh căn · ${physiques.length} thể chất · ${origins.length} xuất thân · ${sects.length} tông môn.`);
 console.log(`Ngoài kho sự kiện: ${birth.length} mẫu sinh · ${endings.length} mẫu kết cục · ${origins.length} đoạn xuất thân · ${Object.keys(sectChildhood).length} tình huống tuổi thơ tông môn.`);
 console.log('\nSỐ LƯỢNG THEO CẢNH GIỚI');
@@ -54,6 +65,9 @@ if(chosen){
     'Lựa chọn':e.choices?.length||0,'Kết quả tự động':e.outcomes?.length||0,'Tuổi tối thiểu':e.minAge,
     'Điều kiện':Object.entries(e.conditions||{}).map(([key,value])=>`${key}: ${value}`).join('; ')||'—',
   })));
+}else if(chosenPlane){
+  console.log(`\nDANH SÁCH SỰ KIỆN RIÊNG: ${chosenPlane}`);
+  console.table(scoped.map(e=>({ID:e.id,'Tên':e.title,'Cảnh giới':e.allowedRealms.join(', '),'Loại':e.category,'Lựa chọn':e.choices?.length||0})));
 }else{
   const ranked=[...all].sort((a,b)=>a.total-b.total);
   const cutoff=ranked[Math.min(4,ranked.length-1)].total;

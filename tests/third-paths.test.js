@@ -18,7 +18,7 @@ function pending(event,options=event.choices){
 
 test('third paths stay within three options and binary commitments remain binary',()=>{
   assert.equal(upgraded.length,46);
-  assert.equal(events.filter(e=>e.choices?.length===3).length,325);
+  assert.equal(events.filter(e=>e.choices?.length===3).length,901);
   for(const id of ['sect','partner','v2_furnace','v2_tablet','ascendant30_true_immortal_coin','combat_choice_pool-contest']){
     assert.equal(events.find(e=>e.id===id).choices.length,2,id);
   }

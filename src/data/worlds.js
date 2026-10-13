@@ -25,6 +25,10 @@ export function worldPlaneDescription(world){
   return worldPlaneDescriptions[worldPlaneName(world)];
 }
 
+export function worldPlaneId(world){
+  return worldPlanes.find(plane=>plane.name===worldPlaneName(world))?.id;
+}
+
 // Old saves retain every original coefficient and RNG state.
 export function worldPlaneName(world){
   const plane=worldPlanes.find(plane=>plane.id===world.planeId);

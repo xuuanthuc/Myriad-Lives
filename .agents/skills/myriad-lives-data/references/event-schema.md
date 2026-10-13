@@ -6,6 +6,8 @@ Common fields: id (globally unique), category (life/cultivation/opportunity/disa
 
 allowedRealms is an array of IDs; omitted means all, [] means never. IDs: mortal, qi_refining, foundation, golden_core, nascent_soul, spirit_transformation, void_refining, body_integration, mahayana, true_immortal, golden_immortal, mystic_immortal, immortal_king, immortal_emperor.
 
+allowedPlanes is an optional nonempty array of unique world-plane IDs: peaceful, abundant, turmoil, wild, declining, hidden, blood, shattered. Omitted means shared across planes. Combine with allowedRealms to restrict both world and cultivation stage. Engine eventEligibility.js uses worldPlaneId(world), with the same stable legacy-save fallback as the UI; never roll a new plane for old saves. Invalid or duplicate plane IDs fail validation. Inspect dedicated plane content with npm.cmd run data:stats -- --plane blood.
+
 conditions supports numeric minimum health/resources/luck/comprehension, exact gender male/female, canonical Vietnamese root/physique name, sectStatus none/member/resident, partnerStatus none/bonded. Do not invent engine condition keys.
 
 effects supports numeric cultivation/health/resources/lifespan deltas, sectStatus/partnerStatus assignments, death boolean. No talent/luck buff keys without engine work.

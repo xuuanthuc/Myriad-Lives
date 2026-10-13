@@ -22,7 +22,7 @@ function resolve(event,danger,quantile,optionId='risk'){
 
 test('new danger covers all realms and existing danger retains a nonfatal alternative',()=>{
   assert.equal(added.length,28);
-  assert.equal(fatal.length,137);
+  assert.equal(fatal.length,249);
   for(const realm of realms)assert.equal(added.filter(e=>e.allowedRealms.length===1&&e.allowedRealms[0]===realm.id).length,2,realm.id);
   for(const event of fatal){
     assert.ok(event.choices.some(c=>c.outcomes.every(o=>!o.effects?.death&&(o.effects?.health||0)>=0)),event.id);

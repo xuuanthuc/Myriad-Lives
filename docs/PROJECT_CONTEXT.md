@@ -17,7 +17,8 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 
 ## Mô phỏng và dữ liệu
 
-- Giới diện: mỗi kiếp mới chọn đều một trong 8 giới diện tại `src/data/worlds.js`: Thanh Bình, Linh Thịnh, Loạn Thiên, Hung Hoang, Mạt Pháp, Ẩn Tiên, Huyết Sát, Tàn Thiên. Năm hệ số được sinh trong khoảng đặc trưng của giới diện; hiện dùng chung kho sự kiện.
+- Giới diện: mỗi kiếp mới chọn đều một trong 8 giới diện tại `src/data/worlds.js`: Thanh Bình, Linh Thịnh, Loạn Thiên, Hung Hoang, Mạt Pháp, Ẩn Tiên, Huyết Sát, Tàn Thiên. Năm hệ số được sinh trong khoảng đặc trưng của giới diện. Kho sự kiện gồm phần dùng chung và phần riêng theo giới diện; `allowedPlanes` dùng ID giới diện, kết hợp `allowedRealms` để lọc cả nơi và cảnh giới. Thiếu `allowedPlanes` nghĩa là dùng chung. `eventEligibility.js` lọc trước khi chọn sự kiện; save cũ dùng `worldPlaneId` suy ra cùng tên fallback với UI, không roll lại thế giới.
+- Sự kiện riêng dùng quy mô phù hợp cảnh giới: làng xóm/đường đi ở tầng thấp, linh mạch/thành trì ở tầng trung, tiên vực/đạo giới ở tầng tiên. Mỗi giới có đời thường, tu luyện, cơ duyên và hiểm cảnh riêng; lựa chọn cứu người/xử lý trực tiếp có thể tử vong, hỗ trợ gián tiếp và rút lui có hậu quả riêng. Giữ ID, bộ lựa chọn đang chờ và dữ liệu chung cũ. `npm.cmd run data:stats -- --plane blood` liệt kê kho riêng Huyết Sát và phân bổ theo cảnh giới; không phải số sự kiện chắc chắn gặp trong một kiếp.
 - Đầu trang tu tiên gộp tên và mô tả theo dạng `◈ Huyết Sát Giới - Tà tu lộng hành`, không có nhãn “Giới diện:”.
 - Màn roll chỉ có dòng Giới diện, không có dòng Bối cảnh riêng; mô tả ngắn hiển thị ở đầu trang tu tiên.
 - `world.planeId` lưu trong schema v1. Save cũ thiếu field dùng tên fallback theo bối cảnh cũ; không thay hệ số hay RNG. Màn sinh và đầu trang tu tiên hiển thị Giới diện trước mô tả ngắn riêng của giới diện (`worldPlaneDescription`), thay dòng bối cảnh cũ. `world.descriptor` vẫn giữ để tương thích dữ liệu lịch sử/save. Màn sinh vẫn kéo dài 5,2 giây; đổi ngôn ngữ không sinh lại thế giới.
@@ -49,6 +50,7 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 |---|---|
 | UI/router/state | `src/App.jsx`, `src/components/`, `src/styles.css` |
 | Run/choice/breakthrough | `src/engine/lifeRunner.js` |
+| Lọc sự kiện theo cảnh giới/giới diện/điều kiện | `src/engine/eventEligibility.js` |
 | Profile/world/RNG | `src/engine/profile.js`, `rng.js` |
 | Tuổi/mốc | `src/engine/cultivationTime.js` |
 | Nội dung & validator | `src/engine/content.js` |

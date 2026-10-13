@@ -27,3 +27,11 @@ export function realmDataStats(events,realms){
       narratives:counts.total+counts.outcomes};
   });
 }
+
+export function planeDataStats(events,planes){
+  return planes.map(plane=>{
+    const exclusive=events.filter(e=>e.allowedPlanes?.length===1&&e.allowedPlanes[0]===plane.id);
+    const applicable=events.filter(e=>!e.allowedPlanes||e.allowedPlanes.includes(plane.id));
+    return {plane,exclusive:exclusive.length,shared:applicable.length-exclusive.length,...summarizeEvents(applicable)};
+  });
+}

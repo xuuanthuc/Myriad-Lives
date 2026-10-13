@@ -7,7 +7,7 @@ description: Add cultivation event JSON to Myriad Lives, with realm scopes, comb
 
 Read root AGENTS.md first. Read references/event-schema.md when authoring data. Current code and validators are authoritative.
 
-1. Run npm.cmd run data:stats, optionally -- --realm foundation, to identify realms and categories needing content. Shared counts are not guaranteed events per life.
+1. Run npm.cmd run data:stats, optionally -- --realm foundation or -- --plane blood, to identify realms, planes and categories needing content. Plane reports show dedicated content only. Shared counts are not guaranteed events per life.
 2. Scaffold drafts with npm.cmd run data:new -- --realm foundation --count 6 --name foundation-new. Output is docs/event-drafts; it is not active game data. Replace sample prose with distinct scenes and full VI/ZH/EN translations.
 3. Merge finished drafts into existing JSON arrays by category: life -> src/data/events/life.json, cultivation -> cultivation.json, opportunity -> opportunities.json, disaster -> disasters.json. Partner scenes use life with partnerStatus:bonded; choices and combat follow their event category. Do not create active JSON files by batch or realm. These files are already imported in src/engine/content.js; include each event once. Preserve IDs when reorganizing data. New inline translations are automatically indexed; do not duplicate them into legacy/UI dictionaries.
 4. Run npm.cmd run build. Update event count assertions in tests/i18n.test.js to actual totals, then run relevant tests. Run the full suite when changing weights, deaths, conditions or engine behavior. Fix invalid prose instead of relaxing validation.
