@@ -93,7 +93,7 @@ export default function App() {
   const playbackControls=run&&(<section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
           <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" disabled={sharing||!!sharePreview} onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
           <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span>{Math.floor(progress)}%</span></div>
-          <progress className="playback-progress" max="10000" value={progress*100} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
+          <progress className="playback-progress" max="1000000" value={progress*10000} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
         </section>);
   return <div className={'site lang-'+language}>
     {sharePreview&&<FateCardPreview card={sharePreview} t={t} onClose={()=>{setSharePreview(null);shareLock.current.release();}}/>}

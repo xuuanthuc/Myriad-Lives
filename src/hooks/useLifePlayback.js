@@ -1,4 +1,4 @@
-import {useCallback,useEffect,useRef,useState} from 'react';
+import {useCallback,useEffect,useMemo,useRef,useState} from 'react';
 import {advancePlayback,visibleRun,EVENT_DURATION_MS} from '../engine/playback.js';
 
 export default function useLifePlayback(target,speed,paused,restoredPlayback) {
@@ -41,5 +41,6 @@ export default function useLifePlayback(target,speed,paused,restoredPlayback) {
   const playing=!!target&&count<target.facts.length;
   const remaining=target?target.facts.length-playback.from:0;
   const progress=!playing?100:target.number!==playback.number?0:Math.min(100,100*(count-playback.from+playback.elapsed/EVENT_DURATION_MS)/Math.max(1,remaining));
-  return {run:visibleRun(target,count),playing,progress,getPlayback};
+  const run=useMemo(()=>visibleRun(target,count),[target,count]);
+  return {run,playing,progress,getPlayback};
 }
