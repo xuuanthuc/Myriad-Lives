@@ -6,7 +6,7 @@ import {translateName} from '../i18n/index.js';
 import FateCardPreview from './FateCardPreview.jsx';
 import {exportFateCard,prepareFateCard} from '../utils/fateCard.js';
 
-export default function HistoryPage({history,current,t,language}){
+export default function HistoryPage({history,current,runCount,t,language}){
   const [busy,setBusy]=useState(null),[error,setError]=useState(false);
   const exportLock=useRef(createActionLock());
   const [preview,setPreview]=useState(null);
@@ -20,6 +20,7 @@ export default function HistoryPage({history,current,t,language}){
     {preview&&<FateCardPreview card={preview} t={t} onClose={()=>setPreview(null)}/>}
     <p className="eyebrow">{t('VẠN KIẾP')}</p><h1>{t('Lịch sử luân hồi')}</h1>
     <p className="history-intro">{t('Một kiếp qua đi, mệnh cách còn lưu. Giữ lại tấm thẻ để kể câu chuyện của ngươi.')}</p>
+    {runCount>0&&<p className="history-intro">{runCount}{t(' kiếp đã trải')}</p>}
     {error&&<p role="alert">{t('Chưa xuất được ảnh. Hãy thử lại.')}</p>}
     {!entries.length?<div className="history-empty"><p>{t('Chưa có kiếp nào được ghi lại.')}</p><a className="primary" href="#/cultivation">{t('Tu tiên')}</a></div>:<div className="history-grid">
       {entries.map(item=><article className="history-card" key={item.number}>

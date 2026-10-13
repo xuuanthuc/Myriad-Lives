@@ -339,3 +339,5 @@
 .fate-preview-actions a,.fate-preview-actions button{flex:1;padding:13px 8px;text-align:center;font-size:12px;border:1px solid var(--green);background:transparent;color:var(--green)}
 .fate-preview>p{font-size:11px;line-height:1.8;padding:0 16px 16px;margin:0}
 [data-theme="dark"] .fate-preview{background:#1b261f}
+
+.section-heading .world{text-align:right}

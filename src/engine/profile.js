@@ -1,7 +1,13 @@
+import {worldPlanes} from '../data/worlds.js';
 import {genderForProfile} from '../data/genders.js';
 import {roots,physiques,origins} from '../data/realms.js';
 import {sectNameForProfile} from '../data/sects.js';
 // Poor births add only one third of the former pity bonus; the base chance stays 5%.
 export const goodProfileChance=pity=>Math.min(.25,.05+(.02/3)*pity);
 export function generateProfile(pity,rng){const good=rng.float()<goodProfileChance(pity);const mean=()=>Math.round((rng.float()+rng.float()+rng.float())/3*100);let p;for(let i=0;i<10000;i++){const root=rng.weightedPick(roots.map(x=>({value:x,weight:x.weight}))),physique=rng.weightedPick(physiques.map(x=>({value:x,weight:x.weight}))),origin=rng.weightedPick(origins.map(x=>({value:x,weight:x.weight}))),talent=mean(),comprehension=mean(),profileScore=.35*root.score+.25*physique.score+.2*talent+.15*comprehension+.05*origin.score;p={root,physique,origin,talent,comprehension,profileScore,isGoodProfile:profileScore>=65};if(p.isGoodProfile===good)break;}if(p.isGoodProfile!==good)throw Error('Không thể sinh hồ sơ');const profile={...p,name:rng.pick(['Lâm','Mộ','Tần','Diệp','Tô','Lục','Bạch','Vân'])+' '+rng.pick(['Vô Trần','Thanh Hà','Tử Yên','Trường Phong','Nhược Thủy','Thiên Hành','Hoài An','Minh Nguyệt']),luck:mean()};return {...profile,gender:genderForProfile(profile),sectName:sectNameForProfile(profile)};}
-export function generateWorld(rng){const value=()=>.6+rng.float();const w={danger:value(),opportunity:value(),resources:value(),cultivationDifficulty:value(),stability:value()};return {...w,descriptor:w.stability<.9?'Loạn thế phong vân':w.resources>1.25?'Linh khí hưng thịnh':w.danger>1.3?'Hiểm họa trùng trùng':'Thiên hạ bình hòa'};}
+export function generateWorld(rng){
+  const plane=rng.pick(worldPlanes);
+  const keys=['danger','opportunity','resources','cultivationDifficulty','stability'];
+  const w=Object.fromEntries(keys.map((key,index)=>{const [min,max]=plane.ranges[index];return [key,min+rng.float()*(max-min)];}));
+  return {...w,planeId:plane.id,descriptor:w.stability<.9?'Loạn thế phong vân':w.resources>1.25?'Linh khí hưng thịnh':w.danger>1.3?'Hiểm họa trùng trùng':'Thiên hạ bình hòa'};
+}

@@ -1,9 +1,9 @@
+import {worldPlanes,worldPlaneName} from '../data/worlds.js';
 import {genderName} from '../data/genders.js';
 import {useEffect,useState} from 'react';
 import {roots,physiques,origins} from '../data/realms.js';
 import {translateName} from '../i18n/index.js';
 
-const worlds=['Loạn thế phong vân','Linh khí hưng thịnh','Hiểm họa trùng trùng','Thiên hạ bình hòa'];
 // Decorative cycling never consumes the life simulation's RNG.
 export default function BirthReveal({run,t,language,onEnter}){
   const [elapsed,setElapsed]=useState(0);
@@ -19,7 +19,7 @@ export default function BirthReveal({run,t,language,onEnter}){
     return ()=>cancelAnimationFrame(frame);
   },[]);
   const rows=[
-    ['Bối cảnh',run.world.descriptor,worlds,'界'],
+    ['Giới diện',worldPlaneName(run.world),worldPlanes.map(plane=>plane.name),'界'],
     ['Giới tính',genderName(run.profile),['Nam','Nữ'],'命'],
     ['Xuất thân',run.profile.origin.name,origins.map(x=>x.name),'生'],
     ['Linh căn',run.profile.root.name,roots.map(x=>x.name),'根'],
@@ -35,7 +35,7 @@ export default function BirthReveal({run,t,language,onEnter}){
     <p className="birth-copy">{t('Vạn duyên luân chuyển, một kiếp sắp thành.')}</p>
     <div className="birth-board" aria-busy={!complete}>
       {rows.map(([label,value,pool,glyph],index)=>{
-        const settled=elapsed>=1300+index*600;
+        const settled=elapsed>=1300+index*550;
         const display=settled?value:reducedMotion?'…':pool[(Math.floor(elapsed/85)+index*7)%pool.length];
         return <div key={label} className={'birth-row '+(settled?'settled':'rolling')}>
           <span className="birth-glyph" aria-hidden="true">{glyph}</span><span className="birth-label">{t(label)}</span>

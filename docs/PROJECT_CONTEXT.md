@@ -4,6 +4,8 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 
 ## Sản phẩm và giao diện
 
+- Số kiếp đã trải chỉ hiển thị trong trang Lịch sử, không nằm trên thanh header.
+
 - Home `#/`, Tu tiên `#/cultivation`, lịch sử `#/history`; đường dẫn tiếng Anh. Header Home không có Trang chủ/Tu tiên/cẩm nang; game có Trang chủ và popup cẩm nang; lịch sử có Tu tiên và không có link Lịch sử trùng trang.
 - Vào game lần đầu tự tạo kiếp. Kiếp mới đi qua màn Thiên mệnh sơ khai: chạy chữ và chốt bối cảnh/giới tính/xuất thân/linh căn/thể chất/tư chất/khí vận trong 5,2 giây. Không skip; sau đó người chơi bấm Bước vào tiên lộ. Refresh không gieo lại số mệnh. Kiếp đang chơi mở lại thì tiếp tục.
 - Tốc độ x1/x2/x4, mỗi fact khoảng 2/1/0,5 giây. Progress mượt, tuổi tăng có animation. Tốc độ và Kiếp mới gọn phía trên list sự kiện.
@@ -13,6 +15,11 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 - Card lịch sử gọn, desktop 4 cột và giảm cột theo width. Chia sẻ mở preview có hành động tải/chia sẻ thật; khóa luân hồi khi chuẩn bị/preview ảnh.
 
 ## Mô phỏng và dữ liệu
+
+- Giới diện: mỗi kiếp mới chọn đều một trong 8 giới diện tại `src/data/worlds.js`: Thanh Bình, Linh Thịnh, Loạn Thiên, Hung Hoang, Mạt Pháp, Ẩn Tiên, Huyết Sát, Tàn Thiên. Năm hệ số được sinh trong khoảng đặc trưng của giới diện; hiện dùng chung kho sự kiện.
+- Đầu trang tu tiên gộp tên và mô tả theo dạng `◈ Huyết Sát Giới - Tà tu lộng hành`, không có nhãn “Giới diện:”.
+- Màn roll chỉ có dòng Giới diện, không có dòng Bối cảnh riêng; mô tả ngắn hiển thị ở đầu trang tu tiên.
+- `world.planeId` lưu trong schema v1. Save cũ thiếu field dùng tên fallback theo bối cảnh cũ; không thay hệ số hay RNG. Màn sinh và đầu trang tu tiên hiển thị Giới diện trước mô tả ngắn riêng của giới diện (`worldPlaneDescription`), thay dòng bối cảnh cũ. `world.descriptor` vẫn giữ để tương thích dữ liệu lịch sử/save. Màn sinh vẫn kéo dài 5,2 giây; đổi ngôn ngữ không sinh lại thế giới.
 
 - 14 đại cảnh giới: Phàm nhân → Luyện Khí → Trúc Cơ → Kim Đan → Nguyên Anh → Hóa Thần → Luyện Hư → Hợp Thể → Đại Thừa → Chân Tiên → Kim Tiên → Huyền Tiên → Tiên Vương → Tiên Đế.
 - Không đại cảnh giới Độ Kiếp riêng. Đại Thừa vượt thiên kiếp rồi tiếp tục cùng một kiếp tới Chân Tiên; Tiên Đế chứng đạo mới kết thúc thành công.

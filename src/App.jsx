@@ -1,3 +1,4 @@
+import {worldPlaneName,worldPlaneDescription} from './data/worlds.js';
 import {genderName} from './data/genders.js';
 import {partnerForRun} from './data/partners.js';
 import HistoryPage from './components/HistoryPage.jsx';
@@ -101,7 +102,6 @@ export default function App() {
       <div className="header-right">
         <nav className="page-navigation" aria-label={t('Điều hướng')}>{page!=='home'&&<a href="#/">{t('Trang chủ')}</a>}{page==='history'?<a href="#/cultivation">{t('Tu tiên')}</a>:<a href="#/history">{t('Lịch sử')}</a>}</nav>
         <CultivationGuide t={t} run={run} open={codexOpen} onOpenChange={setCodexOpen} showTrigger={page==='game'}/>
-        <span className="session"><i/>{session.runCount===0?t('Tiên lộ chưa mở'):session.runCount+t(' kiếp đã trải')}</span>
         <div className="display-preferences">
         <div className="language-picker" role="group" aria-label={t('Ngôn ngữ')}>
           <AssetIcon file="globe-solid-full.svg"/>
@@ -112,7 +112,7 @@ export default function App() {
       </div>
     </header>
     <main>
-      {page==='history'?<HistoryPage history={visibleHistory} current={run?summarizeLife(run,finished?'finished':'active'):null} t={t} language={language}/>:page==='home'?<HomePage onlineCount={onlineCount} t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
+      {page==='history'?<HistoryPage history={visibleHistory} current={run?summarizeLife(run,finished?'finished':'active'):null} runCount={session.runCount} t={t} language={language}/>:page==='home'?<HomePage onlineCount={onlineCount} t={t} mountains={<Mountains/>} onOpenGuide={()=>setCodexOpen(true)}/>:<div className="cultivation-page">
       <div className="cultivation-backdrop" aria-hidden="true"><img src={`${import.meta.env.BASE_URL}assets/images/cultivation-retreat.jpg`} width="1536" height="1024" alt="" decoding="async"/></div>
       {birthPending&&engineRun?<BirthReveal key={engineRun.number} run={engineRun} t={t} language={language} onEnter={()=>setBirthPending(false)}/>:<><section className={'hero '+(run?'compact':'')}>
         <div className="hero-content">
@@ -125,7 +125,7 @@ export default function App() {
       </section>
       {error&&<div role="alert" className="error">{t('Tiên cơ tạm gián đoạn.')}<button disabled={sharing||!!sharePreview} onClick={reincarnate}>{t('Thử một kiếp mới')}</button></div>}
       {run&&<section className="game">
-        <div className="section-heading"><p className="eyebrow">{t('THIÊN MỆNH QUYỂN · KIẾP')} {String(run.number).padStart(3,'0')}</p><span className="world">◈ {t(run.world.descriptor)}</span></div>
+        <div className="section-heading"><p className="eyebrow">{t('THIÊN MỆNH QUYỂN · KIẾP')} {String(run.number).padStart(3,'0')}</p><span className="world">◈ {t(worldPlaneName(run.world))} - {t(worldPlaneDescription(run.world))}</span></div>
 
         <div className="game-grid">
           <aside className="profile">
