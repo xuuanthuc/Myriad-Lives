@@ -1,5 +1,6 @@
 import {worldPlaneName,worldPlaneDescription} from './data/worlds.js';
 import {choiceHint} from './data/choiceHints.js';
+import {autoPlayStep} from './utils/autoPlay.js';
 import {genderName} from './data/genders.js';
 import {partnerForRun} from './data/partners.js';
 import HistoryPage from './components/HistoryPage.jsx';
@@ -46,6 +47,7 @@ export default function App() {
   const [history,setHistory]=useState(()=>restored?.history||[]);
   const [speed,setSpeed]=useState(restored?.speed||1);
   const [paused,setPaused]=useState(restored?.paused||false);
+  const [autoPlay,setAutoPlay]=useState(false);
   const [birthPending,setBirthPending]=useState(restored?.birthPending||false);
   const {run,playing,progress,progressNode,progressLabel,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
   const finished=run?.phase==='finished';
@@ -63,6 +65,24 @@ export default function App() {
   },[engineRun,session,language,speed,paused,birthPending,history,finished,getPlayback]);
   const actionLock=useRef(false);
   useEffect(()=>{actionLock.current=false;},[engineRun]);
+  useEffect(()=>{
+    if(!autoPlay||playing||paused||birthPending||page!=='game'||engineRun?.phase!=='awaiting_choice')return;
+    let timer;
+    const schedule=()=>{
+      clearTimeout(timer);
+      if(document.hidden)return;
+      timer=setTimeout(()=>{
+        if(actionLock.current)return;
+        actionLock.current=true;
+        try{
+          const next=autoPlayStep(engineRun,{enabled:autoPlay,playing,paused,birthPending,page,hidden:document.hidden});
+          if(next)setEngineRun(next);else actionLock.current=false;
+        }catch(e){console.error(e);actionLock.current=false;setError(true);setAutoPlay(false);}
+      },150);
+    };
+    schedule();document.addEventListener('visibilitychange',schedule);
+    return ()=>{clearTimeout(timer);document.removeEventListener('visibilitychange',schedule);};
+  },[autoPlay,playing,paused,birthPending,page,engineRun]);
   const [error,setError]=useState(false);
   const firstLifeStarted=useRef(false);
   useEffect(()=>{
@@ -89,10 +109,10 @@ export default function App() {
   const t=useCallback(value=>translate(value,language),[language]);
   useEffect(()=>{document.documentElement.lang=language==='zh'?'zh-CN':language;document.title=language==='zh'?'万劫 · Myriad Lives':language==='en'?'Myriad Lives · A cultivation journey':'Vạn Kiếp · Myriad Lives';},[language]);
   function act(fn){try{setError(false);fn();}catch(e){console.error(e);setError(true);}}
-  function reincarnate(){if(shareLock.current.isLocked())return;act(()=>{const result=startLife(session);if(run)setHistory(previous=>archiveLife(previous,summarizeLife(run)));setSession(result.nextSession);setPaused(false);setBirthPending(true);setEngineRun(result.run);window.scrollTo({top:0,behavior:'smooth'});});}
+  function reincarnate(){if(shareLock.current.isLocked())return;act(()=>{const result=startLife(session);if(run)setHistory(previous=>archiveLife(previous,summarizeLife(run)));setSession(result.nextSession);setPaused(false);setAutoPlay(false);setBirthPending(true);setEngineRun(result.run);window.scrollTo({top:0,behavior:'smooth'});});}
   function resolveChoice(optionId,automatic=false){if(playing||actionLock.current||engineRun?.phase!=='awaiting_choice')return;actionLock.current=true;act(()=>{setPaused(false);setEngineRun(automatic?autoUntilBreakthrough(engineRun):chooseOption(engineRun,optionId));});}
   const playbackControls=run&&(<section className="playback-controls" aria-label={t('Tốc độ diễn biến')}>
-          <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{playing&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" disabled={sharing||!!sharePreview} onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
+          <div className="playback-toolbar"><span>{t('Tốc độ')}</span>{(playing||autoPlay&&!finished)&&<button type="button" className="playback-pause" onClick={()=>setPaused(!paused)}>{t(paused?'Tiếp tục':'Tạm dừng')}</button>}<button type="button" className="playback-pause playback-auto" aria-pressed={autoPlay} disabled={finished} onClick={()=>{setAutoPlay(!autoPlay);if(!autoPlay)setPaused(false);}}>{t(autoPlay?'Đang auto':'Auto toàn bộ')}</button><div className="playback-actions"><div className="speed-buttons" role="group" aria-label={t('Tốc độ diễn biến')}>{PLAYBACK_SPEEDS.map(value=><button type="button" key={value} aria-pressed={speed===value} onClick={()=>setSpeed(value)}>x{value}</button>)}</div><button type="button" className="new-life-shortcut" disabled={sharing||!!sharePreview} onClick={reincarnate} title={t('Bỏ kiếp hiện tại và luân hồi ngay')} aria-label={t('Bỏ kiếp hiện tại và luân hồi ngay')}>⟳ {t('Kiếp mới')}</button></div></div>
           <div className="playback-status"><span>{t(playing?(paused?'Đã tạm dừng':'Tiên lộ đang mở…'):finished?'Một kiếp khép lại':run.pendingChoice?.kind==='breakthrough'?'Đang chờ đột phá':'Đang chờ lựa chọn')}</span><span ref={progressLabel}>{Math.floor(progress)}%</span></div>
           <progress ref={progressNode} className="playback-progress" max="1000000" value={progress*10000} aria-valuetext={Math.floor(progress)+'%'} aria-label={t('Tiến độ chặng hiện tại')}/>
         </section>);
@@ -143,7 +163,7 @@ export default function App() {
           <div className="story">
             <div className="story-heading"><h2>{t('Nhân sinh ký sự')}</h2><span>{run.facts.length} {t('mốc cuộc đời')}</span></div>
             <LifeActivity key={run.number} run={run} t={t} toolbar={playbackControls}>
-            {run.pendingChoice&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}
+            {run.pendingChoice&&(!autoPlay||paused)&&<ChoiceDialog key={run.number+'-'+run.pendingChoice.eventId+'-'+run.pendingChoice.age} t={t} breakthrough={run.pendingChoice.kind==='breakthrough'}
               confirmAction={run.pendingChoice.kind==='breakthrough'?<button type="button" className="primary" onClick={()=>resolveChoice('attempt')}>{t(run.pendingChoice.options[0].text)} <ArrowIcon/></button>:null}>
             {run.pendingChoice?.kind==='breakthrough'&&<section className="choice-card breakthrough-card" aria-live="polite">
               <p className="eyebrow">✦ {t('Đang chờ đột phá')} · {run.state.age} {t('tuổi')}</p>

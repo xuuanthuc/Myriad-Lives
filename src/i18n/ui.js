@@ -1,5 +1,7 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Auto toàn bộ','全程自动','Auto all'],
+  ['Đang auto','自动中','Auto on'],
   ['Tám giới diện, tám bối cảnh cầu đạo: từ Thanh Bình yên ổn đến Huyết Sát hiểm nguy, từ Linh Thịnh dồi dào đến Mạt Pháp suy kiệt. Nơi xuất thế định hình cơ duyên, kiếp nạn và đường tu luyện của mỗi đời.','八大界域，八种求道天地：从安宁的清平界到凶险的血煞界，从丰饶的灵盛界到衰竭的末法界。出生之地影响每一世的机缘、劫难与修行之路。','Eight world planes offer eight settings for cultivation: from peaceful Qingping to perilous Bloodslaughter, from abundant Spiritflourish to declining Dharma’s End. Your birthplace shapes each life’s opportunities, calamities, and cultivation path.'],
   ['Hiểu căn cốt, biết cảnh giới và giới diện, rồi tự viết một đời cầu đạo. Lật cẩm nang để xem tiên tư, các bậc tu hành và thế giới ngươi có thể sinh ra.','了解根骨、境界与界域，再书写一生求道之路。翻阅指南，查看仙资、修行诸境与可能降生的世界。','Learn about innate gifts, cultivation realms, and world planes, then write your own journey toward the Dao. Open the guide to explore your gifts, cultivation stages, and possible birth worlds.'],
   ['Tám thế giới, cơ duyên và hiểm họa khác nhau.','八方世界，机缘与险劫各异。','Eight worlds with differing opportunities and dangers.'],
