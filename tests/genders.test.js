@@ -5,6 +5,7 @@ import {genderEvents} from '../src/data/genderEvents.js';
 import {realms} from '../src/data/realms.js';
 import {startLife,autoComplete} from '../src/engine/lifeRunner.js';
 import {createRng} from '../src/engine/rng.js';
+import {generateProfile} from '../src/engine/profile.js';
 import {encodeSave,decodeSave} from '../src/engine/browserSave.js';
 import {summarizeLife} from '../src/engine/lifeHistory.js';
 
@@ -16,11 +17,21 @@ test('genders vary between births, persist, and migrate old profiles without con
     const saved={engineRun:run,session:started.nextSession};
     assert.equal(decodeSave(encodeSave(saved)).engineRun.profile.gender,gender);
     const before=run.rng.getState(),legacy={...run.profile};delete legacy.gender;
-    assert.equal(genderForProfile(legacy),gender);
+    let hash=2166136261;
+    for(const char of `${legacy.name}|${legacy.luck}|${legacy.talent}|${legacy.origin?.name}`)hash=Math.imul(hash^char.codePointAt(0),16777619);
+    assert.equal(genderForProfile(legacy),['male','female'][(hash>>>0)%2]);
     assert.equal(run.rng.getState(),before);
     assert.equal(summarizeLife(run).gender,genderName(run.profile));
   }
   assert.deepEqual([...genders].sort(),['female','male']);
+});
+
+test('new births distribute approximately 40 percent female and preserve explicit saved genders',()=>{
+  let female=0;
+  for(let seed=1;seed<=10000;seed++)female+=generateProfile(0,createRng(seed)).gender==='female';
+  assert.ok(female>3800&&female<4200,`female births: ${female}/10000`);
+  assert.equal(genderForProfile({gender:'female'}),'female');
+  assert.equal(genderForProfile({gender:'male'}),'male');
 });
 
 test('gender-specific encounters cover all realms and never appear for the other gender',()=>{

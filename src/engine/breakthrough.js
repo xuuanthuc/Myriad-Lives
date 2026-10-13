@@ -6,5 +6,6 @@ export function rootBreakthroughBonus(profile){
 }
 export function fatalBreakthroughChance(profile,realm,danger){
   const stability=1-clamp(profile.root?.score??50,0,100)*.003;
-  return clamp(.02*realm*danger*stability,0,.30);
+  // Crossing heaven's lightning is more lethal than an ordinary bottleneck.
+  return realm===8?clamp(.04*realm*danger*stability,0,.45):clamp(.005*realm*danger*stability,0,.10);
 }

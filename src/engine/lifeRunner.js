@@ -1,14 +1,16 @@
 import {eligible} from './eventEligibility.js';
+import {combatEncounterFactor,explorationEventFrequency,explorationEncounterFactor} from './encounterBalance.js';
 import {rootBreakthroughBonus,fatalBreakthroughChance} from './breakthrough.js';
 import {luckOutcomeWeights} from './luck.js';
 import {birthNarrative,endingNarrative} from './narrative.js';
 import {stageIndex,stagesForRealm} from '../data/subrealms.js';
-import {breakthroughAge,ageBreakthroughFactor,cultivationTiming} from './cultivationTime.js';
+import {breakthroughAge,ageBreakthroughFactor,cultivationTiming,breakthroughRecoveryYears} from './cultivationTime.js';
 import {createRng} from './rng.js';import {generateProfile,generateWorld} from './profile.js';import {realms} from '../data/realms.js';import {events} from './content.js';import {sectChildhood} from '../data/origins.js';
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 function recordRetreat(run){
   const previous=run.facts.at(-1),s=run.state;
   if(previous&&s.realm>0&&previous.realm===s.realm){
+    if(previous.age<(s.explorationUntilAge??0))return;
     const years=s.age-previous.age;
     if(years>=cultivationTiming[s.realm].quietYears){
       run.facts.push({id:run.facts.length,age:s.age,eventId:`retreat-${s.realm}-${s.age}-${run.facts.length}`,title:'Bế quan dưỡng đạo',text:`Ngươi khép cửa tĩnh thất, chuyên tâm dưỡng đạo suốt ${years} năm. Khi xuất quan, cảnh vật đã đổi, còn thời gian lặng lẽ ghi thêm một đoạn trên tiên lộ.`,category:'cultivation',realm:s.realm,stateSnapshot:structuredClone(s)});
@@ -34,7 +36,7 @@ run.phase='awaiting_choice';run.pendingChoice={kind:'breakthrough',eventId:'read
 }}
 
 if(s.health<=0)return finish(run,'Trọng thương không qua khỏi');
-const frequency=s.realm===0?.07:Math.max(.0008,.12/Math.pow(2,Math.max(0,s.realm-1)));if(rng.float()<frequency){const candidates=events.filter(e=>eligible(e,run));if(candidates.length){const e=rng.weightedPick(candidates.map(e=>({value:e,weight:e.weight*(e.category==='opportunity'?w.opportunity*(.6+p.luck/100):e.category==='disaster'?w.danger/w.stability:1)})));s.eventCounts[e.id]=(s.eventCounts[e.id]||0)+1;s.cooldowns[e.id]=s.age+e.cooldownYears;fact(run,e.id,e.title,e.text,e.category);if(e.choices){run.phase='awaiting_choice';run.pendingChoice={eventId:e.id,age:s.age,title:e.title,prompt:e.text,options:e.choices};return run;}if(e.outcomes){const outcome=rng.weightedPick(luckOutcomeWeights(e.outcomes,p.luck,w.danger));fact(run,e.id+'-'+outcome.id,e.title,outcome.text,outcome.effects?.death?'ending':outcome.effects?.health<0?'disaster':'opportunity');apply(run,outcome);}else apply(run,e);if(run.phase==='finished')return run;}}
+const frequency=s.realm===0?.07:Math.max(.0008,.12/Math.pow(2,Math.max(0,s.realm-1)));if(rng.float()<explorationEventFrequency(s,frequency)){const candidates=events.filter(e=>eligible(e,run));if(candidates.length){const e=rng.weightedPick(candidates.map(e=>({value:e,weight:e.weight*combatEncounterFactor(e,s.realm)*explorationEncounterFactor(e,s)*(e.category==='opportunity'?w.opportunity*(.6+p.luck/100):e.category==='disaster'?w.danger/w.stability:1)})));s.eventCounts[e.id]=(s.eventCounts[e.id]||0)+1;s.cooldowns[e.id]=s.age+e.cooldownYears;fact(run,e.id,e.title,e.text,e.category);if(e.choices){run.phase='awaiting_choice';run.pendingChoice={eventId:e.id,age:s.age,title:e.title,prompt:e.text,options:e.choices};return run;}if(e.outcomes){const outcome=rng.weightedPick(luckOutcomeWeights(e.outcomes,p.luck,w.danger));fact(run,e.id+'-'+outcome.id,e.title,outcome.text,outcome.effects?.death?'ending':outcome.effects?.health<0?'disaster':'opportunity');apply(run,outcome);}else apply(run,e);if(run.phase==='finished')return run;}}
 }throw Error('Mô phỏng vượt giới hạn an toàn');}
 const rngStart=run=>run.awakeningAge;
 /** Sinh một kiếp độc lập; chỉ trả session mới khi khởi tạo hoàn tất. */
@@ -54,13 +56,16 @@ s.resources=Math.max(0,s.resources-12);s.cultivationProgress=0;s.subrealm=0;
 if(rng.float()<chance){
 if(s.realm===realms.length-1)return finish(next,'Chứng đạo Tiên Đế',true);
 const ascends=s.realm===8;
+delete s.explorationStartedAge;delete s.explorationUntilAge;
 s.realm++;s.realmEnteredAge=s.age;s.lifespanLimit=Math.max(s.age+1,realms[s.realm].lifespan);
 if(ascends)fact(next,'ascension','Phi thăng tiên giới','Lôi kiếp tan đi, phàm thân chuyển thành tiên thể. Ngươi bước qua cửa trời, đặt chân vào tiên giới và bắt đầu một đoạn đường cầu đạo mới.','cultivation');
 else fact(next,'breakthrough-'+s.realm,'Đột phá '+realms[s.realm].name,'Sau nhiều năm tích lũy, ngươi vượt qua bình cảnh và tiến vào '+realms[s.realm].name+'. Linh lực đổi khác, thọ nguyên kéo dài, tiên lộ lại mở thêm một đoạn.','cultivation');
 }else{
-if(rng.float()<fatalBreakthroughChance(p,s.realm,w.danger)){fact(next,'fatal-breakthrough','Tẩu hỏa nhập ma','Trong lúc đột phá, linh lực mất kiểm soát và phá hủy kinh mạch. Ngươi không thể ổn định tâm thần, một đời tu hành kết thúc trong tiếc nuối.','ending');return finish(next,'Tẩu hỏa khi đột phá',false,false);}
+if(rng.float()<fatalBreakthroughChance(p,s.realm,w.danger)){if(s.realm===8){fact(next,'fatal-tribulation','Bỏ mạng trong thiên kiếp','Lôi kiếp phá tan hộ thể, đánh vỡ đạo cơ trước khi tiên thân thành hình. Ngươi không vượt qua được cửa trời, một đời cầu đạo khép lại dưới kiếp lôi.','ending');return finish(next,'Bỏ mạng trong thiên kiếp',false,false);}fact(next,'fatal-breakthrough','Tẩu hỏa nhập ma','Trong lúc đột phá, linh lực mất kiểm soát và phá hủy kinh mạch. Ngươi không thể ổn định tâm thần, một đời tu hành kết thúc trong tiếc nuối.','ending');return finish(next,'Tẩu hỏa khi đột phá',false,false);}
 s.health-=12;fact(next,'failed-'+s.age,'Bình cảnh chưa phá','Ngươi thử vượt qua bình cảnh nhưng linh lực tán loạn. Sau khi ổn định kinh mạch, ngươi phải dưỡng thương và tích lũy lại từ đầu.','disaster');
 if(s.health<=0)return finish(next,'Trọng thương không qua khỏi');
+s.explorationStartedAge=s.age;s.explorationUntilAge=s.age+breakthroughRecoveryYears(next);
+fact(next,'exploration-'+s.age,'Lịch luyện tìm cơ duyên','Bình cảnh chưa mở, ngươi rời nơi bế quan để tìm cơ duyên và tôi luyện đạo tâm. Đường xa có linh tài, nhưng cũng có cường địch chờ phía trước.','life');
 }
 return advance(next);
 }

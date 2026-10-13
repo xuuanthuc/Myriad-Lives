@@ -13,6 +13,9 @@ export const cultivationTiming=settings.map(([baseAge,minimumYears,quietYears],i
 }));
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 export function rootTimeFactor(profile){return 1.7-clamp(profile.root.score,0,100)*.008;}
+export function breakthroughRecoveryYears(run){
+  return Math.max(8,Math.ceil(cultivationTiming[run.state.realm].minimumYears*rootTimeFactor(run.profile)));
+}
 function lifeTimeVariation(run){
   const source=[run.number,run.profile.name,run.profile.luck,run.world.resources,run.world.cultivationDifficulty].join('|');
   let hash=2166136261;
@@ -27,7 +30,7 @@ export function breakthroughAge(run){
   const environment=.9+clamp(run.world.cultivationDifficulty/run.world.resources,.4,2.5)*.1;
   const entered=s.realmEnteredAge??run.facts.find(f=>f.realm===s.realm)?.age??s.age;
   const variation=lifeTimeVariation(run);
-  return Math.max(Math.ceil(t.baseAge*rootFactor*variation),entered+Math.ceil(t.minimumYears*rootFactor*aptitude*environment*variation));
+  return Math.max(s.explorationUntilAge??0,Math.ceil(t.baseAge*rootFactor*variation),entered+Math.ceil(t.minimumYears*rootFactor*aptitude*environment*variation));
 }
 // Older cultivators have a better chance, but cannot outlive their remaining lifespan.
 // First 30% of lifespan: ×1. Near the end: up to ×1.30. Final chance stays capped at 95%.
