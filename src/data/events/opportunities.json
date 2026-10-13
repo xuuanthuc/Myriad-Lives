@@ -31478,5 +31478,188 @@
         ]
       }
     ]
+  },
+  {
+    "id": "luck_boon_mortal",
+    "category": "opportunity",
+    "title": "Túi thuốc bên giếng",
+    "text": "Sau cơn mưa, ngươi nhặt được túi thuốc còn nguyên bên giếng. Người chủ nhận lại đồ, tặng ngươi ít bạc và thuốc dưỡng thân.",
+    "weight": 9,
+    "minAge": 12,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": 2,
+    "allowedRealms": [
+      "mortal"
+    ],
+    "conditions": {
+      "luck": 60
+    },
+    "effects": {
+      "resources": 18,
+      "health": 10
+    },
+    "translations": {
+      "zh": {
+        "title": "井边药袋",
+        "text": "雨后你在井边拾到完好的药袋。失主寻回药物，赠你银钱和养身药材，以谢善意。"
+      },
+      "en": {
+        "title": "Medicine beside the well",
+        "text": "After the rain, you find an intact medicine bag beside a well. Its grateful owner rewards your honesty with silver and restorative herbs."
+      }
+    }
+  },
+  {
+    "id": "luck_boon_qi_refining",
+    "category": "opportunity",
+    "title": "Linh lộ trên lá",
+    "text": "Buổi sớm, một nhánh cây giữ lại linh lộ chưa tan. Ngươi tình cờ nhận ra ánh sáng khác thường, thu đủ vài giọt để điều hòa kinh mạch.",
+    "weight": 9,
+    "minAge": 16,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": 2,
+    "allowedRealms": [
+      "qi_refining"
+    ],
+    "conditions": {
+      "luck": 60
+    },
+    "effects": {
+      "cultivation": 20,
+      "health": 8
+    },
+    "translations": {
+      "zh": {
+        "title": "叶上灵露",
+        "text": "清晨枝叶上灵露未散。你偶然察觉异样微光，收集数滴温养经脉，行气时阻滞渐消。"
+      },
+      "en": {
+        "title": "Spirit dew on leaves",
+        "text": "At dawn, a branch still holds rare spirit dew. You notice its unusual shimmer and collect several drops to soothe the channels carrying your spiritual energy."
+      }
+    }
+  },
+  {
+    "id": "luck_boon_foundation",
+    "category": "opportunity",
+    "title": "Mạch ngọc dưới nền",
+    "text": "Khi giúp sửa nền đạo quán, ngươi phát hiện mạch ngọc nhỏ dưới viên đá nứt. Chủ quán chia linh ngọc, đủ trang trải một đợt bế quan.",
+    "weight": 9,
+    "minAge": 16,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": 2,
+    "allowedRealms": [
+      "foundation"
+    ],
+    "conditions": {
+      "luck": 65
+    },
+    "effects": {
+      "resources": 28
+    },
+    "translations": {
+      "zh": {
+        "title": "地基玉脉",
+        "text": "修缮道观地基时，你在裂石下发现一条细小玉脉。观主分赠灵玉，足够支撑一轮闭关。"
+      },
+      "en": {
+        "title": "Jade beneath the foundations",
+        "text": "While repairing a shrine foundation, you discover a small jade vein beneath a cracked stone. The keeper shares enough spirit jade to support your next retreat."
+      }
+    }
+  },
+  {
+    "id": "luck_boon_golden_core",
+    "category": "opportunity",
+    "title": "Đan hương theo gió",
+    "text": "Một làn đan hương dẫn ngươi tới lò thuốc bị bỏ quên. Trong ngăn kín còn viên đan nguyên vẹn, giúp ngươi củng cố tu vi đang chững lại.",
+    "weight": 9,
+    "minAge": 16,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": 2,
+    "allowedRealms": [
+      "golden_core"
+    ],
+    "conditions": {
+      "luck": 65
+    },
+    "effects": {
+      "cultivation": 24
+    },
+    "translations": {
+      "zh": {
+        "title": "风送丹香",
+        "text": "一缕丹香引你找到遗弃药炉。暗格中尚存一枚完好丹药，助你巩固停滞的修为。"
+      },
+      "en": {
+        "title": "Pill fragrance on the wind",
+        "text": "A passing pill fragrance leads you to an abandoned medicine furnace. An intact pill inside its hidden compartment helps strengthen your cultivation after a long plateau."
+      }
+    }
+  },
+  {
+    "id": "luck_boon_nascent_soul",
+    "category": "opportunity",
+    "title": "Ngọc giản trong bụng cá",
+    "text": "Người đánh cá mang tới ngọc giản tìm được trong bụng linh ngư. Ngươi nhận ra pháp môn dưỡng hồn thất truyền, đổi ít vật tư rồi thử luyện.",
+    "weight": 9,
+    "minAge": 16,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": 2,
+    "allowedRealms": [
+      "nascent_soul"
+    ],
+    "conditions": {
+      "luck": 70
+    },
+    "effects": {
+      "cultivation": 28,
+      "resources": -6
+    },
+    "translations": {
+      "zh": {
+        "title": "鱼腹玉简",
+        "text": "渔人送来灵鱼腹中发现的玉简。你认出失传养魂法，以少量物资交换，随后静心试练。"
+      },
+      "en": {
+        "title": "A jade slip inside a fish",
+        "text": "A fisherman brings a jade slip found inside a spirit fish. Recognizing a lost soul nurturing method, you trade a few supplies and begin practicing its teachings."
+      }
+    }
+  },
+  {
+    "id": "luck_boon_spirit_transformation",
+    "category": "opportunity",
+    "title": "Tiếng chuông sau sương",
+    "text": "Sương núi bất chợt mở lối tới tháp chuông cổ. Một tiếng ngân còn sót giúp thần thức ngươi sáng rõ, tháo gỡ nút thắt trong lần tham ngộ trước.",
+    "weight": 9,
+    "minAge": 16,
+    "cooldownYears": 30,
+    "maxOccurrencesPerLife": 1,
+    "importance": 2,
+    "allowedRealms": [
+      "spirit_transformation"
+    ],
+    "conditions": {
+      "luck": 70
+    },
+    "effects": {
+      "cultivation": 30
+    },
+    "translations": {
+      "zh": {
+        "title": "雾后钟声",
+        "text": "山雾忽然散开，露出古老钟塔。残存钟声令你神识澄明，解开上次参悟留下的疑结。"
+      },
+      "en": {
+        "title": "A bell beyond the mist",
+        "text": "Mountain mist briefly reveals an ancient bell tower. Its lingering note clears your spiritual awareness, helping untangle a question left unresolved during your previous meditation."
+      }
+    }
   }
 ]
