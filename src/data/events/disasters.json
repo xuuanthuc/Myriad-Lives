@@ -407,6 +407,9 @@
           }
         ]
       }
+    ],
+    "allowedRealms": [
+      "qi_refining"
     ]
   },
   {
