@@ -1,5 +1,9 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Lịch luyện tìm cơ duyên','外出历练寻机缘','Journey in search of opportunity'],
+  ['Bình cảnh chưa mở, ngươi rời nơi bế quan để tìm cơ duyên và tôi luyện đạo tâm. Đường xa có linh tài, nhưng cũng có cường địch chờ phía trước.','瓶颈未破，你离开闭关之地，寻找机缘并磨炼道心。远路上有灵材，也有强敌在前方等候。','With the bottleneck unbroken, you leave seclusion to seek opportunities and temper your resolve. The road holds spiritual treasures, but powerful enemies also await ahead.'],
+  ['Bỏ mạng trong thiên kiếp','陨落于天劫','Perished in heavenly tribulation'],
+  ['Lôi kiếp phá tan hộ thể, đánh vỡ đạo cơ trước khi tiên thân thành hình. Ngươi không vượt qua được cửa trời, một đời cầu đạo khép lại dưới kiếp lôi.','劫雷击碎护体灵光，在仙体成形前摧毁道基。你未能跨越天门，一生求道终结于雷劫之下。','Tribulation lightning shatters your defenses and destroys your foundation before your immortal body forms. Unable to cross heaven’s gate, your pursuit of the Dao ends beneath the lightning.'],
   ['Thuận theo thiên mệnh','顺应天命','Follow destiny'],
   ['Đang thuận thiên mệnh','正顺应天命','Following destiny'],
   ['Auto toàn bộ','全程自动','Auto all'],
