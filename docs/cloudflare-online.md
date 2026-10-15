@@ -43,6 +43,19 @@ F12 → Network → lọc `online`: GET từ Home, POST từ Tu tiên. 403 nghĩ
 
 ## Hạn mức
 
-Worker và Durable Objects có hạn mức Free riêng; GET, POST và OPTIONS đều có thể dùng request. Một giờ ở Home hoặc Tu tiên khoảng 60 request, chưa tính phụ phí request như kết nối ban đầu/preflight. Những dịch vụ khác trong tài khoản có thể dùng chung quota. Vẫn ở gói Free thì vượt quota gây lỗi, không tự mua gói; frontend sẽ ẩn bộ đếm. CORS chỉ giới hạn browser gọi từ domain được phép, không phải cơ chế chống bot tuyệt đối.
+Worker và Durable Objects có hạn mức Free riêng; GET, POST và OPTIONS đều có thể dùng request Worker, nhưng OPTIONS được trả ngay nên không gọi Durable Object. Một giờ ở Home hoặc Tu tiên khoảng 60 request, chưa tính request ban đầu/preflight. Những dịch vụ khác trong tài khoản có thể dùng chung quota.
 
-Tài liệu: https://developers.cloudflare.com/durable-objects/get-started/ và https://developers.cloudflare.com/durable-objects/platform/pricing/
+Theo tài liệu Cloudflare kiểm tra ngày 15/10/2026, Durable Objects SQLite Free có 5 triệu SQL rows read/ngày và 100.000 rows written/ngày; đây là số hàng dữ liệu, không phải số lượt truy cập hay câu SQL. Hạn mức ngày reset lúc 00:00 UTC (07:00 giờ Việt Nam). Một request có thể đọc nhiều hàng; xóa hàng cũng tính lượt ghi. Email gần hết hạn mức là cảnh báo, không chứng minh request đang lỗi. Vẫn ở gói Free thì vượt quota gây lỗi, không tự mua gói; frontend sẽ ẩn bộ đếm. CORS chỉ giới hạn browser gọi từ domain được phép, không phải cơ chế chống bot tuyệt đối.
+
+### Cách giảm lượt đọc SQL
+
+- Khi Durable Object khởi tạo, nạp bảng `visitors` vào Map riêng của instance một lần. Mỗi heartbeat tiếp tục lưu SQL rồi mới cập nhật Map, nên khởi tạo lại vẫn khôi phục được các phiên cũ.
+- Đếm và kiểm tra TTL trong RAM, không chạy `SELECT COUNT` hay `DELETE WHERE seen` trên mỗi request. GET không có phiên hết hạn không cần truy cập SQL sau khi instance đã nạp.
+- Phiên hết hạn được xóa theo khóa chính `id`, chỉ tìm đúng hàng cần xóa. Số đếm vẫn loại phiên ngay tại mốc 150 giây, không chờ cache hết hạn. Giữ nguyên chu kỳ heartbeat 60 giây.
+- Không thêm index `seen`: cách đếm mới không cần nó, đồng thời tránh thêm lượt ghi index mỗi khi heartbeat đổi thời gian. Schema và migration hiện có giữ nguyên.
+
+Bản tối ưu cần deploy lại **Worker Presence** bằng lệnh ở mục 1; push hoặc build frontend không tự cập nhật Worker này. Không cần xóa namespace hay dữ liệu cũ.
+
+Sau deploy, so sánh phần tăng thêm của SQL rows read và requests trong cùng khoảng thời gian, vì tổng rows read đã dùng trong ngày không giảm lại. Lượt đọc vẫn có thể phát sinh khi instance khởi tạo lại và khi SQL tìm khóa để ghi/xóa; mức giảm và khả năng ở trong Free cần xác nhận bằng Metrics thực tế. Test local dùng SQLite thật để kiểm tra SQL, khôi phục phiên, TTL và các lượt đọc lặp, không mô phỏng chính xác bộ tính quota Cloudflare.
+
+Tài liệu: https://developers.cloudflare.com/durable-objects/get-started/, https://developers.cloudflare.com/durable-objects/platform/pricing/ và https://developers.cloudflare.com/durable-objects/reference/in-memory-state/
