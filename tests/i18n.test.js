@@ -5,10 +5,10 @@ import { events,wordCount,eventOutcomes } from '../src/engine/content.js';
 import { createRng } from '../src/engine/rng.js';
 import { startLife,autoComplete } from '../src/engine/lifeRunner.js';
 
-test('all 2180 encounters and 992 choices have complete translations',()=>{
+test('all 3580 encounters and 2392 choices have complete translations',()=>{
   assert.deepEqual(languages.map(x=>x.id),['vi','zh','en']);
-  assert.equal(events.length,2180);
-  assert.equal(events.filter(e=>e.choices).length,992);
+  assert.equal(events.length,3580);
+  assert.equal(events.filter(e=>e.choices).length,2392);
   assert.equal(validateTranslations(),true);
   for(const event of events) {
     assert.equal(translate(event.text,'vi'),event.text);

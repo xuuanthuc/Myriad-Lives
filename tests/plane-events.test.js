@@ -68,8 +68,8 @@ test('plane statistics distinguish exclusive content from the common pool',()=>{
   assert.equal(summaries.length,8);
   for(const summary of summaries){
     assert.equal(summary.exclusive,100);
-    assert.equal(summary.shared,1380);
-    assert.equal(summary.total,1480);
+    assert.equal(summary.shared,2780);
+    assert.equal(summary.total,2880);
   }
 });
 test('new choices resolve once, preserve pending saves, and never reroll on translation',()=>{
