@@ -5,6 +5,8 @@ Tài liệu này mang các quyết định sản phẩm sang phiên Codex mới,
 ## Sản phẩm và giao diện
 
 - Số kiếp đã trải chỉ hiển thị trong trang Lịch sử, không nằm trên thanh header.
+- Hồ sơ có thanh Thể trạng dưới Khí vận, hiển thị `run.state.health` của mốc đã kể trên thang 0–100 (tối đa một chữ số thập phân, save thiếu field dùng 100). Màu xanh khi >60, vàng khi >30 đến 60, đỏ khi ≤30; đây chỉ là ngưỡng màu giao diện. Mobile chia bốn chỉ số thành lưới 2×2: Tư chất/Ngộ tính rồi Khí vận/Thể trạng; hỗ trợ sáng/tối và VI/ZH/EN, không đổi cơ chế sức khỏe hay RNG.
+- Linh tài hiển thị số dư thực thành dòng riêng ngay dưới nhóm thanh chỉ số, phía trên phần tuổi, chữ nhỏ hơn số tuổi; cụm tuổi chỉ hiển thị Tuổi hiện tại/Hưởng thọ. Không dùng thanh bar hay mẫu số cho Linh tài vì không có trần cố định. Lấy `run.state.resources` của mốc đã kể (thiếu field dùng 0), hỗ trợ sáng/tối và VI/ZH/EN. Chỉ đổi UI, không đổi cơ chế thu/chi, save hoặc RNG.
 - Item ký sự Hiểm họa/Lựa chọn/Đột phá/Kết cục có nền tranh thủy mặc riêng trong `public/assets/images/events`, mờ và giảm dần về phía chữ; hỗ trợ light/dark. Item và ô life map dùng chung phân loại: mốc sẵn sàng, đột phá thành công và phi thăng thuộc Đột phá; kết cục ưu tiên cao nhất.
 
 - Home `#/`, Tu tiên `#/cultivation`, lịch sử `#/history`; đường dẫn tiếng Anh. Header Home không có Trang chủ/Tu tiên/cẩm nang; game có Trang chủ và popup cẩm nang; lịch sử có Tu tiên và không có link Lịch sử trùng trang.

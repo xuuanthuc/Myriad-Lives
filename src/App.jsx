@@ -53,6 +53,8 @@ export default function App() {
   const {run,playing,progress,progressNode,progressLabel,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
   const finished=run?.phase==='finished';
   const currentTraits=currentProfile(run);
+  const health=Math.max(0,Math.min(100,Number.isFinite(run?.state.health)?run.state.health:100));
+  const resources=Math.max(0,Number.isFinite(run?.state.resources)?run.state.resources:0);
   const onlineCount=useOnlineCultivators({active:page==='game'&&!!run&&!finished&&!birthPending,observe:page==='home'});
   const visibleHistory=useMemo(()=>historyWithCompletedLife(history,run),[history,run]);
   const saveState=useRef(null);
@@ -158,7 +160,11 @@ export default function App() {
               ['Tông môn',sectNameForRun(run)||'Chưa gia nhập'],
               ['Đạo lữ',partnerForRun(run)?.name||'Độc hành'],
             ].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
-            <div className="stats">{[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',currentTraits.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}</div>
+            <div className="stats">
+              {[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',currentTraits.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}
+              <div className="condition-stat" data-level={health>60?'healthy':health>30?'wounded':'critical'}><div><span>{t('Thể trạng')}</span><b>{Math.round(health*10)/10}<small> / 100</small></b></div><div className="bar" role="meter" aria-label={t('Thể trạng')} aria-valuemin={0} aria-valuemax={100} aria-valuenow={health}><span style={{width:health+'%'}}/></div></div>
+            </div>
+            <div className="resources-summary"><span>{t('Linh tài')}</span><b>{resources}</b></div>
             <div className="age"><span>{t(finished?'Hưởng thọ':'Tuổi hiện tại')}</span><strong><AnimatedNumber key={run.number} value={run.state.age} speed={speed}/><small> {t('tuổi')}</small></strong></div>
             <p className="profile-foot">{t(finished?'Một số mệnh đã thành chuyện cũ.':'Tiên lộ còn chưa ngã ngũ.')}</p>
           </aside>

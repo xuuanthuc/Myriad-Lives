@@ -1,5 +1,7 @@
 // Vietnamese is the canonical content language; translations never affect RNG.
 export const ui = [
+  ['Linh tài','修炼资源','Cultivation resources'],
+  ['Thể trạng','健康状况','Health'],
   ['Lọc lịch sử','筛选历史','Filter history'],
   ['Tìm trong lịch sử','搜索历史','Search history'],
   ['Tên, số kiếp, tông môn, kết cục…','姓名、轮回序号、宗门、结局…','Name, life number, sect, ending…'],
