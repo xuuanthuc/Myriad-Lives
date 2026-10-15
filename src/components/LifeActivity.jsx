@@ -84,7 +84,7 @@ export default function LifeActivity({run,t,children,toolbar}) {
   return <section className="life-pages" aria-label={t('Nhân sinh ký sự')}>
     <nav className="realm-pages" aria-label={t('Chọn trang cảnh giới')}>
       {realms.map((realm,index)=><button
-        type="button" key={realm.id} disabled={!counts[index]}
+        type="button" key={realm.id} data-realm={realm.id} disabled={!counts[index]}
         aria-pressed={page===index}
         onClick={()=>{setPage(index);setSelectedId(run.facts.find(f=>f.realm===index)?.id);}}
       ><span>{t(realm.name)}</span><small>{counts[index] ? counts[index]+' '+t('sự kiện'):t('Chưa đạt')}</small></button>)}
