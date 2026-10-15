@@ -56914,15 +56914,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -56945,18 +56945,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại chợ đêm mất tích, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại chợ đêm mất tích hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在失踪夜市，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "失踪夜市的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the disappearance night market, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the disappearance night market drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -57058,49 +57059,51 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại chợ đêm mất tích. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại chợ đêm mất tích, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在失踪夜市解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在失踪夜市除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the disappearance night market, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the disappearance night market, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
-              "resources": 22
+              "resources": 22,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại chợ đêm mất tích, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại chợ đêm mất tích chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在失踪夜市，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "失踪夜市的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the disappearance night market, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the disappearance night market transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -57202,15 +57205,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -57234,18 +57237,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đàn huyết phù, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại đàn huyết phù hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在血符坛，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "血符坛的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the blood talisman altar, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the blood talisman altar drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -57347,50 +57351,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại đàn huyết phù. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại đàn huyết phù, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在血符坛解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在血符坛除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the blood talisman altar, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the blood talisman altar, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đàn huyết phù, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại đàn huyết phù chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在血符坛，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "血符坛的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the blood talisman altar, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the blood talisman altar transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -57492,15 +57498,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -57524,18 +57530,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại nhà giam tà trận, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại nhà giam tà trận hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在邪阵牢，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "邪阵牢的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the sinister array prison, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the sinister array prison drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -57637,50 +57644,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại nhà giam tà trận. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại nhà giam tà trận, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在邪阵牢解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在邪阵牢除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the sinister array prison, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the sinister array prison, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại nhà giam tà trận, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại nhà giam tà trận chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在邪阵牢，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "邪阵牢的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the sinister array prison, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the sinister array prison transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -57782,15 +57791,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -57814,18 +57823,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại lò đan huyết sát, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại lò đan huyết sát hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在血煞丹炉，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "血煞丹炉的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the blood pill furnace, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the blood pill furnace drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -57927,50 +57937,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại lò đan huyết sát. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại lò đan huyết sát, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在血煞丹炉解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在血煞丹炉除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the blood pill furnace, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the blood pill furnace, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại lò đan huyết sát, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại lò đan huyết sát chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在血煞丹炉，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "血煞丹炉的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the blood pill furnace, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the blood pill furnace transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -58072,15 +58084,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -58104,18 +58116,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại tháp nhốt hồn, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại tháp nhốt hồn hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在囚魂塔，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "囚魂塔的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the soul prison tower, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the soul prison tower drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -58217,50 +58230,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại tháp nhốt hồn. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại tháp nhốt hồn, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在囚魂塔解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在囚魂塔除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the soul prison tower, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the soul prison tower, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại tháp nhốt hồn, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại tháp nhốt hồn chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在囚魂塔，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "囚魂塔的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the soul prison tower, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the soul prison tower transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -58362,15 +58377,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -58394,18 +58409,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đàn tế thần thức, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại đàn tế thần thức hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在神识祭坛，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "神识祭坛的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the awareness sacrifice altar, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the awareness sacrifice altar drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -58507,50 +58523,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại đàn tế thần thức. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại đàn tế thần thức, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在神识祭坛解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在神识祭坛除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the awareness sacrifice altar, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the awareness sacrifice altar, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đàn tế thần thức, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại đàn tế thần thức chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在神识祭坛，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "神识祭坛的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the awareness sacrifice altar, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the awareness sacrifice altar transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -58652,15 +58670,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -58684,18 +58702,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại cổng truy hồn hư không, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại cổng truy hồn hư không hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在虚空追魂门，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "虚空追魂门的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the void soul hunting gate, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the void soul hunting gate drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -58797,50 +58816,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại cổng truy hồn hư không. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại cổng truy hồn hư không, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在虚空追魂门解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在虚空追魂门除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the void soul hunting gate, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the void soul hunting gate, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại cổng truy hồn hư không, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại cổng truy hồn hư không chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在虚空追魂门，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "虚空追魂门的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the void soul hunting gate, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the void soul hunting gate transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -58942,15 +58963,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -58974,18 +58995,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại thành huyết trận, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại thành huyết trận hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在血阵城，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "血阵城的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the blood array city, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the blood array city drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -59087,50 +59109,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại thành huyết trận. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại thành huyết trận, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在血阵城解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在血阵城除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the blood array city, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the blood array city, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại thành huyết trận, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại thành huyết trận chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在血阵城，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "血阵城的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the blood array city, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the blood array city transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -59232,15 +59256,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -59264,18 +59288,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đài hiến tế thiên kiếp, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại đài hiến tế thiên kiếp hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在天劫献祭台，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "天劫献祭台的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the tribulation sacrifice terrace, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the tribulation sacrifice terrace drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -59377,50 +59402,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại đài hiến tế thiên kiếp. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại đài hiến tế thiên kiếp, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在天劫献祭台解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在天劫献祭台除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the tribulation sacrifice terrace, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the tribulation sacrifice terrace, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đài hiến tế thiên kiếp, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại đài hiến tế thiên kiếp chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在天劫献祭台，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "天劫献祭台的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the tribulation sacrifice terrace, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the tribulation sacrifice terrace transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -59522,15 +59549,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -59554,18 +59581,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại mỏ xiềng tiên, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại mỏ xiềng tiên hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在锁仙矿，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "锁仙矿的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the chained immortal mine, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the chained immortal mine drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -59667,50 +59695,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại mỏ xiềng tiên. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại mỏ xiềng tiên, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在锁仙矿解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在锁仙矿除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the chained immortal mine, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the chained immortal mine, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại mỏ xiềng tiên, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại mỏ xiềng tiên chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在锁仙矿，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "锁仙矿的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the chained immortal mine, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the chained immortal mine transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -59812,15 +59842,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -59844,18 +59874,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại điện huyết luật, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại điện huyết luật hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在血律殿，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "血律殿的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the blood law palace, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the blood law palace drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -59957,50 +59988,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại điện huyết luật. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại điện huyết luật, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在血律殿解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在血律殿除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the blood law palace, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the blood law palace, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại điện huyết luật, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại điện huyết luật chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在血律殿，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "血律殿的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the blood law palace, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the blood law palace transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -60102,15 +60135,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -60134,18 +60167,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại biển tà huyền, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại biển tà huyền hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在邪玄海，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "邪玄海的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the sinister mystic sea, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the sinister mystic sea drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -60247,50 +60281,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại biển tà huyền. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại biển tà huyền, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在邪玄海解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在邪玄海除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the sinister mystic sea, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the sinister mystic sea, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại biển tà huyền, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại biển tà huyền chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在邪玄海，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "邪玄海的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the sinister mystic sea, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the sinister mystic sea transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -60392,15 +60428,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -60424,18 +60460,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại tiên vực huyết khế, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại tiên vực huyết khế hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在血契仙域，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "血契仙域的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the blood contract domain, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the blood contract domain drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -60537,50 +60574,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại tiên vực huyết khế. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại tiên vực huyết khế, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在血契仙域解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在血契仙域除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the blood contract domain, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the blood contract domain, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại tiên vực huyết khế, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại tiên vực huyết khế chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在血契仙域，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "血契仙域的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the blood contract domain, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the blood contract domain transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]
@@ -60827,15 +60866,15 @@
       {
         "id": "commit",
         "text": "Thanh tẩy vật tư bỏ lại",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Thanh tẩy được hàng; huyết ấn còn sót có thể tổn hại khí vận.",
         "translations": {
           "zh": {
             "text": "净化遗留物资",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "可净化物资；残留血印可能损伤气运。"
           },
           "en": {
             "text": "Cleanse the abandoned supplies",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Purify the supplies; lingering blood marks may damage your fortune."
           }
         },
         "outcomes": [
@@ -60859,18 +60898,19 @@
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đạo đàn nuốt giới, huyết ấn còn nằm trong đồ đã kiểm tra, bất ngờ hút lực. Ngươi bị thương nhẹ, đành bỏ cả kiện nhiễm dấu.",
+            "text": "Huyết ấn trong vật tư tại đạo đàn nuốt giới hút khí vận lẫn sinh lực. Ngươi bỏ kiện hàng, hao vật tư thanh tẩy nhưng phúc duyên vẫn tổn hại.",
             "translations": {
               "zh": {
-                "text": "在吞界道坛，已检查物件仍藏血印，突然吸力伤身，你只能弃掉受染货箱。"
+                "text": "吞界道坛的物资里残留血印，同时吸走生机与气运。你丢弃货箱并耗资净化，却仍损失了福缘。"
               },
               "en": {
-                "text": "At the world devouring Dao altar, a hidden blood seal drains energy from inspected supplies. You suffer minor injuries and abandon the contaminated package."
+                "text": "A blood mark hidden in the supplies at the world devouring Dao altar drains vitality and fortune. You discard the crate and spend cleansing materials, but some good fortune remains lost."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -2
             }
           }
         ]
@@ -60972,50 +61012,52 @@
       {
         "id": "commit",
         "text": "Gỡ huyết ấn khỏi khế ước",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Gỡ ấn thành công hóa giải nút nghiệp; thất bại có thể hao khí vận.",
         "translations": {
           "zh": {
             "text": "解除契中血印",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "除印成功可化解业结；失败可能损失气运。"
           },
           "en": {
             "text": "Remove the contract’s blood seal",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Removing the mark untangles harmful karma; failure may cost fortune."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi gỡ huyết ấn khỏi khế ước tại đạo đàn nuốt giới. Bản ghi hoàn chỉnh giúp ngươi hiểu rõ cách vận dụng nguồn lực.",
+            "text": "Ngươi gỡ huyết ấn tại đạo đàn nuốt giới, giữ bản khế sạch cùng vật tư. Một nút nghiệp tan đi, trả thêm thiện duyên cho mệnh vận của ngươi.",
             "translations": {
               "zh": {
-                "text": "你在吞界道坛解除契中血印。完整记录让你更清楚如何运用现有力量。"
+                "text": "你在吞界道坛除去血印，保住干净契约与物资。一处恶业之结消散，为你的命运添回善缘。"
               },
               "en": {
-                "text": "At the world devouring Dao altar, you remove the contract’s blood seal. The completed record gives you a clearer understanding of how to use the available energy."
+                "text": "You remove the blood mark at the world devouring Dao altar, preserving the clean contract and supplies. A knot of harmful karma dissolves, adding good fortune to your destiny."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
             "id": "setback",
             "weight": 25,
-            "text": "Tại đạo đàn nuốt giới, huyết ấn chuyển sang tay khi ngươi thử gỡ khế ước. Ngươi phải hủy vật tư thanh tẩy để tránh dấu lan sâu.",
+            "text": "Huyết ấn tại đạo đàn nuốt giới chuyển sang tay, cắn vào mệnh cung. Ngươi hao vật tư chặn dấu lan sâu, nhưng sức khỏe và phúc vận đều suy giảm.",
             "translations": {
               "zh": {
-                "text": "在吞界道坛，解契时血印转移到手上，你耗用净化物资才阻止印记深入。"
+                "text": "吞界道坛的血印转到你手上，噬入命宫。你耗费物资阻止印记深入，健康与福运却都已受损。"
               },
               "en": {
-                "text": "At the world devouring Dao altar, the contract’s blood seal transfers to your hands. Cleansing consumes supplies and leaves injuries before the mark stops spreading."
+                "text": "The blood mark at the world devouring Dao altar transfers to your hand and bites into your fate. Cleansing supplies halt its spread, but both health and fortune suffer."
               }
             },
             "effects": {
               "health": -8,
-              "resources": -8
+              "resources": -8,
+              "luck": -3
             }
           }
         ]

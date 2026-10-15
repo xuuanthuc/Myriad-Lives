@@ -34114,32 +34114,33 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại quán trà cuối núi. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại quán trà cuối núi, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在山末茶馆依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在山末茶馆守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the mountain tea house, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the mountain tea house, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
-              "resources": 22
+              "resources": 22,
+              "luck": 1
             }
           },
           {
@@ -34400,33 +34401,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại lối trúc phủ sương. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại lối trúc phủ sương, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在雾竹径依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在雾竹径守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the misty bamboo trail, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the misty bamboo trail, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -34688,33 +34690,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại đạo quán không biển. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại đạo quán không biển, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在无匾道观依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在无匾道观守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the nameless shrine, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the nameless shrine, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -34976,33 +34979,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại vườn đan đóng cửa. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại vườn đan đóng cửa, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在闭丹园依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在闭丹园守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the secluded pill garden, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the secluded pill garden, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -35264,33 +35268,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại am dưỡng hồn. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại am dưỡng hồn, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在养魂庵依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在养魂庵守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the soul nurturing hermitage, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the soul nurturing hermitage, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -35552,33 +35557,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại đài ngắm thần quang. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại đài ngắm thần quang, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在观神光台依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在观神光台守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the divine light observatory, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the divine light observatory, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -35840,33 +35846,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại cửa hư không kín. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại cửa hư không kín, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在隐虚门依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在隐虚门守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the concealed void gate, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the concealed void gate, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -36128,33 +36135,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại đảo ẩn trận. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại đảo ẩn trận, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在隐阵岛依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在隐阵岛守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the hidden array island, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the hidden array island, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -36416,33 +36424,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại am nghe tiếng kiếp. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại am nghe tiếng kiếp, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在听劫庵依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在听劫庵守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the tribulation listening hermitage, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the tribulation listening hermitage, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -36704,33 +36713,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại bến tiên khách vô danh. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại bến tiên khách vô danh, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在无名仙客渡依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在无名仙客渡守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the nameless immortal landing, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the nameless immortal landing, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -36992,33 +37002,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại thư viện luật giấu kín. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại thư viện luật giấu kín, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在隐律书院依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在隐律书院守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the hidden law library, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the hidden law library, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -37424,33 +37435,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại đường huyền ảnh. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại đường huyền ảnh, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在玄影路依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在玄影路守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the mystic shadow path, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the mystic shadow path, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -37856,33 +37868,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại tiên vực sau bình phong. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại tiên vực sau bình phong, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在屏后仙域依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在屏后仙域守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the veiled immortal domain, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the veiled immortal domain, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {
@@ -38144,33 +38157,34 @@
       {
         "id": "commit",
         "text": "Giữ đồ theo lời hẹn",
-        "hint": "Có thể hao vật tư hoặc bị thương nếu xử lý thất bại.",
+        "hint": "Giữ lời có thể kết thiện duyên; giao nhận sai vẫn hao vật tư.",
         "translations": {
           "zh": {
             "text": "依约保管",
-            "hint": "失手可能消耗物资或受伤。"
+            "hint": "守信可结善缘；交接出错仍会损失物资。"
           },
           "en": {
             "text": "Safeguard the entrusted belongings",
-            "hint": "Failure may cost supplies or cause injury."
+            "hint": "Keeping your promise may build good karma; a failed handover still costs supplies."
           }
         },
         "outcomes": [
           {
             "id": "success",
             "weight": 75,
-            "text": "Ngươi giữ đồ theo lời hẹn tại đạo đình không dấu. Các bên giữ lời hẹn và gửi vật tư đáp lễ.",
+            "text": "Ngươi giữ đúng vật gửi tại đạo đình không dấu, giao lại cho khách. Vật tư đáp lễ kèm lời chúc của ẩn sĩ, kết thành thiện duyên trên đường tu.",
             "translations": {
               "zh": {
-                "text": "你在无迹道庭依约保管。各方遵守约定，赠送物资以谢你的帮助。"
+                "text": "你在无迹道庭守诺归还寄存物品。隐士送来答谢物资，又留下真诚祝愿，为你的修行结下一段善缘。"
               },
               "en": {
-                "text": "At the traceless Dao court, you safeguard the entrusted belongings. Those involved honor the agreement and provide supplies in gratitude for your help."
+                "text": "You honor the safekeeping promise at the traceless Dao court, returning the entrusted belongings. Alongside supplies, the recluse offers a sincere blessing that becomes good karma."
               }
             },
             "effects": {
               "resources": 22,
-              "cultivation": 16
+              "cultivation": 16,
+              "luck": 1
             }
           },
           {

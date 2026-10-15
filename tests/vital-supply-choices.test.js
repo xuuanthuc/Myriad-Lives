@@ -42,7 +42,9 @@ test('1400 new supply choices have 100 exclusive encounters per realm and varied
     for(const direction of [1,-1])assert.ok(outcomes.some(outcome=>(outcome.effects.health??0)*direction>0),`${event.id}: health ${direction}`);
     assert.ok(outcomes.some(outcome=>outcome.effects.resources!==0),`${event.id}: resources change`);
     for(const outcome of outcomes){
-      assert.ok(Object.keys(outcome.effects).every(key=>['health','resources'].includes(key)),event.id);
+      assert.ok(Object.keys(outcome.effects).every(key=>['health','resources','luck'].includes(key)),event.id);
+      const blessedRescue=/_evacuate_(01|05)$/.test(event.id)&&outcome.id==='escaped';
+      assert.equal(outcome.effects.luck,blessedRescue?1:undefined,event.id);
       if(outcome.effects.health<0){assert.ok(outcome.endingReason);assert.ok(outcome.translations.zh.endingReason);assert.ok(outcome.translations.en.endingReason);}
     }
   }
@@ -89,12 +91,14 @@ test('every new outcome changes health and supplies exactly once, with no extra 
     assert.equal(resolved.length,1,event.id);
     assert.equal(resolved[0].stateSnapshot.health,Math.max(0,Math.min(100,80+outcome.effects.health)),event.id);
     assert.equal(resolved[0].stateSnapshot.resources,Math.max(0,200+outcome.effects.resources),event.id);
+    assert.equal(resolved[0].stateSnapshot.luck,50+(outcome.effects.luck??0),event.id);
     assert.equal(next.rng.getState(),expectedRng.getState(),event.id);
     assert.deepEqual(run.state,stateBefore);
     assert.deepEqual(run.facts,factsBefore);
     const shown=visibleRun(next,1);
     assert.equal(shown.state.health,80);
     assert.equal(shown.state.resources,200);
+    assert.equal(shown.state.luck,50);
     assert.equal(shown.pendingChoice,null);
     assert.equal(shown.result,undefined);
   }
@@ -118,4 +122,20 @@ test('pending new choices survive save and translation, and injuries can end a l
     assert.equal(next.state.resources,0);
     assert.equal(next.result.endingReason,injury.endingReason);
   }
+});
+
+test('a rescue choice saved before fortune rewards keeps its original effects when resumed',()=>{
+  const event=added.find(item=>item.id==='vital_supply_mortal_evacuate_01');
+  const original=pending(event);
+  original.pendingChoice.options=structuredClone(event.choices);
+  const guide=original.pendingChoice.options.find(option=>option.id==='guide');
+  delete guide.outcomes[0].effects.luck;
+  guide.outcomes[0].text='Lời kể đã lưu từ phiên bản cũ.';
+  const restored=decodeSave(encodeSave({engineRun:original,session:{runCount:1,pityCount:0}})).engineRun;
+  const next=chooseOption(restored,'guide');
+  const resolved=next.facts.find(fact=>fact.eventId===event.id+'-escaped');
+  assert.equal(resolved.text,guide.outcomes[0].text);
+  assert.equal(resolved.stateSnapshot.luck,50);
+  assert.equal(next.state.luck,50);
+  assert.equal(resolved.traitChanges?.some(change=>change.trait==='luck')??false,false);
 });
