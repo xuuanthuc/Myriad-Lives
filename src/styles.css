@@ -330,13 +330,13 @@
 .condition-stat[data-level="wounded"]{--condition-color:#a77728}
 .condition-stat[data-level="critical"]{--condition-color:#b94e43}
 .condition-stat .bar span{background:var(--condition-color)}
-.condition-stat b{color:var(--condition-color)}
 [data-theme="dark"] .condition-stat{--condition-color:#91bf8d}
 [data-theme="dark"] .condition-stat[data-level="wounded"]{--condition-color:#dfb567}
 [data-theme="dark"] .condition-stat[data-level="critical"]{--condition-color:#ed968a}
 .age{gap:12px}
 .age>span{min-width:0}
-.resources-summary{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-top:18px;font-size:11px;line-height:1.6;color:var(--muted);overflow-wrap:anywhere}
+.resources-summary{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-top:18px;font-size:11px;line-height:1.6;overflow-wrap:anywhere}
+.resources-summary>span{font-size:10px;line-height:normal}
 .resources-summary b{font-weight:500;color:var(--gold)}
 [data-theme="dark"] .resources-summary b{color:#d9b96c}
 @media(max-width:760px){.profile .stats{grid-template-columns:repeat(2,minmax(0,1fr));padding-top:18px;margin-top:16px}.profile .profile-top{padding-bottom:16px}}
@@ -427,7 +427,7 @@
  .hero-note,.online-cultivators{font-size:13px}
  .profile h2,.lang-en .profile h2{font-size:30px}
  .profile-top p,.profile-foot{font-size:12px}
- .profile dl div,.history-card dl div,.stats>div>div:first-child,.age>span,.realm-tag,.gifted{font-size:14px}
+ .profile dl div,.history-card dl div,.stats>div>div:first-child,.resources-summary>span,.age>span,.realm-tag,.gifted{font-size:14px}
  .stats small,.age small{font-size:12px}
  .story-heading h2{font-size:27px}
  .story-heading span,.realm-page-heading>span{font-size:13px}
