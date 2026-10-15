@@ -2,6 +2,8 @@ import {combatEvents} from '../data/combatEvents.js';
 import {realmConflicts} from '../data/realmConflicts.js';
 
 const battles=new Set([...combatEvents,...realmConflicts].map(event=>event.id));
+// More decision points among eligible events, without increasing event frequency.
+export function choiceEncounterFactor(event){return event.choices?.length?3:1;}
 // Favor unavoidable fights without making safe choices secretly lethal.
 export function combatEncounterFactor(event,realm){
   if(!battles.has(event.id))return 1;

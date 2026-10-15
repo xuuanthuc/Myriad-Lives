@@ -358,17 +358,18 @@
           },
           {
             "id": "failure",
-            "text": "Một phiến đá gãy dưới chân khiến ngươi rơi xuống sườn vực. Bám được rễ cây, ngươi thoát chết nhưng phải chịu thương tích nặng nề.",
+            "text": "Phiến đá gãy khiến ngươi rơi xuống vực, may bám được rễ cây. Trọng thương còn đó, nhưng vượt qua đại nạn khiến mệnh vận tích thêm một tia sinh cơ.",
             "weight": 45,
             "effects": {
-              "health": -38
+              "health": -38,
+              "luck": 3
             },
             "translations": {
               "zh": {
-                "text": "脚下石板断裂，你跌向崖壁。抓住树根才保住性命，却也受了重伤。"
+                "text": "石板断裂，你坠入山谷，幸而抓住树根。重伤依旧，但死里逃生让命运多了一线生机，积下些许福缘。"
               },
               "en": {
-                "text": "A stone slab breaks beneath you and sends you tumbling down the cliff. Catching a root saves your life, but leaves you badly injured."
+                "text": "A broken slab sends you into the ravine, where a root arrests your fall. Serious injuries remain, but surviving the calamity strengthens a fragile thread of fortune."
               }
             }
           }
@@ -1513,20 +1514,21 @@
       {
         "id": "injury",
         "weight": 4,
-        "text": "Dây nghiệp siết đạo cơ khi ngươi gỡ một nút đang giữ sinh linh. Đường được mở sau trận đánh, nhưng nhân quả lẫn trong vết thương cần nhiều bảo vật thanh lọc.",
+        "text": "Dây nghiệp siết đạo cơ khi ngươi mở đường cứu sinh linh. Nhân quả lưu trong vết thương ăn mòn phúc vận, buộc ngươi hao bảo liệu để thanh lọc.",
         "translations": {
           "zh": {
-            "text": "你解开困住生灵的业结时，藤蔓勒伤道基。战后道路开放，伤处混杂的因果却须耗费许多宝物净化。",
+            "text": "你为生灵打开道路时，业藤勒伤道基。伤口中残留的因果侵蚀福运，迫使你耗费宝料清理，方能阻止它继续蔓延。",
             "endingReason": "大道遭业藤绞断而亡"
           },
           "en": {
-            "text": "Vines wound your foundation as you loosen a knot imprisoning souls. The fight opens their path, but cleansing the tangled causes within your injury consumes many treasures.",
+            "text": "Karma vines wound your foundation while you clear a path for living souls. Lingering bonds erode your fortune, forcing you to spend precious materials cleansing the injury.",
             "endingReason": "Dao severed by constricting karma vines"
           }
         },
         "effects": {
           "health": -18,
-          "resources": -14
+          "resources": -14,
+          "luck": -4
         },
         "endingReason": "Đại đạo bị dây nghiệp siết đứt"
       },
@@ -4501,17 +4503,18 @@
       {
         "id": "survive",
         "weight": 9,
-        "text": "Ngươi tách dấu nhận khỏi ấn tổ rồi phong nó trong vật chứa không nối đạo vực. Vật chứa tiêu hao nhiều bảo liệu, đổi lại lời nguyền hết lấy ngươi làm người trả nợ.",
+        "text": "Ngươi tiêu hao bảo liệu phong kín ấn tổ, cắt dấu nhận khỏi đạo vực. Lời nguyền thôi đòi mạng, nhưng đã hút mất một phần phúc vận.",
         "translations": {
           "zh": {
-            "text": "你剥离收印痕，将祖印封进不接道域的容器。容器耗去宝料，旧咒却不再把你当偿债者。"
+            "text": "你耗费宝料封住祖印，将收印痕与道域切断。诅咒不再索命，却已吞噬一部分福运，留下难以挽回的损耗。"
           },
           "en": {
-            "text": "Separating the receipt mark lets you seal it within a container unconnected to your domain. Precious materials are spent, but the curse no longer names you as its debtor."
+            "text": "You spend precious materials sealing the ancestral mark away from your domain. The curse stops demanding your life, but has already consumed a portion of your fortune."
           }
         },
         "effects": {
-          "resources": -12
+          "resources": -12,
+          "luck": -5
         }
       },
       {
@@ -5491,18 +5494,19 @@
       {
         "id": "injury",
         "weight": 3,
-        "text": "Ngươi bỏ gương hồn để đổi lấy khoảng trống thoát thân. Đối thủ vẫn đánh trúng lưng, khiến ngươi phải tìm nơi ẩn náu dưỡng thương.",
+        "text": "Ngươi bỏ gương hồn, đốt một sợi phúc duyên để thoát vòng vây. Đòn truy kích vẫn gây thương tích, nhưng khe hở ấy giúp ngươi giữ mạng.",
         "effects": {
           "health": -20,
-          "resources": -10
+          "resources": -10,
+          "luck": -3
         },
         "translations": {
           "zh": {
-            "text": "你舍弃魂镜换取脱身机会。对手仍击中你的背部，迫使你躲进隐蔽处，缓缓调养伤势。",
+            "text": "你舍弃魂镜，燃去一缕福缘逃出包围。追击仍留下伤势，但那一瞬的空隙终于让你保住了性命。",
             "endingReason": "争夺魂镜时重伤而亡"
           },
           "en": {
-            "text": "You abandon the soul mirror to create an opening for escape. Your opponent strikes your back, forcing you to seek shelter and recover from the wound.",
+            "text": "You abandon the soul mirror and burn a thread of fortune to escape the encirclement. A pursuing strike still wounds you, but that brief opening preserves your life.",
             "endingReason": "Fatal wounds while contesting the soul mirror"
           }
         },
@@ -38070,6 +38074,196 @@
               }
             },
             "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fate_curse",
+    "category": "disaster",
+    "title": "Ấn chú trên mảnh ngọc",
+    "text": "Mảnh ngọc nhặt được bất chợt rạn vỡ, giải phóng tà chú bám vào mệnh cung. Ngươi kịp phong bế kinh mạch, nhưng phúc vận đã hao tổn.",
+    "translations": {
+      "zh": {
+        "title": "残玉咒印",
+        "text": "拾来的残玉忽然碎裂，邪咒侵入命宫。你及时封住经脉，免遭更重伤害，但命中福运仍被蚕食了一部分。"
+      },
+      "en": {
+        "title": "A curse within broken jade",
+        "text": "A jade fragment suddenly cracks, releasing a curse into your fate. You seal your meridians before it spreads, yet part of your fortune has already faded."
+      }
+    },
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "true_immortal",
+      "golden_immortal",
+      "mystic_immortal",
+      "immortal_king",
+      "immortal_emperor"
+    ],
+    "effects": {
+      "luck": -4
+    }
+  },
+  {
+    "id": "fate_survived",
+    "category": "disaster",
+    "title": "Đại nạn còn đường sống",
+    "text": "Linh triều bất ngờ cuốn ngươi vào khe đá. Sau nhiều ngày dưỡng thương, ngươi nhận ra một tia sinh cơ đã hòa vào mệnh vận.",
+    "translations": {
+      "zh": {
+        "title": "大难留生路",
+        "text": "突来的灵潮把你卷入石缝。你挣扎脱险，休养数日后察觉一线生机已融入命运，大难之后悄然积下福缘。"
+      },
+      "en": {
+        "title": "A path through calamity",
+        "text": "A sudden spiritual surge sweeps you into a rocky crevice. After escaping and tending your wounds, you discover that a thread of survival has strengthened your fortune."
+      }
+    },
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "true_immortal",
+      "golden_immortal",
+      "mystic_immortal",
+      "immortal_king",
+      "immortal_emperor"
+    ],
+    "conditions": {
+      "health": 50
+    },
+    "effects": {
+      "health": -18,
+      "luck": 3
+    }
+  },
+  {
+    "id": "fate_spend_blessing",
+    "category": "disaster",
+    "title": "Bùa hộ mệnh đang cháy",
+    "text": "Một cấm trận khép lại quanh ngươi. Bùa hộ mệnh có thể đốt phúc duyên mở lối, hoặc ngươi tự phá trận và chịu thương tích.",
+    "translations": {
+      "zh": {
+        "title": "燃烧的护命符",
+        "text": "禁阵突然合拢，封住退路。护命符能燃烧福缘打开出口，你也可以亲自破阵，但必须承受阵法反噬带来的伤势。"
+      },
+      "en": {
+        "title": "The burning talisman",
+        "text": "A sealing formation closes around you. Your talisman can consume fortune to open an exit, or you can break through yourself and endure the resulting injuries."
+      }
+    },
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "true_immortal",
+      "golden_immortal",
+      "mystic_immortal",
+      "immortal_king",
+      "immortal_emperor"
+    ],
+    "conditions": {
+      "health": 40,
+      "luck": 5
+    },
+    "choices": [
+      {
+        "id": "burn",
+        "text": "Đốt phúc duyên thoát thân",
+        "hint": "Mất 5 khí vận, tránh thương tích.",
+        "translations": {
+          "zh": {
+            "text": "燃福脱身",
+            "hint": "消耗五点气运，避开伤势。"
+          },
+          "en": {
+            "text": "Burn fortune to escape",
+            "hint": "Lose 5 luck and avoid injury."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "escaped",
+            "weight": 100,
+            "effects": {
+              "luck": -5
+            },
+            "text": "Bùa hộ mệnh cháy thành tro, rạch một khe sáng giữa cấm trận. Ngươi bước ra nguyên vẹn, nhưng cảm thấy phúc duyên vừa mỏng đi.",
+            "translations": {
+              "zh": {
+                "text": "护命符燃成灰烬，在禁阵中撕开一道光隙。你安然走出，却清楚感到护持自身的福缘已经薄了一层。"
+              },
+              "en": {
+                "text": "The talisman burns to ash and tears a bright opening through the formation. You emerge unharmed, sensing that the fortune protecting you has grown thinner."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "force",
+        "text": "Tự phá trận chịu thương",
+        "hint": "Mất 15 sức khỏe, giữ khí vận.",
+        "translations": {
+          "zh": {
+            "text": "强行破阵",
+            "hint": "损失十五点健康，保留气运。"
+          },
+          "en": {
+            "text": "Break through by force",
+            "hint": "Lose 15 health and preserve luck."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "wounded",
+            "weight": 100,
+            "effects": {
+              "health": -15
+            },
+            "text": "Ngươi gom linh lực đánh vào mắt trận, dùng thân chịu luồng phản chấn. Lối thoát mở ra, để lại vết thương cần thời gian dưỡng lại.",
+            "translations": {
+              "zh": {
+                "text": "你凝聚灵力击穿阵眼，以肉身承受反震。退路终于打开，身上的伤口却需要一段安静修养才能恢复。"
+              },
+              "en": {
+                "text": "You gather your energy and strike the formation’s core, absorbing its backlash with your body. An escape opens, leaving wounds that will require patient recovery."
+              }
+            }
           }
         ]
       }

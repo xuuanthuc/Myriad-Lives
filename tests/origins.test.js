@@ -22,6 +22,16 @@ test('sect children can awaken, be sheltered, leave, or die young without roots'
     if(!run.profile.origin.bornInSect)continue;
     const completed=autoComplete(run);
     if(run.profile.root.score>0) {
+      if(completed.state.age<run.awakeningAge){
+        // Childhood encounters may end a life before roots can awaken.
+        assert.equal(completed.phase,'finished');
+        assert.equal(completed.state.alive,false);
+        assert.equal(completed.state.realm,0);
+        assert.equal(completed.state.sectStatus,'resident');
+        assert.ok(!completed.facts.some(x=>['awaken','sect-screening'].includes(x.eventId)));
+        assert.equal(completed.facts.at(-1).category,'ending');
+        continue;
+      }
       assert.equal(completed.state.sectStatus,'member');
       assert.ok(completed.facts.some(x=>x.eventId==='awaken'));
       assert.ok(!completed.facts.some(x=>x.eventId==='sect-screening'));

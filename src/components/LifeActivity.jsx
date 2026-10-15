@@ -18,7 +18,7 @@ const EventEntry=memo(function EventEntry({fact,t,selected,registerNode}){
   const stage=stageName(fact.stateSnapshot);
   return <article key={fact.id} tabIndex={-1} ref={attach} className={'entry '+fact.category+' event-type-'+eventType(fact)+(selected?' event-highlight':'')}>
     <div className="time"><b>{fact.age}</b><small>{t('tuổi')}</small></div>
-    <div className="entry-content"><span className="dot"/><h3>{t(fact.title)}</h3>{stage&&<small className="event-subrealm">{t(realms[fact.realm].name)} · {t(stage)}</small>}<p>{t(fact.text)}</p></div>
+    <div className="entry-content"><span className="dot"/><h3>{t(fact.title)}</h3>{stage&&<small className="event-subrealm">{t(realms[fact.realm].name)} · {t(stage)}</small>}<p>{t(fact.text)}</p>{fact.traitChanges?.map(change=><p className="trait-change" key={change.trait}><strong>{t(change.trait==='luck'?'Khí vận':'Linh căn')}</strong>: {t(String(change.before))} → {t(String(change.after))}</p>)}</div>
   </article>;
 });
 

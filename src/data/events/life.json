@@ -680,18 +680,19 @@
         "outcomes": [
           {
             "id": "success",
-            "text": "Ngươi dùng linh dược cứu người bị thương và nhận chút thù lao. Sau khi rời đi, tâm thần nhẹ nhõm giúp ngươi chuyên tâm hơn trong buổi tu luyện tới.",
+            "text": "Ngươi dùng linh dược cứu người, nhận chút đáp lễ rồi tiếp tục tu luyện. Lời chúc chân thành kết thành thiện duyên, khiến khí vận âm thầm tăng thêm.",
             "weight": 55,
             "effects": {
               "resources": -8,
-              "cultivation": 18
+              "cultivation": 18,
+              "luck": 3
             },
             "translations": {
               "zh": {
-                "text": "你用灵药救下伤者，获得少许酬谢。离开后心绪安定，下一次修炼也更加专注。"
+                "text": "你用灵药救人，收下些许谢礼后继续修炼。真诚的祝愿凝成善缘，使你的气运在不知不觉间增长。"
               },
               "en": {
-                "text": "You use medicine to treat the traveler and receive a small reward. Leaving with a lighter mind helps you concentrate during your next cultivation session."
+                "text": "You spend spirit medicine saving the traveler and receive a modest gift before resuming cultivation. Their heartfelt blessing forms a bond of kindness that quietly strengthens your fortune."
               }
             }
           },
@@ -3491,7 +3492,7 @@
     "id": "lower_realms_colors_041",
     "category": "life",
     "title": "Ngôi làng quên tên ân nhân",
-    "text": "Ngươi ghé làng từng giúp qua nạn, thấy họ kể ân nhân có ba đầu. Một bà cụ nhận ra ngươi, cười rồi mời ăn khoai luộc.",
+    "text": "Ngươi trở lại làng từng cứu qua nạn, được bà cụ mời khoai luộc. Dân đã quên tên ân nhân, nhưng lời cầu chúc vẫn bồi thêm phúc vận.",
     "weight": 6,
     "minAge": 16,
     "cooldownYears": 40,
@@ -3500,15 +3501,17 @@
     "allowedRealms": [
       "nascent_soul"
     ],
-    "effects": {},
+    "effects": {
+      "luck": 3
+    },
     "translations": {
       "zh": {
         "title": "忘了恩人姓名的村庄",
-        "text": "你重访曾救过的村庄，发现恩人已被传成三头神。老妇认出了你，笑着请你吃一碗煮薯。"
+        "text": "你重访曾救过的村庄，老妇请你吃煮薯。村民虽忘了恩人的姓名，长久的祝愿却仍为你积下福运。"
       },
       "en": {
         "title": "The village that forgot its rescuer",
-        "text": "You revisit a village you once helped and find its rescuer described as three headed. An old woman recognizes you and offers boiled sweet potatoes."
+        "text": "You revisit the village you once saved, where an elder offers boiled sweet potatoes. Though your name has faded from memory, enduring prayers still add to your fortune."
       }
     }
   },

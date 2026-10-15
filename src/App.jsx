@@ -1,3 +1,4 @@
+import {currentProfile} from './engine/profileEvolution.js';
 import {worldPlaneName,worldPlaneDescription} from './data/worlds.js';
 import {choiceHint} from './data/choiceHints.js';
 import {autoPlayStep} from './utils/autoPlay.js';
@@ -51,6 +52,7 @@ export default function App() {
   const [birthPending,setBirthPending]=useState(restored?.birthPending||false);
   const {run,playing,progress,progressNode,progressLabel,getPlayback}=useLifePlayback(engineRun,speed,paused||birthPending||page!=='game',restored?.playback);
   const finished=run?.phase==='finished';
+  const currentTraits=currentProfile(run);
   const onlineCount=useOnlineCultivators({active:page==='game'&&!!run&&!finished&&!birthPending,observe:page==='home'});
   const visibleHistory=useMemo(()=>historyWithCompletedLife(history,run),[history,run]);
   const saveState=useRef(null);
@@ -152,11 +154,11 @@ export default function App() {
           <aside className="profile">
             <div className="profile-top"><span className="profile-icon">命</span><p>{t('SỐ MỆNH KIẾP NÀY')}</p><h2>{translateName(run.profile.name,language)}</h2><span className="realm-tag">{t(realms[run.state.realm].name)}{stageName(run.state)?' · '+t(stageName(run.state)):''}</span>{run.profile.isGoodProfile&&<span className="gifted">✦ {t('Tiên tư xuất chúng')}</span>}</div>
             <dl>{[
-              ['Giới tính',genderName(run.profile)],['Xuất thân',run.profile.origin.name],['Linh căn',run.profile.root.name],['Thể chất',run.profile.physique.name],
+              ['Giới tính',genderName(run.profile)],['Xuất thân',run.profile.origin.name],['Linh căn',currentTraits.root.name],['Thể chất',run.profile.physique.name],
               ['Tông môn',sectNameForRun(run)||'Chưa gia nhập'],
               ['Đạo lữ',partnerForRun(run)?.name||'Độc hành'],
             ].map(([label,value])=><div key={label}><dt>{t(label)}</dt><dd>{t(value)}</dd></div>)}</dl>
-            <div className="stats">{[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',run.profile.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}</div>
+            <div className="stats">{[['Tư chất',run.profile.talent],['Ngộ tính',run.profile.comprehension],['Khí vận',currentTraits.luck]].map(([label,value])=><div key={label}><div><span>{t(label)}</span><b>{value}<small> / 100</small></b></div><div className="bar"><span style={{width:value+'%'}}/></div></div>)}</div>
             <div className="age"><span>{t(finished?'Hưởng thọ':'Tuổi hiện tại')}</span><strong><AnimatedNumber key={run.number} value={run.state.age} speed={speed}/><small> {t('tuổi')}</small></strong></div>
             <p className="profile-foot">{t(finished?'Một số mệnh đã thành chuyện cũ.':'Tiên lộ còn chưa ngã ngũ.')}</p>
           </aside>

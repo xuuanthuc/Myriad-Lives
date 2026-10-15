@@ -2,8 +2,8 @@
 // Injuries and lost cultivation remain setbacks even when some loot is gained.
 export function outcomeFavor(outcome){
   const e=outcome.effects||{};
-  if(e.health<0||e.cultivation<0||e.lifespan<0)return -1;
-  if(e.health>0||e.cultivation>0||e.lifespan>0||e.resources>0)return 1;
+  if(e.health<0||e.cultivation<0||e.lifespan<0||e.luck<0)return -1;
+  if(e.health>0||e.cultivation>0||e.lifespan>0||e.resources>0||e.luck>0||e.rootUpgrade>0)return 1;
   return e.resources<0?-1:0;
 }
 

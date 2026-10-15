@@ -10,7 +10,11 @@ allowedPlanes is an optional nonempty array of unique world-plane IDs: peaceful,
 
 conditions supports numeric minimum health/resources/luck/comprehension, exact gender male/female, canonical Vietnamese root/physique name, sectStatus none/member/resident, partnerStatus none/bonded. Do not invent engine condition keys.
 
-effects supports numeric cultivation/health/resources/lifespan deltas, sectStatus/partnerStatus assignments, death boolean. No talent/luck buff keys without engine work.
+effects supports numeric cultivation/health/resources/lifespan/luck deltas, rootUpgrade:1 (one canonical root grade), sectStatus/partnerStatus assignments, death boolean. Luck clamps to 0–100. No talent buff keys. Birth profile stays immutable; evolved luck/root are in state and read with currentProfile(run). Existing snapshots and fact.traitChanges preserve the narrated before/after values. Normal injuries do not automatically reduce luck.
+
+conditions.rootBelow is an exclusive upper bound on the current root score. Root renewal events use rootBelow:100, health:40, allowedRealms from foundation through body_integration, weight:1, maxOccurrencesPerLife:1 and exclusiveGroup:"root_transformation". The group is consumed when an event is offered, including refusal/failure; all root renewal events share one lifetime opportunity. Missing state.encounterGroups in old saves means no consumed group. Never mutate birth identity or consume additional RNG for trait updates. New traits affect later rolls, not the roll granting them.
+
+Choice encounters receive a ×3 engine encounter-weight factor after eligibility. Do not bake this into JSON weights or apply it to outcome weights. This does not guarantee a fixed number of choices per life. Existing special outcomes may change luck when the narrative explicitly supports blessings, inheritance, curses, karmic harm or surviving a calamity. Preserve prior effects and IDs, translate the explanation, and leave ordinary injury/withdrawal/death outcomes unchanged. Saved pending options keep their serialized effects.
 
 Automatic fights: combat:true, category:disaster, outcomes array (not choices). Outcomes need id, weight, text, translations, effects. Add victory/injury/death. Death requires endingReason plus translations.zh/en.endingReason. Injury should have its own battle-specific reason when health loss can kill. Examples: src/data/combatEvents.js.
 

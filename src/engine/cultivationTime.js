@@ -1,3 +1,4 @@
+import {currentProfile} from './profileEvolution.js';
 import {realms} from '../data/realms.js';
 
 // Game pacing, not ages taken from any particular novel.
@@ -14,7 +15,7 @@ export const cultivationTiming=settings.map(([baseAge,minimumYears,quietYears],i
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 export function rootTimeFactor(profile){return 1.7-clamp(profile.root.score,0,100)*.008;}
 export function breakthroughRecoveryYears(run){
-  return Math.max(8,Math.ceil(cultivationTiming[run.state.realm].minimumYears*rootTimeFactor(run.profile)));
+  return Math.max(8,Math.ceil(cultivationTiming[run.state.realm].minimumYears*rootTimeFactor(currentProfile(run))));
 }
 function lifeTimeVariation(run){
   const source=[run.number,run.profile.name,run.profile.luck,run.world.resources,run.world.cultivationDifficulty].join('|');
@@ -25,7 +26,7 @@ function lifeTimeVariation(run){
 export function breakthroughAge(run){
   const s=run.state,t= cultivationTiming[s.realm];
   if(s.realm===0)return 0;
-  const rootFactor=rootTimeFactor(run.profile);
+  const rootFactor=rootTimeFactor(currentProfile(run));
   const aptitude=.85+(100-(run.profile.talent+run.profile.comprehension)/2)*.003;
   const environment=.9+clamp(run.world.cultivationDifficulty/run.world.resources,.4,2.5)*.1;
   const entered=s.realmEnteredAge??run.facts.find(f=>f.realm===s.realm)?.age??s.age;

@@ -3721,18 +3721,19 @@
           {
             "id": "success",
             "weight": 3,
-            "text": "Ngươi ngắt đạo âm mà giữ những dòng nuôi nền giới không đổi, thấy pháp tắc riêng dần rõ. Chu kỳ thử giúp hiểu khi nào trợ lực nên nhường chỗ cho tự vận hành.",
+            "text": "Ngươi ngắt đạo âm đúng nhịp, giữ nền giới vững để pháp tắc tự trưởng thành. Đạo nguyên thu được mang theo phúc duyên của sinh linh nơi ấy.",
             "translations": {
               "zh": {
-                "text": "你停下道音而不改滋养界基的气流，见自身法则渐清。试验周期让你理解何时外助应让位于自行运转。"
+                "text": "你适时停下道音，稳住界基，让法则自行成长。收获的道源带来此界生灵的福缘，化作护持命运的一缕善意。"
               },
               "en": {
-                "text": "You silence the sounds while preserving currents supporting the foundation. Its own laws grow clearer, revealing when assistance should give way to a world’s independent operation."
+                "text": "You silence the Dao sounds at the right moment, preserving the world as its laws mature independently. The gathered essence carries blessings from its inhabitants into your fortune."
               }
             },
             "effects": {
               "resources": 16,
-              "cultivation": 12
+              "cultivation": 12,
+              "luck": 4
             }
           },
           {
@@ -5850,17 +5851,18 @@
           {
             "id": "gain",
             "weight": 40.625,
-            "text": "Ngươi kiên nhẫn dò xét từng dấu hiệu, rồi chọn đúng thời điểm ra tay. Truyền thừa trong vách đá thuộc về ngươi, đem lại nguồn lực quý cho chặng tu hành tiếp theo.",
+            "text": "Ngươi nhận truyền thừa trong vách đá, thu linh tài cùng pháp quyết còn nguyên. Một sợi phúc duyên của tiền nhân theo đó hòa vào mệnh vận.",
             "effects": {
               "resources": 32,
-              "cultivation": 24
+              "cultivation": 24,
+              "luck": 5
             },
             "translations": {
               "zh": {
-                "text": "你耐心辨认每一道征兆，在恰当时刻出手。石壁中的传承最终归你所有，为接下来的修行提供珍贵助力。"
+                "text": "你取得石壁中的传承，收下灵材与完整法诀。前人留下的一缕福缘随之融入命运，使气运更加深厚。"
               },
               "en": {
-                "text": "You patiently examine every sign and act at the right moment. Claiming the inheritance within the cliff gives you valuable resources for the next stage of your cultivation."
+                "text": "You claim the inheritance within the cliff, gathering spiritual materials and intact teachings. A thread of blessing left by its former keeper joins your fate and deepens your fortune."
               }
             }
           },
@@ -7384,15 +7386,15 @@
     "id": "ascendant30_immortal_king_chess",
     "category": "opportunity",
     "title": "Quân cờ giữ sơn hà",
-    "text": "Một bàn cờ đá bỏ dở phản chiếu sông núi quanh vùng. Ngươi đặt lại quân cờ rơi, khiến linh mạch thông suốt và nhận tiên khí từ thế trận hồi phục.",
+    "text": "Ngươi đặt lại quân cờ rơi, khơi thông linh mạch nuôi sơn hà. Tiên khí cùng linh tài tụ về, mang thêm phúc duyên từ vùng đất vừa hồi phục.",
     "translations": {
       "zh": {
         "title": "守护山河的棋子",
-        "text": "未完的石棋局映照着周围山河。你放回掉落的棋子，疏通灵脉，并吸收棋阵恢复时释放的仙气。"
+        "text": "你放回落下的棋子，疏通滋养山河的灵脉。仙气与灵材汇聚而来，也带来这片复苏土地凝成的一缕福缘。"
       },
       "en": {
         "title": "The Chess Piece Guarding the Land",
-        "text": "An unfinished stone chessboard reflects the surrounding mountains and rivers. Returning a fallen piece restores blocked spiritual veins and releases immortal energy from the recovered formation."
+        "text": "Returning the fallen chess piece restores the veins nourishing the land. Immortal energy and spiritual materials gather, carrying a small blessing from the recovering mountains into your fortune."
       }
     },
     "allowedRealms": [
@@ -7405,7 +7407,8 @@
     "importance": "major",
     "effects": {
       "cultivation": 18,
-      "resources": 22
+      "resources": 22,
+      "luck": 3
     }
   },
   {
@@ -11421,16 +11424,17 @@
           {
             "id": "result",
             "weight": 3,
-            "text": "Ngươi kiểm thấy phần thuốc còn lành, mở kho để dân dùng theo lời thầy thuốc. Họ góp vật tư trả công, ngươi ghi riêng những lọ không được phép dùng.",
+            "text": "Ngươi kiểm thuốc rồi mở kho cứu trẻ sốt, nhận vật tư dân góp trả công. Lời cầu chúc của những gia đình kết thành thiện duyên quanh mệnh vận.",
             "effects": {
-              "resources": 12
+              "resources": 12,
+              "luck": 3
             },
             "translations": {
               "zh": {
-                "text": "你验出仍可用的药，开库让百姓按医嘱领用。他们凑材料付酬，你另记下不能使用的药瓶。"
+                "text": "你验药开库，救治发热的孩子，收下百姓凑来的物资。家人真挚的祈愿结成善缘，悄然护持你的命运。"
               },
               "en": {
-                "text": "You identify usable medicine and open the store under a physician’s guidance. Villagers pay in supplies while you separately record which bottles must not be used."
+                "text": "You inspect the medicine and open the store for feverish children, accepting supplies in thanks. Their families’ heartfelt prayers gather into a bond that strengthens your fortune."
               }
             }
           },
@@ -65281,6 +65285,433 @@
               }
             },
             "effects": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fate_blessing",
+    "category": "opportunity",
+    "title": "Lời chúc dưới mái đình",
+    "text": "Ngươi đưa một lão nhân lạc đường về cổ đình. Trước lúc chia tay, người ấy điểm nhẹ mi tâm, để lại một luồng phúc khí ấm áp.",
+    "translations": {
+      "zh": {
+        "title": "古亭祝愿",
+        "text": "你送迷路老人返回古亭。临别时，他轻点你的眉心，留下一缕温暖福气，随后消失在山雾之中。"
+      },
+      "en": {
+        "title": "A blessing beneath the pavilion",
+        "text": "You guide a lost elder back to an ancient pavilion. Before departing, he touches your brow and leaves a warm thread of fortune within you."
+      }
+    },
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "true_immortal",
+      "golden_immortal",
+      "mystic_immortal",
+      "immortal_king",
+      "immortal_emperor"
+    ],
+    "effects": {
+      "luck": 5
+    }
+  },
+  {
+    "id": "fate_inheritance",
+    "category": "opportunity",
+    "title": "Thiện duyên của người giữ sách",
+    "text": "Ngươi trả lại quyển đạo thư thất lạc cho người giữ các. Đối phương truyền một pháp môn dưỡng vận, giúp phúc duyên lặng lẽ sâu thêm.",
+    "translations": {
+      "zh": {
+        "title": "守卷人的善缘",
+        "text": "你把遗失的道书交还守阁人。对方传授养运法门，助你温养命中福缘，往日善举悄然结出新的果实。"
+      },
+      "en": {
+        "title": "The keeper’s gratitude",
+        "text": "You return a lost scripture to its keeper. In gratitude, the keeper teaches a method of nourishing fortune, allowing past kindness to deepen your blessings."
+      }
+    },
+    "weight": 3,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "qi_refining",
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration",
+      "mahayana",
+      "true_immortal",
+      "golden_immortal",
+      "mystic_immortal",
+      "immortal_king",
+      "immortal_emperor"
+    ],
+    "effects": {
+      "luck": 4,
+      "cultivation": 5
+    }
+  },
+  {
+    "id": "root_jade_spring",
+    "category": "opportunity",
+    "title": "Suối tẩy căn trong lòng núi",
+    "text": "Trong lòng núi, ngươi tìm thấy linh tuyền có thể gột tạp chất khỏi linh căn. Dòng nước chỉ mở một lần, và tẩy căn vẫn có rủi ro.",
+    "translations": {
+      "zh": {
+        "title": "山腹洗根泉",
+        "text": "山腹深处藏着一眼灵泉，泉水能够洗去灵根杂质。泉眼仅开这一次，洗根却仍有损伤经脉的风险。"
+      },
+      "en": {
+        "title": "The hidden cleansing spring",
+        "text": "Deep inside a mountain, you discover a spring that can cleanse impurities from spiritual roots. It opens only once, and bathing in it still carries risk."
+      }
+    },
+    "weight": 1,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration"
+    ],
+    "exclusiveGroup": "root_transformation",
+    "conditions": {
+      "health": 40,
+      "rootBelow": 100
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử cải thiện linh căn",
+        "hint": "Có thể nâng một bậc linh căn; thất bại mất 12 sức khỏe.",
+        "translations": {
+          "zh": {
+            "text": "尝试改善灵根",
+            "hint": "有望提升一阶灵根；失败损失十二点健康。"
+          },
+          "en": {
+            "text": "Attempt to improve your roots",
+            "hint": "May raise roots by one grade; failure costs 12 health."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "renewed",
+            "weight": 70,
+            "effects": {
+              "rootUpgrade": 1
+            },
+            "text": "Linh tuyền thấm qua kinh mạch, gột đi lớp tạp chất sâu trong căn cơ. Ngươi bước khỏi mặt nước, cảm nhận linh căn đã tinh thuần hơn.",
+            "translations": {
+              "zh": {
+                "text": "灵泉浸透经脉，洗去根基深处的杂质。你走出泉水，感到灵根比从前精纯，吸纳天地灵气也更加顺畅。"
+              },
+              "en": {
+                "text": "The spring flows through your meridians and washes impurities from your foundation. Emerging from the water, you feel your spiritual roots drawing energy with greater purity."
+              }
+            }
+          },
+          {
+            "id": "rejected",
+            "weight": 30,
+            "effects": {
+              "health": -12
+            },
+            "text": "Linh lực xung đột khiến kinh mạch đau nhói. Ngươi lập tức dừng lại bảo toàn căn cơ, chịu chút thương tổn nhưng linh căn chưa thể thay đổi.",
+            "translations": {
+              "zh": {
+                "text": "灵力冲突使经脉剧痛。你立即停止尝试，保住原有根基，虽然受了些伤，灵根却未能发生预期中的变化。"
+              },
+              "en": {
+                "text": "Conflicting energies send pain through your meridians. You stop immediately to protect your foundation, suffering an injury while your spiritual roots remain unchanged despite the attempt."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Giữ nguyên căn cơ, rời đi",
+        "hint": "Bỏ qua cơ duyên này; không gặp cơ duyên đổi căn khác trong kiếp.",
+        "translations": {
+          "zh": {
+            "text": "保留根基，离开",
+            "hint": "放弃此次机缘；此生不再遇到其他改根机缘。"
+          },
+          "en": {
+            "text": "Preserve your roots and leave",
+            "hint": "Pass on this opportunity; no further root renewal encounters this life."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "left",
+            "weight": 100,
+            "effects": {},
+            "text": "Ngươi cân nhắc căn cơ hiện tại rồi lặng lẽ rời đi. Cơ duyên khép lại phía sau, còn con đường tu luyện vẫn tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你权衡现有根基，最终安静离开。这次机缘在身后合拢，而你的修行之路仍将凭借原有灵根继续向前。"
+              },
+              "en": {
+                "text": "You consider your present foundation and quietly leave. The opportunity closes behind you, while your cultivation journey continues with the spiritual roots you have always known."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "root_renewal_pill",
+    "category": "opportunity",
+    "title": "Tẩy căn đan trong cổ lô",
+    "text": "Ngươi mở cổ lô, tìm được một viên tẩy căn đan còn nguyên dược lực. Đan dược có thể cải thiện linh căn, song phản ứng khó lường.",
+    "translations": {
+      "zh": {
+        "title": "古炉洗根丹",
+        "text": "你打开古炉，发现一枚药力完整的洗根丹。它或能改善灵根，但服下之后经脉会如何回应，仍然难以预料。"
+      },
+      "en": {
+        "title": "A cleansing pill in an ancient furnace",
+        "text": "Inside an ancient furnace rests a cleansing pill with its potency intact. It may improve your spiritual roots, although the reaction within your meridians remains uncertain."
+      }
+    },
+    "weight": 1,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration"
+    ],
+    "exclusiveGroup": "root_transformation",
+    "conditions": {
+      "health": 40,
+      "rootBelow": 100
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử cải thiện linh căn",
+        "hint": "Có thể nâng một bậc linh căn; thất bại mất 12 sức khỏe.",
+        "translations": {
+          "zh": {
+            "text": "尝试改善灵根",
+            "hint": "有望提升一阶灵根；失败损失十二点健康。"
+          },
+          "en": {
+            "text": "Attempt to improve your roots",
+            "hint": "May raise roots by one grade; failure costs 12 health."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "renewed",
+            "weight": 70,
+            "effects": {
+              "rootUpgrade": 1
+            },
+            "text": "Dược lực tan chậm trong đan điền, tách lớp trọc khí bám quanh linh căn. Sau một đêm điều tức, căn cơ của ngươi tiến thêm một bậc.",
+            "translations": {
+              "zh": {
+                "text": "药力在丹田缓缓化开，剥离缠绕灵根的浊气。经过整夜调息，你的根基终于更进一步，灵力流转也清澈了许多。"
+              },
+              "en": {
+                "text": "The medicine dissolves slowly in your core, stripping away impurities around your spiritual roots. After a night of measured breathing, your foundation rises to a higher grade."
+              }
+            }
+          },
+          {
+            "id": "rejected",
+            "weight": 30,
+            "effects": {
+              "health": -12
+            },
+            "text": "Linh lực xung đột khiến kinh mạch đau nhói. Ngươi lập tức dừng lại bảo toàn căn cơ, chịu chút thương tổn nhưng linh căn chưa thể thay đổi.",
+            "translations": {
+              "zh": {
+                "text": "灵力冲突使经脉剧痛。你立即停止尝试，保住原有根基，虽然受了些伤，灵根却未能发生预期中的变化。"
+              },
+              "en": {
+                "text": "Conflicting energies send pain through your meridians. You stop immediately to protect your foundation, suffering an injury while your spiritual roots remain unchanged despite the attempt."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Giữ nguyên căn cơ, rời đi",
+        "hint": "Bỏ qua cơ duyên này; không gặp cơ duyên đổi căn khác trong kiếp.",
+        "translations": {
+          "zh": {
+            "text": "保留根基，离开",
+            "hint": "放弃此次机缘；此生不再遇到其他改根机缘。"
+          },
+          "en": {
+            "text": "Preserve your roots and leave",
+            "hint": "Pass on this opportunity; no further root renewal encounters this life."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "left",
+            "weight": 100,
+            "effects": {},
+            "text": "Ngươi cân nhắc căn cơ hiện tại rồi lặng lẽ rời đi. Cơ duyên khép lại phía sau, còn con đường tu luyện vẫn tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你权衡现有根基，最终安静离开。这次机缘在身后合拢，而你的修行之路仍将凭借原有灵根继续向前。"
+              },
+              "en": {
+                "text": "You consider your present foundation and quietly leave. The opportunity closes behind you, while your cultivation journey continues with the spiritual roots you have always known."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "root_ancient_array",
+    "category": "opportunity",
+    "title": "Trận đồ tái tạo căn cơ",
+    "text": "Một trận đồ cổ hiện giữa vách động, lưu phép tái tạo căn cơ. Ngươi có thể dẫn linh lực vận trận, nhưng sai nhịp sẽ tổn thương kinh mạch.",
+    "translations": {
+      "zh": {
+        "title": "重塑根基阵",
+        "text": "洞壁浮现古老阵图，记载重塑根基的法门。你可以引灵力启动阵法，但运转节奏稍有差错便会伤及经脉。"
+      },
+      "en": {
+        "title": "The foundation renewal array",
+        "text": "An ancient formation appears across the cavern wall, preserving a method of renewing spiritual roots. You may activate it, but a mistimed flow could damage your meridians."
+      }
+    },
+    "weight": 1,
+    "minAge": 18,
+    "cooldownYears": 0,
+    "maxOccurrencesPerLife": 1,
+    "importance": 3,
+    "allowedRealms": [
+      "foundation",
+      "golden_core",
+      "nascent_soul",
+      "spirit_transformation",
+      "void_refining",
+      "body_integration"
+    ],
+    "exclusiveGroup": "root_transformation",
+    "conditions": {
+      "health": 40,
+      "rootBelow": 100
+    },
+    "choices": [
+      {
+        "id": "accept",
+        "text": "Thử cải thiện linh căn",
+        "hint": "Có thể nâng một bậc linh căn; thất bại mất 12 sức khỏe.",
+        "translations": {
+          "zh": {
+            "text": "尝试改善灵根",
+            "hint": "有望提升一阶灵根；失败损失十二点健康。"
+          },
+          "en": {
+            "text": "Attempt to improve your roots",
+            "hint": "May raise roots by one grade; failure costs 12 health."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "renewed",
+            "weight": 70,
+            "effects": {
+              "rootUpgrade": 1
+            },
+            "text": "Trận văn sáng dần quanh thân, dẫn linh lực tháo gỡ tạp chất trong căn cơ. Khi ánh sáng tắt, linh căn của ngươi đã đổi sang phẩm chất mới.",
+            "translations": {
+              "zh": {
+                "text": "阵纹环绕周身亮起，引导灵力化去根基杂质。光芒消散之时，你察觉灵根已经蜕变，品质比进入阵中之前更高。"
+              },
+              "en": {
+                "text": "Formation marks shine around you, guiding energy through impurities in your foundation. When the light fades, you discover that your spiritual roots have reached a higher grade."
+              }
+            }
+          },
+          {
+            "id": "rejected",
+            "weight": 30,
+            "effects": {
+              "health": -12
+            },
+            "text": "Linh lực xung đột khiến kinh mạch đau nhói. Ngươi lập tức dừng lại bảo toàn căn cơ, chịu chút thương tổn nhưng linh căn chưa thể thay đổi.",
+            "translations": {
+              "zh": {
+                "text": "灵力冲突使经脉剧痛。你立即停止尝试，保住原有根基，虽然受了些伤，灵根却未能发生预期中的变化。"
+              },
+              "en": {
+                "text": "Conflicting energies send pain through your meridians. You stop immediately to protect your foundation, suffering an injury while your spiritual roots remain unchanged despite the attempt."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "leave",
+        "text": "Giữ nguyên căn cơ, rời đi",
+        "hint": "Bỏ qua cơ duyên này; không gặp cơ duyên đổi căn khác trong kiếp.",
+        "translations": {
+          "zh": {
+            "text": "保留根基，离开",
+            "hint": "放弃此次机缘；此生不再遇到其他改根机缘。"
+          },
+          "en": {
+            "text": "Preserve your roots and leave",
+            "hint": "Pass on this opportunity; no further root renewal encounters this life."
+          }
+        },
+        "outcomes": [
+          {
+            "id": "left",
+            "weight": 100,
+            "effects": {},
+            "text": "Ngươi cân nhắc căn cơ hiện tại rồi lặng lẽ rời đi. Cơ duyên khép lại phía sau, còn con đường tu luyện vẫn tiếp tục như trước.",
+            "translations": {
+              "zh": {
+                "text": "你权衡现有根基，最终安静离开。这次机缘在身后合拢，而你的修行之路仍将凭借原有灵根继续向前。"
+              },
+              "en": {
+                "text": "You consider your present foundation and quietly leave. The opportunity closes behind you, while your cultivation journey continues with the spiritual roots you have always known."
+              }
+            }
           }
         ]
       }

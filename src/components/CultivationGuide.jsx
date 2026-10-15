@@ -1,3 +1,4 @@
+import {currentProfile} from '../engine/profileEvolution.js';
 import {stagesForRealm} from '../data/subrealms.js';
 import { useEffect, useRef } from 'react';
 import ArrowIcon from './ArrowIcon.jsx';
@@ -68,7 +69,7 @@ export default function CultivationGuide({ t, run, open, onOpenChange:setOpen, s
             <caption className="sr-only">{t('Các loại linh căn từ thấp đến cao')}</caption>
             <thead><tr><th scope="col">{t('Linh căn')}</th><th scope="col">{t('Đặc điểm')}</th></tr></thead>
             <tbody>{roots.map((root,index) => {
-              const current = run?.profile.root.name === root.name;
+              const current = currentProfile(run)?.root.name === root.name;
               return <tr key={root.name} className={current ? 'codex-current' : ''}>
                 <th scope="row">{t(root.name)}{current && <small className="codex-badge">{t('Kiếp này')}</small>}</th>
                 <td>{t(rootDescriptions[index])}</td>

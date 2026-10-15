@@ -15,6 +15,8 @@ Read root AGENTS.md first. Read references/event-schema.md when authoring data. 
 
 Preserve IDs, saves, RNG semantics and visible-state boundaries. Do not consume RNG for translations or decorative animation. More content can shift combat mortality; compare seeded simulations when materially changing the balance. Do not auto-publish or deploy because this skill was invoked.
 
+Trait-changing events use effects.luck or effects.rootUpgrade:1. Keep birth profile immutable and respect narrated state snapshots. Root renewal encounters share one lifetime exclusiveGroup and only appear from Foundation through Body Integration; see references/event-schema.md for exact constraints. Choice encounter weights already receive ×3 in the engine.
+
 ## Birth and ending narratives
 
 Birth and ending records are narrative templates, not encounters. Append to the existing birth.json/endings.json when expanding openings or conclusions. Birth variants use unique id, originId matching src/data/origins.js, text and inline zh/en text translations; omit originId for the legacy generic template. Ending variants use unique id, kind (age/ascend/injury), text and inline translations; legacy age/ascend IDs remain valid. Keep all narratives within the existing language length limits. src/engine/narrative.js selects from known state without consuming RNG; preserve origin eligibility, recorded facts and outcome-specific death narratives. Engine/i18n changes need focused regression checks and the repository test suite. Template additions do not change encounter count assertions.
