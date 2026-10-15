@@ -349,3 +349,54 @@
 [data-theme="dark"] .fate-preview{background:#1b261f}
 
 .section-heading .world{text-align:right}
+
+/* Give large desktop screens more readable text and a wider content area. */
+@media(min-width:1600px){
+ .site{max-width:2048px}
+ .game{width:94%;max-width:1840px;padding-inline:0}
+ .game-grid{grid-template-columns:350px minmax(0,1fr);gap:44px}
+ .profile{padding:32px 26px}
+ .header{margin-inline:3%}
+ .header-right{gap:26px}
+ .page-navigation a,.header-right .codex-trigger,.text-button,.session{font-size:14px}
+ .language-picker button{font-size:13px;padding:8px 10px}
+ .theme-toggle{width:42px;height:42px}
+ .brand-logo{width:250px}
+ .eyebrow,.world{font-size:14px}
+ .hero-copy{font-size:20px}
+ .compact .hero-copy{font-size:17px}
+ .hero-note,.online-cultivators{font-size:13px}
+ .profile h2,.lang-en .profile h2{font-size:30px}
+ .profile-top p,.profile-foot{font-size:12px}
+ .profile dl div,.history-card dl div,.stats>div>div:first-child,.age>span,.realm-tag,.gifted{font-size:14px}
+ .stats small,.age small{font-size:12px}
+ .story-heading h2{font-size:27px}
+ .story-heading span,.realm-page-heading>span{font-size:13px}
+ .realm-page-heading h3{font-size:25px}
+ .realm-pages button{font-size:13px;min-width:106px;padding:12px 17px}
+ .realm-pages button small{font-size:11px}
+ .entry{grid-template-columns:68px minmax(0,1fr);gap:20px}
+ .entry h3{font-size:19px}
+ .entry p,.lang-zh .entry p{font-size:16px}
+ .entry-content{padding-left:26px;padding-bottom:30px}
+ .time b{font-size:29px}.time small{font-size:12px}
+ .life-pages .playback-toolbar,.life-pages .speed-buttons button,.life-pages .playback-pause,.new-life-shortcut{font-size:13px}
+ .life-pages .playback-status{font-size:12px}
+ .life-map-title{font-size:24px}
+ .choice-dialog{width:min(680px,calc(100vw - 48px))}
+ .choice-card>p:not(.eyebrow),.lang-zh .choice-card>p:not(.eyebrow),.ending-card>p{font-size:16px}
+ .options b,.choice-dialog-footer button:not(.primary),.breakthrough-actions .primary,.primary,.ending-share{font-size:16px}
+ .options small,.auto,.choice-dialog-toolbar>span,.pending-choice-action{font-size:13px}
+ .pending-choice-trigger{font-size:16px}
+ .home-codex{max-width:1480px}.home-world{max-width:1530px}
+ .intro-grid p,.home-codex-grid p,.home-codex>p:not(.eyebrow),.home-world-copy>p:not(.eyebrow),.home-invitation>p:not(.eyebrow){font-size:16px}
+ .home-codex-link,.home-world-stats dt{font-size:14px}
+ .codex-description,.codex-panel table,.codex-realm-summary,.codex-heading>p:last-child{font-size:14px}
+ .codex-panel thead th,.codex-subrealm-list li,.codex-note{font-size:13px}
+ .history-page{width:94%;max-width:1840px;padding-inline:0}
+ .history-intro,.history-empty{font-size:16px}
+ .history-card-top,.history-realm,.history-ending,.history-actions button{font-size:13px}
+ .history-card-top small,.history-gifted,.history-traits span{font-size:12px}
+ .birth-copy{font-size:17px}.birth-label,.birth-result p{font-size:14px}
+ footer{font-size:12px}footer p{font-size:16px}
+}
