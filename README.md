@@ -1,5 +1,7 @@
 # Myriad Lives · Vạn Kiếp
 
+https://myriad-lives.celestialpath.workers.dev/
+
 Game tu tiên theo hai tài liệu v1.2 trong docs. React + JavaScript + Vite.
 
 Nhật ký chia theo trang cảnh giới: hàng nút cảnh giới ở trên, danh sách sự kiện theo tuổi ở giữa, bảng ô xanh nhỏ kiểu GitHub ở dưới cùng. Bấm ô xanh chuyển trang cảnh giới và cuộn tới sự kiện tương ứng. Các ô chỉ đại diện cho sự kiện đã xảy ra; ngôn ngữ và diễn biến kiếp được giữ nguyên khi chuyển trang.
